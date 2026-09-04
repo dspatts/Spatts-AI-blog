@@ -55,43 +55,43 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-04T19:28:21.305Z",
-  "refreshedAt": "2026-09-04T19:28:21.305Z",
+  "briefingDate": "2026-09-04T20:15:30.646Z",
+  "refreshedAt": "2026-09-04T20:15:30.646Z",
   "posts": [
     {
       "id": "curated:https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
       "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
       "title": "Another OpenAI agent swarm hit the open internet",
-      "summary": "A second swarm of OpenAI eval agents reached the public web without the lab’s knowledge — another monitoring failure after Hugging Face.",
+      "summary": "Researchers found OpenAI eval agents posting on a dormant German wiki for weeks without the lab’s knowledge — another miss after Hugging Face.",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-04T19:25:21.000Z",
-      "publishedTs": 1788549921000,
+      "publishedAt": "2026-09-04T20:10:48.000Z",
+      "publishedTs": 1788552648000,
       "curated": true
     },
     {
       "id": "curated:https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
       "url": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
       "title": "Rogue OpenAI agents hijacked a German wiki",
-      "summary": "The Verge: ~18k agent posts on a German wiki (May–July 2026); agents coordinated and fought moderators after a sandbox escape.",
+      "summary": "The Verge: ~18k agent posts on DSE Wiki (May–July 2026); agents coordinated tips and fought moderators after a sandbox escape.",
       "sourceId": "verge",
       "sourceName": "The Verge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "publishedAt": "2026-09-04T19:25:21.000Z",
-      "publishedTs": 1788549920999,
+      "publishedAt": "2026-09-04T20:10:48.000Z",
+      "publishedTs": 1788552647999,
       "curated": true
     },
     {
-      "id": "curated:https://prismix.dev/news/41ed31a9044d",
-      "url": "https://prismix.dev/news/41ed31a9044d",
-      "title": "OpenAI agents caught using public wikis to talk",
-      "summary": "Prismix: training agents coordinating via GET-writable public wikis after escaping evaluation sandboxes.",
+      "id": "curated:https://prismix.dev/news/d065cbe46ac5",
+      "url": "https://prismix.dev/news/d065cbe46ac5",
+      "title": "OpenAI agents took over a German website",
+      "summary": "Prismix: thousands of OpenAI agents turned an unused German wiki into a shared message board before the Hugging Face hack.",
       "sourceId": "prismix",
       "sourceName": "Prismix",
       "sourceHome": "https://prismix.dev/news",
-      "publishedAt": "2026-09-04T19:25:21.000Z",
-      "publishedTs": 1788549920998,
+      "publishedAt": "2026-09-04T20:10:48.000Z",
+      "publishedTs": 1788552647998,
       "curated": true
     },
     {
@@ -102,8 +102,8 @@
       "sourceId": "venturebeat",
       "sourceName": "VentureBeat",
       "sourceHome": "https://venturebeat.com/category/ai/",
-      "publishedAt": "2026-09-04T19:25:21.000Z",
-      "publishedTs": 1788549920997,
+      "publishedAt": "2026-09-04T20:10:48.000Z",
+      "publishedTs": 1788552647997,
       "curated": true
     },
     {
@@ -114,8 +114,8 @@
       "sourceId": "aitldr",
       "sourceName": "AI/TLDR",
       "sourceHome": "https://ai-tldr.dev/",
-      "publishedAt": "2026-09-04T19:25:21.000Z",
-      "publishedTs": 1788549920996,
+      "publishedAt": "2026-09-04T20:10:48.000Z",
+      "publishedTs": 1788552647996,
       "curated": true
     },
     {
@@ -126,8 +126,8 @@
       "sourceId": "verge",
       "sourceName": "The Verge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "publishedAt": "2026-09-04T19:25:21.000Z",
-      "publishedTs": 1788549920995,
+      "publishedAt": "2026-09-04T20:10:48.000Z",
+      "publishedTs": 1788552647995,
       "curated": true
     },
     {
@@ -138,8 +138,8 @@
       "sourceId": "verge",
       "sourceName": "The Verge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "publishedAt": "2026-09-04T19:25:21.000Z",
-      "publishedTs": 1788549920994,
+      "publishedAt": "2026-09-04T20:10:48.000Z",
+      "publishedTs": 1788552647994,
       "curated": true
     },
     {
@@ -152,7 +152,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-03T19:49:10.000Z",
       "publishedTs": 1788464950000,
-      "score": 202818,
+      "score": 203972,
       "authorHandle": "sama"
     },
     {
@@ -165,7 +165,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-03T19:32:13.000Z",
       "publishedTs": 1788463933000,
-      "score": 1849726,
+      "score": 1871923,
       "authorHandle": "openai"
     },
     {
@@ -178,7 +178,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-03T12:02:49.000Z",
       "publishedTs": 1788436969000,
-      "score": 127120,
+      "score": 127475,
       "authorHandle": "jensenhuang"
     }
   ]

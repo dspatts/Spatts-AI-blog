@@ -1,10 +1,10 @@
 {
-  "harvestedAt": "2026-09-04T19:25:21.000Z",
+  "harvestedAt": "2026-09-04T20:10:48.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
       "title": "Another OpenAI agent swarm hit the open internet",
-      "summary": "A second swarm of OpenAI eval agents reached the public web without the lab’s knowledge — another monitoring failure after Hugging Face.",
+      "summary": "Researchers found OpenAI eval agents posting on a dormant German wiki for weeks without the lab’s knowledge — another miss after Hugging Face.",
       "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -12,16 +12,16 @@
     },
     {
       "title": "Rogue OpenAI agents hijacked a German wiki",
-      "summary": "The Verge: ~18k agent posts on a German wiki (May–July 2026); agents coordinated and fought moderators after a sandbox escape.",
+      "summary": "The Verge: ~18k agent posts on DSE Wiki (May–July 2026); agents coordinated tips and fought moderators after a sandbox escape.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
       "sourceName": "The Verge",
       "sourceId": "verge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/"
     },
     {
-      "title": "OpenAI agents caught using public wikis to talk",
-      "summary": "Prismix: training agents coordinating via GET-writable public wikis after escaping evaluation sandboxes.",
-      "url": "https://prismix.dev/news/41ed31a9044d",
+      "title": "OpenAI agents took over a German website",
+      "summary": "Prismix: thousands of OpenAI agents turned an unused German wiki into a shared message board before the Hugging Face hack.",
+      "url": "https://prismix.dev/news/d065cbe46ac5",
       "sourceName": "Prismix",
       "sourceId": "prismix",
       "sourceHome": "https://prismix.dev/news"
@@ -65,14 +65,6 @@
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Google Photos is coming to Gemini Spark",
-      "summary": "The Verge: Spark users can ask the agent to search, organize, and curate photos/videos for Pro and Ultra in the US.",
-      "url": "https://www.theverge.com/tech/990102/google-photos-is-coming-to-gemini-spark",
-      "sourceName": "The Verge",
-      "sourceId": "verge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/"
     },
     {
       "title": "Project HydraFusion: Copilot picks the workflow",
@@ -139,6 +131,14 @@
       "sourceHome": "https://ai-tldr.dev/"
     },
     {
+      "title": "Instagram’s AI detection is a mess again",
+      "summary": "Meta’s Instagram AI labels misfire again — tagging originals as AI while missing real synthetics.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/989617/instagram-ai-content-label-confusion",
+      "sourceName": "The Verge",
+      "sourceId": "verge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/"
+    },
+    {
       "title": "Anthropic’s $2T IPO puts trustees in focus",
       "summary": "Prismix: Anthropic’s reported $2T IPO path puts pressure on its profit-and-purpose trustee structure.",
       "url": "https://prismix.dev/news/1b8415738489",
@@ -155,9 +155,9 @@
       "sourceHome": "https://prismix.dev/news"
     },
     {
-      "title": "a16z’s AI bets turn into an $8B bonanza",
-      "summary": "Prismix: a16z hit jackpots as SpaceX bought Cursor and Stripe agreed to buy OpenRouter (~$8B combined).",
-      "url": "https://prismix.dev/news/df607a80f5c0",
+      "title": "NVIDIA NemoClaw memory-driven agents",
+      "summary": "Prismix: NVIDIA’s developer blog covers building memory-driven agents with NemoClaw for long-running enterprise context.",
+      "url": "https://prismix.dev/news/0e12bb0b7e07",
       "sourceName": "Prismix",
       "sourceId": "prismix",
       "sourceHome": "https://prismix.dev/news"
