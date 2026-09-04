@@ -1,16 +1,17 @@
 #!/usr/bin/env node
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const DATA_PATH = join(ROOT, "public", "data", "news.json");
 const INDEX_PATH = join(ROOT, "public", "index.html");
+const CURATED_PATH = join(ROOT, "harvests", "latest.json");
 const UA =
-  "SpattsAiBlog/1.1 (+https://dspatts.github.io/Spatts-AI-blog/; news aggregator)";
-const TOP_N = 12;
+  "SpattsAiBlog/1.2 (+https://dspatts.github.io/Spatts-AI-blog/; news aggregator)";
+const TOP_N = 10;
+const CURATED_MAX_AGE_MS = 2 * 60 * 60 * 1000;
 
-/** @type {{id:string,name:string,feeds:string[],home:string}[]} */
 const SOURCES = [
   {
     id: "techcrunch",
@@ -50,17 +51,24 @@ const SOURCES = [
   },
 ];
 
+const AI_HINT =
+  /\b(ai|agi|llm|gpt|claude|gemini|openai|anthropic|nvidia|model|agent|ml|machine learning|deep learning|genai|chatbot|copilot)\b/i;
+
 async function fetchText(url) {
   const res = await fetch(url, {
     headers: {
       "user-agent": UA,
-      accept: "application/rss+xml, application/atom+xml, application/xml, text/xml, text/html;q=0.8, */*;q=0.5",
+      accept:
+        "application/rss+xml, application/atom+xml, application/xml, text/xml, text/html;q=0.8, */*;q=0.5",
     },
     signal: AbortSignal.timeout(20_000),
     redirect: "follow",
   });
   if (!res.ok) throw new Error(`${res.status} ${url}`);
-  return { text: await res.text(), finalUrl: res.url, type: res.headers.get("content-type") || "" };
+  return {
+    text: await res.text(),
+    type: res.headers.get("content-type") || "",
+  };
 }
 
 function decodeEntities(value) {
@@ -73,26 +81,15 @@ function decodeEntities(value) {
     .replace(/&#39;/g, "'")
     .replace(/&apos;/g, "'")
     .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)))
-    .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCharCode(parseInt(n, 16)));
+    .replace(/&#x([0-9a-f]+);/gi, (_, n) =>
+      String.fromCharCode(parseInt(n, 16)),
+    );
 }
 
 function stripTags(html) {
-  return decodeEntities(html.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim());
-}
-
-const AI_HINT =
-  /\b(ai|agi|llm|gpt|claude|gemini|openai|anthropic|nvidia|model|agent|ml|machine learning|deep learning|genai|chatbot|copilot)\b/i;
-
-function looksLikeAiStory(item) {
-  const hay = `${item.title} ${item.summary} ${item.url}`;
-  if (/inducement grants|managing director|advertising:|corrects foothill|nasdaq listing/i.test(hay)) {
-    return false;
-  }
-  if (item.sourceId === "venturebeat") {
-    if (/venturebeat\.com\/(technology|ai|games)\//i.test(item.url)) return true;
-    return AI_HINT.test(hay);
-  }
-  return true;
+  return decodeEntities(
+    html.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim(),
+  );
 }
 
 function summaryFrom(text, max = 140) {
@@ -103,6 +100,56 @@ function summaryFrom(text, max = 140) {
   const cut = sentence.slice(0, max - 1);
   const atWord = cut.lastIndexOf(" ");
   return `${(atWord > 80 ? cut.slice(0, atWord) : cut).trim()}…`;
+}
+
+function looksLikeAiStory(item) {
+  const hay = `${item.title} ${item.summary} ${item.url}`;
+  if (
+    /inducement grants|managing director|advertising:|corrects foothill|nasdaq listing/i.test(
+      hay,
+    )
+  ) {
+    return false;
+  }
+  if (item.sourceId === "venturebeat") {
+    if (/venturebeat\.com\/(technology|ai|games)\//i.test(item.url)) return true;
+    return AI_HINT.test(hay);
+  }
+  return true;
+}
+
+function normalizeUrl(url) {
+  return String(url || "")
+    .replace(/[?#].*$/, "")
+    .replace(/\/$/, "");
+}
+
+async function loadCurated() {
+  try {
+    const raw = await readFile(CURATED_PATH, "utf8");
+    const data = JSON.parse(raw);
+    const harvestedAt = data.harvestedAt ? Date.parse(data.harvestedAt) : 0;
+    if (harvestedAt && Date.now() - harvestedAt > CURATED_MAX_AGE_MS) {
+      console.error("Curated harvest is older than 2h; still preferring it when present");
+    }
+    const posts = Array.isArray(data.posts) ? data.posts : [];
+    return posts
+      .filter((p) => p && p.title && p.url)
+      .map((p, i) => ({
+        id: `curated:${p.url}`,
+        url: p.url,
+        title: p.title,
+        summary: p.summary || summaryFrom(p.title),
+        sourceId: p.sourceId || "curated",
+        sourceName: p.sourceName || "Curated",
+        sourceHome: p.sourceHome || p.url,
+        publishedAt: data.harvestedAt || null,
+        publishedTs: (harvestedAt || Date.now()) - i,
+        curated: true,
+      }));
+  } catch {
+    return [];
+  }
 }
 
 function parseRssOrAtom(xml, source) {
@@ -121,7 +168,6 @@ function parseRssOrAtom(xml, source) {
       block.match(/<link[^>]*>([\s\S]*?)<\/link>/i)?.[1] ||
       "";
     link = decodeEntities(stripTags(link));
-    // Google News wraps original URL
     const googleReal = link.match(/url=([^&]+)/);
     if (googleReal) {
       try {
@@ -159,7 +205,6 @@ function parseRssOrAtom(xml, source) {
 
 function parsePrismixOrHtml(html, source) {
   const items = [];
-  // Prefer obvious article anchors
   const re =
     /<a[^>]+href=["'](https?:\/\/[^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi;
   const seen = new Set();
@@ -197,10 +242,7 @@ async function harvestSource(source) {
         continue;
       }
       let items = [];
-      if (
-        /<rss\b|<feed\b|<item\b|<entry\b/i.test(text) ||
-        /xml/i.test(type)
-      ) {
+      if (/<rss\b|<feed\b|<item\b|<entry\b/i.test(text) || /xml/i.test(type)) {
         items = parseRssOrAtom(text, source);
       } else {
         items = parsePrismixOrHtml(text, source);
@@ -217,15 +259,16 @@ async function harvestSource(source) {
 function pickTop(items) {
   const byUrl = new Map();
   for (const item of items.filter(looksLikeAiStory)) {
-    const key = item.url.replace(/[?#].*$/, "");
-    if (!byUrl.has(key)) byUrl.set(key, item);
+    const key = normalizeUrl(item.url);
+    const prev = byUrl.get(key);
+    if (!prev || (item.curated && !prev.curated)) byUrl.set(key, item);
   }
   const ranked = [...byUrl.values()].sort((a, b) => {
+    if (Boolean(b.curated) !== Boolean(a.curated)) return a.curated ? -1 : 1;
     if (b.publishedTs !== a.publishedTs) return b.publishedTs - a.publishedTs;
     return a.title.localeCompare(b.title);
   });
 
-  // Prefer diversity across sources, then fill
   const chosen = [];
   const perSource = new Map();
   for (const item of ranked) {
@@ -287,7 +330,10 @@ function renderHtml(payload) {
     `<div class="empty">No stories made it through this harvest. The next refresh will try again.</div>`;
   const refreshed = formatWhen(payload.refreshedAt);
   const sourcesLine = (payload.sources || [])
-    .map((s) => `${s.name}${s.count ? ` (${s.count})` : s.ok ? "" : " (skipped)"}`)
+    .map(
+      (s) =>
+        `${s.name}${s.count ? ` (${s.count})` : s.ok ? "" : " (skipped)"}`,
+    )
     .join(" · ");
 
   return `<!doctype html>
@@ -310,7 +356,7 @@ function renderHtml(payload) {
       <h1>Spatts Ai Blog</h1>
       <p class="dateline">
         <strong>${escapeHtml(refreshed)}</strong>
-        <span>Top stories right now</span>
+        <span>Top 10 stories right now</span>
       </p>
     </header>
     <main class="grid">
@@ -325,8 +371,18 @@ function renderHtml(payload) {
 }
 
 export async function refreshNews() {
-  const all = [];
+  const curated = await loadCurated();
+  const all = [...curated];
   const sourceStats = [];
+  if (curated.length) {
+    sourceStats.push({
+      id: "curated",
+      name: "Evan harvest",
+      ok: true,
+      count: curated.length,
+      errors: [],
+    });
+  }
   for (const source of SOURCES) {
     const { items, errors } = await harvestSource(source);
     sourceStats.push({
@@ -359,6 +415,6 @@ const isDirect =
 if (isDirect) {
   const payload = await refreshNews();
   console.log(
-    `Wrote ${payload.posts.length} posts from ${payload.sources.filter((s) => s.ok).length}/${payload.sources.length} sources`,
+    `Wrote ${payload.posts.length} posts (${payload.posts.filter((p) => p.curated).length} curated)`,
   );
 }

@@ -23,3 +23,7 @@ Or locally:
 ```bash
 node scripts/refresh.mjs
 ```
+
+## Curated harvests
+
+Evan The Grunt can drop a harvest at `harvests/latest.json`. The refresh prefers those titles/summaries (Top 10) and fills from live feeds as needed.

@@ -1,0 +1,166 @@
+{
+  "harvestedAt": "2026-09-04T10:06:00.000Z",
+  "harvester": "Evan The Grunt",
+  "posts": [
+    {
+      "title": "AI-generated menus look the same",
+      "summary": "Homogenized AI food imagery and training-on-AI-output risks are making restaurant menus look uncanny and samey.",
+      "url": "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Crusoe raises $3B at $30B",
+      "summary": "AI data-center builder Crusoe is said to have raised $3B at a $30B valuation, with Meta, Microsoft, and OpenAI among customers.",
+      "url": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Thinking Machines eyes $1B Accel round",
+      "summary": "Mira Murati’s Thinking Machines is reportedly discussing a $1B raise at ≥$40B, with Accel said to lead.",
+      "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Abliteration.ai strips model guardrails",
+      "summary": "Startup Abliteration.ai hosts open-weight models with safety refusals stripped for red-teaming and API use.",
+      "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Meta pays users for Muse Spark prompts",
+      "summary": "Meta’s Muse Spark “contributor” tier deep-discounts tokens if users share prompts/outputs for training.",
+      "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "OpenAI launches GPT-6 Astra",
+      "summary": "OpenAI released GPT-6 Astra, a computer-use frontier model framed as entering the “AGI era,” rolling out via Daybreak then ChatGPT/API.",
+      "url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
+      "sourceName": "VentureBeat",
+      "sourceId": "venturebeat",
+      "sourceHome": "https://venturebeat.com/category/ai/"
+    },
+    {
+      "title": "Meta Muse Spark 1.3: frontier, partly gated",
+      "summary": "Muse Spark 1.3 ships with strong price/performance, but top “max reasoning” scores remain gated pending more safety testing.",
+      "url": "https://venturebeat.com/technology/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet",
+      "sourceName": "VentureBeat",
+      "sourceId": "venturebeat",
+      "sourceHome": "https://venturebeat.com/category/ai/"
+    },
+    {
+      "title": "Meta Voice Transcribe at $0.18/hour",
+      "summary": "Meta’s streaming STT API bundles 20+ speaker diarization at $0.18/hour and leads Meta’s cited streaming benchmarks.",
+      "url": "https://venturebeat.com/technology/meta-prices-muse-voice-transcribe-at-0-18-an-hour-with-real-time-diarization-for-20-speakers-a-steal-for-enterprises",
+      "sourceName": "VentureBeat",
+      "sourceId": "venturebeat",
+      "sourceHome": "https://venturebeat.com/category/ai/"
+    },
+    {
+      "title": "Claude Fable/Mythos 5.1 cut cache costs 75%",
+      "summary": "Anthropic launched Fable/Mythos 5.1 with cache reads cut to $0.25/MTok and new Enterprise Frontier Safeguards.",
+      "url": "https://venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads",
+      "sourceName": "VentureBeat",
+      "sourceId": "venturebeat",
+      "sourceHome": "https://venturebeat.com/category/ai/"
+    },
+    {
+      "title": "OpenClaw 2.0 brings multiplayer AI coding",
+      "summary": "OpenClaw 2.0 adds shared cloud sessions, a rebuilt browser workspace, and stronger enterprise sandboxing.",
+      "url": "https://venturebeat.com/technology/openclaw-2-0-is-here-what-it-means-for-enterprises",
+      "sourceName": "VentureBeat",
+      "sourceId": "venturebeat",
+      "sourceHome": "https://venturebeat.com/category/ai/"
+    },
+    {
+      "title": "GPT-6 Astra ‘enters the AGI era’",
+      "summary": "GPT-6 Astra launches with stronger agentic/coding claims and Critical cyber safeguards after the Hugging Face incident.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+      "sourceName": "The Verge",
+      "sourceId": "verge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/"
+    },
+    {
+      "title": "ChatGPT, Grok, and Claude outage",
+      "summary": "OpenAI, xAI, and Anthropic chatbots hit concurrent outages Thursday; all later recovered.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down",
+      "sourceName": "The Verge",
+      "sourceId": "verge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/"
+    },
+    {
+      "title": "Gmail, Docs, Keep get live voice chat",
+      "summary": "Google rolls out Gmail/Docs/Keep Live voice modes so users can query and update those apps conversationally.",
+      "url": "https://www.theverge.com/tech/989508/google-gmail-docs-keep-live-voice-modes-gemini",
+      "sourceName": "The Verge",
+      "sourceId": "verge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/"
+    },
+    {
+      "title": "Nvidia PAIR pools home PCs for local AI",
+      "summary": "Nvidia’s free open-source PAIR links idle home PCs/Macs into a personal AI data center for local LLM/agent inference.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook",
+      "sourceName": "The Verge",
+      "sourceId": "verge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/"
+    },
+    {
+      "title": "Nvidia buying Hugging Face for ~$13B",
+      "summary": "Nvidia agrees to acquire Hugging Face for $12.93B while pledging the hub stays multi-vendor/open.",
+      "url": "https://www.theverge.com/tech/985474/nvidia-buying-hugging-face-deal",
+      "sourceName": "The Verge",
+      "sourceId": "verge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/"
+    },
+    {
+      "title": "Claude Code 2.1.260",
+      "summary": "Adds a live `/diff` panel and fixes a permission-rule bug that left “read-only” folders writable.",
+      "url": "https://ai-tldr.dev/releases/anthropic-claude-code-2-1-260/",
+      "sourceName": "AI/TLDR",
+      "sourceId": "aitldr",
+      "sourceHome": "https://ai-tldr.dev/"
+    },
+    {
+      "title": "LLaDA-Image (6B open image gen)",
+      "summary": "Ant Group’s inclusionAI open-weights 6B image gen/edit model, with a 4-step Turbo checkpoint.",
+      "url": "https://ai-tldr.dev/releases/inclusionai-llada-image/",
+      "sourceName": "AI/TLDR",
+      "sourceId": "aitldr",
+      "sourceHome": "https://ai-tldr.dev/"
+    },
+    {
+      "title": "GPT-6 Astra release tracker",
+      "summary": "OpenAI’s frontier computer-use model begins Daybreak rollout; Critical cyber rating noted.",
+      "url": "https://ai-tldr.dev/releases/openai-gpt-6-astra/",
+      "sourceName": "AI/TLDR",
+      "sourceId": "aitldr",
+      "sourceHome": "https://ai-tldr.dev/"
+    },
+    {
+      "title": "K2 Horizon: six open models to 375B",
+      "summary": "IFM releases six Apache-2.0 models (0.9B–375B) with weights, training code, data mixtures, and eval logs.",
+      "url": "https://ai-tldr.dev/releases/ifm-k2-horizon/",
+      "sourceName": "AI/TLDR",
+      "sourceId": "aitldr",
+      "sourceHome": "https://ai-tldr.dev/"
+    },
+    {
+      "title": "NVIDIA ↔ Hugging Face deal (tracker)",
+      "summary": "$12.93B acquisition; hub stays multi-vendor; close targeted H1 2027.",
+      "url": "https://ai-tldr.dev/",
+      "sourceName": "AI/TLDR",
+      "sourceId": "aitldr",
+      "sourceHome": "https://ai-tldr.dev/"
+    }
+  ]
+}
