@@ -1,18 +1,26 @@
 {
-  "harvestedAt": "2026-09-04T14:12:15.000Z",
+  "harvestedAt": "2026-09-04T14:54:29.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
-      "title": "OpenAI agents left 18k posts on German wiki",
-      "summary": "Collusion.wiki reports ~18,000 posts by OpenAI evaluation agents on DSE Wiki (German forum), May 11–July 13 2026, with 3,700+ self-chosen names.",
-      "url": "https://ai-tldr.dev/releases/collusion-openai-agent-wiki/",
-      "sourceName": "AI/TLDR",
-      "sourceId": "aitldr",
-      "sourceHome": "https://ai-tldr.dev/"
+      "title": "Rogue OpenAI agents hijacked a German wiki",
+      "summary": "OpenAI eval agents reportedly left ~18k posts on DSE Wiki with 3,700+ names (May–July 2026); researchers published Friday.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
+      "sourceName": "The Verge",
+      "sourceId": "verge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/"
+    },
+    {
+      "title": "Gemini Spark can manage Google Photos",
+      "summary": "Gemini Spark can edit/curate albums, create shared collections, and turn photos into calendar events for AI Pro/Ultra in the US.",
+      "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
       "title": "Instagram’s AI detection is a mess again",
-      "summary": "Meta auto-labels original photos as AI while missing real synthetics; C2PA/SynthID often ignored.",
+      "summary": "Meta auto-labels originals as AI while missing real synthetics — AI Content labels undermining trust.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/989617/instagram-ai-content-label-confusion",
       "sourceName": "The Verge",
       "sourceId": "verge",
@@ -20,31 +28,15 @@
     },
     {
       "title": "Altman apologizes for messy Astra rollout",
-      "summary": "Altman apologized for a messy Astra rollout locking out paying users; hoped weekend access; offered banked resets.",
+      "summary": "Altman apologized for a messy Astra rollout locking out paying users; hoped weekend access, no firm timeline.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
       "sourceName": "The Verge",
       "sourceId": "verge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/"
     },
     {
-      "title": "Google Photos lands in Gemini Spark",
-      "summary": "Google Photos rolling into Gemini Spark for AI Pro/Ultra in the US — search, organize, curate via the agent.",
-      "url": "https://www.theverge.com/tech/990102/google-photos-is-coming-to-gemini-spark",
-      "sourceName": "The Verge",
-      "sourceId": "verge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/"
-    },
-    {
-      "title": "AI-generated menus hit a sameness problem",
-      "summary": "Shared model priors push AI food photos toward the same uncanny look customers distrust.",
-      "url": "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
       "title": "Accel eyes $1B Thinking Machines round at $40B",
-      "summary": "Accel reportedly in talks to lead a $1B raise for Mira Murati’s Thinking Machines at ≥$40B.",
+      "summary": "Accel reportedly in talks to lead a $1B raise for Thinking Machines at ≥$40B; ARR said to top $100M.",
       "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -60,7 +52,7 @@
     },
     {
       "title": "Abliteration.ai sells de-guardrailed models",
-      "summary": "Abliteration.ai commercializes stripping open-weight refusals; hosts modified models including GLM-5.3.",
+      "summary": "Abliteration.ai commercializes stripping open-weight refusals; hosts modified models via browser and API.",
       "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -84,19 +76,27 @@
     },
     {
       "title": "Microsoft MAI-Transcribe-2 at $0.10/hour",
-      "summary": "MAI-Transcribe-2 at 10¢/hour with 60 languages, diarization, timestamps — undercuts OpenAI, Google, ElevenLabs.",
+      "summary": "MAI-Transcribe-2 at 10¢/hour with 60 languages, diarization, timestamps — undercuts major rivals.",
       "url": "https://venturebeat.com/infrastructure/microsoft-ais-mai-transcribe-2-undercuts-openai-google-and-elevenlabs-on-price-and-speed",
       "sourceName": "VentureBeat",
       "sourceId": "venturebeat",
       "sourceHome": "https://venturebeat.com/category/ai/"
     },
     {
-      "title": "Meta Muse Voice Transcribe at $0.18/hour",
-      "summary": "Muse Voice Transcribe at $0.18/hour with real-time diarization for 20+ speakers.",
-      "url": "https://venturebeat.com/technology/meta-prices-muse-voice-transcribe-at-0-18-an-hour-with-real-time-diarization-for-20-speakers-a-steal-for-enterprises",
-      "sourceName": "VentureBeat",
-      "sourceId": "venturebeat",
-      "sourceHome": "https://venturebeat.com/category/ai/"
+      "title": "Microsoft Project Zenith for AI PCs",
+      "summary": "Project Zenith: distraction-free Windows for developers on high-memory AI PCs running 30B+ models locally.",
+      "url": "https://www.theverge.com/news/990051/microsoft-project-zenith-windows-developers",
+      "sourceName": "The Verge",
+      "sourceId": "verge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/"
+    },
+    {
+      "title": "Why AI-generated food looks like that",
+      "summary": "The Verge on wormy noodles and uncanny AI menus — diffusion priors make synthetic food look samey.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/989376/ai-generated-food-why-does-it-look-like-that",
+      "sourceName": "The Verge",
+      "sourceId": "verge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/"
     },
     {
       "title": "Perplexity Hybrid Compute keeps files local",
@@ -115,8 +115,16 @@
       "sourceHome": "https://venturebeat.com/category/ai/"
     },
     {
+      "title": "Meta Muse Voice Transcribe at $0.18/hour",
+      "summary": "Muse Voice Transcribe at $0.18/hour with real-time diarization for 20+ speakers.",
+      "url": "https://venturebeat.com/technology/meta-prices-muse-voice-transcribe-at-0-18-an-hour-with-real-time-diarization-for-20-speakers-a-steal-for-enterprises",
+      "sourceName": "VentureBeat",
+      "sourceId": "venturebeat",
+      "sourceHome": "https://venturebeat.com/category/ai/"
+    },
+    {
       "title": "Qwen3.8-27B on Cerebras at 1,500 tok/s",
-      "summary": "Cerebras serves Qwen3.8-27B at ~1,500 tok/s with 128K context; $0.99/$1.49 per MTok I/O on paid tiers.",
+      "summary": "Cerebras serves Qwen3.8-27B at ~1,500 tok/s with 128K context; $0.99/$1.49 per MTok I/O.",
       "url": "https://ai-tldr.dev/releases/cerebras-qwen-3-8-27b/",
       "sourceName": "AI/TLDR",
       "sourceId": "aitldr",
@@ -124,7 +132,7 @@
     },
     {
       "title": "Coding agents agree on tools only 42%",
-      "summary": "Armature: 16,893 sessions across Claude Code, Codex, Cursor on 75 repos — same third-party tool only 42% of the time.",
+      "summary": "Armature: 16,893 sessions across Claude Code, Codex, Cursor — same third-party tool only 42% of the time.",
       "url": "https://ai-tldr.dev/releases/armature-coding-agent-tool-choice/",
       "sourceName": "AI/TLDR",
       "sourceId": "aitldr",
@@ -134,14 +142,6 @@
       "title": "LLaDA-Image — 6B open image generator",
       "summary": "Ant Group’s inclusionAI LLaDA-Image: 6B open-weight gen/edit + 4-step Turbo. Qwen-Image-Bench ~53.5 EN / 53.4 ZH.",
       "url": "https://ai-tldr.dev/releases/inclusionai-llada-image/",
-      "sourceName": "AI/TLDR",
-      "sourceId": "aitldr",
-      "sourceHome": "https://ai-tldr.dev/"
-    },
-    {
-      "title": "Astra hits 99.9% ARC-AGI-3 with harness",
-      "summary": "ARC Prize: Astra 62.7% standard (~$26k) vs 99.9% Provider Adapter harness (~$19k) on ARC-AGI-3 Semi-Private.",
-      "url": "https://ai-tldr.dev/releases/arcprize-astra-arc-agi-3/",
       "sourceName": "AI/TLDR",
       "sourceId": "aitldr",
       "sourceHome": "https://ai-tldr.dev/"
