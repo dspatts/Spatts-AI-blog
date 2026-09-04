@@ -5,7 +5,7 @@
       "id": "curated",
       "name": "Evan harvest",
       "ok": true,
-      "count": 22,
+      "count": 18,
       "errors": []
     },
     {
@@ -56,91 +56,91 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-04T11:20:10.357Z",
-  "refreshedAt": "2026-09-04T11:20:10.357Z",
+  "briefingDate": "2026-09-04T11:39:34.347Z",
+  "refreshedAt": "2026-09-04T11:39:34.347Z",
   "posts": [
     {
-      "id": "curated:https://prismix.dev/news",
-      "url": "https://prismix.dev/news",
-      "title": "Nvidia may put $2.5B into Thinking Machines",
-      "summary": "The Information: Thinking Machines seeking $5–6B at ≥$40B; Accel may lead, with Nvidia expected to contribute about $2.5B.",
-      "sourceId": "prismix",
-      "sourceName": "Prismix",
-      "sourceHome": "https://prismix.dev/news",
-      "publishedAt": "2026-09-04T11:14:17Z",
-      "publishedTs": 1788520457000,
-      "curated": true
-    },
-    {
-      "id": "curated:https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
-      "url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
+      "id": "curated:https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
       "title": "OpenAI launches GPT-6 Astra",
-      "summary": "OpenAI released GPT-6 Astra, a computer-use frontier model framed as entering the AGI era, rolling out via Daybreak then ChatGPT and the API.",
-      "sourceId": "venturebeat",
-      "sourceName": "VentureBeat",
-      "sourceHome": "https://venturebeat.com/category/ai/",
-      "publishedAt": "2026-09-04T11:14:17Z",
-      "publishedTs": 1788520456997,
+      "summary": "OpenAI released GPT-6 Astra as a generational leap for computer use, coding, and cyber — first model to hit Critical cybersecurity threshold. Brockman framed it as the AGI era; Daybreak first, then Plus/Pro/Business/Enterprise and API.",
+      "sourceId": "verge",
+      "sourceName": "The Verge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "publishedAt": "2026-09-04T11:35:00.000Z",
+      "publishedTs": 1788521700000,
       "curated": true
     },
     {
       "id": "curated:https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
       "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
-      "title": "Nvidia to buy Hugging Face for $12.9B",
-      "summary": "Nvidia confirmed a $12.93B deal for Hugging Face; the hub stays multi-vendor and will not require Nvidia compute. Close targeted for H1 2027.",
+      "title": "Nvidia confirms $12.9B Hugging Face buy",
+      "summary": "Nvidia will acquire Hugging Face for $12.93B. Huang said the hub stays multi-vendor and open — Nvidia compute won’t be required.",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-04T11:14:17Z",
-      "publishedTs": 1788520456996,
+      "publishedAt": "2026-09-04T11:35:00.000Z",
+      "publishedTs": 1788521699999,
       "curated": true
     },
     {
-      "id": "curated:https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
-      "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
-      "title": "Thinking Machines eyes $1B Accel round",
-      "summary": "Mira Murati’s Thinking Machines Lab is reportedly discussing a $1B Accel-led raise at about $40B, with ARR already over $100M.",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-04T11:14:17Z",
-      "publishedTs": 1788520456995,
-      "curated": true
-    },
-    {
-      "id": "curated:https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
-      "url": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
-      "title": "Crusoe raises $3B at $30B",
-      "summary": "AI data-center builder Crusoe reportedly raised $3B at a $30B valuation after securing a $13B Jane Street contract.",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-04T11:14:17Z",
-      "publishedTs": 1788520456994,
-      "curated": true
-    },
-    {
-      "id": "curated:https://venturebeat.com/technology/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet",
-      "url": "https://venturebeat.com/technology/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet",
-      "title": "Meta Muse Spark 1.3: frontier, partly gated",
-      "summary": "Muse Spark 1.3 ships strong coding and agent price/performance, but the top max-reasoning config is still gated pending more safety testing.",
+      "id": "curated:https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
+      "url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
+      "title": "VentureBeat: Welcome to the AGI era — Astra",
+      "summary": "VB covers Astra with Brockman’s AGI-era line: autonomous computer use across browsers/desktop, Critical cyber, Daybreak-first rollout.",
       "sourceId": "venturebeat",
       "sourceName": "VentureBeat",
       "sourceHome": "https://venturebeat.com/category/ai/",
-      "publishedAt": "2026-09-04T11:14:17Z",
-      "publishedTs": 1788520456993,
+      "publishedAt": "2026-09-04T11:35:00.000Z",
+      "publishedTs": 1788521699998,
       "curated": true
     },
     {
       "id": "curated:https://venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads",
       "url": "https://venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads",
-      "title": "Claude Fable 5.1 cuts cache costs 75%",
-      "summary": "Anthropic launched Fable/Mythos 5.1 with cache reads cut to $0.25 per million tokens and new Enterprise Frontier Safeguards.",
+      "title": "Anthropic ships Claude Fable 5.1",
+      "summary": "Fable/Mythos 5.1: Terminal-Bench 4.0 at 55.8% vs 42% for Fable 5; cache reads cut to $0.25/MTok (75% drop).",
       "sourceId": "venturebeat",
       "sourceName": "VentureBeat",
       "sourceHome": "https://venturebeat.com/category/ai/",
-      "publishedAt": "2026-09-04T11:14:17Z",
-      "publishedTs": 1788520456992,
+      "publishedAt": "2026-09-04T11:35:00.000Z",
+      "publishedTs": 1788521699997,
+      "curated": true
+    },
+    {
+      "id": "curated:https://venturebeat.com/technology/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet",
+      "url": "https://venturebeat.com/technology/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet",
+      "title": "Meta Muse Spark 1.3 — best config still gated",
+      "summary": "Muse Spark 1.3 ships big coding/agent gains; strongest max-reasoning config still in safety testing. API stays $1.25/$4.25 per MTok.",
+      "sourceId": "venturebeat",
+      "sourceName": "VentureBeat",
+      "sourceHome": "https://venturebeat.com/category/ai/",
+      "publishedAt": "2026-09-04T11:35:00.000Z",
+      "publishedTs": 1788521699996,
+      "curated": true
+    },
+    {
+      "id": "curated:https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
+      "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
+      "title": "Accel eyes $1B Thinking Machines round at $40B",
+      "summary": "Accel reportedly in talks to lead a $1B raise for Mira Murati’s Thinking Machines at ≥$40B valuation.",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "publishedAt": "2026-09-04T11:35:00.000Z",
+      "publishedTs": 1788521699994,
+      "curated": true
+    },
+    {
+      "id": "curated:https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
+      "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
+      "title": "Abliteration.ai sells guardrail-stripped models",
+      "summary": "Abliteration.ai commercializes removing refusal behaviors from open-weight models, hosting abliterated GLM-5.3 via browser and API.",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "publishedAt": "2026-09-04T11:35:00.000Z",
+      "publishedTs": 1788521699993,
       "curated": true
     },
     {
@@ -153,7 +153,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-03T19:49:10.000Z",
       "publishedTs": 1788464950000,
-      "score": 182653,
+      "score": 183786,
       "authorHandle": "sama"
     },
     {
@@ -166,7 +166,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-03T19:32:13.000Z",
       "publishedTs": 1788463933000,
-      "score": 1369093,
+      "score": 1393603,
       "authorHandle": "openai"
     },
     {
@@ -179,7 +179,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-01T18:03:14.000Z",
       "publishedTs": 1788285794000,
-      "score": 319018,
+      "score": 319038,
       "authorHandle": "claudeai"
     }
   ]

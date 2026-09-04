@@ -1,182 +1,150 @@
 {
-  "harvestedAt": "2026-09-04T11:14:17Z",
+  "harvestedAt": "2026-09-04T11:35:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
-      "title": "Nvidia may put $2.5B into Thinking Machines",
-      "summary": "The Information: Thinking Machines seeking $5\u20136B at \u2265$40B; Accel may lead, with Nvidia expected to contribute about $2.5B.",
-      "url": "https://prismix.dev/news",
-      "sourceName": "Prismix",
-      "sourceId": "prismix",
-      "sourceHome": "https://prismix.dev/news"
-    },
-    {
-      "title": "DeepSeek plans huge Huawei chip order",
-      "summary": "DeepSeek reportedly plans at least 160,000 Huawei AI chips for an Inner Mongolia data center amid China\u2019s Nvidia restrictions.",
-      "url": "https://prismix.dev/news",
-      "sourceName": "Prismix",
-      "sourceId": "prismix",
-      "sourceHome": "https://prismix.dev/news"
-    },
-    {
-      "title": "Latent.Space: Astra is OpenAI\u2019s biggest LLM launch",
-      "summary": "Latent.Space roundup: SOTA computer use and coding, higher per-token price but often cheaper per task; less monitorable CoT.",
-      "url": "https://prismix.dev/news",
-      "sourceName": "Prismix",
-      "sourceId": "prismix",
-      "sourceHome": "https://prismix.dev/news"
-    },
-    {
       "title": "OpenAI launches GPT-6 Astra",
-      "summary": "OpenAI released GPT-6 Astra, a computer-use frontier model framed as entering the AGI era, rolling out via Daybreak then ChatGPT and the API.",
-      "url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
-      "sourceName": "VentureBeat",
-      "sourceId": "venturebeat",
-      "sourceHome": "https://venturebeat.com/category/ai/"
-    },
-    {
-      "title": "Nvidia to buy Hugging Face for $12.9B",
-      "summary": "Nvidia confirmed a $12.93B deal for Hugging Face; the hub stays multi-vendor and will not require Nvidia compute. Close targeted for H1 2027.",
-      "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Thinking Machines eyes $1B Accel round",
-      "summary": "Mira Murati\u2019s Thinking Machines Lab is reportedly discussing a $1B Accel-led raise at about $40B, with ARR already over $100M.",
-      "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Crusoe raises $3B at $30B",
-      "summary": "AI data-center builder Crusoe reportedly raised $3B at a $30B valuation after securing a $13B Jane Street contract.",
-      "url": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Meta Muse Spark 1.3: frontier, partly gated",
-      "summary": "Muse Spark 1.3 ships strong coding and agent price/performance, but the top max-reasoning config is still gated pending more safety testing.",
-      "url": "https://venturebeat.com/technology/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet",
-      "sourceName": "VentureBeat",
-      "sourceId": "venturebeat",
-      "sourceHome": "https://venturebeat.com/category/ai/"
-    },
-    {
-      "title": "Claude Fable 5.1 cuts cache costs 75%",
-      "summary": "Anthropic launched Fable/Mythos 5.1 with cache reads cut to $0.25 per million tokens and new Enterprise Frontier Safeguards.",
-      "url": "https://venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads",
-      "sourceName": "VentureBeat",
-      "sourceId": "venturebeat",
-      "sourceHome": "https://venturebeat.com/category/ai/"
-    },
-    {
-      "title": "Microsoft MAI-Transcribe-2 at $0.10/hour",
-      "summary": "Microsoft AI priced MAI-Transcribe-2 at 10 cents per hour with 60 languages and diarization, undercutting OpenAI, Google, and ElevenLabs.",
-      "url": "https://venturebeat.com/infrastructure/microsoft-ais-mai-transcribe-2-undercuts-openai-google-and-elevenlabs-on-price-and-speed",
-      "sourceName": "VentureBeat",
-      "sourceId": "venturebeat",
-      "sourceHome": "https://venturebeat.com/category/ai/"
-    },
-    {
-      "title": "GPT-6 Astra enters the AGI era",
-      "summary": "The Verge covers Astra\u2019s launch as a generational leap for coding and computer use, with Critical cyber safeguards after the Hugging Face incident.",
+      "summary": "OpenAI released GPT-6 Astra as a generational leap for computer use, coding, and cyber — first model to hit Critical cybersecurity threshold. Brockman framed it as the AGI era; Daybreak first, then Plus/Pro/Business/Enterprise and API.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
       "sourceName": "The Verge",
       "sourceId": "verge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/"
     },
     {
-      "title": "WeatherNext 3 goes hourly at 5km",
-      "summary": "Google DeepMind\u2019s WeatherNext 3 delivers hourly 5km forecasts from live satellite data, with up to 60% better precipitation scores vs NASA IMERG.",
-      "url": "https://www.theverge.com/tech/988921/weather-forecast-ai-model-google-satellite-update",
-      "sourceName": "The Verge",
-      "sourceId": "verge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/"
-    },
-    {
-      "title": "Nvidia buying Hugging Face for ~$13B",
-      "summary": "Nvidia agreed to acquire Hugging Face for $12.93B while promising the platform stays open to all model builders and clouds.",
-      "url": "https://www.theverge.com/tech/985474/nvidia-buying-hugging-face-deal",
-      "sourceName": "The Verge",
-      "sourceId": "verge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/"
-    },
-    {
-      "title": "Meta pays users for Muse Spark prompts",
-      "summary": "Meta\u2019s Muse Spark contributor tier deep-discounts tokens if users share prompts and outputs to help train future models.",
-      "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
+      "title": "Nvidia confirms $12.9B Hugging Face buy",
+      "summary": "Nvidia will acquire Hugging Face for $12.93B. Huang said the hub stays multi-vendor and open — Nvidia compute won’t be required.",
+      "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "Abliteration.ai strips model guardrails",
-      "summary": "Startup sells easier access to unguarded open-weight models, arguing defenders need the same tools attackers already have.",
+      "title": "VentureBeat: Welcome to the AGI era — Astra",
+      "summary": "VB covers Astra with Brockman’s AGI-era line: autonomous computer use across browsers/desktop, Critical cyber, Daybreak-first rollout.",
+      "url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
+      "sourceName": "VentureBeat",
+      "sourceId": "venturebeat",
+      "sourceHome": "https://venturebeat.com/category/ai/"
+    },
+    {
+      "title": "Anthropic ships Claude Fable 5.1",
+      "summary": "Fable/Mythos 5.1: Terminal-Bench 4.0 at 55.8% vs 42% for Fable 5; cache reads cut to $0.25/MTok (75% drop).",
+      "url": "https://venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads",
+      "sourceName": "VentureBeat",
+      "sourceId": "venturebeat",
+      "sourceHome": "https://venturebeat.com/category/ai/"
+    },
+    {
+      "title": "Meta Muse Spark 1.3 — best config still gated",
+      "summary": "Muse Spark 1.3 ships big coding/agent gains; strongest max-reasoning config still in safety testing. API stays $1.25/$4.25 per MTok.",
+      "url": "https://venturebeat.com/technology/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet",
+      "sourceName": "VentureBeat",
+      "sourceId": "venturebeat",
+      "sourceHome": "https://venturebeat.com/category/ai/"
+    },
+    {
+      "title": "Microsoft MAI-Transcribe-2 at $0.10/hour",
+      "summary": "MAI-Transcribe-2 at 10¢/hour with 60 languages, diarization, timestamps — undercuts OpenAI, Google, ElevenLabs on public batch rates.",
+      "url": "https://venturebeat.com/infrastructure/microsoft-ais-mai-transcribe-2-undercuts-openai-google-and-elevenlabs-on-price-and-speed",
+      "sourceName": "VentureBeat",
+      "sourceId": "venturebeat",
+      "sourceHome": "https://venturebeat.com/category/ai/"
+    },
+    {
+      "title": "Accel eyes $1B Thinking Machines round at $40B",
+      "summary": "Accel reportedly in talks to lead a $1B raise for Mira Murati’s Thinking Machines at ≥$40B valuation.",
+      "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Abliteration.ai sells guardrail-stripped models",
+      "summary": "Abliteration.ai commercializes removing refusal behaviors from open-weight models, hosting abliterated GLM-5.3 via browser and API.",
       "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "ChatGPT, Grok, and Claude outage overlap",
-      "summary": "Three major chatbots hit overlapping outages on Sep 3; all recovered, with no confirmed shared root cause.",
+      "title": "Meta pays ~95% off if you share Muse usage",
+      "summary": "Muse Spark contributor tier: ~$0.10/$0.20 per MTok if you share prompts/outputs for training; standard stays $1.25/$4.25.",
+      "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Perplexity hybrid compute keeps secrets local",
+      "summary": "Perplexity Computer can hand confidential steps to on-device models on Apple silicon Macs without losing context; opt-in enterprise + Pro/Max on macOS 15+.",
+      "url": "https://venturebeat.com/orchestration/your-files-stay-put-perplexitys-hybrid-ai-keeps-confidential-data-off-the-cloud",
+      "sourceName": "VentureBeat",
+      "sourceId": "venturebeat",
+      "sourceHome": "https://venturebeat.com/category/ai/"
+    },
+    {
+      "title": "ChatGPT, Grok, and Claude went down together",
+      "summary": "ChatGPT, Grok, and Claude hit overlapping Sep 3 outages; all recovered the same day with no confirmed shared root cause.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down",
       "sourceName": "The Verge",
       "sourceId": "verge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/"
     },
     {
-      "title": "Suno yanks Mary J. Blige ad",
-      "summary": "AI music firm Suno killed a Blige campaign after learning the deal wasn\u2019t authorized by her real representatives.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/989910/suno-yanks-ad-showing-supposed-endorsement-from-mary-j-blige",
+      "title": "Nvidia buying Hugging Face for nearly $13B",
+      "summary": "The Verge: Nvidia’s ~$13B Hugging Face deal; companies say the hub stays open to rival builders and clouds.",
+      "url": "https://www.theverge.com/tech/985474/nvidia-buying-hugging-face-deal",
       "sourceName": "The Verge",
       "sourceId": "verge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/"
     },
     {
-      "title": "Claude Code 2.1.260 live diff panel",
-      "summary": "Anthropic\u2019s Claude Code adds a /diff panel for uncommitted changes and fixes permission rules that broke on paths with parentheses.",
-      "url": "https://ai-tldr.dev/releases/anthropic-claude-code-2-1-260/",
+      "title": "Astra on AI/TLDR: computer-use frontier model",
+      "summary": "AI/TLDR’s release note: GPT-6 Astra scores 72.6% on an offline OSWorld 2.0 subset at $10/$50 per million tokens, aimed at browsers, spreadsheets, and desktop apps, with Critical cyber rating and Daybreak-first access.",
+      "url": "https://ai-tldr.dev/releases/openai-gpt-6-astra/",
       "sourceName": "AI/TLDR",
       "sourceId": "aitldr",
       "sourceHome": "https://ai-tldr.dev/"
     },
     {
-      "title": "LLaDA-Image: 6B open image gen",
-      "summary": "Ant Group\u2019s inclusionAI open-weights 6B image generate/edit model; a distilled Turbo checkpoint runs in 4 steps.",
+      "title": "LLaDA-Image: 6B open image gen from Ant Group",
+      "summary": "Ant Group’s inclusionAI released LLaDA-Image, a 6B open-weight model for image generation and editing. It posts ~53.5 on Qwen-Image-Bench (EN/ZH), with a distilled Turbo checkpoint that runs in four steps.",
       "url": "https://ai-tldr.dev/releases/inclusionai-llada-image/",
       "sourceName": "AI/TLDR",
       "sourceId": "aitldr",
       "sourceHome": "https://ai-tldr.dev/"
     },
     {
-      "title": "Astra hits 99.9% on ARC-AGI-3 (harness)",
-      "summary": "ARC Prize: GPT-6 Astra scores 62.7% on the standard harness and 99.9% with a Provider Adapter harness on ARC-AGI-3 Semi-Private.",
+      "title": "WeatherNext 3: DeepMind hourly weather at 5km",
+      "summary": "Google DeepMind’s WeatherNext 3 delivers hourly global forecasts at 5km resolution — about 5× sharper than WeatherNext 2 — and improves precipitation scores by up to 60% vs NASA IMERG, per AI/TLDR’s tracker.",
+      "url": "https://ai-tldr.dev/",
+      "sourceName": "AI/TLDR",
+      "sourceId": "aitldr",
+      "sourceHome": "https://ai-tldr.dev/"
+    },
+    {
+      "title": "ARC Prize: Astra hits 99.9% with adapter harness",
+      "summary": "ARC Prize measured GPT-6 Astra at 62.7% ($26k) on ARC-AGI-3 Semi-Private via the standard harness, and 99.9% (~$19k) with a Provider Adapter harness — a reminder that harness choice can dominate raw scores.",
       "url": "https://ai-tldr.dev/releases/arcprize-astra-arc-agi-3/",
       "sourceName": "AI/TLDR",
       "sourceId": "aitldr",
       "sourceHome": "https://ai-tldr.dev/"
     },
     {
-      "title": "K2 Horizon: six fully open models",
-      "summary": "Institute of Foundation Models released six Apache-2.0 models from 0.9B to 375B with weights, training code, data mixtures, and eval logs.",
-      "url": "https://ai-tldr.dev/releases/ifm-k2-horizon/",
-      "sourceName": "AI/TLDR",
-      "sourceId": "aitldr",
-      "sourceHome": "https://ai-tldr.dev/"
+      "title": "DeepSeek plans huge Huawei chip order",
+      "summary": "The Information reports DeepSeek plans to install at least 160,000 Huawei AI chips at a data center in Inner Mongolia, backing China’s push to replace Nvidia silicon under U.S. export limits. (via Prismix; The Signal blocked.)",
+      "url": "https://prismix.dev/news",
+      "sourceName": "Prismix",
+      "sourceId": "prismix",
+      "sourceHome": "https://prismix.dev/news"
     },
     {
-      "title": "Cohere maps 696k AI tools to job tasks",
-      "summary": "Cohere Labs\u2019 Agentic Task Ecosystem links 696,291 tools across 123,069 MCP servers to work tasks; only 2.6% finish a task end to end.",
-      "url": "https://ai-tldr.dev/releases/cohere-ate-mcp-dataset/",
-      "sourceName": "AI/TLDR",
-      "sourceId": "aitldr",
-      "sourceHome": "https://ai-tldr.dev/"
+      "title": "Nvidia may put $2.5B into Thinking Machines",
+      "summary": "Prismix surfaces The Information reporting Nvidia is expected to put about $2.5 billion into Mira Murati’s Thinking Machines Lab amid talks for a $5–6B raise at a ≥$40B pre-money valuation, with Accel circling the lead. (The Signal unavailable.)",
+      "url": "https://prismix.dev/news",
+      "sourceName": "Prismix",
+      "sourceId": "prismix",
+      "sourceHome": "https://prismix.dev/news"
     }
   ]
 }
