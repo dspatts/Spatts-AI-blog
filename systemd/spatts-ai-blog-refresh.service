@@ -1,0 +1,9 @@
+[Unit]
+Description=Refresh Spatts Ai Blog top 10 AI posts from X.com
+After=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/cachyspatts/Projects/spatts-ai-blog
+ExecStart=/usr/bin/node /home/cachyspatts/Projects/spatts-ai-blog/scripts/refresh.mjs
+Environment=HOME=/home/cachyspatts

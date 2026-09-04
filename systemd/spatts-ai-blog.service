@@ -1,0 +1,15 @@
+[Unit]
+Description=Spatts Ai Blog local server
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+WorkingDirectory=/home/cachyspatts/Projects/spatts-ai-blog
+ExecStart=/usr/bin/node /home/cachyspatts/Projects/spatts-ai-blog/scripts/server.mjs
+Restart=on-failure
+Environment=HOME=/home/cachyspatts
+Environment=PORT=4173
+Environment=HOST=0.0.0.0
+
+[Install]
+WantedBy=default.target
