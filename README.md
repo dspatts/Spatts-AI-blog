@@ -46,7 +46,23 @@ Existing post fields keep working. Optional extras Evan can send:
 }
 ```
 
-- `tags` — string array. Topic ids: `model-releases`, `agents`, `funding`, `research`, `policy`. Aliases like `model-release` or `agent` are normalized. Refresh also derives tags from title/summary/source when omitted. `x` is a source filter, not a topic tag.
+- `tags` — string array. Topic ids: `model-releases`, `agents`, `funding`, `research`, `policy`. Aliases like `model-release` or `agent` are normalized. Refresh also derives tags from title/summary/source when omitted. `x` is a source filter, not a topic tag. `rumor` marks an X item for the Rumor mill (not Top 10).
 - `clusterId` — stable id so Evan can pre-group outlets covering one event. Without it, refresh uses title/URL/keyword heuristics (Astra, German wiki/collusion, Gemini Photos, and similar).
 
-Masthead chips filter the grid in the browser. **All** shows every cluster. Topic chips (Model releases, Agents, Funding, Research, Policy) match derived tags. **X** shows only X-led cards (`sourceId === "x"`), not publisher clusters that merely include an X related link.
+### Rumor mill (X only)
+
+Optional top-level `rumors: []`, and/or `posts` items with `"tags": ["rumor"]`. X-shaped items only (`sourceKind: "x"` or an `x.com` URL). Blog/forum rumors are ignored for now.
+
+```json
+{
+  "title": "xAI said to ship a Grok video model as soon as next week",
+  "summary": "Single X thread, no lab post or second outlet. Unconfirmed until it clusters.",
+  "url": "https://x.com/frontierwatch/status/2095801100000000001",
+  "via": "@frontierwatch",
+  "sourceKind": "x",
+  "harvestedAt": "2026-09-04T20:15:00.000Z",
+  "tags": ["rumor"]
+}
+```
+
+When the same story is confirmed across outlets (shared URL or a multi-source cluster), it leaves the mill and is not double-counted in Top 10. **Rumors** chip shows mill cards only. **All** shows mill + confirmed clusters. Topic chips hide the mill and filter confirmed cards. **X** still means confirmed X-led Top cards, not the mill.

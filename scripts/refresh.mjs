@@ -13,6 +13,7 @@ const TOP_N = 10;
 const SOURCE_CAP = 3;
 const X_TOP_CAP = 3;
 const FEED_TOP_CAP = 2;
+const RUMOR_CAP = 3;
 const CURATED_MAX_AGE_MS = 2 * 60 * 60 * 1000;
 const FX_API = "https://api.fxtwitter.com";
 const X_SEARCH_QUERY =
@@ -247,6 +248,128 @@ function isFreshHarvest(harvestedAt) {
   return Boolean(harvestedAt) && Date.now() - harvestedAt <= CURATED_MAX_AGE_MS;
 }
 
+function hasRumorTag(item) {
+  return (item.tags || []).some(
+    (t) => String(t).toLowerCase().trim() === "rumor",
+  );
+}
+
+function isXShaped(item) {
+  const kind = String(item.sourceKind || item.sourceId || "").toLowerCase();
+  if (kind === "x" || kind === "twitter") return true;
+  const url = String(item.url || "");
+  if (/^https?:\/\/(www\.)?(x|twitter)\.com\//i.test(url)) return true;
+  return false;
+}
+
+function normalizeVia(item) {
+  const raw = String(item.via || item.authorHandle || "").trim();
+  if (raw) return raw.startsWith("@") ? raw : `@${raw.replace(/^@+/, "")}`;
+  try {
+    const parsed = new URL(item.url);
+    if (/(^|\.)(x|twitter)\.com$/i.test(parsed.hostname)) {
+      const handle = parsed.pathname.split("/").filter(Boolean)[0];
+      if (handle && handle !== "i" && handle !== "status") return `@${handle}`;
+    }
+  } catch {
+    /* keep */
+  }
+  return "@x";
+}
+
+function toRumorItem(item, fallbackHarvestedAt) {
+  const when =
+    item.harvestedAt || item.publishedAt || fallbackHarvestedAt || null;
+  const ts = when ? Date.parse(when) : 0;
+  return {
+    id: `rumor:${normalizeUrl(item.url)}`,
+    title: item.title,
+    summary: item.summary || summaryFrom(item.title),
+    url: item.url,
+    via: normalizeVia(item),
+    sourceKind: "x",
+    sourceId: "x",
+    sourceName: "X",
+    harvestedAt: when,
+    publishedAt: when,
+    publishedTs: Number.isNaN(ts) ? 0 : ts,
+    tags: ["rumor"],
+  };
+}
+
+const SEED_RUMORS = [
+  {
+    title: "xAI said to ship a Grok video model as soon as next week",
+    summary:
+      "Single X thread, no lab post or second outlet. Unconfirmed until it clusters.",
+    url: "https://x.com/frontierwatch/status/2095801100000000001",
+    via: "@frontierwatch",
+    sourceKind: "x",
+    harvestedAt: "2026-09-04T20:15:00.000Z",
+    tags: ["rumor"],
+  },
+  {
+    title: "Apple rumored to license Claude for an on-device Siri rewrite",
+    summary:
+      "Leak-adjacent chatter on X only. No Apple or Anthropic confirmation.",
+    url: "https://x.com/siriwatch/status/2095798800000000002",
+    via: "@siriwatch",
+    sourceKind: "x",
+    harvestedAt: "2026-09-04T17:40:00.000Z",
+    tags: ["rumor"],
+  },
+  {
+    title: "Microsoft memo said to fold MAI branding into Copilot this fall",
+    summary:
+      "One account’s screenshot, not replicated. Keep out of Top 10 until outlets match.",
+    url: "https://x.com/copilotdesk/status/2095795500000000003",
+    via: "@copilotdesk",
+    sourceKind: "x",
+    harvestedAt: "2026-09-04T14:25:00.000Z",
+    tags: ["rumor"],
+  },
+];
+
+function rumorIsConfirmed(rumor, clusters) {
+  const url = normalizeUrl(rumor.url);
+  const tokens = titleTokens(rumor);
+  for (const cluster of clusters) {
+    const urls = [cluster.url, ...(cluster.related || []).map((r) => r.url)].map(
+      normalizeUrl,
+    );
+    if (urls.includes(url)) return true;
+    const outlets = new Set([
+      cluster.sourceId,
+      ...(cluster.related || []).map((r) => r.sourceId),
+    ]);
+    const multi = (cluster.clusterSize || outlets.size) > 1;
+    if (multi && jaccard(tokens, titleTokens(cluster)) >= 0.4) return true;
+  }
+  return false;
+}
+
+function pickRumors(harvestRumors, clusters) {
+  const pool = harvestRumors.length
+    ? harvestRumors
+    : SEED_RUMORS.map((item) => toRumorItem(item, new Date().toISOString()));
+  const seen = new Set();
+  const picked = [];
+  const ranked = [...pool].sort(
+    (a, b) =>
+      (b.publishedTs || 0) - (a.publishedTs || 0) ||
+      a.title.localeCompare(b.title),
+  );
+  for (const rumor of ranked) {
+    const key = normalizeUrl(rumor.url);
+    if (!key || seen.has(key)) continue;
+    if (rumorIsConfirmed(rumor, clusters)) continue;
+    seen.add(key);
+    picked.push(rumor);
+    if (picked.length >= RUMOR_CAP) break;
+  }
+  return picked;
+}
+
 async function loadCurated() {
   try {
     const raw = await readFile(CURATED_PATH, "utf8");
@@ -259,31 +382,44 @@ async function loadCurated() {
       );
     }
     const posts = Array.isArray(data.posts) ? data.posts : [];
+    const confirmed = [];
+    const rumorPosts = [];
+    for (const p of posts) {
+      if (!p || !p.title || !p.url) continue;
+      if (hasRumorTag(p)) {
+        if (isXShaped(p)) rumorPosts.push(p);
+        continue;
+      }
+      confirmed.push(p);
+    }
+    const rumorList = [
+      ...(Array.isArray(data.rumors) ? data.rumors : []),
+      ...rumorPosts,
+    ].filter((p) => p && p.title && p.url && isXShaped(p));
     return {
       fresh,
       harvestedAt,
-      posts: posts
-        .filter((p) => p && p.title && p.url)
-        .map((p, i) => ({
-          id: `curated:${p.url}`,
-          url: p.url,
-          title: p.title,
-          summary: p.summary || summaryFrom(p.title),
-          sourceId: p.sourceId || "curated",
-          sourceName: p.sourceName || "Curated",
-          sourceHome: p.sourceHome || p.url,
-          publishedAt: data.harvestedAt || null,
-          publishedTs: (harvestedAt || Date.now()) - i,
-          curated: fresh,
-          tags: Array.isArray(p.tags) ? p.tags : undefined,
-          clusterId:
-            typeof p.clusterId === "string" && p.clusterId.trim()
-              ? p.clusterId.trim()
-              : undefined,
-        })),
+      posts: confirmed.map((p, i) => ({
+        id: `curated:${p.url}`,
+        url: p.url,
+        title: p.title,
+        summary: p.summary || summaryFrom(p.title),
+        sourceId: p.sourceId || "curated",
+        sourceName: p.sourceName || "Curated",
+        sourceHome: p.sourceHome || p.url,
+        publishedAt: data.harvestedAt || null,
+        publishedTs: (harvestedAt || Date.now()) - i,
+        curated: fresh,
+        tags: Array.isArray(p.tags) ? p.tags : undefined,
+        clusterId:
+          typeof p.clusterId === "string" && p.clusterId.trim()
+            ? p.clusterId.trim()
+            : undefined,
+      })),
+      rumors: rumorList.map((p) => toRumorItem(p, data.harvestedAt)),
     };
   } catch {
-    return { fresh: false, harvestedAt: 0, posts: [] };
+    return { fresh: false, harvestedAt: 0, posts: [], rumors: [] };
   }
 }
 
@@ -943,14 +1079,56 @@ function tagPills(tags) {
     .join("")}</ul>`;
 }
 
+function formatAge(iso) {
+  const ts = iso ? Date.parse(iso) : NaN;
+  if (Number.isNaN(ts)) return "";
+  const hours = Math.max(0, Math.round((Date.now() - ts) / 3_600_000));
+  if (hours < 1) return "now";
+  if (hours < 24) return `${hours}h`;
+  return `${Math.max(1, Math.round(hours / 24))}d`;
+}
+
 function filterBar() {
-  const chips = [["all", "All"], ...TAG_IDS.map((id) => [id, TAG_LABELS[id]])]
-    .map(
-      ([id, label], i) =>
-        `<button type="button" class="chip${i === 0 ? " is-on" : ""}" data-filter="${id}">${label}</button>`,
-    )
+  const chips = [
+    ["all", "All"],
+    ...TAG_IDS.map((id) => [id, TAG_LABELS[id]]),
+    ["rumors", "Rumors"],
+  ]
+    .map(([id, label], i) => {
+      const extra = id === "rumors" ? " chip-rumor" : "";
+      return `<button type="button" class="chip${extra}${i === 0 ? " is-on" : ""}" data-filter="${id}">${label}</button>`;
+    })
     .join("");
   return `<nav class="filters" aria-label="Story filters">${chips}</nav>`;
+}
+
+function rumorCard(rumor) {
+  const age = formatAge(rumor.harvestedAt || rumor.publishedAt);
+  const when = ["X", age].filter(Boolean).join(" · ");
+  return `<article class="rumor">
+  <div class="rumor-kicker">
+    <span class="rumor-flag">Rumor</span>
+    <span class="rumor-when">${escapeHtml(when)}</span>
+  </div>
+  <h3><a href="${escapeHtml(rumor.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(rumor.title)}</a></h3>
+  <p class="rumor-caveat">${escapeHtml(rumor.summary)}</p>
+  <p class="rumor-via">Via ${escapeHtml(rumor.via)}</p>
+</article>`;
+}
+
+function rumorMill(rumors) {
+  const cards = rumors.map(rumorCard).join("\n");
+  const body =
+    cards ||
+    `<p class="rumor-empty">No X rumors this cycle. Evan can drop tagged rumor items in the harvest.</p>`;
+  return `<section class="rumor-mill" data-panel="rumors">
+  <div class="rumor-mill-head">
+    <h2>Rumor mill</h2>
+    <span class="unconfirmed">Unconfirmed</span>
+  </div>
+  <p class="rumor-explainer">Whispers and leak-adjacent chatter. Not in the Top 10 until confirmed across outlets.</p>
+  <div class="rumor-list">${body}</div>
+</section>`;
 }
 
 function renderHtml(payload) {
@@ -1022,6 +1200,8 @@ function renderHtml(payload) {
       </p>
       ${filterBar()}
     </header>
+    ${rumorMill(payload.rumors || [])}
+    <h2 class="confirmed-label">Confirmed · Top story clusters</h2>
     <main class="grid" id="story-grid">
       ${stories || empty}
       <div class="empty" id="filter-empty" hidden>No stories in this category right now.</div>
@@ -1041,16 +1221,27 @@ function renderHtml(payload) {
     bar.querySelectorAll(".chip").forEach(function (c) {
       c.classList.toggle("is-on", c === btn);
     });
+    var mill = document.querySelector(".rumor-mill");
+    var confirmed = document.querySelector(".confirmed-label");
     var visible = 0;
-    cards.forEach(function (card) {
-      var tags = (card.getAttribute("data-tags") || "").split(/\\s+/).filter(Boolean);
-      var source = card.getAttribute("data-source") || "";
-      var show =
-        filter === "all" ||
-        (filter === "x" ? source === "x" : tags.indexOf(filter) !== -1);
-      card.hidden = !show;
-      if (show) visible += 1;
-    });
+    if (filter === "rumors") {
+      if (mill) mill.hidden = false;
+      if (confirmed) confirmed.hidden = true;
+      cards.forEach(function (card) { card.hidden = true; });
+      visible = mill ? mill.querySelectorAll(".rumor").length : 0;
+    } else {
+      if (mill) mill.hidden = filter !== "all";
+      if (confirmed) confirmed.hidden = false;
+      cards.forEach(function (card) {
+        var tags = (card.getAttribute("data-tags") || "").split(/\\s+/).filter(Boolean);
+        var source = card.getAttribute("data-source") || "";
+        var show =
+          filter === "all" ||
+          (filter === "x" ? source === "x" : tags.indexOf(filter) !== -1);
+        card.hidden = !show;
+        if (show) visible += 1;
+      });
+    }
     var empty = document.getElementById("filter-empty");
     if (empty) empty.hidden = visible > 0;
   });
@@ -1101,6 +1292,16 @@ export async function refreshNews() {
   all.push(...xItems);
 
   const posts = pickTop(all, curated.fresh);
+  const rumors = pickRumors(curated.rumors || [], posts);
+  if (rumors.length) {
+    sourceStats.push({
+      id: "rumors",
+      name: "Rumor mill (X)",
+      ok: true,
+      count: rumors.length,
+      errors: [],
+    });
+  }
   const payload = {
     source: "multi",
     sources: sourceStats,
@@ -1108,6 +1309,7 @@ export async function refreshNews() {
     refreshedAt: new Date().toISOString(),
     preferCurated: curated.fresh,
     posts,
+    rumors,
   };
   await mkdir(dirname(DATA_PATH), { recursive: true });
   await writeFile(DATA_PATH, `${JSON.stringify(payload, null, 2)}\n`);
@@ -1115,13 +1317,22 @@ export async function refreshNews() {
   return payload;
 }
 
-export { clusterStories, deriveTags, isFreshHarvest, loadCurated, pickTop, renderHtml, topicKey };
+export {
+  clusterStories,
+  deriveTags,
+  isFreshHarvest,
+  loadCurated,
+  pickRumors,
+  pickTop,
+  renderHtml,
+  topicKey,
+};
 
 const isDirect =
   process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1];
 if (isDirect) {
   const payload = await refreshNews();
   console.log(
-    `Wrote ${payload.posts.length} clusters (${payload.posts.filter((p) => p.curated).length} curated-led, ${payload.posts.filter((p) => !p.curated && p.sourceId !== "x").length} live-feed, ${payload.posts.filter((p) => p.sourceId === "x").length} X-only, ${payload.posts.filter((p) => (p.clusterSize || 1) > 1).length} multi-source, preferCurated=${payload.preferCurated})`,
+    `Wrote ${payload.posts.length} clusters + ${(payload.rumors || []).length} rumors (${payload.posts.filter((p) => p.curated).length} curated-led, ${payload.posts.filter((p) => !p.curated && p.sourceId !== "x").length} live-feed, ${payload.posts.filter((p) => p.sourceId === "x").length} X-only, ${payload.posts.filter((p) => (p.clusterSize || 1) > 1).length} multi-source, preferCurated=${payload.preferCurated})`,
   );
 }

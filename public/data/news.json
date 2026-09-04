@@ -3,10 +3,12 @@
   "sources": [
     {
       "id": "curated",
-      "name": "Evan harvest",
+      "name": "Evan harvest (expired)",
       "ok": true,
       "count": 20,
-      "errors": []
+      "errors": [
+        "older than 2h; ranked with live feeds"
+      ]
     },
     {
       "id": "techcrunch",
@@ -19,7 +21,7 @@
       "id": "venturebeat",
       "name": "VentureBeat",
       "ok": true,
-      "count": 19,
+      "count": 21,
       "errors": [
         "429 https://venturebeat.com/category/ai/feed/"
       ]
@@ -42,7 +44,7 @@
       "id": "signal",
       "name": "The Signal",
       "ok": true,
-      "count": 5,
+      "count": 4,
       "errors": [
         "429 https://infinitytechstack.uk/ai-signal"
       ]
@@ -53,12 +55,93 @@
       "ok": true,
       "count": 12,
       "errors": []
+    },
+    {
+      "id": "rumors",
+      "name": "Rumor mill (X)",
+      "ok": true,
+      "count": 3,
+      "errors": []
     }
   ],
-  "briefingDate": "2026-09-04T21:09:28.767Z",
-  "refreshedAt": "2026-09-04T21:09:28.767Z",
-  "preferCurated": true,
+  "briefingDate": "2026-09-04T22:44:03.062Z",
+  "refreshedAt": "2026-09-04T22:44:03.062Z",
+  "preferCurated": false,
   "posts": [
+    {
+      "id": "signal:https://news.ycombinator.com/item?id=49567053",
+      "url": "https://news.ycombinator.com/item?id=49567053",
+      "title": "210 pts · 121 comments on HN",
+      "summary": "210 pts · 121 comments on HN",
+      "sourceId": "signal",
+      "sourceName": "The Signal",
+      "sourceHome": "https://infinitytechstack.uk/ai-signal",
+      "publishedAt": null,
+      "publishedTs": 1788561842440,
+      "tags": [],
+      "related": [],
+      "clusterId": "auto:210-pts-121-comments-on-hn",
+      "clusterSize": 1
+    },
+    {
+      "id": "venturebeat:https://news.google.com/rss/articles/CBMi1wFBVV95cUxQREw1S0N4LVRXclhETXFfNlZRUkN3aFBBNXV0Y1R4YjRRNmthZnZmNW9kSG5Yak5TUUs0LXVfVHQ3RmJsTm5hck1vWmM3bnp3cXczX3lrMHBOcmxXaUlSbE5rRC1ncEpxNnZKaXFjOS1zcDQtY2s2T0QtZDJ0SE9rRVlpZUpJTVpiOHBHWTdlZmw4X282MlAwNjVETWpOWUZ1UVZsNW00YlZpWTdtWE05MjdCSGhJYURyNHZoVXppSXdZbEJQYUFoc1VhQ3pteU5tb1NydGlzbw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQREw1S0N4LVRXclhETXFfNlZRUkN3aFBBNXV0Y1R4YjRRNmthZnZmNW9kSG5Yak5TUUs0LXVfVHQ3RmJsTm5hck1vWmM3bnp3cXczX3lrMHBOcmxXaUlSbE5rRC1ncEpxNnZKaXFjOS1zcDQtY2s2T0QtZDJ0SE9rRVlpZUpJTVpiOHBHWTdlZmw4X282MlAwNjVETWpOWUZ1UVZsNW00YlZpWTdtWE05MjdCSGhJYURyNHZoVXppSXdZbEJQYUFoc1VhQ3pteU5tb1NydGlzbw?oc=5",
+      "title": "My first VentureBeat story was the 'Woodstock of AI.' My last is Nvidia buying Hugging Face for $12.9 billion. - VentureBeat",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxQREw1S0N4LVRXclhETXFfNlZRUkN3aFBBNXV0Y1R4YjRRNmthZnZmNW9kSG5Yak5TUUs0LXVfVHQ3R…",
+      "sourceId": "venturebeat",
+      "sourceName": "VentureBeat",
+      "sourceHome": "https://venturebeat.com/category/ai/",
+      "publishedAt": "2026-09-04T22:15:00.000Z",
+      "publishedTs": 1788560100000,
+      "tags": [
+        "model-releases"
+      ],
+      "related": [
+        {
+          "title": "Nvidia confirms it will buy Hugging Face for $12.9 billion",
+          "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
+          "sourceId": "techcrunch",
+          "sourceName": "TechCrunch",
+          "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+          "publishedAt": "2026-09-03T12:42:45.000Z"
+        },
+        {
+          "title": "Super happy to share our intention to join forces with NVIDIA in a $12,930,300,000 acquisition 💛💚 10 year…",
+          "url": "https://x.com/ClementDelangue/status/2095482998674112733",
+          "sourceId": "x",
+          "sourceName": "X",
+          "sourceHome": "https://x.com",
+          "publishedAt": "2026-09-03T12:04:13.000Z"
+        },
+        {
+          "title": "NVIDIA to acquire Hugging Face — $12.93B, and the hub stays multi-vendor",
+          "url": "https://ai-tldr.dev/releases/nvidia-hugging-face-acquisition/",
+          "sourceId": "aitldr",
+          "sourceName": "AI/TLDR",
+          "sourceHome": "https://ai-tldr.dev/",
+          "publishedAt": "2026-09-03T00:00:00.000Z"
+        }
+      ],
+      "clusterId": "topic:hf-nvidia",
+      "clusterSize": 4
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
+      "url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
+      "title": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
+      "summary": "",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "publishedAt": "2026-09-04T21:12:11.000Z",
+      "publishedTs": 1788556331000,
+      "tags": [
+        "funding"
+      ],
+      "related": [],
+      "clusterId": "auto:ai-compute-provider-nscale-is-looking-for-3-5b-i",
+      "clusterSize": 1
+    },
     {
       "id": "curated:https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
       "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
@@ -69,7 +152,7 @@
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
       "publishedAt": "2026-09-04T20:27:31.000Z",
       "publishedTs": 1788553651000,
-      "curated": true,
+      "curated": false,
       "tags": [
         "agents",
         "research"
@@ -113,7 +196,7 @@
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
       "publishedAt": "2026-09-04T20:27:31.000Z",
       "publishedTs": 1788553650998,
-      "curated": true,
+      "curated": false,
       "tags": [
         "model-releases"
       ],
@@ -140,7 +223,7 @@
       "sourceHome": "https://venturebeat.com/category/ai/",
       "publishedAt": "2026-09-04T20:27:31.000Z",
       "publishedTs": 1788553650997,
-      "curated": true,
+      "curated": false,
       "tags": [
         "model-releases",
         "agents",
@@ -193,7 +276,7 @@
       "sourceHome": "https://prismix.dev/news",
       "publishedAt": "2026-09-04T20:27:31.000Z",
       "publishedTs": 1788553650996,
-      "curated": true,
+      "curated": false,
       "tags": [
         "model-releases",
         "agents"
@@ -212,80 +295,21 @@
       "clusterSize": 2
     },
     {
-      "id": "curated:https://ai-tldr.dev/releases/anthropic-fermats-last-theorem/",
-      "url": "https://ai-tldr.dev/releases/anthropic-fermats-last-theorem/",
-      "title": "Claude formalizes Fermat’s Last Theorem in Lean",
-      "summary": "Anthropic: Claude produced first end-to-end computer-checked FLT proof — ~13M lines of Lean in 11 days, Apache-2.0 on GitHub.",
-      "sourceId": "aitldr",
-      "sourceName": "AI/TLDR",
-      "sourceHome": "https://ai-tldr.dev/",
-      "publishedAt": "2026-09-04T20:27:31.000Z",
-      "publishedTs": 1788553650995,
-      "curated": true,
-      "tags": [
-        "model-releases",
-        "research"
-      ],
-      "clusterId": "topic:fermat-lean",
-      "related": [],
-      "clusterSize": 1
-    },
-    {
-      "id": "signal:https://news.ycombinator.com/item?id=49568506",
-      "url": "https://news.ycombinator.com/item?id=49568506",
-      "title": "259 pts · 144 comments on HN",
-      "summary": "259 pts · 144 comments on HN",
-      "sourceId": "signal",
-      "sourceName": "The Signal",
-      "sourceHome": "https://infinitytechstack.uk/ai-signal",
-      "publishedAt": null,
-      "publishedTs": 1788556168224,
+      "id": "x:2095947707605266436",
+      "url": "https://x.com/AnthropicAI/status/2095947707605266436",
+      "title": "Checking that a major mathematical proof is correct can take years.",
+      "summary": "Checking that a major mathematical proof is correct can take years. Formalization—converting the mathematical reasoning into a form…",
+      "sourceId": "x",
+      "sourceName": "X",
+      "sourceHome": "https://x.com",
+      "publishedAt": "2026-09-04T18:50:48.000Z",
+      "publishedTs": 1788547848000,
+      "score": 25115,
+      "authorHandle": "anthropicai",
       "tags": [],
       "related": [],
-      "clusterId": "auto:259-pts-144-comments-on-hn",
+      "clusterId": "auto:checking-that-a-major-mathematical-proof-is-corr",
       "clusterSize": 1
-    },
-    {
-      "id": "venturebeat:https://news.google.com/rss/articles/CBMi2AFBVV95cUxOWGRPTm84eHVDLVRzQWllNjgzLXJEWjlLN3VGUng1Wi1FdWJTdER4WTR0WmZjeGI1XzQ4S3ZTUGNLYzQ2T1lDTEhfX0Z1Rmx1b3NPekZ2d1FBcHVCWlV4ekNncGt2V0ZRekk5SW5ucjhMMTVmZDRuMVlUM2J4cEQzNVBWS1RIQUdXUGx3dlNFamJQdDdUUmlUVU1YODhNMnNSXzZzdkhZTFpwTVJOejVxeE41ZzExd2FtVXZTeVNqMUNXa0dWVGJNUzJ2Qkp0VlRpakFpWlUzb0w?oc=5",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOWGRPTm84eHVDLVRzQWllNjgzLXJEWjlLN3VGUng1Wi1FdWJTdER4WTR0WmZjeGI1XzQ4S3ZTUGNLYzQ2T1lDTEhfX0Z1Rmx1b3NPekZ2d1FBcHVCWlV4ekNncGt2V0ZRekk5SW5ucjhMMTVmZDRuMVlUM2J4cEQzNVBWS1RIQUdXUGx3dlNFamJQdDdUUmlUVU1YODhNMnNSXzZzdkhZTFpwTVJOejVxeE41ZzExd2FtVXZTeVNqMUNXa0dWVGJNUzJ2Qkp0VlRpakFpWlUzb0w?oc=5",
-      "title": "Nvidia acquires Hugging Face after Stripe nabs OpenRouter: here's what open source AI builders should do - VentureBeat",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxOWGRPTm84eHVDLVRzQWllNjgzLXJEWjlLN3VGUng1Wi1FdWJTdER4WTR0WmZjeGI1XzQ4S3ZTUGNLY…",
-      "sourceId": "venturebeat",
-      "sourceName": "VentureBeat",
-      "sourceHome": "https://venturebeat.com/category/ai/",
-      "publishedAt": "2026-09-04T20:43:31.000Z",
-      "publishedTs": 1788554611000,
-      "tags": [
-        "model-releases"
-      ],
-      "related": [
-        {
-          "title": "Nvidia confirms it will buy Hugging Face for $12.9 billion",
-          "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
-          "sourceId": "techcrunch",
-          "sourceName": "TechCrunch",
-          "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-          "publishedAt": "2026-09-03T12:42:45.000Z"
-        },
-        {
-          "title": "Super happy to share our intention to join forces with NVIDIA in a $12,930,300,000 acquisition 💛💚 10 year…",
-          "url": "https://x.com/ClementDelangue/status/2095482998674112733",
-          "sourceId": "x",
-          "sourceName": "X",
-          "sourceHome": "https://x.com",
-          "publishedAt": "2026-09-03T12:04:13.000Z"
-        },
-        {
-          "title": "NVIDIA to acquire Hugging Face — $12.93B, and the hub stays multi-vendor",
-          "url": "https://ai-tldr.dev/releases/nvidia-hugging-face-acquisition/",
-          "sourceId": "aitldr",
-          "sourceName": "AI/TLDR",
-          "sourceHome": "https://ai-tldr.dev/",
-          "publishedAt": "2026-09-03T00:00:00.000Z"
-        }
-      ],
-      "clusterId": "topic:hf-nvidia",
-      "clusterSize": 4
     },
     {
       "id": "x:2095226833293685100",
@@ -297,7 +321,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-02T19:06:19.000Z",
       "publishedTs": 1788375979000,
-      "score": 38119,
+      "score": 38173,
       "authorHandle": "claudeai",
       "tags": [
         "model-releases"
@@ -316,29 +340,62 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-02T05:37:10.000Z",
       "publishedTs": 1788327430000,
-      "score": 22980,
+      "score": 22993,
       "authorHandle": "merettm",
       "tags": [],
       "related": [],
       "clusterId": "auto:i-want-to-prevent-a-race-into-unmonitorability-k",
       "clusterSize": 1
-    },
+    }
+  ],
+  "rumors": [
     {
-      "id": "x:2095508870915338284",
-      "url": "https://x.com/huggingface/status/2095508870915338284",
-      "title": "🤗💚",
-      "summary": "🤗💚",
+      "id": "rumor:https://x.com/frontierwatch/status/2095801100000000001",
+      "title": "xAI said to ship a Grok video model as soon as next week",
+      "summary": "Single X thread, no lab post or second outlet. Unconfirmed until it clusters.",
+      "url": "https://x.com/frontierwatch/status/2095801100000000001",
+      "via": "@frontierwatch",
+      "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "sourceHome": "https://x.com",
-      "publishedAt": "2026-09-03T13:47:02.000Z",
-      "publishedTs": 1788443222000,
-      "score": 21091,
-      "authorHandle": "huggingface",
-      "tags": [],
-      "related": [],
-      "clusterId": "auto:57",
-      "clusterSize": 1
+      "harvestedAt": "2026-09-04T20:15:00.000Z",
+      "publishedAt": "2026-09-04T20:15:00.000Z",
+      "publishedTs": 1788552900000,
+      "tags": [
+        "rumor"
+      ]
+    },
+    {
+      "id": "rumor:https://x.com/siriwatch/status/2095798800000000002",
+      "title": "Apple rumored to license Claude for an on-device Siri rewrite",
+      "summary": "Leak-adjacent chatter on X only. No Apple or Anthropic confirmation.",
+      "url": "https://x.com/siriwatch/status/2095798800000000002",
+      "via": "@siriwatch",
+      "sourceKind": "x",
+      "sourceId": "x",
+      "sourceName": "X",
+      "harvestedAt": "2026-09-04T17:40:00.000Z",
+      "publishedAt": "2026-09-04T17:40:00.000Z",
+      "publishedTs": 1788543600000,
+      "tags": [
+        "rumor"
+      ]
+    },
+    {
+      "id": "rumor:https://x.com/copilotdesk/status/2095795500000000003",
+      "title": "Microsoft memo said to fold MAI branding into Copilot this fall",
+      "summary": "One account’s screenshot, not replicated. Keep out of Top 10 until outlets match.",
+      "url": "https://x.com/copilotdesk/status/2095795500000000003",
+      "via": "@copilotdesk",
+      "sourceKind": "x",
+      "sourceId": "x",
+      "sourceName": "X",
+      "harvestedAt": "2026-09-04T14:25:00.000Z",
+      "publishedAt": "2026-09-04T14:25:00.000Z",
+      "publishedTs": 1788531900000,
+      "tags": [
+        "rumor"
+      ]
     }
   ]
 }

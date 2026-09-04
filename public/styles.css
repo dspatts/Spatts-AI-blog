@@ -136,6 +136,147 @@ h1 {
   color: var(--bright-foreground);
 }
 
+.chip-rumor,
+.chip[data-filter="rumors"] {
+  color: var(--yellow);
+  border-color: rgba(224, 175, 104, 0.55);
+}
+
+.chip-rumor:hover,
+.chip[data-filter="rumors"]:hover,
+.chip-rumor.is-on,
+.chip[data-filter="rumors"].is-on {
+  color: var(--yellow);
+  border-color: var(--yellow);
+  background: rgba(224, 175, 104, 0.14);
+}
+
+.rumor-mill {
+  border: 1.5px dashed var(--yellow);
+  border-radius: 14px;
+  padding: 22px 24px 16px;
+  margin: 0 0 32px;
+  background: rgba(224, 175, 104, 0.045);
+}
+
+.rumor-mill[hidden],
+.confirmed-label[hidden] {
+  display: none;
+}
+
+.rumor-mill-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.rumor-mill-head h2 {
+  margin: 0;
+  font-family: var(--font-mono);
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--yellow);
+}
+
+.unconfirmed {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--darker-background);
+  background: var(--yellow);
+  border-radius: 999px;
+  padding: 5px 10px;
+}
+
+.rumor-explainer,
+.rumor-empty {
+  margin: 10px 0 16px;
+  color: var(--dark-foreground);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.rumor-list {
+  display: grid;
+  gap: 10px;
+}
+
+.rumor {
+  background: var(--darker-background);
+  border: 1px solid var(--muted);
+  border-radius: 10px;
+  padding: 14px 16px 12px;
+}
+
+.rumor:hover {
+  border-color: rgba(224, 175, 104, 0.45);
+}
+
+.rumor-kicker {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.rumor-flag {
+  color: var(--yellow);
+  font-weight: 600;
+}
+
+.rumor-when {
+  color: var(--dark-foreground);
+}
+
+.rumor h3 {
+  margin: 8px 0 6px;
+  font-size: 1.02rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--bright-foreground);
+}
+
+.rumor h3 a {
+  text-decoration: none;
+}
+
+.rumor h3 a:hover {
+  color: var(--yellow);
+}
+
+.rumor-caveat {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.55;
+  color: var(--foreground);
+}
+
+.rumor-via {
+  margin: 8px 0 0;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--cyan);
+}
+
+.confirmed-label {
+  margin: 0 0 14px;
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--dark-foreground);
+}
+
 .grid {
   display: grid;
   gap: 18px;

@@ -162,5 +162,34 @@
       "sourceId": "prismix",
       "sourceHome": "https://prismix.dev/news"
     }
+  ],
+  "rumors": [
+    {
+      "title": "xAI said to ship a Grok video model as soon as next week",
+      "summary": "Single X thread, no lab post or second outlet. Unconfirmed until it clusters.",
+      "url": "https://x.com/frontierwatch/status/2095801100000000001",
+      "via": "@frontierwatch",
+      "sourceKind": "x",
+      "harvestedAt": "2026-09-04T20:15:00.000Z",
+      "tags": ["rumor"]
+    },
+    {
+      "title": "Apple rumored to license Claude for an on-device Siri rewrite",
+      "summary": "Leak-adjacent chatter on X only. No Apple or Anthropic confirmation.",
+      "url": "https://x.com/siriwatch/status/2095798800000000002",
+      "via": "@siriwatch",
+      "sourceKind": "x",
+      "harvestedAt": "2026-09-04T17:40:00.000Z",
+      "tags": ["rumor"]
+    },
+    {
+      "title": "Microsoft memo said to fold MAI branding into Copilot this fall",
+      "summary": "One account’s screenshot, not replicated. Keep out of Top 10 until outlets match.",
+      "url": "https://x.com/copilotdesk/status/2095795500000000003",
+      "via": "@copilotdesk",
+      "sourceKind": "x",
+      "harvestedAt": "2026-09-04T14:25:00.000Z",
+      "tags": ["rumor"]
+    }
   ]
 }
