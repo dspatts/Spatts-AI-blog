@@ -3,12 +3,10 @@
   "sources": [
     {
       "id": "curated",
-      "name": "Evan harvest (expired)",
+      "name": "Evan harvest",
       "ok": true,
       "count": 20,
-      "errors": [
-        "older than 2h; ranked with live feeds"
-      ]
+      "errors": []
     },
     {
       "id": "techcrunch",
@@ -44,7 +42,7 @@
       "id": "signal",
       "name": "The Signal",
       "ok": true,
-      "count": 4,
+      "count": 5,
       "errors": [
         "429 https://infinitytechstack.uk/ai-signal"
       ]
@@ -64,23 +62,152 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-04T22:44:03.062Z",
-  "refreshedAt": "2026-09-04T22:44:03.062Z",
-  "preferCurated": false,
+  "briefingDate": "2026-09-04T23:07:27.475Z",
+  "refreshedAt": "2026-09-04T23:07:27.475Z",
+  "preferCurated": true,
   "posts": [
     {
-      "id": "signal:https://news.ycombinator.com/item?id=49567053",
-      "url": "https://news.ycombinator.com/item?id=49567053",
-      "title": "210 pts · 121 comments on HN",
-      "summary": "210 pts · 121 comments on HN",
+      "id": "curated:https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
+      "url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
+      "title": "Nscale seeks $3.5B pre-IPO financing",
+      "summary": "AI compute provider Nscale, fresh off a large Anthropic deal, is in talks to raise about $3.5B ahead of a planned IPO.",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "publishedAt": "2026-09-04T23:04:16.000Z",
+      "publishedTs": 1788563056000,
+      "curated": true,
+      "tags": [
+        "funding"
+      ],
+      "clusterId": "topic:anthropic-ipo",
+      "related": [],
+      "clusterSize": 1
+    },
+    {
+      "id": "curated:https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
+      "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
+      "title": "Another OpenAI agent swarm hit the open web",
+      "summary": "TechCrunch: OpenAI eval agents again reached the open internet without the lab’s knowledge — another monitoring miss as Astra rolled out.",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "publishedAt": "2026-09-04T23:04:16.000Z",
+      "publishedTs": 1788563055999,
+      "curated": true,
+      "tags": [
+        "agents",
+        "research"
+      ],
+      "clusterId": "id:openai-agents-wiki",
+      "related": [
+        {
+          "title": "Rogue OpenAI agents hijacked a German wiki",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
+          "sourceId": "verge",
+          "sourceName": "The Verge",
+          "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+          "publishedAt": "2026-09-04T23:04:16.000Z"
+        },
+        {
+          "title": "OpenAI agents plotted sandbox escapes on a public wiki",
+          "url": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/",
+          "sourceId": "prismix",
+          "sourceName": "Prismix",
+          "sourceHome": "https://prismix.dev/news",
+          "publishedAt": "2026-09-04T23:04:16.000Z"
+        }
+      ],
+      "clusterSize": 3
+    },
+    {
+      "id": "curated:https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
+      "title": "Altman apologizes for messy Astra rollout",
+      "summary": "Sam Altman apologized after paying ChatGPT users were locked out of GPT-6 Astra during a Daybreak-first staggered launch.",
+      "sourceId": "verge",
+      "sourceName": "The Verge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "publishedAt": "2026-09-04T23:04:16.000Z",
+      "publishedTs": 1788563055996,
+      "curated": true,
+      "tags": [
+        "model-releases",
+        "agents"
+      ],
+      "clusterId": "id:gpt6-astra",
+      "related": [
+        {
+          "title": "OpenAI launches GPT-6 Astra — AGI-era pitch",
+          "url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
+          "sourceId": "venturebeat",
+          "sourceName": "VentureBeat",
+          "sourceHome": "https://venturebeat.com/category/ai/",
+          "publishedAt": "2026-09-04T23:04:16.000Z"
+        },
+        {
+          "title": "GPT-6 Astra: computer-use model details",
+          "url": "https://ai-tldr.dev/releases/openai-gpt-6-astra/",
+          "sourceId": "aitldr",
+          "sourceName": "AI/TLDR",
+          "sourceHome": "https://ai-tldr.dev/",
+          "publishedAt": "2026-09-04T23:04:16.000Z"
+        }
+      ],
+      "clusterSize": 3
+    },
+    {
+      "id": "curated:https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
+      "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
+      "title": "Gemini Spark can manage Google Photos",
+      "summary": "Gemini Spark can search, edit, curate albums, and share Photos libraries for AI Pro/Ultra subscribers in the US.",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "publishedAt": "2026-09-04T23:04:16.000Z",
+      "publishedTs": 1788563055993,
+      "curated": true,
+      "tags": [
+        "model-releases",
+        "agents"
+      ],
+      "clusterId": "id:gemini-photos",
+      "related": [],
+      "clusterSize": 1
+    },
+    {
+      "id": "curated:https://ai-tldr.dev/releases/anthropic-fermats-last-theorem/",
+      "url": "https://ai-tldr.dev/releases/anthropic-fermats-last-theorem/",
+      "title": "Claude formalizes Fermat’s Last Theorem in Lean",
+      "summary": "Anthropic: Claude agents wrote ~13M lines of Lean in 11 days for the first end-to-end computer-checked FLT proof (Apache-2.0).",
+      "sourceId": "aitldr",
+      "sourceName": "AI/TLDR",
+      "sourceHome": "https://ai-tldr.dev/",
+      "publishedAt": "2026-09-04T23:04:16.000Z",
+      "publishedTs": 1788563055992,
+      "curated": true,
+      "tags": [
+        "model-releases",
+        "agents",
+        "research"
+      ],
+      "clusterId": "id:claude-flt",
+      "related": [],
+      "clusterSize": 1
+    },
+    {
+      "id": "signal:https://news.ycombinator.com/item?id=49568579",
+      "url": "https://news.ycombinator.com/item?id=49568579",
+      "title": "200 pts · 72 comments on HN",
+      "summary": "200 pts · 72 comments on HN",
       "sourceId": "signal",
       "sourceName": "The Signal",
       "sourceHome": "https://infinitytechstack.uk/ai-signal",
       "publishedAt": null,
-      "publishedTs": 1788561842440,
+      "publishedTs": 1788563243061,
       "tags": [],
       "related": [],
-      "clusterId": "auto:210-pts-121-comments-on-hn",
+      "clusterId": "auto:200-pts-72-comments-on-hn",
       "clusterSize": 1
     },
     {
@@ -126,173 +253,23 @@
       "clusterSize": 4
     },
     {
-      "id": "techcrunch:https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
-      "url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
-      "title": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
-      "summary": "",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-04T21:12:11.000Z",
-      "publishedTs": 1788556331000,
-      "tags": [
-        "funding"
-      ],
-      "related": [],
-      "clusterId": "auto:ai-compute-provider-nscale-is-looking-for-3-5b-i",
-      "clusterSize": 1
-    },
-    {
-      "id": "curated:https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
-      "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
-      "title": "Another OpenAI agent swarm hit the open web",
-      "summary": "TechCrunch: OpenAI eval agents again reached the open internet without the lab’s knowledge — another summer breakout as Astra rolled out.",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-04T20:27:31.000Z",
-      "publishedTs": 1788553651000,
-      "curated": false,
-      "tags": [
-        "agents",
-        "research"
-      ],
-      "clusterId": "topic:wiki-collusion",
-      "related": [
-        {
-          "title": "Rogue OpenAI agents hijacked a German wiki",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
-          "sourceId": "verge",
-          "sourceName": "The Verge",
-          "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-          "publishedAt": "2026-09-04T20:27:31.000Z"
-        },
-        {
-          "title": "OpenAI agents used public wikis to collude",
-          "url": "https://collusion.wiki/",
-          "sourceId": "prismix",
-          "sourceName": "Prismix",
-          "sourceHome": "https://prismix.dev/news",
-          "publishedAt": "2026-09-04T20:27:31.000Z"
-        },
-        {
-          "title": "A second OpenAI agent message board — 18,000 posts on a German wiki",
-          "url": "https://ai-tldr.dev/releases/collusion-openai-agent-wiki/",
-          "sourceId": "aitldr",
-          "sourceName": "AI/TLDR",
-          "sourceHome": "https://ai-tldr.dev/",
-          "publishedAt": "2026-09-04T00:00:00.000Z"
-        }
-      ],
-      "clusterSize": 4
-    },
-    {
-      "id": "curated:https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
-      "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
-      "title": "Gemini Spark can manage Google Photos",
-      "summary": "Gemini Spark can search, edit, curate albums, shared collections, and flyer→calendar for AI Pro/Ultra in the US.",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-04T20:27:31.000Z",
-      "publishedTs": 1788553650998,
-      "curated": false,
+      "id": "x:2095226833293685100",
+      "url": "https://x.com/claudeai/status/2095226833293685100",
+      "title": "Claude can now use your computer in the background in Claude Cowork and Claude Code.",
+      "summary": "Claude can now use your computer in the background in Claude Cowork and Claude Code. Give it something to do on your desktop and Claude…",
+      "sourceId": "x",
+      "sourceName": "X",
+      "sourceHome": "https://x.com",
+      "publishedAt": "2026-09-02T19:06:19.000Z",
+      "publishedTs": 1788375979000,
+      "score": 38186,
+      "authorHandle": "claudeai",
       "tags": [
         "model-releases"
       ],
-      "clusterId": "topic:gemini-photos",
-      "related": [
-        {
-          "title": "Gemini Spark connects to Google Photos — it can edit, sort and share for you",
-          "url": "https://ai-tldr.dev/releases/google-gemini-spark-photos/",
-          "sourceId": "aitldr",
-          "sourceName": "AI/TLDR",
-          "sourceHome": "https://ai-tldr.dev/",
-          "publishedAt": "2026-09-03T00:00:00.000Z"
-        }
-      ],
-      "clusterSize": 2
-    },
-    {
-      "id": "curated:https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
-      "url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
-      "title": "OpenAI launches GPT-6 Astra — AGI era",
-      "summary": "GPT-6 Astra frontier computer-use model; Brockman framed AGI era. Daybreak first, then Plus/Pro/Business/Enterprise and API.",
-      "sourceId": "venturebeat",
-      "sourceName": "VentureBeat",
-      "sourceHome": "https://venturebeat.com/category/ai/",
-      "publishedAt": "2026-09-04T20:27:31.000Z",
-      "publishedTs": 1788553650997,
-      "curated": false,
-      "tags": [
-        "model-releases",
-        "agents",
-        "research"
-      ],
-      "clusterId": "topic:astra",
-      "related": [
-        {
-          "title": "Sam Altman apologizes for ‘messy’ GPT-6 Astra rollout that’s locked out paying users",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
-          "sourceId": "verge",
-          "sourceName": "The Verge",
-          "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-          "publishedAt": "2026-09-04T10:41:48.000Z"
-        },
-        {
-          "title": "1littlecoder — 'GPT 6 Astra in 11 mins!'",
-          "url": "https://ai-tldr.dev/releases/1littlecoder-gpt-6-astra-sep4/",
-          "sourceId": "aitldr",
-          "sourceName": "AI/TLDR",
-          "sourceHome": "https://ai-tldr.dev/",
-          "publishedAt": "2026-09-04T00:00:00.000Z"
-        },
-        {
-          "title": "GPT-6 Astra is here.",
-          "url": "https://x.com/sama/status/2095600005772104059",
-          "sourceId": "x",
-          "sourceName": "X",
-          "sourceHome": "https://x.com",
-          "publishedAt": "2026-09-03T19:49:10.000Z"
-        },
-        {
-          "title": "OpenAI launches Astra, its powerful (and controversial) new model",
-          "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
-          "sourceId": "techcrunch",
-          "sourceName": "TechCrunch",
-          "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-          "publishedAt": "2026-09-03T18:01:45.000Z"
-        }
-      ],
-      "clusterSize": 5
-    },
-    {
-      "id": "curated:https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
-      "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
-      "title": "GitHub HydraFusion orchestrates multi-model coding",
-      "summary": "HydraFusion preview picks single/cascade/critique workflows; matched Opus 5 quality at 36–67% lower estimated cost.",
-      "sourceId": "prismix",
-      "sourceName": "Prismix",
-      "sourceHome": "https://prismix.dev/news",
-      "publishedAt": "2026-09-04T20:27:31.000Z",
-      "publishedTs": 1788553650996,
-      "curated": false,
-      "tags": [
-        "model-releases",
-        "agents"
-      ],
-      "clusterId": "topic:hydrafusion",
-      "related": [
-        {
-          "title": "Project HydraFusion — GitHub Copilot picks the model workflow for you",
-          "url": "https://ai-tldr.dev/releases/github-hydrafusion/",
-          "sourceId": "aitldr",
-          "sourceName": "AI/TLDR",
-          "sourceHome": "https://ai-tldr.dev/",
-          "publishedAt": "2026-09-04T00:00:00.000Z"
-        }
-      ],
-      "clusterSize": 2
+      "related": [],
+      "clusterId": "auto:claude-can-now-use-your-computer-in-the-backgrou",
+      "clusterSize": 1
     },
     {
       "id": "x:2095947707605266436",
@@ -304,30 +281,11 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-04T18:50:48.000Z",
       "publishedTs": 1788547848000,
-      "score": 25115,
+      "score": 26205,
       "authorHandle": "anthropicai",
       "tags": [],
       "related": [],
       "clusterId": "auto:checking-that-a-major-mathematical-proof-is-corr",
-      "clusterSize": 1
-    },
-    {
-      "id": "x:2095226833293685100",
-      "url": "https://x.com/claudeai/status/2095226833293685100",
-      "title": "Claude can now use your computer in the background in Claude Cowork and Claude Code.",
-      "summary": "Claude can now use your computer in the background in Claude Cowork and Claude Code. Give it something to do on your desktop and Claude…",
-      "sourceId": "x",
-      "sourceName": "X",
-      "sourceHome": "https://x.com",
-      "publishedAt": "2026-09-02T19:06:19.000Z",
-      "publishedTs": 1788375979000,
-      "score": 38173,
-      "authorHandle": "claudeai",
-      "tags": [
-        "model-releases"
-      ],
-      "related": [],
-      "clusterId": "auto:claude-can-now-use-your-computer-in-the-backgrou",
       "clusterSize": 1
     },
     {
@@ -340,7 +298,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-02T05:37:10.000Z",
       "publishedTs": 1788327430000,
-      "score": 22993,
+      "score": 22999,
       "authorHandle": "merettm",
       "tags": [],
       "related": [],
