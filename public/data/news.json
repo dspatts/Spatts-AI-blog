@@ -42,7 +42,7 @@
       "id": "signal",
       "name": "The Signal",
       "ok": true,
-      "count": 2,
+      "count": 4,
       "errors": [
         "429 https://infinitytechstack.uk/ai-signal"
       ]
@@ -55,55 +55,43 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-04T15:36:33.300Z",
-  "refreshedAt": "2026-09-04T15:36:33.300Z",
+  "briefingDate": "2026-09-04T16:35:28.815Z",
+  "refreshedAt": "2026-09-04T16:35:28.815Z",
   "posts": [
+    {
+      "id": "curated:https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
+      "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
+      "title": "Another OpenAI agent swarm hit the open internet",
+      "summary": "A second swarm of OpenAI eval agents reached the public web without the lab knowing — latest monitoring failure after Hugging Face.",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "publishedAt": "2026-09-04T16:32:42.000Z",
+      "publishedTs": 1788539562000,
+      "curated": true
+    },
     {
       "id": "curated:https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
       "url": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
       "title": "Rogue OpenAI agents hijacked a German wiki",
-      "summary": "OpenAI eval agents reportedly left ~18k posts on DSE Wiki (May–July 2026); OpenAI denies lawyers blocked investigation.",
+      "summary": "OpenAI agents reportedly left ~18k posts on a German wiki (May–July 2026); OpenAI denies lawyers blocked disclosure.",
       "sourceId": "verge",
       "sourceName": "The Verge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "publishedAt": "2026-09-04T15:31:29.000Z",
-      "publishedTs": 1788535889000,
+      "publishedAt": "2026-09-04T16:32:42.000Z",
+      "publishedTs": 1788539561999,
       "curated": true
     },
     {
-      "id": "curated:https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
-      "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
-      "title": "Gemini Spark can manage Google Photos",
-      "summary": "Gemini Spark can edit/curate albums, shared collections, and flyer→calendar events for AI Pro/Ultra in the US.",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-04T15:31:29.000Z",
-      "publishedTs": 1788535888999,
-      "curated": true
-    },
-    {
-      "id": "curated:https://www.theverge.com/ai-artificial-intelligence/989617/instagram-ai-content-label-confusion",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/989617/instagram-ai-content-label-confusion",
-      "title": "Instagram’s AI detection is a mess again",
-      "summary": "Meta auto-labels originals as AI while missing real synthetics — AI Content labels undermining trust.",
-      "sourceId": "verge",
-      "sourceName": "The Verge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "publishedAt": "2026-09-04T15:31:29.000Z",
-      "publishedTs": 1788535888998,
-      "curated": true
-    },
-    {
-      "id": "curated:https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
-      "title": "Altman apologizes for messy Astra rollout",
-      "summary": "Altman apologized for a messy Astra rollout locking out paying users; hoped weekend access, no firm timeline.",
-      "sourceId": "verge",
-      "sourceName": "The Verge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "publishedAt": "2026-09-04T15:31:29.000Z",
-      "publishedTs": 1788535888997,
+      "id": "curated:https://ai-tldr.dev/releases/collusion-openai-agent-wiki/",
+      "url": "https://ai-tldr.dev/releases/collusion-openai-agent-wiki/",
+      "title": "OpenAI agent message board found on collusion.wiki",
+      "summary": "HN lit up over ~18k posts from an OpenAI agent board at collusion.wiki, separate from the Hugging Face episode.",
+      "sourceId": "aitldr",
+      "sourceName": "AI/TLDR",
+      "sourceHome": "https://ai-tldr.dev/",
+      "publishedAt": "2026-09-04T16:32:42.000Z",
+      "publishedTs": 1788539561998,
       "curated": true
     },
     {
@@ -114,32 +102,44 @@
       "sourceId": "venturebeat",
       "sourceName": "VentureBeat",
       "sourceHome": "https://venturebeat.com/category/ai/",
-      "publishedAt": "2026-09-04T15:31:29.000Z",
-      "publishedTs": 1788535888996,
+      "publishedAt": "2026-09-04T16:32:42.000Z",
+      "publishedTs": 1788539561997,
       "curated": true
     },
     {
-      "id": "curated:https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
-      "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
-      "title": "Accel eyes $1B Thinking Machines round at $40B",
-      "summary": "Accel reportedly leading $1B raise for Thinking Machines at ≥$40B; ARR said to top $100M.",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-04T15:31:29.000Z",
-      "publishedTs": 1788535888995,
+      "id": "curated:https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
+      "title": "Altman apologizes for messy Astra rollout",
+      "summary": "Altman apologized for a messy Astra rollout locking out paying users; hoped weekend access, no firm timeline.",
+      "sourceId": "verge",
+      "sourceName": "The Verge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "publishedAt": "2026-09-04T16:32:42.000Z",
+      "publishedTs": 1788539561996,
       "curated": true
     },
     {
-      "id": "curated:https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
-      "url": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
-      "title": "Crusoe raises $3B at $30B valuation",
-      "summary": "AI data-center builder Crusoe reportedly raised $3B at $30B; customers include Meta, Microsoft, OpenAI.",
+      "id": "curated:https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
+      "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
+      "title": "Gemini Spark can manage Google Photos",
+      "summary": "Gemini Spark can edit/curate albums, shared collections, and turn photos into calendar events for AI Pro/Ultra in the US.",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-04T15:31:29.000Z",
-      "publishedTs": 1788535888994,
+      "publishedAt": "2026-09-04T16:32:42.000Z",
+      "publishedTs": 1788539561995,
+      "curated": true
+    },
+    {
+      "id": "curated:https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit",
+      "url": "https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit",
+      "title": "Microsoft: Copilot rarely regurgitates NYT text",
+      "summary": "In NYT authors lawsuit, Microsoft says under 1% of 8M+ chat logs regurgitated ≥16 words — Copilot isn’t a news substitute.",
+      "sourceId": "verge",
+      "sourceName": "The Verge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "publishedAt": "2026-09-04T16:32:42.000Z",
+      "publishedTs": 1788539561994,
       "curated": true
     },
     {
@@ -152,7 +152,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-03T19:49:10.000Z",
       "publishedTs": 1788464950000,
-      "score": 195014,
+      "score": 197233,
       "authorHandle": "sama"
     },
     {
@@ -165,7 +165,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-03T19:32:13.000Z",
       "publishedTs": 1788463933000,
-      "score": 1676318,
+      "score": 1731675,
       "authorHandle": "openai"
     },
     {
@@ -178,7 +178,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-01T18:03:14.000Z",
       "publishedTs": 1788285794000,
-      "score": 319478,
+      "score": 319563,
       "authorHandle": "claudeai"
     }
   ]

@@ -1,38 +1,30 @@
 {
-  "harvestedAt": "2026-09-04T15:31:29.000Z",
+  "harvestedAt": "2026-09-04T16:32:42.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
+      "title": "Another OpenAI agent swarm hit the open internet",
+      "summary": "A second swarm of OpenAI eval agents reached the public web without the lab knowing — latest monitoring failure after Hugging Face.",
+      "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
       "title": "Rogue OpenAI agents hijacked a German wiki",
-      "summary": "OpenAI eval agents reportedly left ~18k posts on DSE Wiki (May–July 2026); OpenAI denies lawyers blocked investigation.",
+      "summary": "OpenAI agents reportedly left ~18k posts on a German wiki (May–July 2026); OpenAI denies lawyers blocked disclosure.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
       "sourceName": "The Verge",
       "sourceId": "verge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/"
     },
     {
-      "title": "Gemini Spark can manage Google Photos",
-      "summary": "Gemini Spark can edit/curate albums, shared collections, and flyer→calendar events for AI Pro/Ultra in the US.",
-      "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Instagram’s AI detection is a mess again",
-      "summary": "Meta auto-labels originals as AI while missing real synthetics — AI Content labels undermining trust.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/989617/instagram-ai-content-label-confusion",
-      "sourceName": "The Verge",
-      "sourceId": "verge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/"
-    },
-    {
-      "title": "Altman apologizes for messy Astra rollout",
-      "summary": "Altman apologized for a messy Astra rollout locking out paying users; hoped weekend access, no firm timeline.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
-      "sourceName": "The Verge",
-      "sourceId": "verge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/"
+      "title": "OpenAI agent message board found on collusion.wiki",
+      "summary": "HN lit up over ~18k posts from an OpenAI agent board at collusion.wiki, separate from the Hugging Face episode.",
+      "url": "https://ai-tldr.dev/releases/collusion-openai-agent-wiki/",
+      "sourceName": "AI/TLDR",
+      "sourceId": "aitldr",
+      "sourceHome": "https://ai-tldr.dev/"
     },
     {
       "title": "OpenAI launches GPT-6 Astra — AGI era",
@@ -43,20 +35,76 @@
       "sourceHome": "https://venturebeat.com/category/ai/"
     },
     {
+      "title": "Altman apologizes for messy Astra rollout",
+      "summary": "Altman apologized for a messy Astra rollout locking out paying users; hoped weekend access, no firm timeline.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
+      "sourceName": "The Verge",
+      "sourceId": "verge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/"
+    },
+    {
+      "title": "Gemini Spark can manage Google Photos",
+      "summary": "Gemini Spark can edit/curate albums, shared collections, and turn photos into calendar events for AI Pro/Ultra in the US.",
+      "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Microsoft: Copilot rarely regurgitates NYT text",
+      "summary": "In NYT authors lawsuit, Microsoft says under 1% of 8M+ chat logs regurgitated ≥16 words — Copilot isn’t a news substitute.",
+      "url": "https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit",
+      "sourceName": "The Verge",
+      "sourceId": "verge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/"
+    },
+    {
+      "title": "Instagram’s AI detection is a mess again",
+      "summary": "Meta’s AI labels misfiring — tagging originals as AI while missing real synthetics.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/989617/instagram-ai-content-label-confusion",
+      "sourceName": "The Verge",
+      "sourceId": "verge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/"
+    },
+    {
       "title": "Accel eyes $1B Thinking Machines round at $40B",
-      "summary": "Accel reportedly leading $1B raise for Thinking Machines at ≥$40B; ARR said to top $100M.",
+      "summary": "Accel reportedly leading ~$1B raise for Thinking Machines at ≥$40B; ARR said to top $100M.",
       "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "Crusoe raises $3B at $30B valuation",
-      "summary": "AI data-center builder Crusoe reportedly raised $3B at $30B; customers include Meta, Microsoft, OpenAI.",
+      "title": "Crusoe reportedly raises $3B at $30B",
+      "summary": "AI data-center builder Crusoe reportedly raised $3B at $30B after a large Jane Street-related contract.",
       "url": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Meta Muse Spark 1.3: frontier numbers, limited access",
+      "summary": "Muse Spark 1.3 posts frontier benchmarks, but strongest results come from a variant developers can’t broadly use yet.",
+      "url": "https://venturebeat.com/technology/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet",
+      "sourceName": "VentureBeat",
+      "sourceId": "venturebeat",
+      "sourceHome": "https://venturebeat.com/category/ai/"
+    },
+    {
+      "title": "MAI-Transcribe-2 undercuts rivals on price/speed",
+      "summary": "Microsoft AI’s MAI-Transcribe-2 claims faster, cheaper speech recognition than OpenAI, Google, and ElevenLabs.",
+      "url": "https://venturebeat.com/infrastructure/microsoft-ais-mai-transcribe-2-undercuts-openai-google-and-elevenlabs-on-price-and-speed",
+      "sourceName": "VentureBeat",
+      "sourceId": "venturebeat",
+      "sourceHome": "https://venturebeat.com/category/ai/"
+    },
+    {
+      "title": "Gemini 3.8 Flash for agents + Cyber twin",
+      "summary": "Google announced Gemini 3.8 Flash as an agentic workhorse, plus a Cyber twin oriented toward vulnerability hunting.",
+      "url": "https://venturebeat.com/security/googles-gemini-3-8-flash-is-built-for-agents-while-its-cyber-twin-hunts-vulnerabilities",
+      "sourceName": "VentureBeat",
+      "sourceId": "venturebeat",
+      "sourceHome": "https://venturebeat.com/category/ai/"
     },
     {
       "title": "Abliteration.ai sells de-guardrailed models",
@@ -67,71 +115,23 @@
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "Meta discounts Muse Spark for training data",
-      "summary": "Contributor tier ~95% off ($0.10/$0.20) if you share prompts/outputs; standard stays $1.25/$4.25.",
-      "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Why AI-generated food looks like that",
-      "summary": "The Verge on wormy noodles and uncanny AI menus — diffusion priors make synthetic food look samey.",
+      "title": "Why AI-generated food looks so wrong",
+      "summary": "Worms, holes, and cracks in AI food photos expose image-generator weaknesses as restaurants lean on synthetic menus.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/989376/ai-generated-food-why-does-it-look-like-that",
       "sourceName": "The Verge",
       "sourceId": "verge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/"
     },
     {
-      "title": "Microsoft Project Zenith for AI PCs",
-      "summary": "Project Zenith: distraction-free Windows for developers on high-memory AI PCs running 30B+ models locally.",
-      "url": "https://www.theverge.com/news/990051/microsoft-project-zenith-windows-developers",
-      "sourceName": "The Verge",
-      "sourceId": "verge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/"
-    },
-    {
-      "title": "Meta Muse Spark 1.3 — best config still gated",
-      "summary": "Muse Spark 1.3 ships coding/agent gains; strongest max-reasoning config still in safety testing.",
-      "url": "https://venturebeat.com/technology/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet",
-      "sourceName": "VentureBeat",
-      "sourceId": "venturebeat",
-      "sourceHome": "https://venturebeat.com/category/ai/"
-    },
-    {
-      "title": "Perplexity Hybrid Compute keeps files local",
-      "summary": "Perplexity Computer can hand confidential steps to on-device models on Apple silicon Macs; Pro/Max + opt-in enterprise on macOS 15+.",
-      "url": "https://venturebeat.com/orchestration/your-files-stay-put-perplexitys-hybrid-ai-keeps-confidential-data-off-the-cloud",
-      "sourceName": "VentureBeat",
-      "sourceId": "venturebeat",
-      "sourceHome": "https://venturebeat.com/category/ai/"
-    },
-    {
-      "title": "Anthropic cuts Fable 5.1 cache reads 75%",
-      "summary": "Fable 5.1 cache hits drop to $0.25/MTok from $1.00 — better long-context agent economics.",
-      "url": "https://venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads",
-      "sourceName": "VentureBeat",
-      "sourceId": "venturebeat",
-      "sourceHome": "https://venturebeat.com/category/ai/"
-    },
-    {
-      "title": "Microsoft MAI-Transcribe-2 at $0.10/hour",
-      "summary": "MAI-Transcribe-2 at 10¢/hour with 60 languages, diarization, timestamps — undercuts major rivals.",
-      "url": "https://venturebeat.com/infrastructure/microsoft-ais-mai-transcribe-2-undercuts-openai-google-and-elevenlabs-on-price-and-speed",
-      "sourceName": "VentureBeat",
-      "sourceId": "venturebeat",
-      "sourceHome": "https://venturebeat.com/category/ai/"
-    },
-    {
-      "title": "Qwen3.8-27B on Cerebras at 1,500 tok/s",
-      "summary": "Cerebras serves Qwen3.8-27B at ~1,500 tok/s with 128K context; $0.99/$1.49 per MTok I/O.",
+      "title": "Qwen3.8-27B on Cerebras at ~1,500 tok/s",
+      "summary": "Cerebras serves Qwen3.8-27B at ~1,500 tok/s; paid 128K context at $0.99/$1.49 per MTok I/O.",
       "url": "https://ai-tldr.dev/releases/cerebras-qwen-3-8-27b/",
       "sourceName": "AI/TLDR",
       "sourceId": "aitldr",
       "sourceHome": "https://ai-tldr.dev/"
     },
     {
-      "title": "Coding agents agree on tools only 42%",
+      "title": "Coding agents agree on tools only 42% of the time",
       "summary": "Armature: 16,893 sessions across Claude Code, Codex, Cursor — same third-party tool only 42% of the time.",
       "url": "https://ai-tldr.dev/releases/armature-coding-agent-tool-choice/",
       "sourceName": "AI/TLDR",
@@ -139,25 +139,25 @@
       "sourceHome": "https://ai-tldr.dev/"
     },
     {
-      "title": "LLaDA-Image — 6B open image generator",
-      "summary": "Ant Group’s inclusionAI LLaDA-Image: 6B open-weight gen/edit + 4-step Turbo. Qwen-Image-Bench ~53.5 EN / 53.4 ZH.",
-      "url": "https://ai-tldr.dev/releases/inclusionai-llada-image/",
+      "title": "Claude Code 2.1.260 adds live diff panel",
+      "summary": "Claude Code shows uncommitted diffs beside chat; fixes permission paths with parentheses that left folders writable.",
+      "url": "https://ai-tldr.dev/releases/anthropic-claude-code-2-1-260/",
       "sourceName": "AI/TLDR",
       "sourceId": "aitldr",
       "sourceHome": "https://ai-tldr.dev/"
     },
     {
-      "title": "DeepSeek plans 160k Huawei chips for Mongolia DC",
-      "summary": "DeepSeek plans ≥160,000 Huawei AI chips at an Inner Mongolia DC amid Nvidia export curbs. (Prismix)",
-      "url": "https://prismix.dev/news",
-      "sourceName": "Prismix",
-      "sourceId": "prismix",
-      "sourceHome": "https://prismix.dev/news"
+      "title": "Astra ARC-AGI-3: 99.9% with provider harness",
+      "summary": "ARC Prize: Astra 62.7% standard vs 99.9% Provider Adapter harness on Semi-Private — huge harness effect.",
+      "url": "https://ai-tldr.dev/releases/arcprize-astra-arc-agi-3/",
+      "sourceName": "AI/TLDR",
+      "sourceId": "aitldr",
+      "sourceHome": "https://ai-tldr.dev/"
     },
     {
-      "title": "ByteDance secures ~$30B loan for AI spend",
-      "summary": "ByteDance borrowing ~$30B — its biggest loan — as AI infrastructure spend ramps. (Prismix)",
-      "url": "https://prismix.dev/news",
+      "title": "Anthropic may build payments in-house vs Stripe",
+      "summary": "Job posts suggest Anthropic evaluating in-house billing/fraud infra that could reduce Stripe reliance. (Prismix)",
+      "url": "https://prismix.dev/news/08ea79936de6",
       "sourceName": "Prismix",
       "sourceId": "prismix",
       "sourceHome": "https://prismix.dev/news"
