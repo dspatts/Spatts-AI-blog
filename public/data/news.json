@@ -56,8 +56,8 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-04T11:39:34.347Z",
-  "refreshedAt": "2026-09-04T11:39:34.347Z",
+  "briefingDate": "2026-09-04T11:58:34.885Z",
+  "refreshedAt": "2026-09-04T11:58:34.885Z",
   "posts": [
     {
       "id": "curated:https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
@@ -153,7 +153,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-03T19:49:10.000Z",
       "publishedTs": 1788464950000,
-      "score": 183786,
+      "score": 184857,
       "authorHandle": "sama"
     },
     {
@@ -166,7 +166,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-03T19:32:13.000Z",
       "publishedTs": 1788463933000,
-      "score": 1393603,
+      "score": 1418177,
       "authorHandle": "openai"
     },
     {
@@ -179,7 +179,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-01T18:03:14.000Z",
       "publishedTs": 1788285794000,
-      "score": 319038,
+      "score": 319077,
       "authorHandle": "claudeai"
     }
   ]
