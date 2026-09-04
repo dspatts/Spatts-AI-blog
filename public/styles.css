@@ -218,3 +218,19 @@ footer {
     grid-column: 1 / -1;
   }
 }
+
+.source {
+  margin: 0 0 0.35rem;
+  font-family: "Outfit", system-ui, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.source a {
+  color: #8b6b4a;
+  text-decoration: none;
+}
+.source a:hover {
+  text-decoration: underline;
+}

@@ -6,168 +6,238 @@ import { fileURLToPath } from "node:url";
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const DATA_PATH = join(ROOT, "public", "data", "news.json");
 const INDEX_PATH = join(ROOT, "public", "index.html");
-const API = "https://api.fxtwitter.com";
-const UA = "SpattsAiBlog/1.0 (+local daily briefing)";
+const UA =
+  "SpattsAiBlog/1.1 (+https://dspatts.github.io/Spatts-AI-blog/; news aggregator)";
+const TOP_N = 12;
 
-const SEARCH_QUERY =
-  'lang:en (OpenAI OR Anthropic OR DeepMind OR xAI OR "artificial intelligence" OR LLM OR Claude OR Gemini OR Grok)';
-
-const ACCOUNTS = [
-  "OpenAI",
-  "AnthropicAI",
-  "GoogleDeepMind",
-  "AIatMeta",
-  "claudeai",
-  "NVIDIA",
-  "HuggingFace",
-  "MistralAI",
-  "sama",
-  "karpathy",
-  "techcrunch",
-  "TheInformation",
+/** @type {{id:string,name:string,feeds:string[],home:string}[]} */
+const SOURCES = [
+  {
+    id: "techcrunch",
+    name: "TechCrunch",
+    home: "https://techcrunch.com/category/artificial-intelligence/",
+    feeds: ["https://techcrunch.com/category/artificial-intelligence/feed/"],
+  },
+  {
+    id: "venturebeat",
+    name: "VentureBeat",
+    home: "https://venturebeat.com/category/ai/",
+    feeds: [
+      "https://venturebeat.com/category/ai/feed/",
+      "https://news.google.com/rss/search?q=site:venturebeat.com+(AI+OR+OpenAI+OR+Anthropic+OR+GPT+OR+Claude)+when:3d&hl=en-US&gl=US&ceid=US:en",
+    ],
+  },
+  {
+    id: "verge",
+    name: "The Verge",
+    home: "https://www.theverge.com/ai-artificial-intelligence/",
+    feeds: ["https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"],
+  },
+  {
+    id: "aitldr",
+    name: "AI/TLDR",
+    home: "https://ai-tldr.dev/",
+    feeds: ["https://ai-tldr.dev/feed.xml"],
+  },
+  {
+    id: "signal",
+    name: "The Signal",
+    home: "https://infinitytechstack.uk/ai-signal",
+    feeds: [
+      "https://infinitytechstack.uk/ai-signal",
+      "https://prismix.dev/news",
+    ],
+  },
 ];
 
-const SPAM =
-  /\b(giveaway|airdrop|promo code|follow me|subscribe to my|crypto pump|nudes)\b/i;
-const MAX_AGE_HOURS = 72;
-
-async function fetchJson(url) {
+async function fetchText(url) {
   const res = await fetch(url, {
-    headers: { "user-agent": UA, accept: "application/json" },
+    headers: {
+      "user-agent": UA,
+      accept: "application/rss+xml, application/atom+xml, application/xml, text/xml, text/html;q=0.8, */*;q=0.5",
+    },
     signal: AbortSignal.timeout(20_000),
+    redirect: "follow",
   });
   if (!res.ok) throw new Error(`${res.status} ${url}`);
-  return res.json();
+  return { text: await res.text(), finalUrl: res.url, type: res.headers.get("content-type") || "" };
 }
 
-async function searchFeed(feed) {
-  const url = `${API}/2/search?q=${encodeURIComponent(SEARCH_QUERY)}&feed=${feed}&count=30`;
-  const data = await fetchJson(url);
-  return Array.isArray(data.results) ? data.results : [];
+function decodeEntities(value) {
+  return String(value)
+    .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1")
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&apos;/g, "'")
+    .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)))
+    .replace(/&#x([0-9a-f]+);/gi, (_, n) => String.fromCharCode(parseInt(n, 16)));
 }
 
-async function accountStatuses(handle) {
-  const url = `${API}/2/profile/${encodeURIComponent(handle)}/statuses?count=12`;
-  const data = await fetchJson(url);
-  return Array.isArray(data.results) ? data.results : [];
+function stripTags(html) {
+  return decodeEntities(html.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim());
 }
 
-function isStatus(item) {
-  return item && item.type === "status" && item.id && item.text;
+const AI_HINT =
+  /\b(ai|agi|llm|gpt|claude|gemini|openai|anthropic|nvidia|model|agent|ml|machine learning|deep learning|genai|chatbot|copilot)\b/i;
+
+function looksLikeAiStory(item) {
+  const hay = `${item.title} ${item.summary} ${item.url}`;
+  if (/inducement grants|managing director|advertising:|corrects foothill|nasdaq listing/i.test(hay)) {
+    return false;
+  }
+  if (item.sourceId === "venturebeat") {
+    if (/venturebeat\.com\/(technology|ai|games)\//i.test(item.url)) return true;
+    return AI_HINT.test(hay);
+  }
+  return true;
 }
 
-function score(item) {
-  const likes = item.likes || 0;
-  const reposts = item.reposts || 0;
-  const quotes = item.quotes || 0;
-  const views = item.views || 0;
-  const followers = item.author?.followers || 0;
-  const verified = item.author?.verification?.verified ? 1.15 : 1;
-  const replyPenalty = item.replying_to ? 0.55 : 1;
-  const ageHours = Math.max(
-    0,
-    (Date.now() / 1000 - (item.created_timestamp || 0)) / 3600,
-  );
-  const recency = ageHours < 36 ? 1.2 : ageHours < 72 ? 1 : 0.7;
-  const social = likes + reposts * 3 + quotes * 4 + views / 400;
-  const reach = Math.log10(followers + 10);
-  return social * verified * replyPenalty * recency * (1 + reach / 8);
-}
-
-function titleFrom(text) {
-  const cleaned = text.replace(/\s+/g, " ").replace(/https?:\/\/\S+/g, "").trim();
-  const first = cleaned.split(/(?<=[.!?])\s+/)[0] || cleaned;
-  return first.length > 110 ? `${first.slice(0, 107).trim()}…` : first;
-}
-
-/** One short blurb for the card — first sentence-ish, capped tightly. */
-function summaryFrom(text) {
-  const cleaned = text
-    .replace(/\s+/g, " ")
-    .replace(/https?:\/\/\S+/g, "")
-    .replace(/@\w+/g, "")
-    .replace(/\s+/g, " ")
-    .replace(/\s+([,.;:!?])/g, "$1")
-    .trim();
+function summaryFrom(text, max = 140) {
+  const cleaned = stripTags(text || "");
   if (!cleaned) return "";
-  let sentence = (cleaned.split(/(?<=[.!?])\s+/)[0] || cleaned).trim();
-  sentence = sentence
-    .replace(/\b(and|or|with|for|to|of|,)\s*[.!?]?$/i, "")
-    .replace(/[,:;\-–—]+$/g, "")
-    .trim();
-  const max = 140;
+  const sentence = cleaned.split(/(?<=[.!?])\s+/)[0] || cleaned;
   if (sentence.length <= max) return sentence;
   const cut = sentence.slice(0, max - 1);
   const atWord = cut.lastIndexOf(" ");
   return `${(atWord > 80 ? cut.slice(0, atWord) : cut).trim()}…`;
 }
 
-function normalize(item) {
-  return {
-    id: item.id,
-    url: item.url,
-    title: titleFrom(item.text),
-    text: item.text.trim(),
-    summary: summaryFrom(item.text),
-    createdAt: item.created_at,
-    createdTimestamp: item.created_timestamp,
-    likes: item.likes || 0,
-    reposts: item.reposts || 0,
-    quotes: item.quotes || 0,
-    views: item.views || 0,
-    lang: item.lang || "",
-    author: {
-      name: item.author?.name || item.author?.screen_name || "Unknown",
-      handle: item.author?.screen_name || "",
-      url: item.author?.url || "",
-      avatar: item.author?.avatar_url || "",
-      followers: item.author?.followers || 0,
-      verified: Boolean(item.author?.verification?.verified),
-    },
-    score: Math.round(score(item)),
-  };
+function parseRssOrAtom(xml, source) {
+  const items = [];
+  const blocks = [
+    ...xml.matchAll(/<item\b[\s\S]*?<\/item>/gi),
+    ...xml.matchAll(/<entry\b[\s\S]*?<\/entry>/gi),
+  ];
+  for (const match of blocks) {
+    const block = match[0];
+    const title = decodeEntities(
+      (block.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1] || "").trim(),
+    );
+    let link =
+      block.match(/<link[^>]*href=["']([^"']+)["'][^>]*>/i)?.[1] ||
+      block.match(/<link[^>]*>([\s\S]*?)<\/link>/i)?.[1] ||
+      "";
+    link = decodeEntities(stripTags(link));
+    // Google News wraps original URL
+    const googleReal = link.match(/url=([^&]+)/);
+    if (googleReal) {
+      try {
+        link = decodeURIComponent(googleReal[1]);
+      } catch {
+        /* keep */
+      }
+    }
+    const rawDate =
+      block.match(/<pubDate[^>]*>([\s\S]*?)<\/pubDate>/i)?.[1] ||
+      block.match(/<published[^>]*>([\s\S]*?)<\/published>/i)?.[1] ||
+      block.match(/<updated[^>]*>([\s\S]*?)<\/updated>/i)?.[1] ||
+      "";
+    const description =
+      block.match(/<description[^>]*>([\s\S]*?)<\/description>/i)?.[1] ||
+      block.match(/<summary[^>]*>([\s\S]*?)<\/summary>/i)?.[1] ||
+      block.match(/<content[^>]*>([\s\S]*?)<\/content>/i)?.[1] ||
+      "";
+    if (!title || !link) continue;
+    const date = new Date(decodeEntities(stripTags(rawDate)));
+    items.push({
+      id: `${source.id}:${link}`,
+      url: link,
+      title: stripTags(title),
+      summary: summaryFrom(description || title),
+      sourceId: source.id,
+      sourceName: source.name,
+      sourceHome: source.home,
+      publishedAt: Number.isNaN(date.getTime()) ? null : date.toISOString(),
+      publishedTs: Number.isNaN(date.getTime()) ? 0 : date.getTime(),
+    });
+  }
+  return items;
 }
 
-function ageHours(item) {
-  return Math.max(0, (Date.now() / 1000 - (item.created_timestamp || 0)) / 3600);
+function parsePrismixOrHtml(html, source) {
+  const items = [];
+  // Prefer obvious article anchors
+  const re =
+    /<a[^>]+href=["'](https?:\/\/[^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi;
+  const seen = new Set();
+  for (const match of html.matchAll(re)) {
+    const url = match[1];
+    const title = stripTags(match[2]);
+    if (!title || title.length < 20 || title.length > 180) continue;
+    if (seen.has(url)) continue;
+    if (/privacy|terms|login|signup|twitter|x\.com|facebook|linkedin/i.test(url))
+      continue;
+    seen.add(url);
+    items.push({
+      id: `${source.id}:${url}`,
+      url,
+      title,
+      summary: summaryFrom(title),
+      sourceId: source.id,
+      sourceName: source.name,
+      sourceHome: source.home,
+      publishedAt: null,
+      publishedTs: Date.now(),
+    });
+    if (items.length >= 8) break;
+  }
+  return items;
 }
 
-function keep(item) {
-  if (!isStatus(item)) return false;
-  if (item.lang && item.lang !== "en") return false;
-  if (SPAM.test(item.text)) return false;
-  if (ageHours(item) > MAX_AGE_HOURS) return false;
-  const likes = item.likes || 0;
-  const views = item.views || 0;
-  const followers = item.author?.followers || 0;
-  const verified = Boolean(item.author?.verification?.verified);
-  const official = ACCOUNTS.map((a) => a.toLowerCase()).includes(
-    (item.author?.screen_name || "").toLowerCase(),
-  );
-  if (official) return item.text.trim().length > 40;
-  if (verified && followers >= 20_000 && item.text.trim().length > 50) return true;
-  return (likes >= 80 || views >= 15_000) && followers >= 1500;
+async function harvestSource(source) {
+  const errors = [];
+  for (const feed of source.feeds) {
+    try {
+      const { text, type } = await fetchText(feed);
+      if (/429|security checkpoint|just a moment/i.test(text.slice(0, 500))) {
+        errors.push(`blocked ${feed}`);
+        continue;
+      }
+      let items = [];
+      if (
+        /<rss\b|<feed\b|<item\b|<entry\b/i.test(text) ||
+        /xml/i.test(type)
+      ) {
+        items = parseRssOrAtom(text, source);
+      } else {
+        items = parsePrismixOrHtml(text, source);
+      }
+      if (items.length) return { items, errors };
+      errors.push(`empty ${feed}`);
+    } catch (err) {
+      errors.push(String(err.message || err));
+    }
+  }
+  return { items: [], errors };
 }
-
-const TOP_N = 10;
 
 function pickTop(items) {
-  const byId = new Map();
-  for (const item of items.filter(keep)) {
-    if (!byId.has(item.id)) byId.set(item.id, item);
+  const byUrl = new Map();
+  for (const item of items.filter(looksLikeAiStory)) {
+    const key = item.url.replace(/[?#].*$/, "");
+    if (!byUrl.has(key)) byUrl.set(key, item);
   }
-  const ranked = [...byId.values()].sort((a, b) => score(b) - score(a));
+  const ranked = [...byUrl.values()].sort((a, b) => {
+    if (b.publishedTs !== a.publishedTs) return b.publishedTs - a.publishedTs;
+    return a.title.localeCompare(b.title);
+  });
+
+  // Prefer diversity across sources, then fill
   const chosen = [];
-  const authors = new Set();
-  const titles = [];
+  const perSource = new Map();
   for (const item of ranked) {
-    const handle = (item.author?.screen_name || "").toLowerCase();
-    const title = titleFrom(item.text).slice(0, 48).toLowerCase();
-    if (authors.has(handle)) continue;
-    if (titles.some((t) => title.startsWith(t) || t.startsWith(title))) continue;
-    chosen.push(normalize(item));
-    authors.add(handle);
-    titles.push(title);
+    const count = perSource.get(item.sourceId) || 0;
+    if (count >= 3) continue;
+    chosen.push(item);
+    perSource.set(item.sourceId, count + 1);
+    if (chosen.length === TOP_N) return chosen;
+  }
+  for (const item of ranked) {
+    if (chosen.includes(item)) continue;
+    chosen.push(item);
     if (chosen.length === TOP_N) break;
   }
   return chosen;
@@ -181,15 +251,9 @@ function escapeHtml(value) {
     .replaceAll('"', "&quot;");
 }
 
-function formatNumber(n) {
-  if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M`;
-  if (n >= 1_000) return `${(n / 1_000).toFixed(1)}K`;
-  return String(n);
-}
-
-function formatWhen(isoLike, timestamp) {
-  const date = timestamp ? new Date(timestamp * 1000) : new Date(isoLike);
-  if (Number.isNaN(date.getTime())) return isoLike || "";
+function formatWhen(iso) {
+  const date = iso ? new Date(iso) : new Date();
+  if (Number.isNaN(date.getTime())) return "";
   return new Intl.DateTimeFormat("en-AU", {
     dateStyle: "medium",
     timeStyle: "short",
@@ -201,40 +265,39 @@ function renderHtml(payload) {
   const stories = payload.posts
     .map((post, index) => {
       const rank = String(index + 1).padStart(2, "0");
-      const avatar = post.author.avatar
-        ? `<img src="${escapeHtml(post.author.avatar)}" alt="" width="28" height="28">`
-        : "";
+      const when = post.publishedAt ? formatWhen(post.publishedAt) : "";
       return `<article class="story">
   <div class="rank">${rank}</div>
   <div>
+    <p class="source"><a href="${escapeHtml(post.sourceHome)}" target="_blank" rel="noopener noreferrer">${escapeHtml(post.sourceName)}</a></p>
     <h2><a href="${escapeHtml(post.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(post.title)}</a></h2>
     <div class="meta">
-      <span class="author">${avatar}<span>${escapeHtml(post.author.name)} · @${escapeHtml(post.author.handle)}</span></span>
-      <span>${escapeHtml(formatWhen(post.createdAt, post.createdTimestamp))}</span>
+      ${when ? `<span>${escapeHtml(when)}</span>` : ""}
     </div>
   </div>
-  <p class="body">${escapeHtml(post.summary || summaryFrom(post.text))}</p>
+  <p class="body">${escapeHtml(post.summary)}</p>
   <div class="stats">
-    <span>${formatNumber(post.likes)} likes</span>
-    <span>${formatNumber(post.reposts)} reposts</span>
-    <span>${formatNumber(post.views)} views</span>
-    <a class="x-link" href="${escapeHtml(post.url)}" target="_blank" rel="noopener noreferrer">Read on X →</a>
+    <a class="x-link" href="${escapeHtml(post.url)}" target="_blank" rel="noopener noreferrer">Read story →</a>
   </div>
 </article>`;
     })
     .join("\n");
 
-  const empty = `<div class="empty">No posts made it through today’s filter. The next refresh will try again.</div>`;
+  const empty =
+    `<div class="empty">No stories made it through this harvest. The next refresh will try again.</div>`;
   const refreshed = formatWhen(payload.refreshedAt);
-  const briefing = formatWhen(payload.briefingDate);
+  const sourcesLine = (payload.sources || [])
+    .map((s) => `${s.name}${s.count ? ` (${s.count})` : s.ok ? "" : " (skipped)"}`)
+    .join(" · ");
 
   return `<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Spatts Ai Blog — Top 10 from X</title>
-  <meta name="description" content="Daily top 10 AI posts from X.com, curated for Spatts Ai Blog.">
+  <title>Spatts Ai Blog — AI news</title>
+  <meta name="description" content="Top AI news from TechCrunch, VentureBeat, The Verge, AI/TLDR, and The Signal. Refreshed every 30 minutes.">
+  <meta http-equiv="refresh" content="1800">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;600;700&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
@@ -243,43 +306,44 @@ function renderHtml(payload) {
 <body>
   <div class="wrap">
     <header class="masthead">
-      <p class="kicker"><span>Sourced from X.com</span><span>Refreshed daily</span></p>
+      <p class="kicker"><span>Multi-source AI news</span><span>Every 30 minutes</span></p>
       <h1>Spatts Ai Blog</h1>
       <p class="dateline">
-        <strong>${escapeHtml(briefing)}</strong>
-        <span>Top 10 latest AI posts</span>
+        <strong>${escapeHtml(refreshed)}</strong>
+        <span>Top stories right now</span>
       </p>
     </header>
     <main class="grid">
       ${stories || empty}
     </main>
-    <p class="status">Last refresh: ${escapeHtml(refreshed)} · Ranked by recency, reach, and engagement.</p>
-    <footer>Spatts Ai Blog is a local daily briefing. Original posts stay on X; this page only lists the day’s top ten.</footer>
+    <p class="status">Last refresh: ${escapeHtml(refreshed)} · ${escapeHtml(sourcesLine)}</p>
+    <footer>Spatts Ai Blog aggregates headlines from TechCrunch, VentureBeat, The Verge, AI/TLDR, and The Signal. Original articles stay on their publishers’ sites.</footer>
   </div>
 </body>
 </html>
 `;
 }
 
-async function gather() {
-  const batches = await Promise.allSettled([
-    searchFeed("top"),
-    searchFeed("latest"),
-    ...ACCOUNTS.map((handle) => accountStatuses(handle)),
-  ]);
-  const items = [];
-  for (const result of batches) {
-    if (result.status === "fulfilled") items.push(...result.value);
-    else console.error(String(result.reason?.message || result.reason));
-  }
-  return items;
-}
-
 export async function refreshNews() {
-  const items = await gather();
-  const posts = pickTop(items);
+  const all = [];
+  const sourceStats = [];
+  for (const source of SOURCES) {
+    const { items, errors } = await harvestSource(source);
+    sourceStats.push({
+      id: source.id,
+      name: source.name,
+      ok: items.length > 0,
+      count: items.length,
+      errors,
+    });
+    if (errors.length) console.error(source.id, errors.join("; "));
+    all.push(...items);
+  }
+
+  const posts = pickTop(all);
   const payload = {
-    source: "x.com",
+    source: "multi",
+    sources: sourceStats,
     briefingDate: new Date().toISOString(),
     refreshedAt: new Date().toISOString(),
     posts,
@@ -290,8 +354,11 @@ export async function refreshNews() {
   return payload;
 }
 
-const isDirect = process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1];
+const isDirect =
+  process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1];
 if (isDirect) {
   const payload = await refreshNews();
-  console.log(`Wrote ${payload.posts.length} posts to public/index.html`);
+  console.log(
+    `Wrote ${payload.posts.length} posts from ${payload.sources.filter((s) => s.ok).length}/${payload.sources.length} sources`,
+  );
 }

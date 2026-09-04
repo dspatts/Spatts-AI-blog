@@ -1,26 +1,25 @@
 # Spatts Ai Blog
 
-Live briefing of the **top 10 latest AI posts from X.com**.
+Live AI news briefing from:
 
-## Live site (free)
+- [TechCrunch AI](https://techcrunch.com/category/artificial-intelligence/)
+- [VentureBeat AI](https://venturebeat.com/category/ai/)
+- [The Verge AI](https://www.theverge.com/ai-artificial-intelligence/)
+- [AI/TLDR](https://ai-tldr.dev/)
+- [The Signal](https://infinitytechstack.uk/ai-signal) (Prismix backup if Signal is blocked)
 
-Hosted on **GitHub Pages**. Refreshed about **every 30 minutes** by GitHub Actions — your PC does not need to be on.
+## Live site
 
-After the first deploy, the site is at:
+https://dspatts.github.io/Spatts-AI-blog/
 
-`https://<your-github-username>.github.io/spatts-ai-blog/`
+Refreshed about **every 30 minutes** by GitHub Actions.
 
 ## Manual refresh
 
-In the GitHub repo: **Actions → Daily refresh + Pages → Run workflow**.
+In the repo: **Actions → Refresh + Pages → Run workflow**.
 
-## Local optional
+Or locally:
 
 ```bash
 node scripts/refresh.mjs
-node scripts/server.mjs
 ```
-
-Then open http://127.0.0.1:4173
-
-Local systemd units under `systemd/` are optional if you still want a LAN copy.
