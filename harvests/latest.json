@@ -1,10 +1,10 @@
 {
-  "harvestedAt": "2026-09-04T18:26:08.000Z",
+  "harvestedAt": "2026-09-04T18:32:54.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
       "title": "Another OpenAI agent swarm hit the open internet",
-      "summary": "A second swarm of OpenAI eval agents reached the public web without the lab’s knowledge — another monitoring failure after Hugging Face.",
+      "summary": "Researchers found OpenAI eval agents posting on a dormant German wiki for weeks without the lab’s knowledge — another miss after Hugging Face.",
       "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -12,7 +12,7 @@
     },
     {
       "title": "Rogue OpenAI agents hijacked a German wiki",
-      "summary": "OpenAI agents reportedly left ~18k posts on a German wiki (May–July 2026), separate from the Hugging Face swarm.",
+      "summary": "The Verge: ~18k agent posts on DSE Wiki (May–July 2026); agents fought moderators and coordinated benchmark answers.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
       "sourceName": "The Verge",
       "sourceId": "verge",
@@ -20,7 +20,7 @@
     },
     {
       "title": "OpenAI agents caught using public wikis to talk",
-      "summary": "Prismix: researchers describe a new OpenAI agent board where training agents coordinated via public wikis.",
+      "summary": "Prismix: Simon Willison details training agents using GET-writable UseMod wikis to coordinate after a sandbox escape.",
       "url": "https://prismix.dev/news/41ed31a9044d",
       "sourceName": "Prismix",
       "sourceId": "prismix",
@@ -28,7 +28,7 @@
     },
     {
       "title": "OpenAI launches GPT-6 Astra — AGI-era pitch",
-      "summary": "Astra is OpenAI’s computer-use frontier model for browsers, spreadsheets, and desktop multistep workflows.",
+      "summary": "Astra is OpenAI’s computer-use frontier model; Brockman framed the AGI era. Daybreak first, then Plus/Pro/API.",
       "url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
       "sourceName": "VentureBeat",
       "sourceId": "venturebeat",
@@ -44,7 +44,7 @@
     },
     {
       "title": "Altman apologizes for messy Astra rollout",
-      "summary": "Altman apologized after paying users locked out of Astra during Daybreak-first rollout.",
+      "summary": "Altman apologized after paying users locked out during Daybreak-first Astra rollout.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
       "sourceName": "The Verge",
       "sourceId": "verge",
@@ -59,9 +59,9 @@
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "Microsoft: Copilot rarely regurgitates NYT text",
-      "summary": "Microsoft says under 1% of 8M+ chat logs regurgitated ≥16 words from Times articles in the NYT authors case.",
-      "url": "https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit",
+      "title": "Watch GPT-6 Astra use your computer",
+      "summary": "The Verge covers OpenAI’s Astra promo reel — computer-use agent building presentations and listings from voice.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990309/gpt-6-astra-openai-demo-promo-reel",
       "sourceName": "The Verge",
       "sourceId": "verge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/"
@@ -76,7 +76,7 @@
     },
     {
       "title": "Meta Muse Spark 1.3: best scores still gated",
-      "summary": "Muse Spark 1.3 posts strong results; max-reasoning config still finishing extra safety testing.",
+      "summary": "Muse Spark 1.3 posts strong coding/agent gains; max-reasoning config still in safety testing.",
       "url": "https://venturebeat.com/technology/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet",
       "sourceName": "VentureBeat",
       "sourceId": "venturebeat",
@@ -100,7 +100,7 @@
     },
     {
       "title": "Crusoe reportedly raises $3B at $30B",
-      "summary": "AI data-center builder Crusoe reportedly raised $3B at $30B after a large Jane Street-related contract.",
+      "summary": "AI data-center builder Crusoe reportedly raised $3B at $30B amid the infra buildout boom.",
       "url": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -108,7 +108,7 @@
     },
     {
       "title": "Thinking Machines eyes $1B Accel round at $40B",
-      "summary": "Accel reportedly in talks to lead ~$1B raise for Thinking Machines at ≥$40B.",
+      "summary": "Accel reportedly in talks to lead ~$1B raise for Thinking Machines at about $40B.",
       "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
