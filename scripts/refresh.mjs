@@ -567,8 +567,8 @@ function renderHtml(payload) {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Spatts Ai Blog — AI news</title>
-  <meta name="description" content="Top AI news from TechCrunch, VentureBeat, The Verge, AI/TLDR, The Signal, and X. Refreshed every 30 minutes.">
-  <meta http-equiv="refresh" content="1800">
+  <meta name="description" content="Top AI news from TechCrunch, VentureBeat, The Verge, AI/TLDR, The Signal, and X. Refreshed every 3 hours.">
+  <meta http-equiv="refresh" content="10800">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -577,7 +577,7 @@ function renderHtml(payload) {
 <body>
   <div class="wrap">
     <header class="masthead">
-      <p class="kicker"><span>Multi-source AI news</span><span>Every 30 minutes</span></p>
+      <p class="kicker"><span>Multi-source AI news</span><span>Every 3 hours</span></p>
       <h1>Spatts Ai Blog</h1>
       <p class="dateline">
         <strong>${escapeHtml(refreshed)}</strong>

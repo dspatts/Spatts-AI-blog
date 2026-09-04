@@ -2,8 +2,8 @@ name: Refresh + Pages
 
 on:
   schedule:
-    # Every 30 minutes (UTC). GitHub can delay schedules slightly under load.
-    - cron: "*/30 * * * *"
+    # Top of every 3rd hour UTC. GitHub can delay schedules slightly under load.
+    - cron: "0 */3 * * *"
   push:
     branches: [main, master]
   workflow_dispatch:

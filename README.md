@@ -13,7 +13,7 @@ Live AI news briefing from:
 
 https://dspatts.github.io/Spatts-AI-blog/
 
-Refreshed about **every 30 minutes** by GitHub Actions.
+Refreshed about **every 3 hours** by GitHub Actions.
 
 ## Manual refresh
 
