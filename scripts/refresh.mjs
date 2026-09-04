@@ -8,9 +8,36 @@ const DATA_PATH = join(ROOT, "public", "data", "news.json");
 const INDEX_PATH = join(ROOT, "public", "index.html");
 const CURATED_PATH = join(ROOT, "harvests", "latest.json");
 const UA =
-  "SpattsAiBlog/1.2 (+https://dspatts.github.io/Spatts-AI-blog/; news aggregator)";
+  "SpattsAiBlog/1.3 (+https://dspatts.github.io/Spatts-AI-blog/; news aggregator)";
 const TOP_N = 10;
+const SOURCE_CAP = 3;
+const X_TOP_CAP = 3;
 const CURATED_MAX_AGE_MS = 2 * 60 * 60 * 1000;
+const FX_API = "https://api.fxtwitter.com";
+const X_SEARCH_QUERY =
+  'lang:en (OpenAI OR Anthropic OR DeepMind OR xAI OR "artificial intelligence" OR LLM OR Claude OR Gemini OR Grok)';
+const X_ACCOUNTS = [
+  "OpenAI",
+  "AnthropicAI",
+  "GoogleDeepMind",
+  "AIatMeta",
+  "claudeai",
+  "NVIDIA",
+  "HuggingFace",
+  "MistralAI",
+  "sama",
+  "karpathy",
+  "techcrunch",
+  "TheInformation",
+];
+const X_SPAM =
+  /\b(giveaway|airdrop|promo code|follow me|subscribe to my|crypto pump|nudes)\b/i;
+const X_MAX_AGE_HOURS = 72;
+const X_SOURCE = {
+  id: "x",
+  name: "X",
+  home: "https://x.com",
+};
 
 const SOURCES = [
   {
@@ -69,6 +96,21 @@ async function fetchText(url) {
     text: await res.text(),
     type: res.headers.get("content-type") || "",
   };
+}
+
+async function fetchJson(url) {
+  const res = await fetch(url, {
+    headers: { "user-agent": UA, accept: "application/json" },
+    signal: AbortSignal.timeout(20_000),
+    redirect: "follow",
+  });
+  const data = await res.json().catch(() => null);
+  // fxtwitter search is intermittently 404 with an empty results payload
+  if (!res.ok) {
+    if (res.status === 404 && data && Array.isArray(data.results)) return data;
+    throw new Error(`${res.status} ${url}`);
+  }
+  return data;
 }
 
 function decodeEntities(value) {
@@ -256,6 +298,183 @@ async function harvestSource(source) {
   return { items: [], errors };
 }
 
+async function searchXFeed(feed) {
+  const url = `${FX_API}/2/search?q=${encodeURIComponent(X_SEARCH_QUERY)}&feed=${feed}&count=30`;
+  const data = await fetchJson(url);
+  return Array.isArray(data.results) ? data.results : [];
+}
+
+async function accountStatuses(handle) {
+  const url = `${FX_API}/2/profile/${encodeURIComponent(handle)}/statuses?count=12`;
+  const data = await fetchJson(url);
+  return Array.isArray(data.results) ? data.results : [];
+}
+
+function isXStatus(item) {
+  return Boolean(item && item.type === "status" && item.id && item.text);
+}
+
+function xAgeHours(item) {
+  return Math.max(0, (Date.now() / 1000 - (item.created_timestamp || 0)) / 3600);
+}
+
+function scoreX(item) {
+  const likes = item.likes || 0;
+  const reposts = item.reposts || 0;
+  const quotes = item.quotes || 0;
+  const views = item.views || 0;
+  const followers = item.author?.followers || 0;
+  const verified = item.author?.verification?.verified ? 1.15 : 1;
+  const replyPenalty = item.replying_to ? 0.55 : 1;
+  const ageHours = xAgeHours(item);
+  const recency = ageHours < 36 ? 1.2 : ageHours < 72 ? 1 : 0.7;
+  const social = likes + reposts * 3 + quotes * 4 + views / 400;
+  const reach = Math.log10(followers + 10);
+  return social * verified * replyPenalty * recency * (1 + reach / 8);
+}
+
+function titleFromTweet(text) {
+  const cleaned = String(text || "")
+    .replace(/\s+/g, " ")
+    .replace(/https?:\/\/\S+/g, "")
+    .trim();
+  const first = cleaned.split(/(?<=[.!?])\s+/)[0] || cleaned;
+  return first.length > 110 ? `${first.slice(0, 107).trim()}…` : first;
+}
+
+function summaryFromTweet(text) {
+  const cleaned = String(text || "")
+    .replace(/\s+/g, " ")
+    .replace(/https?:\/\/\S+/g, "")
+    .replace(/@\w+/g, "")
+    .replace(/\s+/g, " ")
+    .replace(/\s+([,.;:!?])/g, "$1")
+    .trim();
+  if (!cleaned) return "";
+  let sentence = (cleaned.split(/(?<=[.!?])\s+/)[0] || cleaned).trim();
+  sentence = sentence
+    .replace(/\b(and|or|with|for|to|of|,)\s*[.!?]?$/i, "")
+    .replace(/[,:;\-–—]+$/g, "")
+    .trim();
+  return summaryFrom(sentence, 140);
+}
+
+function keepX(item) {
+  if (!isXStatus(item)) return false;
+  if (item.lang && item.lang !== "en") return false;
+  if (X_SPAM.test(item.text)) return false;
+  if (xAgeHours(item) > X_MAX_AGE_HOURS) return false;
+  const likes = item.likes || 0;
+  const views = item.views || 0;
+  const followers = item.author?.followers || 0;
+  const verified = Boolean(item.author?.verification?.verified);
+  const official = X_ACCOUNTS.map((a) => a.toLowerCase()).includes(
+    (item.author?.screen_name || "").toLowerCase(),
+  );
+  if (official) return item.text.trim().length > 40;
+  if (verified && followers >= 20_000 && item.text.trim().length > 50) return true;
+  return (likes >= 80 || views >= 15_000) && followers >= 1500;
+}
+
+function tweetUrl(item) {
+  const handle = item.author?.screen_name || "i";
+  const id = item.id;
+  const raw = String(item.url || `https://x.com/${handle}/status/${id}`);
+  return raw.replace(/^https?:\/\/(www\.)?twitter\.com\//i, "https://x.com/");
+}
+
+function toXItem(item) {
+  const ts = item.created_timestamp
+    ? item.created_timestamp * 1000
+    : Date.parse(item.created_at) || 0;
+  return {
+    id: `x:${item.id}`,
+    url: tweetUrl(item),
+    title: titleFromTweet(item.text),
+    summary: summaryFromTweet(item.text) || summaryFrom(item.text),
+    sourceId: X_SOURCE.id,
+    sourceName: X_SOURCE.name,
+    sourceHome: X_SOURCE.home,
+    publishedAt: ts ? new Date(ts).toISOString() : item.created_at || null,
+    publishedTs: ts || 0,
+    score: Math.round(scoreX(item)),
+    authorHandle: (item.author?.screen_name || "").toLowerCase(),
+  };
+}
+
+function pickXCandidates(rawItems) {
+  const byId = new Map();
+  for (const item of rawItems.filter(keepX)) {
+    if (!byId.has(item.id)) byId.set(item.id, item);
+  }
+  const ranked = [...byId.values()].sort((a, b) => scoreX(b) - scoreX(a));
+  const chosen = [];
+  const authors = new Set();
+  const titles = [];
+  for (const item of ranked) {
+    const handle = (item.author?.screen_name || "").toLowerCase();
+    const title = titleFromTweet(item.text).slice(0, 48).toLowerCase();
+    if (!title) continue;
+    if (handle && authors.has(handle)) continue;
+    if (titles.some((t) => title.startsWith(t) || t.startsWith(title))) continue;
+    chosen.push(toXItem(item));
+    if (handle) authors.add(handle);
+    titles.push(title);
+    if (chosen.length >= 12) break;
+  }
+  return chosen;
+}
+
+async function harvestX() {
+  const errors = [];
+  const batches = await Promise.allSettled([
+    searchXFeed("top"),
+    searchXFeed("latest"),
+    ...X_ACCOUNTS.map((handle) => accountStatuses(handle)),
+  ]);
+  const raw = [];
+  for (const result of batches) {
+    if (result.status === "fulfilled") raw.push(...result.value);
+    else errors.push(String(result.reason?.message || result.reason));
+  }
+  return { items: pickXCandidates(raw), errors };
+}
+
+function compareStories(a, b) {
+  if (Boolean(b.curated) !== Boolean(a.curated)) return a.curated ? -1 : 1;
+  if (b.publishedTs !== a.publishedTs) return b.publishedTs - a.publishedTs;
+  return a.title.localeCompare(b.title);
+}
+
+function pickDiverse(pool, limit, perSource, xAuthors) {
+  const chosen = [];
+  if (limit <= 0) return chosen;
+  const tryItem = (item, enforceCap) => {
+    if (chosen.includes(item)) return;
+    const count = perSource.get(item.sourceId) || 0;
+    if (enforceCap && count >= SOURCE_CAP) return;
+    if (item.sourceId === X_SOURCE.id) {
+      const handle = (item.authorHandle || "").toLowerCase();
+      if (handle && xAuthors.has(handle)) return;
+    }
+    chosen.push(item);
+    perSource.set(item.sourceId, count + 1);
+    if (item.sourceId === X_SOURCE.id) {
+      const handle = (item.authorHandle || "").toLowerCase();
+      if (handle) xAuthors.add(handle);
+    }
+  };
+  for (const item of pool) {
+    tryItem(item, true);
+    if (chosen.length === limit) return chosen;
+  }
+  for (const item of pool) {
+    tryItem(item, false);
+    if (chosen.length === limit) break;
+  }
+  return chosen;
+}
+
 function pickTop(items) {
   const byUrl = new Map();
   for (const item of items.filter(looksLikeAiStory)) {
@@ -263,27 +482,28 @@ function pickTop(items) {
     const prev = byUrl.get(key);
     if (!prev || (item.curated && !prev.curated)) byUrl.set(key, item);
   }
-  const ranked = [...byUrl.values()].sort((a, b) => {
-    if (Boolean(b.curated) !== Boolean(a.curated)) return a.curated ? -1 : 1;
-    if (b.publishedTs !== a.publishedTs) return b.publishedTs - a.publishedTs;
-    return a.title.localeCompare(b.title);
-  });
+  const unique = [...byUrl.values()];
+  const xPool = unique
+    .filter((item) => item.sourceId === X_SOURCE.id)
+    .sort(
+      (a, b) =>
+        (b.score || 0) - (a.score || 0) || b.publishedTs - a.publishedTs,
+    );
+  const otherPool = unique
+    .filter((item) => item.sourceId !== X_SOURCE.id)
+    .sort(compareStories);
 
-  const chosen = [];
   const perSource = new Map();
-  for (const item of ranked) {
-    const count = perSource.get(item.sourceId) || 0;
-    if (count >= 3) continue;
-    chosen.push(item);
-    perSource.set(item.sourceId, count + 1);
-    if (chosen.length === TOP_N) return chosen;
-  }
-  for (const item of ranked) {
-    if (chosen.includes(item)) continue;
-    chosen.push(item);
-    if (chosen.length === TOP_N) break;
-  }
-  return chosen;
+  const xAuthors = new Set();
+  // Hold up to 3 X slots so a full curated harvest cannot crowd X out.
+  const xPicked = pickDiverse(xPool, X_TOP_CAP, perSource, xAuthors);
+  const others = pickDiverse(
+    otherPool,
+    TOP_N - xPicked.length,
+    perSource,
+    xAuthors,
+  );
+  return [...others, ...xPicked].sort(compareStories);
 }
 
 function escapeHtml(value) {
@@ -309,18 +529,22 @@ function renderHtml(payload) {
     .map((post, index) => {
       const rank = String(index + 1).padStart(2, "0");
       const when = post.publishedAt ? formatWhen(post.publishedAt) : "";
+      const isX = post.sourceId === X_SOURCE.id;
+      const handle = post.authorHandle ? `@${post.authorHandle}` : "";
+      const cta = isX ? "Read on X →" : "Read story →";
       return `<article class="story">
   <div class="rank">${rank}</div>
   <div>
     <p class="source"><a href="${escapeHtml(post.sourceHome)}" target="_blank" rel="noopener noreferrer">${escapeHtml(post.sourceName)}</a></p>
     <h2><a href="${escapeHtml(post.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(post.title)}</a></h2>
     <div class="meta">
+      ${handle ? `<span>${escapeHtml(handle)}</span>` : ""}
       ${when ? `<span>${escapeHtml(when)}</span>` : ""}
     </div>
   </div>
   <p class="body">${escapeHtml(post.summary)}</p>
   <div class="stats">
-    <a class="x-link" href="${escapeHtml(post.url)}" target="_blank" rel="noopener noreferrer">Read story →</a>
+    <a class="x-link" href="${escapeHtml(post.url)}" target="_blank" rel="noopener noreferrer">${cta}</a>
   </div>
 </article>`;
     })
@@ -342,7 +566,7 @@ function renderHtml(payload) {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Spatts Ai Blog — AI news</title>
-  <meta name="description" content="Top AI news from TechCrunch, VentureBeat, The Verge, AI/TLDR, and The Signal. Refreshed every 30 minutes.">
+  <meta name="description" content="Top AI news from TechCrunch, VentureBeat, The Verge, AI/TLDR, The Signal, and X. Refreshed every 30 minutes.">
   <meta http-equiv="refresh" content="1800">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -363,7 +587,7 @@ function renderHtml(payload) {
       ${stories || empty}
     </main>
     <p class="status">Last refresh: ${escapeHtml(refreshed)} · ${escapeHtml(sourcesLine)}</p>
-    <footer>Spatts Ai Blog aggregates headlines from TechCrunch, VentureBeat, The Verge, AI/TLDR, and The Signal. Original articles stay on their publishers’ sites.</footer>
+    <footer>Spatts Ai Blog aggregates headlines from TechCrunch, VentureBeat, The Verge, AI/TLDR, The Signal, and X. Original posts stay on their publishers’ sites.</footer>
   </div>
 </body>
 </html>
@@ -383,6 +607,7 @@ export async function refreshNews() {
       errors: [],
     });
   }
+  const xPromise = harvestX();
   for (const source of SOURCES) {
     const { items, errors } = await harvestSource(source);
     sourceStats.push({
@@ -395,6 +620,16 @@ export async function refreshNews() {
     if (errors.length) console.error(source.id, errors.join("; "));
     all.push(...items);
   }
+  const { items: xItems, errors: xErrors } = await xPromise;
+  sourceStats.push({
+    id: X_SOURCE.id,
+    name: X_SOURCE.name,
+    ok: xItems.length > 0,
+    count: xItems.length,
+    errors: xErrors,
+  });
+  if (xErrors.length) console.error("x", xErrors.join("; "));
+  all.push(...xItems);
 
   const posts = pickTop(all);
   const payload = {
@@ -415,6 +650,6 @@ const isDirect =
 if (isDirect) {
   const payload = await refreshNews();
   console.log(
-    `Wrote ${payload.posts.length} posts (${payload.posts.filter((p) => p.curated).length} curated)`,
+    `Wrote ${payload.posts.length} posts (${payload.posts.filter((p) => p.curated).length} curated, ${payload.posts.filter((p) => p.sourceId === "x").length} from X)`,
   );
 }
