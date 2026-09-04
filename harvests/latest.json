@@ -153,6 +153,30 @@
       "sourceName": "AI/TLDR",
       "sourceId": "aitldr",
       "sourceHome": "https://ai-tldr.dev/"
+    },
+    {
+      "title": "Nvidia may put $2.5B into Thinking Machines",
+      "summary": "The Information: Thinking Machines seeking $5–6B at ≥$40B; Accel may lead, with Nvidia expected to contribute about $2.5B.",
+      "url": "https://prismix.dev/news",
+      "sourceName": "Prismix",
+      "sourceId": "prismix",
+      "sourceHome": "https://prismix.dev/news"
+    },
+    {
+      "title": "DeepSeek plans huge Huawei chip order",
+      "summary": "DeepSeek reportedly plans at least 160,000 Huawei AI chips for an Inner Mongolia data center amid China’s Nvidia restrictions.",
+      "url": "https://prismix.dev/news",
+      "sourceName": "Prismix",
+      "sourceId": "prismix",
+      "sourceHome": "https://prismix.dev/news"
+    },
+    {
+      "title": "Latent.Space: Astra is OpenAI’s biggest LLM launch",
+      "summary": "Latent.Space roundup: SOTA computer use and coding, higher per-token price but often cheaper per task; less monitorable CoT.",
+      "url": "https://prismix.dev/news",
+      "sourceName": "Prismix",
+      "sourceId": "prismix",
+      "sourceHome": "https://prismix.dev/news"
     }
   ]
 }

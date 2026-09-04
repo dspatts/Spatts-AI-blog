@@ -5,7 +5,7 @@
       "id": "curated",
       "name": "Evan harvest",
       "ok": true,
-      "count": 19,
+      "count": 22,
       "errors": []
     },
     {
@@ -56,8 +56,8 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-04T11:17:53.345Z",
-  "refreshedAt": "2026-09-04T11:17:53.345Z",
+  "briefingDate": "2026-09-04T11:18:51.428Z",
+  "refreshedAt": "2026-09-04T11:18:51.428Z",
   "posts": [
     {
       "id": "curated:https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
@@ -153,7 +153,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-03T19:49:10.000Z",
       "publishedTs": 1788464950000,
-      "score": 182535,
+      "score": 182579,
       "authorHandle": "sama"
     },
     {
@@ -166,7 +166,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-03T19:32:13.000Z",
       "publishedTs": 1788463933000,
-      "score": 1366292,
+      "score": 1366954,
       "authorHandle": "openai"
     },
     {
@@ -179,7 +179,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-01T18:03:14.000Z",
       "publishedTs": 1788285794000,
-      "score": 319015,
+      "score": 319017,
       "authorHandle": "claudeai"
     }
   ]
