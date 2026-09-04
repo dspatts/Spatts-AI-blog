@@ -56,9 +56,21 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-04T11:18:51.428Z",
-  "refreshedAt": "2026-09-04T11:18:51.428Z",
+  "briefingDate": "2026-09-04T11:20:10.357Z",
+  "refreshedAt": "2026-09-04T11:20:10.357Z",
   "posts": [
+    {
+      "id": "curated:https://prismix.dev/news",
+      "url": "https://prismix.dev/news",
+      "title": "Nvidia may put $2.5B into Thinking Machines",
+      "summary": "The Information: Thinking Machines seeking $5–6B at ≥$40B; Accel may lead, with Nvidia expected to contribute about $2.5B.",
+      "sourceId": "prismix",
+      "sourceName": "Prismix",
+      "sourceHome": "https://prismix.dev/news",
+      "publishedAt": "2026-09-04T11:14:17Z",
+      "publishedTs": 1788520457000,
+      "curated": true
+    },
     {
       "id": "curated:https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
       "url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
@@ -68,7 +80,7 @@
       "sourceName": "VentureBeat",
       "sourceHome": "https://venturebeat.com/category/ai/",
       "publishedAt": "2026-09-04T11:14:17Z",
-      "publishedTs": 1788520457000,
+      "publishedTs": 1788520456997,
       "curated": true
     },
     {
@@ -80,7 +92,7 @@
       "sourceName": "TechCrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
       "publishedAt": "2026-09-04T11:14:17Z",
-      "publishedTs": 1788520456999,
+      "publishedTs": 1788520456996,
       "curated": true
     },
     {
@@ -92,7 +104,7 @@
       "sourceName": "TechCrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
       "publishedAt": "2026-09-04T11:14:17Z",
-      "publishedTs": 1788520456998,
+      "publishedTs": 1788520456995,
       "curated": true
     },
     {
@@ -104,7 +116,7 @@
       "sourceName": "TechCrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
       "publishedAt": "2026-09-04T11:14:17Z",
-      "publishedTs": 1788520456997,
+      "publishedTs": 1788520456994,
       "curated": true
     },
     {
@@ -116,7 +128,7 @@
       "sourceName": "VentureBeat",
       "sourceHome": "https://venturebeat.com/category/ai/",
       "publishedAt": "2026-09-04T11:14:17Z",
-      "publishedTs": 1788520456996,
+      "publishedTs": 1788520456993,
       "curated": true
     },
     {
@@ -128,19 +140,7 @@
       "sourceName": "VentureBeat",
       "sourceHome": "https://venturebeat.com/category/ai/",
       "publishedAt": "2026-09-04T11:14:17Z",
-      "publishedTs": 1788520456995,
-      "curated": true
-    },
-    {
-      "id": "curated:https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
-      "title": "GPT-6 Astra enters the AGI era",
-      "summary": "The Verge covers Astra’s launch as a generational leap for coding and computer use, with Critical cyber safeguards after the Hugging Face incident.",
-      "sourceId": "verge",
-      "sourceName": "The Verge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "publishedAt": "2026-09-04T11:14:17Z",
-      "publishedTs": 1788520456993,
+      "publishedTs": 1788520456992,
       "curated": true
     },
     {
@@ -153,7 +153,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-03T19:49:10.000Z",
       "publishedTs": 1788464950000,
-      "score": 182579,
+      "score": 182653,
       "authorHandle": "sama"
     },
     {
@@ -166,7 +166,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-03T19:32:13.000Z",
       "publishedTs": 1788463933000,
-      "score": 1366954,
+      "score": 1369093,
       "authorHandle": "openai"
     },
     {
@@ -179,7 +179,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-01T18:03:14.000Z",
       "publishedTs": 1788285794000,
-      "score": 319017,
+      "score": 319018,
       "authorHandle": "claudeai"
     }
   ]

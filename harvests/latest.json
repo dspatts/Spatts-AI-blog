@@ -3,6 +3,30 @@
   "harvester": "Evan The Grunt",
   "posts": [
     {
+      "title": "Nvidia may put $2.5B into Thinking Machines",
+      "summary": "The Information: Thinking Machines seeking $5\u20136B at \u2265$40B; Accel may lead, with Nvidia expected to contribute about $2.5B.",
+      "url": "https://prismix.dev/news",
+      "sourceName": "Prismix",
+      "sourceId": "prismix",
+      "sourceHome": "https://prismix.dev/news"
+    },
+    {
+      "title": "DeepSeek plans huge Huawei chip order",
+      "summary": "DeepSeek reportedly plans at least 160,000 Huawei AI chips for an Inner Mongolia data center amid China\u2019s Nvidia restrictions.",
+      "url": "https://prismix.dev/news",
+      "sourceName": "Prismix",
+      "sourceId": "prismix",
+      "sourceHome": "https://prismix.dev/news"
+    },
+    {
+      "title": "Latent.Space: Astra is OpenAI\u2019s biggest LLM launch",
+      "summary": "Latent.Space roundup: SOTA computer use and coding, higher per-token price but often cheaper per task; less monitorable CoT.",
+      "url": "https://prismix.dev/news",
+      "sourceName": "Prismix",
+      "sourceId": "prismix",
+      "sourceHome": "https://prismix.dev/news"
+    },
+    {
       "title": "OpenAI launches GPT-6 Astra",
       "summary": "OpenAI released GPT-6 Astra, a computer-use frontier model framed as entering the AGI era, rolling out via Daybreak then ChatGPT and the API.",
       "url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
@@ -20,7 +44,7 @@
     },
     {
       "title": "Thinking Machines eyes $1B Accel round",
-      "summary": "Mira Murati’s Thinking Machines Lab is reportedly discussing a $1B Accel-led raise at about $40B, with ARR already over $100M.",
+      "summary": "Mira Murati\u2019s Thinking Machines Lab is reportedly discussing a $1B Accel-led raise at about $40B, with ARR already over $100M.",
       "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -60,7 +84,7 @@
     },
     {
       "title": "GPT-6 Astra enters the AGI era",
-      "summary": "The Verge covers Astra’s launch as a generational leap for coding and computer use, with Critical cyber safeguards after the Hugging Face incident.",
+      "summary": "The Verge covers Astra\u2019s launch as a generational leap for coding and computer use, with Critical cyber safeguards after the Hugging Face incident.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
       "sourceName": "The Verge",
       "sourceId": "verge",
@@ -68,7 +92,7 @@
     },
     {
       "title": "WeatherNext 3 goes hourly at 5km",
-      "summary": "Google DeepMind’s WeatherNext 3 delivers hourly 5km forecasts from live satellite data, with up to 60% better precipitation scores vs NASA IMERG.",
+      "summary": "Google DeepMind\u2019s WeatherNext 3 delivers hourly 5km forecasts from live satellite data, with up to 60% better precipitation scores vs NASA IMERG.",
       "url": "https://www.theverge.com/tech/988921/weather-forecast-ai-model-google-satellite-update",
       "sourceName": "The Verge",
       "sourceId": "verge",
@@ -84,7 +108,7 @@
     },
     {
       "title": "Meta pays users for Muse Spark prompts",
-      "summary": "Meta’s Muse Spark contributor tier deep-discounts tokens if users share prompts and outputs to help train future models.",
+      "summary": "Meta\u2019s Muse Spark contributor tier deep-discounts tokens if users share prompts and outputs to help train future models.",
       "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -108,7 +132,7 @@
     },
     {
       "title": "Suno yanks Mary J. Blige ad",
-      "summary": "AI music firm Suno killed a Blige campaign after learning the deal wasn’t authorized by her real representatives.",
+      "summary": "AI music firm Suno killed a Blige campaign after learning the deal wasn\u2019t authorized by her real representatives.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/989910/suno-yanks-ad-showing-supposed-endorsement-from-mary-j-blige",
       "sourceName": "The Verge",
       "sourceId": "verge",
@@ -116,7 +140,7 @@
     },
     {
       "title": "Claude Code 2.1.260 live diff panel",
-      "summary": "Anthropic’s Claude Code adds a /diff panel for uncommitted changes and fixes permission rules that broke on paths with parentheses.",
+      "summary": "Anthropic\u2019s Claude Code adds a /diff panel for uncommitted changes and fixes permission rules that broke on paths with parentheses.",
       "url": "https://ai-tldr.dev/releases/anthropic-claude-code-2-1-260/",
       "sourceName": "AI/TLDR",
       "sourceId": "aitldr",
@@ -124,7 +148,7 @@
     },
     {
       "title": "LLaDA-Image: 6B open image gen",
-      "summary": "Ant Group’s inclusionAI open-weights 6B image generate/edit model; a distilled Turbo checkpoint runs in 4 steps.",
+      "summary": "Ant Group\u2019s inclusionAI open-weights 6B image generate/edit model; a distilled Turbo checkpoint runs in 4 steps.",
       "url": "https://ai-tldr.dev/releases/inclusionai-llada-image/",
       "sourceName": "AI/TLDR",
       "sourceId": "aitldr",
@@ -148,35 +172,11 @@
     },
     {
       "title": "Cohere maps 696k AI tools to job tasks",
-      "summary": "Cohere Labs’ Agentic Task Ecosystem links 696,291 tools across 123,069 MCP servers to work tasks; only 2.6% finish a task end to end.",
+      "summary": "Cohere Labs\u2019 Agentic Task Ecosystem links 696,291 tools across 123,069 MCP servers to work tasks; only 2.6% finish a task end to end.",
       "url": "https://ai-tldr.dev/releases/cohere-ate-mcp-dataset/",
       "sourceName": "AI/TLDR",
       "sourceId": "aitldr",
       "sourceHome": "https://ai-tldr.dev/"
-    },
-    {
-      "title": "Nvidia may put $2.5B into Thinking Machines",
-      "summary": "The Information: Thinking Machines seeking $5–6B at ≥$40B; Accel may lead, with Nvidia expected to contribute about $2.5B.",
-      "url": "https://prismix.dev/news",
-      "sourceName": "Prismix",
-      "sourceId": "prismix",
-      "sourceHome": "https://prismix.dev/news"
-    },
-    {
-      "title": "DeepSeek plans huge Huawei chip order",
-      "summary": "DeepSeek reportedly plans at least 160,000 Huawei AI chips for an Inner Mongolia data center amid China’s Nvidia restrictions.",
-      "url": "https://prismix.dev/news",
-      "sourceName": "Prismix",
-      "sourceId": "prismix",
-      "sourceHome": "https://prismix.dev/news"
-    },
-    {
-      "title": "Latent.Space: Astra is OpenAI’s biggest LLM launch",
-      "summary": "Latent.Space roundup: SOTA computer use and coding, higher per-token price but often cheaper per task; less monitorable CoT.",
-      "url": "https://prismix.dev/news",
-      "sourceName": "Prismix",
-      "sourceId": "prismix",
-      "sourceHome": "https://prismix.dev/news"
     }
   ]
 }
