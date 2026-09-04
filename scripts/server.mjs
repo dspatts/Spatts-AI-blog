@@ -93,7 +93,7 @@ const server = createServer(async (req, res) => {
 });
 
 server.listen(PORT, HOST, async () => {
-  console.log(`Spatts Ai Blog → http://127.0.0.1:${PORT}`);
+  console.log(`Ai Source → http://127.0.0.1:${PORT}`);
   try {
     const { networkInterfaces } = await import("node:os");
     const nets = networkInterfaces();

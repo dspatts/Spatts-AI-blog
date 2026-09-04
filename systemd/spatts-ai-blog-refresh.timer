@@ -1,5 +1,5 @@
 [Unit]
-Description=Daily Spatts Ai Blog refresh from X.com
+Description=Daily Ai Source refresh from X.com
 
 [Timer]
 OnCalendar=*-*-* 07:00:00

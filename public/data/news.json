@@ -55,8 +55,8 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-04T20:36:30.780Z",
-  "refreshedAt": "2026-09-04T20:36:30.780Z",
+  "briefingDate": "2026-09-04T20:38:39.211Z",
+  "refreshedAt": "2026-09-04T20:38:39.211Z",
   "posts": [
     {
       "id": "curated:https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
@@ -152,7 +152,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-03T19:49:10.000Z",
       "publishedTs": 1788464950000,
-      "score": 204335,
+      "score": 204355,
       "authorHandle": "sama"
     },
     {
@@ -165,7 +165,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-03T19:32:13.000Z",
       "publishedTs": 1788463933000,
-      "score": 1879902,
+      "score": 1880693,
       "authorHandle": "openai"
     },
     {
@@ -178,7 +178,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-03T12:02:49.000Z",
       "publishedTs": 1788436969000,
-      "score": 127620,
+      "score": 127628,
       "authorHandle": "jensenhuang"
     }
   ]

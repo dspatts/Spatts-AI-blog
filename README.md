@@ -1,4 +1,4 @@
-# Spatts Ai Blog
+# Ai Source
 
 Live AI news briefing from:
 

@@ -8,7 +8,7 @@ const DATA_PATH = join(ROOT, "public", "data", "news.json");
 const INDEX_PATH = join(ROOT, "public", "index.html");
 const CURATED_PATH = join(ROOT, "harvests", "latest.json");
 const UA =
-  "SpattsAiBlog/1.3 (+https://dspatts.github.io/Spatts-AI-blog/; news aggregator)";
+  "AiSource/1.3 (+https://dspatts.github.io/Spatts-AI-blog/; news aggregator)";
 const TOP_N = 10;
 const SOURCE_CAP = 3;
 const X_TOP_CAP = 3;
@@ -566,7 +566,7 @@ function renderHtml(payload) {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Spatts Ai Blog — AI news</title>
+  <title>Ai Source — AI news</title>
   <meta name="description" content="Top AI news from TechCrunch, VentureBeat, The Verge, AI/TLDR, The Signal, and X. Refreshed every 3 hours.">
   <meta http-equiv="refresh" content="10800">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -578,7 +578,7 @@ function renderHtml(payload) {
   <div class="wrap">
     <header class="masthead">
       <p class="kicker"><span>Multi-source AI news</span><span>Every 3 hours</span></p>
-      <h1>Spatts Ai Blog</h1>
+      <h1>Ai Source</h1>
       <p class="dateline">
         <strong>${escapeHtml(refreshed)}</strong>
         <span>Top 10 stories right now</span>
@@ -588,7 +588,7 @@ function renderHtml(payload) {
       ${stories || empty}
     </main>
     <p class="status">Last refresh: ${escapeHtml(refreshed)} · ${escapeHtml(sourcesLine)}</p>
-    <footer>Spatts Ai Blog aggregates headlines from TechCrunch, VentureBeat, The Verge, AI/TLDR, The Signal, and X. Original posts stay on their publishers’ sites.</footer>
+    <footer>Ai Source aggregates headlines from TechCrunch, VentureBeat, The Verge, AI/TLDR, The Signal, and X. Original posts stay on their publishers’ sites.</footer>
   </div>
 </body>
 </html>
