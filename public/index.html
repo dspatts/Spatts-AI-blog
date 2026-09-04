@@ -17,7 +17,7 @@
       <p class="kicker"><span>Multi-source AI news</span><span>Every 3 hours</span></p>
       <h1>Ai Source</h1>
       <p class="dateline">
-        <strong>5 Sept 2026, 9:07 am</strong>
+        <strong>5 Sept 2026, 9:39 am</strong>
         <span>Top 10 story clusters right now</span>
       </p>
       <nav class="filters" aria-label="Story filters"><button type="button" class="chip is-on" data-filter="all">All</button><button type="button" class="chip" data-filter="model-releases">Model releases</button><button type="button" class="chip" data-filter="agents">Agents</button><button type="button" class="chip" data-filter="funding">Funding</button><button type="button" class="chip" data-filter="research">Research</button><button type="button" class="chip" data-filter="policy">Policy</button><button type="button" class="chip" data-filter="x">X</button><button type="button" class="chip chip-rumor" data-filter="rumors">Rumors</button></nav>
@@ -28,33 +28,7 @@
     <span class="unconfirmed">Unconfirmed</span>
   </div>
   <p class="rumor-explainer">Whispers and leak-adjacent chatter. Not in the Top 10 until confirmed across outlets.</p>
-  <div class="rumor-list"><article class="rumor">
-  <div class="rumor-kicker">
-    <span class="rumor-flag">Rumor</span>
-    <span class="rumor-when">X · 3h</span>
-  </div>
-  <h3><a href="https://x.com/frontierwatch/status/2095801100000000001" target="_blank" rel="noopener noreferrer">xAI said to ship a Grok video model as soon as next week</a></h3>
-  <p class="rumor-caveat">Single X thread, no lab post or second outlet. Unconfirmed until it clusters.</p>
-  <p class="rumor-via">Via @frontierwatch</p>
-</article>
-<article class="rumor">
-  <div class="rumor-kicker">
-    <span class="rumor-flag">Rumor</span>
-    <span class="rumor-when">X · 5h</span>
-  </div>
-  <h3><a href="https://x.com/siriwatch/status/2095798800000000002" target="_blank" rel="noopener noreferrer">Apple rumored to license Claude for an on-device Siri rewrite</a></h3>
-  <p class="rumor-caveat">Leak-adjacent chatter on X only. No Apple or Anthropic confirmation.</p>
-  <p class="rumor-via">Via @siriwatch</p>
-</article>
-<article class="rumor">
-  <div class="rumor-kicker">
-    <span class="rumor-flag">Rumor</span>
-    <span class="rumor-when">X · 9h</span>
-  </div>
-  <h3><a href="https://x.com/copilotdesk/status/2095795500000000003" target="_blank" rel="noopener noreferrer">Microsoft memo said to fold MAI branding into Copilot this fall</a></h3>
-  <p class="rumor-caveat">One account’s screenshot, not replicated. Keep out of Top 10 until outlets match.</p>
-  <p class="rumor-via">Via @copilotdesk</p>
-</article></div>
+  <div class="rumor-list"><p class="rumor-empty">No unconfirmed X rumors right now.</p></div>
 </section>
     <h2 class="confirmed-label">Confirmed · Top story clusters</h2>
     <main class="grid" id="story-grid">
@@ -226,7 +200,7 @@
 </article>
       <div class="empty" id="filter-empty" hidden>No stories in this category right now.</div>
     </main>
-    <p class="status">Last refresh: 5 Sept 2026, 9:07 am · Evan harvest (20) · TechCrunch (19) · VentureBeat (21) · The Verge (10) · AI/TLDR (50) · The Signal (5) · X (12) · Rumor mill (X) (3)</p>
+    <p class="status">Last refresh: 5 Sept 2026, 9:39 am · Evan harvest (20) · TechCrunch (19) · VentureBeat (21) · The Verge (10) · AI/TLDR (50) · The Signal (5) · X (12)</p>
     <footer>Ai Source aggregates headlines from TechCrunch, VentureBeat, The Verge, AI/TLDR, The Signal, and X, then clusters the same event across outlets. Original posts stay on their publishers’ sites.</footer>
   </div>
 <script>
@@ -248,7 +222,7 @@
       if (mill) mill.hidden = false;
       if (confirmed) confirmed.hidden = true;
       cards.forEach(function (card) { card.hidden = true; });
-      visible = mill ? mill.querySelectorAll(".rumor").length : 0;
+      visible = mill ? 1 : 0;
     } else {
       if (mill) mill.hidden = filter !== "all";
       if (confirmed) confirmed.hidden = false;

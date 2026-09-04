@@ -53,17 +53,10 @@
       "ok": true,
       "count": 12,
       "errors": []
-    },
-    {
-      "id": "rumors",
-      "name": "Rumor mill (X)",
-      "ok": true,
-      "count": 3,
-      "errors": []
     }
   ],
-  "briefingDate": "2026-09-04T23:07:27.475Z",
-  "refreshedAt": "2026-09-04T23:07:27.475Z",
+  "briefingDate": "2026-09-04T23:39:11.901Z",
+  "refreshedAt": "2026-09-04T23:39:11.901Z",
   "preferCurated": true,
   "posts": [
     {
@@ -204,7 +197,7 @@
       "sourceName": "The Signal",
       "sourceHome": "https://infinitytechstack.uk/ai-signal",
       "publishedAt": null,
-      "publishedTs": 1788563243061,
+      "publishedTs": 1788565151299,
       "tags": [],
       "related": [],
       "clusterId": "auto:200-pts-72-comments-on-hn",
@@ -262,7 +255,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-02T19:06:19.000Z",
       "publishedTs": 1788375979000,
-      "score": 38186,
+      "score": 38205,
       "authorHandle": "claudeai",
       "tags": [
         "model-releases"
@@ -281,7 +274,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-04T18:50:48.000Z",
       "publishedTs": 1788547848000,
-      "score": 26205,
+      "score": 27815,
       "authorHandle": "anthropicai",
       "tags": [],
       "related": [],
@@ -298,7 +291,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-02T05:37:10.000Z",
       "publishedTs": 1788327430000,
-      "score": 22999,
+      "score": 23009,
       "authorHandle": "merettm",
       "tags": [],
       "related": [],
@@ -306,54 +299,5 @@
       "clusterSize": 1
     }
   ],
-  "rumors": [
-    {
-      "id": "rumor:https://x.com/frontierwatch/status/2095801100000000001",
-      "title": "xAI said to ship a Grok video model as soon as next week",
-      "summary": "Single X thread, no lab post or second outlet. Unconfirmed until it clusters.",
-      "url": "https://x.com/frontierwatch/status/2095801100000000001",
-      "via": "@frontierwatch",
-      "sourceKind": "x",
-      "sourceId": "x",
-      "sourceName": "X",
-      "harvestedAt": "2026-09-04T20:15:00.000Z",
-      "publishedAt": "2026-09-04T20:15:00.000Z",
-      "publishedTs": 1788552900000,
-      "tags": [
-        "rumor"
-      ]
-    },
-    {
-      "id": "rumor:https://x.com/siriwatch/status/2095798800000000002",
-      "title": "Apple rumored to license Claude for an on-device Siri rewrite",
-      "summary": "Leak-adjacent chatter on X only. No Apple or Anthropic confirmation.",
-      "url": "https://x.com/siriwatch/status/2095798800000000002",
-      "via": "@siriwatch",
-      "sourceKind": "x",
-      "sourceId": "x",
-      "sourceName": "X",
-      "harvestedAt": "2026-09-04T17:40:00.000Z",
-      "publishedAt": "2026-09-04T17:40:00.000Z",
-      "publishedTs": 1788543600000,
-      "tags": [
-        "rumor"
-      ]
-    },
-    {
-      "id": "rumor:https://x.com/copilotdesk/status/2095795500000000003",
-      "title": "Microsoft memo said to fold MAI branding into Copilot this fall",
-      "summary": "One account’s screenshot, not replicated. Keep out of Top 10 until outlets match.",
-      "url": "https://x.com/copilotdesk/status/2095795500000000003",
-      "via": "@copilotdesk",
-      "sourceKind": "x",
-      "sourceId": "x",
-      "sourceName": "X",
-      "harvestedAt": "2026-09-04T14:25:00.000Z",
-      "publishedAt": "2026-09-04T14:25:00.000Z",
-      "publishedTs": 1788531900000,
-      "tags": [
-        "rumor"
-      ]
-    }
-  ]
+  "rumors": []
 }

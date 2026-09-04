@@ -297,39 +297,6 @@ function toRumorItem(item, fallbackHarvestedAt) {
   };
 }
 
-const SEED_RUMORS = [
-  {
-    title: "xAI said to ship a Grok video model as soon as next week",
-    summary:
-      "Single X thread, no lab post or second outlet. Unconfirmed until it clusters.",
-    url: "https://x.com/frontierwatch/status/2095801100000000001",
-    via: "@frontierwatch",
-    sourceKind: "x",
-    harvestedAt: "2026-09-04T20:15:00.000Z",
-    tags: ["rumor"],
-  },
-  {
-    title: "Apple rumored to license Claude for an on-device Siri rewrite",
-    summary:
-      "Leak-adjacent chatter on X only. No Apple or Anthropic confirmation.",
-    url: "https://x.com/siriwatch/status/2095798800000000002",
-    via: "@siriwatch",
-    sourceKind: "x",
-    harvestedAt: "2026-09-04T17:40:00.000Z",
-    tags: ["rumor"],
-  },
-  {
-    title: "Microsoft memo said to fold MAI branding into Copilot this fall",
-    summary:
-      "One account’s screenshot, not replicated. Keep out of Top 10 until outlets match.",
-    url: "https://x.com/copilotdesk/status/2095795500000000003",
-    via: "@copilotdesk",
-    sourceKind: "x",
-    harvestedAt: "2026-09-04T14:25:00.000Z",
-    tags: ["rumor"],
-  },
-];
-
 function rumorIsConfirmed(rumor, clusters) {
   const url = normalizeUrl(rumor.url);
   const tokens = titleTokens(rumor);
@@ -349,9 +316,7 @@ function rumorIsConfirmed(rumor, clusters) {
 }
 
 function pickRumors(harvestRumors, clusters) {
-  const pool = harvestRumors.length
-    ? harvestRumors
-    : SEED_RUMORS.map((item) => toRumorItem(item, new Date().toISOString()));
+  const pool = harvestRumors;
   const seen = new Set();
   const picked = [];
   const ranked = [...pool].sort(
@@ -1102,9 +1067,20 @@ function filterBar() {
   return `<nav class="filters" aria-label="Story filters">${chips}</nav>`;
 }
 
+function rumorViaHref(rumor) {
+  const handle = String(rumor.via || "")
+    .replace(/^@+/, "")
+    .trim();
+  if (handle && handle !== "x") return `https://x.com/${encodeURIComponent(handle)}`;
+  const url = String(rumor.url || "");
+  if (/^https?:\/\/(www\.)?(x|twitter)\.com\//i.test(url)) return url;
+  return "https://x.com";
+}
+
 function rumorCard(rumor) {
   const age = formatAge(rumor.harvestedAt || rumor.publishedAt);
   const when = ["X", age].filter(Boolean).join(" · ");
+  const viaHref = rumorViaHref(rumor);
   return `<article class="rumor">
   <div class="rumor-kicker">
     <span class="rumor-flag">Rumor</span>
@@ -1112,7 +1088,7 @@ function rumorCard(rumor) {
   </div>
   <h3><a href="${escapeHtml(rumor.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(rumor.title)}</a></h3>
   <p class="rumor-caveat">${escapeHtml(rumor.summary)}</p>
-  <p class="rumor-via">Via ${escapeHtml(rumor.via)}</p>
+  <p class="rumor-via">Via <a href="${escapeHtml(viaHref)}" target="_blank" rel="noopener noreferrer">${escapeHtml(rumor.via)}</a></p>
 </article>`;
 }
 
@@ -1120,7 +1096,7 @@ function rumorMill(rumors) {
   const cards = rumors.map(rumorCard).join("\n");
   const body =
     cards ||
-    `<p class="rumor-empty">No X rumors this cycle. Evan can drop tagged rumor items in the harvest.</p>`;
+    `<p class="rumor-empty">No unconfirmed X rumors right now.</p>`;
   return `<section class="rumor-mill" data-panel="rumors">
   <div class="rumor-mill-head">
     <h2>Rumor mill</h2>
@@ -1228,7 +1204,7 @@ function renderHtml(payload) {
       if (mill) mill.hidden = false;
       if (confirmed) confirmed.hidden = true;
       cards.forEach(function (card) { card.hidden = true; });
-      visible = mill ? mill.querySelectorAll(".rumor").length : 0;
+      visible = mill ? 1 : 0;
     } else {
       if (mill) mill.hidden = filter !== "all";
       if (confirmed) confirmed.hidden = false;

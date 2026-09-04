@@ -55,14 +55,16 @@ Optional top-level `rumors: []`, and/or `posts` items with `"tags": ["rumor"]`. 
 
 ```json
 {
-  "title": "xAI said to ship a Grok video model as soon as next week",
-  "summary": "Single X thread, no lab post or second outlet. Unconfirmed until it clusters.",
-  "url": "https://x.com/frontierwatch/status/2095801100000000001",
-  "via": "@frontierwatch",
+  "title": "Headline of the unconfirmed X post",
+  "summary": "Caveat blurb. Single-source chatter until outlets match.",
+  "url": "https://x.com/<handle>/status/<real-status-id>",
+  "via": "@handle",
   "sourceKind": "x",
-  "harvestedAt": "2026-09-04T20:15:00.000Z",
+  "harvestedAt": "2026-09-04T23:00:00.000Z",
   "tags": ["rumor"]
 }
 ```
+
+Use real X status URLs only. An empty `rumors: []` leaves the mill blank until the next harvest.
 
 When the same story is confirmed across outlets (shared URL or a multi-source cluster), it leaves the mill and is not double-counted in Top 10. **Rumors** chip shows mill cards only. **All** shows mill + confirmed clusters. Topic chips hide the mill and filter confirmed cards. **X** still means confirmed X-led Top cards, not the mill.

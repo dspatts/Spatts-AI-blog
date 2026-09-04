@@ -267,6 +267,16 @@ h1 {
   color: var(--cyan);
 }
 
+.rumor-via a {
+  color: var(--cyan);
+  text-decoration: none;
+}
+
+.rumor-via a:hover {
+  color: var(--bright-foreground);
+  text-decoration: underline;
+}
+
 .confirmed-label {
   margin: 0 0 14px;
   font-family: var(--font-mono);
