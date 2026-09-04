@@ -19,7 +19,7 @@
       "id": "venturebeat",
       "name": "VentureBeat",
       "ok": true,
-      "count": 25,
+      "count": 22,
       "errors": [
         "429 https://venturebeat.com/category/ai/feed/"
       ]
@@ -55,67 +55,43 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-04T13:43:52.199Z",
-  "refreshedAt": "2026-09-04T13:43:52.199Z",
+  "briefingDate": "2026-09-04T14:18:54.216Z",
+  "refreshedAt": "2026-09-04T14:18:54.216Z",
   "posts": [
     {
-      "id": "curated:https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
-      "title": "OpenAI launches GPT-6 Astra",
-      "summary": "OpenAI released GPT-6 Astra as a frontier computer-use model and the first to hit Critical cybersecurity. Brockman framed it as the AGI era; Daybreak first, then Plus/Pro/Business/Enterprise and API.",
-      "sourceId": "verge",
-      "sourceName": "The Verge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "publishedAt": "2026-09-04T13:38:16.000Z",
-      "publishedTs": 1788529096000,
+      "id": "curated:https://ai-tldr.dev/releases/collusion-openai-agent-wiki/",
+      "url": "https://ai-tldr.dev/releases/collusion-openai-agent-wiki/",
+      "title": "OpenAI agents left 18k posts on German wiki",
+      "summary": "Collusion.wiki reports ~18,000 posts by OpenAI evaluation agents on DSE Wiki (German forum), May 11–July 13 2026, with 3,700+ self-chosen names.",
+      "sourceId": "aitldr",
+      "sourceName": "AI/TLDR",
+      "sourceHome": "https://ai-tldr.dev/",
+      "publishedAt": "2026-09-04T14:12:15.000Z",
+      "publishedTs": 1788531135000,
       "curated": true
     },
     {
-      "id": "curated:https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
-      "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
-      "title": "Nvidia confirms $12.9B Hugging Face buy",
-      "summary": "Nvidia will acquire Hugging Face for $12.93B; hub stays multi-vendor/open without requiring Nvidia compute; close targeted H1 2027.",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-04T13:38:16.000Z",
-      "publishedTs": 1788529095999,
+      "id": "curated:https://www.theverge.com/ai-artificial-intelligence/989617/instagram-ai-content-label-confusion",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/989617/instagram-ai-content-label-confusion",
+      "title": "Instagram’s AI detection is a mess again",
+      "summary": "Meta auto-labels original photos as AI while missing real synthetics; C2PA/SynthID often ignored.",
+      "sourceId": "verge",
+      "sourceName": "The Verge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "publishedAt": "2026-09-04T14:12:15.000Z",
+      "publishedTs": 1788531134999,
       "curated": true
     },
     {
       "id": "curated:https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
       "url": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
       "title": "Altman apologizes for messy Astra rollout",
-      "summary": "Altman apologized for a messy Astra rollout that locked out many paying users; hoped weekend access; offered banked resets per day without access.",
+      "summary": "Altman apologized for a messy Astra rollout locking out paying users; hoped weekend access; offered banked resets.",
       "sourceId": "verge",
       "sourceName": "The Verge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "publishedAt": "2026-09-04T13:38:16.000Z",
-      "publishedTs": 1788529095998,
-      "curated": true
-    },
-    {
-      "id": "curated:https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
-      "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
-      "title": "Accel eyes $1B Thinking Machines round at $40B",
-      "summary": "Accel reportedly in talks to lead a $1B raise for Mira Murati’s Thinking Machines at ≥$40B.",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-04T13:38:16.000Z",
-      "publishedTs": 1788529095997,
-      "curated": true
-    },
-    {
-      "id": "curated:https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
-      "url": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
-      "title": "Crusoe raises $3B at $30B valuation",
-      "summary": "AI data-center builder Crusoe reportedly raised $3B at $30B; customers include Meta, Microsoft, OpenAI.",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-04T13:38:16.000Z",
-      "publishedTs": 1788529095996,
+      "publishedAt": "2026-09-04T14:12:15.000Z",
+      "publishedTs": 1788531134998,
       "curated": true
     },
     {
@@ -126,20 +102,44 @@
       "sourceId": "verge",
       "sourceName": "The Verge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "publishedAt": "2026-09-04T13:38:16.000Z",
-      "publishedTs": 1788529095995,
+      "publishedAt": "2026-09-04T14:12:15.000Z",
+      "publishedTs": 1788531134997,
       "curated": true
     },
     {
-      "id": "curated:https://venturebeat.com/technology/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet",
-      "url": "https://venturebeat.com/technology/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet",
-      "title": "Meta Muse Spark 1.3 — best config still gated",
-      "summary": "Muse Spark 1.3 ships coding/agent gains; strongest max-reasoning config still in safety testing. API $1.25/$4.25 per MTok.",
-      "sourceId": "venturebeat",
-      "sourceName": "VentureBeat",
-      "sourceHome": "https://venturebeat.com/category/ai/",
-      "publishedAt": "2026-09-04T13:38:16.000Z",
-      "publishedTs": 1788529095994,
+      "id": "curated:https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/",
+      "url": "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/",
+      "title": "AI-generated menus hit a sameness problem",
+      "summary": "Shared model priors push AI food photos toward the same uncanny look customers distrust.",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "publishedAt": "2026-09-04T14:12:15.000Z",
+      "publishedTs": 1788531134996,
+      "curated": true
+    },
+    {
+      "id": "curated:https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
+      "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
+      "title": "Accel eyes $1B Thinking Machines round at $40B",
+      "summary": "Accel reportedly in talks to lead a $1B raise for Mira Murati’s Thinking Machines at ≥$40B.",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "publishedAt": "2026-09-04T14:12:15.000Z",
+      "publishedTs": 1788531134995,
+      "curated": true
+    },
+    {
+      "id": "curated:https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
+      "url": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
+      "title": "Crusoe raises $3B at $30B valuation",
+      "summary": "AI data-center builder Crusoe reportedly raised $3B at $30B; customers include Meta, Microsoft, OpenAI.",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "publishedAt": "2026-09-04T14:12:15.000Z",
+      "publishedTs": 1788531134994,
       "curated": true
     },
     {
@@ -152,7 +152,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-03T19:49:10.000Z",
       "publishedTs": 1788464950000,
-      "score": 190246,
+      "score": 191872,
       "authorHandle": "sama"
     },
     {
@@ -165,7 +165,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-03T19:32:13.000Z",
       "publishedTs": 1788463933000,
-      "score": 1546634,
+      "score": 1589378,
       "authorHandle": "openai"
     },
     {
@@ -178,7 +178,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-01T18:03:14.000Z",
       "publishedTs": 1788285794000,
-      "score": 319283,
+      "score": 319347,
       "authorHandle": "claudeai"
     }
   ]
