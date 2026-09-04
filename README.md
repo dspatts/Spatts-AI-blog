@@ -1,10 +1,10 @@
 # Spatts Ai Blog
 
-Daily briefing of the **top 10 latest AI posts from X.com**.
+Live briefing of the **top 10 latest AI posts from X.com**.
 
 ## Live site (free)
 
-Hosted on **GitHub Pages**. Refreshed every morning at **7:00 Australia/Sydney** by GitHub Actions — your PC does not need to be on.
+Hosted on **GitHub Pages**. Refreshed about **every 30 minutes** by GitHub Actions — your PC does not need to be on.
 
 After the first deploy, the site is at:
 

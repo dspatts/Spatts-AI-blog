@@ -1,10 +1,9 @@
-name: Daily refresh + Pages
+name: Refresh + Pages
 
 on:
   schedule:
-    # UTC — Australia/Sydney 7am is 21:00 (AEST) or 20:00 (AEDT)
-    - cron: "0 20 * * *"
-    - cron: "0 21 * * *"
+    # Every 30 minutes (UTC). GitHub can delay schedules slightly under load.
+    - cron: "*/30 * * * *"
   push:
     branches: [main, master]
   workflow_dispatch:
@@ -21,8 +20,6 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    outputs:
-      deploy: ${{ steps.gate.outputs.run }}
     steps:
       - uses: actions/checkout@v4
 
@@ -30,34 +27,16 @@ jobs:
         with:
           node-version: "22"
 
-      - name: Decide whether to refresh
-        id: gate
-        run: |
-          if [ "${{ github.event_name }}" != "schedule" ]; then
-            echo "run=true" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
-          HOUR=$(TZ=Australia/Sydney date +%H)
-          echo "Sydney hour=$HOUR"
-          if [ "$HOUR" = "07" ]; then
-            echo "run=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "run=false" >> "$GITHUB_OUTPUT"
-          fi
-
       - name: Refresh top 10 posts
-        if: steps.gate.outputs.run == 'true'
         run: node scripts/refresh.mjs
 
       - name: Upload Pages artifact
-        if: steps.gate.outputs.run == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: public
 
   deploy:
     needs: refresh
-    if: needs.refresh.outputs.deploy == 'true'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
