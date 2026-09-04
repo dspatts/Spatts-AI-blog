@@ -47,10 +47,17 @@
         "429 https://infinitytechstack.uk/ai-signal",
         "empty https://prismix.dev/news"
       ]
+    },
+    {
+      "id": "x",
+      "name": "X",
+      "ok": true,
+      "count": 12,
+      "errors": []
     }
   ],
-  "briefingDate": "2026-09-04T10:08:20.935Z",
-  "refreshedAt": "2026-09-04T10:08:20.935Z",
+  "briefingDate": "2026-09-04T10:20:09.438Z",
+  "refreshedAt": "2026-09-04T10:20:09.438Z",
   "posts": [
     {
       "id": "curated:https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/",
@@ -137,40 +144,43 @@
       "curated": true
     },
     {
-      "id": "curated:https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down",
-      "title": "ChatGPT, Grok, and Claude outage",
-      "summary": "OpenAI, xAI, and Anthropic chatbots hit concurrent outages Thursday; all later recovered.",
-      "sourceId": "verge",
-      "sourceName": "The Verge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "publishedAt": "2026-09-04T10:06:00.000Z",
-      "publishedTs": 1788516359989,
-      "curated": true
+      "id": "x:2095600005772104059",
+      "url": "https://x.com/sama/status/2095600005772104059",
+      "title": "GPT-6 Astra is here.",
+      "summary": "GPT-6 Astra is here. We hope it will begin to enable a new generation of entrepreneurship, scientific discovery, and building. We believe…",
+      "sourceId": "x",
+      "sourceName": "X",
+      "sourceHome": "https://x.com",
+      "publishedAt": "2026-09-03T19:49:10.000Z",
+      "publishedTs": 1788464950000,
+      "score": 179004,
+      "authorHandle": "sama"
     },
     {
-      "id": "curated:https://www.theverge.com/tech/989508/google-gmail-docs-keep-live-voice-modes-gemini",
-      "url": "https://www.theverge.com/tech/989508/google-gmail-docs-keep-live-voice-modes-gemini",
-      "title": "Gmail, Docs, Keep get live voice chat",
-      "summary": "Google rolls out Gmail/Docs/Keep Live voice modes so users can query and update those apps conversationally.",
-      "sourceId": "verge",
-      "sourceName": "The Verge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "publishedAt": "2026-09-04T10:06:00.000Z",
-      "publishedTs": 1788516359988,
-      "curated": true
+      "id": "x:2095595741528125780",
+      "url": "https://x.com/OpenAI/status/2095595741528125780",
+      "title": "This is GPT-6 Astra.",
+      "summary": "This is GPT-6 Astra. Anything you can do on a computer, Astra can do for you. Fast.",
+      "sourceId": "x",
+      "sourceName": "X",
+      "sourceHome": "https://x.com",
+      "publishedAt": "2026-09-03T19:32:13.000Z",
+      "publishedTs": 1788463933000,
+      "score": 1295448,
+      "authorHandle": "openai"
     },
     {
-      "id": "curated:https://ai-tldr.dev/releases/anthropic-claude-code-2-1-260/",
-      "url": "https://ai-tldr.dev/releases/anthropic-claude-code-2-1-260/",
-      "title": "Claude Code 2.1.260",
-      "summary": "Adds a live `/diff` panel and fixes a permission-rule bug that left “read-only” folders writable.",
-      "sourceId": "aitldr",
-      "sourceName": "AI/TLDR",
-      "sourceHome": "https://ai-tldr.dev/",
-      "publishedAt": "2026-09-04T10:06:00.000Z",
-      "publishedTs": 1788516359985,
-      "curated": true
+      "id": "x:2094848572143407483",
+      "url": "https://x.com/claudeai/status/2094848572143407483",
+      "title": "We’re introducing Claude Fable 5.1 and Claude Mythos 5.1.",
+      "summary": "We’re introducing Claude Fable 5.1 and Claude Mythos 5.1. They're the world’s most advanced models for coding and knowledge work.",
+      "sourceId": "x",
+      "sourceName": "X",
+      "sourceHome": "https://x.com",
+      "publishedAt": "2026-09-01T18:03:14.000Z",
+      "publishedTs": 1788285794000,
+      "score": 318879,
+      "authorHandle": "claudeai"
     }
   ]
 }

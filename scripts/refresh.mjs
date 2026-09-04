@@ -351,12 +351,10 @@ function summaryFromTweet(text) {
     .replace(/\s+([,.;:!?])/g, "$1")
     .trim();
   if (!cleaned) return "";
-  let sentence = (cleaned.split(/(?<=[.!?])\s+/)[0] || cleaned).trim();
-  sentence = sentence
-    .replace(/\b(and|or|with|for|to|of|,)\s*[.!?]?$/i, "")
-    .replace(/[,:;\-–—]+$/g, "")
-    .trim();
-  return summaryFrom(sentence, 140);
+  if (cleaned.length <= 140) return cleaned;
+  const cut = cleaned.slice(0, 139);
+  const atWord = cut.lastIndexOf(" ");
+  return `${(atWord > 80 ? cut.slice(0, atWord) : cut).trim()}…`;
 }
 
 function keepX(item) {
@@ -532,14 +530,17 @@ function renderHtml(payload) {
       const isX = post.sourceId === X_SOURCE.id;
       const handle = post.authorHandle ? `@${post.authorHandle}` : "";
       const cta = isX ? "Read on X →" : "Read story →";
+      const meta = [handle, when]
+        .filter(Boolean)
+        .map((bit) => `<span>${escapeHtml(bit)}</span>`)
+        .join("\n      ");
       return `<article class="story">
   <div class="rank">${rank}</div>
   <div>
     <p class="source"><a href="${escapeHtml(post.sourceHome)}" target="_blank" rel="noopener noreferrer">${escapeHtml(post.sourceName)}</a></p>
     <h2><a href="${escapeHtml(post.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(post.title)}</a></h2>
     <div class="meta">
-      ${handle ? `<span>${escapeHtml(handle)}</span>` : ""}
-      ${when ? `<span>${escapeHtml(when)}</span>` : ""}
+      ${meta}
     </div>
   </div>
   <p class="body">${escapeHtml(post.summary)}</p>
