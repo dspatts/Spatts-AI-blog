@@ -46,7 +46,7 @@ Existing post fields keep working. Optional extras Evan can send:
 }
 ```
 
-- `tags` — string array. Known ids: `model-releases`, `agents`, `funding`, `research`, `policy`, `x`. Aliases like `model-release` or `agent` are normalized. Refresh also derives tags from title/summary/source when omitted.
+- `tags` — string array. Topic ids: `model-releases`, `agents`, `funding`, `research`, `policy`. Aliases like `model-release` or `agent` are normalized. Refresh also derives tags from title/summary/source when omitted. `x` is a source filter, not a topic tag.
 - `clusterId` — stable id so Evan can pre-group outlets covering one event. Without it, refresh uses title/URL/keyword heuristics (Astra, German wiki/collusion, Gemini Photos, and similar).
 
-Masthead chips (All | Model releases | Agents | Funding | Research | Policy | X) filter the grid in the browser.
+Masthead chips filter the grid in the browser. **All** shows every cluster. Topic chips (Model releases, Agents, Funding, Research, Policy) match derived tags. **X** shows only X-led cards (`sourceId === "x"`), not publisher clusters that merely include an X related link.

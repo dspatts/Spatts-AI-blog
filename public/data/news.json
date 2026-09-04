@@ -144,8 +144,7 @@
       "tags": [
         "model-releases",
         "agents",
-        "research",
-        "x"
+        "research"
       ],
       "clusterId": "topic:astra",
       "related": [
@@ -257,8 +256,7 @@
       "publishedAt": "2026-09-04T20:43:31.000Z",
       "publishedTs": 1788554611000,
       "tags": [
-        "model-releases",
-        "x"
+        "model-releases"
       ],
       "related": [
         {
@@ -302,8 +300,7 @@
       "score": 38119,
       "authorHandle": "claudeai",
       "tags": [
-        "model-releases",
-        "x"
+        "model-releases"
       ],
       "related": [],
       "clusterId": "auto:claude-can-now-use-your-computer-in-the-backgrou",
@@ -321,9 +318,7 @@
       "publishedTs": 1788327430000,
       "score": 22980,
       "authorHandle": "merettm",
-      "tags": [
-        "x"
-      ],
+      "tags": [],
       "related": [],
       "clusterId": "auto:i-want-to-prevent-a-race-into-unmonitorability-k",
       "clusterSize": 1
@@ -340,9 +335,7 @@
       "publishedTs": 1788443222000,
       "score": 21091,
       "authorHandle": "huggingface",
-      "tags": [
-        "x"
-      ],
+      "tags": [],
       "related": [],
       "clusterId": "auto:57",
       "clusterSize": 1

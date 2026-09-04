@@ -590,11 +590,11 @@ function deriveTags(post) {
   if (Array.isArray(post.tags)) {
     for (const t of post.tags) {
       const id = canonicalTag(t);
-      if (id) out.add(id);
+      // "x" is a source filter, not a topic tag — mixed clusters must not inherit it.
+      if (id && id !== "x") out.add(id);
     }
   }
   const h = hay(post);
-  if (post.sourceId === X_SOURCE.id) out.add("x");
   if (
     /\b(agent|agents|astra|collusion|swarm|orchestrat|mcp|playwright|computer use|computer-use|nemo claw|nemoclaw|hydrafusion|armature)\b/.test(
       h,
@@ -965,9 +965,10 @@ function renderHtml(payload) {
         .filter(Boolean)
         .map((bit) => `<span>${escapeHtml(bit)}</span>`)
         .join("\n      ");
-      const tags = (post.tags || []).join(" ");
+      const topicTags = (post.tags || []).filter((t) => t !== "x");
+      const tags = topicTags.join(" ");
       const size = post.clusterSize > 1 ? `<span>${post.clusterSize} sources</span>` : "";
-      return `<article class="story" data-tags="${escapeHtml(tags)}">
+      return `<article class="story" data-tags="${escapeHtml(tags)}" data-source="${escapeHtml(post.sourceId || "")}">
   <div class="rank">${rank}</div>
   <div>
     <p class="source"><a href="${escapeHtml(post.sourceHome)}" target="_blank" rel="noopener noreferrer">${escapeHtml(post.sourceName)}</a></p>
@@ -978,7 +979,7 @@ function renderHtml(payload) {
   </div>
   <p class="body">${escapeHtml(post.summary)}</p>
   ${alsoCovered(post)}
-  ${tagPills(post.tags)}
+  ${tagPills(topicTags)}
   <div class="stats">
     <a class="x-link" href="${escapeHtml(post.url)}" target="_blank" rel="noopener noreferrer">${cta}</a>
   </div>
@@ -1041,7 +1042,11 @@ function renderHtml(payload) {
     });
     cards.forEach(function (card) {
       var tags = (card.getAttribute("data-tags") || "").split(/\\s+/).filter(Boolean);
-      card.hidden = filter !== "all" && tags.indexOf(filter) === -1;
+      var source = card.getAttribute("data-source") || "";
+      var show =
+        filter === "all" ||
+        (filter === "x" ? source === "x" : tags.indexOf(filter) !== -1);
+      card.hidden = !show;
     });
   });
 })();
@@ -1105,7 +1110,7 @@ export async function refreshNews() {
   return payload;
 }
 
-export { clusterStories, deriveTags, isFreshHarvest, loadCurated, pickTop, topicKey };
+export { clusterStories, deriveTags, isFreshHarvest, loadCurated, pickTop, renderHtml, topicKey };
 
 const isDirect =
   process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1];
