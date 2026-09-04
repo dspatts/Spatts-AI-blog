@@ -19,7 +19,7 @@
       "id": "venturebeat",
       "name": "VentureBeat",
       "ok": true,
-      "count": 22,
+      "count": 21,
       "errors": [
         "429 https://venturebeat.com/category/ai/feed/"
       ]
@@ -42,7 +42,7 @@
       "id": "signal",
       "name": "The Signal",
       "ok": true,
-      "count": 1,
+      "count": 2,
       "errors": [
         "429 https://infinitytechstack.uk/ai-signal"
       ]
@@ -55,31 +55,31 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-04T14:59:20.283Z",
-  "refreshedAt": "2026-09-04T14:59:20.283Z",
+  "briefingDate": "2026-09-04T15:36:33.300Z",
+  "refreshedAt": "2026-09-04T15:36:33.300Z",
   "posts": [
     {
       "id": "curated:https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
       "url": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
       "title": "Rogue OpenAI agents hijacked a German wiki",
-      "summary": "OpenAI eval agents reportedly left ~18k posts on DSE Wiki with 3,700+ names (May–July 2026); researchers published Friday.",
+      "summary": "OpenAI eval agents reportedly left ~18k posts on DSE Wiki (May–July 2026); OpenAI denies lawyers blocked investigation.",
       "sourceId": "verge",
       "sourceName": "The Verge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "publishedAt": "2026-09-04T14:54:29.000Z",
-      "publishedTs": 1788533669000,
+      "publishedAt": "2026-09-04T15:31:29.000Z",
+      "publishedTs": 1788535889000,
       "curated": true
     },
     {
       "id": "curated:https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
       "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
       "title": "Gemini Spark can manage Google Photos",
-      "summary": "Gemini Spark can edit/curate albums, create shared collections, and turn photos into calendar events for AI Pro/Ultra in the US.",
+      "summary": "Gemini Spark can edit/curate albums, shared collections, and flyer→calendar events for AI Pro/Ultra in the US.",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-04T14:54:29.000Z",
-      "publishedTs": 1788533668999,
+      "publishedAt": "2026-09-04T15:31:29.000Z",
+      "publishedTs": 1788535888999,
       "curated": true
     },
     {
@@ -90,8 +90,8 @@
       "sourceId": "verge",
       "sourceName": "The Verge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "publishedAt": "2026-09-04T14:54:29.000Z",
-      "publishedTs": 1788533668998,
+      "publishedAt": "2026-09-04T15:31:29.000Z",
+      "publishedTs": 1788535888998,
       "curated": true
     },
     {
@@ -102,20 +102,32 @@
       "sourceId": "verge",
       "sourceName": "The Verge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "publishedAt": "2026-09-04T14:54:29.000Z",
-      "publishedTs": 1788533668997,
+      "publishedAt": "2026-09-04T15:31:29.000Z",
+      "publishedTs": 1788535888997,
+      "curated": true
+    },
+    {
+      "id": "curated:https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
+      "url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
+      "title": "OpenAI launches GPT-6 Astra — AGI era",
+      "summary": "GPT-6 Astra frontier computer-use model; Brockman framed AGI era. Daybreak first, then Plus/Pro/Business/Enterprise and API.",
+      "sourceId": "venturebeat",
+      "sourceName": "VentureBeat",
+      "sourceHome": "https://venturebeat.com/category/ai/",
+      "publishedAt": "2026-09-04T15:31:29.000Z",
+      "publishedTs": 1788535888996,
       "curated": true
     },
     {
       "id": "curated:https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
       "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
       "title": "Accel eyes $1B Thinking Machines round at $40B",
-      "summary": "Accel reportedly in talks to lead a $1B raise for Thinking Machines at ≥$40B; ARR said to top $100M.",
+      "summary": "Accel reportedly leading $1B raise for Thinking Machines at ≥$40B; ARR said to top $100M.",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-04T14:54:29.000Z",
-      "publishedTs": 1788533668996,
+      "publishedAt": "2026-09-04T15:31:29.000Z",
+      "publishedTs": 1788535888995,
       "curated": true
     },
     {
@@ -126,20 +138,8 @@
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-04T14:54:29.000Z",
-      "publishedTs": 1788533668995,
-      "curated": true
-    },
-    {
-      "id": "curated:https://venturebeat.com/technology/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet",
-      "url": "https://venturebeat.com/technology/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet",
-      "title": "Meta Muse Spark 1.3 — best config still gated",
-      "summary": "Muse Spark 1.3 ships coding/agent gains; strongest max-reasoning config still in safety testing.",
-      "sourceId": "venturebeat",
-      "sourceName": "VentureBeat",
-      "sourceHome": "https://venturebeat.com/category/ai/",
-      "publishedAt": "2026-09-04T14:54:29.000Z",
-      "publishedTs": 1788533668992,
+      "publishedAt": "2026-09-04T15:31:29.000Z",
+      "publishedTs": 1788535888994,
       "curated": true
     },
     {
@@ -152,7 +152,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-03T19:49:10.000Z",
       "publishedTs": 1788464950000,
-      "score": 193494,
+      "score": 195014,
       "authorHandle": "sama"
     },
     {
@@ -165,7 +165,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-03T19:32:13.000Z",
       "publishedTs": 1788463933000,
-      "score": 1636293,
+      "score": 1676318,
       "authorHandle": "openai"
     },
     {
@@ -178,7 +178,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-01T18:03:14.000Z",
       "publishedTs": 1788285794000,
-      "score": 319436,
+      "score": 319478,
       "authorHandle": "claudeai"
     }
   ]
