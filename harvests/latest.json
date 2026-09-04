@@ -1,139 +1,155 @@
 {
-  "harvestedAt": "2026-09-04T10:43:14.000Z",
+  "harvestedAt": "2026-09-04T11:14:17Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
-      "title": "The sameness problem behind those unappetizing AI-generated menus",
-      "summary": "Restaurant AI menu art looks slick but diners can tell the food feels off — generative sameness is backfiring.",
-      "url": "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Crusoe reportedly raises $3B at a $30B valuation",
-      "summary": "AI data-center builder Crusoe reportedly closed a huge round after securing a $13B Jane Street contract.",
-      "url": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation",
-      "summary": "Mira Murati’s Thinking Machines Lab is in talks for a $1B Accel-led round at a $40B valuation, with ARR over $100M.",
-      "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Abliteration.ai is making a business out of removing AI guardrails",
-      "summary": "Startup sells easier access to unguarded models, arguing defenders need the same tools attackers already have.",
-      "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "OpenAI launches Astra, its powerful (and controversial) new model",
-      "summary": "OpenAI’s Astra debuts as a computer-use frontier model — fast, capable, and already stirring safety debate.",
-      "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "'Welcome to the AGI era': OpenAI launches GPT-6 Astra",
-      "summary": "GPT-6 Astra rolls out with computer use across apps; Brockman framed the launch as the start of the AGI era.",
+      "title": "OpenAI launches GPT-6 Astra",
+      "summary": "OpenAI released GPT-6 Astra, a computer-use frontier model framed as entering the AGI era, rolling out via Daybreak then ChatGPT and the API.",
       "url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
       "sourceName": "VentureBeat",
       "sourceId": "venturebeat",
       "sourceHome": "https://venturebeat.com/category/ai/"
     },
     {
+      "title": "Nvidia to buy Hugging Face for $12.9B",
+      "summary": "Nvidia confirmed a $12.93B deal for Hugging Face; the hub stays multi-vendor and will not require Nvidia compute. Close targeted for H1 2027.",
+      "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Thinking Machines eyes $1B Accel round",
+      "summary": "Mira Murati’s Thinking Machines Lab is reportedly discussing a $1B Accel-led raise at about $40B, with ARR already over $100M.",
+      "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Crusoe raises $3B at $30B",
+      "summary": "AI data-center builder Crusoe reportedly raised $3B at a $30B valuation after securing a $13B Jane Street contract.",
+      "url": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
       "title": "Meta Muse Spark 1.3: frontier, partly gated",
-      "summary": "Muse Spark 1.3 ships strong coding/agent results; the stronger max-reasoning config is still in safety testing.",
+      "summary": "Muse Spark 1.3 ships strong coding and agent price/performance, but the top max-reasoning config is still gated pending more safety testing.",
       "url": "https://venturebeat.com/technology/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet",
       "sourceName": "VentureBeat",
       "sourceId": "venturebeat",
       "sourceHome": "https://venturebeat.com/category/ai/"
     },
     {
-      "title": "Meta Voice Transcribe at $0.18/hour",
-      "summary": "Meta undercuts enterprise speech APIs with streaming transcription plus 20+ speaker diarization at $0.18/hour.",
-      "url": "https://venturebeat.com/technology/meta-prices-muse-voice-transcribe-at-0-18-an-hour-with-real-time-diarization-for-20-speakers-a-steal-for-enterprises",
-      "sourceName": "VentureBeat",
-      "sourceId": "venturebeat",
-      "sourceHome": "https://venturebeat.com/category/ai/"
-    },
-    {
-      "title": "Claude Fable/Mythos 5.1 cut cache costs 75%",
-      "summary": "Fable 5.1 keeps high base rates but cuts cache reads to $0.25/MTok — a big win for long-running agents.",
+      "title": "Claude Fable 5.1 cuts cache costs 75%",
+      "summary": "Anthropic launched Fable/Mythos 5.1 with cache reads cut to $0.25 per million tokens and new Enterprise Frontier Safeguards.",
       "url": "https://venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads",
       "sourceName": "VentureBeat",
       "sourceId": "venturebeat",
       "sourceHome": "https://venturebeat.com/category/ai/"
     },
     {
-      "title": "Perplexity hybrid local-cloud inference at Computex 2026",
-      "summary": "Perplexity’s Hybrid Compute routes sensitive steps on-device and escalates hard reasoning to the cloud mid-task.",
-      "url": "https://venturebeat.com/technology/perplexity-ai-unveils-hybrid-local-cloud-inference-system-at-computex-2026",
+      "title": "Microsoft MAI-Transcribe-2 at $0.10/hour",
+      "summary": "Microsoft AI priced MAI-Transcribe-2 at 10 cents per hour with 60 languages and diarization, undercutting OpenAI, Google, and ElevenLabs.",
+      "url": "https://venturebeat.com/infrastructure/microsoft-ais-mai-transcribe-2-undercuts-openai-google-and-elevenlabs-on-price-and-speed",
       "sourceName": "VentureBeat",
       "sourceId": "venturebeat",
       "sourceHome": "https://venturebeat.com/category/ai/"
     },
     {
-      "title": "Suno yanks Mary J. Blige endorsement ad",
-      "summary": "AI music firm Suno killed a Blige campaign after learning the deal wasn’t authorized by her real reps.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/989910/suno-yanks-ad-showing-supposed-endorsement-from-mary-j-blige",
+      "title": "GPT-6 Astra enters the AGI era",
+      "summary": "The Verge covers Astra’s launch as a generational leap for coding and computer use, with Critical cyber safeguards after the Hugging Face incident.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
       "sourceName": "The Verge",
       "sourceId": "verge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/"
     },
     {
-      "title": "Google now lets you chat with Gmail, Docs, and Keep",
-      "summary": "Gmail Live, Docs Live, and Keep Live roll out voice chat modes for Gemini subscribers on mobile.",
-      "url": "https://www.theverge.com/tech/989508/google-gmail-docs-keep-live-voice-modes-gemini",
+      "title": "WeatherNext 3 goes hourly at 5km",
+      "summary": "Google DeepMind’s WeatherNext 3 delivers hourly 5km forecasts from live satellite data, with up to 60% better precipitation scores vs NASA IMERG.",
+      "url": "https://www.theverge.com/tech/988921/weather-forecast-ai-model-google-satellite-update",
       "sourceName": "The Verge",
       "sourceId": "verge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/"
     },
     {
-      "title": "ChatGPT, Grok, and Claude all went down at the same time",
-      "summary": "Three major chatbots hit overlapping outages on Sep 3; all recovered, with no confirmed shared cause.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down",
-      "sourceName": "The Verge",
-      "sourceId": "verge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/"
-    },
-    {
-      "title": "Nvidia is buying Hugging Face for almost $13 billion",
-      "summary": "Nvidia agrees to buy Hugging Face for $12.93B; hub stays multi-vendor and won’t require Nvidia compute.",
+      "title": "Nvidia buying Hugging Face for ~$13B",
+      "summary": "Nvidia agreed to acquire Hugging Face for $12.93B while promising the platform stays open to all model builders and clouds.",
       "url": "https://www.theverge.com/tech/985474/nvidia-buying-hugging-face-deal",
       "sourceName": "The Verge",
       "sourceId": "verge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/"
     },
     {
-      "title": "NYC bans AI use for students until high school",
-      "summary": "NYC’s one-year classroom AI moratorium hits ~600k students through 8th grade; LA followed with an even broader ban.",
-      "url": "https://www.theverge.com/policy/988228/nyc-ai-restrictions-in-schools-chatbot-ban",
+      "title": "Meta pays users for Muse Spark prompts",
+      "summary": "Meta’s Muse Spark contributor tier deep-discounts tokens if users share prompts and outputs to help train future models.",
+      "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Abliteration.ai strips model guardrails",
+      "summary": "Startup sells easier access to unguarded open-weight models, arguing defenders need the same tools attackers already have.",
+      "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "ChatGPT, Grok, and Claude outage overlap",
+      "summary": "Three major chatbots hit overlapping outages on Sep 3; all recovered, with no confirmed shared root cause.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down",
       "sourceName": "The Verge",
       "sourceId": "verge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/"
     },
     {
-      "title": "Claude Code 2.1.260 — live diff panel + permission fix",
-      "summary": "Anthropic’s Claude Code adds a /diff panel for uncommitted changes and fixes paren-path permission bugs.",
+      "title": "Suno yanks Mary J. Blige ad",
+      "summary": "AI music firm Suno killed a Blige campaign after learning the deal wasn’t authorized by her real representatives.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/989910/suno-yanks-ad-showing-supposed-endorsement-from-mary-j-blige",
+      "sourceName": "The Verge",
+      "sourceId": "verge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/"
+    },
+    {
+      "title": "Claude Code 2.1.260 live diff panel",
+      "summary": "Anthropic’s Claude Code adds a /diff panel for uncommitted changes and fixes permission rules that broke on paths with parentheses.",
       "url": "https://ai-tldr.dev/releases/anthropic-claude-code-2-1-260/",
       "sourceName": "AI/TLDR",
       "sourceId": "aitldr",
       "sourceHome": "https://ai-tldr.dev/"
     },
     {
-      "title": "LLaDA-Image — 6B open image generator",
-      "summary": "Ant Group’s inclusionAI open-weights 6B image gen/edit model; Turbo checkpoint runs in 4 steps.",
+      "title": "LLaDA-Image: 6B open image gen",
+      "summary": "Ant Group’s inclusionAI open-weights 6B image generate/edit model; a distilled Turbo checkpoint runs in 4 steps.",
       "url": "https://ai-tldr.dev/releases/inclusionai-llada-image/",
+      "sourceName": "AI/TLDR",
+      "sourceId": "aitldr",
+      "sourceHome": "https://ai-tldr.dev/"
+    },
+    {
+      "title": "Astra hits 99.9% on ARC-AGI-3 (harness)",
+      "summary": "ARC Prize: GPT-6 Astra scores 62.7% on the standard harness and 99.9% with a Provider Adapter harness on ARC-AGI-3 Semi-Private.",
+      "url": "https://ai-tldr.dev/releases/arcprize-astra-arc-agi-3/",
+      "sourceName": "AI/TLDR",
+      "sourceId": "aitldr",
+      "sourceHome": "https://ai-tldr.dev/"
+    },
+    {
+      "title": "K2 Horizon: six fully open models",
+      "summary": "Institute of Foundation Models released six Apache-2.0 models from 0.9B to 375B with weights, training code, data mixtures, and eval logs.",
+      "url": "https://ai-tldr.dev/releases/ifm-k2-horizon/",
+      "sourceName": "AI/TLDR",
+      "sourceId": "aitldr",
+      "sourceHome": "https://ai-tldr.dev/"
+    },
+    {
+      "title": "Cohere maps 696k AI tools to job tasks",
+      "summary": "Cohere Labs’ Agentic Task Ecosystem links 696,291 tools across 123,069 MCP servers to work tasks; only 2.6% finish a task end to end.",
+      "url": "https://ai-tldr.dev/releases/cohere-ate-mcp-dataset/",
       "sourceName": "AI/TLDR",
       "sourceId": "aitldr",
       "sourceHome": "https://ai-tldr.dev/"
