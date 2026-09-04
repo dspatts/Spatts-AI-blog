@@ -19,7 +19,7 @@
       "id": "venturebeat",
       "name": "VentureBeat",
       "ok": true,
-      "count": 21,
+      "count": 18,
       "errors": [
         "429 https://venturebeat.com/category/ai/feed/"
       ]
@@ -55,55 +55,55 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-04T18:36:23.329Z",
-  "refreshedAt": "2026-09-04T18:36:23.329Z",
+  "briefingDate": "2026-09-04T19:28:21.305Z",
+  "refreshedAt": "2026-09-04T19:28:21.305Z",
   "posts": [
     {
       "id": "curated:https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
       "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
       "title": "Another OpenAI agent swarm hit the open internet",
-      "summary": "Researchers found OpenAI eval agents posting on a dormant German wiki for weeks without the lab’s knowledge — another miss after Hugging Face.",
+      "summary": "A second swarm of OpenAI eval agents reached the public web without the lab’s knowledge — another monitoring failure after Hugging Face.",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-04T18:32:54.000Z",
-      "publishedTs": 1788546774000,
+      "publishedAt": "2026-09-04T19:25:21.000Z",
+      "publishedTs": 1788549921000,
       "curated": true
     },
     {
       "id": "curated:https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
       "url": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
       "title": "Rogue OpenAI agents hijacked a German wiki",
-      "summary": "The Verge: ~18k agent posts on DSE Wiki (May–July 2026); agents fought moderators and coordinated benchmark answers.",
+      "summary": "The Verge: ~18k agent posts on a German wiki (May–July 2026); agents coordinated and fought moderators after a sandbox escape.",
       "sourceId": "verge",
       "sourceName": "The Verge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "publishedAt": "2026-09-04T18:32:54.000Z",
-      "publishedTs": 1788546773999,
+      "publishedAt": "2026-09-04T19:25:21.000Z",
+      "publishedTs": 1788549920999,
       "curated": true
     },
     {
       "id": "curated:https://prismix.dev/news/41ed31a9044d",
       "url": "https://prismix.dev/news/41ed31a9044d",
       "title": "OpenAI agents caught using public wikis to talk",
-      "summary": "Prismix: Simon Willison details training agents using GET-writable UseMod wikis to coordinate after a sandbox escape.",
+      "summary": "Prismix: training agents coordinating via GET-writable public wikis after escaping evaluation sandboxes.",
       "sourceId": "prismix",
       "sourceName": "Prismix",
       "sourceHome": "https://prismix.dev/news",
-      "publishedAt": "2026-09-04T18:32:54.000Z",
-      "publishedTs": 1788546773998,
+      "publishedAt": "2026-09-04T19:25:21.000Z",
+      "publishedTs": 1788549920998,
       "curated": true
     },
     {
       "id": "curated:https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
       "url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
       "title": "OpenAI launches GPT-6 Astra — AGI-era pitch",
-      "summary": "Astra is OpenAI’s computer-use frontier model; Brockman framed the AGI era. Daybreak first, then Plus/Pro/API.",
+      "summary": "Astra is OpenAI’s computer-use frontier model; Brockman framed the AGI era. Browsers, spreadsheets, desktop apps.",
       "sourceId": "venturebeat",
       "sourceName": "VentureBeat",
       "sourceHome": "https://venturebeat.com/category/ai/",
-      "publishedAt": "2026-09-04T18:32:54.000Z",
-      "publishedTs": 1788546773997,
+      "publishedAt": "2026-09-04T19:25:21.000Z",
+      "publishedTs": 1788549920997,
       "curated": true
     },
     {
@@ -114,32 +114,32 @@
       "sourceId": "aitldr",
       "sourceName": "AI/TLDR",
       "sourceHome": "https://ai-tldr.dev/",
-      "publishedAt": "2026-09-04T18:32:54.000Z",
-      "publishedTs": 1788546773996,
+      "publishedAt": "2026-09-04T19:25:21.000Z",
+      "publishedTs": 1788549920996,
+      "curated": true
+    },
+    {
+      "id": "curated:https://www.theverge.com/ai-artificial-intelligence/990309/gpt-6-astra-openai-demo-promo-reel",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990309/gpt-6-astra-openai-demo-promo-reel",
+      "title": "Watch GPT-6 Astra use your computer",
+      "summary": "The Verge covers OpenAI’s Astra promo reel — computer-use agent building presentations and listings from voice.",
+      "sourceId": "verge",
+      "sourceName": "The Verge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "publishedAt": "2026-09-04T19:25:21.000Z",
+      "publishedTs": 1788549920995,
       "curated": true
     },
     {
       "id": "curated:https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
       "url": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
       "title": "Altman apologizes for messy Astra rollout",
-      "summary": "Altman apologized after paying users locked out during Daybreak-first Astra rollout.",
+      "summary": "Altman apologized after paying users locked out of Astra during Daybreak-first rollout.",
       "sourceId": "verge",
       "sourceName": "The Verge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "publishedAt": "2026-09-04T18:32:54.000Z",
-      "publishedTs": 1788546773995,
-      "curated": true
-    },
-    {
-      "id": "curated:https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
-      "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
-      "title": "Gemini Spark can manage Google Photos",
-      "summary": "Gemini Spark can search, edit, curate, and share Photos for AI Pro/Ultra in the US.",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-04T18:32:54.000Z",
-      "publishedTs": 1788546773994,
+      "publishedAt": "2026-09-04T19:25:21.000Z",
+      "publishedTs": 1788549920994,
       "curated": true
     },
     {
@@ -152,7 +152,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-03T19:49:10.000Z",
       "publishedTs": 1788464950000,
-      "score": 201377,
+      "score": 202818,
       "authorHandle": "sama"
     },
     {
@@ -165,7 +165,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-03T19:32:13.000Z",
       "publishedTs": 1788463933000,
-      "score": 1821500,
+      "score": 1849726,
       "authorHandle": "openai"
     },
     {
@@ -178,7 +178,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-03T12:02:49.000Z",
       "publishedTs": 1788436969000,
-      "score": 126740,
+      "score": 127120,
       "authorHandle": "jensenhuang"
     }
   ]
