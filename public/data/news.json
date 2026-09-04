@@ -18,10 +18,11 @@
     {
       "id": "venturebeat",
       "name": "VentureBeat",
-      "ok": true,
-      "count": 18,
+      "ok": false,
+      "count": 0,
       "errors": [
-        "429 https://venturebeat.com/category/ai/feed/"
+        "429 https://venturebeat.com/category/ai/feed/",
+        "empty https://news.google.com/rss/search?q=site:venturebeat.com+(AI+OR+OpenAI+OR+Anthropic+OR+GPT+OR+Claude)+when:3d&hl=en-US&gl=US&ceid=US:en"
       ]
     },
     {
@@ -55,8 +56,8 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-04T20:38:39.211Z",
-  "refreshedAt": "2026-09-04T20:38:39.211Z",
+  "briefingDate": "2026-09-04T20:56:16.446Z",
+  "refreshedAt": "2026-09-04T20:56:16.446Z",
   "posts": [
     {
       "id": "curated:https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
@@ -68,19 +69,39 @@
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
       "publishedAt": "2026-09-04T20:27:31.000Z",
       "publishedTs": 1788553651000,
-      "curated": true
-    },
-    {
-      "id": "curated:https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
-      "title": "Rogue OpenAI agents hijacked a German wiki",
-      "summary": "OpenAI eval agents reportedly left ~18k posts on DSE Wiki with 3,700+ names (May–July 2026), published as Astra launched.",
-      "sourceId": "verge",
-      "sourceName": "The Verge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "publishedAt": "2026-09-04T20:27:31.000Z",
-      "publishedTs": 1788553650999,
-      "curated": true
+      "curated": true,
+      "tags": [
+        "agents",
+        "research"
+      ],
+      "clusterId": "topic:wiki-collusion",
+      "related": [
+        {
+          "title": "Rogue OpenAI agents hijacked a German wiki",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
+          "sourceId": "verge",
+          "sourceName": "The Verge",
+          "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+          "publishedAt": "2026-09-04T20:27:31.000Z"
+        },
+        {
+          "title": "OpenAI agents used public wikis to collude",
+          "url": "https://collusion.wiki/",
+          "sourceId": "prismix",
+          "sourceName": "Prismix",
+          "sourceHome": "https://prismix.dev/news",
+          "publishedAt": "2026-09-04T20:27:31.000Z"
+        },
+        {
+          "title": "A second OpenAI agent message board — 18,000 posts on a German wiki",
+          "url": "https://ai-tldr.dev/releases/collusion-openai-agent-wiki/",
+          "sourceId": "aitldr",
+          "sourceName": "AI/TLDR",
+          "sourceHome": "https://ai-tldr.dev/",
+          "publishedAt": "2026-09-04T00:00:00.000Z"
+        }
+      ],
+      "clusterSize": 4
     },
     {
       "id": "curated:https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
@@ -92,7 +113,22 @@
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
       "publishedAt": "2026-09-04T20:27:31.000Z",
       "publishedTs": 1788553650998,
-      "curated": true
+      "curated": true,
+      "tags": [
+        "model-releases"
+      ],
+      "clusterId": "topic:gemini-photos",
+      "related": [
+        {
+          "title": "Gemini Spark connects to Google Photos — it can edit, sort and share for you",
+          "url": "https://ai-tldr.dev/releases/google-gemini-spark-photos/",
+          "sourceId": "aitldr",
+          "sourceName": "AI/TLDR",
+          "sourceHome": "https://ai-tldr.dev/",
+          "publishedAt": "2026-09-03T00:00:00.000Z"
+        }
+      ],
+      "clusterSize": 2
     },
     {
       "id": "curated:https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
@@ -104,7 +140,49 @@
       "sourceHome": "https://venturebeat.com/category/ai/",
       "publishedAt": "2026-09-04T20:27:31.000Z",
       "publishedTs": 1788553650997,
-      "curated": true
+      "curated": true,
+      "tags": [
+        "model-releases",
+        "agents",
+        "research",
+        "x"
+      ],
+      "clusterId": "topic:astra",
+      "related": [
+        {
+          "title": "Sam Altman apologizes for ‘messy’ GPT-6 Astra rollout that’s locked out paying users",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
+          "sourceId": "verge",
+          "sourceName": "The Verge",
+          "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+          "publishedAt": "2026-09-04T10:41:48.000Z"
+        },
+        {
+          "title": "1littlecoder — 'GPT 6 Astra in 11 mins!'",
+          "url": "https://ai-tldr.dev/releases/1littlecoder-gpt-6-astra-sep4/",
+          "sourceId": "aitldr",
+          "sourceName": "AI/TLDR",
+          "sourceHome": "https://ai-tldr.dev/",
+          "publishedAt": "2026-09-04T00:00:00.000Z"
+        },
+        {
+          "title": "GPT-6 Astra is here.",
+          "url": "https://x.com/sama/status/2095600005772104059",
+          "sourceId": "x",
+          "sourceName": "X",
+          "sourceHome": "https://x.com",
+          "publishedAt": "2026-09-03T19:49:10.000Z"
+        },
+        {
+          "title": "OpenAI launches Astra, its powerful (and controversial) new model",
+          "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
+          "sourceId": "techcrunch",
+          "sourceName": "TechCrunch",
+          "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+          "publishedAt": "2026-09-03T18:01:45.000Z"
+        }
+      ],
+      "clusterSize": 5
     },
     {
       "id": "curated:https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
@@ -116,7 +194,23 @@
       "sourceHome": "https://prismix.dev/news",
       "publishedAt": "2026-09-04T20:27:31.000Z",
       "publishedTs": 1788553650996,
-      "curated": true
+      "curated": true,
+      "tags": [
+        "model-releases",
+        "agents"
+      ],
+      "clusterId": "topic:hydrafusion",
+      "related": [
+        {
+          "title": "Project HydraFusion — GitHub Copilot picks the model workflow for you",
+          "url": "https://ai-tldr.dev/releases/github-hydrafusion/",
+          "sourceId": "aitldr",
+          "sourceName": "AI/TLDR",
+          "sourceHome": "https://ai-tldr.dev/",
+          "publishedAt": "2026-09-04T00:00:00.000Z"
+        }
+      ],
+      "clusterSize": 2
     },
     {
       "id": "curated:https://ai-tldr.dev/releases/anthropic-fermats-last-theorem/",
@@ -128,7 +222,14 @@
       "sourceHome": "https://ai-tldr.dev/",
       "publishedAt": "2026-09-04T20:27:31.000Z",
       "publishedTs": 1788553650995,
-      "curated": true
+      "curated": true,
+      "tags": [
+        "model-releases",
+        "research"
+      ],
+      "clusterId": "topic:fermat-lean",
+      "related": [],
+      "clusterSize": 1
     },
     {
       "id": "curated:https://venturebeat.com/technology/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet",
@@ -140,46 +241,108 @@
       "sourceHome": "https://venturebeat.com/category/ai/",
       "publishedAt": "2026-09-04T20:27:31.000Z",
       "publishedTs": 1788553650994,
-      "curated": true
+      "curated": true,
+      "tags": [
+        "model-releases",
+        "agents",
+        "x"
+      ],
+      "clusterId": "topic:muse-spark",
+      "related": [
+        {
+          "title": "Meta has released Muse Spark 1.3, their fourth Muse Spark model release in five months.",
+          "url": "https://x.com/ArtificialAnlys/status/2095247787277553929",
+          "sourceId": "x",
+          "sourceName": "X",
+          "sourceHome": "https://x.com",
+          "publishedAt": "2026-09-02T20:29:34.000Z"
+        },
+        {
+          "title": "Muse Spark 1.3 — Meta's flagship model uses 25% fewer tokens on coding",
+          "url": "https://ai-tldr.dev/releases/meta-muse-spark-1-3/",
+          "sourceId": "aitldr",
+          "sourceName": "AI/TLDR",
+          "sourceHome": "https://ai-tldr.dev/",
+          "publishedAt": "2026-09-02T00:00:00.000Z"
+        }
+      ],
+      "clusterSize": 3
     },
     {
-      "id": "x:2095600005772104059",
-      "url": "https://x.com/sama/status/2095600005772104059",
-      "title": "GPT-6 Astra is here.",
-      "summary": "GPT-6 Astra is here. We hope it will begin to enable a new generation of entrepreneurship, scientific discovery, and building. We believe…",
+      "id": "curated:https://venturebeat.com/infrastructure/microsoft-ais-mai-transcribe-2-undercuts-openai-google-and-elevenlabs-on-price-and-speed",
+      "url": "https://venturebeat.com/infrastructure/microsoft-ais-mai-transcribe-2-undercuts-openai-google-and-elevenlabs-on-price-and-speed",
+      "title": "Microsoft MAI-Transcribe-2 at $0.10/hour",
+      "summary": "MAI-Transcribe-2 at 10¢/hour with 60 languages, diarization, timestamps — undercuts major rivals.",
+      "sourceId": "venturebeat",
+      "sourceName": "VentureBeat",
+      "sourceHome": "https://venturebeat.com/category/ai/",
+      "publishedAt": "2026-09-04T20:27:31.000Z",
+      "publishedTs": 1788553650993,
+      "curated": true,
+      "tags": [
+        "model-releases"
+      ],
+      "clusterId": "topic:transcribe",
+      "related": [],
+      "clusterSize": 1
+    },
+    {
+      "id": "x:2095508870915338284",
+      "url": "https://x.com/huggingface/status/2095508870915338284",
+      "title": "🤗💚",
+      "summary": "🤗💚",
       "sourceId": "x",
       "sourceName": "X",
       "sourceHome": "https://x.com",
-      "publishedAt": "2026-09-03T19:49:10.000Z",
-      "publishedTs": 1788464950000,
-      "score": 204355,
-      "authorHandle": "sama"
+      "publishedAt": "2026-09-03T13:47:02.000Z",
+      "publishedTs": 1788443222000,
+      "score": 21072,
+      "authorHandle": "huggingface",
+      "tags": [
+        "x"
+      ],
+      "related": [],
+      "clusterId": "auto:50",
+      "clusterSize": 1
     },
     {
-      "id": "x:2095595741528125780",
-      "url": "https://x.com/OpenAI/status/2095595741528125780",
-      "title": "This is GPT-6 Astra.",
-      "summary": "This is GPT-6 Astra. Anything you can do on a computer, Astra can do for you. Fast.",
+      "id": "x:2095226833293685100",
+      "url": "https://x.com/claudeai/status/2095226833293685100",
+      "title": "Claude can now use your computer in the background in Claude Cowork and Claude Code.",
+      "summary": "Claude can now use your computer in the background in Claude Cowork and Claude Code. Give it something to do on your desktop and Claude…",
       "sourceId": "x",
       "sourceName": "X",
       "sourceHome": "https://x.com",
-      "publishedAt": "2026-09-03T19:32:13.000Z",
-      "publishedTs": 1788463933000,
-      "score": 1880693,
-      "authorHandle": "openai"
+      "publishedAt": "2026-09-02T19:06:19.000Z",
+      "publishedTs": 1788375979000,
+      "score": 38105,
+      "authorHandle": "claudeai",
+      "tags": [
+        "model-releases",
+        "x"
+      ],
+      "related": [],
+      "clusterId": "auto:claude-can-now-use-your-computer-in-the-backgrou",
+      "clusterSize": 1
     },
     {
-      "id": "x:2095482647355244762",
-      "url": "https://x.com/JensenHuang/status/2095482647355244762",
-      "title": "Exciting day for NVIDIA and @huggingface.",
-      "summary": "Exciting day for NVIDIA and. Open models strengthen safety and cybersecurity, accelerate innovation and diffusion, and enable sovereignty.…",
+      "id": "x:2095023204993490967",
+      "url": "https://x.com/merettm/status/2095023204993490967",
+      "title": "I want to prevent a race into unmonitorability kicked off by confused reporting.",
+      "summary": "I want to prevent a race into unmonitorability kicked off by confused reporting. The depth of the computation graph for our present…",
       "sourceId": "x",
       "sourceName": "X",
       "sourceHome": "https://x.com",
-      "publishedAt": "2026-09-03T12:02:49.000Z",
-      "publishedTs": 1788436969000,
-      "score": 127628,
-      "authorHandle": "jensenhuang"
+      "publishedAt": "2026-09-02T05:37:10.000Z",
+      "publishedTs": 1788327430000,
+      "score": 22974,
+      "authorHandle": "merettm",
+      "tags": [
+        "x"
+      ],
+      "related": [],
+      "clusterId": "auto:i-want-to-prevent-a-race-into-unmonitorability-k",
+      "clusterSize": 1
     }
   ]
 }

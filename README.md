@@ -27,4 +27,24 @@ node scripts/refresh.mjs
 
 ## Curated harvests
 
-Evan The Grunt can drop a harvest at `harvests/latest.json`. The refresh prefers those titles/summaries (Top 10) and fills from live publisher feeds and X as needed. Up to three X posts can appear in the Top 10 when they rank.
+Evan The Grunt can drop a harvest at `harvests/latest.json`. The refresh prefers those titles/summaries as cluster leads and fills from live publisher feeds and X as needed. Same-event coverage is grouped into one Top card (about 10 clusters, not 10 raw posts). Up to three X-only clusters can appear in the mix when they are not absorbed into a publisher story.
+
+Existing post fields keep working. Optional extras Evan can send:
+
+```json
+{
+  "title": "OpenAI launches GPT-6 Astra — AGI era",
+  "summary": "GPT-6 Astra frontier computer-use model; Brockman framed AGI era.",
+  "url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
+  "sourceName": "VentureBeat",
+  "sourceId": "venturebeat",
+  "sourceHome": "https://venturebeat.com/category/ai/",
+  "tags": ["agents", "model-releases"],
+  "clusterId": "openai-astra"
+}
+```
+
+- `tags` — string array. Known ids: `model-releases`, `agents`, `funding`, `research`, `policy`, `x`. Aliases like `model-release` or `agent` are normalized. Refresh also derives tags from title/summary/source when omitted.
+- `clusterId` — stable id so Evan can pre-group outlets covering one event. Without it, refresh uses title/URL/keyword heuristics (Astra, German wiki/collusion, Gemini Photos, and similar).
+
+Masthead chips (All | Model releases | Agents | Funding | Research | Policy | X) filter the grid in the browser.
