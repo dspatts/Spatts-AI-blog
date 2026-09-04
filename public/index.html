@@ -191,6 +191,7 @@
     <a class="x-link" href="https://x.com/huggingface/status/2095508870915338284" target="_blank" rel="noopener noreferrer">Read on X →</a>
   </div>
 </article>
+      <div class="empty" id="filter-empty" hidden>No stories in this category right now.</div>
     </main>
     <p class="status">Last refresh: 5 Sept 2026, 7:09 am · Evan harvest (20) · TechCrunch (19) · VentureBeat (19) · The Verge (10) · AI/TLDR (50) · The Signal (5) · X (12)</p>
     <footer>Ai Source aggregates headlines from TechCrunch, VentureBeat, The Verge, AI/TLDR, The Signal, and X, then clusters the same event across outlets. Original posts stay on their publishers’ sites.</footer>
@@ -207,6 +208,7 @@
     bar.querySelectorAll(".chip").forEach(function (c) {
       c.classList.toggle("is-on", c === btn);
     });
+    var visible = 0;
     cards.forEach(function (card) {
       var tags = (card.getAttribute("data-tags") || "").split(/\s+/).filter(Boolean);
       var source = card.getAttribute("data-source") || "";
@@ -214,7 +216,10 @@
         filter === "all" ||
         (filter === "x" ? source === "x" : tags.indexOf(filter) !== -1);
       card.hidden = !show;
+      if (show) visible += 1;
     });
+    var empty = document.getElementById("filter-empty");
+    if (empty) empty.hidden = visible > 0;
   });
 })();
 </script>

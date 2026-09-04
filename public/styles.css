@@ -152,6 +152,10 @@ h1 {
   box-shadow: var(--shadow);
 }
 
+.story[hidden] {
+  display: none;
+}
+
 .story:hover {
   background: var(--selection);
   border-color: var(--accent);

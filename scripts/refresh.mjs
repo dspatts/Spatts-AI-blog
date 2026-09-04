@@ -1024,6 +1024,7 @@ function renderHtml(payload) {
     </header>
     <main class="grid" id="story-grid">
       ${stories || empty}
+      <div class="empty" id="filter-empty" hidden>No stories in this category right now.</div>
     </main>
     <p class="status">Last refresh: ${escapeHtml(refreshed)} · ${escapeHtml(sourcesLine)}</p>
     <footer>Ai Source aggregates headlines from TechCrunch, VentureBeat, The Verge, AI/TLDR, The Signal, and X, then clusters the same event across outlets. Original posts stay on their publishers’ sites.</footer>
@@ -1040,6 +1041,7 @@ function renderHtml(payload) {
     bar.querySelectorAll(".chip").forEach(function (c) {
       c.classList.toggle("is-on", c === btn);
     });
+    var visible = 0;
     cards.forEach(function (card) {
       var tags = (card.getAttribute("data-tags") || "").split(/\\s+/).filter(Boolean);
       var source = card.getAttribute("data-source") || "";
@@ -1047,7 +1049,10 @@ function renderHtml(payload) {
         filter === "all" ||
         (filter === "x" ? source === "x" : tags.indexOf(filter) !== -1);
       card.hidden = !show;
+      if (show) visible += 1;
     });
+    var empty = document.getElementById("filter-empty");
+    if (empty) empty.hidden = visible > 0;
   });
 })();
 </script>
