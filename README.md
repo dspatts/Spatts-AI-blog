@@ -27,7 +27,9 @@ node scripts/refresh.mjs
 
 ## Curated harvests
 
-Evan The Grunt can drop a harvest at `harvests/latest.json`. The refresh prefers those titles/summaries as cluster leads and fills from live publisher feeds and X as needed. Same-event coverage is grouped into one Top card (about 10 clusters, not 10 raw posts). Up to three X-only clusters can appear in the mix when they are not absorbed into a publisher story.
+Evan The Grunt can drop a harvest at `harvests/latest.json`. Each Actions run (push to `main`, the 3-hour cron, or **Run workflow**) rebuilds `public/index.html` and `public/data/news.json` from that file plus live RSS/X — it does not reuse the previous cluster snapshot.
+
+A harvest newer than **2 hours** can win cluster leads and same-URL titles/summaries. The Top 10 still reserves slots for live publisher clusters and up to three X-only clusters, so a 20-post harvest cannot freeze the grid. After 2 hours the harvest stays in the pool but loses lead preference and ranks with the feeds.
 
 Existing post fields keep working. Optional extras Evan can send:
 

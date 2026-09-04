@@ -27,7 +27,7 @@ jobs:
         with:
           node-version: "22"
 
-      - name: Refresh top 10 posts
+      - name: Rebuild clusters from harvest + live feeds
         run: node scripts/refresh.mjs
 
       - name: Upload Pages artifact

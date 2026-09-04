@@ -12,6 +12,7 @@ const UA =
 const TOP_N = 10;
 const SOURCE_CAP = 3;
 const X_TOP_CAP = 3;
+const FEED_TOP_CAP = 2;
 const CURATED_MAX_AGE_MS = 2 * 60 * 60 * 1000;
 const FX_API = "https://api.fxtwitter.com";
 const X_SEARCH_QUERY =
@@ -242,36 +243,47 @@ function normalizeUrl(url) {
     .replace(/\/$/, "");
 }
 
+function isFreshHarvest(harvestedAt) {
+  return Boolean(harvestedAt) && Date.now() - harvestedAt <= CURATED_MAX_AGE_MS;
+}
+
 async function loadCurated() {
   try {
     const raw = await readFile(CURATED_PATH, "utf8");
     const data = JSON.parse(raw);
     const harvestedAt = data.harvestedAt ? Date.parse(data.harvestedAt) : 0;
-    if (harvestedAt && Date.now() - harvestedAt > CURATED_MAX_AGE_MS) {
-      console.error("Curated harvest is older than 2h; still preferring it when present");
+    const fresh = isFreshHarvest(harvestedAt);
+    if (harvestedAt && !fresh) {
+      console.error(
+        "Curated harvest is older than 2h; ranking it with live feeds (no lead preference)",
+      );
     }
     const posts = Array.isArray(data.posts) ? data.posts : [];
-    return posts
-      .filter((p) => p && p.title && p.url)
-      .map((p, i) => ({
-        id: `curated:${p.url}`,
-        url: p.url,
-        title: p.title,
-        summary: p.summary || summaryFrom(p.title),
-        sourceId: p.sourceId || "curated",
-        sourceName: p.sourceName || "Curated",
-        sourceHome: p.sourceHome || p.url,
-        publishedAt: data.harvestedAt || null,
-        publishedTs: (harvestedAt || Date.now()) - i,
-        curated: true,
-        tags: Array.isArray(p.tags) ? p.tags : undefined,
-        clusterId:
-          typeof p.clusterId === "string" && p.clusterId.trim()
-            ? p.clusterId.trim()
-            : undefined,
-      }));
+    return {
+      fresh,
+      harvestedAt,
+      posts: posts
+        .filter((p) => p && p.title && p.url)
+        .map((p, i) => ({
+          id: `curated:${p.url}`,
+          url: p.url,
+          title: p.title,
+          summary: p.summary || summaryFrom(p.title),
+          sourceId: p.sourceId || "curated",
+          sourceName: p.sourceName || "Curated",
+          sourceHome: p.sourceHome || p.url,
+          publishedAt: data.harvestedAt || null,
+          publishedTs: (harvestedAt || Date.now()) - i,
+          curated: fresh,
+          tags: Array.isArray(p.tags) ? p.tags : undefined,
+          clusterId:
+            typeof p.clusterId === "string" && p.clusterId.trim()
+              ? p.clusterId.trim()
+              : undefined,
+        })),
+    };
   } catch {
-    return [];
+    return { fresh: false, harvestedAt: 0, posts: [] };
   }
 }
 
@@ -813,35 +825,85 @@ function pickDiverse(pool, limit, perSource, xAuthors) {
   return chosen;
 }
 
-function pickTop(items) {
+function mergeByUrl(items, preferCurated) {
   const byUrl = new Map();
   for (const item of items.filter(looksLikeAiStory)) {
     const key = normalizeUrl(item.url);
     const prev = byUrl.get(key);
-    if (!prev || (item.curated && !prev.curated)) byUrl.set(key, item);
+    if (!prev) {
+      byUrl.set(key, item);
+      continue;
+    }
+    if (preferCurated) {
+      if (item.curated && !prev.curated) {
+        byUrl.set(key, item);
+        continue;
+      }
+      if (prev.curated && !item.curated) continue;
+    }
+    if (item.publishedTs > prev.publishedTs) byUrl.set(key, item);
   }
-  const clusters = clusterStories([...byUrl.values()]);
+  return [...byUrl.values()];
+}
+
+function pickTop(items, preferCurated = false) {
+  const clusters = clusterStories(mergeByUrl(items, preferCurated));
   const xPool = clusters
     .filter((item) => item.sourceId === X_SOURCE.id)
     .sort(
       (a, b) =>
         (b.score || 0) - (a.score || 0) || b.publishedTs - a.publishedTs,
     );
-  const otherPool = clusters
-    .filter((item) => item.sourceId !== X_SOURCE.id)
+  const curatedPool = clusters
+    .filter((item) => item.curated)
     .sort(compareStories);
+  const feedPool = clusters
+    .filter((item) => !item.curated && item.sourceId !== X_SOURCE.id)
+    .sort(
+      (a, b) =>
+        b.publishedTs - a.publishedTs || a.title.localeCompare(b.title),
+    );
+  const recencyPool = clusters
+    .filter((item) => item.sourceId !== X_SOURCE.id)
+    .sort(
+      (a, b) =>
+        b.publishedTs - a.publishedTs || a.title.localeCompare(b.title),
+    );
 
   const perSource = new Map();
   const xAuthors = new Set();
-  // Hold up to 3 X-only clusters so a full curated harvest cannot crowd X out.
-  const xPicked = pickDiverse(xPool, X_TOP_CAP, perSource, xAuthors);
-  const others = pickDiverse(
-    otherPool,
-    TOP_N - xPicked.length,
-    perSource,
-    xAuthors,
-  );
-  return [...others, ...xPicked].sort(compareStories);
+  const picked = [];
+  const take = (pool, limit) => {
+    if (limit <= 0) return;
+    const extra = pickDiverse(
+      pool.filter((item) => !picked.includes(item)),
+      limit,
+      perSource,
+      xAuthors,
+    );
+    picked.push(...extra);
+  };
+
+  if (preferCurated && curatedPool.length) {
+    const xReserve = Math.min(X_TOP_CAP, TOP_N);
+    const feedReserve = Math.min(FEED_TOP_CAP, Math.max(0, TOP_N - xReserve));
+    take(curatedPool, TOP_N - xReserve - feedReserve);
+    take(feedPool, TOP_N - picked.length - xReserve);
+    take(xPool, xReserve);
+    take(curatedPool, TOP_N - picked.length);
+    take(feedPool, TOP_N - picked.length);
+  } else {
+    take(xPool, X_TOP_CAP);
+    take(recencyPool, TOP_N - picked.length);
+  }
+  take(clusters, TOP_N - picked.length);
+  if (!preferCurated) {
+    picked.sort(
+      (a, b) =>
+        b.publishedTs - a.publishedTs || a.title.localeCompare(b.title),
+    );
+  }
+  return picked.slice(0, TOP_N);
 }
 
 function escapeHtml(value) {
@@ -991,15 +1053,17 @@ function renderHtml(payload) {
 
 export async function refreshNews() {
   const curated = await loadCurated();
-  const all = [...curated];
+  const all = [...curated.posts];
   const sourceStats = [];
-  if (curated.length) {
+  if (curated.posts.length) {
     sourceStats.push({
       id: "curated",
-      name: "Evan harvest",
+      name: curated.fresh ? "Evan harvest" : "Evan harvest (expired)",
       ok: true,
-      count: curated.length,
-      errors: [],
+      count: curated.posts.length,
+      errors: curated.fresh
+        ? []
+        : ["older than 2h; ranked with live feeds"],
     });
   }
   const xPromise = harvestX();
@@ -1026,12 +1090,13 @@ export async function refreshNews() {
   if (xErrors.length) console.error("x", xErrors.join("; "));
   all.push(...xItems);
 
-  const posts = pickTop(all);
+  const posts = pickTop(all, curated.fresh);
   const payload = {
     source: "multi",
     sources: sourceStats,
     briefingDate: new Date().toISOString(),
     refreshedAt: new Date().toISOString(),
+    preferCurated: curated.fresh,
     posts,
   };
   await mkdir(dirname(DATA_PATH), { recursive: true });
@@ -1040,13 +1105,13 @@ export async function refreshNews() {
   return payload;
 }
 
-export { clusterStories, deriveTags, pickTop, topicKey };
+export { clusterStories, deriveTags, isFreshHarvest, loadCurated, pickTop, topicKey };
 
 const isDirect =
   process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1];
 if (isDirect) {
   const payload = await refreshNews();
   console.log(
-    `Wrote ${payload.posts.length} clusters (${payload.posts.filter((p) => p.curated).length} curated-led, ${payload.posts.filter((p) => p.sourceId === "x").length} X-only, ${payload.posts.filter((p) => (p.clusterSize || 1) > 1).length} multi-source)`,
+    `Wrote ${payload.posts.length} clusters (${payload.posts.filter((p) => p.curated).length} curated-led, ${payload.posts.filter((p) => !p.curated && p.sourceId !== "x").length} live-feed, ${payload.posts.filter((p) => p.sourceId === "x").length} X-only, ${payload.posts.filter((p) => (p.clusterSize || 1) > 1).length} multi-source, preferCurated=${payload.preferCurated})`,
   );
 }
