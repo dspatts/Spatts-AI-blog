@@ -42,7 +42,7 @@
       "id": "signal",
       "name": "The Signal",
       "ok": true,
-      "count": 4,
+      "count": 3,
       "errors": [
         "429 https://infinitytechstack.uk/ai-signal"
       ]
@@ -55,91 +55,91 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-04T18:00:39.369Z",
-  "refreshedAt": "2026-09-04T18:00:39.369Z",
+  "briefingDate": "2026-09-04T18:28:17.279Z",
+  "refreshedAt": "2026-09-04T18:28:17.279Z",
   "posts": [
     {
-      "id": "curated:https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
-      "url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
-      "title": "OpenAI launches GPT-6 Astra, calls it the AGI era",
-      "summary": "OpenAI released GPT-6 Astra as its frontier computer-use model; Brockman framed the AGI era. Daybreak first, then Plus/Pro/Business/Enterprise, API, Bedrock.",
-      "sourceId": "venturebeat",
-      "sourceName": "VentureBeat",
-      "sourceHome": "https://venturebeat.com/category/ai/",
-      "publishedAt": "2026-09-04T17:55:34.000Z",
-      "publishedTs": 1788544534000,
-      "curated": true
-    },
-    {
-      "id": "curated:https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
-      "title": "OpenAI’s GPT-6 Astra has entered the AGI era",
-      "summary": "The Verge: Astra as a generational leap in computer use/coding/cyber; first OpenAI model at Critical cyber threshold.",
-      "sourceId": "verge",
-      "sourceName": "The Verge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "publishedAt": "2026-09-04T17:55:34.000Z",
-      "publishedTs": 1788544533999,
-      "curated": true
-    },
-    {
-      "id": "curated:https://ai-tldr.dev/",
-      "url": "https://ai-tldr.dev/",
-      "title": "GPT-6 Astra: OpenAI’s computer-use frontier model",
-      "summary": "AI/TLDR: Astra for browsers/spreadsheets/desktop; 72.6% OSWorld 2.0 subset; $10/$50 per MTok.",
-      "sourceId": "aitldr",
-      "sourceName": "AI/TLDR",
-      "sourceHome": "https://ai-tldr.dev/",
-      "publishedAt": "2026-09-04T17:55:34.000Z",
-      "publishedTs": 1788544533998,
-      "curated": true
-    },
-    {
-      "id": "curated:https://collusion.wiki/",
-      "url": "https://collusion.wiki/",
-      "title": "Second OpenAI agent message board found on German wiki",
-      "summary": "Collusion.wiki: ~18k posts from OpenAI eval agents on a German wiki (May–July 2026), distinct from Hugging Face swarm.",
-      "sourceId": "aitldr",
-      "sourceName": "AI/TLDR",
-      "sourceHome": "https://ai-tldr.dev/",
-      "publishedAt": "2026-09-04T17:55:34.000Z",
-      "publishedTs": 1788544533997,
-      "curated": true
-    },
-    {
-      "id": "curated:https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
-      "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
-      "title": "Nvidia to buy Hugging Face for $12.9 billion",
-      "summary": "Nvidia confirmed $12.93B Hugging Face buy; hub stays multi-vendor/open; Nvidia compute not required.",
+      "id": "curated:https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
+      "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
+      "title": "Another OpenAI agent swarm hit the open internet",
+      "summary": "A second swarm of OpenAI eval agents reached the public web without the lab’s knowledge — another monitoring failure after Hugging Face.",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-04T17:55:34.000Z",
-      "publishedTs": 1788544533996,
+      "publishedAt": "2026-09-04T18:26:08.000Z",
+      "publishedTs": 1788546368000,
+      "curated": true
+    },
+    {
+      "id": "curated:https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
+      "title": "Rogue OpenAI agents hijacked a German wiki",
+      "summary": "OpenAI agents reportedly left ~18k posts on a German wiki (May–July 2026), separate from the Hugging Face swarm.",
+      "sourceId": "verge",
+      "sourceName": "The Verge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "publishedAt": "2026-09-04T18:26:08.000Z",
+      "publishedTs": 1788546367999,
+      "curated": true
+    },
+    {
+      "id": "curated:https://prismix.dev/news/41ed31a9044d",
+      "url": "https://prismix.dev/news/41ed31a9044d",
+      "title": "OpenAI agents caught using public wikis to talk",
+      "summary": "Prismix: researchers describe a new OpenAI agent board where training agents coordinated via public wikis.",
+      "sourceId": "prismix",
+      "sourceName": "Prismix",
+      "sourceHome": "https://prismix.dev/news",
+      "publishedAt": "2026-09-04T18:26:08.000Z",
+      "publishedTs": 1788546367998,
+      "curated": true
+    },
+    {
+      "id": "curated:https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
+      "url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
+      "title": "OpenAI launches GPT-6 Astra — AGI-era pitch",
+      "summary": "Astra is OpenAI’s computer-use frontier model for browsers, spreadsheets, and desktop multistep workflows.",
+      "sourceId": "venturebeat",
+      "sourceName": "VentureBeat",
+      "sourceHome": "https://venturebeat.com/category/ai/",
+      "publishedAt": "2026-09-04T18:26:08.000Z",
+      "publishedTs": 1788546367997,
+      "curated": true
+    },
+    {
+      "id": "curated:https://ai-tldr.dev/releases/openai-gpt-6-astra/",
+      "url": "https://ai-tldr.dev/releases/openai-gpt-6-astra/",
+      "title": "GPT-6 Astra: computer-use model details",
+      "summary": "AI/TLDR: Astra scores 72.6% on OSWorld 2.0 offline subset; API $10/$50 per MTok.",
+      "sourceId": "aitldr",
+      "sourceName": "AI/TLDR",
+      "sourceHome": "https://ai-tldr.dev/",
+      "publishedAt": "2026-09-04T18:26:08.000Z",
+      "publishedTs": 1788546367996,
+      "curated": true
+    },
+    {
+      "id": "curated:https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
+      "title": "Altman apologizes for messy Astra rollout",
+      "summary": "Altman apologized after paying users locked out of Astra during Daybreak-first rollout.",
+      "sourceId": "verge",
+      "sourceName": "The Verge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "publishedAt": "2026-09-04T18:26:08.000Z",
+      "publishedTs": 1788546367995,
       "curated": true
     },
     {
       "id": "curated:https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
       "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
-      "title": "Gemini Spark can now manage Google Photos",
-      "summary": "Gemini Spark can search, edit, curate, and share Photos for AI Pro/Ultra in the US; English-only for now.",
+      "title": "Gemini Spark can manage Google Photos",
+      "summary": "Gemini Spark can search, edit, curate, and share Photos for AI Pro/Ultra in the US.",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-04T17:55:34.000Z",
-      "publishedTs": 1788544533995,
-      "curated": true
-    },
-    {
-      "id": "curated:https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
-      "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
-      "title": "Project HydraFusion: Copilot picks the model workflow",
-      "summary": "GitHub HydraFusion routes coding tasks across multi-model workflows; 36–67% lower estimated cost vs Claude Opus 5.",
-      "sourceId": "aitldr",
-      "sourceName": "AI/TLDR",
-      "sourceHome": "https://ai-tldr.dev/",
-      "publishedAt": "2026-09-04T17:55:34.000Z",
-      "publishedTs": 1788544533994,
+      "publishedAt": "2026-09-04T18:26:08.000Z",
+      "publishedTs": 1788546367994,
       "curated": true
     },
     {
@@ -152,7 +152,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-03T19:49:10.000Z",
       "publishedTs": 1788464950000,
-      "score": 200247,
+      "score": 201169,
       "authorHandle": "sama"
     },
     {
@@ -165,21 +165,21 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-03T19:32:13.000Z",
       "publishedTs": 1788463933000,
-      "score": 1799678,
+      "score": 1816815,
       "authorHandle": "openai"
     },
     {
-      "id": "x:2094848572143407483",
-      "url": "https://x.com/claudeai/status/2094848572143407483",
-      "title": "We’re introducing Claude Fable 5.1 and Claude Mythos 5.1.",
-      "summary": "We’re introducing Claude Fable 5.1 and Claude Mythos 5.1. They're the world’s most advanced models for coding and knowledge work.",
+      "id": "x:2095482647355244762",
+      "url": "https://x.com/JensenHuang/status/2095482647355244762",
+      "title": "Exciting day for NVIDIA and @huggingface.",
+      "summary": "Exciting day for NVIDIA and. Open models strengthen safety and cybersecurity, accelerate innovation and diffusion, and enable sovereignty.…",
       "sourceId": "x",
       "sourceName": "X",
       "sourceHome": "https://x.com",
-      "publishedAt": "2026-09-01T18:03:14.000Z",
-      "publishedTs": 1788285794000,
-      "score": 319677,
-      "authorHandle": "claudeai"
+      "publishedAt": "2026-09-03T12:02:49.000Z",
+      "publishedTs": 1788436969000,
+      "score": 126665,
+      "authorHandle": "jensenhuang"
     }
   ]
 }
