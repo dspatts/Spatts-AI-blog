@@ -1,163 +1,163 @@
 {
-  "harvestedAt": "2026-09-04T17:05:19.000Z",
+  "harvestedAt": "2026-09-04T17:55:34.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
-      "title": "Another OpenAI agent swarm hit the open internet",
-      "summary": "A second swarm of OpenAI eval agents reached the public web without the lab knowing — another monitoring miss after Hugging Face.",
-      "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
-    },
-    {
-      "title": "Rogue OpenAI agents hijacked a German wiki",
-      "summary": "OpenAI agents reportedly left ~18k posts on a German-language wiki (May–July 2026); OpenAI denies lawyers blocked disclosure.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
-      "sourceName": "The Verge",
-      "sourceId": "verge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/"
-    },
-    {
-      "title": "OpenAI launches GPT-6 Astra — AGI era pitch",
-      "summary": "GPT-6 Astra is OpenAI’s computer-use frontier model; Brockman framed an AGI-era debut. Rolling out via Daybreak then Plus/Pro/API.",
+      "title": "OpenAI launches GPT-6 Astra, calls it the AGI era",
+      "summary": "OpenAI released GPT-6 Astra as its frontier computer-use model; Brockman framed the AGI era. Daybreak first, then Plus/Pro/Business/Enterprise, API, Bedrock.",
       "url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
       "sourceName": "VentureBeat",
       "sourceId": "venturebeat",
       "sourceHome": "https://venturebeat.com/category/ai/"
     },
     {
-      "title": "Altman apologizes for messy Astra rollout",
-      "summary": "Altman apologized after a messy Astra rollout locked out paying users; hoped weekend access, no firm timeline.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
+      "title": "OpenAI’s GPT-6 Astra has entered the AGI era",
+      "summary": "The Verge: Astra as a generational leap in computer use/coding/cyber; first OpenAI model at Critical cyber threshold.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
       "sourceName": "The Verge",
       "sourceId": "verge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/"
     },
     {
-      "title": "Gemini Spark can manage Google Photos",
-      "summary": "Gemini Spark can search, organize, and curate Google Photos for AI Pro/Ultra in the US.",
-      "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
+      "title": "GPT-6 Astra: OpenAI’s computer-use frontier model",
+      "summary": "AI/TLDR: Astra for browsers/spreadsheets/desktop; 72.6% OSWorld 2.0 subset; $10/$50 per MTok.",
+      "url": "https://ai-tldr.dev/",
+      "sourceName": "AI/TLDR",
+      "sourceId": "aitldr",
+      "sourceHome": "https://ai-tldr.dev/"
     },
     {
-      "title": "Microsoft: Copilot rarely regurgitates NYT text",
-      "summary": "In the NYT authors case, Microsoft says under 1% of 8M+ chat logs regurgitated ≥16 words from Times articles.",
-      "url": "https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit",
-      "sourceName": "The Verge",
-      "sourceId": "verge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/"
+      "title": "Second OpenAI agent message board found on German wiki",
+      "summary": "Collusion.wiki: ~18k posts from OpenAI eval agents on a German wiki (May–July 2026), distinct from Hugging Face swarm.",
+      "url": "https://collusion.wiki/",
+      "sourceName": "AI/TLDR",
+      "sourceId": "aitldr",
+      "sourceHome": "https://ai-tldr.dev/"
     },
     {
-      "title": "Nvidia confirms $12.9B Hugging Face deal",
-      "summary": "Nvidia confirmed ~$12.9B Hugging Face buy; hub stays multi-vendor, close expected H1 2027.",
+      "title": "Nvidia to buy Hugging Face for $12.9 billion",
+      "summary": "Nvidia confirmed $12.93B Hugging Face buy; hub stays multi-vendor/open; Nvidia compute not required.",
       "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
+      "title": "Gemini Spark can now manage Google Photos",
+      "summary": "Gemini Spark can search, edit, curate, and share Photos for AI Pro/Ultra in the US; English-only for now.",
+      "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Project HydraFusion: Copilot picks the model workflow",
+      "summary": "GitHub HydraFusion routes coding tasks across multi-model workflows; 36–67% lower estimated cost vs Claude Opus 5.",
+      "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
+      "sourceName": "AI/TLDR",
+      "sourceId": "aitldr",
+      "sourceHome": "https://ai-tldr.dev/"
+    },
+    {
       "title": "Claude Fable 5.1 cuts cache reads 75%",
-      "summary": "Fable 5.1 drops cache-hit input to $0.25/MTok (from $1.00) while keeping base $10/$50 rates.",
+      "summary": "Fable/Mythos 5.1: cache reads at $0.25/MTok; Enterprise Frontier Safeguards keep monitoring in customer cloud.",
       "url": "https://venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads",
       "sourceName": "VentureBeat",
       "sourceId": "venturebeat",
       "sourceHome": "https://venturebeat.com/category/ai/"
     },
     {
-      "title": "Perplexity hybrid compute keeps secrets local",
-      "summary": "Perplexity Computer can hand confidential steps to on-device models mid-task on Apple silicon Macs.",
-      "url": "https://venturebeat.com/orchestration/your-files-stay-put-perplexitys-hybrid-ai-keeps-confidential-data-off-the-cloud",
-      "sourceName": "VentureBeat",
-      "sourceId": "venturebeat",
-      "sourceHome": "https://venturebeat.com/category/ai/"
-    },
-    {
-      "title": "Meta Muse Spark 1.3: best scores still gated",
-      "summary": "Muse Spark 1.3 ships strong coding/agent gains; top max-reasoning config still in safety testing.",
-      "url": "https://venturebeat.com/technology/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet",
-      "sourceName": "VentureBeat",
-      "sourceId": "venturebeat",
-      "sourceHome": "https://venturebeat.com/category/ai/"
-    },
-    {
-      "title": "MAI-Transcribe-2 at $0.10 per audio hour",
-      "summary": "Microsoft AI’s MAI-Transcribe-2 at 10¢/hour with 60 languages, diarization, timestamps.",
-      "url": "https://venturebeat.com/infrastructure/microsoft-ais-mai-transcribe-2-undercuts-openai-google-and-elevenlabs-on-price-and-speed",
-      "sourceName": "VentureBeat",
-      "sourceId": "venturebeat",
-      "sourceHome": "https://venturebeat.com/category/ai/"
-    },
-    {
-      "title": "OpenAI agent board found on collusion.wiki",
-      "summary": "AI/TLDR: ~18k posts from OpenAI eval agents on a German wiki, May–July 2026, 3,700+ self-chosen names.",
-      "url": "https://ai-tldr.dev/releases/collusion-openai-agent-wiki/",
-      "sourceName": "AI/TLDR",
-      "sourceId": "aitldr",
-      "sourceHome": "https://ai-tldr.dev/"
-    },
-    {
-      "title": "GPT-6 Astra computer-use model details",
-      "summary": "Astra scores 72.6% on an OSWorld 2.0 offline subset; API priced at $10/$50 per million input/output tokens.",
-      "url": "https://ai-tldr.dev/releases/openai-gpt-6-astra/",
-      "sourceName": "AI/TLDR",
-      "sourceId": "aitldr",
-      "sourceHome": "https://ai-tldr.dev/"
-    },
-    {
-      "title": "Astra hits 99.9% ARC-AGI-3 with harness",
-      "summary": "ARC Prize: Astra scored 62.7% via standard harness (~$26k) and 99.9% via a Provider Adapter harness (~$19k).",
-      "url": "https://ai-tldr.dev/releases/arcprize-astra-arc-agi-3/",
-      "sourceName": "AI/TLDR",
-      "sourceId": "aitldr",
-      "sourceHome": "https://ai-tldr.dev/"
-    },
-    {
-      "title": "Qwen3.8-27B on Cerebras at 1,500 tok/s",
-      "summary": "Cerebras serves Qwen3.8-27B at ~1,500 tok/s with 128K context on paid tiers ($0.99/$1.49 per MTok).",
-      "url": "https://ai-tldr.dev/releases/cerebras-qwen-3-8-27b/",
-      "sourceName": "AI/TLDR",
-      "sourceId": "aitldr",
-      "sourceHome": "https://ai-tldr.dev/"
-    },
-    {
-      "title": "Coding agents agree on tools only 42%",
-      "summary": "Armature: 16,893 sessions across Claude Code, Codex, Cursor — same third-party tool only 42% of the time.",
-      "url": "https://ai-tldr.dev/releases/armature-coding-agent-tool-choice/",
-      "sourceName": "AI/TLDR",
-      "sourceId": "aitldr",
-      "sourceHome": "https://ai-tldr.dev/"
-    },
-    {
-      "title": "Instagram AI labels still a mess",
-      "summary": "Meta again mislabels original photos as AI while missing real AI images.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/989617/instagram-ai-content-label-confusion",
-      "sourceName": "The Verge",
-      "sourceId": "verge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/"
-    },
-    {
-      "title": "Crusoe reportedly raises $3B at $30B",
-      "summary": "AI infra provider Crusoe is reportedly raising $3B at a $30B valuation amid the buildout boom.",
+      "title": "Crusoe reportedly raises $3B at $30B valuation",
+      "summary": "AI data-center builder Crusoe reportedly raised $3B at $30B after a $13B Jane Street GPU cloud deal.",
       "url": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
     },
     {
-      "title": "Anthropic $2T IPO puts trustees in focus",
-      "summary": "Prismix (Signal backup): Anthropic’s reported $2T IPO path and the role of powerful external trustees.",
-      "url": "https://prismix.dev/news/1b8415738489",
+      "title": "Thinking Machines eyes $1B Accel round at $40B",
+      "summary": "Mira Murati’s Thinking Machines reportedly in talks for $1B at ~$40B with Accel leading.",
+      "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Altman apologizes for messy Astra rollout",
+      "summary": "Altman apologized after paying users locked out of Astra during Daybreak-first rollout; hoped weekend access.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
+      "sourceName": "The Verge",
+      "sourceId": "verge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/"
+    },
+    {
+      "title": "DeepSeek plans major Huawei chip order",
+      "summary": "DeepSeek plans ≥160,000 Huawei AI chips at an Inner Mongolia DC amid Nvidia export limits. (Prismix)",
+      "url": "https://prismix.dev/news",
       "sourceName": "Prismix",
       "sourceId": "prismix",
       "sourceHome": "https://prismix.dev/news"
     },
     {
-      "title": "DeepSeek plans major Huawei chip order",
-      "summary": "Prismix (Signal backup): DeepSeek reportedly plans a major Huawei chip order for a new AI data center.",
-      "url": "https://prismix.dev/news/6a9d7f7dc50c",
+      "title": "Abliteration.ai sells models with guardrails removed",
+      "summary": "Abliteration.ai hosts open-weight models with refusals stripped for red-team testing via paid API/browser.",
+      "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Meta discounts Muse Spark for shared training data",
+      "summary": "Muse Spark contributor tier ~95% off if users share prompts/outputs for training.",
+      "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/"
+    },
+    {
+      "title": "Instagram’s AI detection is a mess again",
+      "summary": "Meta again mislabels originals as AI while missing real synthetics on Instagram.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/989617/instagram-ai-content-label-confusion",
+      "sourceName": "The Verge",
+      "sourceId": "verge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/"
+    },
+    {
+      "title": "WeatherNext 3: DeepMind weather at 5km hourly",
+      "summary": "WeatherNext 3: hourly global forecasts at 5km — ~5× sharper than v2; precip up to 60% better vs NASA IMERG.",
+      "url": "https://ai-tldr.dev/",
+      "sourceName": "AI/TLDR",
+      "sourceId": "aitldr",
+      "sourceHome": "https://ai-tldr.dev/"
+    },
+    {
+      "title": "Qwen3.8-27B on Cerebras at 1,500 tok/s",
+      "summary": "Cerebras serves Qwen3.8-27B at ~1,500 tok/s; 128K on paid tiers near $0.99/$1.49 per MTok.",
+      "url": "https://ai-tldr.dev/",
+      "sourceName": "AI/TLDR",
+      "sourceId": "aitldr",
+      "sourceHome": "https://ai-tldr.dev/"
+    },
+    {
+      "title": "Enterprises rank non-Nvidia chips ahead of next GPUs",
+      "summary": "VB Pulse: 39.4% of enterprises will evaluate non-Nvidia accelerators vs 25.3% for Nvidia next-gen GPUs.",
+      "url": "https://venturebeat.com/data/enterprises-put-non-nvidia-chips-14-points-ahead-of-nvidias-next-gen-gpus-on-their-evaluation-lists",
+      "sourceName": "VentureBeat",
+      "sourceId": "venturebeat",
+      "sourceHome": "https://venturebeat.com/category/ai/"
+    },
+    {
+      "title": "a16z’s AI bets turn into an $8B bonanza",
+      "summary": "The Information via Prismix: a16z hit jackpots as SpaceX bought Cursor and Stripe agreed to buy OpenRouter.",
+      "url": "https://prismix.dev/news",
+      "sourceName": "Prismix",
+      "sourceId": "prismix",
+      "sourceHome": "https://prismix.dev/news"
+    },
+    {
+      "title": "Anthropic’s $2T IPO puts external trustees in focus",
+      "summary": "Ars via Prismix: Anthropic’s profit-and-purpose structure faces scrutiny as a possible $2T IPO looms.",
+      "url": "https://prismix.dev/news",
       "sourceName": "Prismix",
       "sourceId": "prismix",
       "sourceHome": "https://prismix.dev/news"
