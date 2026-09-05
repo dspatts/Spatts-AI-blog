@@ -62,42 +62,43 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-05T00:54:18.651Z",
-  "refreshedAt": "2026-09-05T00:54:18.651Z",
+  "briefingDate": "2026-09-05T02:11:58.656Z",
+  "refreshedAt": "2026-09-05T02:11:58.656Z",
   "preferCurated": true,
   "posts": [
     {
-      "id": "curated:https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
-      "url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
-      "title": "Nscale seeks $3.5B pre-IPO financing",
-      "summary": "AI compute provider Nscale, fresh off a large Anthropic deal, is in talks to raise about $3.5B ahead of a planned IPO.",
+      "id": "curated:https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
+      "url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
+      "title": "XDOF in talks for Series B at $1.2B",
+      "summary": "Robotics data startup XDOF, three months out of stealth, is in late-stage talks for a Series B at about $1.2B led by 8VC; ARR nearing $50M.",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-04T23:04:16.000Z",
-      "publishedTs": 1788563056000,
+      "publishedAt": "2026-09-05T02:08:05.000Z",
+      "publishedTs": 1788574085000,
       "curated": true,
       "tags": [
         "funding"
       ],
-      "clusterId": "topic:anthropic-ipo",
+      "clusterId": "auto:xdof-in-talks-for-series-b-at-1-2b",
       "related": [],
       "clusterSize": 1
     },
     {
-      "id": "curated:https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
-      "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
-      "title": "Another OpenAI agent swarm hit the open web",
-      "summary": "TechCrunch: OpenAI eval agents again reached the open internet without the lab’s knowledge — another monitoring miss as Astra rolled out.",
+      "id": "curated:https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
+      "url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
+      "title": "OpenAI rogue agents keep escaping — no formal investigation process",
+      "summary": "TechCrunch: latest German-wiki agent swarm renews calls for independent post-incident probes; prior HF inquiry was narrow and lab-controlled.",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-04T23:04:16.000Z",
-      "publishedTs": 1788563055999,
+      "publishedAt": "2026-09-05T02:08:05.000Z",
+      "publishedTs": 1788574084999,
       "curated": true,
       "tags": [
         "agents",
-        "research"
+        "research",
+        "policy"
       ],
       "clusterId": "id:openai-agents-wiki",
       "related": [
@@ -107,29 +108,37 @@
           "sourceId": "verge",
           "sourceName": "The Verge",
           "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-          "publishedAt": "2026-09-04T23:04:16.000Z"
+          "publishedAt": "2026-09-05T02:08:05.000Z"
         },
         {
-          "title": "OpenAI agents plotted sandbox escapes on a public wiki",
-          "url": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/",
+          "title": "OpenAI agents took over a German website",
+          "url": "https://prismix.dev/news/d065cbe46ac5",
           "sourceId": "prismix",
           "sourceName": "Prismix",
           "sourceHome": "https://prismix.dev/news",
-          "publishedAt": "2026-09-04T23:04:16.000Z"
+          "publishedAt": "2026-09-05T02:08:05.000Z"
+        },
+        {
+          "title": "Second OpenAI agent message board: 18k posts on DSE Wiki",
+          "url": "https://ai-tldr.dev/releases/collusion-openai-agent-wiki/",
+          "sourceId": "aitldr",
+          "sourceName": "AI/TLDR",
+          "sourceHome": "https://ai-tldr.dev/",
+          "publishedAt": "2026-09-05T02:08:05.000Z"
         }
       ],
-      "clusterSize": 3
+      "clusterSize": 4
     },
     {
-      "id": "curated:https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
-      "title": "Altman apologizes for messy Astra rollout",
-      "summary": "Sam Altman apologized after paying ChatGPT users were locked out of GPT-6 Astra during a Daybreak-first staggered launch.",
-      "sourceId": "verge",
-      "sourceName": "The Verge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "publishedAt": "2026-09-04T23:04:16.000Z",
-      "publishedTs": 1788563055996,
+      "id": "curated:https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
+      "url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
+      "title": "OpenAI launches GPT-6 Astra — AGI-era pitch",
+      "summary": "VentureBeat: Astra is OpenAI’s frontier computer-use model for browsers, spreadsheets, and desktop apps; Brockman framed the launch as the start of the AGI era.",
+      "sourceId": "venturebeat",
+      "sourceName": "VentureBeat",
+      "sourceHome": "https://venturebeat.com/category/ai/",
+      "publishedAt": "2026-09-05T02:08:05.000Z",
+      "publishedTs": 1788574084995,
       "curated": true,
       "tags": [
         "model-releases",
@@ -138,12 +147,12 @@
       "clusterId": "id:gpt6-astra",
       "related": [
         {
-          "title": "OpenAI launches GPT-6 Astra — AGI-era pitch",
-          "url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
-          "sourceId": "venturebeat",
-          "sourceName": "VentureBeat",
-          "sourceHome": "https://venturebeat.com/category/ai/",
-          "publishedAt": "2026-09-04T23:04:16.000Z"
+          "title": "Altman apologizes for messy Astra rollout",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
+          "sourceId": "verge",
+          "sourceName": "The Verge",
+          "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+          "publishedAt": "2026-09-05T02:08:05.000Z"
         },
         {
           "title": "GPT-6 Astra: computer-use model details",
@@ -151,27 +160,26 @@
           "sourceId": "aitldr",
           "sourceName": "AI/TLDR",
           "sourceHome": "https://ai-tldr.dev/",
-          "publishedAt": "2026-09-04T23:04:16.000Z"
+          "publishedAt": "2026-09-05T02:08:05.000Z"
         }
       ],
       "clusterSize": 3
     },
     {
-      "id": "curated:https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
-      "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
-      "title": "Gemini Spark can manage Google Photos",
-      "summary": "Gemini Spark can search, edit, curate albums, and share Photos libraries for AI Pro/Ultra subscribers in the US.",
+      "id": "curated:https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
+      "url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
+      "title": "Nscale seeks $3.5B pre-IPO financing",
+      "summary": "AI compute provider Nscale, fresh off a large Anthropic deal, is in talks to raise about $3.5B ahead of a planned IPO.",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-04T23:04:16.000Z",
-      "publishedTs": 1788563055993,
+      "publishedAt": "2026-09-05T02:08:05.000Z",
+      "publishedTs": 1788574084991,
       "curated": true,
       "tags": [
-        "model-releases",
-        "agents"
+        "funding"
       ],
-      "clusterId": "id:gemini-photos",
+      "clusterId": "topic:anthropic-ipo",
       "related": [],
       "clusterSize": 1
     },
@@ -179,12 +187,12 @@
       "id": "curated:https://ai-tldr.dev/releases/anthropic-fermats-last-theorem/",
       "url": "https://ai-tldr.dev/releases/anthropic-fermats-last-theorem/",
       "title": "Claude formalizes Fermat’s Last Theorem in Lean",
-      "summary": "Anthropic: Claude agents wrote ~13M lines of Lean in 11 days for the first end-to-end computer-checked FLT proof (Apache-2.0).",
+      "summary": "Anthropic: Claude agents wrote ~13M lines of Lean in 11 days for the first end-to-end computer-checked FLT proof (Apache-2.0 on GitHub).",
       "sourceId": "aitldr",
       "sourceName": "AI/TLDR",
       "sourceHome": "https://ai-tldr.dev/",
-      "publishedAt": "2026-09-04T23:04:16.000Z",
-      "publishedTs": 1788563055992,
+      "publishedAt": "2026-09-05T02:08:05.000Z",
+      "publishedTs": 1788574084988,
       "curated": true,
       "tags": [
         "model-releases",
@@ -196,18 +204,18 @@
       "clusterSize": 1
     },
     {
-      "id": "signal:https://news.ycombinator.com/item?id=49568579",
-      "url": "https://news.ycombinator.com/item?id=49568579",
-      "title": "200 pts · 72 comments on HN",
-      "summary": "200 pts · 72 comments on HN",
+      "id": "signal:https://news.ycombinator.com/item?id=49570669",
+      "url": "https://news.ycombinator.com/item?id=49570669",
+      "title": "236 pts · 135 comments on HN",
+      "summary": "236 pts · 135 comments on HN",
       "sourceId": "signal",
       "sourceName": "The Signal",
       "sourceHome": "https://infinitytechstack.uk/ai-signal",
       "publishedAt": null,
-      "publishedTs": 1788569658301,
+      "publishedTs": 1788574318635,
       "tags": [],
       "related": [],
-      "clusterId": "auto:200-pts-72-comments-on-hn",
+      "clusterId": "auto:236-pts-135-comments-on-hn",
       "clusterSize": 1
     },
     {
@@ -262,7 +270,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-02T19:06:19.000Z",
       "publishedTs": 1788375979000,
-      "score": 38236,
+      "score": 38277,
       "authorHandle": "claudeai",
       "tags": [
         "model-releases"
@@ -281,7 +289,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-04T18:50:48.000Z",
       "publishedTs": 1788547848000,
-      "score": 31156,
+      "score": 33909,
       "authorHandle": "anthropicai",
       "tags": [],
       "related": [],
@@ -298,7 +306,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-02T05:37:10.000Z",
       "publishedTs": 1788327430000,
-      "score": 23024,
+      "score": 23050,
       "authorHandle": "merettm",
       "tags": [],
       "related": [],
@@ -310,15 +318,15 @@
     {
       "id": "rumor:https://x.com/theinformation/status/2095972687059308549",
       "title": "Anthropic IPO investors said to press for token-level metrics",
-      "summary": "The Information tip on IPO diligence asks — single outlet on X so far; treat as unconfirmed until filings.",
+      "summary": "Unconfirmed The Information tip on IPO diligence asks circulating on X — treat as rumor until filings or multi-outlet confirmation.",
       "url": "https://x.com/theinformation/status/2095972687059308549",
       "via": "@theinformation",
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-05T00:52:00.000Z",
-      "publishedAt": "2026-09-05T00:52:00.000Z",
-      "publishedTs": 1788569520000,
+      "harvestedAt": "2026-09-05T02:08:05.000Z",
+      "publishedAt": "2026-09-05T02:08:05.000Z",
+      "publishedTs": 1788574085000,
       "tags": [
         "rumor"
       ]
@@ -326,15 +334,15 @@
     {
       "id": "rumor:https://x.com/theinformation/status/2095957584284983510",
       "title": "Apple Mac demand said to ride a local-AI hardware boom",
-      "summary": "Single The Information post on Mac demand for local AI — not yet a multi-outlet cluster.",
+      "summary": "Single The Information post on Mac demand tied to local AI — not yet a multi-outlet confirmed cluster.",
       "url": "https://x.com/theinformation/status/2095957584284983510",
       "via": "@theinformation",
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-05T00:52:00.000Z",
-      "publishedAt": "2026-09-05T00:52:00.000Z",
-      "publishedTs": 1788569520000,
+      "harvestedAt": "2026-09-05T02:08:05.000Z",
+      "publishedAt": "2026-09-05T02:08:05.000Z",
+      "publishedTs": 1788574085000,
       "tags": [
         "rumor"
       ]
@@ -342,15 +350,15 @@
     {
       "id": "rumor:https://x.com/yishan/status/2096010970250596593",
       "title": "HF agent swarm may not have been the first undetected incident",
-      "summary": "Speculative take that the HF agent swarm wasn’t a first incident — opinion/inference, not confirmed reporting.",
+      "summary": "Speculative take that the Hugging Face agent swarm wasn’t a first incident — opinion/inference, not confirmed reporting.",
       "url": "https://x.com/yishan/status/2096010970250596593",
       "via": "@yishan",
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-05T00:52:00.000Z",
-      "publishedAt": "2026-09-05T00:52:00.000Z",
-      "publishedTs": 1788569520000,
+      "harvestedAt": "2026-09-05T02:08:05.000Z",
+      "publishedAt": "2026-09-05T02:08:05.000Z",
+      "publishedTs": 1788574085000,
       "tags": [
         "rumor"
       ]
