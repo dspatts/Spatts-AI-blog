@@ -1042,6 +1042,13 @@ function timeHtml(iso) {
   return `<time datetime="${escapeHtml(date.toISOString())}">${escapeHtml(text)}</time>`;
 }
 
+function publishedIso(post) {
+  return (
+    post.publishedAt ||
+    (post.publishedTs ? new Date(post.publishedTs).toISOString() : null)
+  );
+}
+
 function alsoCovered(post) {
   const related = Array.isArray(post.related) ? post.related : [];
   if (!related.length) return "";
@@ -1130,7 +1137,8 @@ function renderHtml(payload) {
   const stories = payload.posts
     .map((post, index) => {
       const rank = String(index + 1).padStart(2, "0");
-      const when = post.publishedAt ? timeHtml(post.publishedAt) : "";
+      const iso = publishedIso(post);
+      const when = timeHtml(iso);
       const isX = post.sourceId === X_SOURCE.id;
       const handle = post.authorHandle ? `@${post.authorHandle}` : "";
       const cta = isX ? "Read on X →" : "Read story →";

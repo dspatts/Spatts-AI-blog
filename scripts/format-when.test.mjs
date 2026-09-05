@@ -53,3 +53,50 @@ test("renderHtml shows Sydney labels and keeps UTC only in datetime", () => {
   assert.doesNotMatch(visible, /20:13:11\.116Z/);
   assert.doesNotMatch(visible, /20:10:00\.000Z/);
 });
+
+test("renderHtml formats publishedTs when publishedAt is null", () => {
+  const html = renderHtml({
+    refreshedAt: "2026-09-05T22:25:21.456Z",
+    posts: [
+      {
+        publishedAt: null,
+        publishedTs: Date.parse("2026-09-05T20:13:11.116Z"),
+        title: "Signal scraped story",
+        url: "https://news.ycombinator.com/item?id=49578866",
+        sourceHome: "https://infinitytechstack.uk/ai-signal",
+        sourceName: "The Signal",
+        sourceId: "signal",
+        summary: "Scraped without ISO date",
+        tags: [],
+        clusterSize: 1,
+      },
+    ],
+    rumors: [],
+    sources: [],
+  });
+  assert.match(html, /datetime="2026-09-05T20:13:11\.116Z"/);
+  assert.match(html, /6:13\s*am AEST/);
+});
+
+test("renderHtml does not invent a story time without publishedAt or publishedTs", () => {
+  const html = renderHtml({
+    refreshedAt: "2026-09-05T22:25:21.456Z",
+    posts: [
+      {
+        title: "Evan harvest story",
+        url: "https://example.com/no-date",
+        sourceHome: "https://example.com",
+        sourceName: "Curated",
+        sourceId: "curated",
+        summary: "No date fields",
+        tags: [],
+        clusterSize: 1,
+      },
+    ],
+    rumors: [],
+    sources: [],
+  });
+  const story = html.match(/<article class="story"[\s\S]*?<\/article>/)[0];
+  assert.doesNotMatch(story, /<time/);
+  assert.match(html, /datetime="2026-09-05T22:25:21\.456Z"/);
+});
