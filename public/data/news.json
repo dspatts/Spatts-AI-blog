@@ -62,20 +62,20 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-05T17:19:08.429Z",
-  "refreshedAt": "2026-09-05T17:19:08.429Z",
+  "briefingDate": "2026-09-05T20:13:11.116Z",
+  "refreshedAt": "2026-09-05T20:13:11.116Z",
   "preferCurated": true,
   "posts": [
     {
       "id": "curated:https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
       "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
       "title": "OpenAI admits German wiki ‘incident,’ pledges reporting overhaul",
-      "summary": "OpenAI’s first public acknowledgment of the DseWiki agent swarm; pledges a misalignment-incident disclosure framework in coming weeks.",
+      "summary": "First public acknowledgment of the DseWiki agent swarm; OpenAI says it’s drafting a misalignment-incident disclosure framework in coming weeks.",
       "sourceId": "theverge",
       "sourceName": "The Verge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "publishedAt": "2026-09-05T17:15:30.000Z",
-      "publishedTs": 1788628530000,
+      "publishedAt": "2026-09-05T20:10:00.000Z",
+      "publishedTs": 1788639000000,
       "curated": true,
       "tags": [
         "agents",
@@ -85,12 +85,12 @@
       "clusterId": "id:openai-agents-wiki",
       "related": [
         {
-          "title": "OpenAI rogue agents keep escaping — no formal investigation process",
-          "url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
+          "title": "OpenAI confirms ‘wiki incident,’ working on disclosure framework",
+          "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
           "sourceId": "techcrunch",
           "sourceName": "TechCrunch",
           "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-          "publishedAt": "2026-09-05T17:15:30.000Z"
+          "publishedAt": "2026-09-05T20:10:00.000Z"
         },
         {
           "title": "OpenAI pledges new rules for reporting agent misalignment",
@@ -98,21 +98,40 @@
           "sourceId": "prismix",
           "sourceName": "Prismix",
           "sourceHome": "https://prismix.dev/news",
-          "publishedAt": "2026-09-05T17:15:30.000Z"
+          "publishedAt": "2026-09-05T20:10:00.000Z"
         }
       ],
       "clusterSize": 3
     },
     {
+      "id": "curated:https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
+      "url": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
+      "title": "Hikers rescued after using Google Gemini for planning",
+      "summary": "Sheriff’s office: hikers “were advised by Gemini to bring far less food and water than their group required.”",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "publishedAt": "2026-09-05T20:10:00.000Z",
+      "publishedTs": 1788638999995,
+      "curated": true,
+      "tags": [
+        "model-releases",
+        "agents"
+      ],
+      "clusterId": "auto:hikers-rescued-after-using-google-gemini-for-pla",
+      "related": [],
+      "clusterSize": 1
+    },
+    {
       "id": "curated:https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
       "url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
       "title": "OpenAI launches GPT-6 Astra — AGI-era pitch",
-      "summary": "VentureBeat: OpenAI releases GPT-6 Astra with computer-use focus; Brockman: “Welcome to the AGI era.” Daybreak-first rollout then ChatGPT/API.",
+      "summary": "VentureBeat: GPT-6 Astra computer-use frontier model; Brockman: “Welcome to the AGI era.” Daybreak-first rollout then ChatGPT/API.",
       "sourceId": "venturebeat",
       "sourceName": "VentureBeat",
       "sourceHome": "https://venturebeat.com/category/ai/",
-      "publishedAt": "2026-09-05T17:15:30.000Z",
-      "publishedTs": 1788628529995,
+      "publishedAt": "2026-09-05T20:10:00.000Z",
+      "publishedTs": 1788638999994,
       "curated": true,
       "tags": [
         "model-releases",
@@ -121,12 +140,12 @@
       "clusterId": "id:gpt6-astra",
       "related": [
         {
-          "title": "OpenAI’s next big model has ‘entered the AGI era’",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+          "title": "Altman apologizes for messy Astra rollout",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
           "sourceId": "theverge",
           "sourceName": "The Verge",
           "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-          "publishedAt": "2026-09-05T17:15:30.000Z"
+          "publishedAt": "2026-09-05T20:10:00.000Z"
         },
         {
           "title": "GPT-6 Astra: computer-use model details",
@@ -134,7 +153,7 @@
           "sourceId": "ai-tldr",
           "sourceName": "AI/TLDR",
           "sourceHome": "https://ai-tldr.dev/",
-          "publishedAt": "2026-09-05T17:15:30.000Z"
+          "publishedAt": "2026-09-05T20:10:00.000Z"
         }
       ],
       "clusterSize": 3
@@ -143,12 +162,12 @@
       "id": "curated:https://venturebeat.com/ai/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet/",
       "url": "https://venturebeat.com/ai/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet/",
       "title": "Meta Muse Spark 1.3 — best config still gated",
-      "summary": "VentureBeat: Muse Spark 1.3 ships with strong price-performance; max reasoning still in safety review — shipping xhigh trails Fable 5.1 on AA index.",
+      "summary": "VentureBeat: Muse Spark 1.3 ships with strong price-performance; max reasoning still in safety review — shipping xhigh sits in the frontier cluster vs Fable 5.1.",
       "sourceId": "venturebeat",
       "sourceName": "VentureBeat",
       "sourceHome": "https://venturebeat.com/category/ai/",
-      "publishedAt": "2026-09-05T17:15:30.000Z",
-      "publishedTs": 1788628529991,
+      "publishedAt": "2026-09-05T20:10:00.000Z",
+      "publishedTs": 1788638999991,
       "curated": true,
       "tags": [
         "model-releases"
@@ -175,55 +194,36 @@
       "clusterSize": 3
     },
     {
-      "id": "curated:https://venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads",
-      "url": "https://venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads",
-      "title": "Claude Fable 5.1 cuts cache reads 75%",
-      "summary": "VentureBeat: Anthropic drops Fable 5.1 cache-hit input to $0.25/MTok (from $1.00) — 2.5% of base input vs the usual 10% multiplier.",
+      "id": "curated:https://venturebeat.com/infrastructure/microsoft-ais-mai-transcribe-2-undercuts-openai-google-and-elevenlabs-on-price-and-speed",
+      "url": "https://venturebeat.com/infrastructure/microsoft-ais-mai-transcribe-2-undercuts-openai-google-and-elevenlabs-on-price-and-speed",
+      "title": "Microsoft MAI-Transcribe-2 at $0.10/hour",
+      "summary": "VentureBeat: MAI-Transcribe-2 claims #1 FLEURS across 60 languages and undercuts OpenAI/Google/ElevenLabs on price and speed at a dime per audio hour.",
       "sourceId": "venturebeat",
       "sourceName": "VentureBeat",
       "sourceHome": "https://venturebeat.com/category/ai/",
-      "publishedAt": "2026-09-05T17:15:30.000Z",
-      "publishedTs": 1788628529990,
+      "publishedAt": "2026-09-05T20:10:00.000Z",
+      "publishedTs": 1788638999990,
       "curated": true,
       "tags": [
-        "model-releases",
-        "agents"
+        "model-releases"
       ],
-      "clusterId": "topic:fable-cache",
+      "clusterId": "topic:transcribe",
       "related": [],
       "clusterSize": 1
     },
     {
-      "id": "curated:https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
-      "url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
-      "title": "XDOF in talks for Series B at $1.2B",
-      "summary": "Robotics data startup XDOF, three months out of stealth, is in talks for a Series B at about $1.2B.",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-05T17:15:30.000Z",
-      "publishedTs": 1788628529988,
-      "curated": true,
-      "tags": [
-        "funding"
-      ],
-      "clusterId": "auto:xdof-in-talks-for-series-b-at-1-2b",
-      "related": [],
-      "clusterSize": 1
-    },
-    {
-      "id": "signal:https://news.ycombinator.com/item?id=49576124",
-      "url": "https://news.ycombinator.com/item?id=49576124",
-      "title": "253 pts · 257 comments on HN",
-      "summary": "253 pts · 257 comments on HN",
+      "id": "signal:https://news.ycombinator.com/item?id=49576986",
+      "url": "https://news.ycombinator.com/item?id=49576986",
+      "title": "216 pts · 59 comments on HN",
+      "summary": "216 pts · 59 comments on HN",
       "sourceId": "signal",
       "sourceName": "The Signal",
       "sourceHome": "https://infinitytechstack.uk/ai-signal",
       "publishedAt": null,
-      "publishedTs": 1788628748241,
+      "publishedTs": 1788639191096,
       "tags": [],
       "related": [],
-      "clusterId": "auto:253-pts-257-comments-on-hn",
+      "clusterId": "auto:216-pts-59-comments-on-hn",
       "clusterSize": 1
     },
     {
@@ -251,7 +251,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-05T05:01:39.000Z",
       "publishedTs": 1788584499000,
-      "score": 65500,
+      "score": 69820,
       "authorHandle": "thsottiaux",
       "tags": [
         "model-releases",
@@ -259,14 +259,6 @@
         "research"
       ],
       "related": [
-        {
-          "title": "Sam Altman apologizes for ‘messy’ GPT-6 Astra rollout that’s locked out paying users",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
-          "sourceId": "verge",
-          "sourceName": "The Verge",
-          "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-          "publishedAt": "2026-09-04T10:41:48.000Z"
-        },
         {
           "title": "1littlecoder — 'GPT 6 Astra in 11 mins!'",
           "url": "https://ai-tldr.dev/releases/1littlecoder-gpt-6-astra-sep4/",
@@ -284,7 +276,7 @@
           "publishedAt": "2026-09-03T18:01:45.000Z"
         },
         {
-          "title": "'Welcome to the AGI era': OpenAI launches GPT-6 Astra - VentureBeat",
+          "title": "'Welcome to the AGI era': OpenAI launches GPT-6 Astra - Venturebeat",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWnROVEdOT3E2dnZXYkIzUWtIckZfZDNLV1QzdHpiUDJheDI5cU9qX25MSlo4dURZMlcwR1hUU0lhNHY3VVk3Z3M1UkZQMDB5RjRjcldsVUZKNnFXR2QyS2FObElZWk5fcU5PN3FWSktTemFqcmhiRnZJVy15N3FKZlBNQ0tNTlh0Wm9naUdR?oc=5",
           "sourceId": "venturebeat",
           "sourceName": "VentureBeat",
@@ -293,7 +285,7 @@
         }
       ],
       "clusterId": "topic:astra",
-      "clusterSize": 5
+      "clusterSize": 4
     },
     {
       "id": "x:2095947707605266436",
@@ -305,7 +297,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-04T18:50:48.000Z",
       "publishedTs": 1788547848000,
-      "score": 59725,
+      "score": 62539,
       "authorHandle": "anthropicai",
       "tags": [],
       "related": [],
@@ -313,26 +305,40 @@
       "clusterSize": 1
     },
     {
-      "id": "x:2095226833293685100",
-      "url": "https://x.com/claudeai/status/2095226833293685100",
-      "title": "Claude can now use your computer in the background in Claude Cowork and Claude Code.",
-      "summary": "Claude can now use your computer in the background in Claude Cowork and Claude Code. Give it something to do on your desktop and Claude…",
+      "id": "x:2095508870915338284",
+      "url": "https://x.com/huggingface/status/2095508870915338284",
+      "title": "🤗💚",
+      "summary": "🤗💚",
       "sourceId": "x",
       "sourceName": "X",
       "sourceHome": "https://x.com",
-      "publishedAt": "2026-09-02T19:06:19.000Z",
-      "publishedTs": 1788375979000,
-      "score": 38789,
-      "authorHandle": "claudeai",
-      "tags": [
-        "model-releases"
-      ],
+      "publishedAt": "2026-09-03T13:47:02.000Z",
+      "publishedTs": 1788443222000,
+      "score": 18134,
+      "authorHandle": "huggingface",
+      "tags": [],
       "related": [],
-      "clusterId": "auto:claude-can-now-use-your-computer-in-the-backgrou",
+      "clusterId": "auto:53",
       "clusterSize": 1
     }
   ],
   "rumors": [
+    {
+      "id": "rumor:https://x.com/aaronscher/status/2095934161643344172",
+      "title": "Aaron Scher: OpenAI skipped Congress questions on swarm incidents",
+      "summary": "Unconfirmed X claim that OpenAI had chances to disclose wiki/swarm incidents (incl. to Congress) and said nothing — commentary, not a multi-outlet finding.",
+      "url": "https://x.com/aaronscher/status/2095934161643344172",
+      "via": "@aaronscher",
+      "sourceKind": "x",
+      "sourceId": "x",
+      "sourceName": "X",
+      "harvestedAt": "2026-09-05T20:10:00.000Z",
+      "publishedAt": "2026-09-05T20:10:00.000Z",
+      "publishedTs": 1788639000000,
+      "tags": [
+        "rumor"
+      ]
+    },
     {
       "id": "rumor:https://x.com/theinformation/status/2095972687059308549",
       "title": "Anthropic IPO investors said to press for token-level metrics",
@@ -342,25 +348,9 @@
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-05T17:15:30.000Z",
-      "publishedAt": "2026-09-05T17:15:30.000Z",
-      "publishedTs": 1788628530000,
-      "tags": [
-        "rumor"
-      ]
-    },
-    {
-      "id": "rumor:https://x.com/theinformation/status/2095957584284983510",
-      "title": "Apple Mac demand said to ride a local-AI hardware boom",
-      "summary": "Single The Information post on Mac demand tied to local AI / cloud-cost cuts — not yet a multi-outlet confirmed cluster.",
-      "url": "https://x.com/theinformation/status/2095957584284983510",
-      "via": "@theinformation",
-      "sourceKind": "x",
-      "sourceId": "x",
-      "sourceName": "X",
-      "harvestedAt": "2026-09-05T17:15:30.000Z",
-      "publishedAt": "2026-09-05T17:15:30.000Z",
-      "publishedTs": 1788628530000,
+      "harvestedAt": "2026-09-05T20:10:00.000Z",
+      "publishedAt": "2026-09-05T20:10:00.000Z",
+      "publishedTs": 1788639000000,
       "tags": [
         "rumor"
       ]
@@ -374,9 +364,9 @@
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-05T17:15:30.000Z",
-      "publishedAt": "2026-09-05T17:15:30.000Z",
-      "publishedTs": 1788628530000,
+      "harvestedAt": "2026-09-05T20:10:00.000Z",
+      "publishedAt": "2026-09-05T20:10:00.000Z",
+      "publishedTs": 1788639000000,
       "tags": [
         "rumor"
       ]
