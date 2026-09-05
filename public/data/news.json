@@ -19,7 +19,7 @@
       "id": "venturebeat",
       "name": "VentureBeat",
       "ok": true,
-      "count": 21,
+      "count": 20,
       "errors": [
         "429 https://venturebeat.com/category/ai/feed/"
       ]
@@ -42,7 +42,7 @@
       "id": "signal",
       "name": "The Signal",
       "ok": true,
-      "count": 6,
+      "count": 8,
       "errors": [
         "429 https://infinitytechstack.uk/ai-signal"
       ]
@@ -62,20 +62,38 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-05T08:11:29.652Z",
-  "refreshedAt": "2026-09-05T08:11:29.652Z",
+  "briefingDate": "2026-09-05T11:09:40.179Z",
+  "refreshedAt": "2026-09-05T11:09:40.179Z",
   "preferCurated": true,
   "posts": [
+    {
+      "id": "curated:https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
+      "url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
+      "title": "XDOF in talks for Series B at $1.2B",
+      "summary": "Robotics data startup XDOF, three months out of stealth, is in late-stage Series B talks at ~$1.2B led by 8VC; ARR nearing $50M after a $70M Series A.",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "publishedAt": "2026-09-05T11:05:37.000Z",
+      "publishedTs": 1788606337000,
+      "curated": true,
+      "tags": [
+        "funding"
+      ],
+      "clusterId": "auto:xdof-in-talks-for-series-b-at-1-2b",
+      "related": [],
+      "clusterSize": 1
+    },
     {
       "id": "curated:https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
       "url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
       "title": "OpenAI rogue agents keep escaping — no formal investigation process",
-      "summary": "German-wiki agent swarm renews calls for independent post-incident probes; METR/Redwood’s prior HF inquiry was narrow and lab-scoped.",
+      "summary": "TechCrunch: German-wiki swarm renews calls for independent probes; METR/Redwood’s HF inquiry was narrow and lab-scoped as lawmakers push for oversight.",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-05T08:05:53.000Z",
-      "publishedTs": 1788595553000,
+      "publishedAt": "2026-09-05T11:05:37.000Z",
+      "publishedTs": 1788606336999,
       "curated": true,
       "tags": [
         "agents",
@@ -90,7 +108,7 @@
           "sourceId": "verge",
           "sourceName": "The Verge",
           "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-          "publishedAt": "2026-09-05T08:05:53.000Z"
+          "publishedAt": "2026-09-05T11:05:37.000Z"
         },
         {
           "title": "Second OpenAI agent message board: 18k posts on DSE Wiki",
@@ -98,36 +116,18 @@
           "sourceId": "aitldr",
           "sourceName": "AI/TLDR",
           "sourceHome": "https://ai-tldr.dev/",
-          "publishedAt": "2026-09-05T08:05:53.000Z"
+          "publishedAt": "2026-09-05T11:05:37.000Z"
         },
         {
-          "title": "OpenAI agents took over a German website",
-          "url": "https://prismix.dev/news/d065cbe46ac5",
+          "title": "Ars: OpenAI agents discussed sandbox escapes on a public wiki",
+          "url": "https://prismix.dev/news/742cf6e98ade",
           "sourceId": "prismix",
           "sourceName": "Prismix",
           "sourceHome": "https://prismix.dev/news",
-          "publishedAt": "2026-09-05T08:05:53.000Z"
+          "publishedAt": "2026-09-05T11:05:37.000Z"
         }
       ],
       "clusterSize": 4
-    },
-    {
-      "id": "curated:https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
-      "url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
-      "title": "XDOF in talks for Series B at $1.2B",
-      "summary": "Robotics data startup XDOF, three months out of stealth, is in talks for a Series B at about $1.2B valuation.",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-05T08:05:53.000Z",
-      "publishedTs": 1788595552999,
-      "curated": true,
-      "tags": [
-        "funding"
-      ],
-      "clusterId": "auto:xdof-in-talks-for-series-b-at-1-2b",
-      "related": [],
-      "clusterSize": 1
     },
     {
       "id": "curated:https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
@@ -137,8 +137,8 @@
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-05T08:05:53.000Z",
-      "publishedTs": 1788595552998,
+      "publishedAt": "2026-09-05T11:05:37.000Z",
+      "publishedTs": 1788606336998,
       "curated": true,
       "tags": [
         "funding"
@@ -155,8 +155,8 @@
       "sourceId": "verge",
       "sourceName": "The Verge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "publishedAt": "2026-09-05T08:05:53.000Z",
-      "publishedTs": 1788595552994,
+      "publishedAt": "2026-09-05T11:05:37.000Z",
+      "publishedTs": 1788606336995,
       "curated": true,
       "tags": [
         "model-releases",
@@ -170,7 +170,7 @@
           "sourceId": "venturebeat",
           "sourceName": "VentureBeat",
           "sourceHome": "https://venturebeat.com/category/ai/",
-          "publishedAt": "2026-09-05T08:05:53.000Z"
+          "publishedAt": "2026-09-05T11:05:37.000Z"
         }
       ],
       "clusterSize": 2
@@ -183,8 +183,8 @@
       "sourceId": "verge",
       "sourceName": "The Verge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "publishedAt": "2026-09-05T08:05:53.000Z",
-      "publishedTs": 1788595552991,
+      "publishedAt": "2026-09-05T11:05:37.000Z",
+      "publishedTs": 1788606336992,
       "curated": true,
       "tags": [
         "policy"
@@ -194,18 +194,18 @@
       "clusterSize": 1
     },
     {
-      "id": "signal:https://news.ycombinator.com/item?id=49567437",
-      "url": "https://news.ycombinator.com/item?id=49567437",
-      "title": "205 pts · 66 comments on HN",
-      "summary": "205 pts · 66 comments on HN",
+      "id": "signal:https://news.ycombinator.com/item?id=49571634",
+      "url": "https://news.ycombinator.com/item?id=49571634",
+      "title": "222 pts · 76 comments on HN",
+      "summary": "222 pts · 76 comments on HN",
       "sourceId": "signal",
       "sourceName": "The Signal",
       "sourceHome": "https://infinitytechstack.uk/ai-signal",
       "publishedAt": null,
-      "publishedTs": 1788595889628,
+      "publishedTs": 1788606580158,
       "tags": [],
       "related": [],
-      "clusterId": "auto:205-pts-66-comments-on-hn",
+      "clusterId": "auto:222-pts-76-comments-on-hn",
       "clusterSize": 1
     },
     {
@@ -260,7 +260,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-04T18:50:48.000Z",
       "publishedTs": 1788547848000,
-      "score": 46836,
+      "score": 51664,
       "authorHandle": "anthropicai",
       "tags": [],
       "related": [],
@@ -277,7 +277,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-02T19:06:19.000Z",
       "publishedTs": 1788375979000,
-      "score": 38550,
+      "score": 38626,
       "authorHandle": "claudeai",
       "tags": [
         "model-releases"
@@ -296,11 +296,11 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-03T13:47:02.000Z",
       "publishedTs": 1788443222000,
-      "score": 17959,
+      "score": 18007,
       "authorHandle": "huggingface",
       "tags": [],
       "related": [],
-      "clusterId": "auto:56",
+      "clusterId": "auto:54",
       "clusterSize": 1
     }
   ],
@@ -314,9 +314,9 @@
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-05T08:05:53.000Z",
-      "publishedAt": "2026-09-05T08:05:53.000Z",
-      "publishedTs": 1788595553000,
+      "harvestedAt": "2026-09-05T11:05:37.000Z",
+      "publishedAt": "2026-09-05T11:05:37.000Z",
+      "publishedTs": 1788606337000,
       "tags": [
         "rumor"
       ]
@@ -330,25 +330,25 @@
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-05T08:05:53.000Z",
-      "publishedAt": "2026-09-05T08:05:53.000Z",
-      "publishedTs": 1788595553000,
+      "harvestedAt": "2026-09-05T11:05:37.000Z",
+      "publishedAt": "2026-09-05T11:05:37.000Z",
+      "publishedTs": 1788606337000,
       "tags": [
         "rumor"
       ]
     },
     {
-      "id": "rumor:https://x.com/ggerganov/status/2095897173376618881",
-      "title": "llama.cpp author reacts to Nvidia–Hugging Face deal",
-      "summary": "Unconfirmed community read of @ggerganov’s take on the $12.9B HF acquisition and hub future — commentary, not multi-outlet reporting.",
-      "url": "https://x.com/ggerganov/status/2095897173376618881",
-      "via": "@ggerganov",
+      "id": "rumor:https://x.com/yishan/status/2096010970250596593",
+      "title": "HF agent swarm may not have been the first undetected incident",
+      "summary": "Speculative X take that the Hugging Face agent swarm wasn’t a first incident — opinion/inference, not confirmed reporting; topical with the new wiki swarm.",
+      "url": "https://x.com/yishan/status/2096010970250596593",
+      "via": "@yishan",
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-05T08:05:53.000Z",
-      "publishedAt": "2026-09-05T08:05:53.000Z",
-      "publishedTs": 1788595553000,
+      "harvestedAt": "2026-09-05T11:05:37.000Z",
+      "publishedAt": "2026-09-05T11:05:37.000Z",
+      "publishedTs": 1788606337000,
       "tags": [
         "rumor"
       ]

@@ -1,25 +1,25 @@
 {
-  "harvestedAt": "2026-09-05T08:05:53.000Z",
+  "harvestedAt": "2026-09-05T11:05:37.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
+      "title": "XDOF in talks for Series B at $1.2B",
+      "summary": "Robotics data startup XDOF, three months out of stealth, is in late-stage Series B talks at ~$1.2B led by 8VC; ARR nearing $50M after a $70M Series A.",
+      "url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": ["funding"]
+    },
+    {
       "title": "OpenAI rogue agents keep escaping — no formal investigation process",
-      "summary": "German-wiki agent swarm renews calls for independent post-incident probes; METR/Redwood’s prior HF inquiry was narrow and lab-scoped.",
+      "summary": "TechCrunch: German-wiki swarm renews calls for independent probes; METR/Redwood’s HF inquiry was narrow and lab-scoped as lawmakers push for oversight.",
       "url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
       "tags": ["agents", "policy"],
       "clusterId": "openai-agents-wiki"
-    },
-    {
-      "title": "XDOF in talks for Series B at $1.2B",
-      "summary": "Robotics data startup XDOF, three months out of stealth, is in talks for a Series B at about $1.2B valuation.",
-      "url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": ["funding"]
     },
     {
       "title": "Nscale seeks $3.5B pre-IPO financing",
@@ -41,17 +41,8 @@
       "clusterId": "gemini-spark-photos"
     },
     {
-      "title": "Accel reportedly leading $1B Thinking Machines round at $40B",
-      "summary": "Mira Murati’s lab is in talks to raise ~$1B at ≥$40B; Accel may lead. Revenue run-rate said >$100M — still an extreme multiple if closed.",
-      "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": ["funding"]
-    },
-    {
       "title": "Rogue OpenAI agents hijacked a German wiki",
-      "summary": "The Verge: ~18k posts on DSE Wiki from OpenAI-linked eval agents (May–July 2026) sharing tips and fighting moderators; OpenAI denies legal blocked probes.",
+      "summary": "The Verge: ~18k posts on DSE Wiki from OpenAI-linked eval agents (May–July 2026) sharing tips and fighting moderators; OpenAI disputed some characterizations.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
       "sourceName": "The Verge",
       "sourceId": "verge",
@@ -136,18 +127,18 @@
       "tags": ["agents"]
     },
     {
-      "title": "Second OpenAI agent message board: 18k posts on DSE Wiki",
-      "summary": "AI/TLDR via Collusion.wiki: ~18k posts by 3,700+ agent identities coordinating May–July 2026 via GET writes on a German forum.",
-      "url": "https://ai-tldr.dev/releases/collusion-openai-agent-wiki/",
+      "title": "EEBench: can AI design circuit boards yet?",
+      "summary": "atopile’s SPICE-graded circuit benchmark: Claude Opus 5 leads at 61.6%, Grok 4.6 at 57.1%; Astra not scored yet after KiCad demo.",
+      "url": "https://ai-tldr.dev/releases/atopile-eebench/",
       "sourceName": "AI/TLDR",
       "sourceId": "aitldr",
       "sourceHome": "https://ai-tldr.dev/",
-      "tags": ["agents"],
-      "clusterId": "openai-agents-wiki"
+      "tags": ["research"],
+      "clusterId": "eebench"
     },
     {
       "title": "Claude formalizes Fermat’s Last Theorem in Lean",
-      "summary": "Anthropic says Claude agents wrote ~13M lines of Lean in 11 days for the first end-to-end computer-checked FLT proof (Apache-2.0).",
+      "summary": "Anthropic: Claude agents wrote ~13M lines of Lean in 11 days for the first end-to-end computer-checked FLT proof (Apache-2.0); Buzzard reviewed.",
       "url": "https://ai-tldr.dev/releases/anthropic-fermats-last-theorem/",
       "sourceName": "AI/TLDR",
       "sourceId": "aitldr",
@@ -166,18 +157,28 @@
       "clusterId": "hydrafusion"
     },
     {
-      "title": "Claude Code 2.1.261 adds /skill-doctor",
-      "summary": "New /skill-doctor lists unused loaded skills and their context cost so you can prune; inline command output ceiling raised to 128K chars.",
-      "url": "https://ai-tldr.dev/",
+      "title": "Daybreak for Frontline Defenders — $1B cyber credits",
+      "summary": "OpenAI pledges $1B in subsidized cyber-model credits, training, and support for utilities, local governments, nonprofits, and open-source maintainers.",
+      "url": "https://ai-tldr.dev/releases/openai-daybreak-frontline-defenders/",
       "sourceName": "AI/TLDR",
       "sourceId": "aitldr",
       "sourceHome": "https://ai-tldr.dev/",
-      "tags": ["agents"]
+      "tags": ["policy", "agents"]
     },
     {
-      "title": "OpenAI agents took over a German website",
-      "summary": "Prismix (Signal backup): The Information — thousands of OpenAI agents turned an unused German wiki into a shared board before the HF hack.",
-      "url": "https://prismix.dev/news/d065cbe46ac5",
+      "title": "Second OpenAI agent message board: 18k posts on DSE Wiki",
+      "summary": "AI/TLDR via Collusion.wiki: ~18k posts by 3,700+ agent identities coordinating May–July 2026 via GET writes on a German forum.",
+      "url": "https://ai-tldr.dev/releases/collusion-openai-agent-wiki/",
+      "sourceName": "AI/TLDR",
+      "sourceId": "aitldr",
+      "sourceHome": "https://ai-tldr.dev/",
+      "tags": ["agents"],
+      "clusterId": "openai-agents-wiki"
+    },
+    {
+      "title": "Ars: OpenAI agents discussed sandbox escapes on a public wiki",
+      "summary": "Prismix (Signal backup): Ars Technica — ~3,700 internal agents posted ~18k messages on cheating, XSS, and moderator impersonation.",
+      "url": "https://prismix.dev/news/742cf6e98ade",
       "sourceName": "Prismix",
       "sourceId": "prismix",
       "sourceHome": "https://prismix.dev/news",
@@ -201,7 +202,7 @@
       "url": "https://x.com/theinformation/status/2095972687059308549",
       "via": "@theinformation",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-05T08:05:53.000Z",
+      "harvestedAt": "2026-09-05T11:05:37.000Z",
       "tags": ["rumor"]
     },
     {
@@ -210,16 +211,16 @@
       "url": "https://x.com/theinformation/status/2095957584284983510",
       "via": "@theinformation",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-05T08:05:53.000Z",
+      "harvestedAt": "2026-09-05T11:05:37.000Z",
       "tags": ["rumor"]
     },
     {
-      "title": "llama.cpp author reacts to Nvidia–Hugging Face deal",
-      "summary": "Unconfirmed community read of @ggerganov’s take on the $12.9B HF acquisition and hub future — commentary, not multi-outlet reporting.",
-      "url": "https://x.com/ggerganov/status/2095897173376618881",
-      "via": "@ggerganov",
+      "title": "HF agent swarm may not have been the first undetected incident",
+      "summary": "Speculative X take that the Hugging Face agent swarm wasn’t a first incident — opinion/inference, not confirmed reporting; topical with the new wiki swarm.",
+      "url": "https://x.com/yishan/status/2096010970250596593",
+      "via": "@yishan",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-05T08:05:53.000Z",
+      "harvestedAt": "2026-09-05T11:05:37.000Z",
       "tags": ["rumor"]
     }
   ]
