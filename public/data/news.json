@@ -3,10 +3,12 @@
   "sources": [
     {
       "id": "curated",
-      "name": "Evan harvest",
+      "name": "Evan harvest (expired)",
       "ok": true,
       "count": 20,
-      "errors": []
+      "errors": [
+        "older than 2h; ranked with live feeds"
+      ]
     },
     {
       "id": "techcrunch",
@@ -19,7 +21,7 @@
       "id": "venturebeat",
       "name": "VentureBeat",
       "ok": true,
-      "count": 17,
+      "count": 15,
       "errors": [
         "429 https://venturebeat.com/category/ai/feed/"
       ]
@@ -62,10 +64,25 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-05T20:13:11.116Z",
-  "refreshedAt": "2026-09-05T20:13:11.116Z",
-  "preferCurated": true,
+  "briefingDate": "2026-09-05T22:25:21.456Z",
+  "refreshedAt": "2026-09-05T22:25:21.456Z",
+  "preferCurated": false,
   "posts": [
+    {
+      "id": "signal:https://news.ycombinator.com/item?id=49578866",
+      "url": "https://news.ycombinator.com/item?id=49578866",
+      "title": "240 pts · 93 comments on HN",
+      "summary": "240 pts · 93 comments on HN",
+      "sourceId": "signal",
+      "sourceName": "The Signal",
+      "sourceHome": "https://infinitytechstack.uk/ai-signal",
+      "publishedAt": null,
+      "publishedTs": 1788647121431,
+      "tags": [],
+      "related": [],
+      "clusterId": "auto:240-pts-93-comments-on-hn",
+      "clusterSize": 1
+    },
     {
       "id": "curated:https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
       "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
@@ -76,7 +93,7 @@
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
       "publishedAt": "2026-09-05T20:10:00.000Z",
       "publishedTs": 1788639000000,
-      "curated": true,
+      "curated": false,
       "tags": [
         "agents",
         "research",
@@ -113,7 +130,7 @@
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
       "publishedAt": "2026-09-05T20:10:00.000Z",
       "publishedTs": 1788638999995,
-      "curated": true,
+      "curated": false,
       "tags": [
         "model-releases",
         "agents"
@@ -132,7 +149,7 @@
       "sourceHome": "https://venturebeat.com/category/ai/",
       "publishedAt": "2026-09-05T20:10:00.000Z",
       "publishedTs": 1788638999994,
-      "curated": true,
+      "curated": false,
       "tags": [
         "model-releases",
         "agents"
@@ -168,20 +185,12 @@
       "sourceHome": "https://venturebeat.com/category/ai/",
       "publishedAt": "2026-09-05T20:10:00.000Z",
       "publishedTs": 1788638999991,
-      "curated": true,
+      "curated": false,
       "tags": [
         "model-releases"
       ],
       "clusterId": "topic:muse-spark",
       "related": [
-        {
-          "title": "Meta has released Muse Spark 1.3, their fourth Muse Spark model release in five months.",
-          "url": "https://x.com/ArtificialAnlys/status/2095247787277553929",
-          "sourceId": "x",
-          "sourceName": "X",
-          "sourceHome": "https://x.com",
-          "publishedAt": "2026-09-02T20:29:34.000Z"
-        },
         {
           "title": "Muse Spark 1.3 — Meta's flagship model uses 25% fewer tokens on coding",
           "url": "https://ai-tldr.dev/releases/meta-muse-spark-1-3/",
@@ -191,7 +200,7 @@
           "publishedAt": "2026-09-02T00:00:00.000Z"
         }
       ],
-      "clusterSize": 3
+      "clusterSize": 2
     },
     {
       "id": "curated:https://venturebeat.com/infrastructure/microsoft-ais-mai-transcribe-2-undercuts-openai-google-and-elevenlabs-on-price-and-speed",
@@ -203,7 +212,7 @@
       "sourceHome": "https://venturebeat.com/category/ai/",
       "publishedAt": "2026-09-05T20:10:00.000Z",
       "publishedTs": 1788638999990,
-      "curated": true,
+      "curated": false,
       "tags": [
         "model-releases"
       ],
@@ -212,33 +221,22 @@
       "clusterSize": 1
     },
     {
-      "id": "signal:https://news.ycombinator.com/item?id=49576986",
-      "url": "https://news.ycombinator.com/item?id=49576986",
-      "title": "216 pts · 59 comments on HN",
-      "summary": "216 pts · 59 comments on HN",
-      "sourceId": "signal",
-      "sourceName": "The Signal",
-      "sourceHome": "https://infinitytechstack.uk/ai-signal",
-      "publishedAt": null,
-      "publishedTs": 1788639191096,
-      "tags": [],
+      "id": "curated:https://ai-tldr.dev/releases/artificial-analysis-index-v4-2/",
+      "url": "https://ai-tldr.dev/releases/artificial-analysis-index-v4-2/",
+      "title": "Artificial Analysis Index v4.2 doubles private tests",
+      "summary": "AI/TLDR: AA Index v4.2 retires GPQA Diamond, adds AA-Briefcase + GDP.pdf; private held-out weight rises to 40%. Fable 5.1 leads at 57 vs Astra max 55.",
+      "sourceId": "ai-tldr",
+      "sourceName": "AI/TLDR",
+      "sourceHome": "https://ai-tldr.dev/",
+      "publishedAt": "2026-09-05T20:10:00.000Z",
+      "publishedTs": 1788638999988,
+      "curated": false,
+      "tags": [
+        "agents",
+        "research"
+      ],
+      "clusterId": "auto:artificial-analysis-index-v4-2-doubles-private-t",
       "related": [],
-      "clusterId": "auto:216-pts-59-comments-on-hn",
-      "clusterSize": 1
-    },
-    {
-      "id": "verge:https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip",
-      "title": "Roland is getting into generative AI music with Melody Flip",
-      "summary": "",
-      "sourceId": "verge",
-      "sourceName": "The Verge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "publishedAt": "2026-09-04T17:51:35.000Z",
-      "publishedTs": 1788544295000,
-      "tags": [],
-      "related": [],
-      "clusterId": "topic:roland",
       "clusterSize": 1
     },
     {
@@ -251,7 +249,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-05T05:01:39.000Z",
       "publishedTs": 1788584499000,
-      "score": 69820,
+      "score": 72164,
       "authorHandle": "thsottiaux",
       "tags": [
         "model-releases",
@@ -297,7 +295,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-04T18:50:48.000Z",
       "publishedTs": 1788547848000,
-      "score": 62539,
+      "score": 64272,
       "authorHandle": "anthropicai",
       "tags": [],
       "related": [],
@@ -314,11 +312,11 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-03T13:47:02.000Z",
       "publishedTs": 1788443222000,
-      "score": 18134,
+      "score": 18145,
       "authorHandle": "huggingface",
       "tags": [],
       "related": [],
-      "clusterId": "auto:53",
+      "clusterId": "auto:52",
       "clusterSize": 1
     }
   ],
