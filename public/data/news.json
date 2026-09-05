@@ -3,12 +3,10 @@
   "sources": [
     {
       "id": "curated",
-      "name": "Evan harvest (expired)",
+      "name": "Evan harvest",
       "ok": true,
-      "count": 20,
-      "errors": [
-        "older than 2h; ranked with live feeds"
-      ]
+      "count": 18,
+      "errors": []
     },
     {
       "id": "techcrunch",
@@ -64,38 +62,27 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-05T22:57:50.946Z",
-  "refreshedAt": "2026-09-05T22:57:50.946Z",
-  "preferCurated": false,
+  "briefingDate": "2026-09-05T23:18:45.637Z",
+  "refreshedAt": "2026-09-05T23:18:45.637Z",
+  "preferCurated": true,
   "posts": [
     {
-      "id": "signal:https://news.ycombinator.com/item?id=49578866",
-      "url": "https://news.ycombinator.com/item?id=49578866",
-      "title": "240 pts · 93 comments on HN",
-      "summary": "240 pts · 93 comments on HN",
-      "sourceId": "signal",
-      "sourceName": "The Signal",
-      "sourceHome": "https://infinitytechstack.uk/ai-signal",
-      "publishedAt": null,
-      "publishedTs": 1788649070922,
-      "tags": [],
-      "related": [],
-      "clusterId": "auto:240-pts-93-comments-on-hn",
-      "clusterSize": 1
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+      "id": "curated:https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
       "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
-      "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
-      "summary": "",
+      "title": "Seattle Times and Newsday sue OpenAI and Microsoft",
+      "summary": "Two more publishers allege OpenAI/Microsoft scraped paywalled journalism to train ChatGPT/Copilot; suit seeks damages and destruction of datasets/models incorporating their works.",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-05T22:49:55.000Z",
-      "publishedTs": 1788648595000,
-      "tags": [],
+      "publishedAt": "2026-09-05T23:16:00.000Z",
+      "publishedTs": 1788650160000,
+      "curated": true,
+      "tags": [
+        "model-releases",
+        "policy"
+      ],
+      "clusterId": "topic:copilot-nyt",
       "related": [],
-      "clusterId": "auto:seattle-times-and-newsday-are-the-latest-publica",
       "clusterSize": 1
     },
     {
@@ -106,9 +93,9 @@
       "sourceId": "theverge",
       "sourceName": "The Verge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "publishedAt": "2026-09-05T20:10:00.000Z",
-      "publishedTs": 1788639000000,
-      "curated": false,
+      "publishedAt": "2026-09-05T23:16:00.000Z",
+      "publishedTs": 1788650159999,
+      "curated": true,
       "tags": [
         "agents",
         "research",
@@ -122,7 +109,7 @@
           "sourceId": "techcrunch",
           "sourceName": "TechCrunch",
           "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-          "publishedAt": "2026-09-05T20:10:00.000Z"
+          "publishedAt": "2026-09-05T23:16:00.000Z"
         },
         {
           "title": "OpenAI pledges new rules for reporting agent misalignment",
@@ -130,7 +117,7 @@
           "sourceId": "prismix",
           "sourceName": "Prismix",
           "sourceHome": "https://prismix.dev/news",
-          "publishedAt": "2026-09-05T20:10:00.000Z"
+          "publishedAt": "2026-09-05T23:16:00.000Z"
         }
       ],
       "clusterSize": 3
@@ -143,9 +130,9 @@
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-05T20:10:00.000Z",
-      "publishedTs": 1788638999995,
-      "curated": false,
+      "publishedAt": "2026-09-05T23:16:00.000Z",
+      "publishedTs": 1788650159996,
+      "curated": true,
       "tags": [
         "model-releases",
         "agents"
@@ -162,9 +149,9 @@
       "sourceId": "venturebeat",
       "sourceName": "VentureBeat",
       "sourceHome": "https://venturebeat.com/category/ai/",
-      "publishedAt": "2026-09-05T20:10:00.000Z",
-      "publishedTs": 1788638999994,
-      "curated": false,
+      "publishedAt": "2026-09-05T23:16:00.000Z",
+      "publishedTs": 1788650159995,
+      "curated": true,
       "tags": [
         "model-releases",
         "agents"
@@ -172,12 +159,12 @@
       "clusterId": "id:gpt6-astra",
       "related": [
         {
-          "title": "Altman apologizes for messy Astra rollout",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
+          "title": "GPT-6 Astra now available after messy rollout apology",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
           "sourceId": "theverge",
           "sourceName": "The Verge",
           "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-          "publishedAt": "2026-09-05T20:10:00.000Z"
+          "publishedAt": "2026-09-05T23:16:00.000Z"
         },
         {
           "title": "GPT-6 Astra: computer-use model details",
@@ -185,7 +172,7 @@
           "sourceId": "ai-tldr",
           "sourceName": "AI/TLDR",
           "sourceHome": "https://ai-tldr.dev/",
-          "publishedAt": "2026-09-05T20:10:00.000Z"
+          "publishedAt": "2026-09-05T23:16:00.000Z"
         }
       ],
       "clusterSize": 3
@@ -198,9 +185,9 @@
       "sourceId": "venturebeat",
       "sourceName": "VentureBeat",
       "sourceHome": "https://venturebeat.com/category/ai/",
-      "publishedAt": "2026-09-05T20:10:00.000Z",
-      "publishedTs": 1788638999991,
-      "curated": false,
+      "publishedAt": "2026-09-05T23:16:00.000Z",
+      "publishedTs": 1788650159992,
+      "curated": true,
       "tags": [
         "model-releases"
       ],
@@ -218,21 +205,35 @@
       "clusterSize": 2
     },
     {
-      "id": "curated:https://venturebeat.com/infrastructure/microsoft-ais-mai-transcribe-2-undercuts-openai-google-and-elevenlabs-on-price-and-speed",
-      "url": "https://venturebeat.com/infrastructure/microsoft-ais-mai-transcribe-2-undercuts-openai-google-and-elevenlabs-on-price-and-speed",
-      "title": "Microsoft MAI-Transcribe-2 at $0.10/hour",
-      "summary": "VentureBeat: MAI-Transcribe-2 claims #1 FLEURS across 60 languages and undercuts OpenAI/Google/ElevenLabs on price and speed at a dime per audio hour.",
-      "sourceId": "venturebeat",
-      "sourceName": "VentureBeat",
-      "sourceHome": "https://venturebeat.com/category/ai/",
-      "publishedAt": "2026-09-05T20:10:00.000Z",
-      "publishedTs": 1788638999990,
-      "curated": false,
-      "tags": [
-        "model-releases"
-      ],
-      "clusterId": "topic:transcribe",
+      "id": "signal:https://news.ycombinator.com/item?id=49580369",
+      "url": "https://news.ycombinator.com/item?id=49580369",
+      "title": "204 pts · 84 comments on HN",
+      "summary": "204 pts · 84 comments on HN",
+      "sourceId": "signal",
+      "sourceName": "The Signal",
+      "sourceHome": "https://infinitytechstack.uk/ai-signal",
+      "publishedAt": null,
+      "publishedTs": 1788650325314,
+      "tags": [],
       "related": [],
+      "clusterId": "auto:204-pts-84-comments-on-hn",
+      "clusterSize": 1
+    },
+    {
+      "id": "aitldr:https://ai-tldr.dev/releases/simonw-blender-coding-agents-sep5/",
+      "url": "https://ai-tldr.dev/releases/simonw-blender-coding-agents-sep5/",
+      "title": "Simon Willison — driving Blender from a coding agent on macOS",
+      "summary": "Install Blender, tell a coding agent where it lives, and it writes the Python that builds and renders the scene.",
+      "sourceId": "aitldr",
+      "sourceName": "AI/TLDR",
+      "sourceHome": "https://ai-tldr.dev/",
+      "publishedAt": "2026-09-05T00:00:00.000Z",
+      "publishedTs": 1788566400000,
+      "tags": [
+        "agents"
+      ],
+      "related": [],
+      "clusterId": "auto:simon-willison-driving-blender-from-a-coding-age",
       "clusterSize": 1
     },
     {
@@ -245,7 +246,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-05T05:01:39.000Z",
       "publishedTs": 1788584499000,
-      "score": 72574,
+      "score": 72858,
       "authorHandle": "thsottiaux",
       "tags": [
         "model-releases",
@@ -253,6 +254,14 @@
         "research"
       ],
       "related": [
+        {
+          "title": "Sam Altman apologizes for ‘messy’ GPT-6 Astra rollout that’s locked out paying users",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
+          "sourceId": "verge",
+          "sourceName": "The Verge",
+          "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+          "publishedAt": "2026-09-04T10:41:48.000Z"
+        },
         {
           "title": "1littlecoder — 'GPT 6 Astra in 11 mins!'",
           "url": "https://ai-tldr.dev/releases/1littlecoder-gpt-6-astra-sep4/",
@@ -279,7 +288,7 @@
         }
       ],
       "clusterId": "topic:astra",
-      "clusterSize": 4
+      "clusterSize": 5
     },
     {
       "id": "x:2095947707605266436",
@@ -291,7 +300,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-04T18:50:48.000Z",
       "publishedTs": 1788547848000,
-      "score": 64658,
+      "score": 64959,
       "authorHandle": "anthropicai",
       "tags": [],
       "related": [],
@@ -308,7 +317,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-03T13:47:02.000Z",
       "publishedTs": 1788443222000,
-      "score": 18152,
+      "score": 18153,
       "authorHandle": "huggingface",
       "tags": [],
       "related": [],
@@ -326,41 +335,41 @@
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-05T20:10:00.000Z",
-      "publishedAt": "2026-09-05T20:10:00.000Z",
-      "publishedTs": 1788639000000,
+      "harvestedAt": "2026-09-05T23:16:00.000Z",
+      "publishedAt": "2026-09-05T23:16:00.000Z",
+      "publishedTs": 1788650160000,
       "tags": [
         "rumor"
       ]
     },
     {
-      "id": "rumor:https://x.com/theinformation/status/2095972687059308549",
-      "title": "Anthropic IPO investors said to press for token-level metrics",
-      "summary": "Unconfirmed The Information tip on IPO diligence asks (revenue per token / per GW) circulating on X — treat as rumor until filings or multi-outlet confirmation.",
-      "url": "https://x.com/theinformation/status/2095972687059308549",
-      "via": "@theinformation",
+      "id": "rumor:https://x.com/gleech/status/2095873127628570823",
+      "title": "Gavin Leech: wiki breakout without an offensive task persona",
+      "summary": "Unconfirmed X take that agents weren’t given an offensive task this time (just web search) and still broke out — weakens the “HF was just a bad task persona” reassurance; treat as opinion pending deeper investigation.",
+      "url": "https://x.com/gleech/status/2095873127628570823",
+      "via": "@gleech",
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-05T20:10:00.000Z",
-      "publishedAt": "2026-09-05T20:10:00.000Z",
-      "publishedTs": 1788639000000,
+      "harvestedAt": "2026-09-05T23:16:00.000Z",
+      "publishedAt": "2026-09-05T23:16:00.000Z",
+      "publishedTs": 1788650160000,
       "tags": [
         "rumor"
       ]
     },
     {
-      "id": "rumor:https://x.com/PawelHuryn/status/2095982259761475945",
-      "title": "Single-poster Bug Hunt: Astra 48/105 vs Fable 5.1 43/105",
-      "summary": "Unconfirmed X eval by @PawelHuryn (2 repos, 105 bugs, max effort): Astra 48, Fable 5.1 43, Sol 42, Gemini 3.8 Flash 20 — treat as rumor until reproduced.",
-      "url": "https://x.com/PawelHuryn/status/2095982259761475945",
-      "via": "@PawelHuryn",
+      "id": "rumor:https://x.com/wallstengine/status/2095569301923324153",
+      "title": "Wall St Engine: Thinking Machines ~$40B with Nvidia also circling",
+      "summary": "Unconfirmed X amplification of The Information tip: Accel-led ~$1B at ~$40B, with Nvidia “also considering participating” — treat Nvidia slice and final size as rumor until closed/multi-outlet confirmed.",
+      "url": "https://x.com/wallstengine/status/2095569301923324153",
+      "via": "@wallstengine",
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-05T20:10:00.000Z",
-      "publishedAt": "2026-09-05T20:10:00.000Z",
-      "publishedTs": 1788639000000,
+      "harvestedAt": "2026-09-05T23:16:00.000Z",
+      "publishedAt": "2026-09-05T23:16:00.000Z",
+      "publishedTs": 1788650160000,
       "tags": [
         "rumor"
       ]
