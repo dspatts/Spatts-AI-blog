@@ -42,7 +42,7 @@
       "id": "signal",
       "name": "The Signal",
       "ok": true,
-      "count": 5,
+      "count": 6,
       "errors": [
         "429 https://infinitytechstack.uk/ai-signal"
       ]
@@ -62,20 +62,20 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-05T02:11:58.656Z",
-  "refreshedAt": "2026-09-05T02:11:58.656Z",
+  "briefingDate": "2026-09-05T05:15:50.653Z",
+  "refreshedAt": "2026-09-05T05:15:50.653Z",
   "preferCurated": true,
   "posts": [
     {
       "id": "curated:https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
       "url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
       "title": "XDOF in talks for Series B at $1.2B",
-      "summary": "Robotics data startup XDOF, three months out of stealth, is in late-stage talks for a Series B at about $1.2B led by 8VC; ARR nearing $50M.",
+      "summary": "Robotics data startup XDOF, three months out of stealth, is in talks for a Series B at about $1.2B; round comes months after exiting stealth.",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-05T02:08:05.000Z",
-      "publishedTs": 1788574085000,
+      "publishedAt": "2026-09-05T05:07:00.000Z",
+      "publishedTs": 1788584820000,
       "curated": true,
       "tags": [
         "funding"
@@ -92,8 +92,8 @@
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-05T02:08:05.000Z",
-      "publishedTs": 1788574084999,
+      "publishedAt": "2026-09-05T05:07:00.000Z",
+      "publishedTs": 1788584819999,
       "curated": true,
       "tags": [
         "agents",
@@ -108,15 +108,7 @@
           "sourceId": "verge",
           "sourceName": "The Verge",
           "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-          "publishedAt": "2026-09-05T02:08:05.000Z"
-        },
-        {
-          "title": "OpenAI agents took over a German website",
-          "url": "https://prismix.dev/news/d065cbe46ac5",
-          "sourceId": "prismix",
-          "sourceName": "Prismix",
-          "sourceHome": "https://prismix.dev/news",
-          "publishedAt": "2026-09-05T02:08:05.000Z"
+          "publishedAt": "2026-09-05T05:07:00.000Z"
         },
         {
           "title": "Second OpenAI agent message board: 18k posts on DSE Wiki",
@@ -124,46 +116,18 @@
           "sourceId": "aitldr",
           "sourceName": "AI/TLDR",
           "sourceHome": "https://ai-tldr.dev/",
-          "publishedAt": "2026-09-05T02:08:05.000Z"
+          "publishedAt": "2026-09-05T05:07:00.000Z"
+        },
+        {
+          "title": "OpenAI agents took over a German website",
+          "url": "https://prismix.dev/news/d065cbe46ac5",
+          "sourceId": "prismix",
+          "sourceName": "Prismix",
+          "sourceHome": "https://prismix.dev/news",
+          "publishedAt": "2026-09-05T05:07:00.000Z"
         }
       ],
       "clusterSize": 4
-    },
-    {
-      "id": "curated:https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
-      "url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
-      "title": "OpenAI launches GPT-6 Astra — AGI-era pitch",
-      "summary": "VentureBeat: Astra is OpenAI’s frontier computer-use model for browsers, spreadsheets, and desktop apps; Brockman framed the launch as the start of the AGI era.",
-      "sourceId": "venturebeat",
-      "sourceName": "VentureBeat",
-      "sourceHome": "https://venturebeat.com/category/ai/",
-      "publishedAt": "2026-09-05T02:08:05.000Z",
-      "publishedTs": 1788574084995,
-      "curated": true,
-      "tags": [
-        "model-releases",
-        "agents"
-      ],
-      "clusterId": "id:gpt6-astra",
-      "related": [
-        {
-          "title": "Altman apologizes for messy Astra rollout",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
-          "sourceId": "verge",
-          "sourceName": "The Verge",
-          "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-          "publishedAt": "2026-09-05T02:08:05.000Z"
-        },
-        {
-          "title": "GPT-6 Astra: computer-use model details",
-          "url": "https://ai-tldr.dev/releases/openai-gpt-6-astra/",
-          "sourceId": "aitldr",
-          "sourceName": "AI/TLDR",
-          "sourceHome": "https://ai-tldr.dev/",
-          "publishedAt": "2026-09-05T02:08:05.000Z"
-        }
-      ],
-      "clusterSize": 3
     },
     {
       "id": "curated:https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
@@ -173,8 +137,8 @@
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-05T02:08:05.000Z",
-      "publishedTs": 1788574084991,
+      "publishedAt": "2026-09-05T05:07:00.000Z",
+      "publishedTs": 1788584819997,
       "curated": true,
       "tags": [
         "funding"
@@ -184,44 +148,78 @@
       "clusterSize": 1
     },
     {
-      "id": "curated:https://ai-tldr.dev/releases/anthropic-fermats-last-theorem/",
-      "url": "https://ai-tldr.dev/releases/anthropic-fermats-last-theorem/",
-      "title": "Claude formalizes Fermat’s Last Theorem in Lean",
-      "summary": "Anthropic: Claude agents wrote ~13M lines of Lean in 11 days for the first end-to-end computer-checked FLT proof (Apache-2.0 on GitHub).",
-      "sourceId": "aitldr",
-      "sourceName": "AI/TLDR",
-      "sourceHome": "https://ai-tldr.dev/",
-      "publishedAt": "2026-09-05T02:08:05.000Z",
-      "publishedTs": 1788574084988,
+      "id": "curated:https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
+      "title": "Altman apologizes for messy Astra rollout",
+      "summary": "Sam Altman apologized after paying ChatGPT users were locked out of GPT-6 Astra during a Daybreak-first staggered launch.",
+      "sourceId": "verge",
+      "sourceName": "The Verge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "publishedAt": "2026-09-05T05:07:00.000Z",
+      "publishedTs": 1788584819994,
       "curated": true,
       "tags": [
         "model-releases",
-        "agents",
-        "research"
+        "agents"
       ],
-      "clusterId": "id:claude-flt",
+      "clusterId": "id:gpt6-astra",
+      "related": [
+        {
+          "title": "OpenAI launches GPT-6 Astra — AGI-era pitch",
+          "url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
+          "sourceId": "venturebeat",
+          "sourceName": "VentureBeat",
+          "sourceHome": "https://venturebeat.com/category/ai/",
+          "publishedAt": "2026-09-05T05:07:00.000Z"
+        },
+        {
+          "title": "GPT-6 Astra: computer-use model details",
+          "url": "https://ai-tldr.dev/releases/openai-gpt-6-astra/",
+          "sourceId": "aitldr",
+          "sourceName": "AI/TLDR",
+          "sourceHome": "https://ai-tldr.dev/",
+          "publishedAt": "2026-09-05T05:07:00.000Z"
+        }
+      ],
+      "clusterSize": 3
+    },
+    {
+      "id": "curated:https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit",
+      "url": "https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit",
+      "title": "Microsoft: Copilot rarely regurgitated NYT text",
+      "summary": "In copyright discovery, Microsoft says <1% of 8.2M Copilot logs regurgitated ≥16 words from news/book plaintiffs’ works.",
+      "sourceId": "verge",
+      "sourceName": "The Verge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "publishedAt": "2026-09-05T05:07:00.000Z",
+      "publishedTs": 1788584819992,
+      "curated": true,
+      "tags": [
+        "policy"
+      ],
+      "clusterId": "topic:copilot-nyt",
       "related": [],
       "clusterSize": 1
     },
     {
-      "id": "signal:https://news.ycombinator.com/item?id=49570669",
-      "url": "https://news.ycombinator.com/item?id=49570669",
-      "title": "236 pts · 135 comments on HN",
-      "summary": "236 pts · 135 comments on HN",
+      "id": "signal:https://news.ycombinator.com/item?id=49570772",
+      "url": "https://news.ycombinator.com/item?id=49570772",
+      "title": "221 pts · 158 comments on HN",
+      "summary": "221 pts · 158 comments on HN",
       "sourceId": "signal",
       "sourceName": "The Signal",
       "sourceHome": "https://infinitytechstack.uk/ai-signal",
       "publishedAt": null,
-      "publishedTs": 1788574318635,
+      "publishedTs": 1788585349508,
       "tags": [],
       "related": [],
-      "clusterId": "auto:236-pts-135-comments-on-hn",
+      "clusterId": "auto:221-pts-158-comments-on-hn",
       "clusterSize": 1
     },
     {
       "id": "venturebeat:https://news.google.com/rss/articles/CBMi1wFBVV95cUxQREw1S0N4LVRXclhETXFfNlZRUkN3aFBBNXV0Y1R4YjRRNmthZnZmNW9kSG5Yak5TUUs0LXVfVHQ3RmJsTm5hck1vWmM3bnp3cXczX3lrMHBOcmxXaUlSbE5rRC1ncEpxNnZKaXFjOS1zcDQtY2s2T0QtZDJ0SE9rRVlpZUpJTVpiOHBHWTdlZmw4X282MlAwNjVETWpOWUZ1UVZsNW00YlZpWTdtWE05MjdCSGhJYURyNHZoVXppSXdZbEJQYUFoc1VhQ3pteU5tb1NydGlzbw?oc=5",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQREw1S0N4LVRXclhETXFfNlZRUkN3aFBBNXV0Y1R4YjRRNmthZnZmNW9kSG5Yak5TUUs0LXVfVHQ3RmJsTm5hck1vWmM3bnp3cXczX3lrMHBOcmxXaUlSbE5rRC1ncEpxNnZKaXFjOS1zcDQtY2s2T0QtZDJ0SE9rRVlpZUpJTVpiOHBHWTdlZmw4X282MlAwNjVETWpOWUZ1UVZsNW00YlZpWTdtWE05MjdCSGhJYURyNHZoVXppSXdZbEJQYUFoc1VhQ3pteU5tb1NydGlzbw?oc=5",
-      "title": "My first VentureBeat story was the 'Woodstock of AI.' My last is Nvidia buying Hugging Face for $12.9 billion. - VentureBeat",
+      "title": "My first VentureBeat story was the 'Woodstock of AI.' My last is Nvidia buying Hugging Face for $12.9 billion. - venturebeat.com",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxQREw1S0N4LVRXclhETXFfNlZRUkN3aFBBNXV0Y1R4YjRRNmthZnZmNW9kSG5Yak5TUUs0LXVfVHQ3R…",
       "sourceId": "venturebeat",
       "sourceName": "VentureBeat",
@@ -261,25 +259,6 @@
       "clusterSize": 4
     },
     {
-      "id": "x:2095226833293685100",
-      "url": "https://x.com/claudeai/status/2095226833293685100",
-      "title": "Claude can now use your computer in the background in Claude Cowork and Claude Code.",
-      "summary": "Claude can now use your computer in the background in Claude Cowork and Claude Code. Give it something to do on your desktop and Claude…",
-      "sourceId": "x",
-      "sourceName": "X",
-      "sourceHome": "https://x.com",
-      "publishedAt": "2026-09-02T19:06:19.000Z",
-      "publishedTs": 1788375979000,
-      "score": 38277,
-      "authorHandle": "claudeai",
-      "tags": [
-        "model-releases"
-      ],
-      "related": [],
-      "clusterId": "auto:claude-can-now-use-your-computer-in-the-backgrou",
-      "clusterSize": 1
-    },
-    {
       "id": "x:2095947707605266436",
       "url": "https://x.com/AnthropicAI/status/2095947707605266436",
       "title": "Checking that a major mathematical proof is correct can take years.",
@@ -289,11 +268,30 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-04T18:50:48.000Z",
       "publishedTs": 1788547848000,
-      "score": 33909,
+      "score": 40535,
       "authorHandle": "anthropicai",
       "tags": [],
       "related": [],
       "clusterId": "auto:checking-that-a-major-mathematical-proof-is-corr",
+      "clusterSize": 1
+    },
+    {
+      "id": "x:2095226833293685100",
+      "url": "https://x.com/claudeai/status/2095226833293685100",
+      "title": "Claude can now use your computer in the background in Claude Cowork and Claude Code.",
+      "summary": "Claude can now use your computer in the background in Claude Cowork and Claude Code. Give it something to do on your desktop and Claude…",
+      "sourceId": "x",
+      "sourceName": "X",
+      "sourceHome": "https://x.com",
+      "publishedAt": "2026-09-02T19:06:19.000Z",
+      "publishedTs": 1788375979000,
+      "score": 38454,
+      "authorHandle": "claudeai",
+      "tags": [
+        "model-releases"
+      ],
+      "related": [],
+      "clusterId": "auto:claude-can-now-use-your-computer-in-the-backgrou",
       "clusterSize": 1
     },
     {
@@ -306,7 +304,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-02T05:37:10.000Z",
       "publishedTs": 1788327430000,
-      "score": 23050,
+      "score": 23076,
       "authorHandle": "merettm",
       "tags": [],
       "related": [],
@@ -318,15 +316,15 @@
     {
       "id": "rumor:https://x.com/theinformation/status/2095972687059308549",
       "title": "Anthropic IPO investors said to press for token-level metrics",
-      "summary": "Unconfirmed The Information tip on IPO diligence asks circulating on X — treat as rumor until filings or multi-outlet confirmation.",
+      "summary": "Unconfirmed The Information tip on IPO diligence asks (revenue per token / per GW) circulating on X — treat as rumor until filings or multi-outlet confirmation.",
       "url": "https://x.com/theinformation/status/2095972687059308549",
       "via": "@theinformation",
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-05T02:08:05.000Z",
-      "publishedAt": "2026-09-05T02:08:05.000Z",
-      "publishedTs": 1788574085000,
+      "harvestedAt": "2026-09-05T05:07:00.000Z",
+      "publishedAt": "2026-09-05T05:07:00.000Z",
+      "publishedTs": 1788584820000,
       "tags": [
         "rumor"
       ]
@@ -334,15 +332,15 @@
     {
       "id": "rumor:https://x.com/theinformation/status/2095957584284983510",
       "title": "Apple Mac demand said to ride a local-AI hardware boom",
-      "summary": "Single The Information post on Mac demand tied to local AI — not yet a multi-outlet confirmed cluster.",
+      "summary": "Single The Information post on Mac demand tied to local AI / cloud-cost cuts — not yet a multi-outlet confirmed cluster.",
       "url": "https://x.com/theinformation/status/2095957584284983510",
       "via": "@theinformation",
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-05T02:08:05.000Z",
-      "publishedAt": "2026-09-05T02:08:05.000Z",
-      "publishedTs": 1788574085000,
+      "harvestedAt": "2026-09-05T05:07:00.000Z",
+      "publishedAt": "2026-09-05T05:07:00.000Z",
+      "publishedTs": 1788584820000,
       "tags": [
         "rumor"
       ]
@@ -356,9 +354,9 @@
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-05T02:08:05.000Z",
-      "publishedAt": "2026-09-05T02:08:05.000Z",
-      "publishedTs": 1788574085000,
+      "harvestedAt": "2026-09-05T05:07:00.000Z",
+      "publishedAt": "2026-09-05T05:07:00.000Z",
+      "publishedTs": 1788584820000,
       "tags": [
         "rumor"
       ]

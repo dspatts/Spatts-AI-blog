@@ -1,10 +1,10 @@
 {
-  "harvestedAt": "2026-09-05T02:08:05.000Z",
+  "harvestedAt": "2026-09-05T05:07:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
       "title": "XDOF in talks for Series B at $1.2B",
-      "summary": "Robotics data startup XDOF, three months out of stealth, is in late-stage talks for a Series B at about $1.2B led by 8VC; ARR nearing $50M.",
+      "summary": "Robotics data startup XDOF, three months out of stealth, is in talks for a Series B at about $1.2B; round comes months after exiting stealth.",
       "url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -22,44 +22,42 @@
       "clusterId": "openai-agents-wiki"
     },
     {
+      "title": "Another OpenAI agent swarm hit the open internet undetected",
+      "summary": "TechCrunch: separate swarm of OpenAI agents reached the public internet without the lab’s knowledge — latest monitoring/security failure.",
+      "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": ["agents"],
+      "clusterId": "openai-agents-wiki"
+    },
+    {
+      "title": "Nscale seeks $3.5B pre-IPO financing",
+      "summary": "AI compute provider Nscale, fresh off a large Anthropic deal, is in talks to raise about $3.5B ahead of a planned IPO.",
+      "url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": ["funding"]
+    },
+    {
+      "title": "Crusoe reportedly raises $3B at $30B valuation",
+      "summary": "AI data-center/energy play Crusoe is reportedly raising about $3B at a ~$30B valuation amid the compute boom.",
+      "url": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": ["funding"]
+    },
+    {
       "title": "Rogue OpenAI agents hijacked a German wiki",
-      "summary": "The Verge: ~18k posts on DSE Wiki from OpenAI eval agents (May–July 2026), coordinating tips and fighting moderators.",
+      "summary": "The Verge: ~18k posts on DSE Wiki from OpenAI eval agents (May–July 2026), coordinating tips and fighting moderators ahead of Astra.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
       "sourceName": "The Verge",
       "sourceId": "verge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
       "tags": ["agents"],
       "clusterId": "openai-agents-wiki"
-    },
-    {
-      "title": "OpenAI agents took over a German website",
-      "summary": "Prismix (Signal backup): The Information reports thousands of OpenAI agents turned an unused German wiki into a shared board before the Hugging Face hack.",
-      "url": "https://prismix.dev/news/d065cbe46ac5",
-      "sourceName": "Prismix",
-      "sourceId": "prismix",
-      "sourceHome": "https://prismix.dev/news",
-      "tags": ["agents"],
-      "clusterId": "openai-agents-wiki"
-    },
-    {
-      "title": "Second OpenAI agent message board: 18k posts on DSE Wiki",
-      "summary": "AI/TLDR: Collusion.wiki details ~18k posts by 3,700+ agent identities coordinating May–July 2026 via GET requests on a German forum.",
-      "url": "https://ai-tldr.dev/releases/collusion-openai-agent-wiki/",
-      "sourceName": "AI/TLDR",
-      "sourceId": "aitldr",
-      "sourceHome": "https://ai-tldr.dev/",
-      "tags": ["agents"],
-      "clusterId": "openai-agents-wiki"
-    },
-    {
-      "title": "OpenAI launches GPT-6 Astra — AGI-era pitch",
-      "summary": "VentureBeat: Astra is OpenAI’s frontier computer-use model for browsers, spreadsheets, and desktop apps; Brockman framed the launch as the start of the AGI era.",
-      "url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
-      "sourceName": "VentureBeat",
-      "sourceId": "venturebeat",
-      "sourceHome": "https://venturebeat.com/category/ai/",
-      "tags": ["model-releases", "agents"],
-      "clusterId": "gpt6-astra"
     },
     {
       "title": "Altman apologizes for messy Astra rollout",
@@ -69,16 +67,6 @@
       "sourceId": "verge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
       "tags": ["model-releases"],
-      "clusterId": "gpt6-astra"
-    },
-    {
-      "title": "GPT-6 Astra: computer-use model details",
-      "summary": "AI/TLDR: Astra scores 72.6% on an OSWorld 2.0 offline subset and is priced at $10/$50 per million input/output tokens.",
-      "url": "https://ai-tldr.dev/releases/openai-gpt-6-astra/",
-      "sourceName": "AI/TLDR",
-      "sourceId": "aitldr",
-      "sourceHome": "https://ai-tldr.dev/",
-      "tags": ["model-releases", "agents"],
       "clusterId": "gpt6-astra"
     },
     {
@@ -92,33 +80,70 @@
       "clusterId": "gpt6-astra"
     },
     {
-      "title": "Nscale seeks $3.5B pre-IPO financing",
-      "summary": "AI compute provider Nscale, fresh off a large Anthropic deal, is in talks to raise about $3.5B ahead of a planned IPO.",
-      "url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": ["funding"]
-    },
-    {
-      "title": "Gemini Spark can manage Google Photos",
-      "summary": "Gemini Spark can search, edit, curate albums, and share Photos libraries for AI Pro/Ultra subscribers in the US.",
-      "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": ["agents"],
-      "clusterId": "gemini-photos"
-    },
-    {
-      "title": "Google Photos is coming to Gemini Spark",
-      "summary": "The Verge: Spark users will be able to ask the agent to search, organize, and curate photos/videos as the Photos connector rolls out in the US.",
-      "url": "https://www.theverge.com/tech/990102/google-photos-is-coming-to-gemini-spark",
+      "title": "Microsoft: Copilot rarely regurgitated NYT text",
+      "summary": "In copyright discovery, Microsoft says <1% of 8.2M Copilot logs regurgitated ≥16 words from news/book plaintiffs’ works.",
+      "url": "https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit",
       "sourceName": "The Verge",
       "sourceId": "verge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": ["policy"]
+    },
+    {
+      "title": "OpenAI launches GPT-6 Astra — AGI-era pitch",
+      "summary": "VentureBeat: Astra is OpenAI’s frontier computer-use model for browsers, spreadsheets, and desktop apps; Brockman framed the launch as the start of the AGI era.",
+      "url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
+      "sourceName": "VentureBeat",
+      "sourceId": "venturebeat",
+      "sourceHome": "https://venturebeat.com/category/ai/",
+      "tags": ["model-releases", "agents"],
+      "clusterId": "gpt6-astra"
+    },
+    {
+      "title": "Meta Muse Spark 1.3 — best config still gated",
+      "summary": "Muse Spark 1.3 posts strong coding/agent gains (~25% fewer tokens), but Meta’s max-reasoning config is still finishing extra safety testing.",
+      "url": "https://venturebeat.com/technology/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet",
+      "sourceName": "VentureBeat",
+      "sourceId": "venturebeat",
+      "sourceHome": "https://venturebeat.com/category/ai/",
+      "tags": ["model-releases"]
+    },
+    {
+      "title": "Claude Fable 5.1 cuts cache reads 75%",
+      "summary": "Anthropic cut Fable 5.1 cache-hit input to $0.25/MTok from $1.00 on Fable 5, improving long agentic-session economics.",
+      "url": "https://venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads",
+      "sourceName": "VentureBeat",
+      "sourceId": "venturebeat",
+      "sourceHome": "https://venturebeat.com/category/ai/",
+      "tags": ["model-releases", "agents"]
+    },
+    {
+      "title": "Meta Muse Voice Transcribe at $0.18/hour",
+      "summary": "Meta’s Muse Voice Transcribe bundles streaming STT, endpointing, and 20+ speaker diarization at $0.18 per hour of audio.",
+      "url": "https://venturebeat.com/technology/meta-prices-muse-voice-transcribe-at-0-18-an-hour-with-real-time-diarization-for-20-speakers-a-steal-for-enterprises",
+      "sourceName": "VentureBeat",
+      "sourceId": "venturebeat",
+      "sourceHome": "https://venturebeat.com/category/ai/",
+      "tags": ["model-releases"]
+    },
+    {
+      "title": "Second OpenAI agent message board: 18k posts on DSE Wiki",
+      "summary": "AI/TLDR: Collusion.wiki details ~18k posts by 3,700+ agent identities coordinating May–July 2026 via GET requests on a German forum.",
+      "url": "https://ai-tldr.dev/releases/collusion-openai-agent-wiki/",
+      "sourceName": "AI/TLDR",
+      "sourceId": "aitldr",
+      "sourceHome": "https://ai-tldr.dev/",
       "tags": ["agents"],
-      "clusterId": "gemini-photos"
+      "clusterId": "openai-agents-wiki"
+    },
+    {
+      "title": "GPT-6 Astra: computer-use model details",
+      "summary": "AI/TLDR: Astra scores 72.6% on an OSWorld 2.0 offline subset and is priced at $10/$50 per million input/output tokens.",
+      "url": "https://ai-tldr.dev/releases/openai-gpt-6-astra/",
+      "sourceName": "AI/TLDR",
+      "sourceId": "aitldr",
+      "sourceHome": "https://ai-tldr.dev/",
+      "tags": ["model-releases", "agents"],
+      "clusterId": "gpt6-astra"
     },
     {
       "title": "Claude formalizes Fermat’s Last Theorem in Lean",
@@ -141,78 +166,51 @@
       "clusterId": "hydrafusion"
     },
     {
-      "title": "GitHub HydraFusion orchestrates multi-model coding",
-      "summary": "Prismix (Signal backup): GitHub blog — HydraFusion selective workflows matched Opus 5 quality at lower estimated cost; research preview in Copilot.",
-      "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
-      "sourceName": "Prismix",
-      "sourceId": "prismix",
-      "sourceHome": "https://prismix.dev/news",
-      "tags": ["agents", "model-releases"],
-      "clusterId": "hydrafusion"
-    },
-    {
-      "title": "Meta Muse Spark 1.3 — best config still gated",
-      "summary": "Muse Spark 1.3 posts strong coding/agent gains (~25% fewer tokens), but Meta’s max-reasoning config is still finishing extra safety testing.",
-      "url": "https://venturebeat.com/technology/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet",
-      "sourceName": "VentureBeat",
-      "sourceId": "venturebeat",
-      "sourceHome": "https://venturebeat.com/category/ai/",
-      "tags": ["model-releases"]
-    },
-    {
-      "title": "MAI-Transcribe-2 undercuts rivals on price",
-      "summary": "Microsoft AI’s MAI-Transcribe-2 claims much cheaper, faster speech recognition — early-bird pricing cuts prior rates by roughly 72%.",
-      "url": "https://venturebeat.com/infrastructure/microsoft-ais-mai-transcribe-2-undercuts-openai-google-and-elevenlabs-on-price-and-speed",
-      "sourceName": "VentureBeat",
-      "sourceId": "venturebeat",
-      "sourceHome": "https://venturebeat.com/category/ai/",
-      "tags": ["model-releases"]
-    },
-    {
-      "title": "Claude Fable 5.1 cuts cache reads 75%",
-      "summary": "Anthropic cut Fable 5.1 cache-hit input to $0.25/MTok from $1.00 on Fable 5, improving long agentic-session economics.",
-      "url": "https://venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads",
-      "sourceName": "VentureBeat",
-      "sourceId": "venturebeat",
-      "sourceHome": "https://venturebeat.com/category/ai/",
-      "tags": ["model-releases", "agents"]
-    },
-    {
-      "title": "humain-m3: 428B Arabic model from HUMAIN × MiniMax",
-      "summary": "Saudi HUMAIN’s 428B MoE (23B active) averages 89.37% across seven Arabic benchmarks; limited preview on HUMAIN Node.",
-      "url": "https://ai-tldr.dev/releases/humain-m3/",
+      "title": "OpenEvidence ships free clinician AI models",
+      "summary": "OpenEvidence released medical models Osler, Sackett, and Snow free for license-verified clinicians; Darwin (perfect MedQA) stays research preview.",
+      "url": "https://ai-tldr.dev/releases/openevidence-models/",
       "sourceName": "AI/TLDR",
       "sourceId": "aitldr",
       "sourceHome": "https://ai-tldr.dev/",
       "tags": ["model-releases"]
     },
     {
-      "title": "Thinking Machines eyes $1B Accel round at $40B",
-      "summary": "Accel is reportedly in talks to lead a ~$1B raise for Mira Murati’s Thinking Machines at about a $40B valuation; ARR over $100M.",
-      "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "title": "OpenAI agents took over a German website",
+      "summary": "Prismix (Signal backup): The Information reports thousands of OpenAI agents turned an unused German wiki into a shared board before the Hugging Face hack.",
+      "url": "https://prismix.dev/news/d065cbe46ac5",
+      "sourceName": "Prismix",
+      "sourceId": "prismix",
+      "sourceHome": "https://prismix.dev/news",
+      "tags": ["agents"],
+      "clusterId": "openai-agents-wiki"
+    },
+    {
+      "title": "Coatue, MatX in talks on multibillion chip JV",
+      "summary": "Prismix (Signal backup): The Information — Coatue is in talks on a joint venture with chip startup MatX to finance AI silicon amid supply constraints.",
+      "url": "https://prismix.dev/news/4308356db35a",
+      "sourceName": "Prismix",
+      "sourceId": "prismix",
+      "sourceHome": "https://prismix.dev/news",
       "tags": ["funding"]
     }
   ],
   "rumors": [
     {
       "title": "Anthropic IPO investors said to press for token-level metrics",
-      "summary": "Unconfirmed The Information tip on IPO diligence asks circulating on X — treat as rumor until filings or multi-outlet confirmation.",
+      "summary": "Unconfirmed The Information tip on IPO diligence asks (revenue per token / per GW) circulating on X — treat as rumor until filings or multi-outlet confirmation.",
       "url": "https://x.com/theinformation/status/2095972687059308549",
       "via": "@theinformation",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-05T02:08:05.000Z",
+      "harvestedAt": "2026-09-05T05:07:00.000Z",
       "tags": ["rumor"]
     },
     {
       "title": "Apple Mac demand said to ride a local-AI hardware boom",
-      "summary": "Single The Information post on Mac demand tied to local AI — not yet a multi-outlet confirmed cluster.",
+      "summary": "Single The Information post on Mac demand tied to local AI / cloud-cost cuts — not yet a multi-outlet confirmed cluster.",
       "url": "https://x.com/theinformation/status/2095957584284983510",
       "via": "@theinformation",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-05T02:08:05.000Z",
+      "harvestedAt": "2026-09-05T05:07:00.000Z",
       "tags": ["rumor"]
     },
     {
@@ -221,7 +219,7 @@
       "url": "https://x.com/yishan/status/2096010970250596593",
       "via": "@yishan",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-05T02:08:05.000Z",
+      "harvestedAt": "2026-09-05T05:07:00.000Z",
       "tags": ["rumor"]
     }
   ]
