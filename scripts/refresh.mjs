@@ -1015,14 +1015,31 @@ function escapeHtml(value) {
     .replaceAll('"', "&quot;");
 }
 
+const DISPLAY_TIME_ZONE = "Australia/Sydney";
+const DISPLAY_TIME_FORMAT = {
+  timeZone: DISPLAY_TIME_ZONE,
+  day: "numeric",
+  month: "short",
+  year: "numeric",
+  hour: "numeric",
+  minute: "2-digit",
+  hour12: true,
+  timeZoneName: "short",
+};
+
 function formatWhen(iso) {
   const date = iso ? new Date(iso) : new Date();
   if (Number.isNaN(date.getTime())) return "";
-  return new Intl.DateTimeFormat("en-AU", {
-    dateStyle: "medium",
-    timeStyle: "short",
-    timeZone: "Australia/Sydney",
-  }).format(date);
+  return new Intl.DateTimeFormat("en-AU", DISPLAY_TIME_FORMAT).format(date);
+}
+
+function timeHtml(iso) {
+  if (!iso) return "";
+  const date = new Date(iso);
+  if (Number.isNaN(date.getTime())) return "";
+  const text = formatWhen(iso);
+  if (!text) return "";
+  return `<time datetime="${escapeHtml(date.toISOString())}">${escapeHtml(text)}</time>`;
 }
 
 function alsoCovered(post) {
@@ -1078,13 +1095,15 @@ function rumorViaHref(rumor) {
 }
 
 function rumorCard(rumor) {
-  const age = formatAge(rumor.harvestedAt || rumor.publishedAt);
-  const when = ["X", age].filter(Boolean).join(" · ");
+  const iso = rumor.harvestedAt || rumor.publishedAt;
+  const stamp = timeHtml(iso);
+  const age = formatAge(iso);
+  const when = ["X", stamp || escapeHtml(age)].filter(Boolean).join(" · ");
   const viaHref = rumorViaHref(rumor);
   return `<article class="rumor">
   <div class="rumor-kicker">
     <span class="rumor-flag">Rumor</span>
-    <span class="rumor-when">${escapeHtml(when)}</span>
+    <span class="rumor-when">${when}</span>
   </div>
   <h3><a href="${escapeHtml(rumor.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(rumor.title)}</a></h3>
   <p class="rumor-caveat">${escapeHtml(rumor.summary)}</p>
@@ -1111,13 +1130,15 @@ function renderHtml(payload) {
   const stories = payload.posts
     .map((post, index) => {
       const rank = String(index + 1).padStart(2, "0");
-      const when = post.publishedAt ? formatWhen(post.publishedAt) : "";
+      const when = post.publishedAt ? timeHtml(post.publishedAt) : "";
       const isX = post.sourceId === X_SOURCE.id;
       const handle = post.authorHandle ? `@${post.authorHandle}` : "";
       const cta = isX ? "Read on X →" : "Read story →";
-      const meta = [handle, when]
+      const meta = [
+        handle ? `<span>${escapeHtml(handle)}</span>` : "",
+        when ? `<span>${when}</span>` : "",
+      ]
         .filter(Boolean)
-        .map((bit) => `<span>${escapeHtml(bit)}</span>`)
         .join("\n      ");
       const topicTags = (post.tags || []).filter((t) => t !== "x");
       const tags = topicTags.join(" ");
@@ -1143,7 +1164,7 @@ function renderHtml(payload) {
 
   const empty =
     `<div class="empty">No stories made it through this harvest. The next refresh will try again.</div>`;
-  const refreshed = formatWhen(payload.refreshedAt);
+  const refreshed = timeHtml(payload.refreshedAt);
   const sourcesLine = (payload.sources || [])
     .map(
       (s) =>
@@ -1171,8 +1192,8 @@ function renderHtml(payload) {
       <p class="kicker"><span>Multi-source AI news</span><span>Every 3 hours</span></p>
       <h1>Ai Source</h1>
       <p class="dateline">
-        <strong>${escapeHtml(refreshed)}</strong>
-        <span>Top ${clusterCount} story clusters right now</span>
+        <strong>${refreshed}</strong>
+        <span>Top ${clusterCount} story clusters right now · Australia/Sydney</span>
       </p>
       ${filterBar()}
     </header>
@@ -1182,10 +1203,26 @@ function renderHtml(payload) {
       ${stories || empty}
       <div class="empty" id="filter-empty" hidden>No stories in this category right now.</div>
     </main>
-    <p class="status">Last refresh: ${escapeHtml(refreshed)} · ${escapeHtml(sourcesLine)}</p>
+    <p class="status">Last refresh: ${refreshed} · ${escapeHtml(sourcesLine)}</p>
     <footer>Ai Source aggregates headlines from TechCrunch, VentureBeat, The Verge, AI/TLDR, The Signal, and X, then clusters the same event across outlets. Original posts stay on their publishers’ sites.</footer>
   </div>
 <script>
+(function () {
+  var fmt = new Intl.DateTimeFormat("en-AU", {
+    timeZone: "Australia/Sydney",
+    day: "numeric",
+    month: "short",
+    year: "numeric",
+    hour: "numeric",
+    minute: "2-digit",
+    hour12: true,
+    timeZoneName: "short"
+  });
+  document.querySelectorAll("time[datetime]").forEach(function (el) {
+    var date = new Date(el.getAttribute("datetime"));
+    if (!isNaN(date.getTime())) el.textContent = fmt.format(date);
+  });
+})();
 (function () {
   var bar = document.querySelector(".filters");
   var cards = document.querySelectorAll("#story-grid .story");
@@ -1296,6 +1333,7 @@ export async function refreshNews() {
 export {
   clusterStories,
   deriveTags,
+  formatWhen,
   isFreshHarvest,
   loadCurated,
   pickRumors,
