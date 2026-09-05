@@ -53,10 +53,17 @@
       "ok": true,
       "count": 12,
       "errors": []
+    },
+    {
+      "id": "rumors",
+      "name": "Rumor mill (X)",
+      "ok": true,
+      "count": 3,
+      "errors": []
     }
   ],
-  "briefingDate": "2026-09-04T23:39:11.901Z",
-  "refreshedAt": "2026-09-04T23:39:11.901Z",
+  "briefingDate": "2026-09-05T00:54:18.651Z",
+  "refreshedAt": "2026-09-05T00:54:18.651Z",
   "preferCurated": true,
   "posts": [
     {
@@ -197,7 +204,7 @@
       "sourceName": "The Signal",
       "sourceHome": "https://infinitytechstack.uk/ai-signal",
       "publishedAt": null,
-      "publishedTs": 1788565151299,
+      "publishedTs": 1788569658301,
       "tags": [],
       "related": [],
       "clusterId": "auto:200-pts-72-comments-on-hn",
@@ -255,7 +262,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-02T19:06:19.000Z",
       "publishedTs": 1788375979000,
-      "score": 38205,
+      "score": 38236,
       "authorHandle": "claudeai",
       "tags": [
         "model-releases"
@@ -274,7 +281,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-04T18:50:48.000Z",
       "publishedTs": 1788547848000,
-      "score": 27815,
+      "score": 31156,
       "authorHandle": "anthropicai",
       "tags": [],
       "related": [],
@@ -291,7 +298,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-02T05:37:10.000Z",
       "publishedTs": 1788327430000,
-      "score": 23009,
+      "score": 23024,
       "authorHandle": "merettm",
       "tags": [],
       "related": [],
@@ -299,5 +306,54 @@
       "clusterSize": 1
     }
   ],
-  "rumors": []
+  "rumors": [
+    {
+      "id": "rumor:https://x.com/theinformation/status/2095972687059308549",
+      "title": "Anthropic IPO investors said to press for token-level metrics",
+      "summary": "The Information tip on IPO diligence asks — single outlet on X so far; treat as unconfirmed until filings.",
+      "url": "https://x.com/theinformation/status/2095972687059308549",
+      "via": "@theinformation",
+      "sourceKind": "x",
+      "sourceId": "x",
+      "sourceName": "X",
+      "harvestedAt": "2026-09-05T00:52:00.000Z",
+      "publishedAt": "2026-09-05T00:52:00.000Z",
+      "publishedTs": 1788569520000,
+      "tags": [
+        "rumor"
+      ]
+    },
+    {
+      "id": "rumor:https://x.com/theinformation/status/2095957584284983510",
+      "title": "Apple Mac demand said to ride a local-AI hardware boom",
+      "summary": "Single The Information post on Mac demand for local AI — not yet a multi-outlet cluster.",
+      "url": "https://x.com/theinformation/status/2095957584284983510",
+      "via": "@theinformation",
+      "sourceKind": "x",
+      "sourceId": "x",
+      "sourceName": "X",
+      "harvestedAt": "2026-09-05T00:52:00.000Z",
+      "publishedAt": "2026-09-05T00:52:00.000Z",
+      "publishedTs": 1788569520000,
+      "tags": [
+        "rumor"
+      ]
+    },
+    {
+      "id": "rumor:https://x.com/yishan/status/2096010970250596593",
+      "title": "HF agent swarm may not have been the first undetected incident",
+      "summary": "Speculative take that the HF agent swarm wasn’t a first incident — opinion/inference, not confirmed reporting.",
+      "url": "https://x.com/yishan/status/2096010970250596593",
+      "via": "@yishan",
+      "sourceKind": "x",
+      "sourceId": "x",
+      "sourceName": "X",
+      "harvestedAt": "2026-09-05T00:52:00.000Z",
+      "publishedAt": "2026-09-05T00:52:00.000Z",
+      "publishedTs": 1788569520000,
+      "tags": [
+        "rumor"
+      ]
+    }
+  ]
 }

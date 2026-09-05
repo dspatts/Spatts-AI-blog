@@ -193,5 +193,33 @@
       "tags": ["agents"]
     }
   ],
-  "rumors": []
+  "rumors": [
+    {
+      "title": "Anthropic IPO investors said to press for token-level metrics",
+      "summary": "The Information tip on IPO diligence asks — single outlet on X so far; treat as unconfirmed until filings.",
+      "url": "https://x.com/theinformation/status/2095972687059308549",
+      "via": "@theinformation",
+      "sourceKind": "x",
+      "harvestedAt": "2026-09-05T00:52:00.000Z",
+      "tags": ["rumor"]
+    },
+    {
+      "title": "Apple Mac demand said to ride a local-AI hardware boom",
+      "summary": "Single The Information post on Mac demand for local AI — not yet a multi-outlet cluster.",
+      "url": "https://x.com/theinformation/status/2095957584284983510",
+      "via": "@theinformation",
+      "sourceKind": "x",
+      "harvestedAt": "2026-09-05T00:52:00.000Z",
+      "tags": ["rumor"]
+    },
+    {
+      "title": "HF agent swarm may not have been the first undetected incident",
+      "summary": "Speculative take that the HF agent swarm wasn’t a first incident — opinion/inference, not confirmed reporting.",
+      "url": "https://x.com/yishan/status/2096010970250596593",
+      "via": "@yishan",
+      "sourceKind": "x",
+      "harvestedAt": "2026-09-05T00:52:00.000Z",
+      "tags": ["rumor"]
+    }
+  ]
 }
