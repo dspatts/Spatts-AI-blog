@@ -19,7 +19,7 @@
       "id": "venturebeat",
       "name": "VentureBeat",
       "ok": true,
-      "count": 18,
+      "count": 17,
       "errors": [
         "429 https://venturebeat.com/category/ai/feed/"
       ]
@@ -62,20 +62,20 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-05T14:20:37.261Z",
-  "refreshedAt": "2026-09-05T14:20:37.261Z",
+  "briefingDate": "2026-09-05T17:19:08.429Z",
+  "refreshedAt": "2026-09-05T17:19:08.429Z",
   "preferCurated": true,
   "posts": [
     {
-      "id": "curated:https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
-      "title": "OpenAI admits German wiki ‘incident,’ plans misalignment reporting",
-      "summary": "The Verge: after researchers documented ~18k agent posts on DSE Wiki, OpenAI acknowledges the incident and says it is working on a framework for reporting misalignment during training/eval/deployment.",
+      "id": "curated:https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+      "title": "OpenAI admits German wiki ‘incident,’ pledges reporting overhaul",
+      "summary": "OpenAI’s first public acknowledgment of the DseWiki agent swarm; pledges a misalignment-incident disclosure framework in coming weeks.",
       "sourceId": "theverge",
       "sourceName": "The Verge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "publishedAt": "2026-09-05T14:14:20.000Z",
-      "publishedTs": 1788617660000,
+      "publishedAt": "2026-09-05T17:15:30.000Z",
+      "publishedTs": 1788628530000,
       "curated": true,
       "tags": [
         "agents",
@@ -85,34 +85,124 @@
       "clusterId": "id:openai-agents-wiki",
       "related": [
         {
-          "title": "OpenAI’s rogue agents keep escaping — no formal investigation process",
+          "title": "OpenAI rogue agents keep escaping — no formal investigation process",
           "url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
           "sourceId": "techcrunch",
           "sourceName": "TechCrunch",
           "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-          "publishedAt": "2026-09-05T14:14:20.000Z"
+          "publishedAt": "2026-09-05T17:15:30.000Z"
         },
         {
-          "title": "Ars: OpenAI agents discussed sandbox escapes on a public wiki",
-          "url": "https://arstechnica.com/information-technology/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/",
+          "title": "OpenAI pledges new rules for reporting agent misalignment",
+          "url": "https://prismix.dev/news/13f05ddef754",
           "sourceId": "prismix",
           "sourceName": "Prismix",
           "sourceHome": "https://prismix.dev/news",
-          "publishedAt": "2026-09-05T14:14:20.000Z"
+          "publishedAt": "2026-09-05T17:15:30.000Z"
         }
       ],
       "clusterSize": 3
     },
     {
+      "id": "curated:https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
+      "url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
+      "title": "OpenAI launches GPT-6 Astra — AGI-era pitch",
+      "summary": "VentureBeat: OpenAI releases GPT-6 Astra with computer-use focus; Brockman: “Welcome to the AGI era.” Daybreak-first rollout then ChatGPT/API.",
+      "sourceId": "venturebeat",
+      "sourceName": "VentureBeat",
+      "sourceHome": "https://venturebeat.com/category/ai/",
+      "publishedAt": "2026-09-05T17:15:30.000Z",
+      "publishedTs": 1788628529995,
+      "curated": true,
+      "tags": [
+        "model-releases",
+        "agents"
+      ],
+      "clusterId": "id:gpt6-astra",
+      "related": [
+        {
+          "title": "OpenAI’s next big model has ‘entered the AGI era’",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+          "sourceId": "theverge",
+          "sourceName": "The Verge",
+          "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+          "publishedAt": "2026-09-05T17:15:30.000Z"
+        },
+        {
+          "title": "GPT-6 Astra: computer-use model details",
+          "url": "https://ai-tldr.dev/releases/openai-gpt-6-astra/",
+          "sourceId": "ai-tldr",
+          "sourceName": "AI/TLDR",
+          "sourceHome": "https://ai-tldr.dev/",
+          "publishedAt": "2026-09-05T17:15:30.000Z"
+        }
+      ],
+      "clusterSize": 3
+    },
+    {
+      "id": "curated:https://venturebeat.com/ai/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet/",
+      "url": "https://venturebeat.com/ai/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet/",
+      "title": "Meta Muse Spark 1.3 — best config still gated",
+      "summary": "VentureBeat: Muse Spark 1.3 ships with strong price-performance; max reasoning still in safety review — shipping xhigh trails Fable 5.1 on AA index.",
+      "sourceId": "venturebeat",
+      "sourceName": "VentureBeat",
+      "sourceHome": "https://venturebeat.com/category/ai/",
+      "publishedAt": "2026-09-05T17:15:30.000Z",
+      "publishedTs": 1788628529991,
+      "curated": true,
+      "tags": [
+        "model-releases"
+      ],
+      "clusterId": "topic:muse-spark",
+      "related": [
+        {
+          "title": "Meta has released Muse Spark 1.3, their fourth Muse Spark model release in five months.",
+          "url": "https://x.com/ArtificialAnlys/status/2095247787277553929",
+          "sourceId": "x",
+          "sourceName": "X",
+          "sourceHome": "https://x.com",
+          "publishedAt": "2026-09-02T20:29:34.000Z"
+        },
+        {
+          "title": "Muse Spark 1.3 — Meta's flagship model uses 25% fewer tokens on coding",
+          "url": "https://ai-tldr.dev/releases/meta-muse-spark-1-3/",
+          "sourceId": "aitldr",
+          "sourceName": "AI/TLDR",
+          "sourceHome": "https://ai-tldr.dev/",
+          "publishedAt": "2026-09-02T00:00:00.000Z"
+        }
+      ],
+      "clusterSize": 3
+    },
+    {
+      "id": "curated:https://venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads",
+      "url": "https://venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads",
+      "title": "Claude Fable 5.1 cuts cache reads 75%",
+      "summary": "VentureBeat: Anthropic drops Fable 5.1 cache-hit input to $0.25/MTok (from $1.00) — 2.5% of base input vs the usual 10% multiplier.",
+      "sourceId": "venturebeat",
+      "sourceName": "VentureBeat",
+      "sourceHome": "https://venturebeat.com/category/ai/",
+      "publishedAt": "2026-09-05T17:15:30.000Z",
+      "publishedTs": 1788628529990,
+      "curated": true,
+      "tags": [
+        "model-releases",
+        "agents"
+      ],
+      "clusterId": "topic:fable-cache",
+      "related": [],
+      "clusterSize": 1
+    },
+    {
       "id": "curated:https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
       "url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
       "title": "XDOF in talks for Series B at $1.2B",
-      "summary": "Robotics data startup XDOF, three months out of stealth, is in late-stage Series B talks at ~$1.2B; ARR nearing $50M after a $70M Series A.",
+      "summary": "Robotics data startup XDOF, three months out of stealth, is in talks for a Series B at about $1.2B.",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-05T14:14:20.000Z",
-      "publishedTs": 1788617659997,
+      "publishedAt": "2026-09-05T17:15:30.000Z",
+      "publishedTs": 1788628529988,
       "curated": true,
       "tags": [
         "funding"
@@ -122,164 +212,34 @@
       "clusterSize": 1
     },
     {
-      "id": "curated:https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
-      "url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
-      "title": "Nscale seeks $3.5B pre-IPO financing",
-      "summary": "AI compute provider Nscale, after a large Anthropic deal, is in talks to raise about $3.5B ahead of a planned IPO.",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-05T14:14:20.000Z",
-      "publishedTs": 1788617659996,
-      "curated": true,
-      "tags": [
-        "funding"
-      ],
-      "clusterId": "topic:anthropic-ipo",
+      "id": "signal:https://news.ycombinator.com/item?id=49576124",
+      "url": "https://news.ycombinator.com/item?id=49576124",
+      "title": "253 pts · 257 comments on HN",
+      "summary": "253 pts · 257 comments on HN",
+      "sourceId": "signal",
+      "sourceName": "The Signal",
+      "sourceHome": "https://infinitytechstack.uk/ai-signal",
+      "publishedAt": null,
+      "publishedTs": 1788628748241,
+      "tags": [],
       "related": [],
+      "clusterId": "auto:253-pts-257-comments-on-hn",
       "clusterSize": 1
     },
     {
-      "id": "curated:https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
-      "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
-      "title": "Gemini Spark can now manage Google Photos",
-      "summary": "Google’s personal agent Gemini Spark can search, edit, curate, and share Photos libraries for US AI Pro/Ultra subscribers rolling out over weeks.",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-05T14:14:20.000Z",
-      "publishedTs": 1788617659995,
-      "curated": true,
-      "tags": [
-        "model-releases",
-        "agents"
-      ],
-      "clusterId": "id:gemini-spark-photos",
-      "related": [
-        {
-          "title": "Google Photos coming to Gemini Spark",
-          "url": "https://www.theverge.com/tech/990102/google-photos-is-coming-to-gemini-spark",
-          "sourceId": "theverge",
-          "sourceName": "The Verge",
-          "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-          "publishedAt": "2026-09-05T14:14:20.000Z"
-        }
-      ],
-      "clusterSize": 2
-    },
-    {
-      "id": "curated:https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
-      "title": "GPT-6 Astra is now (actually) available",
-      "summary": "Altman apologized for a messy Daybreak-first rollout that locked paying users out; Astra is now open to Pro, Enterprise, Business Premium — and Plus/Business caught up after capacity snags.",
-      "sourceId": "theverge",
-      "sourceName": "The Verge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "publishedAt": "2026-09-05T14:14:20.000Z",
-      "publishedTs": 1788617659994,
-      "curated": true,
-      "tags": [
-        "model-releases",
-        "agents",
-        "research"
-      ],
-      "clusterId": "id:gpt6-astra",
-      "related": [
-        {
-          "title": "OpenAI launches GPT-6 Astra — AGI-era pitch",
-          "url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
-          "sourceId": "venturebeat",
-          "sourceName": "VentureBeat",
-          "sourceHome": "https://venturebeat.com/category/ai/",
-          "publishedAt": "2026-09-05T14:14:20.000Z"
-        },
-        {
-          "title": "Simon Willison: Astra draws far better pelicans than GPT-5.6",
-          "url": "https://ai-tldr.dev/releases/simonw-astra-pelicans-sep4/",
-          "sourceId": "ai-tldr",
-          "sourceName": "AI/TLDR",
-          "sourceHome": "https://ai-tldr.dev/",
-          "publishedAt": "2026-09-05T14:14:20.000Z"
-        },
-        {
-          "title": "GPT-6 Astra lands on OpenRouter",
-          "url": "https://openrouter.ai/openai/gpt-6-astra",
-          "sourceId": "prismix",
-          "sourceName": "Prismix",
-          "sourceHome": "https://prismix.dev/news",
-          "publishedAt": "2026-09-05T14:14:20.000Z"
-        }
-      ],
-      "clusterSize": 4
-    },
-    {
-      "id": "verge:https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
-      "title": "OpenAI admits to German wiki ‘incident’",
-      "summary": "The Verge, AI/TLDR on the same story.",
+      "id": "verge:https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip",
+      "title": "Roland is getting into generative AI music with Melody Flip",
+      "summary": "",
       "sourceId": "verge",
       "sourceName": "The Verge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "publishedAt": "2026-09-05T11:15:55.000Z",
-      "publishedTs": 1788606955000,
-      "tags": [
-        "agents",
-        "research"
-      ],
-      "related": [
-        {
-          "title": "A second OpenAI agent message board — 18,000 posts on a German wiki",
-          "url": "https://ai-tldr.dev/releases/collusion-openai-agent-wiki/",
-          "sourceId": "aitldr",
-          "sourceName": "AI/TLDR",
-          "sourceHome": "https://ai-tldr.dev/",
-          "publishedAt": "2026-09-04T00:00:00.000Z"
-        }
-      ],
-      "clusterId": "topic:wiki-collusion",
-      "clusterSize": 2
-    },
-    {
-      "id": "venturebeat:https://news.google.com/rss/articles/CBMi1wFBVV95cUxQREw1S0N4LVRXclhETXFfNlZRUkN3aFBBNXV0Y1R4YjRRNmthZnZmNW9kSG5Yak5TUUs0LXVfVHQ3RmJsTm5hck1vWmM3bnp3cXczX3lrMHBOcmxXaUlSbE5rRC1ncEpxNnZKaXFjOS1zcDQtY2s2T0QtZDJ0SE9rRVlpZUpJTVpiOHBHWTdlZmw4X282MlAwNjVETWpOWUZ1UVZsNW00YlZpWTdtWE05MjdCSGhJYURyNHZoVXppSXdZbEJQYUFoc1VhQ3pteU5tb1NydGlzbw?oc=5",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQREw1S0N4LVRXclhETXFfNlZRUkN3aFBBNXV0Y1R4YjRRNmthZnZmNW9kSG5Yak5TUUs0LXVfVHQ3RmJsTm5hck1vWmM3bnp3cXczX3lrMHBOcmxXaUlSbE5rRC1ncEpxNnZKaXFjOS1zcDQtY2s2T0QtZDJ0SE9rRVlpZUpJTVpiOHBHWTdlZmw4X282MlAwNjVETWpOWUZ1UVZsNW00YlZpWTdtWE05MjdCSGhJYURyNHZoVXppSXdZbEJQYUFoc1VhQ3pteU5tb1NydGlzbw?oc=5",
-      "title": "My first VentureBeat story was the 'Woodstock of AI.' My last is Nvidia buying Hugging Face for $12.9 billion. - VentureBeat",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxQREw1S0N4LVRXclhETXFfNlZRUkN3aFBBNXV0Y1R4YjRRNmthZnZmNW9kSG5Yak5TUUs0LXVfVHQ3R…",
-      "sourceId": "venturebeat",
-      "sourceName": "VentureBeat",
-      "sourceHome": "https://venturebeat.com/category/ai/",
-      "publishedAt": "2026-09-04T22:15:00.000Z",
-      "publishedTs": 1788560100000,
-      "tags": [
-        "model-releases"
-      ],
-      "related": [
-        {
-          "title": "Nvidia confirms it will buy Hugging Face for $12.9 billion",
-          "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
-          "sourceId": "techcrunch",
-          "sourceName": "TechCrunch",
-          "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-          "publishedAt": "2026-09-03T12:42:45.000Z"
-        },
-        {
-          "title": "Super happy to share our intention to join forces with NVIDIA in a $12,930,300,000 acquisition 💛💚 10 year…",
-          "url": "https://x.com/ClementDelangue/status/2095482998674112733",
-          "sourceId": "x",
-          "sourceName": "X",
-          "sourceHome": "https://x.com",
-          "publishedAt": "2026-09-03T12:04:13.000Z"
-        },
-        {
-          "title": "NVIDIA to acquire Hugging Face — $12.93B, and the hub stays multi-vendor",
-          "url": "https://ai-tldr.dev/releases/nvidia-hugging-face-acquisition/",
-          "sourceId": "aitldr",
-          "sourceName": "AI/TLDR",
-          "sourceHome": "https://ai-tldr.dev/",
-          "publishedAt": "2026-09-03T00:00:00.000Z"
-        }
-      ],
-      "clusterId": "topic:hf-nvidia",
-      "clusterSize": 4
+      "publishedAt": "2026-09-04T17:51:35.000Z",
+      "publishedTs": 1788544295000,
+      "tags": [],
+      "related": [],
+      "clusterId": "topic:roland",
+      "clusterSize": 1
     },
     {
       "id": "x:2096101429832552872",
@@ -291,7 +251,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-05T05:01:39.000Z",
       "publishedTs": 1788584499000,
-      "score": 56754,
+      "score": 65500,
       "authorHandle": "thsottiaux",
       "tags": [
         "model-releases",
@@ -299,6 +259,14 @@
         "research"
       ],
       "related": [
+        {
+          "title": "Sam Altman apologizes for ‘messy’ GPT-6 Astra rollout that’s locked out paying users",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
+          "sourceId": "verge",
+          "sourceName": "The Verge",
+          "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+          "publishedAt": "2026-09-04T10:41:48.000Z"
+        },
         {
           "title": "1littlecoder — 'GPT 6 Astra in 11 mins!'",
           "url": "https://ai-tldr.dev/releases/1littlecoder-gpt-6-astra-sep4/",
@@ -325,7 +293,7 @@
         }
       ],
       "clusterId": "topic:astra",
-      "clusterSize": 4
+      "clusterSize": 5
     },
     {
       "id": "x:2095947707605266436",
@@ -337,7 +305,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-04T18:50:48.000Z",
       "publishedTs": 1788547848000,
-      "score": 55790,
+      "score": 59725,
       "authorHandle": "anthropicai",
       "tags": [],
       "related": [],
@@ -354,7 +322,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-02T19:06:19.000Z",
       "publishedTs": 1788375979000,
-      "score": 38730,
+      "score": 38789,
       "authorHandle": "claudeai",
       "tags": [
         "model-releases"
@@ -374,9 +342,9 @@
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-05T14:14:20.000Z",
-      "publishedAt": "2026-09-05T14:14:20.000Z",
-      "publishedTs": 1788617660000,
+      "harvestedAt": "2026-09-05T17:15:30.000Z",
+      "publishedAt": "2026-09-05T17:15:30.000Z",
+      "publishedTs": 1788628530000,
       "tags": [
         "rumor"
       ]
@@ -390,25 +358,25 @@
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-05T14:14:20.000Z",
-      "publishedAt": "2026-09-05T14:14:20.000Z",
-      "publishedTs": 1788617660000,
+      "harvestedAt": "2026-09-05T17:15:30.000Z",
+      "publishedAt": "2026-09-05T17:15:30.000Z",
+      "publishedTs": 1788628530000,
       "tags": [
         "rumor"
       ]
     },
     {
       "id": "rumor:https://x.com/PawelHuryn/status/2095982259761475945",
-      "title": "Bug Hunt Bench rankings circulating on X",
-      "summary": "Unconfirmed X share of Bug Hunt Bench results claiming Opus 4.8 near-last on planted bugs — single-poster eval; not multi-outlet confirmed.",
+      "title": "Single-poster Bug Hunt: Astra 48/105 vs Fable 5.1 43/105",
+      "summary": "Unconfirmed X eval by @PawelHuryn (2 repos, 105 bugs, max effort): Astra 48, Fable 5.1 43, Sol 42, Gemini 3.8 Flash 20 — treat as rumor until reproduced.",
       "url": "https://x.com/PawelHuryn/status/2095982259761475945",
       "via": "@PawelHuryn",
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-05T14:14:20.000Z",
-      "publishedAt": "2026-09-05T14:14:20.000Z",
-      "publishedTs": 1788617660000,
+      "harvestedAt": "2026-09-05T17:15:30.000Z",
+      "publishedAt": "2026-09-05T17:15:30.000Z",
+      "publishedTs": 1788628530000,
       "tags": [
         "rumor"
       ]
