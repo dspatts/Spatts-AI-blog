@@ -64,8 +64,8 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-05T22:25:21.456Z",
-  "refreshedAt": "2026-09-05T22:25:21.456Z",
+  "briefingDate": "2026-09-05T22:57:50.946Z",
+  "refreshedAt": "2026-09-05T22:57:50.946Z",
   "preferCurated": false,
   "posts": [
     {
@@ -77,10 +77,25 @@
       "sourceName": "The Signal",
       "sourceHome": "https://infinitytechstack.uk/ai-signal",
       "publishedAt": null,
-      "publishedTs": 1788647121431,
+      "publishedTs": 1788649070922,
       "tags": [],
       "related": [],
       "clusterId": "auto:240-pts-93-comments-on-hn",
+      "clusterSize": 1
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+      "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+      "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
+      "summary": "",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "publishedAt": "2026-09-05T22:49:55.000Z",
+      "publishedTs": 1788648595000,
+      "tags": [],
+      "related": [],
+      "clusterId": "auto:seattle-times-and-newsday-are-the-latest-publica",
       "clusterSize": 1
     },
     {
@@ -221,25 +236,6 @@
       "clusterSize": 1
     },
     {
-      "id": "curated:https://ai-tldr.dev/releases/artificial-analysis-index-v4-2/",
-      "url": "https://ai-tldr.dev/releases/artificial-analysis-index-v4-2/",
-      "title": "Artificial Analysis Index v4.2 doubles private tests",
-      "summary": "AI/TLDR: AA Index v4.2 retires GPQA Diamond, adds AA-Briefcase + GDP.pdf; private held-out weight rises to 40%. Fable 5.1 leads at 57 vs Astra max 55.",
-      "sourceId": "ai-tldr",
-      "sourceName": "AI/TLDR",
-      "sourceHome": "https://ai-tldr.dev/",
-      "publishedAt": "2026-09-05T20:10:00.000Z",
-      "publishedTs": 1788638999988,
-      "curated": false,
-      "tags": [
-        "agents",
-        "research"
-      ],
-      "clusterId": "auto:artificial-analysis-index-v4-2-doubles-private-t",
-      "related": [],
-      "clusterSize": 1
-    },
-    {
       "id": "x:2096101429832552872",
       "url": "https://x.com/thsottiaux/status/2096101429832552872",
       "title": "Astra was probably our biggest competitive advantage while it wasn’t generally available.",
@@ -249,7 +245,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-05T05:01:39.000Z",
       "publishedTs": 1788584499000,
-      "score": 72164,
+      "score": 72574,
       "authorHandle": "thsottiaux",
       "tags": [
         "model-releases",
@@ -295,7 +291,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-04T18:50:48.000Z",
       "publishedTs": 1788547848000,
-      "score": 64272,
+      "score": 64658,
       "authorHandle": "anthropicai",
       "tags": [],
       "related": [],
@@ -312,11 +308,11 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-03T13:47:02.000Z",
       "publishedTs": 1788443222000,
-      "score": 18145,
+      "score": 18152,
       "authorHandle": "huggingface",
       "tags": [],
       "related": [],
-      "clusterId": "auto:52",
+      "clusterId": "auto:53",
       "clusterSize": 1
     }
   ],
