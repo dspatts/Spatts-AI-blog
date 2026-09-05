@@ -31,6 +31,7 @@ html,
 body {
   margin: 0;
   min-height: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -47,9 +48,12 @@ a {
 }
 
 .wrap {
-  width: min(1080px, calc(100% - 40px));
+  width: min(1080px, 100%);
+  max-width: 100%;
   margin: 0 auto;
-  padding: 36px 0 72px;
+  padding: 36px 20px 72px;
+  overflow-x: hidden;
+  min-width: 0;
 }
 
 .masthead {
@@ -81,12 +85,13 @@ a {
 
 h1 {
   font-family: var(--font-mono);
-  font-size: clamp(2.2rem, 6.5vw, 3.6rem);
+  font-size: clamp(2rem, 8vw, 3.6rem);
   font-weight: 600;
   line-height: 1.05;
   letter-spacing: -0.04em;
   margin: 0 0 16px;
   color: var(--bright-foreground);
+  overflow-wrap: anywhere;
 }
 
 .dateline {
@@ -121,7 +126,9 @@ h1 {
   background: var(--darker-background);
   color: var(--light-foreground);
   border-radius: 999px;
-  padding: 7px 12px;
+  padding: 8px 12px;
+  min-height: 40px;
+  min-width: 40px;
   cursor: pointer;
 }
 
@@ -157,6 +164,8 @@ h1 {
   padding: 22px 24px 16px;
   margin: 0 0 32px;
   background: rgba(224, 175, 104, 0.045);
+  min-width: 0;
+  max-width: 100%;
 }
 
 .rumor-mill[hidden],
@@ -212,6 +221,8 @@ h1 {
   border: 1px solid var(--muted);
   border-radius: 10px;
   padding: 14px 16px 12px;
+  min-width: 0;
+  max-width: 100%;
 }
 
 .rumor:hover {
@@ -243,6 +254,7 @@ h1 {
   font-weight: 600;
   line-height: 1.35;
   color: var(--bright-foreground);
+  overflow-wrap: anywhere;
 }
 
 .rumor h3 a {
@@ -294,13 +306,15 @@ h1 {
 
 .story {
   display: grid;
-  grid-template-columns: 88px 1fr;
+  grid-template-columns: 88px minmax(0, 1fr);
   gap: 8px 22px;
   background: var(--lighter-background);
   border: 1px solid var(--muted);
   border-radius: 12px;
   padding: 22px 24px 20px;
   box-shadow: var(--shadow);
+  min-width: 0;
+  max-width: 100%;
 }
 
 .story[hidden] {
@@ -324,11 +338,12 @@ h1 {
 
 .story h2 {
   font-family: var(--font-ui);
-  font-size: clamp(1.2rem, 2.2vw, 1.65rem);
+  font-size: clamp(1.15rem, 2.2vw, 1.65rem);
   font-weight: 600;
   line-height: 1.25;
   margin: 0 0 10px;
   color: var(--bright-foreground);
+  overflow-wrap: anywhere;
 }
 
 .story h2 a {
@@ -390,6 +405,7 @@ h1 {
   font-size: 1.02rem;
   line-height: 1.65;
   white-space: pre-wrap;
+  overflow-wrap: anywhere;
 }
 
 .also {
@@ -480,6 +496,7 @@ h1 {
   color: var(--dark-foreground);
   font-size: 0.88rem;
   font-family: var(--font-mono);
+  overflow-wrap: anywhere;
 }
 
 .error,
@@ -497,16 +514,92 @@ footer {
   border-top: 1px solid var(--rule);
   color: var(--dark-foreground);
   font-size: 0.85rem;
+  overflow-wrap: anywhere;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
+  .wrap {
+    padding: 28px 18px 56px;
+  }
+
+  .masthead {
+    padding-bottom: 22px;
+    margin-bottom: 28px;
+  }
+
+  .rumor-mill {
+    padding: 18px 18px 14px;
+    margin-bottom: 26px;
+  }
+
   .story {
-    grid-template-columns: 56px 1fr;
-    padding: 18px;
+    grid-template-columns: 72px minmax(0, 1fr);
+    gap: 8px 16px;
+    padding: 20px;
   }
 
   .rank {
-    font-size: 2rem;
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .wrap {
+    padding: 24px 14px 48px;
+  }
+
+  .kicker {
+    letter-spacing: 0.1em;
+    margin-bottom: 14px;
+  }
+
+  .dateline {
+    gap: 8px 12px;
+    font-size: 0.88rem;
+  }
+
+  .filters {
+    gap: 6px;
+    margin-top: 16px;
+  }
+
+  .chip {
+    font-size: 0.65rem;
+    padding: 8px 10px;
+    min-height: 40px;
+  }
+
+  .rumor-mill {
+    padding: 16px 14px 12px;
+    border-radius: 12px;
+  }
+
+  .rumor-mill-head h2 {
+    font-size: 0.95rem;
+  }
+
+  .rumor {
+    padding: 12px 12px 10px;
+  }
+
+  .rumor h3 {
+    font-size: 0.98rem;
+  }
+
+  .rumor-explainer,
+  .rumor-empty {
+    font-size: 0.86rem;
+  }
+
+  .story {
+    grid-template-columns: 48px minmax(0, 1fr);
+    gap: 6px 12px;
+    padding: 16px;
+  }
+
+  .rank {
+    font-size: 1.7rem;
+    padding-top: 2px;
   }
 
   .body,
@@ -514,5 +607,85 @@ footer {
   .tag-pills,
   .stats {
     grid-column: 1 / -1;
+  }
+
+  .x-link {
+    margin-left: 0;
+  }
+
+  .status {
+    font-size: 0.78rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .wrap {
+    padding: 20px 12px 40px;
+  }
+
+  .kicker {
+    gap: 8px;
+    letter-spacing: 0.08em;
+    font-size: 0.64rem;
+  }
+
+  h1 {
+    font-size: clamp(1.85rem, 11vw, 2.4rem);
+    margin-bottom: 12px;
+  }
+
+  .dateline {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .filters {
+    gap: 6px;
+  }
+
+  .chip {
+    font-size: 0.62rem;
+    letter-spacing: 0.03em;
+    padding: 8px 11px;
+    min-height: 40px;
+  }
+
+  .rumor-mill {
+    padding: 14px 12px 10px;
+    margin-bottom: 22px;
+  }
+
+  .unconfirmed {
+    letter-spacing: 0.08em;
+    padding: 5px 8px;
+  }
+
+  .rumor-kicker {
+    letter-spacing: 0.06em;
+  }
+
+  .story {
+    grid-template-columns: 1fr;
+    gap: 6px;
+    padding: 14px;
+  }
+
+  .rank {
+    grid-row: auto;
+    font-size: 1.25rem;
+    padding-top: 0;
+  }
+
+  .story h2 {
+    font-size: 1.12rem;
+  }
+
+  .body {
+    font-size: 0.95rem;
+  }
+
+  footer {
+    margin-top: 32px;
+    font-size: 0.8rem;
   }
 }
