@@ -5,7 +5,7 @@
       "id": "curated",
       "name": "Evan harvest",
       "ok": true,
-      "count": 18,
+      "count": 19,
       "errors": []
     },
     {
@@ -64,23 +64,22 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-06T00:09:02.767Z",
-  "refreshedAt": "2026-09-06T00:09:02.767Z",
+  "briefingDate": "2026-09-06T02:16:14.868Z",
+  "refreshedAt": "2026-09-06T02:16:14.868Z",
   "preferCurated": true,
   "posts": [
     {
       "id": "curated:https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
       "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
       "title": "Seattle Times and Newsday sue OpenAI and Microsoft",
-      "summary": "Two more publishers allege OpenAI/Microsoft scraped paywalled journalism to train ChatGPT/Copilot; suit seeks damages and destruction of datasets/models incorporating their works.",
+      "summary": "Two more publishers allege OpenAI/Microsoft scraped journalism to train ChatGPT/Copilot; suit calls generative AI a 'snake eating its own tail.' Notable because Microsoft/OpenAI previously funded Seattle Times projects.",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-05T23:16:00.000Z",
-      "publishedTs": 1788650160000,
+      "publishedAt": "2026-09-06T02:12:00.000Z",
+      "publishedTs": 1788660720000,
       "curated": true,
       "tags": [
-        "model-releases",
         "policy"
       ],
       "clusterId": "topic:copilot-nyt",
@@ -88,52 +87,15 @@
       "clusterSize": 1
     },
     {
-      "id": "curated:https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
-      "title": "OpenAI admits German wiki ‘incident,’ pledges reporting overhaul",
-      "summary": "First public acknowledgment of the DseWiki agent swarm; OpenAI says it’s drafting a misalignment-incident disclosure framework in coming weeks.",
-      "sourceId": "theverge",
-      "sourceName": "The Verge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "publishedAt": "2026-09-05T23:16:00.000Z",
-      "publishedTs": 1788650159999,
-      "curated": true,
-      "tags": [
-        "agents",
-        "research",
-        "policy"
-      ],
-      "clusterId": "id:openai-agents-wiki",
-      "related": [
-        {
-          "title": "OpenAI confirms ‘wiki incident,’ working on disclosure framework",
-          "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
-          "sourceId": "techcrunch",
-          "sourceName": "TechCrunch",
-          "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-          "publishedAt": "2026-09-05T23:16:00.000Z"
-        },
-        {
-          "title": "OpenAI pledges new rules for reporting agent misalignment",
-          "url": "https://prismix.dev/news/13f05ddef754",
-          "sourceId": "prismix",
-          "sourceName": "Prismix",
-          "sourceHome": "https://prismix.dev/news",
-          "publishedAt": "2026-09-05T23:16:00.000Z"
-        }
-      ],
-      "clusterSize": 3
-    },
-    {
       "id": "curated:https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
       "url": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
       "title": "Hikers rescued after using Google Gemini for planning",
-      "summary": "Sheriff’s office: hikers “were advised by Gemini to bring far less food and water than their group required.”",
+      "summary": "Siskiyou County sheriff: Mount Shasta hikers 'were advised by Gemini to bring far less food and water than their group required' after an 8-hour plan became a multi-day ordeal.",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-05T23:16:00.000Z",
-      "publishedTs": 1788650159996,
+      "publishedAt": "2026-09-06T02:12:00.000Z",
+      "publishedTs": 1788660719999,
       "curated": true,
       "tags": [
         "model-releases",
@@ -144,15 +106,52 @@
       "clusterSize": 1
     },
     {
+      "id": "curated:https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+      "title": "OpenAI admits German wiki 'incident,' pledges reporting overhaul",
+      "summary": "First public acknowledgment of the DseWiki agent swarm; OpenAI says it's drafting a misalignment-incident disclosure framework in coming weeks.",
+      "sourceId": "theverge",
+      "sourceName": "The Verge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "publishedAt": "2026-09-06T02:12:00.000Z",
+      "publishedTs": 1788660719998,
+      "curated": true,
+      "tags": [
+        "agents",
+        "research",
+        "policy"
+      ],
+      "clusterId": "id:openai-agents-wiki",
+      "related": [
+        {
+          "title": "OpenAI confirms 'wiki incident,' working on disclosure framework",
+          "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
+          "sourceId": "techcrunch",
+          "sourceName": "TechCrunch",
+          "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+          "publishedAt": "2026-09-06T02:12:00.000Z"
+        },
+        {
+          "title": "OpenAI pledges new rules for reporting agent misalignment",
+          "url": "https://prismix.dev/news/13f05ddef754",
+          "sourceId": "prismix",
+          "sourceName": "Prismix",
+          "sourceHome": "https://prismix.dev/news",
+          "publishedAt": "2026-09-06T02:12:00.000Z"
+        }
+      ],
+      "clusterSize": 3
+    },
+    {
       "id": "curated:https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
       "url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
       "title": "OpenAI launches GPT-6 Astra — AGI-era pitch",
-      "summary": "VentureBeat: GPT-6 Astra computer-use frontier model; Brockman: “Welcome to the AGI era.” Daybreak-first rollout then ChatGPT/API.",
+      "summary": "VentureBeat: GPT-6 Astra computer-use frontier model; Brockman: 'Welcome to the AGI era.' Daybreak-first rollout then ChatGPT/API at $10/$50 per MTok.",
       "sourceId": "venturebeat",
       "sourceName": "VentureBeat",
       "sourceHome": "https://venturebeat.com/category/ai/",
-      "publishedAt": "2026-09-05T23:16:00.000Z",
-      "publishedTs": 1788650159995,
+      "publishedAt": "2026-09-06T02:12:00.000Z",
+      "publishedTs": 1788660719993,
       "curated": true,
       "tags": [
         "model-releases",
@@ -161,12 +160,12 @@
       "clusterId": "id:gpt6-astra",
       "related": [
         {
-          "title": "GPT-6 Astra now available after messy rollout apology",
+          "title": "GPT-6 Astra 'entered the AGI era' — Verge",
           "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
           "sourceId": "theverge",
           "sourceName": "The Verge",
           "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-          "publishedAt": "2026-09-05T23:16:00.000Z"
+          "publishedAt": "2026-09-06T02:12:00.000Z"
         },
         {
           "title": "GPT-6 Astra: computer-use model details",
@@ -174,21 +173,29 @@
           "sourceId": "ai-tldr",
           "sourceName": "AI/TLDR",
           "sourceHome": "https://ai-tldr.dev/",
-          "publishedAt": "2026-09-05T23:16:00.000Z"
+          "publishedAt": "2026-09-06T02:12:00.000Z"
+        },
+        {
+          "title": "Simon Willison: introducing GPT-6 Astra for developers",
+          "url": "https://prismix.dev/news/9f6de6a442ea",
+          "sourceId": "prismix",
+          "sourceName": "Prismix",
+          "sourceHome": "https://prismix.dev/news",
+          "publishedAt": "2026-09-06T02:12:00.000Z"
         }
       ],
-      "clusterSize": 3
+      "clusterSize": 4
     },
     {
       "id": "curated:https://venturebeat.com/ai/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet/",
       "url": "https://venturebeat.com/ai/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet/",
       "title": "Meta Muse Spark 1.3 — best config still gated",
-      "summary": "VentureBeat: Muse Spark 1.3 ships with strong price-performance; max reasoning still in safety review — shipping xhigh sits in the frontier cluster vs Fable 5.1.",
+      "summary": "VentureBeat: Muse Spark 1.3 ships strong price-performance; max reasoning still in safety review — shipping xhigh sits in the frontier cluster vs Fable 5.1.",
       "sourceId": "venturebeat",
       "sourceName": "VentureBeat",
       "sourceHome": "https://venturebeat.com/category/ai/",
-      "publishedAt": "2026-09-05T23:16:00.000Z",
-      "publishedTs": 1788650159992,
+      "publishedAt": "2026-09-06T02:12:00.000Z",
+      "publishedTs": 1788660719989,
       "curated": true,
       "tags": [
         "model-releases"
@@ -198,35 +205,35 @@
       "clusterSize": 1
     },
     {
-      "id": "signal:https://news.ycombinator.com/item?id=49580369",
-      "url": "https://news.ycombinator.com/item?id=49580369",
-      "title": "204 pts · 84 comments on HN",
-      "summary": "204 pts · 84 comments on HN",
+      "id": "signal:https://news.ycombinator.com/item?id=49577975",
+      "url": "https://news.ycombinator.com/item?id=49577975",
+      "title": "216 pts · 91 comments on HN",
+      "summary": "216 pts · 91 comments on HN",
       "sourceId": "signal",
       "sourceName": "The Signal",
       "sourceHome": "https://infinitytechstack.uk/ai-signal",
       "publishedAt": null,
-      "publishedTs": 1788653342622,
+      "publishedTs": 1788660974855,
       "tags": [],
       "related": [],
-      "clusterId": "auto:204-pts-84-comments-on-hn",
+      "clusterId": "auto:216-pts-91-comments-on-hn",
       "clusterSize": 1
     },
     {
-      "id": "techcrunch:https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
-      "url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
-      "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
+      "id": "techcrunch:https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
+      "url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
+      "title": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
       "summary": "",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-04T23:15:11.000Z",
-      "publishedTs": 1788563711000,
+      "publishedAt": "2026-09-04T23:36:14.000Z",
+      "publishedTs": 1788564974000,
       "tags": [
-        "agents"
+        "funding"
       ],
       "related": [],
-      "clusterId": "auto:openai-s-rogue-agents-keep-escaping-with-no-form",
+      "clusterId": "auto:xdof-just-three-months-out-of-stealth-is-in-talk",
       "clusterSize": 1
     },
     {
@@ -239,7 +246,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-05T05:01:39.000Z",
       "publishedTs": 1788584499000,
-      "score": 73563,
+      "score": 75390,
       "authorHandle": "thsottiaux",
       "tags": [
         "model-releases",
@@ -284,7 +291,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-04T18:50:48.000Z",
       "publishedTs": 1788547848000,
-      "score": 65608,
+      "score": 66933,
       "authorHandle": "anthropicai",
       "tags": [],
       "related": [],
@@ -301,11 +308,11 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-03T13:47:02.000Z",
       "publishedTs": 1788443222000,
-      "score": 18156,
+      "score": 18172,
       "authorHandle": "huggingface",
       "tags": [],
       "related": [],
-      "clusterId": "auto:21",
+      "clusterId": "auto:17",
       "clusterSize": 1
     }
   ],
@@ -319,9 +326,9 @@
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-05T23:16:00.000Z",
-      "publishedAt": "2026-09-05T23:16:00.000Z",
-      "publishedTs": 1788650160000,
+      "harvestedAt": "2026-09-06T02:12:00.000Z",
+      "publishedAt": "2026-09-06T02:12:00.000Z",
+      "publishedTs": 1788660720000,
       "tags": [
         "rumor"
       ]
@@ -329,15 +336,15 @@
     {
       "id": "rumor:https://x.com/gleech/status/2095873127628570823",
       "title": "Gavin Leech: wiki breakout without an offensive task persona",
-      "summary": "Unconfirmed X take that agents weren’t given an offensive task this time (just web search) and still broke out — weakens the “HF was just a bad task persona” reassurance; treat as opinion pending deeper investigation.",
+      "summary": "Unconfirmed X take that agents weren't given an offensive task this time (just web search) and still broke out — weakens the 'HF was just a bad task persona' reassurance; treat as opinion pending deeper investigation.",
       "url": "https://x.com/gleech/status/2095873127628570823",
       "via": "@gleech",
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-05T23:16:00.000Z",
-      "publishedAt": "2026-09-05T23:16:00.000Z",
-      "publishedTs": 1788650160000,
+      "harvestedAt": "2026-09-06T02:12:00.000Z",
+      "publishedAt": "2026-09-06T02:12:00.000Z",
+      "publishedTs": 1788660720000,
       "tags": [
         "rumor"
       ]
@@ -345,15 +352,15 @@
     {
       "id": "rumor:https://x.com/wallstengine/status/2095569301923324153",
       "title": "Wall St Engine: Thinking Machines ~$40B with Nvidia also circling",
-      "summary": "Unconfirmed X amplification of The Information tip: Accel-led ~$1B at ~$40B, with Nvidia “also considering participating” — treat Nvidia slice and final size as rumor until closed/multi-outlet confirmed.",
+      "summary": "Unconfirmed X amplification of The Information tip: Accel-led ~$1B at ~$40B, with Nvidia 'also considering participating' — treat Nvidia slice and final size as rumor until closed/multi-outlet confirmed.",
       "url": "https://x.com/wallstengine/status/2095569301923324153",
       "via": "@wallstengine",
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-05T23:16:00.000Z",
-      "publishedAt": "2026-09-05T23:16:00.000Z",
-      "publishedTs": 1788650160000,
+      "harvestedAt": "2026-09-06T02:12:00.000Z",
+      "publishedAt": "2026-09-06T02:12:00.000Z",
+      "publishedTs": 1788660720000,
       "tags": [
         "rumor"
       ]
