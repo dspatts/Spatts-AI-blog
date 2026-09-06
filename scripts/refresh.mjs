@@ -1190,7 +1190,13 @@ function renderHtml(payload) {
       return `<article class="story" data-tags="${escapeHtml(tags)}" data-source="${escapeHtml(post.sourceId || "")}">
   <div class="rank">${rank}</div>
   <div>
-    <p class="source"><a href="${escapeHtml(post.sourceHome)}" target="_blank" rel="noopener noreferrer">${escapeHtml(post.sourceName)}</a></p>
+    <div class="story-top">
+      <p class="source"><a href="${escapeHtml(post.sourceHome)}" target="_blank" rel="noopener noreferrer">${escapeHtml(post.sourceName)}</a></p>
+      <button type="button" class="share-pill" data-share-url="${escapeHtml(post.url)}" data-share-title="${escapeHtml(post.title)}" aria-label="Share story">
+        <svg class="share-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51l-6.82 3.98"/></svg>
+        <span class="share-label">Share</span>
+      </button>
+    </div>
     <h2><a href="${escapeHtml(post.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(post.title)}</a></h2>
     <div class="meta">
       ${[meta, size].filter(Boolean).join("\n      ")}
@@ -1375,6 +1381,49 @@ function renderHtml(payload) {
     }
     var empty = document.getElementById("filter-empty");
     if (empty) empty.hidden = visible > 0;
+  });
+})();
+
+(function () {
+  function setLabel(btn, text) {
+    var label = btn.querySelector(".share-label");
+    if (label) label.textContent = text;
+  }
+  async function copyUrl(url) {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      await navigator.clipboard.writeText(url);
+      return;
+    }
+    var ta = document.createElement("textarea");
+    ta.value = url;
+    ta.setAttribute("readonly", "");
+    ta.style.position = "fixed";
+    ta.style.left = "-9999px";
+    document.body.appendChild(ta);
+    ta.select();
+    document.execCommand("copy");
+    document.body.removeChild(ta);
+  }
+  document.addEventListener("click", function (e) {
+    var btn = e.target.closest(".share-pill");
+    if (!btn) return;
+    e.preventDefault();
+    var url = btn.getAttribute("data-share-url") || "";
+    var title = btn.getAttribute("data-share-title") || document.title;
+    if (!url) return;
+    var finish = function (msg) {
+      setLabel(btn, msg);
+      window.setTimeout(function () { setLabel(btn, "Share"); }, 1600);
+    };
+    if (navigator.share) {
+      navigator.share({ title: title, url: url }).then(function () {
+        finish("Shared");
+      }).catch(function () {
+        copyUrl(url).then(function () { finish("Copied"); }).catch(function () {});
+      });
+      return;
+    }
+    copyUrl(url).then(function () { finish("Copied"); }).catch(function () {});
   });
 })();
 </script>

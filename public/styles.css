@@ -448,6 +448,55 @@ h1 {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+.story-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 0.35rem;
+}
+
+.story-top .source {
+  margin: 0;
+  min-width: 0;
+}
+
+.share-pill {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+  padding: 5px 12px;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.share-pill:hover,
+.share-pill:focus-visible {
+  background: color-mix(in srgb, var(--accent) 16%, transparent);
+  color: var(--bright-foreground);
+  outline: none;
+}
+
+.share-pill:active {
+  transform: translateY(1px);
+}
+
+.share-icon {
+  display: block;
+  flex: 0 0 auto;
+}
+
 
 .source a {
   color: var(--accent);
