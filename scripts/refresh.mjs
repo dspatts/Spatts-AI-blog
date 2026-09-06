@@ -441,6 +441,8 @@ function parseRssOrAtom(xml, source) {
       block.match(/<content[^>]*>([\s\S]*?)<\/content>/i)?.[1] ||
       "";
     if (!title || !link) continue;
+    if (/news\.ycombinator\.com/i.test(link)) continue;
+    if (/\b\d+\s*pts?\b.*\bcomments?\b.*\bHN\b/i.test(title)) continue;
     const date = new Date(decodeEntities(stripTags(rawDate)));
     items.push({
       id: `${source.id}:${link}`,
@@ -469,6 +471,10 @@ function parsePrismixOrHtml(html, source) {
     if (seen.has(url)) continue;
     if (/privacy|terms|login|signup|twitter|x\.com|facebook|linkedin/i.test(url))
       continue;
+    // Signal/Prismix pages often link out to HN threads — don't mislabel them as The Signal.
+    if (/news\.ycombinator\.com/i.test(url)) continue;
+    if (/\b\d+\s*pts?\b.*\bcomments?\b.*\bHN\b/i.test(title)) continue;
+    if (/^\d+\s*pts?\s*[·•]/i.test(title)) continue;
     seen.add(url);
     items.push({
       id: `${source.id}:${url}`,

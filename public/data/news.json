@@ -3,10 +3,12 @@
   "sources": [
     {
       "id": "curated",
-      "name": "Evan harvest",
+      "name": "Evan harvest (expired)",
       "ok": true,
       "count": 20,
-      "errors": []
+      "errors": [
+        "older than 2h; ranked with live feeds"
+      ]
     },
     {
       "id": "techcrunch",
@@ -41,10 +43,11 @@
     {
       "id": "signal",
       "name": "The Signal",
-      "ok": true,
-      "count": 8,
+      "ok": false,
+      "count": 0,
       "errors": [
-        "429 https://infinitytechstack.uk/ai-signal"
+        "429 https://infinitytechstack.uk/ai-signal",
+        "empty https://prismix.dev/news"
       ]
     },
     {
@@ -83,10 +86,113 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-06T09:43:31.989Z",
-  "refreshedAt": "2026-09-06T09:43:31.989Z",
-  "preferCurated": true,
+  "briefingDate": "2026-09-06T10:46:33.124Z",
+  "refreshedAt": "2026-09-06T10:46:33.124Z",
+  "preferCurated": false,
   "posts": [
+    {
+      "id": "decoder:https://the-decoder.com/googles-weathernext-3-ditches-physics-simulations-and-learns-weather-directly-from-live-satellite-data/",
+      "url": "https://the-decoder.com/googles-weathernext-3-ditches-physics-simulations-and-learns-weather-directly-from-live-satellite-data/",
+      "title": "Google's WeatherNext 3 ditches physics simulations and learns weather directly from live satellite data",
+      "summary": "Google Research and DeepMind are releasing WeatherNext 3, a weather model that skips traditional physics simulations and learns directly…",
+      "sourceId": "decoder",
+      "sourceName": "THE DECODER",
+      "sourceHome": "https://the-decoder.com/",
+      "publishedAt": "2026-09-06T10:36:35.000Z",
+      "publishedTs": 1788690995000,
+      "tags": [
+        "model-releases",
+        "research"
+      ],
+      "related": [],
+      "clusterId": "auto:google-s-weathernext-3-ditches-physics-simulatio",
+      "clusterSize": 1
+    },
+    {
+      "id": "decoder:https://the-decoder.com/openai-developer-claims-astra-boosted-productivity-so-much-it-pulled-some-plans-forward-by-six-months/",
+      "url": "https://the-decoder.com/openai-developer-claims-astra-boosted-productivity-so-much-it-pulled-some-plans-forward-by-six-months/",
+      "title": "OpenAI developer claims Astra boosted productivity so much it pulled some plans forward by six months",
+      "summary": "OpenAI developer Thibault Sottiaux calls Astra the company's \"biggest competitive advantage\" while it wasn't publicly available.",
+      "sourceId": "decoder",
+      "sourceName": "THE DECODER",
+      "sourceHome": "https://the-decoder.com/",
+      "publishedAt": "2026-09-06T10:15:17.000Z",
+      "publishedTs": 1788689717000,
+      "tags": [
+        "model-releases",
+        "agents",
+        "research"
+      ],
+      "related": [
+        {
+          "title": "Astra was probably our biggest competitive advantage while it wasn’t generally available.",
+          "url": "https://x.com/thsottiaux/status/2096101429832552872",
+          "sourceId": "x",
+          "sourceName": "X",
+          "sourceHome": "https://x.com",
+          "publishedAt": "2026-09-05T05:01:39.000Z"
+        },
+        {
+          "title": "Wes Roth — 'OpenAI just crossed a THRESHOLD' on 12.5 hours of Astra",
+          "url": "https://ai-tldr.dev/releases/wes-roth-astra-threshold-sep5/",
+          "sourceId": "aitldr",
+          "sourceName": "AI/TLDR",
+          "sourceHome": "https://ai-tldr.dev/",
+          "publishedAt": "2026-09-05T00:00:00.000Z"
+        },
+        {
+          "title": "Sam Altman apologizes for ‘messy’ GPT-6 Astra rollout that’s locked out paying users",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
+          "sourceId": "verge",
+          "sourceName": "The Verge",
+          "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+          "publishedAt": "2026-09-04T10:41:48.000Z"
+        },
+        {
+          "title": "OpenAI starts rolling out its next-generation GPT-6 Astra model",
+          "url": "https://siliconangle.com/2026/09/03/openai-starts-rolling-out-its-next-generation-gpt-6-astra-model/",
+          "sourceId": "siliconangle",
+          "sourceName": "SiliconANGLE",
+          "sourceHome": "https://siliconangle.com/",
+          "publishedAt": "2026-09-03T22:46:31.000Z"
+        },
+        {
+          "title": "OpenAI launches Astra, its powerful (and controversial) new model",
+          "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
+          "sourceId": "techcrunch",
+          "sourceName": "TechCrunch",
+          "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+          "publishedAt": "2026-09-03T18:01:45.000Z"
+        },
+        {
+          "title": "'Welcome to the AGI era': OpenAI launches GPT-6 Astra - VentureBeat",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWnROVEdOT3E2dnZXYkIzUWtIckZfZDNLV1QzdHpiUDJheDI5cU9qX25MSlo4dURZMlcwR1hUU0lhNHY3VVk3Z3M1UkZQMDB5RjRjcldsVUZKNnFXR2QyS2FObElZWk5fcU5PN3FWSktTemFqcmhiRnZJVy15N3FKZlBNQ0tNTlh0Wm9naUdR?oc=5",
+          "sourceId": "venturebeat",
+          "sourceName": "VentureBeat",
+          "sourceHome": "https://venturebeat.com/category/ai/",
+          "publishedAt": "2026-09-03T18:00:12.000Z"
+        }
+      ],
+      "clusterId": "topic:astra",
+      "clusterSize": 7
+    },
+    {
+      "id": "decoder:https://the-decoder.com/google-brings-ai-music-generation-directly-into-the-gemini-app-with-its-new-lyria-3-5-model/",
+      "url": "https://the-decoder.com/google-brings-ai-music-generation-directly-into-the-gemini-app-with-its-new-lyria-3-5-model/",
+      "title": "Google brings AI music generation directly into the Gemini app with its new Lyria 3.5 model",
+      "summary": "Google has released its Lyria 3.5 music model in the Gemini app and via API.",
+      "sourceId": "decoder",
+      "sourceName": "THE DECODER",
+      "sourceHome": "https://the-decoder.com/",
+      "publishedAt": "2026-09-06T09:56:24.000Z",
+      "publishedTs": 1788688584000,
+      "tags": [
+        "model-releases"
+      ],
+      "related": [],
+      "clusterId": "auto:google-brings-ai-music-generation-directly-into-",
+      "clusterSize": 1
+    },
     {
       "id": "curated:https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
       "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
@@ -97,7 +203,7 @@
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
       "publishedAt": "2026-09-06T08:05:00.000Z",
       "publishedTs": 1788681900000,
-      "curated": true,
+      "curated": false,
       "tags": [
         "agents",
         "research",
@@ -126,7 +232,7 @@
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
       "publishedAt": "2026-09-06T08:05:00.000Z",
       "publishedTs": 1788681899997,
-      "curated": true,
+      "curated": false,
       "tags": [
         "model-releases",
         "agents"
@@ -154,7 +260,7 @@
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
       "publishedAt": "2026-09-06T08:05:00.000Z",
       "publishedTs": 1788681899995,
-      "curated": true,
+      "curated": false,
       "tags": [
         "model-releases",
         "agents"
@@ -173,7 +279,7 @@
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
       "publishedAt": "2026-09-06T08:05:00.000Z",
       "publishedTs": 1788681899994,
-      "curated": true,
+      "curated": false,
       "tags": [
         "model-releases",
         "agents"
@@ -181,66 +287,6 @@
       "clusterId": "auto:hikers-rescued-after-using-google-gemini-for-pla",
       "related": [],
       "clusterSize": 1
-    },
-    {
-      "id": "curated:https://prismix.dev/news",
-      "url": "https://prismix.dev/news",
-      "title": "Seattle Times and Newsday sue OpenAI and Microsoft",
-      "summary": "Prismix (TechCrunch In Brief): latest publishers allege unauthorized use of journalism to train AI; suit echoes NYT copyright fight.",
-      "sourceId": "prismix",
-      "sourceName": "Prismix",
-      "sourceHome": "https://prismix.dev/news",
-      "publishedAt": "2026-09-06T08:05:00.000Z",
-      "publishedTs": 1788681899993,
-      "curated": true,
-      "tags": [
-        "policy"
-      ],
-      "clusterId": "id:publisher-openai-suits",
-      "related": [],
-      "clusterSize": 1
-    },
-    {
-      "id": "signal:https://news.ycombinator.com/item?id=49582000",
-      "url": "https://news.ycombinator.com/item?id=49582000",
-      "title": "208 pts · 85 comments on HN",
-      "summary": "208 pts · 85 comments on HN",
-      "sourceId": "signal",
-      "sourceName": "The Signal",
-      "sourceHome": "https://infinitytechstack.uk/ai-signal",
-      "publishedAt": null,
-      "publishedTs": 1788687810038,
-      "tags": [],
-      "related": [],
-      "clusterId": "auto:208-pts-85-comments-on-hn",
-      "clusterSize": 1
-    },
-    {
-      "id": "decoder:https://the-decoder.com/stripping-safety-guardrails-from-open-weight-ai-models-is-now-a-turnkey-commercial-service/",
-      "url": "https://the-decoder.com/stripping-safety-guardrails-from-open-weight-ai-models-is-now-a-turnkey-commercial-service/",
-      "title": "Stripping safety guardrails from open-weight AI models is now a turnkey commercial service",
-      "summary": "Abliteration.ai sells access to modified open-weight models with their trained safety mechanisms stripped out, currently based on Z.AI's…",
-      "sourceId": "decoder",
-      "sourceName": "THE DECODER",
-      "sourceHome": "https://the-decoder.com/",
-      "publishedAt": "2026-09-06T08:55:56.000Z",
-      "publishedTs": 1788684956000,
-      "tags": [
-        "model-releases",
-        "research"
-      ],
-      "related": [
-        {
-          "title": "Abliteration.ai is making a business out of removing AI guardrails",
-          "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
-          "sourceId": "techcrunch",
-          "sourceName": "TechCrunch",
-          "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-          "publishedAt": "2026-09-03T18:37:57.000Z"
-        }
-      ],
-      "clusterId": "topic:abliteration",
-      "clusterSize": 2
     },
     {
       "id": "x:2095947707605266436",
@@ -252,28 +298,11 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-04T18:50:48.000Z",
       "publishedTs": 1788547848000,
-      "score": 59704,
+      "score": 60154,
       "authorHandle": "anthropicai",
       "tags": [],
       "related": [],
       "clusterId": "auto:checking-that-a-major-mathematical-proof-is-corr",
-      "clusterSize": 1
-    },
-    {
-      "id": "x:2095508870915338284",
-      "url": "https://x.com/huggingface/status/2095508870915338284",
-      "title": "🤗💚",
-      "summary": "🤗💚",
-      "sourceId": "x",
-      "sourceName": "X",
-      "sourceHome": "https://x.com",
-      "publishedAt": "2026-09-03T13:47:02.000Z",
-      "publishedTs": 1788443222000,
-      "score": 18208,
-      "authorHandle": "huggingface",
-      "tags": [],
-      "related": [],
-      "clusterId": "auto:788",
       "clusterSize": 1
     },
     {
@@ -286,13 +315,30 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-03T15:03:05.000Z",
       "publishedTs": 1788447785000,
-      "score": 6966,
+      "score": 6980,
       "authorHandle": "googledeepmind",
       "tags": [
         "model-releases"
       ],
       "related": [],
       "clusterId": "auto:weathernext-3-is-a-major-breakthrough-in-how-we-",
+      "clusterSize": 1
+    },
+    {
+      "id": "x:2095508870915338284",
+      "url": "https://x.com/huggingface/status/2095508870915338284",
+      "title": "🤗💚",
+      "summary": "🤗💚",
+      "sourceId": "x",
+      "sourceName": "X",
+      "sourceHome": "https://x.com",
+      "publishedAt": "2026-09-03T13:47:02.000Z",
+      "publishedTs": 1788443222000,
+      "score": 18210,
+      "authorHandle": "huggingface",
+      "tags": [],
+      "related": [],
+      "clusterId": "auto:789",
       "clusterSize": 1
     }
   ],
