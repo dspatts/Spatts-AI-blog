@@ -1254,8 +1254,7 @@ function renderHtml(payload) {
       </div>
       <h1>Ai Source</h1>
       <p class="dateline">
-        <strong>${refreshed}</strong>
-        <span>What matters in AI today.</span>
+        <span>What matters in AI today · refreshed ${refreshed}</span>
       </p>
       ${filterBar()}
     </header>
