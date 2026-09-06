@@ -62,9 +62,16 @@ a {
   margin-bottom: 36px;
 }
 
-.kicker {
+.masthead-top {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  margin: 0 0 18px;
+}
+
+.kicker {
+  display: flex;
   gap: 16px;
   flex-wrap: wrap;
   font-family: var(--font-mono);
@@ -72,14 +79,38 @@ a {
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--dark-foreground);
-  margin: 0 0 18px;
+  margin: 0;
 }
 
 .kicker span {
   color: var(--cyan);
 }
 
-.kicker span + span {
+.masthead-aside {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+  text-align: right;
+  min-width: 0;
+}
+
+.sydney-clock {
+  margin: 0;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--accent);
+  overflow-wrap: anywhere;
+}
+
+.kicker-cadence {
+  margin: 0;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
   color: var(--green);
 }
 
@@ -548,9 +579,20 @@ footer {
     padding: 24px 14px 48px;
   }
 
+  .masthead-top {
+    margin-bottom: 14px;
+  }
+
   .kicker {
     letter-spacing: 0.1em;
-    margin-bottom: 14px;
+  }
+
+  .sydney-clock {
+    font-size: 0.7rem;
+  }
+
+  .kicker-cadence {
+    letter-spacing: 0.1em;
   }
 
   .dateline {
@@ -623,8 +665,21 @@ footer {
     padding: 20px 12px 40px;
   }
 
+  .masthead-top {
+    gap: 10px;
+  }
+
   .kicker {
     gap: 8px;
+    letter-spacing: 0.08em;
+    font-size: 0.64rem;
+  }
+
+  .sydney-clock {
+    font-size: 0.64rem;
+  }
+
+  .kicker-cadence {
     letter-spacing: 0.08em;
     font-size: 0.64rem;
   }

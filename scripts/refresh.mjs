@@ -1026,11 +1026,21 @@ const DISPLAY_TIME_FORMAT = {
   hour12: true,
   timeZoneName: "short",
 };
+const DISPLAY_CLOCK_FORMAT = {
+  ...DISPLAY_TIME_FORMAT,
+  second: "2-digit",
+};
 
 function formatWhen(iso) {
   const date = iso ? new Date(iso) : new Date();
   if (Number.isNaN(date.getTime())) return "";
   return new Intl.DateTimeFormat("en-AU", DISPLAY_TIME_FORMAT).format(date);
+}
+
+function formatClock(iso) {
+  const date = iso ? new Date(iso) : new Date();
+  if (Number.isNaN(date.getTime())) return "";
+  return new Intl.DateTimeFormat("en-AU", DISPLAY_CLOCK_FORMAT).format(date);
 }
 
 function timeHtml(iso) {
@@ -1173,6 +1183,9 @@ function renderHtml(payload) {
   const empty =
     `<div class="empty">No stories made it through this harvest. The next refresh will try again.</div>`;
   const refreshed = timeHtml(payload.refreshedAt);
+  const clockNow = new Date();
+  const clockIso = clockNow.toISOString();
+  const clockText = formatClock(clockIso);
   const sourcesLine = (payload.sources || [])
     .map(
       (s) =>
@@ -1197,7 +1210,15 @@ function renderHtml(payload) {
 <body>
   <div class="wrap">
     <header class="masthead">
-      <p class="kicker"><span>Multi-source AI news</span><span>Every 3 hours</span></p>
+      <div class="masthead-top">
+        <p class="kicker"><span>Multi-source AI news</span></p>
+        <div class="masthead-aside">
+          <p class="sydney-clock">
+            <time id="sydney-clock" datetime="${escapeHtml(clockIso)}" aria-label="Current time in Australia/Sydney">${escapeHtml(clockText)}</time>
+          </p>
+          <p class="kicker-cadence">Every 3 hours</p>
+        </div>
+      </div>
       <h1>Ai Source</h1>
       <p class="dateline">
         <strong>${refreshed}</strong>
@@ -1226,10 +1247,32 @@ function renderHtml(payload) {
     hour12: true,
     timeZoneName: "short"
   });
-  document.querySelectorAll("time[datetime]").forEach(function (el) {
+  document.querySelectorAll("time[datetime]:not(#sydney-clock)").forEach(function (el) {
     var date = new Date(el.getAttribute("datetime"));
     if (!isNaN(date.getTime())) el.textContent = fmt.format(date);
   });
+})();
+(function () {
+  var clock = document.getElementById("sydney-clock");
+  if (!clock) return;
+  var fmt = new Intl.DateTimeFormat("en-AU", {
+    timeZone: "Australia/Sydney",
+    day: "numeric",
+    month: "short",
+    year: "numeric",
+    hour: "numeric",
+    minute: "2-digit",
+    second: "2-digit",
+    hour12: true,
+    timeZoneName: "short"
+  });
+  function tick() {
+    var now = new Date();
+    clock.setAttribute("datetime", now.toISOString());
+    clock.textContent = fmt.format(now);
+  }
+  tick();
+  setInterval(tick, 1000);
 })();
 (function () {
   var bar = document.querySelector(".filters");
@@ -1341,6 +1384,7 @@ export async function refreshNews() {
 export {
   clusterStories,
   deriveTags,
+  formatClock,
   formatWhen,
   isFreshHarvest,
   loadCurated,

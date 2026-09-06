@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
-import { formatWhen, renderHtml } from "./refresh.mjs";
+import { formatClock, formatWhen, renderHtml } from "./refresh.mjs";
 
 test("formats September UTC ISO as Sydney AEST, not a raw Z string", () => {
   const text = formatWhen("2026-09-05T20:13:11.116Z");
@@ -76,6 +76,37 @@ test("renderHtml formats publishedTs when publishedAt is null", () => {
   });
   assert.match(html, /datetime="2026-09-05T20:13:11\.116Z"/);
   assert.match(html, /6:13\s*am AEST/);
+});
+
+test("formatClock includes seconds and Sydney AEST/AEDT labels", () => {
+  const aest = formatClock("2026-09-05T20:13:11.116Z");
+  assert.match(aest, /6 Sept 2026/);
+  assert.match(aest, /6:13:11\s*am/i);
+  assert.match(aest, /AEST/);
+  const aedt = formatClock("2026-01-15T03:00:00.000Z");
+  assert.match(aedt, /15 Jan 2026/);
+  assert.match(aedt, /2:00:00\s*pm/i);
+  assert.match(aedt, /AEDT/);
+});
+
+test("renderHtml places a live Sydney clock above the refresh cadence", () => {
+  const html = renderHtml({
+    refreshedAt: "2026-09-05T20:13:11.116Z",
+    posts: [],
+    rumors: [],
+    sources: [],
+  });
+  const masthead = html.match(/<header class="masthead">[\s\S]*?<\/header>/)[0];
+  const clockAt = masthead.indexOf('id="sydney-clock"');
+  const cadenceAt = masthead.indexOf("Every 3 hours");
+  assert.ok(clockAt !== -1 && cadenceAt !== -1);
+  assert.ok(clockAt < cadenceAt);
+  assert.match(html, /timeZone:\s*"Australia\/Sydney"/);
+  assert.match(html, /timeZoneName:\s*"short"/);
+  assert.match(html, /setInterval\(tick,\s*1000\)/);
+  assert.match(html, /time\[datetime\]:not\(#sydney-clock\)/);
+  assert.match(html, /data-filter="rumors"/);
+  assert.match(html, /class="rumor-mill"/);
 });
 
 test("renderHtml does not invent a story time without publishedAt or publishedTs", () => {
