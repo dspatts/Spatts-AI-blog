@@ -128,6 +128,19 @@ test("renderHtml includes a persistent theme switch with dark as the default", (
   );
 });
 
+test("renderHtml includes PWA manifest, icons, and service worker registration", () => {
+  const html = renderHtml({
+    refreshedAt: "2026-09-05T20:13:11.116Z",
+    posts: [],
+    rumors: [],
+    sources: [],
+  });
+  assert.match(html, /rel="manifest" href="\.\/manifest\.webmanifest"/);
+  assert.match(html, /rel="apple-touch-icon" href="\.\/icons\/apple-touch-icon\.png"/);
+  assert.match(html, /apple-mobile-web-app-capable" content="yes"/);
+  assert.match(html, /navigator\.serviceWorker\.register\("\.\/sw\.js"\)/);
+});
+
 test("renderHtml does not invent a story time without publishedAt or publishedTs", () => {
   const html = renderHtml({
     refreshedAt: "2026-09-05T22:25:21.456Z",
