@@ -1237,7 +1237,7 @@ function renderHtml(payload) {
       <h1>Ai Source</h1>
       <p class="dateline">
         <strong>${refreshed}</strong>
-        <span>Top ${clusterCount} story clusters right now · Australia/Sydney</span>
+        <span>What matters in AI today.</span>
       </p>
       ${filterBar()}
     </header>
