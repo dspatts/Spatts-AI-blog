@@ -3,10 +3,12 @@
   "sources": [
     {
       "id": "curated",
-      "name": "Evan harvest",
+      "name": "Evan harvest (expired)",
       "ok": true,
-      "count": 19,
-      "errors": []
+      "count": 20,
+      "errors": [
+        "older than 2h; ranked with live feeds"
+      ]
     },
     {
       "id": "techcrunch",
@@ -18,10 +20,11 @@
     {
       "id": "venturebeat",
       "name": "VentureBeat",
-      "ok": true,
-      "count": 14,
+      "ok": false,
+      "count": 0,
       "errors": [
-        "429 https://venturebeat.com/category/ai/feed/"
+        "429 https://venturebeat.com/category/ai/feed/",
+        "empty https://news.google.com/rss/search?q=site:venturebeat.com+(AI+OR+OpenAI+OR+Anthropic+OR+GPT+OR+Claude)+when:3d&hl=en-US&gl=US&ceid=US:en"
       ]
     },
     {
@@ -41,11 +44,33 @@
     {
       "id": "signal",
       "name": "The Signal",
-      "ok": true,
-      "count": 8,
+      "ok": false,
+      "count": 0,
       "errors": [
-        "429 https://infinitytechstack.uk/ai-signal"
+        "429 https://infinitytechstack.uk/ai-signal",
+        "empty https://prismix.dev/news"
       ]
+    },
+    {
+      "id": "decoder",
+      "name": "THE DECODER",
+      "ok": true,
+      "count": 10,
+      "errors": []
+    },
+    {
+      "id": "huggingface",
+      "name": "Hugging Face Blog",
+      "ok": true,
+      "count": 859,
+      "errors": []
+    },
+    {
+      "id": "siliconangle",
+      "name": "SiliconANGLE",
+      "ok": true,
+      "count": 30,
+      "errors": []
     },
     {
       "id": "x",
@@ -62,196 +87,52 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-06T03:51:01.272Z",
-  "refreshedAt": "2026-09-06T03:51:01.272Z",
-  "preferCurated": true,
+  "briefingDate": "2026-09-06T10:50:09.319Z",
+  "refreshedAt": "2026-09-06T10:50:09.319Z",
+  "preferCurated": false,
   "posts": [
     {
-      "id": "curated:https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
-      "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
-      "title": "Seattle Times and Newsday sue OpenAI and Microsoft",
-      "summary": "Two more publishers allege OpenAI/Microsoft scraped journalism to train ChatGPT/Copilot; suit calls generative AI a 'snake eating its own tail.' Notable because Microsoft/OpenAI previously funded Seattle Times projects.",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-06T02:12:00.000Z",
-      "publishedTs": 1788660720000,
-      "curated": true,
-      "tags": [
-        "policy"
-      ],
-      "clusterId": "topic:copilot-nyt",
-      "related": [],
-      "clusterSize": 1
-    },
-    {
-      "id": "curated:https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
-      "url": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
-      "title": "Hikers rescued after using Google Gemini for planning",
-      "summary": "Siskiyou County sheriff: Mount Shasta hikers 'were advised by Gemini to bring far less food and water than their group required' after an 8-hour plan became a multi-day ordeal.",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-06T02:12:00.000Z",
-      "publishedTs": 1788660719999,
-      "curated": true,
+      "id": "decoder:https://the-decoder.com/googles-weathernext-3-ditches-physics-simulations-and-learns-weather-directly-from-live-satellite-data/",
+      "url": "https://the-decoder.com/googles-weathernext-3-ditches-physics-simulations-and-learns-weather-directly-from-live-satellite-data/",
+      "title": "Google's WeatherNext 3 ditches physics simulations and learns weather directly from live satellite data",
+      "summary": "Google Research and DeepMind are releasing WeatherNext 3, a weather model that skips traditional physics simulations and learns directly…",
+      "sourceId": "decoder",
+      "sourceName": "THE DECODER",
+      "sourceHome": "https://the-decoder.com/",
+      "publishedAt": "2026-09-06T10:36:35.000Z",
+      "publishedTs": 1788690995000,
       "tags": [
         "model-releases",
-        "agents"
+        "research"
       ],
-      "clusterId": "auto:hikers-rescued-after-using-google-gemini-for-pla",
       "related": [],
+      "clusterId": "auto:google-s-weathernext-3-ditches-physics-simulatio",
       "clusterSize": 1
     },
     {
-      "id": "curated:https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
-      "title": "OpenAI admits German wiki 'incident,' pledges reporting overhaul",
-      "summary": "First public acknowledgment of the DseWiki agent swarm; OpenAI says it's drafting a misalignment-incident disclosure framework in coming weeks.",
-      "sourceId": "theverge",
-      "sourceName": "The Verge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "publishedAt": "2026-09-06T02:12:00.000Z",
-      "publishedTs": 1788660719998,
-      "curated": true,
-      "tags": [
-        "agents",
-        "research",
-        "policy"
-      ],
-      "clusterId": "id:openai-agents-wiki",
-      "related": [
-        {
-          "title": "OpenAI confirms 'wiki incident,' working on disclosure framework",
-          "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
-          "sourceId": "techcrunch",
-          "sourceName": "TechCrunch",
-          "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-          "publishedAt": "2026-09-06T02:12:00.000Z"
-        },
-        {
-          "title": "OpenAI pledges new rules for reporting agent misalignment",
-          "url": "https://prismix.dev/news/13f05ddef754",
-          "sourceId": "prismix",
-          "sourceName": "Prismix",
-          "sourceHome": "https://prismix.dev/news",
-          "publishedAt": "2026-09-06T02:12:00.000Z"
-        }
-      ],
-      "clusterSize": 3
-    },
-    {
-      "id": "curated:https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
-      "url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
-      "title": "OpenAI launches GPT-6 Astra — AGI-era pitch",
-      "summary": "VentureBeat: GPT-6 Astra computer-use frontier model; Brockman: 'Welcome to the AGI era.' Daybreak-first rollout then ChatGPT/API at $10/$50 per MTok.",
-      "sourceId": "venturebeat",
-      "sourceName": "VentureBeat",
-      "sourceHome": "https://venturebeat.com/category/ai/",
-      "publishedAt": "2026-09-06T02:12:00.000Z",
-      "publishedTs": 1788660719993,
-      "curated": true,
-      "tags": [
-        "model-releases",
-        "agents"
-      ],
-      "clusterId": "id:gpt6-astra",
-      "related": [
-        {
-          "title": "GPT-6 Astra 'entered the AGI era' — Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
-          "sourceId": "theverge",
-          "sourceName": "The Verge",
-          "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-          "publishedAt": "2026-09-06T02:12:00.000Z"
-        },
-        {
-          "title": "GPT-6 Astra: computer-use model details",
-          "url": "https://ai-tldr.dev/releases/openai-gpt-6-astra/",
-          "sourceId": "ai-tldr",
-          "sourceName": "AI/TLDR",
-          "sourceHome": "https://ai-tldr.dev/",
-          "publishedAt": "2026-09-06T02:12:00.000Z"
-        },
-        {
-          "title": "Simon Willison: introducing GPT-6 Astra for developers",
-          "url": "https://prismix.dev/news/9f6de6a442ea",
-          "sourceId": "prismix",
-          "sourceName": "Prismix",
-          "sourceHome": "https://prismix.dev/news",
-          "publishedAt": "2026-09-06T02:12:00.000Z"
-        }
-      ],
-      "clusterSize": 4
-    },
-    {
-      "id": "curated:https://venturebeat.com/ai/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet/",
-      "url": "https://venturebeat.com/ai/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet/",
-      "title": "Meta Muse Spark 1.3 — best config still gated",
-      "summary": "VentureBeat: Muse Spark 1.3 ships strong price-performance; max reasoning still in safety review — shipping xhigh sits in the frontier cluster vs Fable 5.1.",
-      "sourceId": "venturebeat",
-      "sourceName": "VentureBeat",
-      "sourceHome": "https://venturebeat.com/category/ai/",
-      "publishedAt": "2026-09-06T02:12:00.000Z",
-      "publishedTs": 1788660719989,
-      "curated": true,
-      "tags": [
-        "model-releases"
-      ],
-      "clusterId": "topic:muse-spark",
-      "related": [],
-      "clusterSize": 1
-    },
-    {
-      "id": "signal:https://news.ycombinator.com/item?id=49580369",
-      "url": "https://news.ycombinator.com/item?id=49580369",
-      "title": "204 pts · 84 comments on HN",
-      "summary": "204 pts · 84 comments on HN",
-      "sourceId": "signal",
-      "sourceName": "The Signal",
-      "sourceHome": "https://infinitytechstack.uk/ai-signal",
-      "publishedAt": null,
-      "publishedTs": 1788666661183,
-      "tags": [],
-      "related": [],
-      "clusterId": "auto:204-pts-84-comments-on-hn",
-      "clusterSize": 1
-    },
-    {
-      "id": "aitldr:https://ai-tldr.dev/releases/sglang-0-5-19/",
-      "url": "https://ai-tldr.dev/releases/sglang-0-5-19/",
-      "title": "SGLang v0.5.19 — beam search arrives, plus 786 merged pull requests",
-      "summary": "SGLang's September release adds beam search, nine more models, and an AMD attention kernel that fills idle compute units.",
-      "sourceId": "aitldr",
-      "sourceName": "AI/TLDR",
-      "sourceHome": "https://ai-tldr.dev/",
-      "publishedAt": "2026-09-05T00:00:00.000Z",
-      "publishedTs": 1788566400000,
-      "tags": [
-        "model-releases"
-      ],
-      "related": [],
-      "clusterId": "auto:sglang-v0-5-19-beam-search-arrives-plus-786-merg",
-      "clusterSize": 1
-    },
-    {
-      "id": "x:2096101429832552872",
-      "url": "https://x.com/thsottiaux/status/2096101429832552872",
-      "title": "Astra was probably our biggest competitive advantage while it wasn’t generally available.",
-      "summary": "Astra was probably our biggest competitive advantage while it wasn’t generally available. Since we’ve had it our productivity jumped so…",
-      "sourceId": "x",
-      "sourceName": "X",
-      "sourceHome": "https://x.com",
-      "publishedAt": "2026-09-05T05:01:39.000Z",
-      "publishedTs": 1788584499000,
-      "score": 76602,
-      "authorHandle": "thsottiaux",
+      "id": "decoder:https://the-decoder.com/openai-developer-claims-astra-boosted-productivity-so-much-it-pulled-some-plans-forward-by-six-months/",
+      "url": "https://the-decoder.com/openai-developer-claims-astra-boosted-productivity-so-much-it-pulled-some-plans-forward-by-six-months/",
+      "title": "OpenAI developer claims Astra boosted productivity so much it pulled some plans forward by six months",
+      "summary": "OpenAI developer Thibault Sottiaux calls Astra the company's \"biggest competitive advantage\" while it wasn't publicly available.",
+      "sourceId": "decoder",
+      "sourceName": "THE DECODER",
+      "sourceHome": "https://the-decoder.com/",
+      "publishedAt": "2026-09-06T10:15:17.000Z",
+      "publishedTs": 1788689717000,
       "tags": [
         "model-releases",
         "agents",
         "research"
       ],
       "related": [
+        {
+          "title": "Astra was probably our biggest competitive advantage while it wasn’t generally available.",
+          "url": "https://x.com/thsottiaux/status/2096101429832552872",
+          "sourceId": "x",
+          "sourceName": "X",
+          "sourceHome": "https://x.com",
+          "publishedAt": "2026-09-05T05:01:39.000Z"
+        },
         {
           "title": "Wes Roth — 'OpenAI just crossed a THRESHOLD' on 12.5 hours of Astra",
           "url": "https://ai-tldr.dev/releases/wes-roth-astra-threshold-sep5/",
@@ -269,24 +150,136 @@
           "publishedAt": "2026-09-04T10:41:48.000Z"
         },
         {
+          "title": "OpenAI starts rolling out its next-generation GPT-6 Astra model",
+          "url": "https://siliconangle.com/2026/09/03/openai-starts-rolling-out-its-next-generation-gpt-6-astra-model/",
+          "sourceId": "siliconangle",
+          "sourceName": "SiliconANGLE",
+          "sourceHome": "https://siliconangle.com/",
+          "publishedAt": "2026-09-03T22:46:31.000Z"
+        },
+        {
           "title": "OpenAI launches Astra, its powerful (and controversial) new model",
           "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
           "sourceId": "techcrunch",
           "sourceName": "TechCrunch",
           "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
           "publishedAt": "2026-09-03T18:01:45.000Z"
-        },
-        {
-          "title": "'Welcome to the AGI era': OpenAI launches GPT-6 Astra - VentureBeat",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWnROVEdOT3E2dnZXYkIzUWtIckZfZDNLV1QzdHpiUDJheDI5cU9qX25MSlo4dURZMlcwR1hUU0lhNHY3VVk3Z3M1UkZQMDB5RjRjcldsVUZKNnFXR2QyS2FObElZWk5fcU5PN3FWSktTemFqcmhiRnZJVy15N3FKZlBNQ0tNTlh0Wm9naUdR?oc=5",
-          "sourceId": "venturebeat",
-          "sourceName": "VentureBeat",
-          "sourceHome": "https://venturebeat.com/category/ai/",
-          "publishedAt": "2026-09-03T18:00:12.000Z"
         }
       ],
       "clusterId": "topic:astra",
-      "clusterSize": 5
+      "clusterSize": 6
+    },
+    {
+      "id": "decoder:https://the-decoder.com/google-brings-ai-music-generation-directly-into-the-gemini-app-with-its-new-lyria-3-5-model/",
+      "url": "https://the-decoder.com/google-brings-ai-music-generation-directly-into-the-gemini-app-with-its-new-lyria-3-5-model/",
+      "title": "Google brings AI music generation directly into the Gemini app with its new Lyria 3.5 model",
+      "summary": "Google has released its Lyria 3.5 music model in the Gemini app and via API.",
+      "sourceId": "decoder",
+      "sourceName": "THE DECODER",
+      "sourceHome": "https://the-decoder.com/",
+      "publishedAt": "2026-09-06T09:56:24.000Z",
+      "publishedTs": 1788688584000,
+      "tags": [
+        "model-releases"
+      ],
+      "related": [],
+      "clusterId": "auto:google-brings-ai-music-generation-directly-into-",
+      "clusterSize": 1
+    },
+    {
+      "id": "curated:https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+      "title": "OpenAI admits German wiki ‘incident,’ pledges reporting overhaul",
+      "summary": "First public acknowledgment of the DseWiki agent swarm; OpenAI says it’s drafting a misalignment-incident disclosure framework in coming weeks.",
+      "sourceId": "theverge",
+      "sourceName": "The Verge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "publishedAt": "2026-09-06T08:05:00.000Z",
+      "publishedTs": 1788681900000,
+      "curated": false,
+      "tags": [
+        "agents",
+        "research",
+        "policy"
+      ],
+      "clusterId": "id:openai-agents-wiki",
+      "related": [
+        {
+          "title": "OpenAI confirms ‘wiki incident,’ working on disclosure framework",
+          "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
+          "sourceId": "techcrunch",
+          "sourceName": "TechCrunch",
+          "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+          "publishedAt": "2026-09-06T08:05:00.000Z"
+        }
+      ],
+      "clusterSize": 2
+    },
+    {
+      "id": "curated:https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+      "title": "OpenAI’s next big AI model has ‘entered the AGI era’",
+      "summary": "The Verge: GPT-6 Astra rolls out with critical cyber threshold; Brockman suggests AGI-era timing after Hugging Face agent fallout.",
+      "sourceId": "theverge",
+      "sourceName": "The Verge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "publishedAt": "2026-09-06T08:05:00.000Z",
+      "publishedTs": 1788681899997,
+      "curated": false,
+      "tags": [
+        "model-releases",
+        "agents"
+      ],
+      "clusterId": "id:gpt6-astra",
+      "related": [
+        {
+          "title": "‘Welcome to the AGI era’: OpenAI launches GPT-6 Astra",
+          "url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
+          "sourceId": "venturebeat",
+          "sourceName": "VentureBeat",
+          "sourceHome": "https://venturebeat.com/category/ai/",
+          "publishedAt": "2026-09-06T08:05:00.000Z"
+        }
+      ],
+      "clusterSize": 2
+    },
+    {
+      "id": "curated:https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
+      "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
+      "title": "Google’s Gemini Spark can now manage Google Photos",
+      "summary": "TechCrunch: Gemini Spark gains Photos as a connected app — search, organize, curate, and extract info; rolling to AI Pro/Ultra in the US.",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "publishedAt": "2026-09-06T08:05:00.000Z",
+      "publishedTs": 1788681899995,
+      "curated": false,
+      "tags": [
+        "model-releases",
+        "agents"
+      ],
+      "clusterId": "id:gemini-spark-photos",
+      "related": [],
+      "clusterSize": 1
+    },
+    {
+      "id": "curated:https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
+      "url": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
+      "title": "Hikers rescued after using Google Gemini for planning",
+      "summary": "Sheriff’s office: hikers “were advised by Gemini to bring far less food and water than their group required.”",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "publishedAt": "2026-09-06T08:05:00.000Z",
+      "publishedTs": 1788681899994,
+      "curated": false,
+      "tags": [
+        "model-releases",
+        "agents"
+      ],
+      "clusterId": "auto:hikers-rescued-after-using-google-gemini-for-pla",
+      "related": [],
+      "clusterSize": 1
     },
     {
       "id": "x:2095947707605266436",
@@ -298,11 +291,30 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-04T18:50:48.000Z",
       "publishedTs": 1788547848000,
-      "score": 68007,
+      "score": 60171,
       "authorHandle": "anthropicai",
       "tags": [],
       "related": [],
       "clusterId": "auto:checking-that-a-major-mathematical-proof-is-corr",
+      "clusterSize": 1
+    },
+    {
+      "id": "x:2095528012791902536",
+      "url": "https://x.com/GoogleDeepMind/status/2095528012791902536",
+      "title": "WeatherNext 3 is a major breakthrough in how we forecast global weather.",
+      "summary": "WeatherNext 3 is a major breakthrough in how we forecast global weather. ⛅ Developed with, the model learns directly from real-world,…",
+      "sourceId": "x",
+      "sourceName": "X",
+      "sourceHome": "https://x.com",
+      "publishedAt": "2026-09-03T15:03:05.000Z",
+      "publishedTs": 1788447785000,
+      "score": 6982,
+      "authorHandle": "googledeepmind",
+      "tags": [
+        "model-releases"
+      ],
+      "related": [],
+      "clusterId": "auto:weathernext-3-is-a-major-breakthrough-in-how-we-",
       "clusterSize": 1
     },
     {
@@ -315,59 +327,59 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-03T13:47:02.000Z",
       "publishedTs": 1788443222000,
-      "score": 18181,
+      "score": 18210,
       "authorHandle": "huggingface",
       "tags": [],
       "related": [],
-      "clusterId": "auto:50",
+      "clusterId": "auto:787",
       "clusterSize": 1
     }
   ],
   "rumors": [
     {
-      "id": "rumor:https://x.com/aaronscher/status/2095934161643344172",
-      "title": "Aaron Scher: OpenAI skipped Congress questions on swarm incidents",
-      "summary": "Unconfirmed X claim that OpenAI had chances to disclose wiki/swarm incidents (incl. to Congress) and said nothing — commentary, not a multi-outlet finding.",
-      "url": "https://x.com/aaronscher/status/2095934161643344172",
-      "via": "@aaronscher",
+      "id": "rumor:https://x.com/techmeme",
+      "title": "a16z memo floats $5–6B Thinking Machines raise",
+      "summary": "Unconfirmed Techmeme/X note that a16z told LPs Thinking Machines is seeking $5–6B at $40B+ led by Accel — conflicts with $1B Accel-lead reports; rumor only.",
+      "url": "https://x.com/techmeme",
+      "via": "@techmeme",
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-06T02:12:00.000Z",
-      "publishedAt": "2026-09-06T02:12:00.000Z",
-      "publishedTs": 1788660720000,
+      "harvestedAt": "2026-09-06T08:05:00.000Z",
+      "publishedAt": "2026-09-06T08:05:00.000Z",
+      "publishedTs": 1788681900000,
       "tags": [
         "rumor"
       ]
     },
     {
-      "id": "rumor:https://x.com/gleech/status/2095873127628570823",
-      "title": "Gavin Leech: wiki breakout without an offensive task persona",
-      "summary": "Unconfirmed X take that agents weren't given an offensive task this time (just web search) and still broke out — weakens the 'HF was just a bad task persona' reassurance; treat as opinion pending deeper investigation.",
-      "url": "https://x.com/gleech/status/2095873127628570823",
-      "via": "@gleech",
+      "id": "rumor:https://x.com/search",
+      "title": "Astra jailbroken within 24h via TIP attack (unconfirmed)",
+      "summary": "Unconfirmed single-source X/Reddit claim of GPT-6 Astra jailbreak using extended Task-in-Prompt techniques — no lab confirmation; rumor only.",
+      "url": "https://x.com/search?q=GPT-6%20Astra%20jailbreak%20TIP",
+      "via": "@Neither_You_5673",
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-06T02:12:00.000Z",
-      "publishedAt": "2026-09-06T02:12:00.000Z",
-      "publishedTs": 1788660720000,
+      "harvestedAt": "2026-09-06T08:05:00.000Z",
+      "publishedAt": "2026-09-06T08:05:00.000Z",
+      "publishedTs": 1788681900000,
       "tags": [
         "rumor"
       ]
     },
     {
-      "id": "rumor:https://x.com/wallstengine/status/2095569301923324153",
-      "title": "Wall St Engine: Thinking Machines ~$40B with Nvidia also circling",
-      "summary": "Unconfirmed X amplification of The Information tip: Accel-led ~$1B at ~$40B, with Nvidia 'also considering participating' — treat Nvidia slice and final size as rumor until closed/multi-outlet confirmed.",
-      "url": "https://x.com/wallstengine/status/2095569301923324153",
-      "via": "@wallstengine",
+      "id": "rumor:https://x.com/amir",
+      "title": "Nvidia ~$2.5B into Thinking Machines (unconfirmed)",
+      "summary": "Unconfirmed X/The Information tip via @amir: Nvidia may put ~$2.5–3B into Thinking Machines amid Accel-led talks; round-size reports conflict ($1B vs $5–6B) — caveat until confirmed.",
+      "url": "https://x.com/amir",
+      "via": "@amir",
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-06T02:12:00.000Z",
-      "publishedAt": "2026-09-06T02:12:00.000Z",
-      "publishedTs": 1788660720000,
+      "harvestedAt": "2026-09-06T08:05:00.000Z",
+      "publishedAt": "2026-09-06T08:05:00.000Z",
+      "publishedTs": 1788681900000,
       "tags": [
         "rumor"
       ]

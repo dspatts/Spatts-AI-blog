@@ -78,6 +78,24 @@ const SOURCES = [
       "https://prismix.dev/news",
     ],
   },
+  {
+    id: "decoder",
+    name: "THE DECODER",
+    home: "https://the-decoder.com/",
+    feeds: ["https://the-decoder.com/feed/"],
+  },
+  {
+    id: "huggingface",
+    name: "Hugging Face Blog",
+    home: "https://huggingface.co/blog",
+    feeds: ["https://huggingface.co/blog/feed.xml"],
+  },
+  {
+    id: "siliconangle",
+    name: "SiliconANGLE",
+    home: "https://siliconangle.com/",
+    feeds: ["https://siliconangle.com/feed/"],
+  },
 ];
 
 const AI_HINT =
@@ -404,7 +422,7 @@ function parseRssOrAtom(xml, source) {
       block.match(/<link[^>]*>([\s\S]*?)<\/link>/i)?.[1] ||
       "";
     link = decodeEntities(stripTags(link));
-    const googleReal = link.match(/url=([^&]+)/);
+    const googleReal = link.match(/[?&]url=([^&]+)/);
     if (googleReal) {
       try {
         link = decodeURIComponent(googleReal[1]);
@@ -412,6 +430,8 @@ function parseRssOrAtom(xml, source) {
         /* keep */
       }
     }
+    // Google News article wrappers often can't be unwrapped without JS — drop them.
+    if (/^https?:\/\/(news\.)?google\.com\//i.test(link)) continue;
     const rawDate =
       block.match(/<pubDate[^>]*>([\s\S]*?)<\/pubDate>/i)?.[1] ||
       block.match(/<published[^>]*>([\s\S]*?)<\/published>/i)?.[1] ||
@@ -423,6 +443,8 @@ function parseRssOrAtom(xml, source) {
       block.match(/<content[^>]*>([\s\S]*?)<\/content>/i)?.[1] ||
       "";
     if (!title || !link) continue;
+    if (/news\.ycombinator\.com/i.test(link)) continue;
+    if (/\b\d+\s*pts?\b.*\bcomments?\b.*\bHN\b/i.test(title)) continue;
     const date = new Date(decodeEntities(stripTags(rawDate)));
     items.push({
       id: `${source.id}:${link}`,
@@ -451,6 +473,10 @@ function parsePrismixOrHtml(html, source) {
     if (seen.has(url)) continue;
     if (/privacy|terms|login|signup|twitter|x\.com|facebook|linkedin/i.test(url))
       continue;
+    // Signal/Prismix pages often link out to HN threads — don't mislabel them as The Signal.
+    if (/news\.ycombinator\.com/i.test(url)) continue;
+    if (/\b\d+\s*pts?\b.*\bcomments?\b.*\bHN\b/i.test(title)) continue;
+    if (/^\d+\s*pts?\s*[·•]/i.test(title)) continue;
     seen.add(url);
     items.push({
       id: `${source.id}:${url}`,
@@ -1212,7 +1238,7 @@ function renderHtml(payload) {
   })();
   </script>
   <title>Ai Source — AI news</title>
-  <meta name="description" content="Top AI news from TechCrunch, VentureBeat, The Verge, AI/TLDR, The Signal, and X. Refreshed every 3 hours.">
+  <meta name="description" content="Top AI news from TechCrunch, VentureBeat, The Verge, AI/TLDR, The Signal, THE DECODER, Hugging Face Blog, SiliconANGLE, and X. Refreshed every 3 hours.">
   <meta name="theme-color" content="#1a1b26" media="(prefers-color-scheme: dark)">
   <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
   <meta name="mobile-web-app-capable" content="yes">
@@ -1246,8 +1272,7 @@ function renderHtml(payload) {
       </div>
       <h1>Ai Source</h1>
       <p class="dateline">
-        <strong>${refreshed}</strong>
-        <span>Top ${clusterCount} story clusters right now · Australia/Sydney</span>
+        <span>What matters in AI today · refreshed ${refreshed}</span>
       </p>
       ${filterBar()}
     </header>
@@ -1257,8 +1282,8 @@ function renderHtml(payload) {
       ${stories || empty}
       <div class="empty" id="filter-empty" hidden>No stories in this category right now.</div>
     </main>
-    <p class="status">Last refresh: ${refreshed} · ${escapeHtml(sourcesLine)}</p>
-    <footer>Ai Source aggregates headlines from TechCrunch, VentureBeat, The Verge, AI/TLDR, The Signal, and X, then clusters the same event across outlets. Original posts stay on their publishers’ sites.</footer>
+    <p class="status">Last refresh: ${refreshed}</p>
+    <footer>Your AI feed without the tab tax: we cluster the noise, you keep the links.</footer>
   </div>
 <script>
 (function () {

@@ -1,7 +1,7 @@
 {
   "name": "Ai Source",
   "short_name": "Ai Source",
-  "description": "Top AI news from TechCrunch, VentureBeat, The Verge, AI/TLDR, The Signal, and X. Refreshed every 3 hours.",
+  "description": "Top AI news from TechCrunch, VentureBeat, The Verge, AI/TLDR, The Signal, THE DECODER, Hugging Face Blog, SiliconANGLE, and X. Refreshed every 3 hours.",
   "id": "./",
   "start_url": "./",
   "scope": "./",
