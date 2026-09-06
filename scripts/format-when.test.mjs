@@ -109,6 +109,25 @@ test("renderHtml places a live Sydney clock above the refresh cadence", () => {
   assert.match(html, /class="rumor-mill"/);
 });
 
+test("renderHtml includes a persistent theme switch with dark as the default", () => {
+  const html = renderHtml({
+    refreshedAt: "2026-09-05T20:13:11.116Z",
+    posts: [],
+    rumors: [],
+    sources: [],
+  });
+  const bootstrapAt = html.indexOf('localStorage.getItem("ai-source-theme")');
+  const stylesheetAt = html.indexOf('<link rel="stylesheet" href="./styles.css">');
+  assert.ok(bootstrapAt !== -1 && bootstrapAt < stylesheetAt);
+  assert.match(html, /id="theme-toggle"/);
+  assert.match(html, /aria-label="Switch to light theme"/);
+  assert.match(html, /localStorage\.setItem\("ai-source-theme", nextTheme\)/);
+  assert.match(
+    html,
+    /getAttribute\("data-theme"\) === "light" \? "light" : "dark"/,
+  );
+});
+
 test("renderHtml does not invent a story time without publishedAt or publishedTs", () => {
   const html = renderHtml({
     refreshedAt: "2026-09-05T22:25:21.456Z",
