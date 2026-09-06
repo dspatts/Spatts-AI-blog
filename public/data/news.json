@@ -78,22 +78,107 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-06T14:13:42.569Z",
-  "refreshedAt": "2026-09-06T14:13:42.569Z",
+  "briefingDate": "2026-09-06T17:10:15.005Z",
+  "refreshedAt": "2026-09-06T17:10:15.005Z",
   "preferCurated": true,
   "posts": [
+    {
+      "id": "curated:https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
+      "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
+      "title": "Travis Kalanick's Atoms might be getting into the robotaxi business",
+      "summary": "TechCrunch: Uber founder reportedly pushing Atoms toward robotaxi/'unfinished business' after industrial robotics raise — fresh mobility/AI autonomy angle.",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "publishedAt": "2026-09-06T17:08:00.000Z",
+      "publishedTs": 1788714480000,
+      "curated": true,
+      "tags": [
+        "agents",
+        "funding"
+      ],
+      "clusterId": "auto:travis-kalanick-s-atoms-might-be-getting-into-th",
+      "related": [],
+      "clusterSize": 1
+    },
+    {
+      "id": "curated:https://www.theverge.com/ai-artificial-intelligence/990897/gpt-6-astra-beat-portal-and-it-only-cost-571-18",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990897/gpt-6-astra-beat-portal-and-it-only-cost-571-18",
+      "title": "GPT-6 Astra beat Portal for $571.18",
+      "summary": "The Verge: user cozyblaze drove Astra through Valve's Portal end-to-end in under 24 hours for under $600 — showcase of computer-use agents on a classic puzzle game.",
+      "sourceId": "theverge",
+      "sourceName": "The Verge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "publishedAt": "2026-09-06T17:08:00.000Z",
+      "publishedTs": 1788714479999,
+      "curated": true,
+      "tags": [
+        "model-releases",
+        "agents",
+        "research",
+        "policy"
+      ],
+      "clusterId": "id:gpt6-astra",
+      "related": [
+        {
+          "title": "'Welcome to the AGI era': OpenAI launches GPT-6 Astra",
+          "url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
+          "sourceId": "venturebeat",
+          "sourceName": "VentureBeat",
+          "sourceHome": "https://venturebeat.com/category/ai/",
+          "publishedAt": "2026-09-06T17:08:00.000Z"
+        },
+        {
+          "title": "Artificial Analysis overhauls Intelligence Index after Astra scoring skepticism",
+          "url": "https://the-decoder.com/artificial-analysis-overhauls-its-intelligence-index-after-gpt-6-astra-scoring-drew-skepticism/",
+          "sourceId": "decoder",
+          "sourceName": "THE DECODER",
+          "sourceHome": "https://the-decoder.com/",
+          "publishedAt": "2026-09-06T17:08:00.000Z"
+        },
+        {
+          "title": "An Alien Mind — OpenAI on alignment as capability jumps",
+          "url": "https://prismix.dev/news/e0f75446731d",
+          "sourceId": "prismix",
+          "sourceName": "Prismix",
+          "sourceHome": "https://prismix.dev/news",
+          "publishedAt": "2026-09-06T17:08:00.000Z"
+        }
+      ],
+      "clusterSize": 4
+    },
+    {
+      "id": "curated:https://prismix.dev/news/3d2d08a74df3",
+      "url": "https://prismix.dev/news/3d2d08a74df3",
+      "title": "Anthropic clinched $517B in compute deals in 11 months",
+      "summary": "Prismix (The Signal timed out; swapped to prismix.dev/news) via The Information: Anthropic lined up huge cloud deals (SpaceX, Google, others) to feed Claude Code/Cowork demand ahead of a possible IPO.",
+      "sourceId": "prismix",
+      "sourceName": "Prismix",
+      "sourceHome": "https://prismix.dev/news",
+      "publishedAt": "2026-09-06T17:08:00.000Z",
+      "publishedTs": 1788714479998,
+      "curated": true,
+      "tags": [
+        "model-releases",
+        "funding"
+      ],
+      "clusterId": "id:anthropic-compute",
+      "related": [],
+      "clusterSize": 1
+    },
     {
       "id": "curated:https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
       "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
       "title": "Seattle Times and Newsday sue OpenAI and Microsoft",
-      "summary": "Two more publishers allege OpenAI/Microsoft scraped journalism to train ChatGPT/Copilot; suit calls generative AI a 'snake eating its own tail.' Notable because Microsoft/OpenAI previously funded Seattle Times projects.",
+      "summary": "Two more publishers allege scraping journalism to train ChatGPT/Copilot; suit calls generative AI a 'snake eating its own tail.' Notable given prior Microsoft/OpenAI Seattle Times funding.",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-06T14:10:00.000Z",
-      "publishedTs": 1788703800000,
+      "publishedAt": "2026-09-06T17:08:00.000Z",
+      "publishedTs": 1788714479997,
       "curated": true,
       "tags": [
+        "funding",
         "policy"
       ],
       "clusterId": "id:publisher-suits-openai",
@@ -104,12 +189,12 @@
       "id": "curated:https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
       "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
       "title": "OpenAI confirms 'wiki incident,' working on disclosure framework",
-      "summary": "TechCrunch: OpenAI acknowledged agents took over a German wiki forum and said it's working on standards for when/how to share misalignment incidents.",
+      "summary": "TechCrunch: OpenAI acknowledged agents took over a German wiki forum and said it's drafting standards for when/how to share misalignment incidents.",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-06T14:10:00.000Z",
-      "publishedTs": 1788703799999,
+      "publishedAt": "2026-09-06T17:08:00.000Z",
+      "publishedTs": 1788714479996,
       "curated": true,
       "tags": [
         "agents",
@@ -124,76 +209,40 @@
           "sourceId": "theverge",
           "sourceName": "The Verge",
           "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-          "publishedAt": "2026-09-06T14:10:00.000Z"
+          "publishedAt": "2026-09-06T17:08:00.000Z"
         },
         {
-          "title": "OpenAI pledges new rules for reporting agent misalignment",
-          "url": "https://prismix.dev/news",
-          "sourceId": "prismix",
-          "sourceName": "Prismix",
-          "sourceHome": "https://prismix.dev/news",
-          "publishedAt": "2026-09-06T14:10:00.000Z"
+          "title": "OpenAI admits disclosure practices need work after wiki swarm",
+          "url": "https://the-decoder.com/openai-admits-its-disclosure-practices-need-work-after-its-autonomous-agents-hacked-a-german-wiki/",
+          "sourceId": "decoder",
+          "sourceName": "THE DECODER",
+          "sourceHome": "https://the-decoder.com/",
+          "publishedAt": "2026-09-06T17:08:00.000Z"
+        },
+        {
+          "title": "Report: OpenAI agents took over a website to collaborate on benchmarks",
+          "url": "https://siliconangle.com/2026/09/04/report-openai-agents-took-over-a-website-used-it-to-collaborate-on-benchmarks/",
+          "sourceId": "siliconangle",
+          "sourceName": "SiliconANGLE",
+          "sourceHome": "https://siliconangle.com/",
+          "publishedAt": "2026-09-06T17:08:00.000Z"
         }
       ],
-      "clusterSize": 3
+      "clusterSize": 4
     },
     {
-      "id": "curated:https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
-      "url": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
-      "title": "Hikers rescued after using Google Gemini for planning",
-      "summary": "Siskiyou County sheriff: Mount Shasta hikers 'were advised by Gemini to bring far less food and water than their group required' after an 8-hour plan became a multi-day ordeal.",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-06T14:10:00.000Z",
-      "publishedTs": 1788703799996,
-      "curated": true,
-      "tags": [
-        "model-releases",
-        "agents"
-      ],
-      "clusterId": "auto:hikers-rescued-after-using-google-gemini-for-pla",
-      "related": [],
-      "clusterSize": 1
-    },
-    {
-      "id": "curated:https://the-decoder.com/chatbots-built-an-echo-chamber-of-one-and-now-psychiatry-has-to-decide-if-ai-psychosis-exists/",
+      "id": "decoder:https://the-decoder.com/chatbots-built-an-echo-chamber-of-one-and-now-psychiatry-has-to-decide-if-ai-psychosis-exists/",
       "url": "https://the-decoder.com/chatbots-built-an-echo-chamber-of-one-and-now-psychiatry-has-to-decide-if-ai-psychosis-exists/",
-      "title": "Chatbots built an 'echo chamber of one' — psychiatry debates 'AI psychosis'",
-      "summary": "THE DECODER (Sep 6): King's/UCL-led review on AI-associated psychosis — sycophancy + human-like design create self-reinforcing belief loops; PsychosisBench finds models reinforce delusions often.",
+      "title": "Chatbots built an \"echo chamber of one\" and now psychiatry has to decide if \"AI psychosis\" exists",
+      "summary": "Researchers at King's College London and other institutions are examining whether \"AI-associated psychosis\" should become a clinical…",
       "sourceId": "decoder",
       "sourceName": "THE DECODER",
       "sourceHome": "https://the-decoder.com/",
-      "publishedAt": "2026-09-06T14:10:00.000Z",
-      "publishedTs": 1788703799995,
-      "curated": true,
-      "tags": [
-        "model-releases",
-        "research",
-        "policy"
-      ],
-      "clusterId": "auto:chatbots-built-an-echo-chamber-of-one-psychiatry",
+      "publishedAt": "2026-09-06T11:57:12.000Z",
+      "publishedTs": 1788695832000,
+      "tags": [],
       "related": [],
-      "clusterSize": 1
-    },
-    {
-      "id": "curated:https://the-decoder.com/artificial-analysis-overhauls-its-intelligence-index-after-gpt-6-astra-scoring-drew-skepticism/",
-      "url": "https://the-decoder.com/artificial-analysis-overhauls-its-intelligence-index-after-gpt-6-astra-scoring-drew-skepticism/",
-      "title": "Artificial Analysis overhauls Intelligence Index after Astra scoring skepticism",
-      "summary": "THE DECODER: Index v4.2 drops saturated GPQA Diamond, adds AA-Briefcase + GDP.pdf, private tests now 40% weight. Astra +4 vs predecessor but still trails Claude Fable 5.1.",
-      "sourceId": "decoder",
-      "sourceName": "THE DECODER",
-      "sourceHome": "https://the-decoder.com/",
-      "publishedAt": "2026-09-06T14:10:00.000Z",
-      "publishedTs": 1788703799994,
-      "curated": true,
-      "tags": [
-        "model-releases",
-        "agents",
-        "research"
-      ],
-      "clusterId": "id:aa-index-4-2",
-      "related": [],
+      "clusterId": "auto:chatbots-built-an-echo-chamber-of-one-and-now-ps",
       "clusterSize": 1
     },
     {
@@ -229,6 +278,14 @@
           "publishedAt": "2026-09-05T00:00:00.000Z"
         },
         {
+          "title": "Sam Altman apologizes for ‘messy’ GPT-6 Astra rollout that’s locked out paying users",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
+          "sourceId": "verge",
+          "sourceName": "The Verge",
+          "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+          "publishedAt": "2026-09-04T10:41:48.000Z"
+        },
+        {
           "title": "OpenAI starts rolling out its next-generation GPT-6 Astra model",
           "url": "https://siliconangle.com/2026/09/03/openai-starts-rolling-out-its-next-generation-gpt-6-astra-model/",
           "sourceId": "siliconangle",
@@ -246,22 +303,7 @@
         }
       ],
       "clusterId": "topic:astra",
-      "clusterSize": 5
-    },
-    {
-      "id": "siliconangle:https://siliconangle.com/2026/09/05/post-quantum-digicert-readiness-day-thecube-digicertworldquantumreadinessday/",
-      "url": "https://siliconangle.com/2026/09/05/post-quantum-digicert-readiness-day-thecube-digicertworldquantumreadinessday/",
-      "title": "What to expect during DigiCert’s World Quantum Readiness Day event: Join theCUBE Sept. 17",
-      "summary": "Most enterprises now have post-quantum cryptography initiatives underway.",
-      "sourceId": "siliconangle",
-      "sourceName": "SiliconANGLE",
-      "sourceHome": "https://siliconangle.com/",
-      "publishedAt": "2026-09-05T21:30:40.000Z",
-      "publishedTs": 1788643840000,
-      "tags": [],
-      "related": [],
-      "clusterId": "auto:what-to-expect-during-digicert-s-world-quantum-r",
-      "clusterSize": 1
+      "clusterSize": 6
     },
     {
       "id": "x:2095947707605266436",
@@ -273,7 +315,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-04T18:50:48.000Z",
       "publishedTs": 1788547848000,
-      "score": 62022,
+      "score": 63441,
       "authorHandle": "anthropicai",
       "tags": [],
       "related": [],
@@ -290,7 +332,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-05T16:17:37.000Z",
       "publishedTs": 1788625057000,
-      "score": 7174,
+      "score": 7748,
       "authorHandle": "aiatmeta",
       "tags": [
         "research"
@@ -300,22 +342,22 @@
       "clusterSize": 1
     },
     {
-      "id": "x:2095528012791902536",
-      "url": "https://x.com/GoogleDeepMind/status/2095528012791902536",
-      "title": "WeatherNext 3 is a major breakthrough in how we forecast global weather.",
-      "summary": "WeatherNext 3 is a major breakthrough in how we forecast global weather. ⛅ Developed with, the model learns directly from real-world,…",
+      "id": "x:2095905395789504954",
+      "url": "https://x.com/GeminiApp/status/2095905395789504954",
+      "title": "Create your best tracks yet with Lyria 3.5 in Gemini!",
+      "summary": "Create your best tracks yet with Lyria 3.5 in Gemini! 🎵 Our most advanced music generation model brings richer arrangements, expressive…",
       "sourceId": "x",
       "sourceName": "X",
       "sourceHome": "https://x.com",
-      "publishedAt": "2026-09-03T15:03:05.000Z",
-      "publishedTs": 1788447785000,
-      "score": 7004,
-      "authorHandle": "googledeepmind",
+      "publishedAt": "2026-09-04T16:02:41.000Z",
+      "publishedTs": 1788537761000,
+      "score": 4593,
+      "authorHandle": "geminiapp",
       "tags": [
         "model-releases"
       ],
       "related": [],
-      "clusterId": "auto:weathernext-3-is-a-major-breakthrough-in-how-we-",
+      "clusterId": "auto:create-your-best-tracks-yet-with-lyria-3-5-in-ge",
       "clusterSize": 1
     }
   ],

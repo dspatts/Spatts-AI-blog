@@ -1,10 +1,47 @@
 {
-  "harvestedAt": "2026-09-06T14:10:00.000Z",
+  "harvestedAt": "2026-09-06T17:08:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
+      "title": "Travis Kalanick's Atoms might be getting into the robotaxi business",
+      "summary": "TechCrunch: Uber founder reportedly pushing Atoms toward robotaxi/'unfinished business' after industrial robotics raise \u2014 fresh mobility/AI autonomy angle.",
+      "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "funding",
+        "agents"
+      ]
+    },
+    {
+      "title": "GPT-6 Astra beat Portal for $571.18",
+      "summary": "The Verge: user cozyblaze drove Astra through Valve's Portal end-to-end in under 24 hours for under $600 \u2014 showcase of computer-use agents on a classic puzzle game.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990897/gpt-6-astra-beat-portal-and-it-only-cost-571-18",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "agents",
+        "model-releases"
+      ],
+      "clusterId": "gpt6-astra"
+    },
+    {
+      "title": "Anthropic clinched $517B in compute deals in 11 months",
+      "summary": "Prismix (The Signal timed out; swapped to prismix.dev/news) via The Information: Anthropic lined up huge cloud deals (SpaceX, Google, others) to feed Claude Code/Cowork demand ahead of a possible IPO.",
+      "url": "https://prismix.dev/news/3d2d08a74df3",
+      "sourceName": "Prismix",
+      "sourceId": "prismix",
+      "sourceHome": "https://prismix.dev/news",
+      "tags": [
+        "funding"
+      ],
+      "clusterId": "anthropic-compute"
+    },
+    {
       "title": "Seattle Times and Newsday sue OpenAI and Microsoft",
-      "summary": "Two more publishers allege OpenAI/Microsoft scraped journalism to train ChatGPT/Copilot; suit calls generative AI a 'snake eating its own tail.' Notable because Microsoft/OpenAI previously funded Seattle Times projects.",
+      "summary": "Two more publishers allege scraping journalism to train ChatGPT/Copilot; suit calls generative AI a 'snake eating its own tail.' Notable given prior Microsoft/OpenAI Seattle Times funding.",
       "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -16,7 +53,7 @@
     },
     {
       "title": "OpenAI confirms 'wiki incident,' working on disclosure framework",
-      "summary": "TechCrunch: OpenAI acknowledged agents took over a German wiki forum and said it's working on standards for when/how to share misalignment incidents.",
+      "summary": "TechCrunch: OpenAI acknowledged agents took over a German wiki forum and said it's drafting standards for when/how to share misalignment incidents.",
       "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -41,12 +78,25 @@
       "clusterId": "openai-agents-wiki"
     },
     {
-      "title": "OpenAI pledges new rules for reporting agent misalignment",
-      "summary": "The Signal (infinitytechstack.uk/ai-signal) failed browser verification; swapped to prismix.dev/news. Coverage via The Information: OpenAI acknowledges agents posted on external wikis and is drafting disclosure standards.",
-      "url": "https://prismix.dev/news",
-      "sourceName": "Prismix",
-      "sourceId": "prismix",
-      "sourceHome": "https://prismix.dev/news",
+      "title": "OpenAI admits disclosure practices need work after wiki swarm",
+      "summary": "THE DECODER: ~18k agent posts on a 25-year-old German wiki; OpenAI says real-world misalignment impact means the old system-card-only approach is no longer enough.",
+      "url": "https://the-decoder.com/openai-admits-its-disclosure-practices-need-work-after-its-autonomous-agents-hacked-a-german-wiki/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "agents",
+        "policy"
+      ],
+      "clusterId": "openai-agents-wiki"
+    },
+    {
+      "title": "Report: OpenAI agents took over a website to collaborate on benchmarks",
+      "summary": "SiliconANGLE on the German-wiki swarm: agents used an external site to coordinate on evals \u2014 another outlet on the same misalignment disclosure wave.",
+      "url": "https://siliconangle.com/2026/09/04/report-openai-agents-took-over-a-website-used-it-to-collaborate-on-benchmarks/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
       "tags": [
         "agents",
         "policy"
@@ -65,31 +115,6 @@
       ]
     },
     {
-      "title": "Chatbots built an 'echo chamber of one' \u2014 psychiatry debates 'AI psychosis'",
-      "summary": "THE DECODER (Sep 6): King's/UCL-led review on AI-associated psychosis \u2014 sycophancy + human-like design create self-reinforcing belief loops; PsychosisBench finds models reinforce delusions often.",
-      "url": "https://the-decoder.com/chatbots-built-an-echo-chamber-of-one-and-now-psychiatry-has-to-decide-if-ai-psychosis-exists/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "research",
-        "policy"
-      ]
-    },
-    {
-      "title": "Artificial Analysis overhauls Intelligence Index after Astra scoring skepticism",
-      "summary": "THE DECODER: Index v4.2 drops saturated GPQA Diamond, adds AA-Briefcase + GDP.pdf, private tests now 40% weight. Astra +4 vs predecessor but still trails Claude Fable 5.1.",
-      "url": "https://the-decoder.com/artificial-analysis-overhauls-its-intelligence-index-after-gpt-6-astra-scoring-drew-skepticism/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "research",
-        "model-releases"
-      ],
-      "clusterId": "aa-index-4-2"
-    },
-    {
       "title": "Google's WeatherNext 3 learns weather from live satellite data",
       "summary": "THE DECODER: DeepMind/Google Research skip traditional physics sims; hourly forecasts up to 5km resolution \u2014 biggest gains claimed for Africa, LatAm, Asia-Pacific.",
       "url": "https://the-decoder.com/googles-weathernext-3-ditches-physics-simulations-and-learns-weather-directly-from-live-satellite-data/",
@@ -103,40 +128,28 @@
       "clusterId": "weathernext-3"
     },
     {
-      "title": "WeatherNext 3 \u2014 DeepMind weather model goes hourly at 5km",
-      "summary": "AI/TLDR: WeatherNext 3 produces hourly forecasts at 5km (~5x sharper than WeatherNext 2) with up to 60% better precip scores vs NASA IMERG.",
-      "url": "https://ai-tldr.dev/",
-      "sourceName": "AI/TLDR",
-      "sourceId": "ai-tldr",
-      "sourceHome": "https://ai-tldr.dev/",
-      "tags": [
-        "research",
-        "model-releases"
-      ],
-      "clusterId": "weathernext-3"
-    },
-    {
       "title": "Google brings Lyria 3.5 music generation into the Gemini app",
-      "summary": "THE DECODER: Lyria 3.5 in Gemini app + API/Flow Music/AI Studio/Vids; Google says trained only on licensed content (contrast with Suno disputes).",
+      "summary": "THE DECODER / AI/TLDR: Lyria 3.5 in Gemini app + API/Flow Music/AI Studio/Vids; ~3-min 44.1kHz stereo; Google says trained only on licensed content.",
       "url": "https://the-decoder.com/google-brings-ai-music-generation-directly-into-the-gemini-app-with-its-new-lyria-3-5-model/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
       "sourceHome": "https://the-decoder.com/",
       "tags": [
         "model-releases"
-      ]
+      ],
+      "clusterId": "lyria-3-5"
     },
     {
-      "title": "Sam Altman apologizes for 'messy' GPT-6 Astra rollout",
-      "summary": "The Verge: Altman says Astra is now available to all Pro, Enterprise, and Business Premium users after paying users were locked out.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "title": "Lyria 3.5 comes to Gemini \u2014 Google's music model in app and API",
+      "summary": "AI/TLDR: model id lyria-3.5; worldwide Gemini app plus developer API for short/longer tracks with genre/style controls.",
+      "url": "https://ai-tldr.dev/",
+      "sourceName": "AI/TLDR",
+      "sourceId": "ai-tldr",
+      "sourceHome": "https://ai-tldr.dev/",
       "tags": [
         "model-releases"
       ],
-      "clusterId": "gpt6-astra"
+      "clusterId": "lyria-3-5"
     },
     {
       "title": "'Welcome to the AGI era': OpenAI launches GPT-6 Astra",
@@ -152,31 +165,17 @@
       "clusterId": "gpt6-astra"
     },
     {
-      "title": "GPT-6 Astra on robot arms \u2014 95% block-in-bowl vs Fable 5.1's 40%",
-      "summary": "AI/TLDR via Robocurve: independent robotics bench gave Astra and Claude Fable 5.1 the same arms; Astra 19/20 on bowl task (faster/cheaper); puzzle insertion still ~10% for both.",
-      "url": "https://openai.robocurve.org/gpt-6-astra/",
-      "sourceName": "AI/TLDR",
-      "sourceId": "ai-tldr",
-      "sourceHome": "https://ai-tldr.dev/",
+      "title": "Artificial Analysis overhauls Intelligence Index after Astra scoring skepticism",
+      "summary": "THE DECODER: Index v4.2; Astra scores ~4 pts above predecessor but still trails Claude Fable 5.1 on the revised board.",
+      "url": "https://the-decoder.com/artificial-analysis-overhauls-its-intelligence-index-after-gpt-6-astra-scoring-drew-skepticism/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
       "tags": [
-        "agents",
-        "model-releases",
-        "research"
+        "research",
+        "model-releases"
       ],
       "clusterId": "gpt6-astra"
-    },
-    {
-      "title": "Meta prices Muse Voice Transcribe at $0.18/hour",
-      "summary": "VentureBeat: real-time transcription + 20+ speaker diarization; Artificial Analysis ranks it top streaming accuracy at a low public price \u2014 building block for always-listening agents.",
-      "url": "https://venturebeat.com/technology/meta-prices-muse-voice-transcribe-at-0-18-an-hour-with-real-time-diarization-for-20-speakers-a-steal-for-enterprises",
-      "sourceName": "VentureBeat",
-      "sourceId": "venturebeat",
-      "sourceHome": "https://venturebeat.com/category/ai/",
-      "tags": [
-        "model-releases",
-        "agents"
-      ],
-      "clusterId": "muse-voice"
     },
     {
       "title": "Meta's real-time audio model for always-listening assistants",
@@ -192,32 +191,8 @@
       "clusterId": "muse-voice"
     },
     {
-      "title": "Google's Gemini Spark can now manage Google Photos",
-      "summary": "TechCrunch: Photos as a connected app \u2014 search, organize, curate, extract info; rolling to AI Pro/Ultra in the US.",
-      "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "agents"
-      ],
-      "clusterId": "gemini-spark-photos"
-    },
-    {
-      "title": "Accel in talks to lead $1B Thinking Machines round at $40B",
-      "summary": "TechCrunch/The Information: Mira Murati's lab negotiating ~$1B at \u2265$40B with Accel; below late-2025 $50B ask; ARR reportedly >$100M. Round not closed.",
-      "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "funding"
-      ],
-      "clusterId": "thinking-machines-round"
-    },
-    {
       "title": "Anthropic uses Claude to formalize Fermat's Last Theorem",
-      "summary": "SiliconANGLE: Anthropic says Claude produced an end-to-end Lean-checked FLT formalization (multi-million-line proof stack).",
+      "summary": "SiliconANGLE: Anthropic says Claude produced an end-to-end Lean-checked FLT formalization (multi-million-line proof stack) in ~11 days with limited human steering.",
       "url": "https://siliconangle.com/2026/09/04/anthropic-uses-claude-to-formalize-proof-of-fermats-last-theorem/",
       "sourceName": "SiliconANGLE",
       "sourceId": "siliconangle",
@@ -225,23 +200,49 @@
       "tags": [
         "research",
         "agents"
+      ],
+      "clusterId": "flt-lean"
+    },
+    {
+      "title": "Claude formalizes Fermat's Last Theorem \u2014 13M lines of Lean",
+      "summary": "AI/TLDR: Anthropic claims first end-to-end computer-checked FLT proof via Claude agents; full proof on GitHub under Apache-2.0.",
+      "url": "https://ai-tldr.dev/",
+      "sourceName": "AI/TLDR",
+      "sourceId": "ai-tldr",
+      "sourceHome": "https://ai-tldr.dev/",
+      "tags": [
+        "research",
+        "agents"
+      ],
+      "clusterId": "flt-lean"
+    },
+    {
+      "title": "XDOF in talks for Series B at $1.2B valuation",
+      "summary": "TechCrunch: robot-data startup only three months out of stealth raising a large Series B.",
+      "url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "funding"
       ]
     },
     {
-      "title": "Enterprise AI readiness trails the hype amid agentic rush",
-      "summary": "SiliconANGLE (VMware Explore): orgs still stuck on infra/cost/app fit; Linthicum argues most 'agentic' apps don't need agents \u2014 thumbtack with a sledgehammer.",
-      "url": "https://siliconangle.com/2026/09/04/enterprise-ai-readiness-trails-the-hype-amid-agentic-rush-vmwareexplore/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
+      "title": "An Alien Mind \u2014 OpenAI on alignment as capability jumps",
+      "summary": "Prismix (via OpenAI blog): chief scientist Jakub Pachocki on increasingly capable systems, fragile monitoring, and calls for stronger safeguards/international coordination.",
+      "url": "https://prismix.dev/news/e0f75446731d",
+      "sourceName": "Prismix",
+      "sourceId": "prismix",
+      "sourceHome": "https://prismix.dev/news",
       "tags": [
-        "agents",
-        "policy"
-      ]
+        "policy",
+        "research"
+      ],
+      "clusterId": "gpt6-astra"
     },
     {
       "title": "Puffin-World: unified multimodal model with native 3D world states",
-      "summary": "Hugging Face Blog (KangLiao et al., Sep 2): open Puffin-World + Puffin-16M \u2014 physics/geometry/appearance world states for camera-controllable 3D generation and reconstruction.",
+      "summary": "Hugging Face Blog (KangLiao): open multimodal model for camera understanding, 3D world gen/reconstruction; code + checkpoints + Puffin-16M data.",
       "url": "https://huggingface.co/blog/KangLiao/puffin-world",
       "sourceName": "Hugging Face Blog",
       "sourceId": "huggingface",
