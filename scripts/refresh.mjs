@@ -1266,7 +1266,7 @@ function renderHtml(payload) {
       <div class="empty" id="filter-empty" hidden>No stories in this category right now.</div>
     </main>
     <p class="status">Last refresh: ${refreshed}</p>
-    <footer>Ai Source aggregates headlines from TechCrunch, VentureBeat, The Verge, AI/TLDR, The Signal, THE DECODER, Hugging Face Blog, SiliconANGLE, and X, then clusters the same event across outlets. Original posts stay on their publishers’ sites.</footer>
+    <footer>Your AI feed without the tab tax: we cluster the noise, you keep the links.</footer>
   </div>
 <script>
 (function () {
