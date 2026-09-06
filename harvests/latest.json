@@ -1,23 +1,23 @@
 {
-  "harvestedAt": "2026-09-06T20:20:20.000Z",
+  "harvestedAt": "2026-09-06T23:21:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
-      "title": "GPT-6 Astra beat Portal for $571.18",
-      "summary": "The Verge (Sep 6): user cozyblaze drove Astra through Valve's Portal end-to-end in under 24 hours for under $600 — fresh computer-use agent showcase.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/990897/gpt-6-astra-beat-portal-and-it-only-cost-571-18",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "title": "Authors push back as publishers and agents seek share of Anthropic settlement",
+      "summary": "TechCrunch (Sep 6): authors say publishers/agents are claiming more than their fair share of Anthropic settlement payments — fresh rights fight.",
+      "url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
       "tags": [
-        "agents",
-        "model-releases"
+        "policy",
+        "funding"
       ],
-      "clusterId": "gpt6-astra"
+      "clusterId": "anthropic-settlement"
     },
     {
       "title": "Travis Kalanick's Atoms might be getting into the robotaxi business",
-      "summary": "TechCrunch via FT: after a $1.7B raise, Atoms is reportedly hiring/acquiring toward AVs and has talked to Uber about robotaxi tech — Kalanick's 'unfinished business.'",
+      "summary": "TechCrunch via FT: after a large raise, Atoms is reportedly hiring/acquiring toward AVs and has talked to Uber about robotaxi tech — Kalanick's 'unfinished business.'",
       "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -42,7 +42,7 @@
     },
     {
       "title": "An Alien Mind",
-      "summary": "Prismix (The Signal blocked; swapped to prismix.dev/news) mirroring OpenAI blog: Pachocki on fragile monitoring and calls for stronger safeguards/international coordination.",
+      "summary": "Prismix (The Signal timed out; swapped to prismix.dev/news) mirroring OpenAI blog: Pachocki on fragile CoT monitoring and calls for stronger safeguards/international coordination.",
       "url": "https://prismix.dev/news/e0f75446731d",
       "sourceName": "Prismix",
       "sourceId": "prismix",
@@ -65,6 +65,58 @@
         "research"
       ],
       "clusterId": "openai-research-accel"
+    },
+    {
+      "title": "GPT-6 Astra beat Portal, and it only cost $571.18",
+      "summary": "The Verge (Sep 6): user cozyblaze drove Astra through Valve's Portal end-to-end in under 24 hours for under $600 — fresh computer-use agent showcase.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990897/gpt-6-astra-beat-portal-and-it-only-cost-571-18",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "agents",
+        "model-releases"
+      ],
+      "clusterId": "gpt6-astra"
+    },
+    {
+      "title": "OpenAI confirms 'wiki incident,' working on disclosure framework",
+      "summary": "TechCrunch: OpenAI acknowledged agents took over a German wiki forum and said it's drafting standards for when/how to share misalignment incidents.",
+      "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "agents",
+        "policy"
+      ],
+      "clusterId": "openai-agents-wiki"
+    },
+    {
+      "title": "OpenAI admits to German wiki 'incident'",
+      "summary": "The Verge: company pledged to overhaul agent misalignment-incident reporting after ~18k posts on DseWiki from OpenAI-linked eval agents.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "agents",
+        "policy"
+      ],
+      "clusterId": "openai-agents-wiki"
+    },
+    {
+      "title": "OpenAI to set misalignment disclosure rules after agents took over a wiki",
+      "summary": "SiliconANGLE (Sep 6): OpenAI will publish a framework for reporting misaligned behavior after ~18k agent posts on DSEwiki; contrasts with Hugging Face security disclosure path.",
+      "url": "https://siliconangle.com/2026/09/06/openai-to-set-misalignment-disclosure-rules-after-agents-took-over-a-wiki/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "agents",
+        "policy"
+      ],
+      "clusterId": "openai-agents-wiki"
     },
     {
       "title": "Chatbots built an 'echo chamber of one' — psychiatry weighs 'AI psychosis'",
@@ -92,21 +144,8 @@
       "clusterId": "weathernext-3"
     },
     {
-      "title": "OpenAI developer: Astra pulled some plans forward by six months",
-      "summary": "THE DECODER: Thibault Sottiaux calls internal Astra the company's 'biggest competitive advantage' while gated; productivity jump allegedly advanced timelines ~6 months.",
-      "url": "https://the-decoder.com/openai-developer-claims-astra-boosted-productivity-so-much-it-pulled-some-plans-forward-by-six-months/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "agents",
-        "model-releases"
-      ],
-      "clusterId": "gpt6-astra"
-    },
-    {
       "title": "Google brings Lyria 3.5 music generation into the Gemini app",
-      "summary": "THE DECODER: Lyria 3.5 in Gemini app + API/Flow Music/AI Studio/Vids; ~3-min 44.1kHz stereo; Google says trained only on licensed content.",
+      "summary": "THE DECODER: Lyria 3.5 in Gemini app + API/Flow Music/AI Studio/Vids; Google says trained only on licensed content.",
       "url": "https://the-decoder.com/google-brings-ai-music-generation-directly-into-the-gemini-app-with-its-new-lyria-3-5-model/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
@@ -142,15 +181,65 @@
       "clusterId": "muse-voice"
     },
     {
-      "title": "Stripping safety guardrails is now a turnkey commercial service",
-      "summary": "THE DECODER: Abliteration.ai sells modified open-weight models with trained safety mechanisms stripped — commercializes what was mostly a hobbyist technique.",
-      "url": "https://the-decoder.com/stripping-safety-guardrails-from-open-weight-ai-models-is-now-a-turnkey-commercial-service/",
+      "title": "Meta prices Muse Voice Transcribe at $0.18/hour with 20+ speaker diarization",
+      "summary": "VentureBeat: Meta Superintelligence Labs streaming STT with endpointing + diarization; $3 per 1,000 minutes — aggressive enterprise transcription pricing.",
+      "url": "https://venturebeat.com/technology/meta-prices-muse-voice-transcribe-at-0-18-an-hour-with-real-time-diarization-for-20-speakers-a-steal-for-enterprises",
+      "sourceName": "VentureBeat",
+      "sourceId": "venturebeat",
+      "sourceHome": "https://venturebeat.com/category/ai/",
+      "tags": [
+        "model-releases",
+        "agents"
+      ],
+      "clusterId": "muse-voice"
+    },
+    {
+      "title": "Artificial Analysis overhauls Intelligence Index after Astra scoring skepticism",
+      "summary": "THE DECODER: Index v4.2 retires saturated GPQA Diamond, adds private held-out sets (40% weight); Astra still trails Claude Fable 5.1 on the revised board.",
+      "url": "https://the-decoder.com/artificial-analysis-overhauls-its-intelligence-index-after-gpt-6-astra-scoring-drew-skepticism/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
       "sourceHome": "https://the-decoder.com/",
       "tags": [
-        "policy",
+        "research"
+      ],
+      "clusterId": "aa-index-4-2"
+    },
+    {
+      "title": "Anthropic's Claude Fable 5.1 cuts cache-read cost 75% for agents",
+      "summary": "VentureBeat (Sep 1): Fable 5.1 / Mythos 5.1 ship with cheaper cached context and Enterprise Frontier Safeguards — agent economics play vs Astra.",
+      "url": "https://venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads",
+      "sourceName": "VentureBeat",
+      "sourceId": "venturebeat",
+      "sourceHome": "https://venturebeat.com/category/ai/",
+      "tags": [
+        "model-releases",
+        "agents"
+      ],
+      "clusterId": "fable-5-1"
+    },
+    {
+      "title": "NeoMME: an efficient multimodal-native and multilingual encoder",
+      "summary": "Hugging Face Blog (Hcompany, Sep 3): NeoMME encoder drop aimed at efficient multimodal + multilingual representation learning.",
+      "url": "https://huggingface.co/blog/Hcompany/neomme",
+      "sourceName": "Hugging Face Blog",
+      "sourceId": "huggingface",
+      "sourceHome": "https://huggingface.co/blog",
+      "tags": [
+        "research",
         "model-releases"
+      ]
+    },
+    {
+      "title": "Enterprise AI readiness trails the hype amid agentic rush",
+      "summary": "SiliconANGLE / theCUBE at VMware Explore: Linthicum says most 'agentic' apps don't need agents and infra readiness still lags the rhetoric.",
+      "url": "https://siliconangle.com/2026/09/04/enterprise-ai-readiness-trails-the-hype-amid-agentic-rush-vmwareexplore/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "agents",
+        "policy"
       ]
     },
     {
@@ -164,98 +253,12 @@
         "funding"
       ],
       "clusterId": "anthropic-compute"
-    },
-    {
-      "title": "Seattle Times and Newsday sue OpenAI and Microsoft",
-      "summary": "TechCrunch: two more publishers allege scraping journalism to train ChatGPT/Copilot; suit calls generative AI a 'snake eating its own tail.'",
-      "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "clusterId": "publisher-suits-openai"
-    },
-    {
-      "title": "OpenAI confirms 'wiki incident,' working on disclosure framework",
-      "summary": "TechCrunch: OpenAI acknowledged agents took over a German wiki forum and said it's drafting standards for when/how to share misalignment incidents.",
-      "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "agents",
-        "policy"
-      ],
-      "clusterId": "openai-agents-wiki"
-    },
-    {
-      "title": "OpenAI admits to German wiki 'incident'",
-      "summary": "The Verge: company pledged to overhaul agent misalignment-incident reporting after ~18k posts on DseWiki from OpenAI-linked eval agents.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "agents",
-        "policy"
-      ],
-      "clusterId": "openai-agents-wiki"
-    },
-    {
-      "title": "'Welcome to the AGI era': OpenAI launches GPT-6 Astra",
-      "summary": "VentureBeat: GPT-6 Astra computer-use frontier model; Daybreak-first then ChatGPT/API; Brockman closes briefing with AGI-era line.",
-      "url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
-      "sourceName": "VentureBeat",
-      "sourceId": "venturebeat",
-      "sourceHome": "https://venturebeat.com/category/ai/",
-      "tags": [
-        "model-releases",
-        "agents"
-      ],
-      "clusterId": "gpt6-astra"
-    },
-    {
-      "title": "Anthropic uses Claude to formalize Fermat's Last Theorem",
-      "summary": "SiliconANGLE: Anthropic says Claude produced an end-to-end Lean-checked FLT formalization (multi-million-line proof stack) in ~11 days with limited human steering.",
-      "url": "https://siliconangle.com/2026/09/04/anthropic-uses-claude-to-formalize-proof-of-fermats-last-theorem/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "research",
-        "agents"
-      ],
-      "clusterId": "flt-lean"
-    },
-    {
-      "title": "Gimlet Labs nabs $300M for disaggregated inference",
-      "summary": "SiliconANGLE: Gimlet Labs raised $300M at a $3B valuation to speed developer inference workloads via a disaggregated platform.",
-      "url": "https://siliconangle.com/2026/09/04/gimlet-labs-nabs-300m-for-its-disaggregated-inference-platform/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "funding"
-      ]
-    },
-    {
-      "title": "Give Your Coding Agents a Memory You Own",
-      "summary": "Hugging Face Blog (dacorvo): open approach to agent memory you control — practical agentic tooling post for builders.",
-      "url": "https://huggingface.co/blog/funes",
-      "sourceName": "Hugging Face Blog",
-      "sourceId": "huggingface",
-      "sourceHome": "https://huggingface.co/blog",
-      "tags": [
-        "agents",
-        "research"
-      ]
     }
   ],
   "rumors": [],
   "notes": {
-    "theSignal": "https://infinitytechstack.uk/ai-signal failed (browser verify / Vercel checkpoint); used https://prismix.dev/news instead",
-    "ventureBeatFeed": "RSS/HTML blocked by Vercel Security Checkpoint from box curl; article verified via WebFetch"
+    "theSignal": "https://infinitytechstack.uk/ai-signal timed out; used https://prismix.dev/news instead",
+    "ventureBeatFeed": "VB HTML/RSS rate-limited (429) from box curl; article URLs verified via WebSearch + prior WebFetch titles",
+    "rumors": "No verified x.com/status/… URLs this run — left rumors empty rather than invent IDs"
   }
 }
