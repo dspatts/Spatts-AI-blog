@@ -1199,6 +1199,18 @@ function renderHtml(payload) {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+  (function () {
+    try {
+      var savedTheme = localStorage.getItem("ai-source-theme");
+      if (savedTheme === "light" || savedTheme === "dark") {
+        document.documentElement.setAttribute("data-theme", savedTheme);
+      }
+    } catch (error) {
+      /* Theme persistence is optional when storage is unavailable. */
+    }
+  })();
+  </script>
   <title>Ai Source — AI news</title>
   <meta name="description" content="Top AI news from TechCrunch, VentureBeat, The Verge, AI/TLDR, The Signal, and X. Refreshed every 3 hours.">
   <meta http-equiv="refresh" content="10800">
@@ -1213,9 +1225,12 @@ function renderHtml(payload) {
       <div class="masthead-top">
         <p class="kicker"><span>Multi-source AI news</span></p>
         <div class="masthead-aside">
-          <p class="sydney-clock">
-            <time id="sydney-clock" datetime="${escapeHtml(clockIso)}" aria-label="Current time in Australia/Sydney">${escapeHtml(clockText)}</time>
-          </p>
+          <div class="masthead-controls">
+            <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Switch to light theme" aria-pressed="false">☀ Light</button>
+            <p class="sydney-clock">
+              <time id="sydney-clock" datetime="${escapeHtml(clockIso)}" aria-label="Current time in Australia/Sydney">${escapeHtml(clockText)}</time>
+            </p>
+          </div>
           <p class="kicker-cadence">Every 3 hours</p>
         </div>
       </div>
@@ -1236,6 +1251,33 @@ function renderHtml(payload) {
     <footer>Ai Source aggregates headlines from TechCrunch, VentureBeat, The Verge, AI/TLDR, The Signal, and X, then clusters the same event across outlets. Original posts stay on their publishers’ sites.</footer>
   </div>
 <script>
+(function () {
+  var toggle = document.getElementById("theme-toggle");
+  if (!toggle) return;
+
+  function applyTheme(theme) {
+    var isLight = theme === "light";
+    document.documentElement.setAttribute("data-theme", isLight ? "light" : "dark");
+    toggle.setAttribute("aria-pressed", String(isLight));
+    toggle.setAttribute("aria-label", isLight ? "Switch to dark theme" : "Switch to light theme");
+    toggle.textContent = isLight ? "☾ Dark" : "☀ Light";
+  }
+
+  var initialTheme =
+    document.documentElement.getAttribute("data-theme") === "light" ? "light" : "dark";
+  applyTheme(initialTheme);
+
+  toggle.addEventListener("click", function () {
+    var nextTheme =
+      document.documentElement.getAttribute("data-theme") === "light" ? "dark" : "light";
+    applyTheme(nextTheme);
+    try {
+      localStorage.setItem("ai-source-theme", nextTheme);
+    } catch (error) {
+      /* Keep the in-page switch working when storage is unavailable. */
+    }
+  });
+})();
 (function () {
   var fmt = new Intl.DateTimeFormat("en-AU", {
     timeZone: "Australia/Sydney",

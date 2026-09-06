@@ -34,11 +34,9 @@
     {
       "id": "aitldr",
       "name": "AI/TLDR",
-      "ok": false,
-      "count": 0,
-      "errors": [
-        "blocked https://ai-tldr.dev/feed.xml"
-      ]
+      "ok": true,
+      "count": 50,
+      "errors": []
     },
     {
       "id": "signal",
@@ -64,8 +62,8 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-06T02:16:14.868Z",
-  "refreshedAt": "2026-09-06T02:16:14.868Z",
+  "briefingDate": "2026-09-06T03:51:01.272Z",
+  "refreshedAt": "2026-09-06T03:51:01.272Z",
   "preferCurated": true,
   "posts": [
     {
@@ -205,35 +203,35 @@
       "clusterSize": 1
     },
     {
-      "id": "signal:https://news.ycombinator.com/item?id=49577975",
-      "url": "https://news.ycombinator.com/item?id=49577975",
-      "title": "216 pts · 91 comments on HN",
-      "summary": "216 pts · 91 comments on HN",
+      "id": "signal:https://news.ycombinator.com/item?id=49580369",
+      "url": "https://news.ycombinator.com/item?id=49580369",
+      "title": "204 pts · 84 comments on HN",
+      "summary": "204 pts · 84 comments on HN",
       "sourceId": "signal",
       "sourceName": "The Signal",
       "sourceHome": "https://infinitytechstack.uk/ai-signal",
       "publishedAt": null,
-      "publishedTs": 1788660974855,
+      "publishedTs": 1788666661183,
       "tags": [],
       "related": [],
-      "clusterId": "auto:216-pts-91-comments-on-hn",
+      "clusterId": "auto:204-pts-84-comments-on-hn",
       "clusterSize": 1
     },
     {
-      "id": "techcrunch:https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
-      "url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
-      "title": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
-      "summary": "",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-04T23:36:14.000Z",
-      "publishedTs": 1788564974000,
+      "id": "aitldr:https://ai-tldr.dev/releases/sglang-0-5-19/",
+      "url": "https://ai-tldr.dev/releases/sglang-0-5-19/",
+      "title": "SGLang v0.5.19 — beam search arrives, plus 786 merged pull requests",
+      "summary": "SGLang's September release adds beam search, nine more models, and an AMD attention kernel that fills idle compute units.",
+      "sourceId": "aitldr",
+      "sourceName": "AI/TLDR",
+      "sourceHome": "https://ai-tldr.dev/",
+      "publishedAt": "2026-09-05T00:00:00.000Z",
+      "publishedTs": 1788566400000,
       "tags": [
-        "funding"
+        "model-releases"
       ],
       "related": [],
-      "clusterId": "auto:xdof-just-three-months-out-of-stealth-is-in-talk",
+      "clusterId": "auto:sglang-v0-5-19-beam-search-arrives-plus-786-merg",
       "clusterSize": 1
     },
     {
@@ -246,13 +244,22 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-05T05:01:39.000Z",
       "publishedTs": 1788584499000,
-      "score": 75390,
+      "score": 76602,
       "authorHandle": "thsottiaux",
       "tags": [
         "model-releases",
-        "agents"
+        "agents",
+        "research"
       ],
       "related": [
+        {
+          "title": "Wes Roth — 'OpenAI just crossed a THRESHOLD' on 12.5 hours of Astra",
+          "url": "https://ai-tldr.dev/releases/wes-roth-astra-threshold-sep5/",
+          "sourceId": "aitldr",
+          "sourceName": "AI/TLDR",
+          "sourceHome": "https://ai-tldr.dev/",
+          "publishedAt": "2026-09-05T00:00:00.000Z"
+        },
         {
           "title": "Sam Altman apologizes for ‘messy’ GPT-6 Astra rollout that’s locked out paying users",
           "url": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
@@ -279,7 +286,7 @@
         }
       ],
       "clusterId": "topic:astra",
-      "clusterSize": 4
+      "clusterSize": 5
     },
     {
       "id": "x:2095947707605266436",
@@ -291,7 +298,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-04T18:50:48.000Z",
       "publishedTs": 1788547848000,
-      "score": 66933,
+      "score": 68007,
       "authorHandle": "anthropicai",
       "tags": [],
       "related": [],
@@ -308,11 +315,11 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-03T13:47:02.000Z",
       "publishedTs": 1788443222000,
-      "score": 18172,
+      "score": 18181,
       "authorHandle": "huggingface",
       "tags": [],
       "related": [],
-      "clusterId": "auto:17",
+      "clusterId": "auto:50",
       "clusterSize": 1
     }
   ],
