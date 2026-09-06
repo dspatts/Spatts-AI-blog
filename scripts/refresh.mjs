@@ -1247,7 +1247,7 @@ function renderHtml(payload) {
       ${stories || empty}
       <div class="empty" id="filter-empty" hidden>No stories in this category right now.</div>
     </main>
-    <p class="status">Last refresh: ${refreshed} · ${escapeHtml(sourcesLine)}</p>
+    <p class="status">Last refresh: ${refreshed}</p>
     <footer>Ai Source aggregates headlines from TechCrunch, VentureBeat, The Verge, AI/TLDR, The Signal, and X, then clusters the same event across outlets. Original posts stay on their publishers’ sites.</footer>
   </div>
 <script>
