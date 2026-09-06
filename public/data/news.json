@@ -78,8 +78,8 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-06T11:13:21.963Z",
-  "refreshedAt": "2026-09-06T11:13:21.963Z",
+  "briefingDate": "2026-09-06T14:13:42.569Z",
+  "refreshedAt": "2026-09-06T14:13:42.569Z",
   "preferCurated": true,
   "posts": [
     {
@@ -90,32 +90,13 @@
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-06T11:12:00.000Z",
-      "publishedTs": 1788693120000,
+      "publishedAt": "2026-09-06T14:10:00.000Z",
+      "publishedTs": 1788703800000,
       "curated": true,
       "tags": [
         "policy"
       ],
       "clusterId": "id:publisher-suits-openai",
-      "related": [],
-      "clusterSize": 1
-    },
-    {
-      "id": "curated:https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
-      "url": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
-      "title": "Hikers rescued after using Google Gemini for planning",
-      "summary": "Siskiyou County sheriff: Mount Shasta hikers 'were advised by Gemini to bring far less food and water than their group required' after an 8-hour plan became a multi-day ordeal.",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-06T11:12:00.000Z",
-      "publishedTs": 1788693119999,
-      "curated": true,
-      "tags": [
-        "model-releases",
-        "agents"
-      ],
-      "clusterId": "auto:hikers-rescued-after-using-google-gemini-for-pla",
       "related": [],
       "clusterSize": 1
     },
@@ -127,8 +108,8 @@
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-06T11:12:00.000Z",
-      "publishedTs": 1788693119998,
+      "publishedAt": "2026-09-06T14:10:00.000Z",
+      "publishedTs": 1788703799999,
       "curated": true,
       "tags": [
         "agents",
@@ -143,99 +124,129 @@
           "sourceId": "theverge",
           "sourceName": "The Verge",
           "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-          "publishedAt": "2026-09-06T11:12:00.000Z"
+          "publishedAt": "2026-09-06T14:10:00.000Z"
         },
         {
           "title": "OpenAI pledges new rules for reporting agent misalignment",
-          "url": "https://prismix.dev/news/13f05ddef754",
+          "url": "https://prismix.dev/news",
           "sourceId": "prismix",
           "sourceName": "Prismix",
           "sourceHome": "https://prismix.dev/news",
-          "publishedAt": "2026-09-06T11:12:00.000Z"
-        },
-        {
-          "title": "Report: OpenAI agents took over a website to collaborate on benchmarks",
-          "url": "https://siliconangle.com/2026/09/04/report-openai-agents-took-over-a-website-used-it-to-collaborate-on-benchmarks/",
-          "sourceId": "siliconangle",
-          "sourceName": "SiliconANGLE",
-          "sourceHome": "https://siliconangle.com/",
-          "publishedAt": "2026-09-06T11:12:00.000Z"
+          "publishedAt": "2026-09-06T14:10:00.000Z"
         }
       ],
-      "clusterSize": 4
+      "clusterSize": 3
     },
     {
-      "id": "curated:https://the-decoder.com/googles-weathernext-3-ditches-physics-simulations-and-learns-weather-directly-from-live-satellite-data/",
-      "url": "https://the-decoder.com/googles-weathernext-3-ditches-physics-simulations-and-learns-weather-directly-from-live-satellite-data/",
-      "title": "Google's WeatherNext 3 learns weather from live satellite data",
-      "summary": "THE DECODER: DeepMind/Google Research skip traditional physics sims; hourly forecasts up to 5km resolution — biggest gains claimed for Africa, LatAm, Asia-Pacific.",
-      "sourceId": "decoder",
-      "sourceName": "THE DECODER",
-      "sourceHome": "https://the-decoder.com/",
-      "publishedAt": "2026-09-06T11:12:00.000Z",
-      "publishedTs": 1788693119994,
+      "id": "curated:https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
+      "url": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
+      "title": "Hikers rescued after using Google Gemini for planning",
+      "summary": "Siskiyou County sheriff: Mount Shasta hikers 'were advised by Gemini to bring far less food and water than their group required' after an 8-hour plan became a multi-day ordeal.",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "publishedAt": "2026-09-06T14:10:00.000Z",
+      "publishedTs": 1788703799996,
       "curated": true,
       "tags": [
         "model-releases",
-        "research"
+        "agents"
       ],
-      "clusterId": "id:weathernext-3",
-      "related": [
-        {
-          "title": "WeatherNext 3 — DeepMind weather model goes hourly at 5km",
-          "url": "https://ai-tldr.dev/",
-          "sourceId": "ai-tldr",
-          "sourceName": "AI/TLDR",
-          "sourceHome": "https://ai-tldr.dev/",
-          "publishedAt": "2026-09-06T11:12:00.000Z"
-        }
-      ],
-      "clusterSize": 2
-    },
-    {
-      "id": "curated:https://the-decoder.com/google-brings-ai-music-generation-directly-into-the-gemini-app-with-its-new-lyria-3-5-model/",
-      "url": "https://the-decoder.com/google-brings-ai-music-generation-directly-into-the-gemini-app-with-its-new-lyria-3-5-model/",
-      "title": "Google brings Lyria 3.5 music generation into the Gemini app",
-      "summary": "THE DECODER: Lyria 3.5 in Gemini app + API/Flow Music/AI Studio/Vids; Google says trained only on licensed content (contrast with Suno disputes).",
-      "sourceId": "decoder",
-      "sourceName": "THE DECODER",
-      "sourceHome": "https://the-decoder.com/",
-      "publishedAt": "2026-09-06T11:12:00.000Z",
-      "publishedTs": 1788693119992,
-      "curated": true,
-      "tags": [
-        "model-releases"
-      ],
-      "clusterId": "auto:google-brings-lyria-3-5-music-generation-into-th",
+      "clusterId": "auto:hikers-rescued-after-using-google-gemini-for-pla",
       "related": [],
       "clusterSize": 1
     },
     {
-      "id": "decoder:https://the-decoder.com/stripping-safety-guardrails-from-open-weight-ai-models-is-now-a-turnkey-commercial-service/",
-      "url": "https://the-decoder.com/stripping-safety-guardrails-from-open-weight-ai-models-is-now-a-turnkey-commercial-service/",
-      "title": "Stripping safety guardrails from open-weight AI models is now a turnkey commercial service",
-      "summary": "Abliteration.ai sells access to modified open-weight models with their trained safety mechanisms stripped out, currently based on Z.AI's…",
+      "id": "curated:https://the-decoder.com/chatbots-built-an-echo-chamber-of-one-and-now-psychiatry-has-to-decide-if-ai-psychosis-exists/",
+      "url": "https://the-decoder.com/chatbots-built-an-echo-chamber-of-one-and-now-psychiatry-has-to-decide-if-ai-psychosis-exists/",
+      "title": "Chatbots built an 'echo chamber of one' — psychiatry debates 'AI psychosis'",
+      "summary": "THE DECODER (Sep 6): King's/UCL-led review on AI-associated psychosis — sycophancy + human-like design create self-reinforcing belief loops; PsychosisBench finds models reinforce delusions often.",
       "sourceId": "decoder",
       "sourceName": "THE DECODER",
       "sourceHome": "https://the-decoder.com/",
-      "publishedAt": "2026-09-06T08:55:56.000Z",
-      "publishedTs": 1788684956000,
+      "publishedAt": "2026-09-06T14:10:00.000Z",
+      "publishedTs": 1788703799995,
+      "curated": true,
       "tags": [
         "model-releases",
+        "research",
+        "policy"
+      ],
+      "clusterId": "auto:chatbots-built-an-echo-chamber-of-one-psychiatry",
+      "related": [],
+      "clusterSize": 1
+    },
+    {
+      "id": "curated:https://the-decoder.com/artificial-analysis-overhauls-its-intelligence-index-after-gpt-6-astra-scoring-drew-skepticism/",
+      "url": "https://the-decoder.com/artificial-analysis-overhauls-its-intelligence-index-after-gpt-6-astra-scoring-drew-skepticism/",
+      "title": "Artificial Analysis overhauls Intelligence Index after Astra scoring skepticism",
+      "summary": "THE DECODER: Index v4.2 drops saturated GPQA Diamond, adds AA-Briefcase + GDP.pdf, private tests now 40% weight. Astra +4 vs predecessor but still trails Claude Fable 5.1.",
+      "sourceId": "decoder",
+      "sourceName": "THE DECODER",
+      "sourceHome": "https://the-decoder.com/",
+      "publishedAt": "2026-09-06T14:10:00.000Z",
+      "publishedTs": 1788703799994,
+      "curated": true,
+      "tags": [
+        "model-releases",
+        "agents",
+        "research"
+      ],
+      "clusterId": "id:aa-index-4-2",
+      "related": [],
+      "clusterSize": 1
+    },
+    {
+      "id": "decoder:https://the-decoder.com/openai-developer-claims-astra-boosted-productivity-so-much-it-pulled-some-plans-forward-by-six-months/",
+      "url": "https://the-decoder.com/openai-developer-claims-astra-boosted-productivity-so-much-it-pulled-some-plans-forward-by-six-months/",
+      "title": "OpenAI developer claims Astra boosted productivity so much it pulled some plans forward by six months",
+      "summary": "OpenAI developer Thibault Sottiaux calls Astra the company's \"biggest competitive advantage\" while it wasn't publicly available.",
+      "sourceId": "decoder",
+      "sourceName": "THE DECODER",
+      "sourceHome": "https://the-decoder.com/",
+      "publishedAt": "2026-09-06T10:15:17.000Z",
+      "publishedTs": 1788689717000,
+      "tags": [
+        "model-releases",
+        "agents",
         "research"
       ],
       "related": [
         {
-          "title": "Abliteration.ai is making a business out of removing AI guardrails",
-          "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
+          "title": "Astra was probably our biggest competitive advantage while it wasn’t generally available.",
+          "url": "https://x.com/thsottiaux/status/2096101429832552872",
+          "sourceId": "x",
+          "sourceName": "X",
+          "sourceHome": "https://x.com",
+          "publishedAt": "2026-09-05T05:01:39.000Z"
+        },
+        {
+          "title": "OpenClaw 2026.9.2 — GPT-6 Astra support and swarms on by default",
+          "url": "https://ai-tldr.dev/releases/openclaw-2026-9-2/",
+          "sourceId": "aitldr",
+          "sourceName": "AI/TLDR",
+          "sourceHome": "https://ai-tldr.dev/",
+          "publishedAt": "2026-09-05T00:00:00.000Z"
+        },
+        {
+          "title": "OpenAI starts rolling out its next-generation GPT-6 Astra model",
+          "url": "https://siliconangle.com/2026/09/03/openai-starts-rolling-out-its-next-generation-gpt-6-astra-model/",
+          "sourceId": "siliconangle",
+          "sourceName": "SiliconANGLE",
+          "sourceHome": "https://siliconangle.com/",
+          "publishedAt": "2026-09-03T22:46:31.000Z"
+        },
+        {
+          "title": "OpenAI launches Astra, its powerful (and controversial) new model",
+          "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
           "sourceId": "techcrunch",
           "sourceName": "TechCrunch",
           "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-          "publishedAt": "2026-09-03T18:37:57.000Z"
+          "publishedAt": "2026-09-03T18:01:45.000Z"
         }
       ],
-      "clusterId": "topic:abliteration",
-      "clusterSize": 2
+      "clusterId": "topic:astra",
+      "clusterSize": 5
     },
     {
       "id": "siliconangle:https://siliconangle.com/2026/09/05/post-quantum-digicert-readiness-day-thecube-digicertworldquantumreadinessday/",
@@ -262,7 +273,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-04T18:50:48.000Z",
       "publishedTs": 1788547848000,
-      "score": 60377,
+      "score": 62022,
       "authorHandle": "anthropicai",
       "tags": [],
       "related": [],
@@ -270,20 +281,22 @@
       "clusterSize": 1
     },
     {
-      "id": "x:2095508870915338284",
-      "url": "https://x.com/huggingface/status/2095508870915338284",
-      "title": "🤗💚",
-      "summary": "🤗💚",
+      "id": "x:2096271545589190927",
+      "url": "https://x.com/AIatMeta/status/2096271545589190927",
+      "title": "As a test of our progress to advance the frontier of AI research, in June we entered the next generation of…",
+      "summary": "As a test of our progress to advance the frontier of AI research, in June we entered the next generation of our autonomous AI research…",
       "sourceId": "x",
       "sourceName": "X",
       "sourceHome": "https://x.com",
-      "publishedAt": "2026-09-03T13:47:02.000Z",
-      "publishedTs": 1788443222000,
-      "score": 18221,
-      "authorHandle": "huggingface",
-      "tags": [],
+      "publishedAt": "2026-09-05T16:17:37.000Z",
+      "publishedTs": 1788625057000,
+      "score": 7174,
+      "authorHandle": "aiatmeta",
+      "tags": [
+        "research"
+      ],
       "related": [],
-      "clusterId": "auto:783",
+      "clusterId": "auto:as-a-test-of-our-progress-to-advance-the-frontie",
       "clusterSize": 1
     },
     {
@@ -296,7 +309,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-03T15:03:05.000Z",
       "publishedTs": 1788447785000,
-      "score": 6984,
+      "score": 7004,
       "authorHandle": "googledeepmind",
       "tags": [
         "model-releases"
