@@ -15,6 +15,16 @@ https://dspatts.github.io/Spatts-AI-blog/
 
 Refreshed about **every 3 hours** by GitHub Actions.
 
+## Install as an app (PWA)
+
+Ai Source is installable on phones and desktops:
+
+- **iPhone / iPad (Safari):** Share → **Add to Home Screen**
+- **Android (Chrome):** menu → **Install app** / **Add to Home screen**
+- **Desktop Chrome / Edge:** install icon in the address bar
+
+The service worker keeps the last briefing available offline. Fresh clusters still come from the usual 3-hour refresh when you are online.
+
 ## Manual refresh
 
 In the repo: **Actions → Refresh + Pages → Run workflow**.

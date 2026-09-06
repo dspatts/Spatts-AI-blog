@@ -1213,7 +1213,17 @@ function renderHtml(payload) {
   </script>
   <title>Ai Source — AI news</title>
   <meta name="description" content="Top AI news from TechCrunch, VentureBeat, The Verge, AI/TLDR, The Signal, and X. Refreshed every 3 hours.">
+  <meta name="theme-color" content="#1a1b26" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Ai Source">
   <meta http-equiv="refresh" content="10800">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icons/icon.svg" type="image/svg+xml">
+  <link rel="icon" href="./icons/icon-192.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" sizes="180x180">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -1261,6 +1271,13 @@ function renderHtml(payload) {
     toggle.setAttribute("aria-pressed", String(isLight));
     toggle.setAttribute("aria-label", isLight ? "Switch to dark theme" : "Switch to light theme");
     toggle.textContent = isLight ? "☾ Dark" : "☀ Light";
+    var themeMeta = document.querySelector('meta[name="theme-color"]:not([media])');
+    if (!themeMeta) {
+      themeMeta = document.createElement("meta");
+      themeMeta.setAttribute("name", "theme-color");
+      document.head.appendChild(themeMeta);
+    }
+    themeMeta.setAttribute("content", isLight ? "#ffffff" : "#1a1b26");
   }
 
   var initialTheme =
@@ -1350,6 +1367,14 @@ function renderHtml(payload) {
     }
     var empty = document.getElementById("filter-empty");
     if (empty) empty.hidden = visible > 0;
+  });
+})();
+(function () {
+  if (!("serviceWorker" in navigator)) return;
+  window.addEventListener("load", function () {
+    navigator.serviceWorker.register("./sw.js").catch(function () {
+      /* Offline shell is optional when registration fails. */
+    });
   });
 })();
 </script>
