@@ -422,7 +422,7 @@ function parseRssOrAtom(xml, source) {
       block.match(/<link[^>]*>([\s\S]*?)<\/link>/i)?.[1] ||
       "";
     link = decodeEntities(stripTags(link));
-    const googleReal = link.match(/url=([^&]+)/);
+    const googleReal = link.match(/[?&]url=([^&]+)/);
     if (googleReal) {
       try {
         link = decodeURIComponent(googleReal[1]);
@@ -430,6 +430,8 @@ function parseRssOrAtom(xml, source) {
         /* keep */
       }
     }
+    // Google News article wrappers often can't be unwrapped without JS — drop them.
+    if (/^https?:\/\/(news\.)?google\.com\//i.test(link)) continue;
     const rawDate =
       block.match(/<pubDate[^>]*>([\s\S]*?)<\/pubDate>/i)?.[1] ||
       block.match(/<published[^>]*>([\s\S]*?)<\/published>/i)?.[1] ||

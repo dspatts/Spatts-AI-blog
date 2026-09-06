@@ -20,10 +20,11 @@
     {
       "id": "venturebeat",
       "name": "VentureBeat",
-      "ok": true,
-      "count": 14,
+      "ok": false,
+      "count": 0,
       "errors": [
-        "429 https://venturebeat.com/category/ai/feed/"
+        "429 https://venturebeat.com/category/ai/feed/",
+        "empty https://news.google.com/rss/search?q=site:venturebeat.com+(AI+OR+OpenAI+OR+Anthropic+OR+GPT+OR+Claude)+when:3d&hl=en-US&gl=US&ceid=US:en"
       ]
     },
     {
@@ -86,8 +87,8 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-06T10:46:33.124Z",
-  "refreshedAt": "2026-09-06T10:46:33.124Z",
+  "briefingDate": "2026-09-06T10:50:09.319Z",
+  "refreshedAt": "2026-09-06T10:50:09.319Z",
   "preferCurated": false,
   "posts": [
     {
@@ -163,18 +164,10 @@
           "sourceName": "TechCrunch",
           "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
           "publishedAt": "2026-09-03T18:01:45.000Z"
-        },
-        {
-          "title": "'Welcome to the AGI era': OpenAI launches GPT-6 Astra - VentureBeat",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWnROVEdOT3E2dnZXYkIzUWtIckZfZDNLV1QzdHpiUDJheDI5cU9qX25MSlo4dURZMlcwR1hUU0lhNHY3VVk3Z3M1UkZQMDB5RjRjcldsVUZKNnFXR2QyS2FObElZWk5fcU5PN3FWSktTemFqcmhiRnZJVy15N3FKZlBNQ0tNTlh0Wm9naUdR?oc=5",
-          "sourceId": "venturebeat",
-          "sourceName": "VentureBeat",
-          "sourceHome": "https://venturebeat.com/category/ai/",
-          "publishedAt": "2026-09-03T18:00:12.000Z"
         }
       ],
       "clusterId": "topic:astra",
-      "clusterSize": 7
+      "clusterSize": 6
     },
     {
       "id": "decoder:https://the-decoder.com/google-brings-ai-music-generation-directly-into-the-gemini-app-with-its-new-lyria-3-5-model/",
@@ -298,7 +291,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-04T18:50:48.000Z",
       "publishedTs": 1788547848000,
-      "score": 60154,
+      "score": 60171,
       "authorHandle": "anthropicai",
       "tags": [],
       "related": [],
@@ -315,7 +308,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-03T15:03:05.000Z",
       "publishedTs": 1788447785000,
-      "score": 6980,
+      "score": 6982,
       "authorHandle": "googledeepmind",
       "tags": [
         "model-releases"
@@ -338,7 +331,7 @@
       "authorHandle": "huggingface",
       "tags": [],
       "related": [],
-      "clusterId": "auto:789",
+      "clusterId": "auto:787",
       "clusterSize": 1
     }
   ],
