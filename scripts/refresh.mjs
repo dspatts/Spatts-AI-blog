@@ -78,6 +78,24 @@ const SOURCES = [
       "https://prismix.dev/news",
     ],
   },
+  {
+    id: "decoder",
+    name: "THE DECODER",
+    home: "https://the-decoder.com/",
+    feeds: ["https://the-decoder.com/feed/"],
+  },
+  {
+    id: "huggingface",
+    name: "Hugging Face Blog",
+    home: "https://huggingface.co/blog",
+    feeds: ["https://huggingface.co/blog/feed.xml"],
+  },
+  {
+    id: "siliconangle",
+    name: "SiliconANGLE",
+    home: "https://siliconangle.com/",
+    feeds: ["https://siliconangle.com/feed/"],
+  },
 ];
 
 const AI_HINT =
@@ -1212,7 +1230,7 @@ function renderHtml(payload) {
   })();
   </script>
   <title>Ai Source — AI news</title>
-  <meta name="description" content="Top AI news from TechCrunch, VentureBeat, The Verge, AI/TLDR, The Signal, and X. Refreshed every 3 hours.">
+  <meta name="description" content="Top AI news from TechCrunch, VentureBeat, The Verge, AI/TLDR, The Signal, THE DECODER, Hugging Face Blog, SiliconANGLE, and X. Refreshed every 3 hours.">
   <meta http-equiv="refresh" content="10800">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1248,7 +1266,7 @@ function renderHtml(payload) {
       <div class="empty" id="filter-empty" hidden>No stories in this category right now.</div>
     </main>
     <p class="status">Last refresh: ${refreshed}</p>
-    <footer>Ai Source aggregates headlines from TechCrunch, VentureBeat, The Verge, AI/TLDR, The Signal, and X, then clusters the same event across outlets. Original posts stay on their publishers’ sites.</footer>
+    <footer>Ai Source aggregates headlines from TechCrunch, VentureBeat, The Verge, AI/TLDR, The Signal, THE DECODER, Hugging Face Blog, SiliconANGLE, and X, then clusters the same event across outlets. Original posts stay on their publishers’ sites.</footer>
   </div>
 <script>
 (function () {

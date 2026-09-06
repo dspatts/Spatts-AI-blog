@@ -48,6 +48,27 @@
       ]
     },
     {
+      "id": "decoder",
+      "name": "THE DECODER",
+      "ok": true,
+      "count": 10,
+      "errors": []
+    },
+    {
+      "id": "huggingface",
+      "name": "Hugging Face Blog",
+      "ok": true,
+      "count": 859,
+      "errors": []
+    },
+    {
+      "id": "siliconangle",
+      "name": "SiliconANGLE",
+      "ok": true,
+      "count": 30,
+      "errors": []
+    },
+    {
       "id": "x",
       "name": "X",
       "ok": true,
@@ -62,8 +83,8 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-06T09:03:19.055Z",
-  "refreshedAt": "2026-09-06T09:03:19.055Z",
+  "briefingDate": "2026-09-06T09:43:31.989Z",
+  "refreshedAt": "2026-09-06T09:43:31.989Z",
   "preferCurated": true,
   "posts": [
     {
@@ -188,80 +209,38 @@
       "sourceName": "The Signal",
       "sourceHome": "https://infinitytechstack.uk/ai-signal",
       "publishedAt": null,
-      "publishedTs": 1788685399017,
+      "publishedTs": 1788687810038,
       "tags": [],
       "related": [],
       "clusterId": "auto:208-pts-85-comments-on-hn",
       "clusterSize": 1
     },
     {
-      "id": "techcrunch:https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
-      "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
-      "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
-      "summary": "",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-05T22:49:55.000Z",
-      "publishedTs": 1788648595000,
-      "tags": [],
-      "related": [],
-      "clusterId": "auto:seattle-times-and-newsday-are-the-latest-publica",
-      "clusterSize": 1
-    },
-    {
-      "id": "x:2096101429832552872",
-      "url": "https://x.com/thsottiaux/status/2096101429832552872",
-      "title": "Astra was probably our biggest competitive advantage while it wasn’t generally available.",
-      "summary": "Astra was probably our biggest competitive advantage while it wasn’t generally available. Since we’ve had it our productivity jumped so…",
-      "sourceId": "x",
-      "sourceName": "X",
-      "sourceHome": "https://x.com",
-      "publishedAt": "2026-09-05T05:01:39.000Z",
-      "publishedTs": 1788584499000,
-      "score": 79685,
-      "authorHandle": "thsottiaux",
+      "id": "decoder:https://the-decoder.com/stripping-safety-guardrails-from-open-weight-ai-models-is-now-a-turnkey-commercial-service/",
+      "url": "https://the-decoder.com/stripping-safety-guardrails-from-open-weight-ai-models-is-now-a-turnkey-commercial-service/",
+      "title": "Stripping safety guardrails from open-weight AI models is now a turnkey commercial service",
+      "summary": "Abliteration.ai sells access to modified open-weight models with their trained safety mechanisms stripped out, currently based on Z.AI's…",
+      "sourceId": "decoder",
+      "sourceName": "THE DECODER",
+      "sourceHome": "https://the-decoder.com/",
+      "publishedAt": "2026-09-06T08:55:56.000Z",
+      "publishedTs": 1788684956000,
       "tags": [
         "model-releases",
-        "agents",
         "research"
       ],
       "related": [
         {
-          "title": "Wes Roth — 'OpenAI just crossed a THRESHOLD' on 12.5 hours of Astra",
-          "url": "https://ai-tldr.dev/releases/wes-roth-astra-threshold-sep5/",
-          "sourceId": "aitldr",
-          "sourceName": "AI/TLDR",
-          "sourceHome": "https://ai-tldr.dev/",
-          "publishedAt": "2026-09-05T00:00:00.000Z"
-        },
-        {
-          "title": "Sam Altman apologizes for ‘messy’ GPT-6 Astra rollout that’s locked out paying users",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
-          "sourceId": "verge",
-          "sourceName": "The Verge",
-          "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-          "publishedAt": "2026-09-04T10:41:48.000Z"
-        },
-        {
-          "title": "OpenAI launches Astra, its powerful (and controversial) new model",
-          "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
+          "title": "Abliteration.ai is making a business out of removing AI guardrails",
+          "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
           "sourceId": "techcrunch",
           "sourceName": "TechCrunch",
           "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-          "publishedAt": "2026-09-03T18:01:45.000Z"
-        },
-        {
-          "title": "'Welcome to the AGI era': OpenAI launches GPT-6 Astra - VentureBeat",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWnROVEdOT3E2dnZXYkIzUWtIckZfZDNLV1QzdHpiUDJheDI5cU9qX25MSlo4dURZMlcwR1hUU0lhNHY3VVk3Z3M1UkZQMDB5RjRjcldsVUZKNnFXR2QyS2FObElZWk5fcU5PN3FWSktTemFqcmhiRnZJVy15N3FKZlBNQ0tNTlh0Wm9naUdR?oc=5",
-          "sourceId": "venturebeat",
-          "sourceName": "VentureBeat",
-          "sourceHome": "https://venturebeat.com/category/ai/",
-          "publishedAt": "2026-09-03T18:00:12.000Z"
+          "publishedAt": "2026-09-03T18:37:57.000Z"
         }
       ],
-      "clusterId": "topic:astra",
-      "clusterSize": 5
+      "clusterId": "topic:abliteration",
+      "clusterSize": 2
     },
     {
       "id": "x:2095947707605266436",
@@ -273,7 +252,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-04T18:50:48.000Z",
       "publishedTs": 1788547848000,
-      "score": 59357,
+      "score": 59704,
       "authorHandle": "anthropicai",
       "tags": [],
       "related": [],
@@ -290,11 +269,30 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-03T13:47:02.000Z",
       "publishedTs": 1788443222000,
-      "score": 18205,
+      "score": 18208,
       "authorHandle": "huggingface",
       "tags": [],
       "related": [],
-      "clusterId": "auto:52",
+      "clusterId": "auto:788",
+      "clusterSize": 1
+    },
+    {
+      "id": "x:2095528012791902536",
+      "url": "https://x.com/GoogleDeepMind/status/2095528012791902536",
+      "title": "WeatherNext 3 is a major breakthrough in how we forecast global weather.",
+      "summary": "WeatherNext 3 is a major breakthrough in how we forecast global weather. ⛅ Developed with, the model learns directly from real-world,…",
+      "sourceId": "x",
+      "sourceName": "X",
+      "sourceHome": "https://x.com",
+      "publishedAt": "2026-09-03T15:03:05.000Z",
+      "publishedTs": 1788447785000,
+      "score": 6966,
+      "authorHandle": "googledeepmind",
+      "tags": [
+        "model-releases"
+      ],
+      "related": [],
+      "clusterId": "auto:weathernext-3-is-a-major-breakthrough-in-how-we-",
       "clusterSize": 1
     }
   ],
