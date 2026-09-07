@@ -497,6 +497,56 @@ h1 {
   flex: 0 0 auto;
 }
 
+.share-wrap {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.share-menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  z-index: 20;
+  min-width: 168px;
+  padding: 6px;
+  border: 1px solid var(--muted);
+  border-radius: 10px;
+  background: var(--lighter-background);
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.share-menu[hidden] {
+  display: none;
+}
+
+.share-menu-item {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 8px 10px;
+  border: 0;
+  border-radius: 7px;
+  background: transparent;
+  color: var(--bright-foreground);
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+  line-height: 1.2;
+}
+
+.share-menu-item:hover,
+.share-menu-item:focus-visible {
+  background: color-mix(in srgb, var(--accent) 16%, transparent);
+  color: var(--accent);
+  outline: none;
+}
+
 
 .source a {
   color: var(--accent);

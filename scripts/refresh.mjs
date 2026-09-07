@@ -1192,10 +1192,18 @@ function renderHtml(payload) {
   <div>
     <div class="story-top">
       <p class="source"><a href="${escapeHtml(post.sourceHome)}" target="_blank" rel="noopener noreferrer">${escapeHtml(post.sourceName)}</a></p>
-      <button type="button" class="share-pill" data-share-url="${escapeHtml(post.url)}" data-share-title="${escapeHtml(post.title)}" aria-label="Share story">
-        <svg class="share-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51l-6.82 3.98"/></svg>
-        <span class="share-label">Share</span>
-      </button>
+      <div class="share-wrap">
+        <button type="button" class="share-pill" data-share-url="${escapeHtml(post.url)}" data-share-title="${escapeHtml(post.title)}" aria-label="Share story" aria-haspopup="menu" aria-expanded="false">
+          <svg class="share-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51l-6.82 3.98"/></svg>
+          <span class="share-label">Share</span>
+        </button>
+        <div class="share-menu" role="menu" hidden>
+          <button type="button" class="share-menu-item" role="menuitem" data-share-action="copy">Copy link</button>
+          <a class="share-menu-item" role="menuitem" data-share-action="x" target="_blank" rel="noopener noreferrer">Share on X</a>
+          <a class="share-menu-item" role="menuitem" data-share-action="facebook" target="_blank" rel="noopener noreferrer">Share on Facebook</a>
+          <a class="share-menu-item" role="menuitem" data-share-action="reddit" target="_blank" rel="noopener noreferrer">Share on Reddit</a>
+        </div>
+      </div>
     </div>
     <h2><a href="${escapeHtml(post.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(post.title)}</a></h2>
     <div class="meta">
@@ -1389,6 +1397,16 @@ function renderHtml(payload) {
     var label = btn.querySelector(".share-label");
     if (label) label.textContent = text;
   }
+  function closeAllMenus(except) {
+    document.querySelectorAll(".share-wrap.is-open").forEach(function (wrap) {
+      if (except && wrap === except) return;
+      wrap.classList.remove("is-open");
+      var menu = wrap.querySelector(".share-menu");
+      var pill = wrap.querySelector(".share-pill");
+      if (menu) menu.hidden = true;
+      if (pill) pill.setAttribute("aria-expanded", "false");
+    });
+  }
   async function copyUrl(url) {
     if (navigator.clipboard && navigator.clipboard.writeText) {
       await navigator.clipboard.writeText(url);
@@ -1404,26 +1422,68 @@ function renderHtml(payload) {
     document.execCommand("copy");
     document.body.removeChild(ta);
   }
-  document.addEventListener("click", function (e) {
-    var btn = e.target.closest(".share-pill");
-    if (!btn) return;
-    e.preventDefault();
-    var url = btn.getAttribute("data-share-url") || "";
-    var title = btn.getAttribute("data-share-title") || document.title;
-    if (!url) return;
-    var finish = function (msg) {
-      setLabel(btn, msg);
-      window.setTimeout(function () { setLabel(btn, "Share"); }, 1600);
+  function shareUrls(url, title) {
+    var encodedUrl = encodeURIComponent(url);
+    var encodedTitle = encodeURIComponent(title || "");
+    return {
+      x: "https://twitter.com/intent/tweet?url=" + encodedUrl + "&text=" + encodedTitle,
+      facebook: "https://www.facebook.com/sharer/sharer.php?u=" + encodedUrl,
+      reddit: "https://www.reddit.com/submit?url=" + encodedUrl + "&title=" + encodedTitle
     };
-    if (navigator.share) {
-      navigator.share({ title: title, url: url }).then(function () {
-        finish("Shared");
-      }).catch(function () {
-        copyUrl(url).then(function () { finish("Copied"); }).catch(function () {});
-      });
+  }
+  document.addEventListener("click", function (e) {
+    var item = e.target.closest("[data-share-action]");
+    if (item) {
+      var wrap = item.closest(".share-wrap");
+      var pill = wrap && wrap.querySelector(".share-pill");
+      var url = pill ? pill.getAttribute("data-share-url") || "" : "";
+      var title = pill ? pill.getAttribute("data-share-title") || document.title : document.title;
+      var action = item.getAttribute("data-share-action");
+      if (action === "copy") {
+        e.preventDefault();
+        copyUrl(url).then(function () {
+          setLabel(pill, "Copied");
+          window.setTimeout(function () { setLabel(pill, "Share"); }, 1600);
+          closeAllMenus();
+        }).catch(function () {});
+        return;
+      }
+      if (action === "x" || action === "facebook" || action === "reddit") {
+        var links = shareUrls(url, title);
+        item.setAttribute("href", links[action]);
+        closeAllMenus();
+        return;
+      }
+    }
+
+    var btn = e.target.closest(".share-pill");
+    if (btn) {
+      e.preventDefault();
+      e.stopPropagation();
+      var wrap = btn.closest(".share-wrap");
+      if (!wrap) return;
+      var menu = wrap.querySelector(".share-menu");
+      var open = wrap.classList.contains("is-open");
+      closeAllMenus();
+      if (!open && menu) {
+        var url = btn.getAttribute("data-share-url") || "";
+        var title = btn.getAttribute("data-share-title") || document.title;
+        var links = shareUrls(url, title);
+        menu.querySelectorAll("[data-share-action]").forEach(function (el) {
+          var a = el.getAttribute("data-share-action");
+          if (links[a]) el.setAttribute("href", links[a]);
+        });
+        wrap.classList.add("is-open");
+        menu.hidden = false;
+        btn.setAttribute("aria-expanded", "true");
+      }
       return;
     }
-    copyUrl(url).then(function () { finish("Copied"); }).catch(function () {});
+
+    if (!e.target.closest(".share-wrap")) closeAllMenus();
+  });
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") closeAllMenus();
   });
 })();
 </script>
