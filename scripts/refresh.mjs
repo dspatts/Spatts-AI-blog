@@ -1215,6 +1215,12 @@ function renderHtml(payload) {
   const empty =
     `<div class="empty">No stories made it through this harvest. The next refresh will try again.</div>`;
   const refreshed = timeHtml(payload.refreshedAt);
+  const nextRefreshIso = (() => {
+    const base = payload.refreshedAt ? new Date(payload.refreshedAt) : new Date();
+    if (Number.isNaN(base.getTime())) return "";
+    return new Date(base.getTime() + 3 * 60 * 60 * 1000).toISOString();
+  })();
+  const nextRefresh = timeHtml(nextRefreshIso);
   const clockNow = new Date();
   const clockIso = clockNow.toISOString();
   const clockText = formatClock(clockIso);
@@ -1278,7 +1284,11 @@ function renderHtml(payload) {
       ${stories || empty}
       <div class="empty" id="filter-empty" hidden>No stories in this category right now.</div>
     </main>
-    <p class="status">Last refresh: ${refreshed}</p>
+    <p class="status">
+      <span class="status-last">Last refresh: ${refreshed}</span>
+      <span class="status-sep" aria-hidden="true">|</span>
+      <span class="status-next">Next refresh: ${nextRefresh}</span>
+    </p>
     <footer>Your AI feed without the tab tax: we cluster the noise, you keep the links.</footer>
   </div>
 <script>
