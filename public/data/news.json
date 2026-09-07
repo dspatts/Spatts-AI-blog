@@ -12,7 +12,7 @@
       "id": "techcrunch",
       "name": "TechCrunch",
       "ok": true,
-      "count": 19,
+      "count": 20,
       "errors": []
     },
     {
@@ -46,7 +46,7 @@
       "count": 0,
       "errors": [
         "429 https://infinitytechstack.uk/ai-signal",
-        "The operation was aborted due to timeout"
+        "empty https://prismix.dev/news"
       ]
     },
     {
@@ -84,7 +84,7 @@
       "id": "x",
       "name": "X",
       "ok": true,
-      "count": 12,
+      "count": 10,
       "errors": []
     },
     {
@@ -95,23 +95,22 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-07T17:06:41.212Z",
-  "refreshedAt": "2026-09-07T17:06:41.212Z",
+  "briefingDate": "2026-09-07T20:14:47.447Z",
+  "refreshedAt": "2026-09-07T20:14:47.448Z",
   "preferCurated": true,
   "posts": [
     {
       "id": "curated:https://www.reuters.com/business/openai-has-sent-eu-incident-report-hijacked-german-website-commission-says-2026-09-07/",
       "url": "https://www.reuters.com/business/openai-has-sent-eu-incident-report-hijacked-german-website-commission-says-2026-09-07/",
       "title": "OpenAI has sent EU incident report on hijacked German website, Commission says",
-      "summary": "Reuters: OpenAI filed an EU incident report on rogue agents hijacking a German site; Commission says reports must be precise and contact continues.",
+      "summary": "Reuters: OpenAI filed an EU incident report on rogue agents hijacking a German wiki; Commission says reports must be precise and contact continues.",
       "sourceId": "reuters",
       "sourceName": "Reuters",
       "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "publishedAt": "2026-09-07T17:05:00.000Z",
-      "publishedTs": 1788800700000,
+      "publishedAt": "2026-09-07T20:10:00.000Z",
+      "publishedTs": 1788811800000,
       "curated": true,
       "tags": [
-        "model-releases",
         "agents",
         "research",
         "policy"
@@ -124,15 +123,7 @@
           "sourceId": "theverge",
           "sourceName": "The Verge",
           "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-          "publishedAt": "2026-09-07T17:05:00.000Z"
-        },
-        {
-          "title": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
-          "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
-          "sourceId": "techcrunch",
-          "sourceName": "TechCrunch",
-          "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-          "publishedAt": "2026-09-07T17:05:00.000Z"
+          "publishedAt": "2026-09-07T20:10:00.000Z"
         },
         {
           "title": "OpenAI to set misalignment disclosure rules after agents took over a wiki",
@@ -140,10 +131,10 @@
           "sourceId": "siliconangle",
           "sourceName": "SiliconANGLE",
           "sourceHome": "https://siliconangle.com/",
-          "publishedAt": "2026-09-07T17:05:00.000Z"
+          "publishedAt": "2026-09-07T20:10:00.000Z"
         }
       ],
-      "clusterSize": 4
+      "clusterSize": 3
     },
     {
       "id": "curated:https://www.reuters.com/world/china/dance-floor-war-china-readies-humanoid-robots-combat-2026-09-07/",
@@ -153,8 +144,8 @@
       "sourceId": "reuters",
       "sourceName": "Reuters",
       "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "publishedAt": "2026-09-07T17:05:00.000Z",
-      "publishedTs": 1788800699999,
+      "publishedAt": "2026-09-07T20:10:00.000Z",
+      "publishedTs": 1788811799999,
       "curated": true,
       "tags": [
         "agents",
@@ -173,8 +164,8 @@
       "sourceId": "reuters",
       "sourceName": "Reuters",
       "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "publishedAt": "2026-09-07T17:05:00.000Z",
-      "publishedTs": 1788800699998,
+      "publishedAt": "2026-09-07T20:10:00.000Z",
+      "publishedTs": 1788811799998,
       "curated": true,
       "tags": [
         "policy"
@@ -184,38 +175,39 @@
       "clusterSize": 1
     },
     {
-      "id": "curated:https://the-decoder.com/chatgpt-claws-back-web-traffic-share-to-55-5-percent-as-geminis-brief-comeback-fades/",
-      "url": "https://the-decoder.com/chatgpt-claws-back-web-traffic-share-to-55-5-percent-as-geminis-brief-comeback-fades/",
-      "title": "ChatGPT claws back web traffic share to 55.5 percent as Gemini's brief comeback fades",
-      "summary": "THE DECODER: Similarweb data shows ChatGPT reclaiming chatbot web traffic share to 55.5% while Gemini slips from its recent peak.",
+      "id": "curated:https://the-decoder.com/anthropic-reportedly-signs-517-billion-in-compute-deals-after-dario-amodei-warned-rivals-about-reckless-risk/",
+      "url": "https://the-decoder.com/anthropic-reportedly-signs-517-billion-in-compute-deals-after-dario-amodei-warned-rivals-about-reckless-risk/",
+      "title": "Anthropic reportedly signs $517 billion in compute deals after Dario Amodei warned rivals about reckless risk",
+      "summary": "THE DECODER (via The Information): Anthropic locked in up to $517B of compute contracts and ~14.8 GW since Oct 2025, after Amodei warned rivals about overbuilding.",
       "sourceId": "decoder",
       "sourceName": "THE DECODER",
       "sourceHome": "https://the-decoder.com/",
-      "publishedAt": "2026-09-07T17:05:00.000Z",
-      "publishedTs": 1788800699997,
+      "publishedAt": "2026-09-07T20:10:00.000Z",
+      "publishedTs": 1788811799997,
       "curated": true,
       "tags": [
-        "model-releases"
+        "funding"
       ],
-      "clusterId": "id:chatbot-traffic-share",
+      "clusterId": "id:anthropic-compute-517b",
       "related": [],
       "clusterSize": 1
     },
     {
-      "id": "curated:https://the-decoder.com/ai-designed-drug-appears-to-turn-back-the-bodys-biological-clock-in-early-trial/",
-      "url": "https://the-decoder.com/ai-designed-drug-appears-to-turn-back-the-bodys-biological-clock-in-early-trial/",
-      "title": "AI-designed drug appears to turn back the body's biological clock in early trial",
-      "summary": "THE DECODER: Insilico's AI-designed rentosertib showed aging-clock improvements in a small Nature Biotechnology trial.",
+      "id": "curated:https://the-decoder.com/gpt-6-astra-beat-portal-start-to-finish-without-human-help-in-under-24-hours/",
+      "url": "https://the-decoder.com/gpt-6-astra-beat-portal-start-to-finish-without-human-help-in-under-24-hours/",
+      "title": "GPT-6 Astra beat Portal start to finish without human help in under 24 hours",
+      "summary": "THE DECODER: Demo agent cozyblaze ran GPT-6 Astra through all of Portal (~23h43m, ~$570 tokens) via MCP/SourcePauseTool with no human help after the goal.",
       "sourceId": "decoder",
       "sourceName": "THE DECODER",
       "sourceHome": "https://the-decoder.com/",
-      "publishedAt": "2026-09-07T17:05:00.000Z",
-      "publishedTs": 1788800699996,
+      "publishedAt": "2026-09-07T20:10:00.000Z",
+      "publishedTs": 1788811799996,
       "curated": true,
       "tags": [
-        "research"
+        "model-releases",
+        "agents"
       ],
-      "clusterId": "id:insilico-rentosertib",
+      "clusterId": "id:astra-portal",
       "related": [],
       "clusterSize": 1
     },
@@ -237,36 +229,75 @@
       "clusterSize": 1
     },
     {
-      "id": "aitldr:https://ai-tldr.dev/releases/wes-roth-alien-mind-sep7/",
-      "url": "https://ai-tldr.dev/releases/wes-roth-alien-mind-sep7/",
-      "title": "Wes Roth — 'OpenAI's chief scientist just issued a warning'",
-      "summary": "Wes Roth reads the essay in which OpenAI's chief scientist says control work is falling behind capability work.",
+      "id": "aitldr:https://ai-tldr.dev/releases/fireship-free-ai-tools-sep7/",
+      "url": "https://ai-tldr.dev/releases/fireship-free-ai-tools-sep7/",
+      "title": "Fireship — 'Big AI wants you broke... here are some free alternatives'",
+      "summary": "A fast tour of five open-source ways to stop paying frontier-model prices for everyday coding work.",
       "sourceId": "aitldr",
       "sourceName": "AI/TLDR",
       "sourceHome": "https://ai-tldr.dev/",
       "publishedAt": "2026-09-07T00:00:00.000Z",
       "publishedTs": 1788739200000,
-      "tags": [],
+      "tags": [
+        "model-releases"
+      ],
       "related": [],
-      "clusterId": "auto:wes-roth-openai-s-chief-scientist-just-issued-a-",
+      "clusterId": "auto:fireship-big-ai-wants-you-broke-here-are-some-fr",
       "clusterSize": 1
     },
     {
-      "id": "x:2095947707605266436",
-      "url": "https://x.com/AnthropicAI/status/2095947707605266436",
-      "title": "Checking that a major mathematical proof is correct can take years.",
-      "summary": "Checking that a major mathematical proof is correct can take years. Formalization—converting the mathematical reasoning into a form…",
+      "id": "x:2096101429832552872",
+      "url": "https://x.com/thsottiaux/status/2096101429832552872",
+      "title": "Astra was probably our biggest competitive advantage while it wasn’t generally available.",
+      "summary": "Astra was probably our biggest competitive advantage while it wasn’t generally available. Since we’ve had it our productivity jumped so…",
       "sourceId": "x",
       "sourceName": "X",
       "sourceHome": "https://x.com",
-      "publishedAt": "2026-09-04T18:50:48.000Z",
-      "publishedTs": 1788547848000,
-      "score": 67289,
-      "authorHandle": "anthropicai",
-      "tags": [],
-      "related": [],
-      "clusterId": "auto:checking-that-a-major-mathematical-proof-is-corr",
-      "clusterSize": 1
+      "publishedAt": "2026-09-05T05:01:39.000Z",
+      "publishedTs": 1788584499000,
+      "score": 78747,
+      "authorHandle": "thsottiaux",
+      "tags": [
+        "model-releases",
+        "agents",
+        "research"
+      ],
+      "related": [
+        {
+          "title": "OpenClaw 2026.9.2 — GPT-6 Astra support and swarms on by default",
+          "url": "https://ai-tldr.dev/releases/openclaw-2026-9-2/",
+          "sourceId": "aitldr",
+          "sourceName": "AI/TLDR",
+          "sourceHome": "https://ai-tldr.dev/",
+          "publishedAt": "2026-09-05T00:00:00.000Z"
+        },
+        {
+          "title": "Sam Altman apologizes for ‘messy’ GPT-6 Astra rollout that’s locked out paying users",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
+          "sourceId": "verge",
+          "sourceName": "The Verge",
+          "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+          "publishedAt": "2026-09-04T10:41:48.000Z"
+        },
+        {
+          "title": "OpenAI starts rolling out its next-generation GPT-6 Astra model",
+          "url": "https://siliconangle.com/2026/09/03/openai-starts-rolling-out-its-next-generation-gpt-6-astra-model/",
+          "sourceId": "siliconangle",
+          "sourceName": "SiliconANGLE",
+          "sourceHome": "https://siliconangle.com/",
+          "publishedAt": "2026-09-03T22:46:31.000Z"
+        },
+        {
+          "title": "OpenAI launches Astra, its powerful (and controversial) new model",
+          "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
+          "sourceId": "techcrunch",
+          "sourceName": "TechCrunch",
+          "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+          "publishedAt": "2026-09-03T18:01:45.000Z"
+        }
+      ],
+      "clusterId": "topic:astra",
+      "clusterSize": 5
     },
     {
       "id": "x:2096616468851097811",
@@ -278,7 +309,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-06T15:08:14.000Z",
       "publishedTs": 1788707294000,
-      "score": 28684,
+      "score": 29422,
       "authorHandle": "kliu128",
       "tags": [
         "model-releases",
@@ -289,22 +320,23 @@
       "clusterSize": 1
     },
     {
-      "id": "x:2096271545589190927",
-      "url": "https://x.com/AIatMeta/status/2096271545589190927",
-      "title": "As a test of our progress to advance the frontier of AI research, in June we entered the next generation of…",
-      "summary": "As a test of our progress to advance the frontier of AI research, in June we entered the next generation of our autonomous AI research…",
+      "id": "x:2096133504417616165",
+      "url": "https://x.com/OpenAI/status/2096133504417616165",
+      "title": "How we think about the “wiki incident,” where our agents wrote to several internet sites: it’s past time fo…",
+      "summary": "How we think about the “wiki incident,” where our agents wrote to several internet sites: it’s past time for us to define standards for…",
       "sourceId": "x",
       "sourceName": "X",
       "sourceHome": "https://x.com",
-      "publishedAt": "2026-09-05T16:17:37.000Z",
-      "publishedTs": 1788625057000,
-      "score": 7131,
-      "authorHandle": "aiatmeta",
+      "publishedAt": "2026-09-05T07:09:06.000Z",
+      "publishedTs": 1788592146000,
+      "score": 21518,
+      "authorHandle": "openai",
       "tags": [
+        "agents",
         "research"
       ],
       "related": [],
-      "clusterId": "auto:as-a-test-of-our-progress-to-advance-the-frontie",
+      "clusterId": "auto:how-we-think-about-the-wiki-incident-where-our-a",
       "clusterSize": 1
     }
   ],
@@ -318,9 +350,9 @@
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-07T17:05:00.000Z",
-      "publishedAt": "2026-09-07T17:05:00.000Z",
-      "publishedTs": 1788800700000,
+      "harvestedAt": "2026-09-07T20:10:00.000Z",
+      "publishedAt": "2026-09-07T20:10:00.000Z",
+      "publishedTs": 1788811800000,
       "tags": [
         "rumor"
       ]
@@ -334,9 +366,9 @@
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-07T17:05:00.000Z",
-      "publishedAt": "2026-09-07T17:05:00.000Z",
-      "publishedTs": 1788800700000,
+      "harvestedAt": "2026-09-07T20:10:00.000Z",
+      "publishedAt": "2026-09-07T20:10:00.000Z",
+      "publishedTs": 1788811800000,
       "tags": [
         "rumor"
       ]
@@ -350,9 +382,9 @@
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-07T17:05:00.000Z",
-      "publishedAt": "2026-09-07T17:05:00.000Z",
-      "publishedTs": 1788800700000,
+      "harvestedAt": "2026-09-07T20:10:00.000Z",
+      "publishedAt": "2026-09-07T20:10:00.000Z",
+      "publishedTs": 1788811800000,
       "tags": [
         "rumor"
       ]
