@@ -95,8 +95,8 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-07T11:21:45.949Z",
-  "refreshedAt": "2026-09-07T11:21:45.949Z",
+  "briefingDate": "2026-09-07T14:46:42.527Z",
+  "refreshedAt": "2026-09-07T14:46:42.527Z",
   "preferCurated": true,
   "posts": [
     {
@@ -107,8 +107,8 @@
       "sourceId": "reuters",
       "sourceName": "Reuters",
       "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "publishedAt": "2026-09-07T11:16:00.000Z",
-      "publishedTs": 1788779760000,
+      "publishedAt": "2026-09-07T14:42:00.000Z",
+      "publishedTs": 1788792120000,
       "curated": true,
       "tags": [
         "model-releases",
@@ -124,21 +124,55 @@
           "sourceId": "theverge",
           "sourceName": "The Verge",
           "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-          "publishedAt": "2026-09-07T11:16:00.000Z"
+          "publishedAt": "2026-09-07T14:42:00.000Z"
+        },
+        {
+          "title": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
+          "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
+          "sourceId": "techcrunch",
+          "sourceName": "TechCrunch",
+          "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+          "publishedAt": "2026-09-07T14:42:00.000Z"
+        },
+        {
+          "title": "OpenAI to set misalignment disclosure rules after agents took over a wiki",
+          "url": "https://siliconangle.com/2026/09/06/openai-to-set-misalignment-disclosure-rules-after-agents-took-over-a-wiki/",
+          "sourceId": "siliconangle",
+          "sourceName": "SiliconANGLE",
+          "sourceHome": "https://siliconangle.com/",
+          "publishedAt": "2026-09-07T14:42:00.000Z"
         }
       ],
-      "clusterSize": 2
+      "clusterSize": 4
+    },
+    {
+      "id": "curated:https://www.reuters.com/legal/litigation/us-china-gear-up-mid-september-ai-safety-dialogue-2026-09-04/",
+      "url": "https://www.reuters.com/legal/litigation/us-china-gear-up-mid-september-ai-safety-dialogue-2026-09-04/",
+      "title": "EXCLUSIVE: US, China gear up for mid-September AI safety talks",
+      "summary": "Reuters: The U.S. and China are preparing a mid-September dialogue on AI safety risks, per sources briefed on the talks.",
+      "sourceId": "reuters",
+      "sourceName": "Reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "publishedAt": "2026-09-07T14:42:00.000Z",
+      "publishedTs": 1788792119995,
+      "curated": true,
+      "tags": [
+        "policy"
+      ],
+      "clusterId": "id:us-china-ai-safety",
+      "related": [],
+      "clusterSize": 1
     },
     {
       "id": "curated:https://www.reuters.com/world/china/dance-floor-war-china-readies-humanoid-robots-combat-2026-09-07/",
       "url": "https://www.reuters.com/world/china/dance-floor-war-china-readies-humanoid-robots-combat-2026-09-07/",
       "title": "From dance floor to war: China readies humanoid robots for combat",
-      "summary": "Reuters: China's military is accelerating humanoid robot development for battlefield use, from urban assaults to infiltrating enemy lines, per procurement and research docs.",
+      "summary": "Reuters: China's military is accelerating humanoid robot development for battlefield use, per procurement and research docs.",
       "sourceId": "reuters",
       "sourceName": "Reuters",
       "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "publishedAt": "2026-09-07T11:16:00.000Z",
-      "publishedTs": 1788779759998,
+      "publishedAt": "2026-09-07T14:42:00.000Z",
+      "publishedTs": 1788792119993,
       "curated": true,
       "tags": [
         "agents",
@@ -150,148 +184,83 @@
       "clusterSize": 1
     },
     {
-      "id": "curated:https://venturebeat.com/infrastructure/nvidia-acquires-hugging-face-after-stripe-nabs-openrouter-heres-what-open-source-ai-builders-should-do",
-      "url": "https://venturebeat.com/infrastructure/nvidia-acquires-hugging-face-after-stripe-nabs-openrouter-heres-what-open-source-ai-builders-should-do",
-      "title": "Nvidia acquires Hugging Face after Stripe nabs OpenRouter: here's what open source AI builders should do",
-      "summary": "VentureBeat: Nvidia's reported Hugging Face buy and Stripe/OpenRouter deal reshape open-source AI infrastructure.",
-      "sourceId": "venturebeat",
-      "sourceName": "VentureBeat",
-      "sourceHome": "https://venturebeat.com/category/ai/",
-      "publishedAt": "2026-09-07T11:16:00.000Z",
-      "publishedTs": 1788779759997,
-      "curated": true,
-      "tags": [
-        "model-releases",
-        "funding"
-      ],
-      "clusterId": "id:nvidia-huggingface",
-      "related": [],
-      "clusterSize": 1
-    },
-    {
-      "id": "curated:https://www.reuters.com/technology/ai-could-pose-existential-risk-humanity-un-rights-chief-warns-2026-09-07/",
-      "url": "https://www.reuters.com/technology/ai-could-pose-existential-risk-humanity-un-rights-chief-warns-2026-09-07/",
-      "title": "AI could pose ‘existential’ risk to humanity, UN rights chief warns",
-      "summary": "Reuters: UN human rights chief warns AI could pose an existential risk to humanity.",
-      "sourceId": "reuters",
-      "sourceName": "Reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "publishedAt": "2026-09-07T11:16:00.000Z",
-      "publishedTs": 1788779759995,
+      "id": "curated:https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
+      "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
+      "summary": "The Verge: Seattle Times and Newsday join the wave of publishers suing OpenAI and Microsoft over training data.",
+      "sourceId": "theverge",
+      "sourceName": "The Verge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "publishedAt": "2026-09-07T14:42:00.000Z",
+      "publishedTs": 1788792119992,
       "curated": true,
       "tags": [
         "policy"
       ],
-      "clusterId": "id:un-ai-existential",
-      "related": [],
-      "clusterSize": 1
-    },
-    {
-      "id": "curated:https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
-      "url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
-      "title": "'Welcome to the AGI era': OpenAI launches GPT-6 Astra",
-      "summary": "VentureBeat: OpenAI releases GPT-6 Astra as its best computer-use model, rolling out via Daybreak then ChatGPT/API; Brockman frames an 'AGI era'.",
-      "sourceId": "venturebeat",
-      "sourceName": "VentureBeat",
-      "sourceHome": "https://venturebeat.com/category/ai/",
-      "publishedAt": "2026-09-07T11:16:00.000Z",
-      "publishedTs": 1788779759993,
-      "curated": true,
-      "tags": [
-        "model-releases",
-        "agents",
-        "policy"
-      ],
-      "clusterId": "id:openai-astra",
+      "clusterId": "id:news-openai-suits",
       "related": [
         {
-          "title": "GPT-6 Astra — OpenAI's computer-use model starts rolling out",
-          "url": "https://ai-tldr.dev/releases/openai-gpt-6-astra/",
-          "sourceId": "ai-tldr",
-          "sourceName": "AI/TLDR",
-          "sourceHome": "https://ai-tldr.dev/",
-          "publishedAt": "2026-09-07T11:16:00.000Z"
+          "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
+          "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+          "sourceId": "techcrunch",
+          "sourceName": "TechCrunch",
+          "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+          "publishedAt": "2026-09-07T14:42:00.000Z"
         }
       ],
       "clusterSize": 2
     },
     {
-      "id": "siliconangle:https://siliconangle.com/2026/09/06/openai-to-set-misalignment-disclosure-rules-after-agents-took-over-a-wiki/",
-      "url": "https://siliconangle.com/2026/09/06/openai-to-set-misalignment-disclosure-rules-after-agents-took-over-a-wiki/",
-      "title": "OpenAI to set misalignment disclosure rules after agents took over a wiki",
-      "summary": "OpenAI Group PBC acknowledged Saturday that it did not publicly disclose an episode in which its artificial intelligence agents wrote to…",
-      "sourceId": "siliconangle",
-      "sourceName": "SiliconANGLE",
-      "sourceHome": "https://siliconangle.com/",
-      "publishedAt": "2026-09-06T22:33:26.000Z",
-      "publishedTs": 1788734006000,
+      "id": "curated:https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
+      "url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
+      "title": "Authors push back as publishers and agents make claims on Anthropic settlement",
+      "summary": "TechCrunch: Authors say publishers and agents are claiming more than their fair share of Anthropic settlement payments.",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "publishedAt": "2026-09-07T14:42:00.000Z",
+      "publishedTs": 1788792119990,
+      "curated": true,
       "tags": [
         "agents",
-        "research"
+        "funding",
+        "policy"
       ],
+      "clusterId": "id:anthropic-settlement",
       "related": [],
-      "clusterId": "auto:openai-to-set-misalignment-disclosure-rules-afte",
       "clusterSize": 1
     },
     {
-      "id": "decoder:https://the-decoder.com/openai-developer-claims-astra-boosted-productivity-so-much-it-pulled-some-plans-forward-by-six-months/",
-      "url": "https://the-decoder.com/openai-developer-claims-astra-boosted-productivity-so-much-it-pulled-some-plans-forward-by-six-months/",
-      "title": "OpenAI developer claims Astra boosted productivity so much it pulled some plans forward by six months",
-      "summary": "OpenAI developer Thibault Sottiaux calls Astra the company's \"biggest competitive advantage\" while it wasn't publicly available.",
+      "id": "decoder:https://the-decoder.com/how-ai-wiped-out-an-entire-industry-in-nairobi/",
+      "url": "https://the-decoder.com/how-ai-wiped-out-an-entire-industry-in-nairobi/",
+      "title": "How AI wiped out an entire industry in Nairobi",
+      "summary": "In Kenya, ChatGPT wiped out an entire business model: writing academic papers for foreign students.",
       "sourceId": "decoder",
       "sourceName": "THE DECODER",
       "sourceHome": "https://the-decoder.com/",
-      "publishedAt": "2026-09-06T10:15:17.000Z",
-      "publishedTs": 1788689717000,
+      "publishedAt": "2026-09-07T13:18:57.000Z",
+      "publishedTs": 1788787137000,
       "tags": [
-        "model-releases",
-        "agents",
-        "research"
+        "model-releases"
       ],
-      "related": [
-        {
-          "title": "it is obviously trivial relative to everything else, but the fact that astra can make me whatever fun littl…",
-          "url": "https://x.com/sama/status/2096241436509544744",
-          "sourceId": "x",
-          "sourceName": "X",
-          "sourceHome": "https://x.com",
-          "publishedAt": "2026-09-05T14:17:59.000Z"
-        },
-        {
-          "title": "OpenClaw 2026.9.2 — GPT-6 Astra support and swarms on by default",
-          "url": "https://ai-tldr.dev/releases/openclaw-2026-9-2/",
-          "sourceId": "aitldr",
-          "sourceName": "AI/TLDR",
-          "sourceHome": "https://ai-tldr.dev/",
-          "publishedAt": "2026-09-05T00:00:00.000Z"
-        },
-        {
-          "title": "Sam Altman apologizes for ‘messy’ GPT-6 Astra rollout that’s locked out paying users",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
-          "sourceId": "verge",
-          "sourceName": "The Verge",
-          "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-          "publishedAt": "2026-09-04T10:41:48.000Z"
-        },
-        {
-          "title": "OpenAI starts rolling out its next-generation GPT-6 Astra model",
-          "url": "https://siliconangle.com/2026/09/03/openai-starts-rolling-out-its-next-generation-gpt-6-astra-model/",
-          "sourceId": "siliconangle",
-          "sourceName": "SiliconANGLE",
-          "sourceHome": "https://siliconangle.com/",
-          "publishedAt": "2026-09-03T22:46:31.000Z"
-        },
-        {
-          "title": "OpenAI launches Astra, its powerful (and controversial) new model",
-          "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
-          "sourceId": "techcrunch",
-          "sourceName": "TechCrunch",
-          "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-          "publishedAt": "2026-09-03T18:01:45.000Z"
-        }
-      ],
-      "clusterId": "topic:astra",
-      "clusterSize": 6
+      "related": [],
+      "clusterId": "auto:how-ai-wiped-out-an-entire-industry-in-nairobi",
+      "clusterSize": 1
+    },
+    {
+      "id": "decoder:https://the-decoder.com/at-ubs-ai-skills-are-now-a-condition-for-landing-a-job/",
+      "url": "https://the-decoder.com/at-ubs-ai-skills-are-now-a-condition-for-landing-a-job/",
+      "title": "At UBS, AI skills are now a condition for landing a job",
+      "summary": "Swiss banking giant UBS is making AI skills a required qualification from 2027 for graduates and interns in Global Banking and Markets,…",
+      "sourceId": "decoder",
+      "sourceName": "THE DECODER",
+      "sourceHome": "https://the-decoder.com/",
+      "publishedAt": "2026-09-07T13:13:38.000Z",
+      "publishedTs": 1788786818000,
+      "tags": [],
+      "related": [],
+      "clusterId": "auto:at-ubs-ai-skills-are-now-a-condition-for-landing",
+      "clusterSize": 1
     },
     {
       "id": "x:2095947707605266436",
@@ -303,7 +272,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-04T18:50:48.000Z",
       "publishedTs": 1788547848000,
-      "score": 66840,
+      "score": 67153,
       "authorHandle": "anthropicai",
       "tags": [],
       "related": [],
@@ -320,7 +289,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-06T15:08:14.000Z",
       "publishedTs": 1788707294000,
-      "score": 26431,
+      "score": 27858,
       "authorHandle": "kliu128",
       "tags": [
         "model-releases",
@@ -340,7 +309,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-05T16:17:37.000Z",
       "publishedTs": 1788625057000,
-      "score": 7068,
+      "score": 7106,
       "authorHandle": "aiatmeta",
       "tags": [
         "research"
@@ -354,15 +323,31 @@
     {
       "id": "rumor:https://x.com/elonmusk/status/2094983639780204846",
       "title": "Musk: Grok 4.7 in ~10 days (~Sep 12)",
-      "summary": "Unconfirmed founder timing claim: @elonmusk posted Sep 2 that Grok 4.7 'comes out in 10 days' (implying ~Sep 12). As of Sep 7, xAI has not published a launch page/model card — treat as rumor until ship.",
+      "summary": "Unconfirmed: @elonmusk posted Sep 2 that Grok 4.7 'comes out in 10 days' (implying ~Sep 12). As of this harvest, xAI has not published a launch page/API model id/model card — treat founder timing as rumor/not verified product shipping.",
       "url": "https://x.com/elonmusk/status/2094983639780204846",
       "via": "@elonmusk",
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-07T11:16:00.000Z",
-      "publishedAt": "2026-09-07T11:16:00.000Z",
-      "publishedTs": 1788779760000,
+      "harvestedAt": "2026-09-07T14:42:00.000Z",
+      "publishedAt": "2026-09-07T14:42:00.000Z",
+      "publishedTs": 1788792120000,
+      "tags": [
+        "rumor"
+      ]
+    },
+    {
+      "id": "rumor:https://x.com/amir/status/2095678832535843209",
+      "title": "Nvidia talks ~$2.5–3B into Thinking Machines",
+      "summary": "Unconfirmed: @amir (The Information) update that Nvidia is in talks to put ~$2.5–3B into Mira Murati's Thinking Machines Lab, citing a16z; round-size figures elsewhere still conflict ($1B vs $5–6B). No closed round announced — rumor/not verified financing.",
+      "url": "https://x.com/amir/status/2095678832535843209",
+      "via": "@amir",
+      "sourceKind": "x",
+      "sourceId": "x",
+      "sourceName": "X",
+      "harvestedAt": "2026-09-07T14:42:00.000Z",
+      "publishedAt": "2026-09-07T14:42:00.000Z",
+      "publishedTs": 1788792120000,
       "tags": [
         "rumor"
       ]
@@ -370,31 +355,15 @@
     {
       "id": "rumor:https://x.com/synthwavedd/status/2092326145270456377",
       "title": "Scoop: OpenAI finished 'Bel' >10T pretrain",
-      "summary": "Unconfirmed @synthwavedd scoop: OpenAI finished next pretrain codename Bel (successor to Doug), rumored >10T total params as base after further RL. OpenAI has not confirmed Bel, param count, or roadmap role — rumor only.",
+      "summary": "Unconfirmed: @synthwavedd Aug 25 scoop that OpenAI finished next pretrain codename Bel (successor to Doug), rumored >10T total params as base for Astra/GPT-6 with further RL. OpenAI has not confirmed Bel, param count, or roadmap role — rumor/not verified reporting.",
       "url": "https://x.com/synthwavedd/status/2092326145270456377",
       "via": "@synthwavedd",
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-07T11:16:00.000Z",
-      "publishedAt": "2026-09-07T11:16:00.000Z",
-      "publishedTs": 1788779760000,
-      "tags": [
-        "rumor"
-      ]
-    },
-    {
-      "id": "rumor:https://x.com/wallstengine/status/2095569301923324153",
-      "title": "Thinking Machines talks $1B+ at ~$40B (Accel/Nvidia)",
-      "summary": "Unconfirmed X summary via @wallstengine of The Information tip: Mira Murati's Thinking Machines in talks to raise $1B+ at ~$40B with Accel leading and Nvidia considering a stake. Reports still conflict elsewhere — caveat until confirmed.",
-      "url": "https://x.com/wallstengine/status/2095569301923324153",
-      "via": "@wallstengine",
-      "sourceKind": "x",
-      "sourceId": "x",
-      "sourceName": "X",
-      "harvestedAt": "2026-09-07T11:16:00.000Z",
-      "publishedAt": "2026-09-07T11:16:00.000Z",
-      "publishedTs": 1788779760000,
+      "harvestedAt": "2026-09-07T14:42:00.000Z",
+      "publishedAt": "2026-09-07T14:42:00.000Z",
+      "publishedTs": 1788792120000,
       "tags": [
         "rumor"
       ]
