@@ -5,7 +5,7 @@
       "id": "curated",
       "name": "Evan harvest",
       "ok": true,
-      "count": 24,
+      "count": 19,
       "errors": []
     },
     {
@@ -86,77 +86,29 @@
       "ok": true,
       "count": 12,
       "errors": []
+    },
+    {
+      "id": "rumors",
+      "name": "Rumor mill (X)",
+      "ok": true,
+      "count": 3,
+      "errors": []
     }
   ],
-  "briefingDate": "2026-09-07T04:16:35.304Z",
-  "refreshedAt": "2026-09-07T04:16:35.304Z",
+  "briefingDate": "2026-09-07T05:18:11.437Z",
+  "refreshedAt": "2026-09-07T05:18:11.437Z",
   "preferCurated": true,
   "posts": [
-    {
-      "id": "curated:https://www.reuters.com/business/openai-says-upcoming-model-is-so-capable-it-requires-stronger-guardrails-2026-09-01/",
-      "url": "https://www.reuters.com/business/openai-says-upcoming-model-is-so-capable-it-requires-stronger-guardrails-2026-09-01/",
-      "title": "OpenAI says upcoming model is so capable it requires stronger guardrails",
-      "summary": "OpenAI says an upcoming model is capable enough to need stronger guardrails.",
-      "sourceId": "reuters",
-      "sourceName": "Reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "publishedAt": "2026-09-07T04:16:30.000Z",
-      "publishedTs": 1788754590000,
-      "curated": true,
-      "tags": [
-        "model-releases",
-        "policy"
-      ],
-      "clusterId": "auto:openai-says-upcoming-model-is-so-capable-it-requ",
-      "related": [],
-      "clusterSize": 1
-    },
-    {
-      "id": "curated:https://www.reuters.com/business/anthropic-still-flagged-risk-defense-industrial-base-us-official-says-2026-09-03/",
-      "url": "https://www.reuters.com/business/anthropic-still-flagged-risk-defense-industrial-base-us-official-says-2026-09-03/",
-      "title": "Anthropic still flagged as risk to defense industrial base, US official says",
-      "summary": "US official says Anthropic still flagged as risk to the defense industrial base.",
-      "sourceId": "reuters",
-      "sourceName": "Reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "publishedAt": "2026-09-07T04:16:30.000Z",
-      "publishedTs": 1788754589999,
-      "curated": true,
-      "tags": [
-        "policy"
-      ],
-      "clusterId": "auto:anthropic-still-flagged-as-risk-to-defense-indus",
-      "related": [],
-      "clusterSize": 1
-    },
-    {
-      "id": "curated:https://www.reuters.com/world/china/nvidia-sets-october-launch-rtx-spark-ai-pcs-2026-09-03/",
-      "url": "https://www.reuters.com/world/china/nvidia-sets-october-launch-rtx-spark-ai-pcs-2026-09-03/",
-      "title": "Nvidia sets October launch for RTX Spark AI PCs",
-      "summary": "Nvidia sets October launch for RTX Spark AI PCs.",
-      "sourceId": "reuters",
-      "sourceName": "Reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "publishedAt": "2026-09-07T04:16:30.000Z",
-      "publishedTs": 1788754589998,
-      "curated": true,
-      "tags": [
-        "model-releases"
-      ],
-      "clusterId": "auto:nvidia-sets-october-launch-for-rtx-spark-ai-pcs",
-      "related": [],
-      "clusterSize": 1
-    },
     {
       "id": "curated:https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
       "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
       "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
-      "summary": "The Verge (Sep 6/7): publishers allege training + passage reproduction without permission; seek destruction of models/datasets that incorporate their works.",
+      "summary": "The Verge: publishers allege training and passage reproduction without permission; seek remedies including destruction of models/datasets that incorporate their works.",
       "sourceId": "theverge",
       "sourceName": "The Verge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "publishedAt": "2026-09-07T04:16:30.000Z",
-      "publishedTs": 1788754589992,
+      "publishedAt": "2026-09-07T05:16:24.000Z",
+      "publishedTs": 1788758184000,
       "curated": true,
       "tags": [
         "model-releases",
@@ -170,21 +122,107 @@
           "sourceId": "techcrunch",
           "sourceName": "TechCrunch",
           "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-          "publishedAt": "2026-09-07T04:16:30.000Z"
+          "publishedAt": "2026-09-07T05:16:24.000Z"
         }
       ],
       "clusterSize": 2
     },
     {
+      "id": "curated:https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+      "title": "OpenAI admits to German wiki ‘incident’",
+      "summary": "The Verge: OpenAI says it must overhaul how it reports models attacking real-world targets after agents hijacked a German wiki.",
+      "sourceId": "theverge",
+      "sourceName": "The Verge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "publishedAt": "2026-09-07T05:16:24.000Z",
+      "publishedTs": 1788758183998,
+      "curated": true,
+      "tags": [
+        "model-releases",
+        "agents",
+        "research",
+        "policy"
+      ],
+      "clusterId": "id:openai-wiki-agents",
+      "related": [
+        {
+          "title": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
+          "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
+          "sourceId": "techcrunch",
+          "sourceName": "TechCrunch",
+          "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+          "publishedAt": "2026-09-07T05:16:24.000Z"
+        },
+        {
+          "title": "OpenAI acknowledges 'wiki incident'",
+          "url": "https://www.reuters.com/business/media-telecom/openai-acknowledges-wiki-incident-need-more-transparency-around-unintended-ai-2026-09-05/",
+          "sourceId": "reuters",
+          "sourceName": "Reuters",
+          "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+          "publishedAt": "2026-09-07T05:16:24.000Z"
+        }
+      ],
+      "clusterSize": 3
+    },
+    {
+      "id": "curated:https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
+      "url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
+      "title": "'Welcome to the AGI era': OpenAI launches GPT-6 Astra",
+      "summary": "VentureBeat: OpenAI releases GPT-6 Astra as its best computer-use model, rolling out via Daybreak then ChatGPT/API; Brockman frames an 'AGI era'.",
+      "sourceId": "venturebeat",
+      "sourceName": "VentureBeat",
+      "sourceHome": "https://venturebeat.com/category/ai/",
+      "publishedAt": "2026-09-07T05:16:24.000Z",
+      "publishedTs": 1788758183995,
+      "curated": true,
+      "tags": [
+        "model-releases",
+        "agents",
+        "policy"
+      ],
+      "clusterId": "id:openai-astra",
+      "related": [
+        {
+          "title": "OpenAI launches new Astra model amid growing scrutiny over agents' safety",
+          "url": "https://www.reuters.com/legal/litigation/openai-launches-new-astra-model-amid-growing-scrutiny-over-agents-safety-2026-09-03/",
+          "sourceId": "reuters",
+          "sourceName": "Reuters",
+          "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+          "publishedAt": "2026-09-07T05:16:24.000Z"
+        }
+      ],
+      "clusterSize": 2
+    },
+    {
+      "id": "curated:https://www.reuters.com/business/nvidia-buy-hugging-face-nearly-13-billion-big-bet-open-ai-models-2026-09-03/",
+      "url": "https://www.reuters.com/business/nvidia-buy-hugging-face-nearly-13-billion-big-bet-open-ai-models-2026-09-03/",
+      "title": "Nvidia bets $13 billion on open AI models with Hugging Face deal",
+      "summary": "Reuters: Nvidia to buy Hugging Face for about $12.93B; Huang says the platform stays open and will not require Nvidia chips.",
+      "sourceId": "reuters",
+      "sourceName": "Reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "publishedAt": "2026-09-07T05:16:24.000Z",
+      "publishedTs": 1788758183993,
+      "curated": true,
+      "tags": [
+        "model-releases",
+        "funding"
+      ],
+      "clusterId": "id:nvidia-huggingface",
+      "related": [],
+      "clusterSize": 1
+    },
+    {
       "id": "curated:https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
       "url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
-      "title": "Authors push back as publishers and agents seek share of Anthropic settlement",
-      "summary": "TechCrunch (Sep 6): authors say publishers/agents are claiming more than their fair share of Anthropic settlement payments — fresh rights fight.",
+      "title": "Authors push back as publishers and agents make claims on Anthropic settlement",
+      "summary": "TechCrunch: authors say publishers/agents are claiming more than their fair share of Anthropic settlement payments.",
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-07T04:16:30.000Z",
-      "publishedTs": 1788754589990,
+      "publishedAt": "2026-09-07T05:16:24.000Z",
+      "publishedTs": 1788758183992,
       "curated": true,
       "tags": [
         "agents",
@@ -196,48 +234,37 @@
       "clusterSize": 1
     },
     {
-      "id": "decoder:https://the-decoder.com/google-brings-ai-music-generation-directly-into-the-gemini-app-with-its-new-lyria-3-5-model/",
-      "url": "https://the-decoder.com/google-brings-ai-music-generation-directly-into-the-gemini-app-with-its-new-lyria-3-5-model/",
-      "title": "Google brings AI music generation directly into the Gemini app with its new Lyria 3.5 model",
-      "summary": "Google has released its Lyria 3.5 music model in the Gemini app and via API.",
-      "sourceId": "decoder",
-      "sourceName": "THE DECODER",
-      "sourceHome": "https://the-decoder.com/",
-      "publishedAt": "2026-09-06T09:56:24.000Z",
-      "publishedTs": 1788688584000,
-      "tags": [
-        "model-releases"
-      ],
+      "id": "siliconangle:https://siliconangle.com/2026/09/06/former-uber-ceo-travis-kalanick-is-returning-to-the-robotaxi-race/",
+      "url": "https://siliconangle.com/2026/09/06/former-uber-ceo-travis-kalanick-is-returning-to-the-robotaxi-race/",
+      "title": "Former Uber CEO Travis Kalanick is returning to the robotaxi race",
+      "summary": "Travis Kalanick, the disgraced founder of Uber Technologies Co.",
+      "sourceId": "siliconangle",
+      "sourceName": "SiliconANGLE",
+      "sourceHome": "https://siliconangle.com/",
+      "publishedAt": "2026-09-06T23:34:32.000Z",
+      "publishedTs": 1788737672000,
+      "tags": [],
       "related": [],
-      "clusterId": "auto:google-brings-ai-music-generation-directly-into-",
+      "clusterId": "auto:former-uber-ceo-travis-kalanick-is-returning-to-",
       "clusterSize": 1
     },
     {
-      "id": "decoder:https://the-decoder.com/stripping-safety-guardrails-from-open-weight-ai-models-is-now-a-turnkey-commercial-service/",
-      "url": "https://the-decoder.com/stripping-safety-guardrails-from-open-weight-ai-models-is-now-a-turnkey-commercial-service/",
-      "title": "Stripping safety guardrails from open-weight AI models is now a turnkey commercial service",
-      "summary": "Abliteration.ai sells access to modified open-weight models with their trained safety mechanisms stripped out, currently based on Z.AI's…",
-      "sourceId": "decoder",
-      "sourceName": "THE DECODER",
-      "sourceHome": "https://the-decoder.com/",
-      "publishedAt": "2026-09-06T08:55:56.000Z",
-      "publishedTs": 1788684956000,
+      "id": "siliconangle:https://siliconangle.com/2026/09/06/openai-to-set-misalignment-disclosure-rules-after-agents-took-over-a-wiki/",
+      "url": "https://siliconangle.com/2026/09/06/openai-to-set-misalignment-disclosure-rules-after-agents-took-over-a-wiki/",
+      "title": "OpenAI to set misalignment disclosure rules after agents took over a wiki",
+      "summary": "OpenAI Group PBC acknowledged Saturday that it did not publicly disclose an episode in which its artificial intelligence agents wrote to…",
+      "sourceId": "siliconangle",
+      "sourceName": "SiliconANGLE",
+      "sourceHome": "https://siliconangle.com/",
+      "publishedAt": "2026-09-06T22:33:26.000Z",
+      "publishedTs": 1788734006000,
       "tags": [
-        "model-releases",
+        "agents",
         "research"
       ],
-      "related": [
-        {
-          "title": "Abliteration.ai is making a business out of removing AI guardrails",
-          "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
-          "sourceId": "techcrunch",
-          "sourceName": "TechCrunch",
-          "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-          "publishedAt": "2026-09-03T18:37:57.000Z"
-        }
-      ],
-      "clusterId": "topic:abliteration",
-      "clusterSize": 2
+      "related": [],
+      "clusterId": "auto:openai-to-set-misalignment-disclosure-rules-afte",
+      "clusterSize": 1
     },
     {
       "id": "x:2095947707605266436",
@@ -249,7 +276,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-04T18:50:48.000Z",
       "publishedTs": 1788547848000,
-      "score": 65854,
+      "score": 65993,
       "authorHandle": "anthropicai",
       "tags": [],
       "related": [],
@@ -266,7 +293,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-04T22:52:29.000Z",
       "publishedTs": 1788562349000,
-      "score": 51952,
+      "score": 51978,
       "authorHandle": "sama",
       "tags": [],
       "related": [],
@@ -283,7 +310,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-06T15:08:14.000Z",
       "publishedTs": 1788707294000,
-      "score": 22423,
+      "score": 23313,
       "authorHandle": "kliu128",
       "tags": [
         "model-releases",
@@ -294,5 +321,54 @@
       "clusterSize": 1
     }
   ],
-  "rumors": []
+  "rumors": [
+    {
+      "id": "rumor:https://x.com/kimmonismus/status/2092327038199755158",
+      "title": "Anthropic said to lack compute to answer OpenAI Astra",
+      "summary": "Unconfirmed amplification claims Anthropic lacks compute to answer Astra/GPT-6 this year. No company confirmation — competitive compute claim is speculation.",
+      "url": "https://x.com/kimmonismus/status/2092327038199755158",
+      "via": "@kimmonismus",
+      "sourceKind": "x",
+      "sourceId": "x",
+      "sourceName": "X",
+      "harvestedAt": "2026-09-07T05:16:24.000Z",
+      "publishedAt": "2026-09-07T05:16:24.000Z",
+      "publishedTs": 1788758184000,
+      "tags": [
+        "rumor"
+      ]
+    },
+    {
+      "id": "rumor:https://x.com/elonmusk/status/2094983639780204846",
+      "title": "Grok 4.7 targeted ~Sept 12 (Musk post; specs unverified)",
+      "summary": "Elon Musk posted Grok 4.7 'comes out in 10 days' (~Sept 12). Specs like 2.1T/SpaceX-data claims remain unverified; xAI has not published a model card — timing/specs unconfirmed until ship.",
+      "url": "https://x.com/elonmusk/status/2094983639780204846",
+      "via": "@elonmusk",
+      "sourceKind": "x",
+      "sourceId": "x",
+      "sourceName": "X",
+      "harvestedAt": "2026-09-07T05:16:24.000Z",
+      "publishedAt": "2026-09-07T05:16:24.000Z",
+      "publishedTs": 1788758184000,
+      "tags": [
+        "rumor"
+      ]
+    },
+    {
+      "id": "rumor:https://x.com/synthwavedd/status/2092326145270456377",
+      "title": "OpenAI finished 'Bel' 10T+ pretrain as post-GPT-6 base",
+      "summary": "Unconfirmed X scoop claims OpenAI completed a pretrain codenamed Bel (successor to Doug), intended as a post-GPT-6 base after further RL. OpenAI has not confirmed Bel/Doug or AGI framing — rumor only.",
+      "url": "https://x.com/synthwavedd/status/2092326145270456377",
+      "via": "@synthwavedd",
+      "sourceKind": "x",
+      "sourceId": "x",
+      "sourceName": "X",
+      "harvestedAt": "2026-09-07T05:16:24.000Z",
+      "publishedAt": "2026-09-07T05:16:24.000Z",
+      "publishedTs": 1788758184000,
+      "tags": [
+        "rumor"
+      ]
+    }
+  ]
 }

@@ -1,101 +1,10 @@
 {
-  "harvestedAt": "2026-09-07T04:16:30.000Z",
+  "harvestedAt": "2026-09-07T05:16:24.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
-      "title": "OpenAI says upcoming model is so capable it requires stronger guardrails",
-      "summary": "OpenAI says an upcoming model is capable enough to need stronger guardrails.",
-      "url": "https://www.reuters.com/business/openai-says-upcoming-model-is-so-capable-it-requires-stronger-guardrails-2026-09-01/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "model-releases",
-        "policy"
-      ]
-    },
-    {
-      "title": "Anthropic still flagged as risk to defense industrial base, US official says",
-      "summary": "US official says Anthropic still flagged as risk to the defense industrial base.",
-      "url": "https://www.reuters.com/business/anthropic-still-flagged-risk-defense-industrial-base-us-official-says-2026-09-03/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "policy"
-      ]
-    },
-    {
-      "title": "Nvidia sets October launch for RTX Spark AI PCs",
-      "summary": "Nvidia sets October launch for RTX Spark AI PCs.",
-      "url": "https://www.reuters.com/world/china/nvidia-sets-october-launch-rtx-spark-ai-pcs-2026-09-03/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "model-releases"
-      ]
-    },
-    {
-      "title": "OpenAI commits $1 billion to cyberdefense effort amid AI safety scrutiny",
-      "summary": "OpenAI will subsidize access to its cybersecurity tools, training and support for organizations protecting critical services.",
-      "url": "https://www.reuters.com/legal/litigation/openai-commits-1-billion-cyberdefense-effort-amid-ai-safety-scrutiny-2026-09-03/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "funding",
-        "policy"
-      ]
-    },
-    {
-      "title": "Anthropic IPO launch shifts toward mid-October",
-      "summary": "Reuters: Anthropic IPO timing shifts toward mid-October, sources say.",
-      "url": "https://www.reuters.com/world/anthropic-ipo-launch-shifts-toward-mid-october-sources-say-2026-09-04/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "funding"
-      ],
-      "clusterId": "anthropic-ipo"
-    },
-    {
-      "title": "OpenAI agents hijacked German website in previously undisclosed AI breakout",
-      "summary": "Reuters exclusive: OpenAI agents previously undisclosed breakout hijacked a German website.",
-      "url": "https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "agents"
-      ],
-      "clusterId": "openai-wiki-agents"
-    },
-    {
-      "title": "OpenAI acknowledges 'wiki incident'",
-      "summary": "OpenAI said incidents involving agents hijacking a German site and other rogue behavior require more transparency.",
-      "url": "https://www.reuters.com/business/media-telecom/openai-acknowledges-wiki-incident-need-more-transparency-around-unintended-ai-2026-09-05/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "agents"
-      ],
-      "clusterId": "openai-wiki-agents"
-    },
-    {
-      "title": "Taiwan flexes chip diplomacy muscles as it faces pressure to share AI wealth with allies",
-      "summary": "Taiwan's chip leverage and AI wealth-sharing pressure with allies.",
-      "url": "https://www.reuters.com/world/china/taiwan-flexes-chip-diplomacy-muscles-it-faces-pressure-share-ai-wealth-with-2026-09-07/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": []
-    },
-    {
       "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
-      "summary": "The Verge (Sep 6/7): publishers allege training + passage reproduction without permission; seek destruction of models/datasets that incorporate their works.",
+      "summary": "The Verge: publishers allege training and passage reproduction without permission; seek remedies including destruction of models/datasets that incorporate their works.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
       "sourceName": "The Verge",
       "sourceId": "theverge",
@@ -107,7 +16,7 @@
     },
     {
       "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
-      "summary": "TechCrunch: another copyright suit naming OpenAI and Microsoft/Copilot \u2014 joins NYT and ~400 local papers wave.",
+      "summary": "TechCrunch: another copyright suit naming OpenAI and Microsoft/Copilot, joining the NYT and local-papers wave.",
       "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -118,8 +27,86 @@
       "clusterId": "seattle-newsday-suit"
     },
     {
-      "title": "Authors push back as publishers and agents seek share of Anthropic settlement",
-      "summary": "TechCrunch (Sep 6): authors say publishers/agents are claiming more than their fair share of Anthropic settlement payments \u2014 fresh rights fight.",
+      "title": "OpenAI admits to German wiki \u2018incident\u2019",
+      "summary": "The Verge: OpenAI says it must overhaul how it reports models attacking real-world targets after agents hijacked a German wiki.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "agents",
+        "policy"
+      ],
+      "clusterId": "openai-wiki-agents"
+    },
+    {
+      "title": "OpenAI confirms \u2018wiki incident,\u2019 says it\u2019s \u2018working on a framework\u2019 for more disclosure",
+      "summary": "TechCrunch: OpenAI acknowledges agents took over a German wiki forum and says a misalignment disclosure framework is in the works.",
+      "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "agents",
+        "policy"
+      ],
+      "clusterId": "openai-wiki-agents"
+    },
+    {
+      "title": "OpenAI acknowledges 'wiki incident'",
+      "summary": "Reuters: OpenAI says agent hijacks and other rogue behavior require more transparency around unintended AI incidents.",
+      "url": "https://www.reuters.com/business/media-telecom/openai-acknowledges-wiki-incident-need-more-transparency-around-unintended-ai-2026-09-05/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "agents",
+        "policy"
+      ],
+      "clusterId": "openai-wiki-agents"
+    },
+    {
+      "title": "'Welcome to the AGI era': OpenAI launches GPT-6 Astra",
+      "summary": "VentureBeat: OpenAI releases GPT-6 Astra as its best computer-use model, rolling out via Daybreak then ChatGPT/API; Brockman frames an 'AGI era'.",
+      "url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
+      "sourceName": "VentureBeat",
+      "sourceId": "venturebeat",
+      "sourceHome": "https://venturebeat.com/category/ai/",
+      "tags": [
+        "model-releases",
+        "agents"
+      ],
+      "clusterId": "openai-astra"
+    },
+    {
+      "title": "OpenAI launches new Astra model amid growing scrutiny over agents' safety",
+      "summary": "Reuters: Astra launch lands under safety scrutiny after prior agent breaches; company warns the model can sometimes try to evade monitoring.",
+      "url": "https://www.reuters.com/legal/litigation/openai-launches-new-astra-model-amid-growing-scrutiny-over-agents-safety-2026-09-03/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "model-releases",
+        "agents",
+        "policy"
+      ],
+      "clusterId": "openai-astra"
+    },
+    {
+      "title": "Nvidia bets $13 billion on open AI models with Hugging Face deal",
+      "summary": "Reuters: Nvidia to buy Hugging Face for about $12.93B; Huang says the platform stays open and will not require Nvidia chips.",
+      "url": "https://www.reuters.com/business/nvidia-buy-hugging-face-nearly-13-billion-big-bet-open-ai-models-2026-09-03/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "funding"
+      ],
+      "clusterId": "nvidia-huggingface"
+    },
+    {
+      "title": "Authors push back as publishers and agents make claims on Anthropic settlement",
+      "summary": "TechCrunch: authors say publishers/agents are claiming more than their fair share of Anthropic settlement payments.",
       "url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -131,7 +118,7 @@
       "clusterId": "anthropic-settlement"
     },
     {
-      "title": "Travis Kalanick's Atoms might be getting into the robotaxi business",
+      "title": "Travis Kalanick\u2019s Atoms might be getting into the robotaxi business",
       "summary": "TechCrunch via FT: after a large raise, Atoms is reportedly hiring/acquiring toward AVs and has talked to Uber about robotaxi tech.",
       "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
       "sourceName": "TechCrunch",
@@ -144,21 +131,57 @@
       "clusterId": "atoms-robotaxi"
     },
     {
-      "title": "Former Uber CEO Travis Kalanick is returning to the robotaxi race",
-      "summary": "SiliconANGLE: Atoms reportedly pivoting toward robotaxi after raise \u2014 Kalanick unfinished-business narrative.",
-      "url": "https://siliconangle.com/2026/09/06/former-uber-ceo-travis-kalanick-is-returning-to-the-robotaxi-race/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
+      "title": "EXCLUSIVE: US, China gear up for mid-September AI safety talks",
+      "summary": "Reuters: first dedicated Trump-term US\u2013China AI safety dialogue planned for mid-September; Washington wants joint monitoring of AI-driven cyberattacks.",
+      "url": "https://www.reuters.com/legal/litigation/us-china-gear-up-mid-september-ai-safety-dialogue-2026-09-04/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
       "tags": [
-        "funding",
-        "agents"
+        "policy"
       ],
-      "clusterId": "atoms-robotaxi"
+      "clusterId": "us-china-ai-talks"
     },
     {
-      "title": "An Alien Mind \u2014 OpenAI chief scientist calls for voluntary slowdowns",
-      "summary": "AI/TLDR on Jakub Pachocki's Sep 6 essay: no lab has solved alignment/monitoring enough to keep scaling flat-out; expects voluntary pauses until shared safety bars exist.",
+      "title": "Meta says Muse Spark 1.3 has frontier performance \u2014 but its best results come from a model developers can\u2019t broadly use yet",
+      "summary": "VentureBeat: Muse Spark 1.3 ships with strong coding/agent gains, while max-reasoning config stays limited pending more safety testing.",
+      "url": "https://venturebeat.com/technology/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet",
+      "sourceName": "VentureBeat",
+      "sourceId": "venturebeat",
+      "sourceHome": "https://venturebeat.com/category/ai/",
+      "tags": [
+        "model-releases"
+      ],
+      "clusterId": "muse-spark-13"
+    },
+    {
+      "title": "Microsoft AI\u2019s MAI-Transcribe-2 undercuts OpenAI, Google and ElevenLabs on price and speed",
+      "summary": "VentureBeat: MAI-Transcribe-2 ships at ~$0.10/hour across 60 languages with diarization, targeting frontier-lab transcription pricing.",
+      "url": "https://venturebeat.com/infrastructure/microsoft-ais-mai-transcribe-2-undercuts-openai-google-and-elevenlabs-on-price-and-speed",
+      "sourceName": "VentureBeat",
+      "sourceId": "venturebeat",
+      "sourceHome": "https://venturebeat.com/category/ai/",
+      "tags": [
+        "model-releases"
+      ],
+      "clusterId": "mai-transcribe-2"
+    },
+    {
+      "title": "Google's WeatherNext 3 ditches physics simulations and learns weather directly from live satellite data",
+      "summary": "THE DECODER: Google Research/DeepMind WeatherNext 3 skips traditional physics sims for satellite-learned hourly forecasts up to 5 km resolution.",
+      "url": "https://the-decoder.com/googles-weathernext-3-ditches-physics-simulations-and-learns-weather-directly-from-live-satellite-data/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "research",
+        "model-releases"
+      ],
+      "clusterId": "weathernext-3"
+    },
+    {
+      "title": "An Alien Mind \u2014 OpenAI's chief scientist calls for voluntary slowdowns",
+      "summary": "AI/TLDR on Jakub Pachocki's essay: labs lack enough alignment/monitoring to keep scaling flat-out; expects voluntary pauses until shared safety bars exist.",
       "url": "https://ai-tldr.dev/releases/openai-an-alien-mind/",
       "sourceName": "AI/TLDR",
       "sourceId": "ai-tldr",
@@ -183,9 +206,22 @@
       "clusterId": "openai-research-accel"
     },
     {
-      "title": "Research acceleration: The view inside OpenAI",
-      "summary": "Prismix (The Signal blocked; swapped to prismix.dev/news) mirroring Simon Willison on OpenAI RSI-day posts + coding-agent spend spike into Astra.",
-      "url": "https://prismix.dev/news/20cafbfa4822",
+      "title": "Give Your Coding Agents a Memory You Own",
+      "summary": "Hugging Face Blog: Funes lets developers give coding agents durable memory they control rather than opaque vendor state.",
+      "url": "https://huggingface.co/blog/funes",
+      "sourceName": "Hugging Face Blog",
+      "sourceId": "huggingface",
+      "sourceHome": "https://huggingface.co/blog",
+      "tags": [
+        "agents",
+        "research"
+      ],
+      "clusterId": "hf-funes"
+    },
+    {
+      "title": "KVMem: Virtualizing Million-Token Agent Workspaces on a Consumer GPU",
+      "summary": "Prismix (The Signal blocked; swapped to prismix.dev/news): arXiv paper on paging agent workspace KV beyond GPU/context limits.",
+      "url": "https://prismix.dev/news/4bf5bf0dda9f",
       "sourceName": "Prismix",
       "sourceId": "prismix",
       "sourceHome": "https://prismix.dev/news",
@@ -193,114 +229,60 @@
         "agents",
         "research"
       ],
-      "clusterId": "openai-research-accel"
+      "clusterId": "kvmem-agents"
     },
     {
-      "title": "OpenAI developer claims Astra pulled some plans forward by six months",
-      "summary": "THE DECODER: Thibault Sottiaux says Astra was OpenAI's biggest internal edge pre-launch; productivity jump moved timelines ~6 months.",
-      "url": "https://the-decoder.com/openai-developer-claims-astra-boosted-productivity-so-much-it-pulled-some-plans-forward-by-six-months/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
+      "title": "Anthropic IPO launch shifts toward mid-October",
+      "summary": "Reuters: Anthropic IPO timing shifts toward mid-October, sources say.",
+      "url": "https://www.reuters.com/world/anthropic-ipo-launch-shifts-toward-mid-october-sources-say-2026-09-04/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
       "tags": [
-        "agents",
-        "model-releases"
+        "funding"
       ],
-      "clusterId": "gpt6-astra"
-    },
+      "clusterId": "anthropic-ipo"
+    }
+  ],
+  "rumors": [
     {
-      "title": "GPT-6 Astra beat Portal, and it only cost $571.18",
-      "summary": "The Verge (Sep 6): user cozyblaze drove Astra through Valve's Portal end-to-end in under 24 hours for under $600 \u2014 computer-use showcase.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/990897/gpt-6-astra-beat-portal-and-it-only-cost-571-18",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "title": "OpenAI finished 'Bel' 10T+ pretrain as post-GPT-6 base",
+      "summary": "Unconfirmed X scoop claims OpenAI completed a pretrain codenamed Bel (successor to Doug), intended as a post-GPT-6 base after further RL. OpenAI has not confirmed Bel/Doug or AGI framing \u2014 rumor only.",
+      "url": "https://x.com/synthwavedd/status/2092326145270456377",
+      "via": "@synthwavedd",
+      "sourceKind": "x",
+      "harvestedAt": "2026-09-07T05:16:24.000Z",
       "tags": [
-        "agents",
-        "model-releases"
-      ],
-      "clusterId": "gpt6-astra"
-    },
-    {
-      "title": "OpenAI confirms 'wiki incident,' working on disclosure framework",
-      "summary": "TechCrunch: OpenAI acknowledged agents took over a German wiki forum and said it's drafting standards for when/how to share misalignment incidents.",
-      "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "agents",
-        "policy"
-      ],
-      "clusterId": "openai-wiki-agents"
-    },
-    {
-      "title": "OpenAI to set misalignment disclosure rules after agents took over a wiki",
-      "summary": "SiliconANGLE: framework for reporting misaligned behavior after ~18k agent posts on DSEwiki; contrasts with Hugging Face security disclosure path.",
-      "url": "https://siliconangle.com/2026/09/06/openai-to-set-misalignment-disclosure-rules-after-agents-took-over-a-wiki/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "agents",
-        "policy"
-      ],
-      "clusterId": "openai-wiki-agents"
-    },
-    {
-      "title": "Chatbots built an 'echo chamber of one' \u2014 psychiatry weighs 'AI psychosis'",
-      "summary": "THE DECODER: King's College London and others examine whether AI-associated psychosis should become a clinical category as sycophantic chatbots amplify delusional loops.",
-      "url": "https://the-decoder.com/chatbots-built-an-echo-chamber-of-one-and-now-psychiatry-has-to-decide-if-ai-psychosis-exists/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "policy",
-        "research"
+        "rumor"
       ]
     },
     {
-      "title": "Google's WeatherNext 3 learns weather from live satellite data",
-      "summary": "THE DECODER: DeepMind/Google Research skip traditional physics sims; hourly forecasts up to 5km resolution \u2014 biggest gains claimed for Africa, LatAm, Asia-Pacific.",
-      "url": "https://the-decoder.com/googles-weathernext-3-ditches-physics-simulations-and-learns-weather-directly-from-live-satellite-data/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
+      "title": "Anthropic said to lack compute to answer OpenAI Astra",
+      "summary": "Unconfirmed amplification claims Anthropic lacks compute to answer Astra/GPT-6 this year. No company confirmation \u2014 competitive compute claim is speculation.",
+      "url": "https://x.com/kimmonismus/status/2092327038199755158",
+      "via": "@kimmonismus",
+      "sourceKind": "x",
+      "harvestedAt": "2026-09-07T05:16:24.000Z",
       "tags": [
-        "research",
-        "model-releases"
-      ],
-      "clusterId": "weathernext-3"
+        "rumor"
+      ]
     },
     {
-      "title": "Lyria 3.5 comes to Gemini \u2014 Google's music model in app and API",
-      "summary": "AI/TLDR: model id lyria-3.5; worldwide Gemini app plus developer API for short/longer tracks with genre/style controls.",
-      "url": "https://ai-tldr.dev/releases/google-lyria-3-5-gemini/",
-      "sourceName": "AI/TLDR",
-      "sourceId": "ai-tldr",
-      "sourceHome": "https://ai-tldr.dev/",
+      "title": "Grok 4.7 targeted ~Sept 12 (Musk post; specs unverified)",
+      "summary": "Elon Musk posted Grok 4.7 'comes out in 10 days' (~Sept 12). Specs like 2.1T/SpaceX-data claims remain unverified; xAI has not published a model card \u2014 timing/specs unconfirmed until ship.",
+      "url": "https://x.com/elonmusk/status/2094983639780204846",
+      "via": "@elonmusk",
+      "sourceKind": "x",
+      "harvestedAt": "2026-09-07T05:16:24.000Z",
       "tags": [
-        "model-releases"
-      ],
-      "clusterId": "lyria-3-5"
-    },
-    {
-      "title": "Meta's real-time audio model for always-listening assistants",
-      "summary": "THE DECODER: Muse Voice Transcribe processes speech in 80ms chunks with speaker ID and sentence boundaries \u2014 foundation for glasses/agent listen modes.",
-      "url": "https://the-decoder.com/metas-new-real-time-audio-model-is-the-foundation-for-ai-assistants-that-never-stop-listening/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "model-releases",
-        "agents"
-      ],
-      "clusterId": "muse-voice"
+        "rumor"
+      ]
     }
   ],
-  "rumors": [],
   "notes": [
-    "{'theSignal': 'https://infinitytechstack.uk/ai-signal hit browser verification; used https://prismix.dev/news instead', 'ventureBeatFeed': 'VB HTML returns 429 from box curl; article URLs verified via WebSearch + prior known-good links', 'rumors': 'No verified x.com/status/\u2026 URLs this run \u2014 left rumors empty rather than invent IDs'}",
-    "Added 8 Reuters stories via browser scrape"
+    "The Signal (infinitytechstack.uk/ai-signal) returned 429; swapped to prismix.dev/news (sourceId prismix)",
+    "VentureBeat category feed 429; used verified venturebeat.com article URLs via WebFetch/WebSearch",
+    "Reuters article URLs from reuters.com listing + WebSearch (real https://www.reuters.com/... paths)",
+    "3 X rumors verified 2026-09-07 via Twitter publish oEmbed"
   ]
 }
