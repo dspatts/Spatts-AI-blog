@@ -1187,22 +1187,25 @@ function renderHtml(payload) {
       const topicTags = (post.tags || []).filter((t) => t !== "x");
       const tags = topicTags.join(" ");
       const size = post.clusterSize > 1 ? `<span>${post.clusterSize} sources</span>` : "";
+      const shareX = `https://twitter.com/intent/tweet?url=${encodeURIComponent(post.url || "")}&text=${encodeURIComponent(post.title || "")}`;
+      const shareFb = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(post.url || "")}`;
+      const shareReddit = `https://www.reddit.com/submit?url=${encodeURIComponent(post.url || "")}&title=${encodeURIComponent(post.title || "")}`;
       return `<article class="story" data-tags="${escapeHtml(tags)}" data-source="${escapeHtml(post.sourceId || "")}">
   <div class="rank">${rank}</div>
   <div>
     <div class="story-top">
       <p class="source"><a href="${escapeHtml(post.sourceHome)}" target="_blank" rel="noopener noreferrer">${escapeHtml(post.sourceName)}</a></p>
-      <div class="share-wrap">
-        <button type="button" class="share-pill" data-share-url="${escapeHtml(post.url)}" data-share-title="${escapeHtml(post.title)}" aria-label="Share story" aria-haspopup="menu" aria-expanded="false">
+      <details class="share-wrap">
+        <summary class="share-pill" aria-label="Share story">
           <svg class="share-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51l-6.82 3.98"/></svg>
           <span class="share-label">Share</span>
-        </button>
-        <div class="share-menu" role="menu" hidden>
-          <a class="share-menu-item" role="menuitem" data-share-action="x" target="_blank" rel="noopener noreferrer">Share on X</a>
-          <a class="share-menu-item" role="menuitem" data-share-action="facebook" target="_blank" rel="noopener noreferrer">Share on Facebook</a>
-          <a class="share-menu-item" role="menuitem" data-share-action="reddit" target="_blank" rel="noopener noreferrer">Share on Reddit</a>
+        </summary>
+        <div class="share-menu" role="menu">
+          <a class="share-menu-item" role="menuitem" href="${escapeHtml(shareX)}" target="_blank" rel="noopener noreferrer">Share on X</a>
+          <a class="share-menu-item" role="menuitem" href="${escapeHtml(shareFb)}" target="_blank" rel="noopener noreferrer">Share on Facebook</a>
+          <a class="share-menu-item" role="menuitem" href="${escapeHtml(shareReddit)}" target="_blank" rel="noopener noreferrer">Share on Reddit</a>
         </div>
-      </div>
+      </details>
     </div>
     <h2><a href="${escapeHtml(post.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(post.title)}</a></h2>
     <div class="meta">
@@ -1392,87 +1395,11 @@ function renderHtml(payload) {
 })();
 
 (function () {
-  function closeAllMenus(except) {
-    document.querySelectorAll(".share-wrap.is-open").forEach(function (wrap) {
-      if (except && wrap === except) return;
-      wrap.classList.remove("is-open");
-      var menu = wrap.querySelector(".share-menu");
-      var pill = wrap.querySelector(".share-pill");
-      if (menu) {
-        menu.hidden = true;
-        menu.style.top = "";
-        menu.style.left = "";
-        menu.style.right = "";
-      }
-      if (pill) pill.setAttribute("aria-expanded", "false");
-    });
-  }
-  function shareUrls(url, title) {
-    var encodedUrl = encodeURIComponent(url);
-    var encodedTitle = encodeURIComponent(title || "");
-    return {
-      x: "https://twitter.com/intent/tweet?url=" + encodedUrl + "&text=" + encodedTitle,
-      facebook: "https://www.facebook.com/sharer/sharer.php?u=" + encodedUrl,
-      reddit: "https://www.reddit.com/submit?url=" + encodedUrl + "&title=" + encodedTitle
-    };
-  }
-  function placeMenu(wrap, menu, pill) {
-    var rect = pill.getBoundingClientRect();
-    var menuWidth = Math.max(menu.offsetWidth || 168, 168);
-    var left = Math.min(rect.right - menuWidth, window.innerWidth - menuWidth - 8);
-    left = Math.max(8, left);
-    var top = rect.bottom + 6;
-    menu.style.position = "fixed";
-    menu.style.top = top + "px";
-    menu.style.left = left + "px";
-    menu.style.right = "auto";
-  }
   document.addEventListener("click", function (e) {
-    var item = e.target.closest(".share-menu [data-share-action]");
-    if (item) {
-      var wrap = item.closest(".share-wrap");
-      var pill = wrap && wrap.querySelector(".share-pill");
-      var url = pill ? pill.getAttribute("data-share-url") || "" : "";
-      var title = pill ? pill.getAttribute("data-share-title") || document.title : document.title;
-      var action = item.getAttribute("data-share-action");
-      var links = shareUrls(url, title);
-      if (links[action]) item.setAttribute("href", links[action]);
-      closeAllMenus();
-      return;
-    }
-
-    var btn = e.target.closest(".share-pill");
-    if (btn) {
-      e.preventDefault();
-      e.stopPropagation();
-      var wrap = btn.closest(".share-wrap");
-      if (!wrap) return;
-      var menu = wrap.querySelector(".share-menu");
-      var open = wrap.classList.contains("is-open");
-      closeAllMenus();
-      if (!open && menu) {
-        var url = btn.getAttribute("data-share-url") || "";
-        var title = btn.getAttribute("data-share-title") || document.title;
-        var links = shareUrls(url, title);
-        menu.querySelectorAll("[data-share-action]").forEach(function (el) {
-          var a = el.getAttribute("data-share-action");
-          if (links[a]) el.setAttribute("href", links[a]);
-        });
-        wrap.classList.add("is-open");
-        menu.hidden = false;
-        btn.setAttribute("aria-expanded", "true");
-        placeMenu(wrap, menu, btn);
-      }
-      return;
-    }
-
-    if (!e.target.closest(".share-wrap") && !e.target.closest(".share-menu")) closeAllMenus();
+    document.querySelectorAll("details.share-wrap[open]").forEach(function (d) {
+      if (!d.contains(e.target)) d.removeAttribute("open");
+    });
   });
-  document.addEventListener("keydown", function (e) {
-    if (e.key === "Escape") closeAllMenus();
-  });
-  window.addEventListener("resize", function () { closeAllMenus(); });
-  window.addEventListener("scroll", function () { closeAllMenus(); }, true);
 })();
 </script>
 </body>
