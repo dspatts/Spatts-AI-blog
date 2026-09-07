@@ -46,7 +46,7 @@
       "count": 0,
       "errors": [
         "429 https://infinitytechstack.uk/ai-signal",
-        "empty https://prismix.dev/news"
+        "The operation was aborted due to timeout"
       ]
     },
     {
@@ -95,8 +95,8 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-07T14:46:42.527Z",
-  "refreshedAt": "2026-09-07T14:46:42.527Z",
+  "briefingDate": "2026-09-07T17:06:41.212Z",
+  "refreshedAt": "2026-09-07T17:06:41.212Z",
   "preferCurated": true,
   "posts": [
     {
@@ -107,8 +107,8 @@
       "sourceId": "reuters",
       "sourceName": "Reuters",
       "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "publishedAt": "2026-09-07T14:42:00.000Z",
-      "publishedTs": 1788792120000,
+      "publishedAt": "2026-09-07T17:05:00.000Z",
+      "publishedTs": 1788800700000,
       "curated": true,
       "tags": [
         "model-releases",
@@ -124,7 +124,7 @@
           "sourceId": "theverge",
           "sourceName": "The Verge",
           "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-          "publishedAt": "2026-09-07T14:42:00.000Z"
+          "publishedAt": "2026-09-07T17:05:00.000Z"
         },
         {
           "title": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
@@ -132,7 +132,7 @@
           "sourceId": "techcrunch",
           "sourceName": "TechCrunch",
           "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-          "publishedAt": "2026-09-07T14:42:00.000Z"
+          "publishedAt": "2026-09-07T17:05:00.000Z"
         },
         {
           "title": "OpenAI to set misalignment disclosure rules after agents took over a wiki",
@@ -140,39 +140,21 @@
           "sourceId": "siliconangle",
           "sourceName": "SiliconANGLE",
           "sourceHome": "https://siliconangle.com/",
-          "publishedAt": "2026-09-07T14:42:00.000Z"
+          "publishedAt": "2026-09-07T17:05:00.000Z"
         }
       ],
       "clusterSize": 4
     },
     {
-      "id": "curated:https://www.reuters.com/legal/litigation/us-china-gear-up-mid-september-ai-safety-dialogue-2026-09-04/",
-      "url": "https://www.reuters.com/legal/litigation/us-china-gear-up-mid-september-ai-safety-dialogue-2026-09-04/",
-      "title": "EXCLUSIVE: US, China gear up for mid-September AI safety talks",
-      "summary": "Reuters: The U.S. and China are preparing a mid-September dialogue on AI safety risks, per sources briefed on the talks.",
-      "sourceId": "reuters",
-      "sourceName": "Reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "publishedAt": "2026-09-07T14:42:00.000Z",
-      "publishedTs": 1788792119995,
-      "curated": true,
-      "tags": [
-        "policy"
-      ],
-      "clusterId": "id:us-china-ai-safety",
-      "related": [],
-      "clusterSize": 1
-    },
-    {
       "id": "curated:https://www.reuters.com/world/china/dance-floor-war-china-readies-humanoid-robots-combat-2026-09-07/",
       "url": "https://www.reuters.com/world/china/dance-floor-war-china-readies-humanoid-robots-combat-2026-09-07/",
       "title": "From dance floor to war: China readies humanoid robots for combat",
-      "summary": "Reuters: China's military is accelerating humanoid robot development for battlefield use, per procurement and research docs.",
+      "summary": "Reuters: A review of PLA procurement and research shows China accelerating humanoid robots toward potential battlefield roles.",
       "sourceId": "reuters",
       "sourceName": "Reuters",
       "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "publishedAt": "2026-09-07T14:42:00.000Z",
-      "publishedTs": 1788792119993,
+      "publishedAt": "2026-09-07T17:05:00.000Z",
+      "publishedTs": 1788800699999,
       "curated": true,
       "tags": [
         "agents",
@@ -184,49 +166,56 @@
       "clusterSize": 1
     },
     {
-      "id": "curated:https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
-      "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
-      "summary": "The Verge: Seattle Times and Newsday join the wave of publishers suing OpenAI and Microsoft over training data.",
-      "sourceId": "theverge",
-      "sourceName": "The Verge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "publishedAt": "2026-09-07T14:42:00.000Z",
-      "publishedTs": 1788792119992,
+      "id": "curated:https://www.reuters.com/commentary/breakingviews/how-make-world-safer-ai-2026-09-07/",
+      "url": "https://www.reuters.com/commentary/breakingviews/how-make-world-safer-ai-2026-09-07/",
+      "title": "Breakingviews - How to make the world safer for AI",
+      "summary": "Reuters Breakingviews: Managing AI risks needs an international regime and a U.S.–China deal, argues a Sept 7 commentary.",
+      "sourceId": "reuters",
+      "sourceName": "Reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "publishedAt": "2026-09-07T17:05:00.000Z",
+      "publishedTs": 1788800699998,
       "curated": true,
       "tags": [
         "policy"
       ],
-      "clusterId": "id:news-openai-suits",
-      "related": [
-        {
-          "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
-          "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
-          "sourceId": "techcrunch",
-          "sourceName": "TechCrunch",
-          "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-          "publishedAt": "2026-09-07T14:42:00.000Z"
-        }
-      ],
-      "clusterSize": 2
+      "clusterId": "id:us-china-ai-safety",
+      "related": [],
+      "clusterSize": 1
     },
     {
-      "id": "curated:https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
-      "url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
-      "title": "Authors push back as publishers and agents make claims on Anthropic settlement",
-      "summary": "TechCrunch: Authors say publishers and agents are claiming more than their fair share of Anthropic settlement payments.",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-07T14:42:00.000Z",
-      "publishedTs": 1788792119990,
+      "id": "curated:https://the-decoder.com/chatgpt-claws-back-web-traffic-share-to-55-5-percent-as-geminis-brief-comeback-fades/",
+      "url": "https://the-decoder.com/chatgpt-claws-back-web-traffic-share-to-55-5-percent-as-geminis-brief-comeback-fades/",
+      "title": "ChatGPT claws back web traffic share to 55.5 percent as Gemini's brief comeback fades",
+      "summary": "THE DECODER: Similarweb data shows ChatGPT reclaiming chatbot web traffic share to 55.5% while Gemini slips from its recent peak.",
+      "sourceId": "decoder",
+      "sourceName": "THE DECODER",
+      "sourceHome": "https://the-decoder.com/",
+      "publishedAt": "2026-09-07T17:05:00.000Z",
+      "publishedTs": 1788800699997,
       "curated": true,
       "tags": [
-        "agents",
-        "funding",
-        "policy"
+        "model-releases"
       ],
-      "clusterId": "id:anthropic-settlement",
+      "clusterId": "id:chatbot-traffic-share",
+      "related": [],
+      "clusterSize": 1
+    },
+    {
+      "id": "curated:https://the-decoder.com/ai-designed-drug-appears-to-turn-back-the-bodys-biological-clock-in-early-trial/",
+      "url": "https://the-decoder.com/ai-designed-drug-appears-to-turn-back-the-bodys-biological-clock-in-early-trial/",
+      "title": "AI-designed drug appears to turn back the body's biological clock in early trial",
+      "summary": "THE DECODER: Insilico's AI-designed rentosertib showed aging-clock improvements in a small Nature Biotechnology trial.",
+      "sourceId": "decoder",
+      "sourceName": "THE DECODER",
+      "sourceHome": "https://the-decoder.com/",
+      "publishedAt": "2026-09-07T17:05:00.000Z",
+      "publishedTs": 1788800699996,
+      "curated": true,
+      "tags": [
+        "research"
+      ],
+      "clusterId": "id:insilico-rentosertib",
       "related": [],
       "clusterSize": 1
     },
@@ -248,18 +237,18 @@
       "clusterSize": 1
     },
     {
-      "id": "decoder:https://the-decoder.com/at-ubs-ai-skills-are-now-a-condition-for-landing-a-job/",
-      "url": "https://the-decoder.com/at-ubs-ai-skills-are-now-a-condition-for-landing-a-job/",
-      "title": "At UBS, AI skills are now a condition for landing a job",
-      "summary": "Swiss banking giant UBS is making AI skills a required qualification from 2027 for graduates and interns in Global Banking and Markets,…",
-      "sourceId": "decoder",
-      "sourceName": "THE DECODER",
-      "sourceHome": "https://the-decoder.com/",
-      "publishedAt": "2026-09-07T13:13:38.000Z",
-      "publishedTs": 1788786818000,
+      "id": "aitldr:https://ai-tldr.dev/releases/wes-roth-alien-mind-sep7/",
+      "url": "https://ai-tldr.dev/releases/wes-roth-alien-mind-sep7/",
+      "title": "Wes Roth — 'OpenAI's chief scientist just issued a warning'",
+      "summary": "Wes Roth reads the essay in which OpenAI's chief scientist says control work is falling behind capability work.",
+      "sourceId": "aitldr",
+      "sourceName": "AI/TLDR",
+      "sourceHome": "https://ai-tldr.dev/",
+      "publishedAt": "2026-09-07T00:00:00.000Z",
+      "publishedTs": 1788739200000,
       "tags": [],
       "related": [],
-      "clusterId": "auto:at-ubs-ai-skills-are-now-a-condition-for-landing",
+      "clusterId": "auto:wes-roth-openai-s-chief-scientist-just-issued-a-",
       "clusterSize": 1
     },
     {
@@ -272,7 +261,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-04T18:50:48.000Z",
       "publishedTs": 1788547848000,
-      "score": 67153,
+      "score": 67289,
       "authorHandle": "anthropicai",
       "tags": [],
       "related": [],
@@ -289,7 +278,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-06T15:08:14.000Z",
       "publishedTs": 1788707294000,
-      "score": 27858,
+      "score": 28684,
       "authorHandle": "kliu128",
       "tags": [
         "model-releases",
@@ -309,7 +298,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-05T16:17:37.000Z",
       "publishedTs": 1788625057000,
-      "score": 7106,
+      "score": 7131,
       "authorHandle": "aiatmeta",
       "tags": [
         "research"
@@ -329,9 +318,9 @@
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-07T14:42:00.000Z",
-      "publishedAt": "2026-09-07T14:42:00.000Z",
-      "publishedTs": 1788792120000,
+      "harvestedAt": "2026-09-07T17:05:00.000Z",
+      "publishedAt": "2026-09-07T17:05:00.000Z",
+      "publishedTs": 1788800700000,
       "tags": [
         "rumor"
       ]
@@ -345,9 +334,9 @@
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-07T14:42:00.000Z",
-      "publishedAt": "2026-09-07T14:42:00.000Z",
-      "publishedTs": 1788792120000,
+      "harvestedAt": "2026-09-07T17:05:00.000Z",
+      "publishedAt": "2026-09-07T17:05:00.000Z",
+      "publishedTs": 1788800700000,
       "tags": [
         "rumor"
       ]
@@ -361,9 +350,9 @@
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-07T14:42:00.000Z",
-      "publishedAt": "2026-09-07T14:42:00.000Z",
-      "publishedTs": 1788792120000,
+      "harvestedAt": "2026-09-07T17:05:00.000Z",
+      "publishedAt": "2026-09-07T17:05:00.000Z",
+      "publishedTs": 1788800700000,
       "tags": [
         "rumor"
       ]
