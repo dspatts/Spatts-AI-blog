@@ -96,6 +96,15 @@ const SOURCES = [
     home: "https://siliconangle.com/",
     feeds: ["https://siliconangle.com/feed/"],
   },
+  {
+    id: "reuters",
+    name: "Reuters",
+    home: "https://www.reuters.com/technology/artificial-intelligence/",
+    feeds: [
+      "https://www.reuters.com/technology/artificial-intelligence/",
+      "https://news.google.com/rss/search?q=site:reuters.com+(AI+OR+artificial+intelligence+OR+OpenAI+OR+Anthropic+OR+GPT)+when:3d&hl=en-US&gl=US&ceid=US:en",
+    ],
+  },
 ];
 
 const AI_HINT =
@@ -1253,12 +1262,12 @@ function renderHtml(payload) {
   })();
   </script>
   <title>Ai Source — AI news</title>
-  <meta name="description" content="Top AI news from TechCrunch, VentureBeat, The Verge, AI/TLDR, The Signal, THE DECODER, Hugging Face Blog, SiliconANGLE, and X. Refreshed every 3 hours.">
+  <meta name="description" content="Top AI news from TechCrunch, VentureBeat, The Verge, AI/TLDR, The Signal, THE DECODER, Hugging Face Blog, SiliconANGLE, Reuters, and X. Refreshed every 3 hours.">
   <meta http-equiv="refresh" content="10800">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css?v=compact-c3">
+  <link rel="stylesheet" href="./styles.css?v=reuters-1">
 </head>
 <body>
   <div class="wrap">
