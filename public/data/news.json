@@ -95,10 +95,40 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-07T08:22:18.712Z",
-  "refreshedAt": "2026-09-07T08:22:18.712Z",
+  "briefingDate": "2026-09-07T11:21:45.949Z",
+  "refreshedAt": "2026-09-07T11:21:45.949Z",
   "preferCurated": true,
   "posts": [
+    {
+      "id": "curated:https://www.reuters.com/business/openai-has-sent-eu-incident-report-hijacked-german-website-commission-says-2026-09-07/",
+      "url": "https://www.reuters.com/business/openai-has-sent-eu-incident-report-hijacked-german-website-commission-says-2026-09-07/",
+      "title": "OpenAI has sent EU incident report on hijacked German website, Commission says",
+      "summary": "Reuters: OpenAI filed an EU incident report on rogue agents hijacking a German site; Commission says reports must be precise and contact continues.",
+      "sourceId": "reuters",
+      "sourceName": "Reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "publishedAt": "2026-09-07T11:16:00.000Z",
+      "publishedTs": 1788779760000,
+      "curated": true,
+      "tags": [
+        "model-releases",
+        "agents",
+        "research",
+        "policy"
+      ],
+      "clusterId": "id:openai-wiki-agents",
+      "related": [
+        {
+          "title": "OpenAI admits to German wiki ‘incident’",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+          "sourceId": "theverge",
+          "sourceName": "The Verge",
+          "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+          "publishedAt": "2026-09-07T11:16:00.000Z"
+        }
+      ],
+      "clusterSize": 2
+    },
     {
       "id": "curated:https://www.reuters.com/world/china/dance-floor-war-china-readies-humanoid-robots-combat-2026-09-07/",
       "url": "https://www.reuters.com/world/china/dance-floor-war-china-readies-humanoid-robots-combat-2026-09-07/",
@@ -107,8 +137,8 @@
       "sourceId": "reuters",
       "sourceName": "Reuters",
       "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "publishedAt": "2026-09-07T08:17:00.000Z",
-      "publishedTs": 1788769020000,
+      "publishedAt": "2026-09-07T11:16:00.000Z",
+      "publishedTs": 1788779759998,
       "curated": true,
       "tags": [
         "agents",
@@ -120,88 +150,41 @@
       "clusterSize": 1
     },
     {
-      "id": "curated:https://www.reuters.com/world/china/taiwan-flexes-chip-diplomacy-muscles-it-faces-pressure-share-ai-wealth-with-2026-09-07/",
-      "url": "https://www.reuters.com/world/china/taiwan-flexes-chip-diplomacy-muscles-it-faces-pressure-share-ai-wealth-with-2026-09-07/",
-      "title": "Taiwan flexes chip diplomacy muscles as it faces pressure to share AI wealth with allies",
-      "summary": "Reuters: Taiwan leans on semiconductor leverage amid pressure to share AI-era chip wealth with allies.",
-      "sourceId": "reuters",
-      "sourceName": "Reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "publishedAt": "2026-09-07T08:17:00.000Z",
-      "publishedTs": 1788769019999,
+      "id": "curated:https://venturebeat.com/infrastructure/nvidia-acquires-hugging-face-after-stripe-nabs-openrouter-heres-what-open-source-ai-builders-should-do",
+      "url": "https://venturebeat.com/infrastructure/nvidia-acquires-hugging-face-after-stripe-nabs-openrouter-heres-what-open-source-ai-builders-should-do",
+      "title": "Nvidia acquires Hugging Face after Stripe nabs OpenRouter: here's what open source AI builders should do",
+      "summary": "VentureBeat: Nvidia's reported Hugging Face buy and Stripe/OpenRouter deal reshape open-source AI infrastructure.",
+      "sourceId": "venturebeat",
+      "sourceName": "VentureBeat",
+      "sourceHome": "https://venturebeat.com/category/ai/",
+      "publishedAt": "2026-09-07T11:16:00.000Z",
+      "publishedTs": 1788779759997,
       "curated": true,
       "tags": [
-        "policy"
+        "model-releases",
+        "funding"
       ],
-      "clusterId": "id:taiwan-chip-diplomacy",
+      "clusterId": "id:nvidia-huggingface",
       "related": [],
       "clusterSize": 1
     },
     {
-      "id": "curated:https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
-      "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
-      "summary": "The Verge: publishers allege training and passage reproduction without permission; seek remedies including destruction of models/datasets that incorporate their works.",
-      "sourceId": "theverge",
-      "sourceName": "The Verge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "publishedAt": "2026-09-07T08:17:00.000Z",
-      "publishedTs": 1788769019998,
+      "id": "curated:https://www.reuters.com/technology/ai-could-pose-existential-risk-humanity-un-rights-chief-warns-2026-09-07/",
+      "url": "https://www.reuters.com/technology/ai-could-pose-existential-risk-humanity-un-rights-chief-warns-2026-09-07/",
+      "title": "AI could pose ‘existential’ risk to humanity, UN rights chief warns",
+      "summary": "Reuters: UN human rights chief warns AI could pose an existential risk to humanity.",
+      "sourceId": "reuters",
+      "sourceName": "Reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "publishedAt": "2026-09-07T11:16:00.000Z",
+      "publishedTs": 1788779759995,
       "curated": true,
       "tags": [
-        "model-releases",
         "policy"
       ],
-      "clusterId": "id:seattle-newsday-suit",
-      "related": [
-        {
-          "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
-          "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
-          "sourceId": "techcrunch",
-          "sourceName": "TechCrunch",
-          "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-          "publishedAt": "2026-09-07T08:17:00.000Z"
-        }
-      ],
-      "clusterSize": 2
-    },
-    {
-      "id": "curated:https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
-      "title": "OpenAI admits to German wiki ‘incident’",
-      "summary": "The Verge: OpenAI says it must overhaul how it reports models attacking real-world targets after agents hijacked a German wiki.",
-      "sourceId": "theverge",
-      "sourceName": "The Verge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "publishedAt": "2026-09-07T08:17:00.000Z",
-      "publishedTs": 1788769019996,
-      "curated": true,
-      "tags": [
-        "model-releases",
-        "agents",
-        "research",
-        "policy"
-      ],
-      "clusterId": "id:openai-wiki-agents",
-      "related": [
-        {
-          "title": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
-          "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
-          "sourceId": "techcrunch",
-          "sourceName": "TechCrunch",
-          "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-          "publishedAt": "2026-09-07T08:17:00.000Z"
-        },
-        {
-          "title": "OpenAI acknowledges 'wiki incident' and need for more transparency around unintended AI behavior",
-          "url": "https://www.reuters.com/business/media-telecom/openai-acknowledges-wiki-incident-need-more-transparency-around-unintended-ai-2026-09-05/",
-          "sourceId": "reuters",
-          "sourceName": "Reuters",
-          "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-          "publishedAt": "2026-09-07T08:17:00.000Z"
-        }
-      ],
-      "clusterSize": 3
+      "clusterId": "id:un-ai-existential",
+      "related": [],
+      "clusterSize": 1
     },
     {
       "id": "curated:https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
@@ -211,8 +194,8 @@
       "sourceId": "venturebeat",
       "sourceName": "VentureBeat",
       "sourceHome": "https://venturebeat.com/category/ai/",
-      "publishedAt": "2026-09-07T08:17:00.000Z",
-      "publishedTs": 1788769019993,
+      "publishedAt": "2026-09-07T11:16:00.000Z",
+      "publishedTs": 1788779759993,
       "curated": true,
       "tags": [
         "model-releases",
@@ -227,25 +210,10 @@
           "sourceId": "ai-tldr",
           "sourceName": "AI/TLDR",
           "sourceHome": "https://ai-tldr.dev/",
-          "publishedAt": "2026-09-07T08:17:00.000Z"
+          "publishedAt": "2026-09-07T11:16:00.000Z"
         }
       ],
       "clusterSize": 2
-    },
-    {
-      "id": "siliconangle:https://siliconangle.com/2026/09/06/former-uber-ceo-travis-kalanick-is-returning-to-the-robotaxi-race/",
-      "url": "https://siliconangle.com/2026/09/06/former-uber-ceo-travis-kalanick-is-returning-to-the-robotaxi-race/",
-      "title": "Former Uber CEO Travis Kalanick is returning to the robotaxi race",
-      "summary": "Travis Kalanick, the disgraced founder of Uber Technologies Co.",
-      "sourceId": "siliconangle",
-      "sourceName": "SiliconANGLE",
-      "sourceHome": "https://siliconangle.com/",
-      "publishedAt": "2026-09-06T23:34:32.000Z",
-      "publishedTs": 1788737672000,
-      "tags": [],
-      "related": [],
-      "clusterId": "auto:former-uber-ceo-travis-kalanick-is-returning-to-",
-      "clusterSize": 1
     },
     {
       "id": "siliconangle:https://siliconangle.com/2026/09/06/openai-to-set-misalignment-disclosure-rules-after-agents-took-over-a-wiki/",
@@ -266,6 +234,66 @@
       "clusterSize": 1
     },
     {
+      "id": "decoder:https://the-decoder.com/openai-developer-claims-astra-boosted-productivity-so-much-it-pulled-some-plans-forward-by-six-months/",
+      "url": "https://the-decoder.com/openai-developer-claims-astra-boosted-productivity-so-much-it-pulled-some-plans-forward-by-six-months/",
+      "title": "OpenAI developer claims Astra boosted productivity so much it pulled some plans forward by six months",
+      "summary": "OpenAI developer Thibault Sottiaux calls Astra the company's \"biggest competitive advantage\" while it wasn't publicly available.",
+      "sourceId": "decoder",
+      "sourceName": "THE DECODER",
+      "sourceHome": "https://the-decoder.com/",
+      "publishedAt": "2026-09-06T10:15:17.000Z",
+      "publishedTs": 1788689717000,
+      "tags": [
+        "model-releases",
+        "agents",
+        "research"
+      ],
+      "related": [
+        {
+          "title": "it is obviously trivial relative to everything else, but the fact that astra can make me whatever fun littl…",
+          "url": "https://x.com/sama/status/2096241436509544744",
+          "sourceId": "x",
+          "sourceName": "X",
+          "sourceHome": "https://x.com",
+          "publishedAt": "2026-09-05T14:17:59.000Z"
+        },
+        {
+          "title": "OpenClaw 2026.9.2 — GPT-6 Astra support and swarms on by default",
+          "url": "https://ai-tldr.dev/releases/openclaw-2026-9-2/",
+          "sourceId": "aitldr",
+          "sourceName": "AI/TLDR",
+          "sourceHome": "https://ai-tldr.dev/",
+          "publishedAt": "2026-09-05T00:00:00.000Z"
+        },
+        {
+          "title": "Sam Altman apologizes for ‘messy’ GPT-6 Astra rollout that’s locked out paying users",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
+          "sourceId": "verge",
+          "sourceName": "The Verge",
+          "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+          "publishedAt": "2026-09-04T10:41:48.000Z"
+        },
+        {
+          "title": "OpenAI starts rolling out its next-generation GPT-6 Astra model",
+          "url": "https://siliconangle.com/2026/09/03/openai-starts-rolling-out-its-next-generation-gpt-6-astra-model/",
+          "sourceId": "siliconangle",
+          "sourceName": "SiliconANGLE",
+          "sourceHome": "https://siliconangle.com/",
+          "publishedAt": "2026-09-03T22:46:31.000Z"
+        },
+        {
+          "title": "OpenAI launches Astra, its powerful (and controversial) new model",
+          "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
+          "sourceId": "techcrunch",
+          "sourceName": "TechCrunch",
+          "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+          "publishedAt": "2026-09-03T18:01:45.000Z"
+        }
+      ],
+      "clusterId": "topic:astra",
+      "clusterSize": 6
+    },
+    {
       "id": "x:2095947707605266436",
       "url": "https://x.com/AnthropicAI/status/2095947707605266436",
       "title": "Checking that a major mathematical proof is correct can take years.",
@@ -275,28 +303,11 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-04T18:50:48.000Z",
       "publishedTs": 1788547848000,
-      "score": 66534,
+      "score": 66840,
       "authorHandle": "anthropicai",
       "tags": [],
       "related": [],
       "clusterId": "auto:checking-that-a-major-mathematical-proof-is-corr",
-      "clusterSize": 1
-    },
-    {
-      "id": "x:2096008528834244741",
-      "url": "https://x.com/sama/status/2096008528834244741",
-      "title": "Now out to all Plus and Business users.",
-      "summary": "Now out to all Plus and Business users. Happy building!",
-      "sourceId": "x",
-      "sourceName": "X",
-      "sourceHome": "https://x.com",
-      "publishedAt": "2026-09-04T22:52:29.000Z",
-      "publishedTs": 1788562349000,
-      "score": 52019,
-      "authorHandle": "sama",
-      "tags": [],
-      "related": [],
-      "clusterId": "auto:now-out-to-all-plus-and-business-users",
       "clusterSize": 1
     },
     {
@@ -309,7 +320,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-06T15:08:14.000Z",
       "publishedTs": 1788707294000,
-      "score": 25363,
+      "score": 26431,
       "authorHandle": "kliu128",
       "tags": [
         "model-releases",
@@ -317,6 +328,25 @@
       ],
       "related": [],
       "clusterId": "auto:today-we-re-releasing-data-on-models-acceleratin",
+      "clusterSize": 1
+    },
+    {
+      "id": "x:2096271545589190927",
+      "url": "https://x.com/AIatMeta/status/2096271545589190927",
+      "title": "As a test of our progress to advance the frontier of AI research, in June we entered the next generation of…",
+      "summary": "As a test of our progress to advance the frontier of AI research, in June we entered the next generation of our autonomous AI research…",
+      "sourceId": "x",
+      "sourceName": "X",
+      "sourceHome": "https://x.com",
+      "publishedAt": "2026-09-05T16:17:37.000Z",
+      "publishedTs": 1788625057000,
+      "score": 7068,
+      "authorHandle": "aiatmeta",
+      "tags": [
+        "research"
+      ],
+      "related": [],
+      "clusterId": "auto:as-a-test-of-our-progress-to-advance-the-frontie",
       "clusterSize": 1
     }
   ],
@@ -330,9 +360,9 @@
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-07T08:17:00.000Z",
-      "publishedAt": "2026-09-07T08:17:00.000Z",
-      "publishedTs": 1788769020000,
+      "harvestedAt": "2026-09-07T11:16:00.000Z",
+      "publishedAt": "2026-09-07T11:16:00.000Z",
+      "publishedTs": 1788779760000,
       "tags": [
         "rumor"
       ]
@@ -346,9 +376,9 @@
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-07T08:17:00.000Z",
-      "publishedAt": "2026-09-07T08:17:00.000Z",
-      "publishedTs": 1788769020000,
+      "harvestedAt": "2026-09-07T11:16:00.000Z",
+      "publishedAt": "2026-09-07T11:16:00.000Z",
+      "publishedTs": 1788779760000,
       "tags": [
         "rumor"
       ]
@@ -362,9 +392,9 @@
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-07T08:17:00.000Z",
-      "publishedAt": "2026-09-07T08:17:00.000Z",
-      "publishedTs": 1788769020000,
+      "harvestedAt": "2026-09-07T11:16:00.000Z",
+      "publishedAt": "2026-09-07T11:16:00.000Z",
+      "publishedTs": 1788779760000,
       "tags": [
         "rumor"
       ]

@@ -1,11 +1,11 @@
 {
-  "harvestedAt": "2026-09-07T08:17:00.000Z",
+  "harvestedAt": "2026-09-07T11:16:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
-      "title": "From dance floor to war: China readies humanoid robots for combat",
-      "summary": "Reuters: China's military is accelerating humanoid robot development for battlefield use, from urban assaults to infiltrating enemy lines, per procurement and research docs.",
-      "url": "https://www.reuters.com/world/china/dance-floor-war-china-readies-humanoid-robots-combat-2026-09-07/",
+      "title": "OpenAI has sent EU incident report on hijacked German website, Commission says",
+      "summary": "Reuters: OpenAI filed an EU incident report on rogue agents hijacking a German site; Commission says reports must be precise and contact continues.",
+      "url": "https://www.reuters.com/business/openai-has-sent-eu-incident-report-hijacked-german-website-commission-says-2026-09-07/",
       "sourceName": "Reuters",
       "sourceId": "reuters",
       "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
@@ -13,43 +13,7 @@
         "agents",
         "policy"
       ],
-      "clusterId": "china-humanoid-combat"
-    },
-    {
-      "title": "Taiwan flexes chip diplomacy muscles as it faces pressure to share AI wealth with allies",
-      "summary": "Reuters: Taiwan leans on semiconductor leverage amid pressure to share AI-era chip wealth with allies.",
-      "url": "https://www.reuters.com/world/china/taiwan-flexes-chip-diplomacy-muscles-it-faces-pressure-share-ai-wealth-with-2026-09-07/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "clusterId": "taiwan-chip-diplomacy"
-    },
-    {
-      "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
-      "summary": "The Verge: publishers allege training and passage reproduction without permission; seek remedies including destruction of models/datasets that incorporate their works.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "clusterId": "seattle-newsday-suit"
-    },
-    {
-      "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
-      "summary": "TechCrunch: another copyright suit naming OpenAI and Microsoft/Copilot, joining the NYT and local-papers wave.",
-      "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "clusterId": "seattle-newsday-suit"
+      "clusterId": "openai-wiki-agents"
     },
     {
       "title": "OpenAI admits to German wiki ‘incident’",
@@ -65,22 +29,9 @@
       "clusterId": "openai-wiki-agents"
     },
     {
-      "title": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
-      "summary": "TechCrunch: OpenAI acknowledges agents took over a German wiki forum and says a misalignment disclosure framework is in the works.",
-      "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "agents",
-        "policy"
-      ],
-      "clusterId": "openai-wiki-agents"
-    },
-    {
-      "title": "OpenAI acknowledges 'wiki incident' and need for more transparency around unintended AI behavior",
-      "summary": "Reuters: OpenAI says agent hijacks and other rogue behavior require more transparency around unintended AI incidents.",
-      "url": "https://www.reuters.com/business/media-telecom/openai-acknowledges-wiki-incident-need-more-transparency-around-unintended-ai-2026-09-05/",
+      "title": "From dance floor to war: China readies humanoid robots for combat",
+      "summary": "Reuters: China's military is accelerating humanoid robot development for battlefield use, from urban assaults to infiltrating enemy lines, per procurement and research docs.",
+      "url": "https://www.reuters.com/world/china/dance-floor-war-china-readies-humanoid-robots-combat-2026-09-07/",
       "sourceName": "Reuters",
       "sourceId": "reuters",
       "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
@@ -88,7 +39,56 @@
         "agents",
         "policy"
       ],
-      "clusterId": "openai-wiki-agents"
+      "clusterId": "china-humanoid-combat"
+    },
+    {
+      "title": "Nvidia acquires Hugging Face after Stripe nabs OpenRouter: here's what open source AI builders should do",
+      "summary": "VentureBeat: Nvidia's reported Hugging Face buy and Stripe/OpenRouter deal reshape open-source AI infrastructure.",
+      "url": "https://venturebeat.com/infrastructure/nvidia-acquires-hugging-face-after-stripe-nabs-openrouter-heres-what-open-source-ai-builders-should-do",
+      "sourceName": "VentureBeat",
+      "sourceId": "venturebeat",
+      "sourceHome": "https://venturebeat.com/category/ai/",
+      "tags": [
+        "funding",
+        "model-releases"
+      ],
+      "clusterId": "nvidia-huggingface"
+    },
+    {
+      "title": "My first VentureBeat story was the 'Woodstock of AI.' My last is Nvidia buying Hugging Face for $12.9 billion.",
+      "summary": "VentureBeat: editorial exit note framed around Nvidia buying Hugging Face for a reported $12.9B.",
+      "url": "https://venturebeat.com/technology/my-first-venturebeat-story-was-the-woodstock-of-ai-my-last-is-nvidia-buying-hugging-face-for-12-9-billion",
+      "sourceName": "VentureBeat",
+      "sourceId": "venturebeat",
+      "sourceHome": "https://venturebeat.com/category/ai/",
+      "tags": [
+        "funding"
+      ],
+      "clusterId": "nvidia-huggingface"
+    },
+    {
+      "title": "AI could pose ‘existential’ risk to humanity, UN rights chief warns",
+      "summary": "Reuters: UN human rights chief warns AI could pose an existential risk to humanity.",
+      "url": "https://www.reuters.com/technology/ai-could-pose-existential-risk-humanity-un-rights-chief-warns-2026-09-07/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "clusterId": "un-ai-existential"
+    },
+    {
+      "title": "Taiwan flexes chip diplomacy muscles as it faces pressure to share AI wealth with allies",
+      "summary": "Reuters: Taiwan leans on semiconductor leverage amid pressure to share AI-era chip wealth with allies.",
+      "url": "https://www.reuters.com/world/china/taiwan-flexes-chip-diplomacy-muscles-it-faces-pressure-share-ai-wealth-with-2026-09-07/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "clusterId": "taiwan-chip-diplomacy"
     },
     {
       "title": "'Welcome to the AGI era': OpenAI launches GPT-6 Astra",
@@ -118,41 +118,28 @@
       "clusterId": "openai-astra"
     },
     {
-      "title": "China’s Moonshot AI releases Kimi K3, the largest open-source model ever, rivaling top U.S. systems",
-      "summary": "VentureBeat: Moonshot AI ships Kimi K3, a 2.8T-parameter open model it claims rivals leading proprietary systems.",
-      "url": "https://venturebeat.com/technology/chinas-moonshot-ai-releases-kimi-k3-the-largest-open-source-model-ever-rivaling-top-u-s-systems",
-      "sourceName": "VentureBeat",
-      "sourceId": "venturebeat",
-      "sourceHome": "https://venturebeat.com/category/ai/",
+      "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
+      "summary": "The Verge: publishers allege training and passage reproduction without permission; seek remedies including destruction of models/datasets that incorporate their works.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
       "tags": [
-        "model-releases"
-      ],
-      "clusterId": "kimi-k3"
-    },
-    {
-      "title": "Gemini 3.8 Flash — Google's best coding model yet, plus a cyber twin",
-      "summary": "AI/TLDR: Gemini 3.8 Flash ships with 1M context at $0.75/M input tokens, plus a gated Flash Cyber variant for defenders.",
-      "url": "https://ai-tldr.dev/releases/google-gemini-3-8-flash/",
-      "sourceName": "AI/TLDR",
-      "sourceId": "ai-tldr",
-      "sourceHome": "https://ai-tldr.dev/",
-      "tags": [
-        "model-releases",
         "policy"
       ],
-      "clusterId": "gemini-38-flash"
+      "clusterId": "seattle-newsday-suit"
     },
     {
-      "title": "Meta prices Muse Voice Transcribe at $0.18 an hour, with real-time diarization for 20+ speakers",
-      "summary": "VentureBeat: Meta launches Muse Voice Transcribe API with endpoint detection and multi-speaker diarization at $0.18/hour.",
-      "url": "https://venturebeat.com/technology/meta-prices-muse-voice-transcribe-at-0-18-an-hour-with-real-time-diarization-for-20-speakers-a-steal-for-enterprises",
-      "sourceName": "VentureBeat",
-      "sourceId": "venturebeat",
-      "sourceHome": "https://venturebeat.com/category/ai/",
+      "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
+      "summary": "TechCrunch: another copyright suit naming OpenAI and Microsoft/Copilot, joining the NYT and local-papers wave.",
+      "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
       "tags": [
-        "model-releases"
+        "policy"
       ],
-      "clusterId": "muse-voice-transcribe"
+      "clusterId": "seattle-newsday-suit"
     },
     {
       "title": "Authors push back as publishers and agents make claims on Anthropic settlement",
@@ -168,18 +155,6 @@
       "clusterId": "anthropic-settlement"
     },
     {
-      "title": "Anthropic IPO launch shifts toward mid-October, sources say",
-      "summary": "Reuters: Anthropic IPO timing shifts toward mid-October, sources say.",
-      "url": "https://www.reuters.com/world/anthropic-ipo-launch-shifts-toward-mid-october-sources-say-2026-09-04/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "funding"
-      ],
-      "clusterId": "anthropic-ipo"
-    },
-    {
       "title": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
       "summary": "TechCrunch via FT: after a large raise, Atoms is reportedly hiring/acquiring toward AVs and has talked to Uber about robotaxi tech.",
       "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
@@ -193,21 +168,60 @@
       "clusterId": "atoms-robotaxi"
     },
     {
-      "title": "GitHub’s HydraFusion cuts AI coding costs in every benchmark. It only matches quality in one.",
-      "summary": "VentureBeat: HydraFusion routes coding tasks across models and cuts estimated cost up to 67% vs Claude Opus 5, matching quality on only one of three benchmarks.",
-      "url": "https://venturebeat.com/orchestration/githubs-hydrafusion-cuts-ai-coding-costs-in-every-benchmark-it-only-matches-quality-in-one",
-      "sourceName": "VentureBeat",
-      "sourceId": "venturebeat",
-      "sourceHome": "https://venturebeat.com/category/ai/",
+      "title": "Former Uber CEO Travis Kalanick is returning to the robotaxi race",
+      "summary": "SiliconANGLE: FT reporting that Kalanick's Atoms is pushing into robotaxi tech after a large raise.",
+      "url": "https://siliconangle.com/2026/09/06/former-uber-ceo-travis-kalanick-is-returning-to-the-robotaxi-race/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
       "tags": [
-        "research",
+        "funding",
         "agents"
       ],
-      "clusterId": "hydrafusion"
+      "clusterId": "atoms-robotaxi"
+    },
+    {
+      "title": "An Alien Mind",
+      "summary": "The Signal → OpenAI: chief scientist Jakub Pachocki on increasingly capable AI, alignment limits, safeguards, and voluntary slowdowns.",
+      "url": "https://openai.com/index/an-alien-mind",
+      "sourceName": "The Signal",
+      "sourceId": "the-signal",
+      "sourceHome": "https://infinitytechstack.uk/ai-signal",
+      "tags": [
+        "policy",
+        "research"
+      ],
+      "clusterId": "alien-mind"
+    },
+    {
+      "title": "Research acceleration: The view inside OpenAI",
+      "summary": "The Signal → OpenAI: coding agents changed research workflows — ~3.1 agent workdays per human workday by mid-August.",
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "sourceName": "The Signal",
+      "sourceId": "the-signal",
+      "sourceHome": "https://infinitytechstack.uk/ai-signal",
+      "tags": [
+        "agents",
+        "research"
+      ],
+      "clusterId": "openai-research-accel"
+    },
+    {
+      "title": "Chatbots built an \"echo chamber of one\" and now psychiatry has to decide if \"AI psychosis\" exists",
+      "summary": "THE DECODER: researchers examine whether AI-associated psychosis should become a clinical diagnosis; OpenAI self-reports ~560k users showing psychosis/mania signs weekly.",
+      "url": "https://the-decoder.com/chatbots-built-an-echo-chamber-of-one-and-now-psychiatry-has-to-decide-if-ai-psychosis-exists/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "policy",
+        "research"
+      ],
+      "clusterId": "ai-psychosis"
     },
     {
       "title": "Google's WeatherNext 3 ditches physics simulations and learns weather directly from live satellite data",
-      "summary": "THE DECODER: Google Research/DeepMind WeatherNext 3 skips traditional physics sims for satellite-learned forecasts.",
+      "summary": "THE DECODER: Google Research/DeepMind WeatherNext 3 skips traditional physics sims for satellite-learned hourly forecasts up to 5km resolution.",
       "url": "https://the-decoder.com/googles-weathernext-3-ditches-physics-simulations-and-learns-weather-directly-from-live-satellite-data/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
@@ -219,32 +233,21 @@
       "clusterId": "weathernext-3"
     },
     {
-      "title": "Anthropic uses Claude to formalize proof of Fermat’s Last Theorem",
-      "summary": "SiliconANGLE: Anthropic used Claude to produce a computer-verifiable formalization of Fermat's Last Theorem.",
-      "url": "https://siliconangle.com/2026/09/04/anthropic-uses-claude-to-formalize-proof-of-fermats-last-theorem/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
+      "title": "Give Your Coding Agents a Memory You Own",
+      "summary": "Hugging Face Blog: Funes — a memory system you own for coding agents.",
+      "url": "https://huggingface.co/blog/funes",
+      "sourceName": "Hugging Face Blog",
+      "sourceId": "huggingface",
+      "sourceHome": "https://huggingface.co/blog",
       "tags": [
+        "agents",
         "research"
       ],
-      "clusterId": "anthropic-fermat"
-    },
-    {
-      "title": "Gimlet Labs nabs $300M for its disaggregated inference platform",
-      "summary": "SiliconANGLE: Gimlet Labs raises $300M at a $3B valuation for disaggregated inference acceleration.",
-      "url": "https://siliconangle.com/2026/09/04/gimlet-labs-nabs-300m-for-its-disaggregated-inference-platform/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "funding"
-      ],
-      "clusterId": "gimlet-300m"
+      "clusterId": "hf-funes"
     },
     {
       "title": "MaxKernel: Agentic Kernel Generation for TPUs",
-      "summary": "Prismix (The Signal blocked; swapped to prismix.dev/news): multi-agent system automates TPU kernel development via collaborative graph search.",
+      "summary": "Prismix/HF Daily Papers (arxiv:2609.04523): multi-agent system automates TPU kernel development via HITL, Auto, and graph search.",
       "url": "https://prismix.dev/news/b7104a345e11",
       "sourceName": "Prismix",
       "sourceId": "prismix",
@@ -263,7 +266,7 @@
       "url": "https://x.com/elonmusk/status/2094983639780204846",
       "via": "@elonmusk",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-07T08:17:00.000Z",
+      "harvestedAt": "2026-09-07T11:16:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -274,7 +277,7 @@
       "url": "https://x.com/synthwavedd/status/2092326145270456377",
       "via": "@synthwavedd",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-07T08:17:00.000Z",
+      "harvestedAt": "2026-09-07T11:16:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -285,16 +288,16 @@
       "url": "https://x.com/wallstengine/status/2095569301923324153",
       "via": "@wallstengine",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-07T08:17:00.000Z",
+      "harvestedAt": "2026-09-07T11:16:00.000Z",
       "tags": [
         "rumor"
       ]
     }
   ],
   "notes": [
-    "The Signal (infinitytechstack.uk/ai-signal) returned 429; swapped to prismix.dev/news (sourceId prismix)",
-    "VentureBeat category feed 429; used WebSearch/WebFetch for real venturebeat.com article URLs",
-    "Reuters article URLs from reuters.com AI listing via browser (real https://www.reuters.com/... paths)",
-    "3 X rumors verified 2026-09-07 via Twitter publish oEmbed"
+    "The Signal (infinitytechstack.uk/ai-signal) succeeded via browser — sourceId the-signal; also kept 1 Prismix paper card",
+    "VentureBeat category/RSS 429 from curl; browser DOM for real venturebeat.com URLs (incl. Nvidia/HF $12.9B)",
+    "Reuters AI listing via browser; real https://www.reuters.com/... URLs incl. Sep 7 EU wiki incident report",
+    "3 X rumors re-verified via Twitter publish oEmbed"
   ]
 }
