@@ -1198,7 +1198,6 @@ function renderHtml(payload) {
           <span class="share-label">Share</span>
         </button>
         <div class="share-menu" role="menu" hidden>
-          <button type="button" class="share-menu-item" role="menuitem" data-share-action="copy">Copy link</button>
           <a class="share-menu-item" role="menuitem" data-share-action="x" target="_blank" rel="noopener noreferrer">Share on X</a>
           <a class="share-menu-item" role="menuitem" data-share-action="facebook" target="_blank" rel="noopener noreferrer">Share on Facebook</a>
           <a class="share-menu-item" role="menuitem" data-share-action="reddit" target="_blank" rel="noopener noreferrer">Share on Reddit</a>
@@ -1393,34 +1392,20 @@ function renderHtml(payload) {
 })();
 
 (function () {
-  function setLabel(btn, text) {
-    var label = btn.querySelector(".share-label");
-    if (label) label.textContent = text;
-  }
   function closeAllMenus(except) {
     document.querySelectorAll(".share-wrap.is-open").forEach(function (wrap) {
       if (except && wrap === except) return;
       wrap.classList.remove("is-open");
       var menu = wrap.querySelector(".share-menu");
       var pill = wrap.querySelector(".share-pill");
-      if (menu) menu.hidden = true;
+      if (menu) {
+        menu.hidden = true;
+        menu.style.top = "";
+        menu.style.left = "";
+        menu.style.right = "";
+      }
       if (pill) pill.setAttribute("aria-expanded", "false");
     });
-  }
-  async function copyUrl(url) {
-    if (navigator.clipboard && navigator.clipboard.writeText) {
-      await navigator.clipboard.writeText(url);
-      return;
-    }
-    var ta = document.createElement("textarea");
-    ta.value = url;
-    ta.setAttribute("readonly", "");
-    ta.style.position = "fixed";
-    ta.style.left = "-9999px";
-    document.body.appendChild(ta);
-    ta.select();
-    document.execCommand("copy");
-    document.body.removeChild(ta);
   }
   function shareUrls(url, title) {
     var encodedUrl = encodeURIComponent(url);
@@ -1431,29 +1416,29 @@ function renderHtml(payload) {
       reddit: "https://www.reddit.com/submit?url=" + encodedUrl + "&title=" + encodedTitle
     };
   }
+  function placeMenu(wrap, menu, pill) {
+    var rect = pill.getBoundingClientRect();
+    var menuWidth = Math.max(menu.offsetWidth || 168, 168);
+    var left = Math.min(rect.right - menuWidth, window.innerWidth - menuWidth - 8);
+    left = Math.max(8, left);
+    var top = rect.bottom + 6;
+    menu.style.position = "fixed";
+    menu.style.top = top + "px";
+    menu.style.left = left + "px";
+    menu.style.right = "auto";
+  }
   document.addEventListener("click", function (e) {
-    var item = e.target.closest("[data-share-action]");
+    var item = e.target.closest(".share-menu [data-share-action]");
     if (item) {
       var wrap = item.closest(".share-wrap");
       var pill = wrap && wrap.querySelector(".share-pill");
       var url = pill ? pill.getAttribute("data-share-url") || "" : "";
       var title = pill ? pill.getAttribute("data-share-title") || document.title : document.title;
       var action = item.getAttribute("data-share-action");
-      if (action === "copy") {
-        e.preventDefault();
-        copyUrl(url).then(function () {
-          setLabel(pill, "Copied");
-          window.setTimeout(function () { setLabel(pill, "Share"); }, 1600);
-          closeAllMenus();
-        }).catch(function () {});
-        return;
-      }
-      if (action === "x" || action === "facebook" || action === "reddit") {
-        var links = shareUrls(url, title);
-        item.setAttribute("href", links[action]);
-        closeAllMenus();
-        return;
-      }
+      var links = shareUrls(url, title);
+      if (links[action]) item.setAttribute("href", links[action]);
+      closeAllMenus();
+      return;
     }
 
     var btn = e.target.closest(".share-pill");
@@ -1476,15 +1461,18 @@ function renderHtml(payload) {
         wrap.classList.add("is-open");
         menu.hidden = false;
         btn.setAttribute("aria-expanded", "true");
+        placeMenu(wrap, menu, btn);
       }
       return;
     }
 
-    if (!e.target.closest(".share-wrap")) closeAllMenus();
+    if (!e.target.closest(".share-wrap") && !e.target.closest(".share-menu")) closeAllMenus();
   });
   document.addEventListener("keydown", function (e) {
     if (e.key === "Escape") closeAllMenus();
   });
+  window.addEventListener("resize", function () { closeAllMenus(); });
+  window.addEventListener("scroll", function () { closeAllMenus(); }, true);
 })();
 </script>
 </body>
