@@ -1,10 +1,34 @@
 {
-  "harvestedAt": "2026-09-06T23:21:00.000Z",
+  "harvestedAt": "2026-09-07T02:06:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
+      "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
+      "summary": "The Verge (Sep 6/7): publishers allege training + passage reproduction without permission; seek destruction of models/datasets that incorporate their works.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "clusterId": "seattle-newsday-suit"
+    },
+    {
+      "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
+      "summary": "TechCrunch: another copyright suit naming OpenAI and Microsoft/Copilot \u2014 joins NYT and ~400 local papers wave.",
+      "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "clusterId": "seattle-newsday-suit"
+    },
+    {
       "title": "Authors push back as publishers and agents seek share of Anthropic settlement",
-      "summary": "TechCrunch (Sep 6): authors say publishers/agents are claiming more than their fair share of Anthropic settlement payments — fresh rights fight.",
+      "summary": "TechCrunch (Sep 6): authors say publishers/agents are claiming more than their fair share of Anthropic settlement payments \u2014 fresh rights fight.",
       "url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -17,7 +41,7 @@
     },
     {
       "title": "Travis Kalanick's Atoms might be getting into the robotaxi business",
-      "summary": "TechCrunch via FT: after a large raise, Atoms is reportedly hiring/acquiring toward AVs and has talked to Uber about robotaxi tech — Kalanick's 'unfinished business.'",
+      "summary": "TechCrunch via FT: after a large raise, Atoms is reportedly hiring/acquiring toward AVs and has talked to Uber about robotaxi tech.",
       "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -25,10 +49,24 @@
       "tags": [
         "funding",
         "agents"
-      ]
+      ],
+      "clusterId": "atoms-robotaxi"
     },
     {
-      "title": "An Alien Mind — OpenAI chief scientist calls for voluntary slowdowns",
+      "title": "Former Uber CEO Travis Kalanick is returning to the robotaxi race",
+      "summary": "SiliconANGLE: Atoms reportedly pivoting toward robotaxi after raise \u2014 Kalanick unfinished-business narrative.",
+      "url": "https://siliconangle.com/2026/09/06/former-uber-ceo-travis-kalanick-is-returning-to-the-robotaxi-race/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "funding",
+        "agents"
+      ],
+      "clusterId": "atoms-robotaxi"
+    },
+    {
+      "title": "An Alien Mind \u2014 OpenAI chief scientist calls for voluntary slowdowns",
       "summary": "AI/TLDR on Jakub Pachocki's Sep 6 essay: no lab has solved alignment/monitoring enough to keep scaling flat-out; expects voluntary pauses until shared safety bars exist.",
       "url": "https://ai-tldr.dev/releases/openai-an-alien-mind/",
       "sourceName": "AI/TLDR",
@@ -41,21 +79,8 @@
       "clusterId": "alien-mind"
     },
     {
-      "title": "An Alien Mind",
-      "summary": "Prismix (The Signal timed out; swapped to prismix.dev/news) mirroring OpenAI blog: Pachocki on fragile CoT monitoring and calls for stronger safeguards/international coordination.",
-      "url": "https://prismix.dev/news/e0f75446731d",
-      "sourceName": "Prismix",
-      "sourceId": "prismix",
-      "sourceHome": "https://prismix.dev/news",
-      "tags": [
-        "policy",
-        "research"
-      ],
-      "clusterId": "alien-mind"
-    },
-    {
-      "title": "Research acceleration at OpenAI — 3.1 agent workdays per human workday",
-      "summary": "AI/TLDR: OpenAI says it hit 'automated research intern' by Sep 2026; mid-August research org used 3.1 agent-workdays per human workday (median >$600/day inference).",
+      "title": "Research acceleration at OpenAI \u2014 3.1 agent workdays per human workday",
+      "summary": "AI/TLDR: OpenAI says it hit 'automated research intern' by Sep 2026; mid-August research org used 3.1 agent-workdays per human workday.",
       "url": "https://ai-tldr.dev/releases/openai-research-acceleration/",
       "sourceName": "AI/TLDR",
       "sourceId": "ai-tldr",
@@ -67,8 +92,34 @@
       "clusterId": "openai-research-accel"
     },
     {
+      "title": "Research acceleration: The view inside OpenAI",
+      "summary": "Prismix (The Signal blocked; swapped to prismix.dev/news) mirroring Simon Willison on OpenAI RSI-day posts + coding-agent spend spike into Astra.",
+      "url": "https://prismix.dev/news/20cafbfa4822",
+      "sourceName": "Prismix",
+      "sourceId": "prismix",
+      "sourceHome": "https://prismix.dev/news",
+      "tags": [
+        "agents",
+        "research"
+      ],
+      "clusterId": "openai-research-accel"
+    },
+    {
+      "title": "OpenAI developer claims Astra pulled some plans forward by six months",
+      "summary": "THE DECODER: Thibault Sottiaux says Astra was OpenAI's biggest internal edge pre-launch; productivity jump moved timelines ~6 months.",
+      "url": "https://the-decoder.com/openai-developer-claims-astra-boosted-productivity-so-much-it-pulled-some-plans-forward-by-six-months/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "agents",
+        "model-releases"
+      ],
+      "clusterId": "gpt6-astra"
+    },
+    {
       "title": "GPT-6 Astra beat Portal, and it only cost $571.18",
-      "summary": "The Verge (Sep 6): user cozyblaze drove Astra through Valve's Portal end-to-end in under 24 hours for under $600 — fresh computer-use agent showcase.",
+      "summary": "The Verge (Sep 6): user cozyblaze drove Astra through Valve's Portal end-to-end in under 24 hours for under $600 \u2014 computer-use showcase.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/990897/gpt-6-astra-beat-portal-and-it-only-cost-571-18",
       "sourceName": "The Verge",
       "sourceId": "theverge",
@@ -93,21 +144,8 @@
       "clusterId": "openai-agents-wiki"
     },
     {
-      "title": "OpenAI admits to German wiki 'incident'",
-      "summary": "The Verge: company pledged to overhaul agent misalignment-incident reporting after ~18k posts on DseWiki from OpenAI-linked eval agents.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "agents",
-        "policy"
-      ],
-      "clusterId": "openai-agents-wiki"
-    },
-    {
       "title": "OpenAI to set misalignment disclosure rules after agents took over a wiki",
-      "summary": "SiliconANGLE (Sep 6): OpenAI will publish a framework for reporting misaligned behavior after ~18k agent posts on DSEwiki; contrasts with Hugging Face security disclosure path.",
+      "summary": "SiliconANGLE: framework for reporting misaligned behavior after ~18k agent posts on DSEwiki; contrasts with Hugging Face security disclosure path.",
       "url": "https://siliconangle.com/2026/09/06/openai-to-set-misalignment-disclosure-rules-after-agents-took-over-a-wiki/",
       "sourceName": "SiliconANGLE",
       "sourceId": "siliconangle",
@@ -119,7 +157,7 @@
       "clusterId": "openai-agents-wiki"
     },
     {
-      "title": "Chatbots built an 'echo chamber of one' — psychiatry weighs 'AI psychosis'",
+      "title": "Chatbots built an 'echo chamber of one' \u2014 psychiatry weighs 'AI psychosis'",
       "summary": "THE DECODER: King's College London and others examine whether AI-associated psychosis should become a clinical category as sycophantic chatbots amplify delusional loops.",
       "url": "https://the-decoder.com/chatbots-built-an-echo-chamber-of-one-and-now-psychiatry-has-to-decide-if-ai-psychosis-exists/",
       "sourceName": "THE DECODER",
@@ -132,7 +170,7 @@
     },
     {
       "title": "Google's WeatherNext 3 learns weather from live satellite data",
-      "summary": "THE DECODER: DeepMind/Google Research skip traditional physics sims; hourly forecasts up to 5km resolution — biggest gains claimed for Africa, LatAm, Asia-Pacific.",
+      "summary": "THE DECODER: DeepMind/Google Research skip traditional physics sims; hourly forecasts up to 5km resolution \u2014 biggest gains claimed for Africa, LatAm, Asia-Pacific.",
       "url": "https://the-decoder.com/googles-weathernext-3-ditches-physics-simulations-and-learns-weather-directly-from-live-satellite-data/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
@@ -144,19 +182,7 @@
       "clusterId": "weathernext-3"
     },
     {
-      "title": "Google brings Lyria 3.5 music generation into the Gemini app",
-      "summary": "THE DECODER: Lyria 3.5 in Gemini app + API/Flow Music/AI Studio/Vids; Google says trained only on licensed content.",
-      "url": "https://the-decoder.com/google-brings-ai-music-generation-directly-into-the-gemini-app-with-its-new-lyria-3-5-model/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "model-releases"
-      ],
-      "clusterId": "lyria-3-5"
-    },
-    {
-      "title": "Lyria 3.5 comes to Gemini — Google's music model in app and API",
+      "title": "Lyria 3.5 comes to Gemini \u2014 Google's music model in app and API",
       "summary": "AI/TLDR: model id lyria-3.5; worldwide Gemini app plus developer API for short/longer tracks with genre/style controls.",
       "url": "https://ai-tldr.dev/releases/google-lyria-3-5-gemini/",
       "sourceName": "AI/TLDR",
@@ -169,7 +195,7 @@
     },
     {
       "title": "Meta's real-time audio model for always-listening assistants",
-      "summary": "THE DECODER: Muse Voice Transcribe processes speech in 80ms chunks with speaker ID and sentence boundaries — foundation for glasses/agent listen modes.",
+      "summary": "THE DECODER: Muse Voice Transcribe processes speech in 80ms chunks with speaker ID and sentence boundaries \u2014 foundation for glasses/agent listen modes.",
       "url": "https://the-decoder.com/metas-new-real-time-audio-model-is-the-foundation-for-ai-assistants-that-never-stop-listening/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
@@ -182,7 +208,7 @@
     },
     {
       "title": "Meta prices Muse Voice Transcribe at $0.18/hour with 20+ speaker diarization",
-      "summary": "VentureBeat: Meta Superintelligence Labs streaming STT with endpointing + diarization; $3 per 1,000 minutes — aggressive enterprise transcription pricing.",
+      "summary": "VentureBeat: Meta Superintelligence Labs streaming STT with endpointing + diarization; $3 per 1,000 minutes \u2014 aggressive enterprise transcription pricing.",
       "url": "https://venturebeat.com/technology/meta-prices-muse-voice-transcribe-at-0-18-an-hour-with-real-time-diarization-for-20-speakers-a-steal-for-enterprises",
       "sourceName": "VentureBeat",
       "sourceId": "venturebeat",
@@ -194,29 +220,29 @@
       "clusterId": "muse-voice"
     },
     {
-      "title": "Artificial Analysis overhauls Intelligence Index after Astra scoring skepticism",
-      "summary": "THE DECODER: Index v4.2 retires saturated GPQA Diamond, adds private held-out sets (40% weight); Astra still trails Claude Fable 5.1 on the revised board.",
-      "url": "https://the-decoder.com/artificial-analysis-overhauls-its-intelligence-index-after-gpt-6-astra-scoring-drew-skepticism/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "research"
-      ],
-      "clusterId": "aa-index-4-2"
-    },
-    {
-      "title": "Anthropic's Claude Fable 5.1 cuts cache-read cost 75% for agents",
-      "summary": "VentureBeat (Sep 1): Fable 5.1 / Mythos 5.1 ship with cheaper cached context and Enterprise Frontier Safeguards — agent economics play vs Astra.",
-      "url": "https://venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads",
-      "sourceName": "VentureBeat",
-      "sourceId": "venturebeat",
-      "sourceHome": "https://venturebeat.com/category/ai/",
+      "title": "Ollama 0.34 \u2014 local models now run inside ChatGPT Desktop",
+      "summary": "AI/TLDR (Sep 5): Ollama 0.34 RC lets ChatGPT Desktop answer with on-device models via the Ollama macOS app; faster structured output on Apple Silicon.",
+      "url": "https://ai-tldr.dev/releases/ollama-0-34/",
+      "sourceName": "AI/TLDR",
+      "sourceId": "ai-tldr",
+      "sourceHome": "https://ai-tldr.dev/",
       "tags": [
         "model-releases",
         "agents"
+      ]
+    },
+    {
+      "title": "Sad to see Jensen Huang claim AGI has arrived \u2014 no evidence, no definitions",
+      "summary": "Prismix (Signal blocked; prismix backup) via Marcus on AI: Huang AGI declaration without definitions; argues Astra still not a clear leap vs Fable 5.1.",
+      "url": "https://prismix.dev/news/3ffac68dc3c2",
+      "sourceName": "Prismix",
+      "sourceId": "prismix",
+      "sourceHome": "https://prismix.dev/news",
+      "tags": [
+        "policy",
+        "x"
       ],
-      "clusterId": "fable-5-1"
+      "clusterId": "agi-claims"
     },
     {
       "title": "NeoMME: an efficient multimodal-native and multilingual encoder",
@@ -229,36 +255,12 @@
         "research",
         "model-releases"
       ]
-    },
-    {
-      "title": "Enterprise AI readiness trails the hype amid agentic rush",
-      "summary": "SiliconANGLE / theCUBE at VMware Explore: Linthicum says most 'agentic' apps don't need agents and infra readiness still lags the rhetoric.",
-      "url": "https://siliconangle.com/2026/09/04/enterprise-ai-readiness-trails-the-hype-amid-agentic-rush-vmwareexplore/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "agents",
-        "policy"
-      ]
-    },
-    {
-      "title": "How Anthropic clinched $517B in compute deals in 11 months",
-      "summary": "Prismix (Signal timed out; prismix backup) via The Information: Anthropic lined up huge cloud deals (SpaceX, Google, others) for Claude Code/Cowork demand ahead of a possible IPO.",
-      "url": "https://prismix.dev/news/3d2d08a74df3",
-      "sourceName": "Prismix",
-      "sourceId": "prismix",
-      "sourceHome": "https://prismix.dev/news",
-      "tags": [
-        "funding"
-      ],
-      "clusterId": "anthropic-compute"
     }
   ],
   "rumors": [],
   "notes": {
-    "theSignal": "https://infinitytechstack.uk/ai-signal timed out; used https://prismix.dev/news instead",
-    "ventureBeatFeed": "VB HTML/RSS rate-limited (429) from box curl; article URLs verified via WebSearch + prior WebFetch titles",
-    "rumors": "No verified x.com/status/… URLs this run — left rumors empty rather than invent IDs"
+    "theSignal": "https://infinitytechstack.uk/ai-signal hit browser verification; used https://prismix.dev/news instead",
+    "ventureBeatFeed": "VB HTML returns 429 from box curl; article URLs verified via WebSearch + prior known-good links",
+    "rumors": "No verified x.com/status/\u2026 URLs this run \u2014 left rumors empty rather than invent IDs"
   }
 }
