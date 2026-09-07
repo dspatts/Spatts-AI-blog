@@ -5,7 +5,7 @@
       "id": "curated",
       "name": "Evan harvest",
       "ok": true,
-      "count": 20,
+      "count": 24,
       "errors": []
     },
     {
@@ -71,6 +71,16 @@
       "errors": []
     },
     {
+      "id": "reuters",
+      "name": "Reuters",
+      "ok": false,
+      "count": 0,
+      "errors": [
+        "401 https://www.reuters.com/technology/artificial-intelligence/",
+        "empty https://news.google.com/rss/search?q=site:reuters.com+(AI+OR+artificial+intelligence+OR+OpenAI+OR+Anthropic+OR+GPT)+when:3d&hl=en-US&gl=US&ceid=US:en"
+      ]
+    },
+    {
       "id": "x",
       "name": "X",
       "ok": true,
@@ -78,10 +88,65 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-07T02:10:29.974Z",
-  "refreshedAt": "2026-09-07T02:10:29.974Z",
+  "briefingDate": "2026-09-07T04:16:35.304Z",
+  "refreshedAt": "2026-09-07T04:16:35.304Z",
   "preferCurated": true,
   "posts": [
+    {
+      "id": "curated:https://www.reuters.com/business/openai-says-upcoming-model-is-so-capable-it-requires-stronger-guardrails-2026-09-01/",
+      "url": "https://www.reuters.com/business/openai-says-upcoming-model-is-so-capable-it-requires-stronger-guardrails-2026-09-01/",
+      "title": "OpenAI says upcoming model is so capable it requires stronger guardrails",
+      "summary": "OpenAI says an upcoming model is capable enough to need stronger guardrails.",
+      "sourceId": "reuters",
+      "sourceName": "Reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "publishedAt": "2026-09-07T04:16:30.000Z",
+      "publishedTs": 1788754590000,
+      "curated": true,
+      "tags": [
+        "model-releases",
+        "policy"
+      ],
+      "clusterId": "auto:openai-says-upcoming-model-is-so-capable-it-requ",
+      "related": [],
+      "clusterSize": 1
+    },
+    {
+      "id": "curated:https://www.reuters.com/business/anthropic-still-flagged-risk-defense-industrial-base-us-official-says-2026-09-03/",
+      "url": "https://www.reuters.com/business/anthropic-still-flagged-risk-defense-industrial-base-us-official-says-2026-09-03/",
+      "title": "Anthropic still flagged as risk to defense industrial base, US official says",
+      "summary": "US official says Anthropic still flagged as risk to the defense industrial base.",
+      "sourceId": "reuters",
+      "sourceName": "Reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "publishedAt": "2026-09-07T04:16:30.000Z",
+      "publishedTs": 1788754589999,
+      "curated": true,
+      "tags": [
+        "policy"
+      ],
+      "clusterId": "auto:anthropic-still-flagged-as-risk-to-defense-indus",
+      "related": [],
+      "clusterSize": 1
+    },
+    {
+      "id": "curated:https://www.reuters.com/world/china/nvidia-sets-october-launch-rtx-spark-ai-pcs-2026-09-03/",
+      "url": "https://www.reuters.com/world/china/nvidia-sets-october-launch-rtx-spark-ai-pcs-2026-09-03/",
+      "title": "Nvidia sets October launch for RTX Spark AI PCs",
+      "summary": "Nvidia sets October launch for RTX Spark AI PCs.",
+      "sourceId": "reuters",
+      "sourceName": "Reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "publishedAt": "2026-09-07T04:16:30.000Z",
+      "publishedTs": 1788754589998,
+      "curated": true,
+      "tags": [
+        "model-releases"
+      ],
+      "clusterId": "auto:nvidia-sets-october-launch-for-rtx-spark-ai-pcs",
+      "related": [],
+      "clusterSize": 1
+    },
     {
       "id": "curated:https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
       "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
@@ -90,8 +155,8 @@
       "sourceId": "theverge",
       "sourceName": "The Verge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "publishedAt": "2026-09-07T02:06:00.000Z",
-      "publishedTs": 1788746760000,
+      "publishedAt": "2026-09-07T04:16:30.000Z",
+      "publishedTs": 1788754589992,
       "curated": true,
       "tags": [
         "model-releases",
@@ -105,7 +170,7 @@
           "sourceId": "techcrunch",
           "sourceName": "TechCrunch",
           "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-          "publishedAt": "2026-09-07T02:06:00.000Z"
+          "publishedAt": "2026-09-07T04:16:30.000Z"
         }
       ],
       "clusterSize": 2
@@ -118,8 +183,8 @@
       "sourceId": "techcrunch",
       "sourceName": "TechCrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-07T02:06:00.000Z",
-      "publishedTs": 1788746759998,
+      "publishedAt": "2026-09-07T04:16:30.000Z",
+      "publishedTs": 1788754589990,
       "curated": true,
       "tags": [
         "agents",
@@ -129,81 +194,6 @@
       "clusterId": "id:anthropic-settlement",
       "related": [],
       "clusterSize": 1
-    },
-    {
-      "id": "curated:https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
-      "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
-      "title": "Travis Kalanick's Atoms might be getting into the robotaxi business",
-      "summary": "TechCrunch via FT: after a large raise, Atoms is reportedly hiring/acquiring toward AVs and has talked to Uber about robotaxi tech.",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-07T02:06:00.000Z",
-      "publishedTs": 1788746759997,
-      "curated": true,
-      "tags": [
-        "agents",
-        "funding"
-      ],
-      "clusterId": "id:atoms-robotaxi",
-      "related": [
-        {
-          "title": "Former Uber CEO Travis Kalanick is returning to the robotaxi race",
-          "url": "https://siliconangle.com/2026/09/06/former-uber-ceo-travis-kalanick-is-returning-to-the-robotaxi-race/",
-          "sourceId": "siliconangle",
-          "sourceName": "SiliconANGLE",
-          "sourceHome": "https://siliconangle.com/",
-          "publishedAt": "2026-09-07T02:06:00.000Z"
-        }
-      ],
-      "clusterSize": 2
-    },
-    {
-      "id": "curated:https://ai-tldr.dev/releases/openai-an-alien-mind/",
-      "url": "https://ai-tldr.dev/releases/openai-an-alien-mind/",
-      "title": "An Alien Mind — OpenAI chief scientist calls for voluntary slowdowns",
-      "summary": "AI/TLDR on Jakub Pachocki's Sep 6 essay: no lab has solved alignment/monitoring enough to keep scaling flat-out; expects voluntary pauses until shared safety bars exist.",
-      "sourceId": "ai-tldr",
-      "sourceName": "AI/TLDR",
-      "sourceHome": "https://ai-tldr.dev/",
-      "publishedAt": "2026-09-07T02:06:00.000Z",
-      "publishedTs": 1788746759995,
-      "curated": true,
-      "tags": [
-        "research",
-        "policy"
-      ],
-      "clusterId": "id:alien-mind",
-      "related": [],
-      "clusterSize": 1
-    },
-    {
-      "id": "curated:https://ai-tldr.dev/releases/openai-research-acceleration/",
-      "url": "https://ai-tldr.dev/releases/openai-research-acceleration/",
-      "title": "Research acceleration at OpenAI — 3.1 agent workdays per human workday",
-      "summary": "AI/TLDR: OpenAI says it hit 'automated research intern' by Sep 2026; mid-August research org used 3.1 agent-workdays per human workday.",
-      "sourceId": "ai-tldr",
-      "sourceName": "AI/TLDR",
-      "sourceHome": "https://ai-tldr.dev/",
-      "publishedAt": "2026-09-07T02:06:00.000Z",
-      "publishedTs": 1788746759994,
-      "curated": true,
-      "tags": [
-        "agents",
-        "research"
-      ],
-      "clusterId": "id:openai-research-accel",
-      "related": [
-        {
-          "title": "Research acceleration: The view inside OpenAI",
-          "url": "https://prismix.dev/news/20cafbfa4822",
-          "sourceId": "prismix",
-          "sourceName": "Prismix",
-          "sourceHome": "https://prismix.dev/news",
-          "publishedAt": "2026-09-07T02:06:00.000Z"
-        }
-      ],
-      "clusterSize": 2
     },
     {
       "id": "decoder:https://the-decoder.com/google-brings-ai-music-generation-directly-into-the-gemini-app-with-its-new-lyria-3-5-model/",
@@ -259,11 +249,28 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-04T18:50:48.000Z",
       "publishedTs": 1788547848000,
-      "score": 65521,
+      "score": 65854,
       "authorHandle": "anthropicai",
       "tags": [],
       "related": [],
       "clusterId": "auto:checking-that-a-major-mathematical-proof-is-corr",
+      "clusterSize": 1
+    },
+    {
+      "id": "x:2096008528834244741",
+      "url": "https://x.com/sama/status/2096008528834244741",
+      "title": "Now out to all Plus and Business users.",
+      "summary": "Now out to all Plus and Business users. Happy building!",
+      "sourceId": "x",
+      "sourceName": "X",
+      "sourceHome": "https://x.com",
+      "publishedAt": "2026-09-04T22:52:29.000Z",
+      "publishedTs": 1788562349000,
+      "score": 51952,
+      "authorHandle": "sama",
+      "tags": [],
+      "related": [],
+      "clusterId": "auto:now-out-to-all-plus-and-business-users",
       "clusterSize": 1
     },
     {
@@ -276,7 +283,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-06T15:08:14.000Z",
       "publishedTs": 1788707294000,
-      "score": 20064,
+      "score": 22423,
       "authorHandle": "kliu128",
       "tags": [
         "model-releases",
@@ -284,25 +291,6 @@
       ],
       "related": [],
       "clusterId": "auto:today-we-re-releasing-data-on-models-acceleratin",
-      "clusterSize": 1
-    },
-    {
-      "id": "x:2096271545589190927",
-      "url": "https://x.com/AIatMeta/status/2096271545589190927",
-      "title": "As a test of our progress to advance the frontier of AI research, in June we entered the next generation of…",
-      "summary": "As a test of our progress to advance the frontier of AI research, in June we entered the next generation of our autonomous AI research…",
-      "sourceId": "x",
-      "sourceName": "X",
-      "sourceHome": "https://x.com",
-      "publishedAt": "2026-09-05T16:17:37.000Z",
-      "publishedTs": 1788625057000,
-      "score": 8283,
-      "authorHandle": "aiatmeta",
-      "tags": [
-        "research"
-      ],
-      "related": [],
-      "clusterId": "auto:as-a-test-of-our-progress-to-advance-the-frontie",
       "clusterSize": 1
     }
   ],

@@ -1,7 +1,98 @@
 {
-  "harvestedAt": "2026-09-07T02:06:00.000Z",
+  "harvestedAt": "2026-09-07T04:16:30.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
+    {
+      "title": "OpenAI says upcoming model is so capable it requires stronger guardrails",
+      "summary": "OpenAI says an upcoming model is capable enough to need stronger guardrails.",
+      "url": "https://www.reuters.com/business/openai-says-upcoming-model-is-so-capable-it-requires-stronger-guardrails-2026-09-01/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "model-releases",
+        "policy"
+      ]
+    },
+    {
+      "title": "Anthropic still flagged as risk to defense industrial base, US official says",
+      "summary": "US official says Anthropic still flagged as risk to the defense industrial base.",
+      "url": "https://www.reuters.com/business/anthropic-still-flagged-risk-defense-industrial-base-us-official-says-2026-09-03/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "policy"
+      ]
+    },
+    {
+      "title": "Nvidia sets October launch for RTX Spark AI PCs",
+      "summary": "Nvidia sets October launch for RTX Spark AI PCs.",
+      "url": "https://www.reuters.com/world/china/nvidia-sets-october-launch-rtx-spark-ai-pcs-2026-09-03/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "model-releases"
+      ]
+    },
+    {
+      "title": "OpenAI commits $1 billion to cyberdefense effort amid AI safety scrutiny",
+      "summary": "OpenAI will subsidize access to its cybersecurity tools, training and support for organizations protecting critical services.",
+      "url": "https://www.reuters.com/legal/litigation/openai-commits-1-billion-cyberdefense-effort-amid-ai-safety-scrutiny-2026-09-03/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "funding",
+        "policy"
+      ]
+    },
+    {
+      "title": "Anthropic IPO launch shifts toward mid-October",
+      "summary": "Reuters: Anthropic IPO timing shifts toward mid-October, sources say.",
+      "url": "https://www.reuters.com/world/anthropic-ipo-launch-shifts-toward-mid-october-sources-say-2026-09-04/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "funding"
+      ],
+      "clusterId": "anthropic-ipo"
+    },
+    {
+      "title": "OpenAI agents hijacked German website in previously undisclosed AI breakout",
+      "summary": "Reuters exclusive: OpenAI agents previously undisclosed breakout hijacked a German website.",
+      "url": "https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "agents"
+      ],
+      "clusterId": "openai-wiki-agents"
+    },
+    {
+      "title": "OpenAI acknowledges 'wiki incident'",
+      "summary": "OpenAI said incidents involving agents hijacking a German site and other rogue behavior require more transparency.",
+      "url": "https://www.reuters.com/business/media-telecom/openai-acknowledges-wiki-incident-need-more-transparency-around-unintended-ai-2026-09-05/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "agents"
+      ],
+      "clusterId": "openai-wiki-agents"
+    },
+    {
+      "title": "Taiwan flexes chip diplomacy muscles as it faces pressure to share AI wealth with allies",
+      "summary": "Taiwan's chip leverage and AI wealth-sharing pressure with allies.",
+      "url": "https://www.reuters.com/world/china/taiwan-flexes-chip-diplomacy-muscles-it-faces-pressure-share-ai-wealth-with-2026-09-07/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": []
+    },
     {
       "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
       "summary": "The Verge (Sep 6/7): publishers allege training + passage reproduction without permission; seek destruction of models/datasets that incorporate their works.",
@@ -141,7 +232,7 @@
         "agents",
         "policy"
       ],
-      "clusterId": "openai-agents-wiki"
+      "clusterId": "openai-wiki-agents"
     },
     {
       "title": "OpenAI to set misalignment disclosure rules after agents took over a wiki",
@@ -154,7 +245,7 @@
         "agents",
         "policy"
       ],
-      "clusterId": "openai-agents-wiki"
+      "clusterId": "openai-wiki-agents"
     },
     {
       "title": "Chatbots built an 'echo chamber of one' \u2014 psychiatry weighs 'AI psychosis'",
@@ -205,62 +296,11 @@
         "agents"
       ],
       "clusterId": "muse-voice"
-    },
-    {
-      "title": "Meta prices Muse Voice Transcribe at $0.18/hour with 20+ speaker diarization",
-      "summary": "VentureBeat: Meta Superintelligence Labs streaming STT with endpointing + diarization; $3 per 1,000 minutes \u2014 aggressive enterprise transcription pricing.",
-      "url": "https://venturebeat.com/technology/meta-prices-muse-voice-transcribe-at-0-18-an-hour-with-real-time-diarization-for-20-speakers-a-steal-for-enterprises",
-      "sourceName": "VentureBeat",
-      "sourceId": "venturebeat",
-      "sourceHome": "https://venturebeat.com/category/ai/",
-      "tags": [
-        "model-releases",
-        "agents"
-      ],
-      "clusterId": "muse-voice"
-    },
-    {
-      "title": "Ollama 0.34 \u2014 local models now run inside ChatGPT Desktop",
-      "summary": "AI/TLDR (Sep 5): Ollama 0.34 RC lets ChatGPT Desktop answer with on-device models via the Ollama macOS app; faster structured output on Apple Silicon.",
-      "url": "https://ai-tldr.dev/releases/ollama-0-34/",
-      "sourceName": "AI/TLDR",
-      "sourceId": "ai-tldr",
-      "sourceHome": "https://ai-tldr.dev/",
-      "tags": [
-        "model-releases",
-        "agents"
-      ]
-    },
-    {
-      "title": "Sad to see Jensen Huang claim AGI has arrived \u2014 no evidence, no definitions",
-      "summary": "Prismix (Signal blocked; prismix backup) via Marcus on AI: Huang AGI declaration without definitions; argues Astra still not a clear leap vs Fable 5.1.",
-      "url": "https://prismix.dev/news/3ffac68dc3c2",
-      "sourceName": "Prismix",
-      "sourceId": "prismix",
-      "sourceHome": "https://prismix.dev/news",
-      "tags": [
-        "policy",
-        "x"
-      ],
-      "clusterId": "agi-claims"
-    },
-    {
-      "title": "NeoMME: an efficient multimodal-native and multilingual encoder",
-      "summary": "Hugging Face Blog (Hcompany, Sep 3): NeoMME encoder drop aimed at efficient multimodal + multilingual representation learning.",
-      "url": "https://huggingface.co/blog/Hcompany/neomme",
-      "sourceName": "Hugging Face Blog",
-      "sourceId": "huggingface",
-      "sourceHome": "https://huggingface.co/blog",
-      "tags": [
-        "research",
-        "model-releases"
-      ]
     }
   ],
   "rumors": [],
-  "notes": {
-    "theSignal": "https://infinitytechstack.uk/ai-signal hit browser verification; used https://prismix.dev/news instead",
-    "ventureBeatFeed": "VB HTML returns 429 from box curl; article URLs verified via WebSearch + prior known-good links",
-    "rumors": "No verified x.com/status/\u2026 URLs this run \u2014 left rumors empty rather than invent IDs"
-  }
+  "notes": [
+    "{'theSignal': 'https://infinitytechstack.uk/ai-signal hit browser verification; used https://prismix.dev/news instead', 'ventureBeatFeed': 'VB HTML returns 429 from box curl; article URLs verified via WebSearch + prior known-good links', 'rumors': 'No verified x.com/status/\u2026 URLs this run \u2014 left rumors empty rather than invent IDs'}",
+    "Added 8 Reuters stories via browser scrape"
+  ]
 }
