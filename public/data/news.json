@@ -95,10 +95,30 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-07T20:14:47.447Z",
-  "refreshedAt": "2026-09-07T20:14:47.448Z",
+  "briefingDate": "2026-09-07T23:17:00.424Z",
+  "refreshedAt": "2026-09-07T23:17:00.424Z",
   "preferCurated": true,
   "posts": [
+    {
+      "id": "curated:https://venturebeat.com/orchestration/companies-are-spending-millions-rewiring-how-ai-gets-used-almost-none-can-prove-its-working",
+      "url": "https://venturebeat.com/orchestration/companies-are-spending-millions-rewiring-how-ai-gets-used-almost-none-can-prove-its-working",
+      "title": "Companies are spending millions rewiring how AI gets used. Almost none can prove it's working",
+      "summary": "VentureBeat (Sep 7): Uber’s Claude Code ‘tokenmaxxing’ burned the 2026 AI budget by April; enterprises now chase ROI with caps, routing, and telemetry rather than raw token volume.",
+      "sourceId": "venturebeat",
+      "sourceName": "VentureBeat",
+      "sourceHome": "https://venturebeat.com/category/ai/",
+      "publishedAt": "2026-09-07T23:15:00.000Z",
+      "publishedTs": 1788822900000,
+      "curated": true,
+      "tags": [
+        "model-releases",
+        "agents",
+        "funding"
+      ],
+      "clusterId": "id:tokenmaxxing",
+      "related": [],
+      "clusterSize": 1
+    },
     {
       "id": "curated:https://www.reuters.com/business/openai-has-sent-eu-incident-report-hijacked-german-website-commission-says-2026-09-07/",
       "url": "https://www.reuters.com/business/openai-has-sent-eu-incident-report-hijacked-german-website-commission-says-2026-09-07/",
@@ -107,8 +127,8 @@
       "sourceId": "reuters",
       "sourceName": "Reuters",
       "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "publishedAt": "2026-09-07T20:10:00.000Z",
-      "publishedTs": 1788811800000,
+      "publishedAt": "2026-09-07T23:15:00.000Z",
+      "publishedTs": 1788822899999,
       "curated": true,
       "tags": [
         "agents",
@@ -123,7 +143,7 @@
           "sourceId": "theverge",
           "sourceName": "The Verge",
           "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-          "publishedAt": "2026-09-07T20:10:00.000Z"
+          "publishedAt": "2026-09-07T23:15:00.000Z"
         },
         {
           "title": "OpenAI to set misalignment disclosure rules after agents took over a wiki",
@@ -131,7 +151,7 @@
           "sourceId": "siliconangle",
           "sourceName": "SiliconANGLE",
           "sourceHome": "https://siliconangle.com/",
-          "publishedAt": "2026-09-07T20:10:00.000Z"
+          "publishedAt": "2026-09-07T23:15:00.000Z"
         }
       ],
       "clusterSize": 3
@@ -144,8 +164,8 @@
       "sourceId": "reuters",
       "sourceName": "Reuters",
       "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "publishedAt": "2026-09-07T20:10:00.000Z",
-      "publishedTs": 1788811799999,
+      "publishedAt": "2026-09-07T23:15:00.000Z",
+      "publishedTs": 1788822899998,
       "curated": true,
       "tags": [
         "agents",
@@ -164,8 +184,8 @@
       "sourceId": "reuters",
       "sourceName": "Reuters",
       "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "publishedAt": "2026-09-07T20:10:00.000Z",
-      "publishedTs": 1788811799998,
+      "publishedAt": "2026-09-07T23:15:00.000Z",
+      "publishedTs": 1788822899996,
       "curated": true,
       "tags": [
         "policy"
@@ -175,88 +195,67 @@
       "clusterSize": 1
     },
     {
-      "id": "curated:https://the-decoder.com/anthropic-reportedly-signs-517-billion-in-compute-deals-after-dario-amodei-warned-rivals-about-reckless-risk/",
-      "url": "https://the-decoder.com/anthropic-reportedly-signs-517-billion-in-compute-deals-after-dario-amodei-warned-rivals-about-reckless-risk/",
-      "title": "Anthropic reportedly signs $517 billion in compute deals after Dario Amodei warned rivals about reckless risk",
-      "summary": "THE DECODER (via The Information): Anthropic locked in up to $517B of compute contracts and ~14.8 GW since Oct 2025, after Amodei warned rivals about overbuilding.",
-      "sourceId": "decoder",
-      "sourceName": "THE DECODER",
-      "sourceHome": "https://the-decoder.com/",
-      "publishedAt": "2026-09-07T20:10:00.000Z",
-      "publishedTs": 1788811799997,
+      "id": "curated:https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "url": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "title": "Opaque recurrence, and other AI terms that you should probably know",
+      "summary": "TechCrunch (Sep 7): A glossary of AI slang and concepts — from hallucinations to opaque recurrence — aimed at readers drowning in new jargon.",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "publishedAt": "2026-09-07T23:15:00.000Z",
+      "publishedTs": 1788822899995,
       "curated": true,
+      "tags": [
+        "research"
+      ],
+      "clusterId": "id:ai-glossary-tc",
+      "related": [],
+      "clusterSize": 1
+    },
+    {
+      "id": "siliconangle:https://siliconangle.com/2026/09/07/hackers-steal-320m-in-bitcoin-from-liquid-network-return-most-of-it-after-patch/",
+      "url": "https://siliconangle.com/2026/09/07/hackers-steal-320m-in-bitcoin-from-liquid-network-return-most-of-it-after-patch/",
+      "title": "Hackers steal $320M in bitcoin from Liquid Network, return most of it after patch",
+      "summary": "Hackers stole about $320 million worth of bitcoin over the weekend from a blockchain platform called the Liquid Network.",
+      "sourceId": "siliconangle",
+      "sourceName": "SiliconANGLE",
+      "sourceHome": "https://siliconangle.com/",
+      "publishedAt": "2026-09-07T22:36:46.000Z",
+      "publishedTs": 1788820606000,
+      "tags": [],
+      "related": [],
+      "clusterId": "auto:hackers-steal-320m-in-bitcoin-from-liquid-networ",
+      "clusterSize": 1
+    },
+    {
+      "id": "siliconangle:https://siliconangle.com/2026/09/07/hyperspectral-satellite-startup-pixxel-nabs-100m-investment/",
+      "url": "https://siliconangle.com/2026/09/07/hyperspectral-satellite-startup-pixxel-nabs-100m-investment/",
+      "title": "Hyperspectral satellite startup Pixxel nabs $100M investment",
+      "summary": "Pixxel Space Technologies Inc., an India-based developer of Earth observation satellites, has raised $100 million in funding.",
+      "sourceId": "siliconangle",
+      "sourceName": "SiliconANGLE",
+      "sourceHome": "https://siliconangle.com/",
+      "publishedAt": "2026-09-07T20:23:21.000Z",
+      "publishedTs": 1788812601000,
       "tags": [
         "funding"
       ],
-      "clusterId": "id:anthropic-compute-517b",
       "related": [],
+      "clusterId": "auto:hyperspectral-satellite-startup-pixxel-nabs-100m",
       "clusterSize": 1
     },
     {
-      "id": "curated:https://the-decoder.com/gpt-6-astra-beat-portal-start-to-finish-without-human-help-in-under-24-hours/",
-      "url": "https://the-decoder.com/gpt-6-astra-beat-portal-start-to-finish-without-human-help-in-under-24-hours/",
-      "title": "GPT-6 Astra beat Portal start to finish without human help in under 24 hours",
-      "summary": "THE DECODER: Demo agent cozyblaze ran GPT-6 Astra through all of Portal (~23h43m, ~$570 tokens) via MCP/SourcePauseTool with no human help after the goal.",
-      "sourceId": "decoder",
-      "sourceName": "THE DECODER",
-      "sourceHome": "https://the-decoder.com/",
-      "publishedAt": "2026-09-07T20:10:00.000Z",
-      "publishedTs": 1788811799996,
-      "curated": true,
-      "tags": [
-        "model-releases",
-        "agents"
-      ],
-      "clusterId": "id:astra-portal",
-      "related": [],
-      "clusterSize": 1
-    },
-    {
-      "id": "decoder:https://the-decoder.com/how-ai-wiped-out-an-entire-industry-in-nairobi/",
-      "url": "https://the-decoder.com/how-ai-wiped-out-an-entire-industry-in-nairobi/",
-      "title": "How AI wiped out an entire industry in Nairobi",
-      "summary": "In Kenya, ChatGPT wiped out an entire business model: writing academic papers for foreign students.",
-      "sourceId": "decoder",
-      "sourceName": "THE DECODER",
-      "sourceHome": "https://the-decoder.com/",
-      "publishedAt": "2026-09-07T13:18:57.000Z",
-      "publishedTs": 1788787137000,
-      "tags": [
-        "model-releases"
-      ],
-      "related": [],
-      "clusterId": "auto:how-ai-wiped-out-an-entire-industry-in-nairobi",
-      "clusterSize": 1
-    },
-    {
-      "id": "aitldr:https://ai-tldr.dev/releases/fireship-free-ai-tools-sep7/",
-      "url": "https://ai-tldr.dev/releases/fireship-free-ai-tools-sep7/",
-      "title": "Fireship — 'Big AI wants you broke... here are some free alternatives'",
-      "summary": "A fast tour of five open-source ways to stop paying frontier-model prices for everyday coding work.",
-      "sourceId": "aitldr",
-      "sourceName": "AI/TLDR",
-      "sourceHome": "https://ai-tldr.dev/",
-      "publishedAt": "2026-09-07T00:00:00.000Z",
-      "publishedTs": 1788739200000,
-      "tags": [
-        "model-releases"
-      ],
-      "related": [],
-      "clusterId": "auto:fireship-big-ai-wants-you-broke-here-are-some-fr",
-      "clusterSize": 1
-    },
-    {
-      "id": "x:2096101429832552872",
-      "url": "https://x.com/thsottiaux/status/2096101429832552872",
-      "title": "Astra was probably our biggest competitive advantage while it wasn’t generally available.",
-      "summary": "Astra was probably our biggest competitive advantage while it wasn’t generally available. Since we’ve had it our productivity jumped so…",
+      "id": "x:2096241436509544744",
+      "url": "https://x.com/sama/status/2096241436509544744",
+      "title": "it is obviously trivial relative to everything else, but the fact that astra can make me whatever fun littl…",
+      "summary": "it is obviously trivial relative to everything else, but the fact that astra can make me whatever fun little game i can imagine and i can…",
       "sourceId": "x",
       "sourceName": "X",
       "sourceHome": "https://x.com",
-      "publishedAt": "2026-09-05T05:01:39.000Z",
-      "publishedTs": 1788584499000,
-      "score": 78747,
-      "authorHandle": "thsottiaux",
+      "publishedAt": "2026-09-05T14:17:59.000Z",
+      "publishedTs": 1788617879000,
+      "score": 53145,
+      "authorHandle": "sama",
       "tags": [
         "model-releases",
         "agents",
@@ -309,7 +308,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-06T15:08:14.000Z",
       "publishedTs": 1788707294000,
-      "score": 29422,
+      "score": 29835,
       "authorHandle": "kliu128",
       "tags": [
         "model-releases",
@@ -329,7 +328,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-05T07:09:06.000Z",
       "publishedTs": 1788592146000,
-      "score": 21518,
+      "score": 21616,
       "authorHandle": "openai",
       "tags": [
         "agents",
@@ -342,17 +341,33 @@
   ],
   "rumors": [
     {
+      "id": "rumor:https://x.com/validapau/status/2096629089851297894",
+      "title": "Estimate: Anthropic compute deals ~$517B / 14.8GW+",
+      "summary": "Unconfirmed tally: @validapau (The Information) Sep 6 says Anthropic's total compute bill has been a mystery for IPO investors; their math estimates ~$517B+ in deals and ~14.8GW+ agreed capacity since Oct 2025, with a comparison to OpenAI. Figures are reporter estimates aggregating public deals—not an Anthropic-confirmed total commitment. Treat as rumor/estimate until primary filings.",
+      "url": "https://x.com/validapau/status/2096629089851297894",
+      "via": "@validapau",
+      "sourceKind": "x",
+      "sourceId": "x",
+      "sourceName": "X",
+      "harvestedAt": "2026-09-07T23:15:00.000Z",
+      "publishedAt": "2026-09-07T23:15:00.000Z",
+      "publishedTs": 1788822900000,
+      "tags": [
+        "rumor"
+      ]
+    },
+    {
       "id": "rumor:https://x.com/elonmusk/status/2094983639780204846",
       "title": "Musk: Grok 4.7 in ~10 days (~Sep 12)",
-      "summary": "Unconfirmed: @elonmusk posted Sep 2 that Grok 4.7 'comes out in 10 days' (implying ~Sep 12). As of this harvest, xAI has not published a launch page/API model id/model card — treat founder timing as rumor/not verified product shipping.",
+      "summary": "Unconfirmed: @elonmusk posted Sep 2 that Grok 4.7 'comes out in 10 days' (implying ~Sep 12). As of this harvest, xAI has not published a launch page/API model id/model card—treat founder timing as rumor/not verified product shipping.",
       "url": "https://x.com/elonmusk/status/2094983639780204846",
       "via": "@elonmusk",
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-07T20:10:00.000Z",
-      "publishedAt": "2026-09-07T20:10:00.000Z",
-      "publishedTs": 1788811800000,
+      "harvestedAt": "2026-09-07T23:15:00.000Z",
+      "publishedAt": "2026-09-07T23:15:00.000Z",
+      "publishedTs": 1788822900000,
       "tags": [
         "rumor"
       ]
@@ -360,31 +375,15 @@
     {
       "id": "rumor:https://x.com/amir/status/2095678832535843209",
       "title": "Nvidia talks ~$2.5–3B into Thinking Machines",
-      "summary": "Unconfirmed: @amir (The Information) update that Nvidia is in talks to put ~$2.5–3B into Mira Murati's Thinking Machines Lab, citing a16z; round-size figures elsewhere still conflict ($1B vs $5–6B). No closed round announced — rumor/not verified financing.",
+      "summary": "Unconfirmed: @amir (The Information) Sep 4 update that Nvidia is in talks to put ~$2.5–3B into Mira Murati's Thinking Machines Lab, per a16z; round-size figures elsewhere still conflict ($1B+ vs $5–6B). No closed round announced—rumor/not verified financing.",
       "url": "https://x.com/amir/status/2095678832535843209",
       "via": "@amir",
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-07T20:10:00.000Z",
-      "publishedAt": "2026-09-07T20:10:00.000Z",
-      "publishedTs": 1788811800000,
-      "tags": [
-        "rumor"
-      ]
-    },
-    {
-      "id": "rumor:https://x.com/synthwavedd/status/2092326145270456377",
-      "title": "Scoop: OpenAI finished 'Bel' >10T pretrain",
-      "summary": "Unconfirmed: @synthwavedd Aug 25 scoop that OpenAI finished next pretrain codename Bel (successor to Doug), rumored >10T total params as base for Astra/GPT-6 with further RL. OpenAI has not confirmed Bel, param count, or roadmap role — rumor/not verified reporting.",
-      "url": "https://x.com/synthwavedd/status/2092326145270456377",
-      "via": "@synthwavedd",
-      "sourceKind": "x",
-      "sourceId": "x",
-      "sourceName": "X",
-      "harvestedAt": "2026-09-07T20:10:00.000Z",
-      "publishedAt": "2026-09-07T20:10:00.000Z",
-      "publishedTs": 1788811800000,
+      "harvestedAt": "2026-09-07T23:15:00.000Z",
+      "publishedAt": "2026-09-07T23:15:00.000Z",
+      "publishedTs": 1788822900000,
       "tags": [
         "rumor"
       ]
