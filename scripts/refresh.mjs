@@ -1213,7 +1213,6 @@ function renderHtml(payload) {
     </div>
   </div>
   <p class="body">${escapeHtml(post.summary)}</p>
-  ${alsoCovered(post)}
   ${tagPills(topicTags)}
   <div class="stats">
     <a class="x-link" href="${escapeHtml(post.url)}" target="_blank" rel="noopener noreferrer">${cta}</a>
@@ -1259,7 +1258,7 @@ function renderHtml(payload) {
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css?v=compact-c2">
+  <link rel="stylesheet" href="./styles.css?v=compact-c3">
 </head>
 <body>
   <div class="wrap">
