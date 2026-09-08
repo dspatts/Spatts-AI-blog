@@ -1,10 +1,22 @@
 {
-  "harvestedAt": "2026-09-08T11:05:00.000Z",
+  "harvestedAt": "2026-09-08T14:40:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
-      "title": "Mistral AI raises €3B in Europe's largest-ever tech funding round",
-      "summary": "THE DECODER (Sep 8): Mistral closed a €3B Series D, valuation past €21B (~$24B) — billed as Europe's largest private-tech equity round — Samsung/EQT Scaleup/PSG co-leads, even as models still trail US frontier rivals.",
+      "title": "Mistral raises €3B as sovereign AI becomes big business",
+      "summary": "TechCrunch (Sep 8): French lab closed a €3B Series D at a €21B valuation led by Samsung, Scaleup Europe and PSG Equity — framed as sovereign/open-weight AI becoming big business.",
+      "url": "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "funding"
+      ],
+      "clusterId": "mistral-24b-raise"
+    },
+    {
+      "title": "Mistral AI raises 3 billion euros in Europe's largest-ever tech funding round despite lagging behind rivals",
+      "summary": "THE DECODER (Sep 8): €3B Series D pushes valuation past €21B (~$24B) — billed as Europe's largest private-tech equity round — Samsung/EQT Scaleup/PSG co-leads, even as models still trail US frontier rivals.",
       "url": "https://the-decoder.com/mistral-ai-raises-3-billion-euros-in-europes-largest-ever-tech-funding-round-despite-lagging-behind-rivals/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
@@ -16,7 +28,7 @@
     },
     {
       "title": "Mistral raises €3B",
-      "summary": "Prismix/HN (Sep 8): Front-page cluster on Mistral's sovereign open-weight raise and company post — same €3B Series D / ~€21B valuation story as Decoder.",
+      "summary": "Prismix/HN (Sep 8): Front-page cluster on Mistral's sovereign open-weight raise and company post — same €3B Series D / ~€21B valuation story as Decoder/TC.",
       "url": "https://prismix.dev/news/7db995c30f47",
       "sourceName": "Prismix",
       "sourceId": "prismix",
@@ -37,6 +49,67 @@
         "funding"
       ],
       "clusterId": "firmus-openai-malaysia"
+    },
+    {
+      "title": "Meta drops AI usage from engineer performance reviews after \"tokenmaxxing\" backfires",
+      "summary": "THE DECODER (Sep 8): Internal memo (via The Information) — Meta stops judging engineers on AI dashboards/token counters after tokenmaxxing inflated costs toward billions in 2026; budgets/central dashboard planned for 2027; Hatch agent tests hit privacy pushback.",
+      "url": "https://the-decoder.com/meta-drops-ai-usage-from-engineer-performance-reviews-after-tokenmaxxing-backfires/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "agents",
+        "funding"
+      ],
+      "clusterId": "meta-tokenmaxxing-reviews"
+    },
+    {
+      "title": "Companies are spending millions rewiring how AI gets used. Almost none can prove it's working.",
+      "summary": "VentureBeat (Sep 7): Uber's AI coding budget blowout coined 'tokenmaxxing' — surging tokens without clear product ROI; enterprises respond with caps, routing, and ROI plumbing.",
+      "url": "https://venturebeat.com/orchestration/companies-are-spending-millions-rewiring-how-ai-gets-used-almost-none-can-prove-its-working",
+      "sourceName": "VentureBeat",
+      "sourceId": "venturebeat",
+      "sourceHome": "https://venturebeat.com/category/ai/",
+      "tags": [
+        "agents"
+      ],
+      "clusterId": "tokenmaxxing"
+    },
+    {
+      "title": "Google's Atlas of the human genome could pave the way for new treatments",
+      "summary": "The Verge (Sep 8): DeepMind's AlphaGenome Atlas maps predicted molecular effects for DNA letter changes — pitched as a predictive genome map that could accelerate biology and treatments.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991180/google-launches-alpha-genome-atlas",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "research"
+      ],
+      "clusterId": "alphagenome-atlas"
+    },
+    {
+      "title": "AlphaGenome Atlas — a prediction for every possible DNA letter change",
+      "summary": "AI/TLDR (Sep 8): Google DeepMind's ~1PB AlphaGenome Atlas holds predicted molecular effects for ~9B single-letter DNA changes; free for non-commercial research.",
+      "url": "https://ai-tldr.dev/releases/google-alphagenome-atlas/",
+      "sourceName": "AI/TLDR",
+      "sourceId": "ai-tldr",
+      "sourceHome": "https://ai-tldr.dev/",
+      "tags": [
+        "research"
+      ],
+      "clusterId": "alphagenome-atlas"
+    },
+    {
+      "title": "Adobe is trying to make its AI generators idiot-proof in Premiere",
+      "summary": "The Verge (Sep 8): Premiere's new Generative Media interface puts video/SFX/music generators on the timeline so editors stay in-project.",
+      "url": "https://www.theverge.com/tech/991133/adobe-is-trying-to-make-its-ai-generators-idiot-proof-in-premiere",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "agents"
+      ],
+      "clusterId": "adobe-premiere-genmedia"
     },
     {
       "title": "AI could pose 'existential' risk to humanity, UN rights chief warns",
@@ -89,20 +162,83 @@
       "clusterId": "astra-portal"
     },
     {
-      "title": "Companies are spending millions rewiring how AI gets used. Almost none can prove it's working.",
-      "summary": "VentureBeat (Sep 7): Uber's AI coding budget blowout coined 'tokenmaxxing' — surging tokens without clear product ROI; enterprises respond with caps, routing, and ROI plumbing.",
-      "url": "https://venturebeat.com/orchestration/companies-are-spending-millions-rewiring-how-ai-gets-used-almost-none-can-prove-its-working",
-      "sourceName": "VentureBeat",
-      "sourceId": "venturebeat",
-      "sourceHome": "https://venturebeat.com/category/ai/",
+      "title": "Google says attackers used AI agents to steal credentials in under six hours",
+      "summary": "SiliconANGLE (Sep 8): Google Threat Intelligence / Mandiant report — financially motivated actor used a multi-agent AI framework to compromise thousands of credentials in under six hours after an initial cloud break-in.",
+      "url": "https://siliconangle.com/2026/09/08/google-says-attackers-used-ai-agents-to-steal-credentials-in-under-six-hours/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "agents",
+        "policy"
+      ],
+      "clusterId": "google-ai-agent-creds"
+    },
+    {
+      "title": "Lightsage gets $4M in funding to help software makers sell directly to autonomous AI agents",
+      "summary": "SiliconANGLE (Sep 8): Lightsage raised $4M seed (Nexus-led) for \"agent-led growth\" tooling so software vendors can sell to autonomous AI agents.",
+      "url": "https://siliconangle.com/2026/09/08/lightsage-gets-4m-in-funding-to-help-software-makers-sell-directly-to-autonomous-ai-agents/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "funding",
+        "agents"
+      ],
+      "clusterId": "lightsage-agent-growth"
+    },
+    {
+      "title": "DeepSeek Flash 4.1 is already being tested via API and rolling out",
+      "summary": "Prismix/LocalLLaMA (Sep 8): Internal beta for DeepSeek V4.1 Flash intermediate — native multimodal architecture, stronger/faster/cheaper claims circulating as API tests open.",
+      "url": "https://prismix.dev/news/1823f25dc231",
+      "sourceName": "Prismix",
+      "sourceId": "prismix",
+      "sourceHome": "https://prismix.dev/news",
+      "tags": [
+        "model-releases"
+      ],
+      "clusterId": "deepseek-flash-41"
+    },
+    {
+      "title": "ElevenLabs Hires CFO, Eyes 2028 IPO",
+      "summary": "Prismix/The Information (Sep 8): AI voice startup ElevenLabs hires a CFO while laying groundwork for a possible 2028 IPO as Anthropic's prospectus window nears.",
+      "url": "https://prismix.dev/news/54b298783dd5",
+      "sourceName": "Prismix",
+      "sourceId": "prismix",
+      "sourceHome": "https://prismix.dev/news",
+      "tags": [
+        "funding"
+      ],
+      "clusterId": "elevenlabs-ipo-2028"
+    },
+    {
+      "title": "The Work Now Within Reach",
+      "summary": "Prismix/OpenAI blog (Sep 8): OpenAI post on how more capable, affordable AI can expand work people and businesses can accomplish — growth framed as more economical delegation.",
+      "url": "https://prismix.dev/news/a00fc889a2dd",
+      "sourceName": "Prismix",
+      "sourceId": "prismix",
+      "sourceHome": "https://prismix.dev/news",
       "tags": [
         "agents"
       ],
-      "clusterId": "tokenmaxxing"
+      "clusterId": "openai-work-within-reach"
+    },
+    {
+      "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
+      "summary": "Hugging Face Blog (Sep 8): MultiverseComputingCAI on narrower refusal — refuse the right subset of a topic rather than blanket-banning the whole topic.",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
+      "sourceName": "Hugging Face Blog",
+      "sourceId": "huggingface",
+      "sourceHome": "https://huggingface.co/blog",
+      "tags": [
+        "research",
+        "policy"
+      ],
+      "clusterId": "hf-safety-for-whom"
     },
     {
       "title": "OpenAI chief scientist argues for AI research slowdown",
-      "summary": "SiliconANGLE (Sep 7): Coverage of Jakub Pachocki's 'An Alien Mind' essay — no lab has solved alignment/monitoring well enough for full-speed scaling; expects voluntary slowdowns.",
+      "summary": "SiliconANGLE (Sep 7): Jakub Pachocki's \"An Alien Mind\" essay argues leading labs should voluntarily pace model development until shared safety/monitoring bars exist.",
       "url": "https://siliconangle.com/2026/09/07/openai-chief-scientist-argues-for-ai-research-slowdown/",
       "sourceName": "SiliconANGLE",
       "sourceId": "siliconangle",
@@ -112,173 +248,38 @@
         "research"
       ],
       "clusterId": "alien-mind-pachocki"
-    },
-    {
-      "title": "NeurIPS desk-rejected 178 papers for being \"AI-generated\"",
-      "summary": "Prismix/r/ML (Sep 8): NeurIPS Position Paper Track used Pangram to desk-reject ~18.4% of submissions as AI-generated — no human review/appeal; detector also flagged track chairs' own papers.",
-      "url": "https://prismix.dev/news/27c37e83180d",
-      "sourceName": "Prismix",
-      "sourceId": "prismix",
-      "sourceHome": "https://prismix.dev/news",
-      "tags": [
-        "policy",
-        "research"
-      ],
-      "clusterId": "neurips-ai-detector"
-    },
-    {
-      "title": "This AI entrepreneur is developing agents that can plan ahead for the unexpected",
-      "summary": "Prismix/MIT Technology Review (Sep 8): Danijar Hafner's stealth SF startup is building agents meant to plan for unexpected contingencies — early look at next-wave agent reliability bets.",
-      "url": "https://prismix.dev/news/16673d70457d",
-      "sourceName": "Prismix",
-      "sourceId": "prismix",
-      "sourceHome": "https://prismix.dev/news",
-      "tags": [
-        "agents"
-      ],
-      "clusterId": "hafner-agents-unexpected"
-    },
-    {
-      "title": "Malaysia Eyes Huawei Chips for Sovereign AI Program Despite U.S. Warnings",
-      "summary": "Prismix/The Information (Sep 8): Malaysia weighing Huawei AI chips for a ~$494M state-backed sovereign AI project — potential breakthrough for Chinese chips amid US pressure.",
-      "url": "https://prismix.dev/news/47d16d45d737",
-      "sourceName": "Prismix",
-      "sourceId": "prismix",
-      "sourceHome": "https://prismix.dev/news",
-      "tags": [
-        "policy"
-      ],
-      "clusterId": "malaysia-huawei-ai"
-    },
-    {
-      "title": "ChatGPT claws back web traffic share to 55.5 percent as Gemini's brief comeback fades",
-      "summary": "THE DECODER (Sep 7): Similarweb — ChatGPT web share up to 55.5% from 52.7% three months ago; Gemini slips to 25.6%; Claude up to 9.3% YoY growth story continues.",
-      "url": "https://the-decoder.com/chatgpt-claws-back-web-traffic-share-to-55-5-percent-as-geminis-brief-comeback-fades/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "research"
-      ],
-      "clusterId": "chatbot-traffic-share"
-    },
-    {
-      "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
-      "summary": "The Verge (Sep 6): Seattle Times and Newsday sue OpenAI and Microsoft over training/use of their journalism — seek destruction of models built on their works.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "clusterId": "seattle-times-openai-suit"
-    },
-    {
-      "title": "OpenAI admits to German wiki ‘incident’",
-      "summary": "The Verge (Sep 5): OpenAI acknowledges the German wiki agent misalignment episode and pledges to overhaul incident disclosure frameworks.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "agents",
-        "policy"
-      ],
-      "clusterId": "openai-wiki-agents"
-    },
-    {
-      "title": "Opaque recurrence, and other AI terms that you should probably know",
-      "summary": "TechCrunch (Sep 7): Glossary of AI slang and concepts — from hallucinations to opaque recurrence — for readers drowning in new jargon.",
-      "url": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "research"
-      ],
-      "clusterId": "ai-glossary-tc"
-    },
-    {
-      "title": "Authors push back as publishers and agents make claims on Anthropic settlement",
-      "summary": "TechCrunch (Sep 6): Authors push back as publishers/agents seek a cut of Anthropic settlement money — fight over who controls creator claims.",
-      "url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "clusterId": "anthropic-settlement-authors"
-    },
-    {
-      "title": "MiniCPM5-2B — a 2B open model that leads the sub-4B field",
-      "summary": "AI/TLDR (Sep 7): OpenBMB's MiniCPM5-2B (2.52B params, Apache-2.0, 131K context) averages 53.9 on maker benchmarks, ahead of Qwen3.5-4B — aimed at phones/laptops.",
-      "url": "https://ai-tldr.dev/releases/openbmb-minicpm5-2b/",
-      "sourceName": "AI/TLDR",
-      "sourceId": "ai-tldr",
-      "sourceHome": "https://ai-tldr.dev/",
-      "tags": [
-        "model-releases"
-      ],
-      "clusterId": "minicpm5-2b"
-    },
-    {
-      "title": "UltraData-RL-2609 — 86,000 checkable RL tasks behind MiniCPM5-2B",
-      "summary": "AI/TLDR (Sep 7): OpenBMB's UltraData-RL-2609 (~86k checkable RL tasks in math/code/long-context/knowledge) used to post-train MiniCPM5-2B — open recipe for small-model RL gains.",
-      "url": "https://ai-tldr.dev/releases/openbmb-ultradata-rl-2609/",
-      "sourceName": "AI/TLDR",
-      "sourceId": "ai-tldr",
-      "sourceHome": "https://ai-tldr.dev/",
-      "tags": [
-        "research",
-        "model-releases"
-      ],
-      "clusterId": "ultradata-rl-minicpm"
-    },
-    {
-      "title": "Give Your Coding Agents a Memory You Own",
-      "summary": "Hugging Face Blog (Sep 3): Funes — a user-owned memory layer for coding agents, so context persists across sessions without locking into a vendor store.",
-      "url": "https://huggingface.co/blog/funes",
-      "sourceName": "Hugging Face Blog",
-      "sourceId": "huggingface",
-      "sourceHome": "https://huggingface.co/blog",
-      "tags": [
-        "agents"
-      ],
-      "clusterId": "funes-agent-memory"
     }
   ],
   "rumors": [
     {
       "title": "Anthropic compute deals estimated at $517B+",
-      "summary": "Unconfirmed (oEmbed-verified @validapau, Sep 6): The Information’s Valida Pau estimates Anthropic has locked ~$517B+ in compute deals and ~14.8 GW+ of agreed capacity since Oct 25, framed as a key IPO-investor focus, with an OpenAI comparison. Treat as rumor/analysis, not an official Anthropic figure.",
+      "summary": "Unconfirmed (oEmbed-verified @validapau, Sep 6): The Information's Valida Pau estimates Anthropic has locked ~$517B+ in compute deals and ~14.8 GW+ of agreed capacity since Oct 25, framed as a key IPO-investor focus, with an OpenAI comparison. Treat as rumor/analysis, not an official Anthropic figure.",
       "url": "https://x.com/validapau/status/2096629089851297894",
       "via": "@validapau",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-08T11:05:00.000Z",
+      "harvestedAt": "2026-09-08T14:40:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "Grok 4.7 due ~Sep 12 (Musk: “in 10 days”)",
-      "summary": "Unconfirmed (oEmbed-verified @elonmusk, Sep 2): Elon Musk posted “Grok 4.7 comes out in 10 days,” which from that date points to ~Sep 12 — about four days from this harvest (2026-09-08). Treat as rumor until xAI ships; timing may slip.",
+      "title": "Grok 4.7 due ~Sep 12 (Musk: \"in 10 days\")",
+      "summary": "Unconfirmed (oEmbed-verified @elonmusk, Sep 2): Elon Musk posted \"Grok 4.7 comes out in 10 days,\" which from that date points to ~Sep 12 — about four days from this harvest (2026-09-08). Treat as rumor until xAI ships; timing may slip.",
       "url": "https://x.com/elonmusk/status/2094983639780204846",
       "via": "@elonmusk",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-08T11:05:00.000Z",
+      "harvestedAt": "2026-09-08T14:40:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Nvidia talks ~$2.5–3B into Thinking Machines",
-      "summary": "Unconfirmed (oEmbed-verified @amir, Sep 4): Amir Efrati (The Information) says Nvidia is in talks to put $2.5B–$3B into Mira Murati’s Thinking Machines Lab, citing a16z LP briefing detail; story updated with more deets. Treat as rumor — talks, not a closed round.",
+      "summary": "Unconfirmed (oEmbed-verified @amir, Sep 4): Amir Efrati (The Information) says Nvidia is in talks to put $2.5B–$3B into Mira Murati's Thinking Machines Lab, citing a16z LP briefing detail; story updated with more deets. Treat as rumor — talks, not a closed round.",
       "url": "https://x.com/amir/status/2095678832535843209",
       "via": "@amir",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-08T11:05:00.000Z",
+      "harvestedAt": "2026-09-08T14:40:00.000Z",
       "tags": [
         "rumor"
       ]
