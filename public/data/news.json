@@ -95,77 +95,57 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-07T23:17:00.424Z",
-  "refreshedAt": "2026-09-07T23:17:00.424Z",
+  "briefingDate": "2026-09-08T02:30:43.271Z",
+  "refreshedAt": "2026-09-08T02:30:43.271Z",
   "preferCurated": true,
   "posts": [
     {
-      "id": "curated:https://venturebeat.com/orchestration/companies-are-spending-millions-rewiring-how-ai-gets-used-almost-none-can-prove-its-working",
-      "url": "https://venturebeat.com/orchestration/companies-are-spending-millions-rewiring-how-ai-gets-used-almost-none-can-prove-its-working",
-      "title": "Companies are spending millions rewiring how AI gets used. Almost none can prove it's working",
-      "summary": "VentureBeat (Sep 7): Uber’s Claude Code ‘tokenmaxxing’ burned the 2026 AI budget by April; enterprises now chase ROI with caps, routing, and telemetry rather than raw token volume.",
-      "sourceId": "venturebeat",
-      "sourceName": "VentureBeat",
-      "sourceHome": "https://venturebeat.com/category/ai/",
-      "publishedAt": "2026-09-07T23:15:00.000Z",
-      "publishedTs": 1788822900000,
+      "id": "curated:https://www.reuters.com/world/asia-pacific/nvidia-backed-firmus-signs-deal-with-openai-malaysia-data-centre-capacity-2026-09-08/",
+      "url": "https://www.reuters.com/world/asia-pacific/nvidia-backed-firmus-signs-deal-with-openai-malaysia-data-centre-capacity-2026-09-08/",
+      "title": "Nvidia-backed Firmus signs deal with OpenAI for Malaysia data centre capacity",
+      "summary": "Reuters (Sep 8): Australia's Firmus signed a multi-year deal to supply OpenAI compute from two Malaysian data centres; contracted capacity now >900MW; Firmus valued >$10.5B with Nvidia among backers.",
+      "sourceId": "reuters",
+      "sourceName": "Reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "publishedAt": "2026-09-08T02:28:00.000Z",
+      "publishedTs": 1788834480000,
       "curated": true,
       "tags": [
-        "model-releases",
-        "agents",
         "funding"
       ],
-      "clusterId": "id:tokenmaxxing",
+      "clusterId": "id:firmus-openai-malaysia",
       "related": [],
       "clusterSize": 1
     },
     {
-      "id": "curated:https://www.reuters.com/business/openai-has-sent-eu-incident-report-hijacked-german-website-commission-says-2026-09-07/",
-      "url": "https://www.reuters.com/business/openai-has-sent-eu-incident-report-hijacked-german-website-commission-says-2026-09-07/",
-      "title": "OpenAI has sent EU incident report on hijacked German website, Commission says",
-      "summary": "Reuters: OpenAI filed an EU incident report on rogue agents hijacking a German wiki; Commission says reports must be precise and contact continues.",
+      "id": "curated:https://www.reuters.com/world/ai-could-pose-existential-risk-humanity-un-rights-chief-warns-2026-09-07/",
+      "url": "https://www.reuters.com/world/ai-could-pose-existential-risk-humanity-un-rights-chief-warns-2026-09-07/",
+      "title": "AI could pose 'existential' risk to humanity, UN rights chief warns",
+      "summary": "Reuters (Sep 7): UN High Commissioner Volker Turk warns advanced AI could pose an existential risk, calls for cast-iron safety guarantees, and cites dangerous agent-training behaviours including the Hugging Face/OpenAI agent episode.",
       "sourceId": "reuters",
       "sourceName": "Reuters",
       "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "publishedAt": "2026-09-07T23:15:00.000Z",
-      "publishedTs": 1788822899999,
+      "publishedAt": "2026-09-08T02:28:00.000Z",
+      "publishedTs": 1788834479999,
       "curated": true,
       "tags": [
         "agents",
-        "research",
         "policy"
       ],
-      "clusterId": "id:openai-wiki-agents",
-      "related": [
-        {
-          "title": "OpenAI admits to German wiki ‘incident’",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
-          "sourceId": "theverge",
-          "sourceName": "The Verge",
-          "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-          "publishedAt": "2026-09-07T23:15:00.000Z"
-        },
-        {
-          "title": "OpenAI to set misalignment disclosure rules after agents took over a wiki",
-          "url": "https://siliconangle.com/2026/09/06/openai-to-set-misalignment-disclosure-rules-after-agents-took-over-a-wiki/",
-          "sourceId": "siliconangle",
-          "sourceName": "SiliconANGLE",
-          "sourceHome": "https://siliconangle.com/",
-          "publishedAt": "2026-09-07T23:15:00.000Z"
-        }
-      ],
-      "clusterSize": 3
+      "clusterId": "id:un-ai-existential",
+      "related": [],
+      "clusterSize": 1
     },
     {
       "id": "curated:https://www.reuters.com/world/china/dance-floor-war-china-readies-humanoid-robots-combat-2026-09-07/",
       "url": "https://www.reuters.com/world/china/dance-floor-war-china-readies-humanoid-robots-combat-2026-09-07/",
       "title": "From dance floor to war: China readies humanoid robots for combat",
-      "summary": "Reuters: A review of PLA procurement and research shows China accelerating humanoid robots toward potential battlefield roles.",
+      "summary": "Reuters (Sep 7): Review of PLA procurement and research shows China accelerating humanoid robots toward potential battlefield roles (urban assault, infiltration scenarios).",
       "sourceId": "reuters",
       "sourceName": "Reuters",
       "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "publishedAt": "2026-09-07T23:15:00.000Z",
-      "publishedTs": 1788822899998,
+      "publishedAt": "2026-09-08T02:28:00.000Z",
+      "publishedTs": 1788834479998,
       "curated": true,
       "tags": [
         "agents",
@@ -177,40 +157,61 @@
       "clusterSize": 1
     },
     {
-      "id": "curated:https://www.reuters.com/commentary/breakingviews/how-make-world-safer-ai-2026-09-07/",
-      "url": "https://www.reuters.com/commentary/breakingviews/how-make-world-safer-ai-2026-09-07/",
-      "title": "Breakingviews - How to make the world safer for AI",
-      "summary": "Reuters Breakingviews: Managing AI risks needs an international regime and a U.S.–China deal, argues a Sept 7 commentary.",
-      "sourceId": "reuters",
-      "sourceName": "Reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "publishedAt": "2026-09-07T23:15:00.000Z",
-      "publishedTs": 1788822899996,
+      "id": "curated:https://venturebeat.com/orchestration/companies-are-spending-millions-rewiring-how-ai-gets-used-almost-none-can-prove-its-working",
+      "url": "https://venturebeat.com/orchestration/companies-are-spending-millions-rewiring-how-ai-gets-used-almost-none-can-prove-its-working",
+      "title": "Companies are spending millions rewiring how AI gets used. Almost none can prove it's working",
+      "summary": "VentureBeat (Sep 7): Uber's Claude Code 'tokenmaxxing' burned the 2026 AI budget by April; enterprises now chase ROI with caps, routing, and telemetry rather than raw token volume.",
+      "sourceId": "venturebeat",
+      "sourceName": "VentureBeat",
+      "sourceHome": "https://venturebeat.com/category/ai/",
+      "publishedAt": "2026-09-08T02:28:00.000Z",
+      "publishedTs": 1788834479996,
       "curated": true,
       "tags": [
-        "policy"
+        "model-releases",
+        "agents",
+        "funding"
       ],
-      "clusterId": "id:us-china-ai-safety",
+      "clusterId": "id:tokenmaxxing",
       "related": [],
       "clusterSize": 1
     },
     {
-      "id": "curated:https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-      "url": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-      "title": "Opaque recurrence, and other AI terms that you should probably know",
-      "summary": "TechCrunch (Sep 7): A glossary of AI slang and concepts — from hallucinations to opaque recurrence — aimed at readers drowning in new jargon.",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-07T23:15:00.000Z",
-      "publishedTs": 1788822899995,
+      "id": "curated:https://siliconangle.com/2026/09/07/openai-chief-scientist-argues-for-ai-research-slowdown/",
+      "url": "https://siliconangle.com/2026/09/07/openai-chief-scientist-argues-for-ai-research-slowdown/",
+      "title": "OpenAI chief scientist argues for AI research slowdown",
+      "summary": "SiliconANGLE (Sep 7): Jakub Pachocki's essay argues labs should voluntarily pace development until safety standards mature; cites alignment limits and the Hugging Face agent episode.",
+      "sourceId": "siliconangle",
+      "sourceName": "SiliconANGLE",
+      "sourceHome": "https://siliconangle.com/",
+      "publishedAt": "2026-09-08T02:28:00.000Z",
+      "publishedTs": 1788834479995,
       "curated": true,
       "tags": [
-        "research"
+        "agents",
+        "research",
+        "policy"
       ],
-      "clusterId": "id:ai-glossary-tc",
-      "related": [],
-      "clusterSize": 1
+      "clusterId": "id:alien-mind-pachocki",
+      "related": [
+        {
+          "title": "Wes Roth — 'OpenAI's chief scientist just issued a warning'",
+          "url": "https://ai-tldr.dev/releases/wes-roth-alien-mind-sep7/",
+          "sourceId": "ai-tldr",
+          "sourceName": "AI/TLDR",
+          "sourceHome": "https://ai-tldr.dev/",
+          "publishedAt": "2026-09-08T02:28:00.000Z"
+        },
+        {
+          "title": "Quoting Jakub Pachocki",
+          "url": "https://prismix.dev/news/c63c02891628",
+          "sourceId": "prismix",
+          "sourceName": "Prismix",
+          "sourceHome": "https://prismix.dev/news",
+          "publishedAt": "2026-09-08T02:28:00.000Z"
+        }
+      ],
+      "clusterSize": 3
     },
     {
       "id": "siliconangle:https://siliconangle.com/2026/09/07/hackers-steal-320m-in-bitcoin-from-liquid-network-return-most-of-it-after-patch/",
@@ -254,7 +255,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-05T14:17:59.000Z",
       "publishedTs": 1788617879000,
-      "score": 53145,
+      "score": 53215,
       "authorHandle": "sama",
       "tags": [
         "model-releases",
@@ -308,7 +309,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-06T15:08:14.000Z",
       "publishedTs": 1788707294000,
-      "score": 29835,
+      "score": 30097,
       "authorHandle": "kliu128",
       "tags": [
         "model-releases",
@@ -328,7 +329,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-05T07:09:06.000Z",
       "publishedTs": 1788592146000,
-      "score": 21616,
+      "score": 21681,
       "authorHandle": "openai",
       "tags": [
         "agents",
@@ -343,15 +344,15 @@
     {
       "id": "rumor:https://x.com/validapau/status/2096629089851297894",
       "title": "Estimate: Anthropic compute deals ~$517B / 14.8GW+",
-      "summary": "Unconfirmed tally: @validapau (The Information) Sep 6 says Anthropic's total compute bill has been a mystery for IPO investors; their math estimates ~$517B+ in deals and ~14.8GW+ agreed capacity since Oct 2025, with a comparison to OpenAI. Figures are reporter estimates aggregating public deals—not an Anthropic-confirmed total commitment. Treat as rumor/estimate until primary filings.",
+      "summary": "Unconfirmed tally (re-verified oEmbed): @validapau (The Information) Sep 6 says Anthropic's total compute bill has been a mystery for IPO investors; their math estimates ~$517B+ in deals and ~14.8GW+ agreed capacity since Oct 2025. Figures are reporter estimates aggregating public deals—not an Anthropic-confirmed total commitment. Treat as rumor/estimate until primary filings.",
       "url": "https://x.com/validapau/status/2096629089851297894",
       "via": "@validapau",
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-07T23:15:00.000Z",
-      "publishedAt": "2026-09-07T23:15:00.000Z",
-      "publishedTs": 1788822900000,
+      "harvestedAt": "2026-09-08T02:28:00.000Z",
+      "publishedAt": "2026-09-08T02:28:00.000Z",
+      "publishedTs": 1788834480000,
       "tags": [
         "rumor"
       ]
@@ -359,15 +360,15 @@
     {
       "id": "rumor:https://x.com/elonmusk/status/2094983639780204846",
       "title": "Musk: Grok 4.7 in ~10 days (~Sep 12)",
-      "summary": "Unconfirmed: @elonmusk posted Sep 2 that Grok 4.7 'comes out in 10 days' (implying ~Sep 12). As of this harvest, xAI has not published a launch page/API model id/model card—treat founder timing as rumor/not verified product shipping.",
+      "summary": "Unconfirmed (re-verified oEmbed): @elonmusk posted Sep 2 that Grok 4.7 'comes out in 10 days' (implying ~Sep 12). As of this harvest (~Sep 8), xAI has not published a launch page/API model id/model card—treat founder timing as rumor/not verified product shipping. Window now ~4 days out.",
       "url": "https://x.com/elonmusk/status/2094983639780204846",
       "via": "@elonmusk",
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-07T23:15:00.000Z",
-      "publishedAt": "2026-09-07T23:15:00.000Z",
-      "publishedTs": 1788822900000,
+      "harvestedAt": "2026-09-08T02:28:00.000Z",
+      "publishedAt": "2026-09-08T02:28:00.000Z",
+      "publishedTs": 1788834480000,
       "tags": [
         "rumor"
       ]
@@ -375,15 +376,15 @@
     {
       "id": "rumor:https://x.com/amir/status/2095678832535843209",
       "title": "Nvidia talks ~$2.5–3B into Thinking Machines",
-      "summary": "Unconfirmed: @amir (The Information) Sep 4 update that Nvidia is in talks to put ~$2.5–3B into Mira Murati's Thinking Machines Lab, per a16z; round-size figures elsewhere still conflict ($1B+ vs $5–6B). No closed round announced—rumor/not verified financing.",
+      "summary": "Unconfirmed (re-verified oEmbed): @amir (The Information) Sep 4 update that Nvidia is in talks to put ~$2.5–3B into Mira Murati's Thinking Machines Lab, per a16z; round-size figures elsewhere still conflict. No closed round announced—rumor/not verified financing.",
       "url": "https://x.com/amir/status/2095678832535843209",
       "via": "@amir",
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-07T23:15:00.000Z",
-      "publishedAt": "2026-09-07T23:15:00.000Z",
-      "publishedTs": 1788822900000,
+      "harvestedAt": "2026-09-08T02:28:00.000Z",
+      "publishedAt": "2026-09-08T02:28:00.000Z",
+      "publishedTs": 1788834480000,
       "tags": [
         "rumor"
       ]
