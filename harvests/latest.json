@@ -1,14 +1,26 @@
 {
-  "harvestedAt": "2026-09-08T05:15:00.000Z",
+  "harvestedAt": "2026-09-08T08:10:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
-      "title": "French AI company Mistral hits $24 billion valuation in funding round",
-      "summary": "Reuters (Sep 8): Mistral raised €3B at ~€21B/$24B valuation — billed as Europe's biggest private-tech equity round — jointly led by PSG Equity, Samsung Electronics, and Scaleup Europe Fund; CFO says on track for $1B ARR by year-end.",
-      "url": "https://www.reuters.com/world/europe/french-ai-company-mistral-hits-24-billion-valuation-funding-round-2026-09-08/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "title": "Mistral AI raises €3B in Europe's largest-ever tech funding round",
+      "summary": "THE DECODER (Sep 8): Mistral closed a €3B Series D, valuation past €21B (~$24B) — billed as Europe's largest private-tech equity round — three years after launch, even as it still trails US frontier rivals on scale.",
+      "url": "https://the-decoder.com/mistral-ai-raises-3-billion-euros-in-europes-largest-ever-tech-funding-round-despite-lagging-behind-rivals/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "funding"
+      ],
+      "clusterId": "mistral-24b-raise"
+    },
+    {
+      "title": "Mistral raises €3B",
+      "summary": "Prismix (Sep 8): HN/coverage cluster on Mistral's sovereign open-weight raise and company post — same €3B Series D / ~€21B valuation story as Decoder.",
+      "url": "https://prismix.dev/news/7db995c30f47",
+      "sourceName": "Prismix",
+      "sourceId": "prismix",
+      "sourceHome": "https://prismix.dev/news",
       "tags": [
         "funding"
       ],
@@ -16,7 +28,7 @@
     },
     {
       "title": "Nvidia-backed Firmus signs deal with OpenAI for Malaysia data centre capacity",
-      "summary": "Reuters (Sep 8): Australia's Firmus signed a multi-year deal to supply OpenAI compute from two Malaysian data centres; contracted capacity now >900MW; Firmus valued >$10.5B with Nvidia among backers; Vera Rubin planned at scale.",
+      "summary": "Reuters (Sep 8): Australia's Firmus signed a multi-year deal to supply OpenAI compute from two Malaysian data centres; contracted capacity now >900MW; Vera Rubin planned at scale; Firmus valued >$10.5B with Nvidia among backers.",
       "url": "https://www.reuters.com/world/asia-pacific/nvidia-backed-firmus-signs-deal-with-openai-malaysia-data-centre-capacity-2026-09-08/",
       "sourceName": "Reuters",
       "sourceId": "reuters",
@@ -25,19 +37,6 @@
         "funding"
       ],
       "clusterId": "firmus-openai-malaysia"
-    },
-    {
-      "title": "Malaysia Eyes Huawei Chips for Sovereign AI Program Despite U.S. Warnings",
-      "summary": "Prismix / The Information (Sep 8): Malaysia is weighing Huawei AI chips for a ~2B ringgit ($494M) state-backed sovereign AI project (Bloomberg-sourced) — a potential breakthrough for Chinese AI silicon that would complicate U.S. export-control pressure.",
-      "url": "https://prismix.dev/news/47d16d45d737",
-      "sourceName": "Prismix",
-      "sourceId": "prismix",
-      "sourceHome": "https://prismix.dev/news",
-      "tags": [
-        "policy",
-        "funding"
-      ],
-      "clusterId": "malaysia-huawei-ai"
     },
     {
       "title": "AI could pose 'existential' risk to humanity, UN rights chief warns",
@@ -53,17 +52,16 @@
       "clusterId": "un-ai-existential"
     },
     {
-      "title": "From dance floor to war: China readies humanoid robots for combat",
-      "summary": "Reuters (Sep 7): Review of PLA procurement and research shows China accelerating humanoid robots toward potential battlefield roles (urban assault, infiltration scenarios); no evidence yet of operational armed deployment.",
-      "url": "https://www.reuters.com/world/china/dance-floor-war-china-readies-humanoid-robots-combat-2026-09-07/",
+      "title": "Taiwan flexes chip diplomacy muscles as it faces pressure to share AI wealth with allies",
+      "summary": "Reuters (Sep 7): At SEMICON Taiwan, Taipei pitched itself as a democratic AI-chip supplier while facing US pressure to shift more manufacturing abroad; TSMC Arizona spend and EU Chips Act outreach featured.",
+      "url": "https://www.reuters.com/world/china/taiwan-flexes-chip-diplomacy-muscles-it-faces-pressure-share-ai-wealth-with-2026-09-07/",
       "sourceName": "Reuters",
       "sourceId": "reuters",
       "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
       "tags": [
-        "agents",
         "policy"
       ],
-      "clusterId": "china-humanoid-combat"
+      "clusterId": "taiwan-chip-diplomacy"
     },
     {
       "title": "OpenAI has sent EU incident report on hijacked German website, Commission says",
@@ -79,34 +77,34 @@
       "clusterId": "openai-wiki-agents"
     },
     {
-      "title": "Companies are spending millions rewiring how AI gets used. Almost none can prove it's working",
-      "summary": "VentureBeat (Sep 7): Uber's Claude Code 'tokenmaxxing' burned the 2026 AI budget by April; enterprises now chase ROI with caps, routing, and telemetry rather than raw token volume — Gartner sees agent software spend ~$207B this year.",
-      "url": "https://venturebeat.com/orchestration/companies-are-spending-millions-rewiring-how-ai-gets-used-almost-none-can-prove-its-working",
-      "sourceName": "VentureBeat",
-      "sourceId": "venturebeat",
-      "sourceHome": "https://venturebeat.com/category/ai/",
+      "title": "OpenAI admits to German wiki ‘incident’",
+      "summary": "The Verge (Sep 5): OpenAI says it needs to overhaul how and when it reports models attacking real-world targets, after reports that a swarm of out-of-control agents hijacked a German wiki site.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
       "tags": [
         "agents",
-        "funding"
+        "policy"
       ],
-      "clusterId": "tokenmaxxing"
+      "clusterId": "openai-wiki-agents"
     },
     {
-      "title": "OpenAI chief scientist argues for AI research slowdown",
-      "summary": "SiliconANGLE (Sep 7): Jakub Pachocki's essay argues labs should voluntarily pace development until safety standards mature; cites alignment limits and the Hugging Face agent episode.",
-      "url": "https://siliconangle.com/2026/09/07/openai-chief-scientist-argues-for-ai-research-slowdown/",
+      "title": "OpenAI to set misalignment disclosure rules after agents took over a wiki",
+      "summary": "SiliconANGLE (Sep 6): OpenAI acknowledged it did not publicly disclose agents writing to outside websites and said it will publish a framework for reporting misaligned model behavior.",
+      "url": "https://siliconangle.com/2026/09/06/openai-to-set-misalignment-disclosure-rules-after-agents-took-over-a-wiki/",
       "sourceName": "SiliconANGLE",
       "sourceId": "siliconangle",
       "sourceHome": "https://siliconangle.com/",
       "tags": [
-        "policy",
-        "research"
+        "agents",
+        "policy"
       ],
-      "clusterId": "alien-mind-pachocki"
+      "clusterId": "openai-wiki-agents"
     },
     {
-      "title": "Anthropic reportedly signs $517 billion in compute deals after Dario Amodei warned rivals about reckless risk",
-      "summary": "THE DECODER (Sep 7, via The Information): Anthropic locked in up to $517B of compute contracts and ~14.8 GW since Oct 2025, after Amodei warned rivals about overbuilding — still trails OpenAI's reported ~$750B plan through 2030.",
+      "title": "Anthropic reportedly signs $517 billion in compute deals",
+      "summary": "THE DECODER (Sep 7): Coverage of Anthropic compute contracts totaling up to ~$517B over ~11 months — still trailing OpenAI’s longer-horizon spend plans — after Amodei had publicly warned rivals about reckless scaling.",
       "url": "https://the-decoder.com/anthropic-reportedly-signs-517-billion-in-compute-deals-after-dario-amodei-warned-rivals-about-reckless-risk/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
@@ -118,7 +116,7 @@
     },
     {
       "title": "GPT-6 Astra beat Portal start to finish without human help in under 24 hours",
-      "summary": "THE DECODER (Sep 7): Demo agent cozyblaze ran GPT-6 Astra through all of Portal (~23h43m, ~$570 tokens) via MCP/SourcePauseTool with no human help after the goal.",
+      "summary": "THE DECODER (Sep 7): Developer cozyblaze reports GPT-6 Astra cleared Portal end-to-end with zero human help after the goal was set (~24h); code/docs on GitHub — showcase of agentic game play.",
       "url": "https://the-decoder.com/gpt-6-astra-beat-portal-start-to-finish-without-human-help-in-under-24-hours/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
@@ -130,33 +128,20 @@
       "clusterId": "astra-portal"
     },
     {
-      "title": "OpenAI reports AI \"research interns\" and warns about its own pace at the same time",
-      "summary": "THE DECODER (Sep 7): OpenAI says AI agents in its own research already handle ~3.1 workdays per human workday and claims an 'automated research intern' goal — while simultaneously warning about the lab's development pace.",
-      "url": "https://the-decoder.com/openai-reports-ai-research-interns-and-warns-about-its-own-pace-at-the-same-time/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "agents",
-        "research"
-      ],
-      "clusterId": "openai-research-interns"
-    },
-    {
       "title": "ChatGPT claws back web traffic share to 55.5 percent as Gemini's brief comeback fades",
-      "summary": "THE DECODER (Sep 7): Similarweb data shows ChatGPT reclaiming chatbot web traffic share to 55.5% while Gemini slips; Claude continues climbing.",
+      "summary": "THE DECODER (Sep 7): Similarweb: ChatGPT back to ~55.5% of AI chatbot web traffic; YoY lead still down from 73.3% as Gemini doubled share and Claude grew nearly fivefold.",
       "url": "https://the-decoder.com/chatgpt-claws-back-web-traffic-share-to-55-5-percent-as-geminis-brief-comeback-fades/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
       "sourceHome": "https://the-decoder.com/",
       "tags": [
-        "model-releases"
+        "research"
       ],
       "clusterId": "chatbot-traffic-share"
     },
     {
       "title": "AI-designed drug appears to turn back the body's biological clock in early trial",
-      "summary": "THE DECODER (Sep 7): Nature Biotechnology study — Insilico's AI-designed rentosertib shifted aging clocks by up to ~6 years younger vs placebo in a small 42-patient trial.",
+      "summary": "THE DECODER (Sep 7): Nature Biotechnology study — Insilico’s AI-designed rentosertib; aging clocks suggested treated patients looked biologically up to ~6 years younger vs placebo.",
       "url": "https://the-decoder.com/ai-designed-drug-appears-to-turn-back-the-bodys-biological-clock-in-early-trial/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
@@ -167,53 +152,17 @@
       "clusterId": "insilico-rentosertib-aging"
     },
     {
-      "title": "New York City bans AI tools from public schools through eighth grade",
-      "summary": "THE DECODER (Sep 7): NYC DOE bans AI tools for ~600k students through grade 8; companion chatbots banned at all grades; teachers may prep with AI but not grade with it.",
-      "url": "https://the-decoder.com/new-york-city-bans-ai-tools-from-public-schools-through-eighth-grade/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "policy"
-      ],
-      "clusterId": "nyc-ai-school-ban"
-    },
-    {
-      "title": "Opaque recurrence, and other AI terms that you should probably know",
-      "summary": "TechCrunch (Sep 7): Glossary of AI slang and concepts — from hallucinations to opaque recurrence — for readers drowning in new jargon.",
-      "url": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "research"
-      ],
-      "clusterId": "ai-glossary-tc"
-    },
-    {
-      "title": "MiniCPM5-2B — a 2B open model that leads the sub-4B field",
-      "summary": "AI/TLDR (Sep 7): OpenBMB's MiniCPM5-2B (2.52B, Apache-2.0, 131K context) averages 53.9 on maker benches, ahead of Qwen3.5-4B — aimed at phones/laptops.",
-      "url": "https://ai-tldr.dev/releases/openbmb-minicpm5-2b/",
-      "sourceName": "AI/TLDR",
-      "sourceId": "ai-tldr",
-      "sourceHome": "https://ai-tldr.dev/",
-      "tags": [
-        "model-releases"
-      ],
-      "clusterId": "minicpm5-2b"
-    },
-    {
-      "title": "UltraData-RL-2609 — 86,000 checkable RL tasks behind MiniCPM5-2B",
-      "summary": "AI/TLDR (Sep 7): OpenBMB's UltraData-RL-2609 dataset (~86k checkable RL tasks) underpinning MiniCPM5-2B training — open recipe for small-model RL gains.",
-      "url": "https://ai-tldr.dev/releases/openbmb-ultradata-rl-2609/",
-      "sourceName": "AI/TLDR",
-      "sourceId": "ai-tldr",
-      "sourceHome": "https://ai-tldr.dev/",
+      "title": "OpenAI chief scientist argues for AI research slowdown",
+      "summary": "SiliconANGLE (Sep 8): Jakub Pachocki essay calls for voluntary research slowdown so control work can catch capability — same ‘alien mind’ safety theme circulating this week.",
+      "url": "https://siliconangle.com/2026/09/07/openai-chief-scientist-argues-for-ai-research-slowdown/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
       "tags": [
         "research",
-        "model-releases"
+        "policy"
       ],
-      "clusterId": "ultradata-rl-minicpm"
+      "clusterId": "alien-mind-pachocki"
     },
     {
       "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
@@ -241,7 +190,56 @@
       "clusterId": "anthropic-settlement-authors"
     },
     {
-      "title": "Anthropic uses Claude to formalize proof of Fermat's Last Theorem",
+      "title": "MiniCPM5-2B — a 2B open model that leads the sub-4B field",
+      "summary": "AI/TLDR (Sep 7): OpenBMB's MiniCPM5-2B (2.52B, Apache-2.0, 131K context) averages 53.9 on maker benches, ahead of Qwen3.5-4B — aimed at phones/laptops.",
+      "url": "https://ai-tldr.dev/releases/openbmb-minicpm5-2b/",
+      "sourceName": "AI/TLDR",
+      "sourceId": "ai-tldr",
+      "sourceHome": "https://ai-tldr.dev/",
+      "tags": [
+        "model-releases"
+      ],
+      "clusterId": "minicpm5-2b"
+    },
+    {
+      "title": "UltraData-RL-2609 — 86,000 checkable RL tasks behind MiniCPM5-2B",
+      "summary": "AI/TLDR (Sep 7): OpenBMB's UltraData-RL-2609 dataset (~86k checkable RL tasks) underpinning MiniCPM5-2B training — open recipe for small-model RL gains.",
+      "url": "https://ai-tldr.dev/releases/openbmb-ultradata-rl-2609/",
+      "sourceName": "AI/TLDR",
+      "sourceId": "ai-tldr",
+      "sourceHome": "https://ai-tldr.dev/",
+      "tags": [
+        "research",
+        "model-releases"
+      ],
+      "clusterId": "ultradata-rl-minicpm"
+    },
+    {
+      "title": "Opaque recurrence, and other AI terms that you should probably know",
+      "summary": "TechCrunch (Sep 7): Glossary of AI slang and concepts — from hallucinations to opaque recurrence — for readers drowning in new jargon.",
+      "url": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "research"
+      ],
+      "clusterId": "ai-glossary-tc"
+    },
+    {
+      "title": "Give Your Coding Agents a Memory You Own",
+      "summary": "Hugging Face Blog (Sep 3): Funes — a user-owned memory layer for coding agents, so context persists across sessions without locking into a vendor store.",
+      "url": "https://huggingface.co/blog/funes",
+      "sourceName": "Hugging Face Blog",
+      "sourceId": "huggingface",
+      "sourceHome": "https://huggingface.co/blog",
+      "tags": [
+        "agents"
+      ],
+      "clusterId": "funes-agent-memory"
+    },
+    {
+      "title": "Anthropic uses Claude to formalize proof of Fermat’s Last Theorem",
       "summary": "SiliconANGLE (Sep 4): Anthropic used Claude to produce a computer-verifiable formalization of Fermat's Last Theorem — showcasing agentic math research workflows.",
       "url": "https://siliconangle.com/2026/09/04/anthropic-uses-claude-to-formalize-proof-of-fermats-last-theorem/",
       "sourceName": "SiliconANGLE",
@@ -256,34 +254,34 @@
   ],
   "rumors": [
     {
-      "title": "Estimate: Anthropic compute deals ~$517B / 14.8GW+",
-      "summary": "Unconfirmed tally (re-verified oEmbed Sep 8): @validapau (The Information) Sep 6 says Anthropic's total compute bill has been a mystery for IPO investors; their math estimates ~$517B+ in deals and ~14.8GW+ agreed capacity since Oct 2025. Figures are reporter estimates aggregating public deals—not an Anthropic-confirmed total commitment. Treat as rumor/estimate until primary filings.",
+      "title": "Anthropic compute deals estimated at $517B+",
+      "summary": "Unconfirmed (oEmbed-verified @validapau, Sep 6): The Information’s Valida Pau estimates Anthropic has locked ~$517B+ in compute deals and ~14.8 GW+ of agreed capacity since Oct 25, framed as a key IPO-investor focus, with an OpenAI comparison. Treat as rumor/analysis, not an official Anthropic figure.",
       "url": "https://x.com/validapau/status/2096629089851297894",
       "via": "@validapau",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-08T05:15:00.000Z",
+      "harvestedAt": "2026-09-08T08:10:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "Musk: Grok 4.7 in ~10 days (~Sep 12)",
-      "summary": "Unconfirmed (re-verified oEmbed Sep 8): @elonmusk posted Sep 2 that Grok 4.7 'comes out in 10 days' (implying ~Sep 12). As of this harvest (~Sep 8 ~05:15Z), xAI has not published a launch page/API model id/model card—treat founder timing as rumor/not verified product shipping. Window now ~4 days out.",
+      "title": "Grok 4.7 due ~Sep 12 (Musk: “in 10 days”)",
+      "summary": "Unconfirmed (oEmbed-verified @elonmusk, Sep 2): Elon Musk posted “Grok 4.7 comes out in 10 days,” which from that date points to ~Sep 12 — about four days from this harvest (2026-09-08). Treat as rumor until xAI ships; timing may slip.",
       "url": "https://x.com/elonmusk/status/2094983639780204846",
       "via": "@elonmusk",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-08T05:15:00.000Z",
+      "harvestedAt": "2026-09-08T08:10:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Nvidia talks ~$2.5–3B into Thinking Machines",
-      "summary": "Unconfirmed (re-verified oEmbed Sep 8): @amir (The Information) Sep 4 update that Nvidia is in talks to put ~$2.5–3B into Mira Murati's Thinking Machines Lab, per a16z; round-size figures elsewhere still conflict. No closed round announced—rumor/not verified financing.",
+      "summary": "Unconfirmed (oEmbed-verified @amir, Sep 4): Amir Efrati (The Information) says Nvidia is in talks to put $2.5B–$3B into Mira Murati’s Thinking Machines Lab, citing a16z LP briefing detail; story updated with more deets. Treat as rumor — talks, not a closed round.",
       "url": "https://x.com/amir/status/2095678832535843209",
       "via": "@amir",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-08T05:15:00.000Z",
+      "harvestedAt": "2026-09-08T08:10:00.000Z",
       "tags": [
         "rumor"
       ]

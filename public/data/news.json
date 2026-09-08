@@ -95,62 +95,53 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-08T05:38:13.345Z",
-  "refreshedAt": "2026-09-08T05:38:13.345Z",
+  "briefingDate": "2026-09-08T08:18:34.301Z",
+  "refreshedAt": "2026-09-08T08:18:34.301Z",
   "preferCurated": true,
   "posts": [
     {
-      "id": "curated:https://www.reuters.com/world/europe/french-ai-company-mistral-hits-24-billion-valuation-funding-round-2026-09-08/",
-      "url": "https://www.reuters.com/world/europe/french-ai-company-mistral-hits-24-billion-valuation-funding-round-2026-09-08/",
-      "title": "French AI company Mistral hits $24 billion valuation in funding round",
-      "summary": "Reuters (Sep 8): Mistral raised €3B at ~€21B/$24B valuation — billed as Europe's biggest private-tech equity round — jointly led by PSG Equity, Samsung Electronics, and Scaleup Europe Fund; CFO says on track for $1B ARR by year-end.",
-      "sourceId": "reuters",
-      "sourceName": "Reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "publishedAt": "2026-09-08T05:15:00.000Z",
-      "publishedTs": 1788844500000,
+      "id": "curated:https://the-decoder.com/mistral-ai-raises-3-billion-euros-in-europes-largest-ever-tech-funding-round-despite-lagging-behind-rivals/",
+      "url": "https://the-decoder.com/mistral-ai-raises-3-billion-euros-in-europes-largest-ever-tech-funding-round-despite-lagging-behind-rivals/",
+      "title": "Mistral AI raises €3B in Europe's largest-ever tech funding round",
+      "summary": "THE DECODER (Sep 8): Mistral closed a €3B Series D, valuation past €21B (~$24B) — billed as Europe's largest private-tech equity round — three years after launch, even as it still trails US frontier rivals on scale.",
+      "sourceId": "decoder",
+      "sourceName": "THE DECODER",
+      "sourceHome": "https://the-decoder.com/",
+      "publishedAt": "2026-09-08T08:10:00.000Z",
+      "publishedTs": 1788855000000,
       "curated": true,
       "tags": [
+        "model-releases",
         "funding"
       ],
       "clusterId": "id:mistral-24b-raise",
-      "related": [],
-      "clusterSize": 1
+      "related": [
+        {
+          "title": "Mistral raises €3B",
+          "url": "https://prismix.dev/news/7db995c30f47",
+          "sourceId": "prismix",
+          "sourceName": "Prismix",
+          "sourceHome": "https://prismix.dev/news",
+          "publishedAt": "2026-09-08T08:10:00.000Z"
+        }
+      ],
+      "clusterSize": 2
     },
     {
       "id": "curated:https://www.reuters.com/world/asia-pacific/nvidia-backed-firmus-signs-deal-with-openai-malaysia-data-centre-capacity-2026-09-08/",
       "url": "https://www.reuters.com/world/asia-pacific/nvidia-backed-firmus-signs-deal-with-openai-malaysia-data-centre-capacity-2026-09-08/",
       "title": "Nvidia-backed Firmus signs deal with OpenAI for Malaysia data centre capacity",
-      "summary": "Reuters (Sep 8): Australia's Firmus signed a multi-year deal to supply OpenAI compute from two Malaysian data centres; contracted capacity now >900MW; Firmus valued >$10.5B with Nvidia among backers; Vera Rubin planned at scale.",
+      "summary": "Reuters (Sep 8): Australia's Firmus signed a multi-year deal to supply OpenAI compute from two Malaysian data centres; contracted capacity now >900MW; Vera Rubin planned at scale; Firmus valued >$10.5B with Nvidia among backers.",
       "sourceId": "reuters",
       "sourceName": "Reuters",
       "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "publishedAt": "2026-09-08T05:15:00.000Z",
-      "publishedTs": 1788844499999,
+      "publishedAt": "2026-09-08T08:10:00.000Z",
+      "publishedTs": 1788854999998,
       "curated": true,
       "tags": [
         "funding"
       ],
       "clusterId": "id:firmus-openai-malaysia",
-      "related": [],
-      "clusterSize": 1
-    },
-    {
-      "id": "curated:https://prismix.dev/news/47d16d45d737",
-      "url": "https://prismix.dev/news/47d16d45d737",
-      "title": "Malaysia Eyes Huawei Chips for Sovereign AI Program Despite U.S. Warnings",
-      "summary": "Prismix / The Information (Sep 8): Malaysia is weighing Huawei AI chips for a ~2B ringgit ($494M) state-backed sovereign AI project (Bloomberg-sourced) — a potential breakthrough for Chinese AI silicon that would complicate U.S. export-control pressure.",
-      "sourceId": "prismix",
-      "sourceName": "Prismix",
-      "sourceHome": "https://prismix.dev/news",
-      "publishedAt": "2026-09-08T05:15:00.000Z",
-      "publishedTs": 1788844499998,
-      "curated": true,
-      "tags": [
-        "funding",
-        "policy"
-      ],
-      "clusterId": "id:malaysia-huawei-ai",
       "related": [],
       "clusterSize": 1
     },
@@ -162,8 +153,8 @@
       "sourceId": "reuters",
       "sourceName": "Reuters",
       "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "publishedAt": "2026-09-08T05:15:00.000Z",
-      "publishedTs": 1788844499997,
+      "publishedAt": "2026-09-08T08:10:00.000Z",
+      "publishedTs": 1788854999997,
       "curated": true,
       "tags": [
         "agents",
@@ -174,22 +165,38 @@
       "clusterSize": 1
     },
     {
-      "id": "curated:https://venturebeat.com/orchestration/companies-are-spending-millions-rewiring-how-ai-gets-used-almost-none-can-prove-its-working",
-      "url": "https://venturebeat.com/orchestration/companies-are-spending-millions-rewiring-how-ai-gets-used-almost-none-can-prove-its-working",
-      "title": "Companies are spending millions rewiring how AI gets used. Almost none can prove it's working",
-      "summary": "VentureBeat (Sep 7): Uber's Claude Code 'tokenmaxxing' burned the 2026 AI budget by April; enterprises now chase ROI with caps, routing, and telemetry rather than raw token volume — Gartner sees agent software spend ~$207B this year.",
-      "sourceId": "venturebeat",
-      "sourceName": "VentureBeat",
-      "sourceHome": "https://venturebeat.com/category/ai/",
-      "publishedAt": "2026-09-08T05:15:00.000Z",
-      "publishedTs": 1788844499994,
+      "id": "curated:https://www.reuters.com/world/china/taiwan-flexes-chip-diplomacy-muscles-it-faces-pressure-share-ai-wealth-with-2026-09-07/",
+      "url": "https://www.reuters.com/world/china/taiwan-flexes-chip-diplomacy-muscles-it-faces-pressure-share-ai-wealth-with-2026-09-07/",
+      "title": "Taiwan flexes chip diplomacy muscles as it faces pressure to share AI wealth with allies",
+      "summary": "Reuters (Sep 7): At SEMICON Taiwan, Taipei pitched itself as a democratic AI-chip supplier while facing US pressure to shift more manufacturing abroad; TSMC Arizona spend and EU Chips Act outreach featured.",
+      "sourceId": "reuters",
+      "sourceName": "Reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "publishedAt": "2026-09-08T08:10:00.000Z",
+      "publishedTs": 1788854999996,
       "curated": true,
       "tags": [
-        "model-releases",
-        "agents",
+        "policy"
+      ],
+      "clusterId": "id:taiwan-chip-diplomacy",
+      "related": [],
+      "clusterSize": 1
+    },
+    {
+      "id": "curated:https://the-decoder.com/anthropic-reportedly-signs-517-billion-in-compute-deals-after-dario-amodei-warned-rivals-about-reckless-risk/",
+      "url": "https://the-decoder.com/anthropic-reportedly-signs-517-billion-in-compute-deals-after-dario-amodei-warned-rivals-about-reckless-risk/",
+      "title": "Anthropic reportedly signs $517 billion in compute deals",
+      "summary": "THE DECODER (Sep 7): Coverage of Anthropic compute contracts totaling up to ~$517B over ~11 months — still trailing OpenAI’s longer-horizon spend plans — after Amodei had publicly warned rivals about reckless scaling.",
+      "sourceId": "decoder",
+      "sourceName": "THE DECODER",
+      "sourceHome": "https://the-decoder.com/",
+      "publishedAt": "2026-09-08T08:10:00.000Z",
+      "publishedTs": 1788854999992,
+      "curated": true,
+      "tags": [
         "funding"
       ],
-      "clusterId": "id:tokenmaxxing",
+      "clusterId": "id:anthropic-compute-517b",
       "related": [],
       "clusterSize": 1
     },
@@ -235,7 +242,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-05T14:17:59.000Z",
       "publishedTs": 1788617879000,
-      "score": 53296,
+      "score": 53314,
       "authorHandle": "sama",
       "tags": [
         "model-releases",
@@ -289,7 +296,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-06T15:08:14.000Z",
       "publishedTs": 1788707294000,
-      "score": 25230,
+      "score": 25341,
       "authorHandle": "kliu128",
       "tags": [
         "model-releases",
@@ -300,55 +307,54 @@
       "clusterSize": 1
     },
     {
-      "id": "x:2096133504417616165",
-      "url": "https://x.com/OpenAI/status/2096133504417616165",
-      "title": "How we think about the “wiki incident,” where our agents wrote to several internet sites: it’s past time fo…",
-      "summary": "How we think about the “wiki incident,” where our agents wrote to several internet sites: it’s past time for us to define standards for…",
+      "id": "x:2097188835897586083",
+      "url": "https://x.com/MistralAI/status/2097188835897586083",
+      "title": "Today marks a major step for Mistral: we’re announcing a €3B Series D, the largest equity round ever raised…",
+      "summary": "Today marks a major step for Mistral: we’re announcing a €3B Series D, the largest equity round ever raised by a European tech company,…",
       "sourceId": "x",
       "sourceName": "X",
       "sourceHome": "https://x.com",
-      "publishedAt": "2026-09-05T07:09:06.000Z",
-      "publishedTs": 1788592146000,
-      "score": 21732,
-      "authorHandle": "openai",
+      "publishedAt": "2026-09-08T05:02:37.000Z",
+      "publishedTs": 1788843757000,
+      "score": 9949,
+      "authorHandle": "mistralai",
       "tags": [
-        "agents",
-        "research"
+        "funding"
       ],
       "related": [],
-      "clusterId": "auto:how-we-think-about-the-wiki-incident-where-our-a",
+      "clusterId": "auto:today-marks-a-major-step-for-mistral-we-re-annou",
       "clusterSize": 1
     }
   ],
   "rumors": [
     {
       "id": "rumor:https://x.com/validapau/status/2096629089851297894",
-      "title": "Estimate: Anthropic compute deals ~$517B / 14.8GW+",
-      "summary": "Unconfirmed tally (re-verified oEmbed Sep 8): @validapau (The Information) Sep 6 says Anthropic's total compute bill has been a mystery for IPO investors; their math estimates ~$517B+ in deals and ~14.8GW+ agreed capacity since Oct 2025. Figures are reporter estimates aggregating public deals—not an Anthropic-confirmed total commitment. Treat as rumor/estimate until primary filings.",
+      "title": "Anthropic compute deals estimated at $517B+",
+      "summary": "Unconfirmed (oEmbed-verified @validapau, Sep 6): The Information’s Valida Pau estimates Anthropic has locked ~$517B+ in compute deals and ~14.8 GW+ of agreed capacity since Oct 25, framed as a key IPO-investor focus, with an OpenAI comparison. Treat as rumor/analysis, not an official Anthropic figure.",
       "url": "https://x.com/validapau/status/2096629089851297894",
       "via": "@validapau",
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-08T05:15:00.000Z",
-      "publishedAt": "2026-09-08T05:15:00.000Z",
-      "publishedTs": 1788844500000,
+      "harvestedAt": "2026-09-08T08:10:00.000Z",
+      "publishedAt": "2026-09-08T08:10:00.000Z",
+      "publishedTs": 1788855000000,
       "tags": [
         "rumor"
       ]
     },
     {
       "id": "rumor:https://x.com/elonmusk/status/2094983639780204846",
-      "title": "Musk: Grok 4.7 in ~10 days (~Sep 12)",
-      "summary": "Unconfirmed (re-verified oEmbed Sep 8): @elonmusk posted Sep 2 that Grok 4.7 'comes out in 10 days' (implying ~Sep 12). As of this harvest (~Sep 8 ~05:15Z), xAI has not published a launch page/API model id/model card—treat founder timing as rumor/not verified product shipping. Window now ~4 days out.",
+      "title": "Grok 4.7 due ~Sep 12 (Musk: “in 10 days”)",
+      "summary": "Unconfirmed (oEmbed-verified @elonmusk, Sep 2): Elon Musk posted “Grok 4.7 comes out in 10 days,” which from that date points to ~Sep 12 — about four days from this harvest (2026-09-08). Treat as rumor until xAI ships; timing may slip.",
       "url": "https://x.com/elonmusk/status/2094983639780204846",
       "via": "@elonmusk",
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-08T05:15:00.000Z",
-      "publishedAt": "2026-09-08T05:15:00.000Z",
-      "publishedTs": 1788844500000,
+      "harvestedAt": "2026-09-08T08:10:00.000Z",
+      "publishedAt": "2026-09-08T08:10:00.000Z",
+      "publishedTs": 1788855000000,
       "tags": [
         "rumor"
       ]
@@ -356,15 +362,15 @@
     {
       "id": "rumor:https://x.com/amir/status/2095678832535843209",
       "title": "Nvidia talks ~$2.5–3B into Thinking Machines",
-      "summary": "Unconfirmed (re-verified oEmbed Sep 8): @amir (The Information) Sep 4 update that Nvidia is in talks to put ~$2.5–3B into Mira Murati's Thinking Machines Lab, per a16z; round-size figures elsewhere still conflict. No closed round announced—rumor/not verified financing.",
+      "summary": "Unconfirmed (oEmbed-verified @amir, Sep 4): Amir Efrati (The Information) says Nvidia is in talks to put $2.5B–$3B into Mira Murati’s Thinking Machines Lab, citing a16z LP briefing detail; story updated with more deets. Treat as rumor — talks, not a closed round.",
       "url": "https://x.com/amir/status/2095678832535843209",
       "via": "@amir",
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-08T05:15:00.000Z",
-      "publishedAt": "2026-09-08T05:15:00.000Z",
-      "publishedTs": 1788844500000,
+      "harvestedAt": "2026-09-08T08:10:00.000Z",
+      "publishedAt": "2026-09-08T08:10:00.000Z",
+      "publishedTs": 1788855000000,
       "tags": [
         "rumor"
       ]
