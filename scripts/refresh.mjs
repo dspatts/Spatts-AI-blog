@@ -1249,6 +1249,12 @@ function renderHtml(payload) {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="mobile-web-app-capable" content="yes">
   <script>
   (function () {
     try {
@@ -1267,9 +1273,9 @@ function renderHtml(payload) {
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css?v=reuters-1">
+  <link rel="stylesheet" href="./styles.css?v=ios-refresh-1">
 </head>
-<body>
+<body data-refreshed-at="${escapeHtml(payload.refreshedAt || "")}">
   <div class="wrap">
     <header class="masthead">
       <div class="masthead-top">
@@ -1408,6 +1414,39 @@ function renderHtml(payload) {
       if (!d.contains(e.target)) d.removeAttribute("open");
     });
   });
+})();
+
+(function () {
+  var baked = document.body.getAttribute("data-refreshed-at") || "";
+  var checking = false;
+  function checkFresh() {
+    if (checking) return;
+    checking = true;
+    var url = "./data/news.json?t=" + Date.now();
+    fetch(url, { cache: "no-store", headers: { "Cache-Control": "no-cache" } })
+      .then(function (res) { return res.ok ? res.json() : null; })
+      .then(function (data) {
+        checking = false;
+        if (!data || !data.refreshedAt) return;
+        if (baked && data.refreshedAt !== baked) {
+          var u = new URL(window.location.href);
+          u.searchParams.set("r", String(Date.now()));
+          window.location.replace(u.toString());
+        }
+      })
+      .catch(function () { checking = false; });
+  }
+  // Home-screen / bfcache: recheck when returning to the app
+  window.addEventListener("pageshow", function (e) {
+    if (e.persisted) checkFresh();
+  });
+  document.addEventListener("visibilitychange", function () {
+    if (document.visibilityState === "visible") checkFresh();
+  });
+  // Also check shortly after open (covers cold start from cached HTML)
+  window.setTimeout(checkFresh, 800);
+  // Light poll while the app stays open (harvest is ~3h; 5 min is enough)
+  window.setInterval(checkFresh, 5 * 60 * 1000);
 })();
 </script>
 </body>
