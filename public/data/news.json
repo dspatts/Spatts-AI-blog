@@ -95,8 +95,8 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-08T05:19:34.515Z",
-  "refreshedAt": "2026-09-08T05:19:34.515Z",
+  "briefingDate": "2026-09-08T05:38:13.345Z",
+  "refreshedAt": "2026-09-08T05:38:13.345Z",
   "preferCurated": true,
   "posts": [
     {
@@ -235,7 +235,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-05T14:17:59.000Z",
       "publishedTs": 1788617879000,
-      "score": 53281,
+      "score": 53296,
       "authorHandle": "sama",
       "tags": [
         "model-releases",
@@ -289,7 +289,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-06T15:08:14.000Z",
       "publishedTs": 1788707294000,
-      "score": 25218,
+      "score": 25230,
       "authorHandle": "kliu128",
       "tags": [
         "model-releases",
@@ -309,7 +309,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-05T07:09:06.000Z",
       "publishedTs": 1788592146000,
-      "score": 21727,
+      "score": 21732,
       "authorHandle": "openai",
       "tags": [
         "agents",
