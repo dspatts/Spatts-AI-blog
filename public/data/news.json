@@ -165,10 +165,31 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-11T10:37:45.940Z",
-  "refreshedAt": "2026-09-11T10:37:45.940Z",
+  "briefingDate": "2026-09-11T10:43:28.388Z",
+  "refreshedAt": "2026-09-11T10:43:28.388Z",
   "preferCurated": true,
   "posts": [
+    {
+      "id": "curated:https://www.reuters.com/business/altman-tells-staff-openai-is-open-slowing-ai-development-bloomberg-news-reports-2026-09-11/",
+      "url": "https://www.reuters.com/business/altman-tells-staff-openai-is-open-slowing-ai-development-bloomberg-news-reports-2026-09-11/",
+      "title": "Altman tells staff OpenAI is open to slowing AI development, Bloomberg News reports",
+      "summary": "Reuters (Sep 11): Sam Altman told staff OpenAI could pace frontier development alongside other labs amid safety alarms and rogue-agent incidents; Anthropic says it is interested in industry pacing talks.",
+      "sourceId": "reuters",
+      "sourceName": "Reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "publishedAt": "2026-09-11T02:33:00.000Z",
+      "publishedTs": 1789122959997,
+      "publishGuess": false,
+      "curated": true,
+      "tags": [
+        "model-releases",
+        "agents",
+        "policy"
+      ],
+      "clusterId": "id:openai-pace-slowdown",
+      "related": [],
+      "clusterSize": 1
+    },
     {
       "id": "curated:https://www.theverge.com/ai-artificial-intelligence/993759/due-to-gpt-6-astra-demand-openai-has-paused-new-subscriptions-to-its-200-chatgpt-pro-tier",
       "url": "https://www.theverge.com/ai-artificial-intelligence/993759/due-to-gpt-6-astra-demand-openai-has-paused-new-subscriptions-to-its-200-chatgpt-pro-tier",
@@ -178,7 +199,7 @@
       "sourceName": "The Verge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
       "publishedAt": "2026-09-11T00:01:00.000Z",
-      "publishedTs": 1789122304997,
+      "publishedTs": 1789122959996,
       "publishGuess": false,
       "curated": true,
       "tags": [
@@ -208,7 +229,7 @@
       "sourceName": "Reuters",
       "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
       "publishedAt": "2026-09-10T20:23:00.000Z",
-      "publishedTs": 1789122304989,
+      "publishedTs": 1789122959989,
       "publishGuess": false,
       "curated": true,
       "tags": [
@@ -226,17 +247,29 @@
           "sourceName": "TechCrunch",
           "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
           "publishedAt": "2026-09-10T20:57:30.000Z"
-        },
-        {
-          "title": "Six Chinese AI firms accused of aggressively copying US frontier models",
-          "url": "https://arstechnica.com/tech-policy/2026/09/six-chinese-ai-firms-accused-of-aggressively-copying-us-frontier-models/",
-          "sourceId": "arstechnica",
-          "sourceName": "Ars Technica",
-          "sourceHome": "https://arstechnica.com/tag/artificial-intelligence/",
-          "publishedAt": "2026-09-09T20:06:28.000Z"
         }
       ],
-      "clusterSize": 3
+      "clusterSize": 2
+    },
+    {
+      "id": "curated:https://www.reuters.com/technology/pentagon-talks-lend-5-billion-ai-cloud-startup-fluidstack-wsj-reports-2026-09-10/",
+      "url": "https://www.reuters.com/technology/pentagon-talks-lend-5-billion-ai-cloud-startup-fluidstack-wsj-reports-2026-09-10/",
+      "title": "Pentagon in talks to lend $5 billion to AI cloud startup Fluidstack, WSJ reports",
+      "summary": "Reuters (Sep 10): Pentagon reportedly in talks to lend ~$5B to AI cloud startup Fluidstack to shore up the U.S. data-center supply chain.",
+      "sourceId": "reuters",
+      "sourceName": "Reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "publishedAt": "2026-09-10T21:54:00.000Z",
+      "publishedTs": 1789122959983,
+      "publishGuess": false,
+      "curated": true,
+      "tags": [
+        "funding",
+        "policy"
+      ],
+      "clusterId": "id:fluidstack-pentagon-5b",
+      "related": [],
+      "clusterSize": 1
     },
     {
       "id": "curated:https://the-decoder.com/class-action-lawsuit-accuses-anthropic-of-overselling-claude-subscriptions-with-deceptive-usage-multipliers/",
@@ -259,48 +292,6 @@
       "clusterSize": 1
     },
     {
-      "id": "curated:https://the-decoder.com/the-mathematical-ai-safety-institute-wants-to-prove-ai-is-safe-the-way-cryptographers-prove-codes-are-unbreakable/",
-      "url": "https://the-decoder.com/the-mathematical-ai-safety-institute-wants-to-prove-ai-is-safe-the-way-cryptographers-prove-codes-are-unbreakable/",
-      "title": "The Mathematical AI Safety Institute wants to prove AI is safe the way cryptographers prove codes are unbreakable",
-      "summary": "THE DECODER (Sep 11): Fields Medalist Jacob Tsimerman launches MAISI (Bay Area, Jan 2027) for cryptographic-style AI safety proofs; he is also joining OpenAI's safety team.",
-      "sourceId": "decoder",
-      "sourceName": "THE DECODER",
-      "sourceHome": "https://the-decoder.com/",
-      "publishedAt": "2026-09-11T09:15:10.000Z",
-      "publishedTs": 1789118110000,
-      "publishGuess": false,
-      "curated": true,
-      "tags": [
-        "model-releases",
-        "research",
-        "policy"
-      ],
-      "clusterId": "id:maisi-ai-safety-institute",
-      "related": [],
-      "clusterSize": 1
-    },
-    {
-      "id": "curated:https://the-decoder.com/anthropics-1-5-billion-book-settlement-descends-into-chaos-as-authors-and-publishers-fight-over-who-gets-paid/",
-      "url": "https://the-decoder.com/anthropics-1-5-billion-book-settlement-descends-into-chaos-as-authors-and-publishers-fight-over-who-gets-paid/",
-      "title": "Anthropic's $1.5 billion book settlement descends into chaos as authors and publishers fight over who gets paid",
-      "summary": "THE DECODER (Sep 11): Authors and publishers file competing claims over Anthropic's $1.5B copyright settlement ($3k/book across ~482k titles); arbitrator to resolve disputes.",
-      "sourceId": "decoder",
-      "sourceName": "THE DECODER",
-      "sourceHome": "https://the-decoder.com/",
-      "publishedAt": "2026-09-11T08:40:01.000Z",
-      "publishedTs": 1789116001000,
-      "publishGuess": false,
-      "curated": true,
-      "tags": [
-        "model-releases",
-        "funding",
-        "policy"
-      ],
-      "clusterId": "id:anthropic-book-settlement",
-      "related": [],
-      "clusterSize": 1
-    },
-    {
       "id": "siliconangle:https://siliconangle.com/2026/09/10/extreme-networks-agent-one-coworker-moves-ai-networking-from-dashboards-to-answers/",
       "url": "https://siliconangle.com/2026/09/10/extreme-networks-agent-one-coworker-moves-ai-networking-from-dashboards-to-answers/",
       "title": "Extreme Networks’ Agent ONE Coworker moves AI networking from dashboards to answers",
@@ -318,21 +309,20 @@
       "clusterSize": 1
     },
     {
-      "id": "gizmodo:https://gizmodo.com/sam-altman-please-let-openai-into-the-energy-grid-2000810331",
-      "url": "https://gizmodo.com/sam-altman-please-let-openai-into-the-energy-grid-2000810331",
-      "title": "Sam Altman: Please Let OpenAI Into the Energy Grid",
-      "summary": "",
-      "sourceId": "gizmodo",
-      "sourceName": "Gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "publishedAt": "2026-09-11T01:01:51.000Z",
-      "publishedTs": 1789088511000,
+      "id": "siliconangle:https://siliconangle.com/2026/09/10/openai-targets-wall-street-bankers-with-a-new-version-of-chatgpt/",
+      "url": "https://siliconangle.com/2026/09/10/openai-targets-wall-street-bankers-with-a-new-version-of-chatgpt/",
+      "title": "OpenAI targets Wall Street bankers with a new version of ChatGPT",
+      "summary": "OpenAI Group PBC is going after Wall Street with a new version of ChatGPT that’s tailor made for financial tasks such as analysis and…",
+      "sourceId": "siliconangle",
+      "sourceName": "SiliconANGLE",
+      "sourceHome": "https://siliconangle.com/",
+      "publishedAt": "2026-09-11T01:54:51.000Z",
+      "publishedTs": 1789091691000,
       "tags": [
-        "model-releases",
-        "policy"
+        "model-releases"
       ],
       "related": [],
-      "clusterId": "auto:sam-altman-please-let-openai-into-the-energy-gri",
+      "clusterId": "auto:openai-targets-wall-street-bankers-with-a-new-ve",
       "clusterSize": 1
     },
     {
@@ -345,7 +335,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-08T17:20:56.000Z",
       "publishedTs": 1788888056000,
-      "score": 890917,
+      "score": 890933,
       "authorHandle": "openai",
       "tags": [
         "model-releases",
@@ -374,7 +364,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-10T17:13:22.000Z",
       "publishedTs": 1789060402000,
-      "score": 282114,
+      "score": 283496,
       "authorHandle": "anthropicai",
       "tags": [
         "model-releases",
@@ -394,7 +384,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-08T19:10:03.000Z",
       "publishedTs": 1788894603000,
-      "score": 150868,
+      "score": 150863,
       "authorHandle": "finkd",
       "tags": [
         "agents"
@@ -414,9 +404,9 @@
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-11T10:25:05.000Z",
-      "publishedAt": "2026-09-11T10:25:05.000Z",
-      "publishedTs": 1789122305000,
+      "harvestedAt": "2026-09-11T10:36:00.000Z",
+      "publishedAt": "2026-09-11T10:36:00.000Z",
+      "publishedTs": 1789122960000,
       "tags": [
         "rumor"
       ]
@@ -430,9 +420,9 @@
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-11T10:25:05.000Z",
-      "publishedAt": "2026-09-11T10:25:05.000Z",
-      "publishedTs": 1789122305000,
+      "harvestedAt": "2026-09-11T10:36:00.000Z",
+      "publishedAt": "2026-09-11T10:36:00.000Z",
+      "publishedTs": 1789122960000,
       "tags": [
         "rumor"
       ]
@@ -446,9 +436,9 @@
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-11T10:25:05.000Z",
-      "publishedAt": "2026-09-11T10:25:05.000Z",
-      "publishedTs": 1789122305000,
+      "harvestedAt": "2026-09-11T10:36:00.000Z",
+      "publishedAt": "2026-09-11T10:36:00.000Z",
+      "publishedTs": 1789122960000,
       "tags": [
         "rumor"
       ]
