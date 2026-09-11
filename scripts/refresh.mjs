@@ -792,42 +792,52 @@ function deriveTags(post) {
   }
   const h = hay(post);
   if (
-    /\b(agent|agents|astra|collusion|swarm|orchestrat|mcp|playwright|computer use|computer-use|nemo claw|nemoclaw|hydrafusion|armature)\b/.test(
+    /\b(agent|agents|agentic|coworker|astra|collusion|swarm|orchestrat|mcp|playwright|computer use|computer-use|nemo claw|nemoclaw|hydrafusion|armature|personal agent|autonom)\b/.test(
       h,
     )
   ) {
     out.add("agents");
   }
   if (
-    /\b(model|models|gemini|gpt-|claude|qwen|llada|llm|open.?weight|open.?source model|cerebras|tinker|muse spark|transcribe)\b/.test(
+    /\b(model|models|chatgpt|chat gpt|gemini|gpt-?\d*|claude|qwen|llada|llm|llms|open.?weight|open.?source model|cerebras|tinker|muse spark|transcribe|openai|anthropic|mistral|deepseek|llama|diffusion|image model|foundation model|frontier model)\b/.test(
       h,
     )
   ) {
     out.add("model-releases");
   }
   if (
-    /\b(fund|funding|raises|raised|series [a-z]|ipo|coatue|a16z|andreessen|accel|round|seed|valuation)\b/.test(
+    /\b(fund|funding|raises|raised|series [a-z]|ipo|coatue|a16z|andreessen|accel|round|seed|valuation|bags? \$?\d|\$\d[\d.,]*\s*(m|b|million|billion)|million|billion|grow an?|revenue|capex)\b/.test(
       h,
     )
   ) {
     out.add("funding");
   }
   if (
-    /\b(research|paper|arxiv|benchmark|study|lean|fermat|abliteration|wiki|wikipedia|collusion)\b/.test(
+    /\b(research|paper|arxiv|benchmark|study|lean|fermat|abliteration|wiki|wikipedia|collusion|proof|millennium|navier|stokes|equation|atlas|genome|threat intelligence)\b/.test(
       h,
     )
   ) {
     out.add("research");
   }
   if (
-    /\b(ftc|sec|lawsuit|court|nyt|new york times|label|labels|disclos|regulat|copyright)\b/.test(
+    /\b(ftc|sec|lawsuit|court|nyt|new york times|label|labels|disclos|regulat|copyright|energy grid|power grid|congress|white house|export control|sanctions|sovereign|diplomacy)\b/.test(
       h,
     ) ||
     (/\bpolicy\b/.test(h) && !/\bpolicy-gated\b/.test(h))
   ) {
     out.add("policy");
   }
-  return TAG_IDS.filter((id) => out.has(id));
+  // Every story card must carry at least one topic chip.
+  if (out.size === 0) {
+    if (/\b(nvidia|gpu|chip|semiconductor|datacenter|data centre|infra)\b/.test(h)) {
+      out.add("model-releases");
+    } else if (/\b(ai|artificial intelligence|machine learning|genai)\b/.test(h)) {
+      out.add("research");
+    } else {
+      out.add("research");
+    }
+  }
+  return TAG_IDS.filter((id) => out.has(id) && id !== "x");
 }
 
 function clusterTags(items) {

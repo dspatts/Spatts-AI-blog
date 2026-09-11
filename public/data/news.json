@@ -167,8 +167,8 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-11T06:35:50.565Z",
-  "refreshedAt": "2026-09-11T06:35:50.565Z",
+  "briefingDate": "2026-09-11T06:37:22.424Z",
+  "refreshedAt": "2026-09-11T06:37:22.424Z",
   "preferCurated": false,
   "posts": [
     {
@@ -215,7 +215,9 @@
       "sourceHome": "https://siliconangle.com/",
       "publishedAt": "2026-09-11T01:54:51.000Z",
       "publishedTs": 1789091691000,
-      "tags": [],
+      "tags": [
+        "model-releases"
+      ],
       "related": [],
       "clusterId": "auto:openai-targets-wall-street-bankers-with-a-new-ve",
       "clusterSize": 1
@@ -230,7 +232,10 @@
       "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
       "publishedAt": "2026-09-11T01:01:51.000Z",
       "publishedTs": 1789088511000,
-      "tags": [],
+      "tags": [
+        "model-releases",
+        "policy"
+      ],
       "related": [],
       "clusterId": "auto:sam-altman-please-let-openai-into-the-energy-gri",
       "clusterSize": 1
@@ -245,7 +250,9 @@
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
       "publishedAt": "2026-09-10T21:51:59.000Z",
       "publishedTs": 1789077119000,
-      "tags": [],
+      "tags": [
+        "funding"
+      ],
       "related": [],
       "clusterId": "auto:jensen-huang-explains-why-nvidia-will-grow-an-as",
       "clusterSize": 1
@@ -260,7 +267,9 @@
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
       "publishedAt": "2026-09-10T21:35:00.000Z",
       "publishedTs": 1789076100000,
-      "tags": [],
+      "tags": [
+        "research"
+      ],
       "related": [],
       "clusterId": "auto:mark-wahlberg-is-coming-to-techcrunch-disrupt-20",
       "clusterSize": 1
@@ -275,7 +284,9 @@
       "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
       "publishedAt": "2026-09-10T21:25:24.000Z",
       "publishedTs": 1789075524000,
-      "tags": [],
+      "tags": [
+        "research"
+      ],
       "related": [],
       "clusterId": "auto:here-s-palantir-ceo-alex-karp-wearing-a-keffiyeh",
       "clusterSize": 1
@@ -290,10 +301,11 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-10T17:13:22.000Z",
       "publishedTs": 1789060402000,
-      "score": 212671,
+      "score": 213167,
       "authorHandle": "anthropicai",
       "tags": [
-        "model-releases"
+        "model-releases",
+        "research"
       ],
       "related": [],
       "clusterId": "auto:we-re-publishing-our-most-detailed-threat-intell",
@@ -309,7 +321,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-08T19:10:03.000Z",
       "publishedTs": 1788894603000,
-      "score": 150785,
+      "score": 150786,
       "authorHandle": "finkd",
       "tags": [
         "agents"
@@ -328,9 +340,12 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-08T17:20:56.000Z",
       "publishedTs": 1788888056000,
-      "score": 890064,
+      "score": 890069,
       "authorHandle": "openai",
-      "tags": [],
+      "tags": [
+        "model-releases",
+        "research"
+      ],
       "related": [
         {
           "title": "On the Navier–Stokes Millennium Prize Problem",
