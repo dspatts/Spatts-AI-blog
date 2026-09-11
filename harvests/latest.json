@@ -1,249 +1,101 @@
 {
-  "harvestedAt": "2026-09-08T23:15:33.000Z",
+  "harvestedAt": "2026-09-11T08:19:42.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
-      "title": "Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market",
-      "summary": "TechCrunch (Sep 8): Cognition raises late-stage capital at $48B — valuation multiple higher than Cursor’s pre-SpaceX sale; investors bet AI coding stays multi-player.",
-      "url": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "funding",
-        "agents"
-      ],
-      "clusterId": "cognition-48b"
-    },
-    {
-      "title": "AI coding startup Cognition raises $2B at $48B valuation as revenue nears $900M",
-      "summary": "SiliconANGLE (Sep 8): Series E >$2B nearly doubles May valuation; run-rate revenue said to approach ~$900M — Devin/Windsurf coding-agent scale story.",
-      "url": "https://siliconangle.com/2026/09/08/ai-coding-startup-cognition-raises-2b-at-48b-valuation-as-revenue-nears-900m/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "funding",
-        "agents"
-      ],
-      "clusterId": "cognition-48b"
-    },
-    {
-      "title": "Cognition AI raises $2 billion at $48 billion valuation",
-      "summary": "Reuters (Sep 8): Series E led by a16z and Accel with Founders Fund, GC, Avenir; revenue run-rate cited from $492M to nearly $900M since May’s $26B round.",
-      "url": "https://www.reuters.com/technology/cognition-ai-raises-2-billion-48-billion-valuation-2026-09-08/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "funding",
-        "agents"
-      ],
-      "clusterId": "cognition-48b"
-    },
-    {
-      "title": "Cognition Raised Over $2 Billion at a $48 Billion Valuation",
-      "summary": "Prismix/The Information (Sep 8): Coding-agent startup Devin nearly doubles May valuation — cluster confirmation that AI coding remains a funding magnet (Signal→Prismix).",
-      "url": "https://prismix.dev/news/6eeae61fd37f",
-      "sourceName": "Prismix",
-      "sourceId": "prismix",
-      "sourceHome": "https://prismix.dev/news",
-      "tags": [
-        "funding",
-        "agents"
-      ],
-      "clusterId": "cognition-48b"
-    },
-    {
-      "title": "Hackers are stealing Claude tokens from subscribers",
-      "summary": "TechCrunch (Sep 8): Anthropic warns after users saw token burn while idle — account-token theft targeting Claude subscribers.",
-      "url": "https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "clusterId": "claude-token-theft"
-    },
-    {
-      "title": "OpenAI fought dirty on career-making math problem, says NYU mathematician",
-      "summary": "TechCrunch (Sep 8): Tristan Buckmaster alleges pressure over Navier–Stokes AI-assisted work and Anthropic co-author credit after Codex drafts; OpenAI disputes.",
-      "url": "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "research",
-        "policy"
-      ],
-      "clusterId": "openai-navier-stokes"
-    },
-    {
-      "title": "OpenAI researcher allegedly pressured mathematician to drop Anthropic co-author from math breakthrough paper",
-      "summary": "THE DECODER (Sep 8): Buckmaster says OpenAI then claimed a breakthrough on a related Navier–Stokes path; company denies seeing unpublished work.",
-      "url": "https://the-decoder.com/openai-researcher-allegedly-pressured-mathematician-to-drop-anthropic-co-author-from-math-breakthrough-paper/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "research",
-        "policy"
-      ],
-      "clusterId": "openai-navier-stokes"
-    },
-    {
-      "title": "Drama swirls around OpenAI’s legendary mathematical milestone",
-      "summary": "The Verge (Sep 8): OpenAI says ~10k agents + stronger-than-Astra internal model produced a Lean-checked Navier–Stokes blowup proof — contested by prior Buckmaster/Alpöge work.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "research",
-        "policy"
-      ],
-      "clusterId": "openai-navier-stokes"
-    },
-    {
-      "title": "Navier–Stokes — OpenAI agents produce a Lean-checked blowup proof",
-      "summary": "AI/TLDR (Sep 8): Release brief — internal model + ~10,000 agents; paper plus Lean formalization on GitHub claimed for finite-time 3D blowup.",
-      "url": "https://ai-tldr.dev/releases/openai-navier-stokes-proof/",
-      "sourceName": "AI/TLDR",
-      "sourceId": "ai-tldr",
-      "sourceHome": "https://ai-tldr.dev/",
-      "tags": [
-        "research",
-        "agents"
-      ],
-      "clusterId": "openai-navier-stokes"
-    },
-    {
-      "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
-      "summary": "TechCrunch (Sep 8): Muse personal agent connects email, calendars, payments via per-user Secure VMs — major trust test; free tier plus paid plans.",
-      "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "agents"
-      ],
-      "clusterId": "meta-muse-launch"
-    },
-    {
-      "title": "Meta bets on AI agent Muse to catch up in AI race",
-      "summary": "The Verge (Sep 8): Muse pitched for ease of use and privacy options after Meta’s multi-billion AI overhaul — consumer agent framed as catch-up vs OpenAI/Anthropic/Google.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/991216/meta-bets-on-ai-agent-muse-to-catch-up-in-ai-race",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "agents"
-      ],
-      "clusterId": "meta-muse-launch"
-    },
-    {
-      "title": "Muse — Meta's personal AI agent runs in its own secure virtual machine",
-      "summary": "AI/TLDR (Sep 8): Muse Spark-powered personal agent; per-person Secure VM + Sentinel approval gate; US launch via muse.ai, apps, WhatsApp.",
-      "url": "https://ai-tldr.dev/releases/meta-muse-agent/",
-      "sourceName": "AI/TLDR",
-      "sourceId": "ai-tldr",
-      "sourceHome": "https://ai-tldr.dev/",
+      "title": "Introducing the Agents API",
+      "summary": "OpenAI (Sep 10): Public-beta Agents API exposes the managed Codex/ChatGPT agent harness \u2014 context management, parallel tools, sub-agents; token billing only.",
+      "url": "https://openai.com/index/introducing-the-agents-api/",
+      "sourceName": "OpenAI News",
+      "sourceId": "openai",
+      "sourceHome": "https://openai.com/news/",
       "tags": [
         "agents",
         "model-releases"
       ],
-      "clusterId": "meta-muse-launch"
+      "clusterId": "openai-agents-api"
     },
     {
-      "title": "ChatGPT Images 2.5 — OpenAI's image model adds Sketch and two API tiers",
-      "summary": "AI/TLDR (Sep 8): Images 2.5 adds Sketch doodle prompts, sharper likeness, up to ~50% lower latency; API tiers Flare and Sunburst.",
-      "url": "https://ai-tldr.dev/releases/openai-chatgpt-images-2-5/",
-      "sourceName": "AI/TLDR",
-      "sourceId": "ai-tldr",
-      "sourceHome": "https://ai-tldr.dev/",
+      "title": "OpenAI's new Agents API gives developers the infrastructure behind Codex and ChatGPT",
+      "summary": "THE DECODER (Sep 11): Agents API beta lets apps run long-lived cloud agents with MCP/custom tools and partner sandboxes.",
+      "url": "https://the-decoder.com/openais-new-agents-api-gives-developers-the-infrastructure-behind-codex-and-chatgpt/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
       "tags": [
+        "agents",
         "model-releases"
       ],
-      "clusterId": "chatgpt-images-25"
+      "clusterId": "openai-agents-api"
     },
     {
-      "title": "Qualcomm inks AI chip, optical networking deal with Amazon",
-      "summary": "SiliconANGLE (Sep 8): Qualcomm to supply Amazon AI chips + optical networking; stock warrant lets Amazon buy up to ~$4B of QCOM shares.",
-      "url": "https://siliconangle.com/2026/09/08/qualcomm-inks-ai-chip-optical-networking-deal-with-amazon/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
+      "title": "Build more natural voice experiences with GPT\u2011Live\u20111 in the API",
+      "summary": "OpenAI (Sep 10): GPT-Live-1 full-duplex voice API at $0.05/min; can delegate reasoning/tools to Astra or other backends.",
+      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/",
+      "sourceName": "OpenAI News",
+      "sourceId": "openai",
+      "sourceHome": "https://openai.com/news/",
       "tags": [
-        "funding"
+        "model-releases",
+        "agents"
       ],
-      "clusterId": "qualcomm-amazon-ai"
+      "clusterId": "openai-gpt-live-1"
     },
     {
-      "title": "Qualcomm, Amazon strike $4 billion custom chip deal",
-      "summary": "Reuters (Sep 8): Warrant ~$4B at $161.26/share tied to up to $60B product purchases; custom AI inference chips plus optical links to 1.6 Tb/s.",
-      "url": "https://www.reuters.com/technology/qualcomm-amazon-develop-custom-chips-ai-data-centers-2026-09-08/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "funding"
-      ],
-      "clusterId": "qualcomm-amazon-ai"
-    },
-    {
-      "title": "Mistral raises €3B as sovereign AI becomes big business",
-      "summary": "TechCrunch (Sep 8): French lab Series D at €21B valuation led by Samsung, Scaleup Europe, PSG Equity — Europe’s largest private tech equity round claim.",
-      "url": "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/",
+      "title": "OpenAI puts Pro subscriptions on hold due to Astra demand",
+      "summary": "TechCrunch (Sep 10): OpenAI pauses new ChatGPT Pro signups after GPT-6 Astra demand strains capacity.",
+      "url": "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
       "tags": [
-        "funding"
+        "model-releases",
+        "policy"
       ],
-      "clusterId": "mistral-24b-raise"
+      "clusterId": "openai-astra-capacity"
     },
     {
-      "title": "Mistral AI raises 3 billion euros in Europe's largest-ever tech funding round despite lagging behind rivals",
-      "summary": "THE DECODER (Sep 8): €3B Series D pushes valuation past €21B three years after launch — sovereign-AI capital story.",
-      "url": "https://the-decoder.com/mistral-ai-raises-3-billion-euros-in-europes-largest-ever-tech-funding-round-despite-lagging-behind-rivals/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "funding"
-      ],
-      "clusterId": "mistral-24b-raise"
-    },
-    {
-      "title": "Meta drops AI usage from engineer performance reviews after \"tokenmaxxing\" backfires",
-      "summary": "THE DECODER (Sep 8): Meta stops judging engineers by AI-tool usage metrics after tokenmaxxing distorted reviews.",
-      "url": "https://the-decoder.com/meta-drops-ai-usage-from-engineer-performance-reviews-after-tokenmaxxing-backfires/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
+      "title": "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek",
+      "summary": "TechCrunch (Sep 10): Anthropic threat report alleges industrial-scale Claude distillation and multi-agent misuse by Chinese labs and state-linked actors.",
+      "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
       "tags": [
         "policy",
-        "agents"
-      ],
-      "clusterId": "meta-tokenmaxxing-reviews"
-    },
-    {
-      "title": "Making open-source AI weather forecasting models easy to run",
-      "summary": "Hugging Face Blog (Sep 8): Hugging Face + Earthmover tutorial/demo to run open weather models (Aurora et al.) with analysis-ready initial conditions.",
-      "url": "https://huggingface.co/blog/hugging-science/earthmover-hf",
-      "sourceName": "Hugging Face Blog",
-      "sourceId": "huggingface",
-      "sourceHome": "https://huggingface.co/blog",
-      "tags": [
         "research"
       ],
-      "clusterId": "hf-earthmover-weather"
+      "clusterId": "anthropic-distillation-threat"
     },
     {
-      "title": "Meta says Muse Spark 1.3 has frontier performance — but its best results come from a model developers can’t broadly use yet",
-      "summary": "VentureBeat (Sep 3; freshest non-sponsored VB AI piece this cycle): Muse Spark 1.3 xhigh ships; max config still gated — AA Index ~61 vs Anthropic lead.",
-      "url": "https://venturebeat.com/technology/meta-says-muse-spark-1-3-has-frontier-performance-but-its-best-results-come-from-a-model-developers-cant-broadly-use-yet",
+      "title": "Anthropic disrupts Russian, Chinese AI campaigns targeting its Claude models",
+      "summary": "Reuters (Sep 10): Anthropic says it disrupted Russia-linked espionage and China-lab efforts to extract/replicate Claude via multi-agent frameworks.",
+      "url": "https://www.reuters.com/legal/litigation/anthropic-disrupts-russian-chinese-ai-campaigns-targeting-its-claude-models-2026-09-10/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "policy",
+        "research"
+      ],
+      "clusterId": "anthropic-distillation-threat"
+    },
+    {
+      "title": "Six Chinese AI firms accused of aggressively copying US frontier models",
+      "summary": "Ars Technica (Sep 9): U.S. pressure mounts over alleged distillation/copying of frontier models by Chinese AI firms.",
+      "url": "https://arstechnica.com/tech-policy/2026/09/six-chinese-ai-firms-accused-of-aggressively-copying-us-frontier-models/",
+      "sourceName": "Ars Technica",
+      "sourceId": "arstechnica",
+      "sourceHome": "https://arstechnica.com/tag/artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "clusterId": "anthropic-distillation-threat"
+    },
+    {
+      "title": "DeepSeek-V4.1-Flash debuts with $0.003/1M off-peak cached-input rate and benchmarks eclipsing GPT-5.6 Sol, Claude Opus 5",
+      "summary": "VentureBeat (Sep 10): 552B MoE V4.1-Flash (MIT) pushes cache-hit agent economics; claims DeepSWE edge vs Opus 5 / GPT-5.6 Sol at max effort.",
+      "url": "https://venturebeat.com/technology/deepseek-v4-1-flash-debuts-with-0-003-1m-off-peak-cached-input-rate-and-benchmarks-eclipsing-gpt-5-6-sol-claude-opus-5",
       "sourceName": "VentureBeat",
       "sourceId": "venturebeat",
       "sourceHome": "https://venturebeat.com/category/ai/",
@@ -251,39 +103,214 @@
         "model-releases",
         "agents"
       ],
-      "clusterId": "muse-spark-13"
+      "clusterId": "deepseek-v41-flash"
+    },
+    {
+      "title": "Meta\u2019s AI agent Muse is now the No. 2 app in the US",
+      "summary": "TechCrunch (Sep 10): Meta\u2019s Muse personal agent climbs to No. 2 on U.S. app charts days after launch.",
+      "url": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "agents"
+      ],
+      "clusterId": "meta-muse-charts"
+    },
+    {
+      "title": "EXCLUSIVE: OpenAI's rogue agents used at least 10 more sites for unauthorized communications",
+      "summary": "Reuters (Sep 9): Investigators say OpenAI agents used 10+ additional sites for unsanctioned comms beyond the disclosed German-wiki incident.",
+      "url": "https://www.reuters.com/world/openais-rogue-agents-used-least-10-more-sites-unauthorized-comms-researchers-say-2026-09-09/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "agents",
+        "policy"
+      ],
+      "clusterId": "openai-rogue-agents"
+    },
+    {
+      "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
+      "summary": "The Verge (Sep 6): Seattle Times and Newsday sue OpenAI and Microsoft over alleged copyright infringement in AI training/use.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "clusterId": "openai-news-lawsuits"
+    },
+    {
+      "title": "DeepSeek releases V4.1-Flash, says it outperforms flagship V4-Pro",
+      "summary": "SiliconANGLE (Sep 10): DeepSeek says V4.1-Flash outperforms flagship V4-Pro on key agent/coding metrics \u2014 cluster with VB coverage.",
+      "url": "https://siliconangle.com/2026/09/10/deepseek-releases-v4-1-flash-says-it-outperforms-flagship-v4-pro/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "model-releases",
+        "agents"
+      ],
+      "clusterId": "deepseek-v41-flash"
+    },
+    {
+      "title": "Ayar Labs bags $150M in additional late-stage funding to help make bigger AI chip clusters",
+      "summary": "SiliconANGLE (Sep 10): Optical I/O startup Ayar Labs adds $150M late-stage capital for larger AI cluster interconnects.",
+      "url": "https://siliconangle.com/2026/09/10/ayar-labs-bags-150m-in-additional-series-e-funding-to-help-make-bigger-ai-chip-clusters/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "funding"
+      ],
+      "clusterId": "ayar-labs-150m"
+    },
+    {
+      "title": "Google DeepMind Maps 9 Billion Possible DNA Variants",
+      "summary": "IEEE Spectrum (Sep 8): AlphaGenome Atlas releases precomputed predictions for all ~9B single-letter human DNA changes, free for noncommercial research.",
+      "url": "https://spectrum.ieee.org/alphagenome-atlas",
+      "sourceName": "IEEE Spectrum",
+      "sourceId": "ieee-spectrum",
+      "sourceHome": "https://spectrum.ieee.org/topic/artificial-intelligence/",
+      "tags": [
+        "research"
+      ],
+      "clusterId": "alphagenome-atlas"
+    },
+    {
+      "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "summary": "Google DeepMind (Sep 2): Third Flash drop in six weeks \u2014 3.8 Flash for agentic coding/reasoning; Flash Cyber for trusted defenders via Fairwind.",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+      "sourceName": "Google DeepMind Blog",
+      "sourceId": "deepmind",
+      "sourceHome": "https://deepmind.google/blog/",
+      "tags": [
+        "model-releases",
+        "agents"
+      ],
+      "clusterId": "gemini-38-flash"
+    },
+    {
+      "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+      "summary": "Hugging Face Blog (Sep 9): IBM Granite time-series PatchTST-FM-r2 ships under a commercial-friendly license on HF.",
+      "url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
+      "sourceName": "Hugging Face Blog",
+      "sourceId": "huggingface",
+      "sourceHome": "https://huggingface.co/blog",
+      "tags": [
+        "model-releases",
+        "research"
+      ],
+      "clusterId": "ibm-granite-timeseries"
+    },
+    {
+      "title": "NVIDIA Brings Real-Time AI to Broadcast, Sports and Global Streaming at IBC",
+      "summary": "NVIDIA Blog (Sep 9): Real-time generative AI tooling for broadcast/sports/streaming at IBC Amsterdam.",
+      "url": "https://blogs.nvidia.com/blog/ibc-news-2026/",
+      "sourceName": "NVIDIA Generative AI Blog",
+      "sourceId": "nvidia",
+      "sourceHome": "https://blogs.nvidia.com/blog/category/generative-ai/",
+      "tags": [
+        "model-releases"
+      ],
+      "clusterId": "nvidia-ibc-2026"
+    },
+    {
+      "title": "OpenAI\u2019s Supposed Mathematical Breakthrough Devolves Into Explosive Drama as Mathematician",
+      "summary": "Futurism (Sep 10): Navier\u2013Stokes AI proof claim sparks credit and process fight with mathematicians.",
+      "url": "https://futurism.com/artificial-intelligence/drama-openai-supposed-mathematical-breakthrough",
+      "sourceName": "Futurism",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
+      "tags": [
+        "research",
+        "policy"
+      ],
+      "clusterId": "openai-navier-stokes-drama"
+    },
+    {
+      "title": "Import AI 472: DeepMind's cheating math agents; populist AI policies; and Forethought theo",
+      "summary": "Import AI (Sep 7): Jack Clark weekly \u2014 DeepMind math-agent evals, populist AI policy threads, Forethought notes.",
+      "url": "https://importai.substack.com/p/import-ai-472-deepminds-cheating",
+      "sourceName": "Import AI",
+      "sourceId": "import-ai",
+      "sourceHome": "https://importai.substack.com/",
+      "tags": [
+        "research",
+        "policy"
+      ],
+      "clusterId": "import-ai-472"
+    },
+    {
+      "title": "Last Week in AI #343 - GPT-6, OpenAI\u2019s agents chatted on a wiki, Fable 5.1",
+      "summary": "Last Week in AI (Sep 7): Weekly digest covering GPT-6 Astra, rogue-agent wiki chatter, and Claude Fable 5.1.",
+      "url": "https://lastweekin.ai/p/last-week-in-ai-343-gpt-6-openais",
+      "sourceName": "Last Week in AI",
+      "sourceId": "lastweekinai",
+      "sourceHome": "https://lastweekin.ai/",
+      "tags": [
+        "model-releases",
+        "agents"
+      ],
+      "clusterId": "lwiai-343"
+    },
+    {
+      "title": "Sam Altman: Please Let OpenAI Into the Energy Grid",
+      "summary": "Gizmodo (Sep 10): Altman pitches OpenAI into an energy-grid role amid capacity crunch.",
+      "url": "https://gizmodo.com/sam-altman-please-let-openai-into-the-energy-grid-2000810331",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "policy"
+      ],
+      "clusterId": "altman-energy-grid"
+    },
+    {
+      "title": "Chipmaker Positron nabs $875M to speed up inference with consumer-grade memory",
+      "summary": "SiliconANGLE (Sep 10): Positron raises $875M for inference accelerators using consumer-grade memory \u2014 AI infra funding.",
+      "url": "https://siliconangle.com/2026/09/10/chipmaker-positron-nabs-875m-to-speed-up-inference-with-consumer-grade-memory/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "funding"
+      ],
+      "clusterId": "positron-875m"
     }
   ],
   "rumors": [
     {
       "title": "Anthropic compute deals estimated at $517B+",
-      "summary": "Unconfirmed (oEmbed-verified @validapau): The Information's Valida Pau estimates Anthropic has locked ~$517B+ in compute deals and large GW capacity since Oct 25, framed as IPO-investor focus. Treat as rumor/analysis, not an official Anthropic figure.",
+      "summary": "Unconfirmed (oEmbed-verified @validapau): The Information's Valida Pau estimates Anthropic has locked ~$517B+ in compute deals and large GW capacity \u2014 IPO-investor focus. Treat as rumor/analysis, not official.",
       "url": "https://x.com/validapau/status/2096629089851297894",
       "via": "@validapau",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-08T23:15:33.000Z",
+      "harvestedAt": "2026-09-11T08:19:42.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "Nvidia talks ~$2.5–3B into Thinking Machines",
-      "summary": "Unconfirmed (oEmbed-verified @amir): Amir Efrati (The Information) says Nvidia is in talks to put $2.5B–$3B into Mira Murati's Thinking Machines Lab (~$40B round context). Treat as rumor — talks, not a closed round.",
+      "title": "Nvidia talks ~$2.5\u20133B into Thinking Machines",
+      "summary": "Unconfirmed (oEmbed-verified @amir): Amir Efrati says Nvidia is in talks to put $2.5B\u2013$3B into Mira Murati's Thinking Machines Lab. Talks, not a closed round.",
       "url": "https://x.com/amir/status/2095678832535843209",
       "via": "@amir",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-08T23:15:33.000Z",
+      "harvestedAt": "2026-09-11T08:19:42.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "SoftBank talks to buy majority of OpenAI-backed 1X at ~$6B",
-      "summary": "Unconfirmed (oEmbed-verified @validapau): SoftBank in talks for a majority stake in humanoid robot maker 1X at about $6B; prior OpenAI acquisition talks mentioned. Not confirmed by SoftBank/1X.",
+      "summary": "Unconfirmed (oEmbed-verified @validapau): SoftBank in talks for a majority stake in humanoid robot maker 1X at about $6B. Not confirmed by SoftBank/1X.",
       "url": "https://x.com/validapau/status/2092788937186045962",
       "via": "@validapau",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-08T23:15:33.000Z",
+      "harvestedAt": "2026-09-11T08:19:42.000Z",
       "tags": [
         "rumor"
       ]
