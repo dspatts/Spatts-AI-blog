@@ -3,12 +3,10 @@
   "sources": [
     {
       "id": "curated",
-      "name": "Evan harvest (expired)",
+      "name": "Evan harvest",
       "ok": true,
-      "count": 20,
-      "errors": [
-        "older than 2h; ranked with live feeds"
-      ]
+      "count": 22,
+      "errors": []
     },
     {
       "id": "techcrunch",
@@ -167,26 +165,142 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-11T06:37:22.424Z",
-  "refreshedAt": "2026-09-11T06:37:22.424Z",
-  "preferCurated": false,
+  "briefingDate": "2026-09-11T08:23:17.906Z",
+  "refreshedAt": "2026-09-11T08:23:17.906Z",
+  "preferCurated": true,
   "posts": [
     {
-      "id": "siliconangle:https://siliconangle.com/2026/09/10/ayar-labs-bags-150m-in-additional-series-e-funding-to-help-make-bigger-ai-chip-clusters/",
-      "url": "https://siliconangle.com/2026/09/10/ayar-labs-bags-150m-in-additional-series-e-funding-to-help-make-bigger-ai-chip-clusters/",
-      "title": "Ayar Labs bags $150M in additional late-stage funding to help make bigger AI chip clusters",
-      "summary": "Networking technology startup Ayar Labs Inc.",
-      "sourceId": "siliconangle",
-      "sourceName": "SiliconANGLE",
-      "sourceHome": "https://siliconangle.com/",
-      "publishedAt": "2026-09-11T02:36:41.000Z",
-      "publishedTs": 1789094201000,
+      "id": "curated:https://openai.com/index/introducing-the-agents-api/",
+      "url": "https://openai.com/index/introducing-the-agents-api/",
+      "title": "Introducing the Agents API",
+      "summary": "OpenAI (Sep 10): Public-beta Agents API exposes the managed Codex/ChatGPT agent harness — context management, parallel tools, sub-agents; token billing only.",
+      "sourceId": "openai",
+      "sourceName": "OpenAI News",
+      "sourceHome": "https://openai.com/news/",
+      "publishedAt": "2026-09-11T08:19:42.000Z",
+      "publishedTs": 1789114782000,
+      "curated": true,
       "tags": [
-        "funding"
+        "model-releases",
+        "agents"
       ],
+      "clusterId": "id:openai-agents-api",
+      "related": [
+        {
+          "title": "OpenAI's new Agents API gives developers the infrastructure behind Codex and ChatGPT",
+          "url": "https://the-decoder.com/openais-new-agents-api-gives-developers-the-infrastructure-behind-codex-and-chatgpt/",
+          "sourceId": "decoder",
+          "sourceName": "THE DECODER",
+          "sourceHome": "https://the-decoder.com/",
+          "publishedAt": "2026-09-11T08:19:42.000Z"
+        }
+      ],
+      "clusterSize": 2
+    },
+    {
+      "id": "curated:https://openai.com/index/introducing-gpt-live-1-in-the-api/",
+      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/",
+      "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+      "summary": "OpenAI (Sep 10): GPT-Live-1 full-duplex voice API at $0.05/min; can delegate reasoning/tools to Astra or other backends.",
+      "sourceId": "openai",
+      "sourceName": "OpenAI News",
+      "sourceHome": "https://openai.com/news/",
+      "publishedAt": "2026-09-11T08:19:42.000Z",
+      "publishedTs": 1789114781998,
+      "curated": true,
+      "tags": [
+        "model-releases",
+        "agents"
+      ],
+      "clusterId": "id:openai-gpt-live-1",
       "related": [],
-      "clusterId": "auto:ayar-labs-bags-150m-in-additional-late-stage-fun",
       "clusterSize": 1
+    },
+    {
+      "id": "curated:https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/",
+      "url": "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/",
+      "title": "OpenAI puts Pro subscriptions on hold due to Astra demand",
+      "summary": "TechCrunch (Sep 10): OpenAI pauses new ChatGPT Pro signups after GPT-6 Astra demand strains capacity.",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "publishedAt": "2026-09-11T08:19:42.000Z",
+      "publishedTs": 1789114781997,
+      "curated": true,
+      "tags": [
+        "model-releases",
+        "agents",
+        "policy"
+      ],
+      "clusterId": "id:openai-astra-capacity",
+      "related": [],
+      "clusterSize": 1
+    },
+    {
+      "id": "curated:https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/",
+      "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/",
+      "title": "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek",
+      "summary": "TechCrunch (Sep 10): Anthropic threat report alleges industrial-scale Claude distillation and multi-agent misuse by Chinese labs and state-linked actors.",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "publishedAt": "2026-09-11T08:19:42.000Z",
+      "publishedTs": 1789114781996,
+      "curated": true,
+      "tags": [
+        "model-releases",
+        "agents",
+        "research",
+        "policy"
+      ],
+      "clusterId": "id:anthropic-distillation-threat",
+      "related": [
+        {
+          "title": "Anthropic disrupts Russian, Chinese AI campaigns targeting its Claude models",
+          "url": "https://www.reuters.com/legal/litigation/anthropic-disrupts-russian-chinese-ai-campaigns-targeting-its-claude-models-2026-09-10/",
+          "sourceId": "reuters",
+          "sourceName": "Reuters",
+          "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+          "publishedAt": "2026-09-11T08:19:42.000Z"
+        },
+        {
+          "title": "Six Chinese AI firms accused of aggressively copying US frontier models",
+          "url": "https://arstechnica.com/tech-policy/2026/09/six-chinese-ai-firms-accused-of-aggressively-copying-us-frontier-models/",
+          "sourceId": "arstechnica",
+          "sourceName": "Ars Technica",
+          "sourceHome": "https://arstechnica.com/tag/artificial-intelligence/",
+          "publishedAt": "2026-09-11T08:19:42.000Z"
+        }
+      ],
+      "clusterSize": 3
+    },
+    {
+      "id": "curated:https://venturebeat.com/technology/deepseek-v4-1-flash-debuts-with-0-003-1m-off-peak-cached-input-rate-and-benchmarks-eclipsing-gpt-5-6-sol-claude-opus-5",
+      "url": "https://venturebeat.com/technology/deepseek-v4-1-flash-debuts-with-0-003-1m-off-peak-cached-input-rate-and-benchmarks-eclipsing-gpt-5-6-sol-claude-opus-5",
+      "title": "DeepSeek-V4.1-Flash debuts with $0.003/1M off-peak cached-input rate and benchmarks eclipsing GPT-5.6 Sol, Claude Opus 5",
+      "summary": "VentureBeat (Sep 10): 552B MoE V4.1-Flash (MIT) pushes cache-hit agent economics; claims DeepSWE edge vs Opus 5 / GPT-5.6 Sol at max effort.",
+      "sourceId": "venturebeat",
+      "sourceName": "VentureBeat",
+      "sourceHome": "https://venturebeat.com/category/ai/",
+      "publishedAt": "2026-09-11T08:19:42.000Z",
+      "publishedTs": 1789114781993,
+      "curated": true,
+      "tags": [
+        "model-releases",
+        "agents"
+      ],
+      "clusterId": "id:deepseek-v41-flash",
+      "related": [
+        {
+          "title": "DeepSeek releases V4.1-Flash, says it outperforms flagship V4-Pro",
+          "url": "https://siliconangle.com/2026/09/10/deepseek-releases-v4-1-flash-says-it-outperforms-flagship-v4-pro/",
+          "sourceId": "siliconangle",
+          "sourceName": "SiliconANGLE",
+          "sourceHome": "https://siliconangle.com/",
+          "publishedAt": "2026-09-11T08:19:42.000Z"
+        }
+      ],
+      "clusterSize": 2
     },
     {
       "id": "siliconangle:https://siliconangle.com/2026/09/10/extreme-networks-agent-one-coworker-moves-ai-networking-from-dashboards-to-answers/",
@@ -223,73 +337,33 @@
       "clusterSize": 1
     },
     {
-      "id": "gizmodo:https://gizmodo.com/sam-altman-please-let-openai-into-the-energy-grid-2000810331",
-      "url": "https://gizmodo.com/sam-altman-please-let-openai-into-the-energy-grid-2000810331",
-      "title": "Sam Altman: Please Let OpenAI Into the Energy Grid",
-      "summary": "",
-      "sourceId": "gizmodo",
-      "sourceName": "Gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "publishedAt": "2026-09-11T01:01:51.000Z",
-      "publishedTs": 1789088511000,
+      "id": "x:2097374640582668336",
+      "url": "https://x.com/OpenAI/status/2097374640582668336",
+      "title": "We’re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the…",
+      "summary": "We’re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the frontier of mathematics. The…",
+      "sourceId": "x",
+      "sourceName": "X",
+      "sourceHome": "https://x.com",
+      "publishedAt": "2026-09-08T17:20:56.000Z",
+      "publishedTs": 1788888056000,
+      "score": 890482,
+      "authorHandle": "openai",
       "tags": [
         "model-releases",
-        "policy"
-      ],
-      "related": [],
-      "clusterId": "auto:sam-altman-please-let-openai-into-the-energy-gri",
-      "clusterSize": 1
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/",
-      "url": "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/",
-      "title": "Jensen Huang explains why Nvidia will grow an astounding 70% next year",
-      "summary": "",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-10T21:51:59.000Z",
-      "publishedTs": 1789077119000,
-      "tags": [
-        "funding"
-      ],
-      "related": [],
-      "clusterId": "auto:jensen-huang-explains-why-nvidia-will-grow-an-as",
-      "clusterSize": 1
-    },
-    {
-      "id": "techcrunch:https://techcrunch.com/2026/09/10/mark-wahlberg-is-coming-to-techcrunch-disrupt-2026/",
-      "url": "https://techcrunch.com/2026/09/10/mark-wahlberg-is-coming-to-techcrunch-disrupt-2026/",
-      "title": "Mark Wahlberg is coming to TechCrunch Disrupt 2026, and he wants to talk about your work, not his",
-      "summary": "",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-10T21:35:00.000Z",
-      "publishedTs": 1789076100000,
-      "tags": [
         "research"
       ],
-      "related": [],
-      "clusterId": "auto:mark-wahlberg-is-coming-to-techcrunch-disrupt-20",
-      "clusterSize": 1
-    },
-    {
-      "id": "gizmodo:https://gizmodo.com/heres-palantir-ceo-alex-karp-wearing-a-keffiyeh-in-college-2000810168",
-      "url": "https://gizmodo.com/heres-palantir-ceo-alex-karp-wearing-a-keffiyeh-in-college-2000810168",
-      "title": "Here’s Palantir CEO Alex Karp Wearing a Keffiyeh in College",
-      "summary": "",
-      "sourceId": "gizmodo",
-      "sourceName": "Gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "publishedAt": "2026-09-10T21:25:24.000Z",
-      "publishedTs": 1789075524000,
-      "tags": [
-        "research"
+      "related": [
+        {
+          "title": "On the Navier–Stokes Millennium Prize Problem",
+          "url": "https://openai.com/index/navier-stokes-solution",
+          "sourceId": "openai",
+          "sourceName": "OpenAI News",
+          "sourceHome": "https://openai.com/news/",
+          "publishedAt": "2026-09-08T10:00:00.000Z"
+        }
       ],
-      "related": [],
-      "clusterId": "auto:here-s-palantir-ceo-alex-karp-wearing-a-keffiyeh",
-      "clusterSize": 1
+      "clusterId": "auto:on-the-navier-stokes-millennium-prize-problem",
+      "clusterSize": 2
     },
     {
       "id": "x:2098097512544444447",
@@ -301,7 +375,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-10T17:13:22.000Z",
       "publishedTs": 1789060402000,
-      "score": 213167,
+      "score": 246635,
       "authorHandle": "anthropicai",
       "tags": [
         "model-releases",
@@ -321,7 +395,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-08T19:10:03.000Z",
       "publishedTs": 1788894603000,
-      "score": 150786,
+      "score": 150829,
       "authorHandle": "finkd",
       "tags": [
         "agents"
@@ -329,50 +403,21 @@
       "related": [],
       "clusterId": "auto:introducing-muse-the-personal-agent-that-underst",
       "clusterSize": 1
-    },
-    {
-      "id": "x:2097374640582668336",
-      "url": "https://x.com/OpenAI/status/2097374640582668336",
-      "title": "We’re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the…",
-      "summary": "We’re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the frontier of mathematics. The…",
-      "sourceId": "x",
-      "sourceName": "X",
-      "sourceHome": "https://x.com",
-      "publishedAt": "2026-09-08T17:20:56.000Z",
-      "publishedTs": 1788888056000,
-      "score": 890069,
-      "authorHandle": "openai",
-      "tags": [
-        "model-releases",
-        "research"
-      ],
-      "related": [
-        {
-          "title": "On the Navier–Stokes Millennium Prize Problem",
-          "url": "https://openai.com/index/navier-stokes-solution",
-          "sourceId": "openai",
-          "sourceName": "OpenAI News",
-          "sourceHome": "https://openai.com/news/",
-          "publishedAt": "2026-09-08T10:00:00.000Z"
-        }
-      ],
-      "clusterId": "auto:on-the-navier-stokes-millennium-prize-problem",
-      "clusterSize": 2
     }
   ],
   "rumors": [
     {
       "id": "rumor:https://x.com/validapau/status/2096629089851297894",
       "title": "Anthropic compute deals estimated at $517B+",
-      "summary": "Unconfirmed (oEmbed-verified @validapau): The Information's Valida Pau estimates Anthropic has locked ~$517B+ in compute deals and large GW capacity since Oct 25, framed as IPO-investor focus. Treat as rumor/analysis, not an official Anthropic figure.",
+      "summary": "Unconfirmed (oEmbed-verified @validapau): The Information's Valida Pau estimates Anthropic has locked ~$517B+ in compute deals and large GW capacity — IPO-investor focus. Treat as rumor/analysis, not official.",
       "url": "https://x.com/validapau/status/2096629089851297894",
       "via": "@validapau",
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-08T23:15:33.000Z",
-      "publishedAt": "2026-09-08T23:15:33.000Z",
-      "publishedTs": 1788909333000,
+      "harvestedAt": "2026-09-11T08:19:42.000Z",
+      "publishedAt": "2026-09-11T08:19:42.000Z",
+      "publishedTs": 1789114782000,
       "tags": [
         "rumor"
       ]
@@ -380,15 +425,15 @@
     {
       "id": "rumor:https://x.com/amir/status/2095678832535843209",
       "title": "Nvidia talks ~$2.5–3B into Thinking Machines",
-      "summary": "Unconfirmed (oEmbed-verified @amir): Amir Efrati (The Information) says Nvidia is in talks to put $2.5B–$3B into Mira Murati's Thinking Machines Lab (~$40B round context). Treat as rumor — talks, not a closed round.",
+      "summary": "Unconfirmed (oEmbed-verified @amir): Amir Efrati says Nvidia is in talks to put $2.5B–$3B into Mira Murati's Thinking Machines Lab. Talks, not a closed round.",
       "url": "https://x.com/amir/status/2095678832535843209",
       "via": "@amir",
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-08T23:15:33.000Z",
-      "publishedAt": "2026-09-08T23:15:33.000Z",
-      "publishedTs": 1788909333000,
+      "harvestedAt": "2026-09-11T08:19:42.000Z",
+      "publishedAt": "2026-09-11T08:19:42.000Z",
+      "publishedTs": 1789114782000,
       "tags": [
         "rumor"
       ]
@@ -396,15 +441,15 @@
     {
       "id": "rumor:https://x.com/validapau/status/2092788937186045962",
       "title": "SoftBank talks to buy majority of OpenAI-backed 1X at ~$6B",
-      "summary": "Unconfirmed (oEmbed-verified @validapau): SoftBank in talks for a majority stake in humanoid robot maker 1X at about $6B; prior OpenAI acquisition talks mentioned. Not confirmed by SoftBank/1X.",
+      "summary": "Unconfirmed (oEmbed-verified @validapau): SoftBank in talks for a majority stake in humanoid robot maker 1X at about $6B. Not confirmed by SoftBank/1X.",
       "url": "https://x.com/validapau/status/2092788937186045962",
       "via": "@validapau",
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-08T23:15:33.000Z",
-      "publishedAt": "2026-09-08T23:15:33.000Z",
-      "publishedTs": 1788909333000,
+      "harvestedAt": "2026-09-11T08:19:42.000Z",
+      "publishedAt": "2026-09-11T08:19:42.000Z",
+      "publishedTs": 1789114782000,
       "tags": [
         "rumor"
       ]
