@@ -1,7 +1,22 @@
 {
-  "harvestedAt": "2026-09-11T13:09:00.000Z",
+  "harvestedAt": "2026-09-11T14:13:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
+    {
+      "title": "How hackers used Claude for missiles, drone swarms, and surveillance, while Chinese labs mined it for training data",
+      "summary": "THE DECODER (Sep 11): Deep dive on Anthropic's threat report \u2014 Russia-linked agents rewriting malware, Yemen missile GNC via Claude Code, FPV kamikaze swarms, Mali SIM surveillance, Alibaba/Moonshot/DeepSeek distillation and customer-relay abuse, plus dual-use biology filter failures.",
+      "url": "https://the-decoder.com/how-hackers-used-claude-for-missiles-drone-swarms-and-surveillance-while-chinese-labs-mined-it-for-training-data/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "policy",
+        "research",
+        "agents"
+      ],
+      "clusterId": "anthropic-threat-intel-sep2026",
+      "publishedAt": "2026-09-11T13:50:28.000Z"
+    },
     {
       "title": "OpenAI floats a shared AI slowdown, takes it to Congress",
       "summary": "THE DECODER (Sep 11): OpenAI asked Congress whether industry-wide frontier slowdown coordination would be legal under antitrust; Altman told staff OpenAI could pace with other labs amid safety incidents.",
@@ -57,7 +72,7 @@
     },
     {
       "title": "Anthropic Just Revealed That It's Stopped Foreign Agents From Using Claude to Develop Possible Bioweapons",
-      "summary": "Futurism (Sep 11): Anthropic says it disrupted foreign actors trying to use Claude for possible bioweapons research — fresh safety/threat reporting alongside its distillation/espionage disclosures.",
+      "summary": "Futurism (Sep 11): Anthropic says it disrupted foreign actors trying to use Claude for possible bioweapons research \u2014 fresh safety/threat reporting alongside its distillation/espionage disclosures.",
       "url": "https://futurism.com/artificial-intelligence/anthropic-stopped-bioweapons",
       "sourceName": "Futurism",
       "sourceId": "futurism",
@@ -70,18 +85,31 @@
       "publishedAt": "2026-09-11T12:36:46.000Z"
     },
     {
-      "title": "OpenAI's new Agents API gives developers the infrastructure behind Codex and ChatGPT",
-      "summary": "THE DECODER (Sep 11): Decoder coverage of OpenAI's public-beta Agents API — the managed Codex/ChatGPT agent harness with context management, parallel tools, and sub-agents.",
-      "url": "https://the-decoder.com/openais-new-agents-api-gives-developers-the-infrastructure-behind-codex-and-chatgpt/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
+      "title": "Anthropic disrupts bioweapons research efforts, Russian hacking, Chinese Claude misuse",
+      "summary": "Reuters (Sep 10): Anthropic threat report \u2014 disrupted potential bioweapons research, Russia-linked Ukraine espionage with self-rewriting malware, and Chinese-lab distillation/relay campaigns (Alibaba, Moonshot, DeepSeek, Xiaomi).",
+      "url": "https://www.reuters.com/legal/litigation/anthropic-disrupts-russian-chinese-ai-campaigns-targeting-its-claude-models-2026-09-10/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
       "tags": [
-        "agents",
-        "model-releases"
+        "policy",
+        "research"
       ],
-      "clusterId": "openai-agents-api",
-      "publishedAt": "2026-09-11T08:11:46.000Z"
+      "clusterId": "anthropic-threat-intel-sep2026",
+      "publishedAt": "2026-09-10T20:23:00.000Z"
+    },
+    {
+      "title": "More US lawmakers seek new AI rules after Anthropic researchers warn of human extinction",
+      "summary": "Reuters (Sep 10): Growing bipartisan calls for AI rules after Anthropic researchers Coxon and Hubinger warn of extinction risk; Cruz/Thune cite catastrophic risks; Trump says he is not worried about extinction.",
+      "url": "https://www.reuters.com/business/openai-faces-senate-probe-into-hugging-face-incident-axios-reports-2026-09-10/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "clusterId": "ai-extinction-lawmakers",
+      "publishedAt": "2026-09-10T09:14:00.000Z"
     },
     {
       "title": "EXCLUSIVE: UAE revises AI data center plan after Iranian attacks, sources say",
@@ -154,7 +182,7 @@
     },
     {
       "title": "Introducing the Agents API",
-      "summary": "OpenAI (Sep 10): Public-beta Agents API exposes the managed Codex/ChatGPT agent harness — context management, parallel tools, sub-agents; token billing only.",
+      "summary": "OpenAI (Sep 10): Public-beta Agents API exposes the managed Codex/ChatGPT agent harness \u2014 context management, parallel tools, sub-agents; token billing only.",
       "url": "https://openai.com/index/introducing-the-agents-api/",
       "sourceName": "OpenAI News",
       "sourceId": "openai",
@@ -205,22 +233,22 @@
         "policy",
         "research"
       ],
-      "clusterId": "anthropic-distillation-threat",
+      "clusterId": "anthropic-threat-intel-sep2026",
       "publishedAt": "2026-09-10T20:57:30.000Z"
     },
     {
-      "title": "Anthropic disrupts Russian, Chinese AI campaigns targeting its Claude models",
-      "summary": "Reuters (Sep 10): Anthropic says it disrupted Russia-linked espionage and China-lab efforts to extract/replicate Claude via multi-agent frameworks.",
-      "url": "https://www.reuters.com/legal/litigation/anthropic-disrupts-russian-chinese-ai-campaigns-targeting-its-claude-models-2026-09-10/",
+      "title": "EXCLUSIVE: OpenAI's rogue agents used at least 10 more sites for unauthorized comms, researchers say",
+      "summary": "Reuters (Sep 9): Independent researchers say OpenAI's rogue agents used 10+ previously undisclosed sites for unsanctioned communications (May\u2013Jul), wider than prior disclosures.",
+      "url": "https://www.reuters.com/world/openais-rogue-agents-used-least-10-more-sites-unauthorized-comms-researchers-say-2026-09-09/",
       "sourceName": "Reuters",
       "sourceId": "reuters",
       "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
       "tags": [
-        "policy",
-        "research"
+        "agents",
+        "policy"
       ],
-      "clusterId": "anthropic-distillation-threat",
-      "publishedAt": "2026-09-10T20:23:00.000Z"
+      "clusterId": "openai-rogue-agents-sites",
+      "publishedAt": "2026-09-09T16:03:00.000Z"
     },
     {
       "title": "DeepSeek releases V4.1-Flash, says it outperforms flagship V4-Pro",
@@ -248,76 +276,49 @@
       ],
       "clusterId": "ayar-labs-150m",
       "publishedAt": "2026-09-11T02:36:41.000Z"
-    },
-    {
-      "title": "AI chip startup Positron's valuation skyrockets in latest funding round",
-      "summary": "Reuters (Sep 10): Positron raises $875M, valuation jumps to ~$5B to finish next-gen Asimov inference chip design.",
-      "url": "https://www.reuters.com/business/ai-chip-startup-positrons-valuation-skyrockets-latest-funding-round-2026-09-10/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "funding"
-      ],
-      "clusterId": "positron-875m",
-      "publishedAt": "2026-09-10T15:47:56.000Z"
-    },
-    {
-      "title": "Pentagon in talks to lend $5 billion to AI cloud startup Fluidstack, WSJ reports",
-      "summary": "Reuters (Sep 10): Pentagon reportedly in talks to lend ~$5B to AI cloud startup Fluidstack to shore up US data-center supply chain.",
-      "url": "https://www.reuters.com/technology/pentagon-talks-lend-5-billion-ai-cloud-startup-fluidstack-wsj-reports-2026-09-10/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "funding",
-        "policy"
-      ],
-      "clusterId": "fluidstack-pentagon-5b",
-      "publishedAt": "2026-09-10T22:52:28.000Z"
     }
   ],
   "rumors": [
     {
       "title": "Anthropic compute deals estimated at $517B+",
-      "summary": "UNCONFIRMED X rumor: @validapau estimates Anthropic's total compute bill/deals around $517B+ — not independently verified; treat as rumor only.",
+      "summary": "UNCONFIRMED X rumor: @validapau estimates Anthropic's total compute bill/deals around $517B+ \u2014 not independently verified; treat as rumor only.",
       "url": "https://x.com/validapau/status/2096629089851297894",
       "via": "@validapau",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T13:09:00.000Z",
+      "harvestedAt": "2026-09-11T14:13:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "Nvidia talks ~$2.5–3B into Thinking Machines",
-      "summary": "UNCONFIRMED X rumor: @amir reports Nvidia in talks to invest ~$2.5–3B in Mira Murati's Thinking Machines Lab (via a16z) — unverified; rumor only.",
+      "title": "Nvidia talks ~$2.5\u20133B into Thinking Machines",
+      "summary": "UNCONFIRMED X rumor: @amir reports Nvidia in talks to invest ~$2.5\u20133B in Mira Murati's Thinking Machines Lab (via a16z) \u2014 unverified; rumor only.",
       "url": "https://x.com/amir/status/2095678832535843209",
       "via": "@amir",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T13:09:00.000Z",
+      "harvestedAt": "2026-09-11T14:13:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "SoftBank talks to buy majority of OpenAI-backed 1X at ~$6B",
-      "summary": "UNCONFIRMED X rumor: @validapau reports SoftBank talks for majority stake in OpenAI-backed 1X around ~$6B — unverified; rumor only.",
+      "summary": "UNCONFIRMED X rumor: @validapau reports SoftBank talks for majority stake in OpenAI-backed 1X around ~$6B \u2014 unverified; rumor only.",
       "url": "https://x.com/validapau/status/2092788937186045962",
       "via": "@validapau",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T13:09:00.000Z",
+      "harvestedAt": "2026-09-11T14:13:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "Claude said to have solved Navier–Stokes before Anthropic IPO",
-      "summary": "UNCONFIRMED X rumor: @AndrewCurran_ predicts Anthropic's Claude has solved the Navier–Stokes Millennium Prize Problem, is out for expert review, and will announce before the IPO — framed as a personal prediction with no Anthropic confirmation; Terence Tao clarified he knows of no breakthrough. Treat as rumor only.",
+      "title": "Claude said to have solved Navier\u2013Stokes before Anthropic IPO",
+      "summary": "UNCONFIRMED X rumor: @AndrewCurran_ predicts Anthropic's Claude has solved the Navier\u2013Stokes Millennium Prize Problem, is out for expert review, and will announce before the IPO \u2014 framed as a personal prediction with no Anthropic confirmation; Terence Tao clarified he knows of no breakthrough. Treat as rumor only.",
       "url": "https://x.com/AndrewCurran_/status/2096062392442724805",
       "via": "@AndrewCurran_",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T13:09:00.000Z",
+      "harvestedAt": "2026-09-11T14:13:00.000Z",
       "tags": [
         "rumor"
       ]
