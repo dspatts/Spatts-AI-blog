@@ -1,51 +1,64 @@
 :root {
   color-scheme: dark;
-  --accent: #7aa2f7;
-  --selection: #292e42;
-  --muted: #414868;
-  --background: #1a1b26;
-  --dark-background: #13141c;
-  --darker-background: #0e0e14;
-  --lighter-background: #24283b;
-  --foreground: #a9b1d6;
-  --dark-foreground: #565f89;
-  --light-foreground: #b4bee6;
-  --bright-foreground: #c0caf5;
-  --red: #f7768e;
-  --yellow: #e0af68;
-  --orange: #eb927b;
-  --green: #9ece6a;
-  --cyan: #449dab;
-  --blue: #7aa2f7;
-  --magenta: #ad8ee6;
-  --rule: #414868;
-  --shadow: 0 18px 50px rgba(14, 14, 20, 0.55);
+  /* Blotato-inspired neon SaaS palette; fonts unchanged */
+  --accent: #ff4db8;
+  --selection: #2a1538;
+  --muted: #3d2a55;
+  --background: #0b0714;
+  --dark-background: #07040f;
+  --darker-background: #05030c;
+  --lighter-background: #161022;
+  --foreground: #d7d0e8;
+  --dark-foreground: #8b7fa3;
+  --light-foreground: #ebe4f7;
+  --bright-foreground: #ffffff;
+  --red: #ff5c8a;
+  --yellow: #ffb86b;
+  --orange: #ff8a4c;
+  --green: #5eead4;
+  --cyan: #c084fc;
+  --blue: #a78bfa;
+  --magenta: #ff4db8;
+  --rule: #2e2045;
+  --shadow: 0 18px 50px rgba(255, 77, 184, 0.12);
+  --glow: 0 0 28px rgba(255, 77, 184, 0.28);
+  --card-border: rgba(192, 132, 252, 0.28);
   --font-ui: "Liberation Sans", "Noto Sans", system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, "Cascadia Code", monospace;
 }
 
+html[data-theme="light"] h1 {
+  background: none;
+  color: var(--bright-foreground);
+  -webkit-background-clip: unset;
+  background-clip: unset;
+}
+
 html[data-theme="light"] {
+
   color-scheme: light;
-  --accent: #2459b3;
-  --selection: #dbe7fb;
-  --muted: #c4cad6;
+  --accent: #c026a0;
+  --selection: #fce7f6;
+  --muted: #d8cce6;
   --background: #ffffff;
-  --dark-background: #f6f7f9;
-  --darker-background: #eef1f5;
+  --dark-background: #faf7ff;
+  --darker-background: #f3edfb;
   --lighter-background: #ffffff;
-  --foreground: #303846;
-  --dark-foreground: #5b6475;
-  --light-foreground: #374151;
-  --bright-foreground: #111827;
-  --red: #b4233b;
-  --yellow: #8a5b00;
-  --orange: #a14428;
-  --green: #26733a;
-  --cyan: #176778;
-  --blue: #2459b3;
-  --magenta: #7047a3;
-  --rule: #c4cad6;
-  --shadow: 0 12px 32px rgba(30, 41, 59, 0.12);
+  --foreground: #352647;
+  --dark-foreground: #6b5b7d;
+  --light-foreground: #2a1b3d;
+  --bright-foreground: #14091f;
+  --red: #be123c;
+  --yellow: #a16207;
+  --orange: #c2410c;
+  --green: #0f766e;
+  --cyan: #7c3aed;
+  --blue: #7c3aed;
+  --magenta: #c026a0;
+  --rule: #e4d8f0;
+  --shadow: 0 12px 32px rgba(124, 58, 237, 0.12);
+  --glow: 0 0 20px rgba(192, 38, 160, 0.18);
+  --card-border: rgba(124, 58, 237, 0.22);
 }
 
 * {
@@ -62,9 +75,10 @@ body {
 body {
   font-family: var(--font-ui);
   background:
-    radial-gradient(1200px 520px at 8% -12%, rgba(122, 162, 247, 0.1), transparent 52%),
-    radial-gradient(900px 420px at 100% 0%, rgba(68, 157, 171, 0.08), transparent 48%),
-    linear-gradient(180deg, var(--dark-background), var(--darker-background) 55%, var(--darker-background));
+    radial-gradient(900px 520px at 12% -8%, rgba(255, 77, 184, 0.22), transparent 55%),
+    radial-gradient(800px 480px at 92% 4%, rgba(167, 139, 250, 0.2), transparent 50%),
+    radial-gradient(700px 420px at 50% 110%, rgba(255, 138, 76, 0.08), transparent 45%),
+    linear-gradient(180deg, #0a0614 0%, var(--darker-background) 42%, #04020a 100%);
   color: var(--foreground);
 }
 
@@ -130,14 +144,14 @@ a {
 
 .theme-toggle {
   min-height: 34px;
-  border: 1px solid var(--muted);
+  border: 1px solid var(--card-border);
   border-radius: 999px;
   padding: 6px 10px;
   font-family: var(--font-mono);
   font-size: 0.68rem;
   line-height: 1;
   color: var(--light-foreground);
-  background: var(--darker-background);
+  background: rgba(22, 16, 34, 0.9);
   cursor: pointer;
 }
 
@@ -178,6 +192,10 @@ h1 {
   letter-spacing: -0.04em;
   margin: 0 0 16px;
   color: var(--bright-foreground);
+  background: linear-gradient(90deg, #ffffff 0%, #ff4db8 45%, #c084fc 72%, #ff8a4c 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
   overflow-wrap: anywhere;
 }
 
@@ -225,32 +243,34 @@ h1 {
 }
 
 .chip.is-on {
-  background: var(--selection);
-  border-color: var(--accent);
+  background: linear-gradient(90deg, rgba(255, 77, 184, 0.35), rgba(167, 139, 250, 0.28));
+  border-color: rgba(255, 77, 184, 0.65);
   color: var(--bright-foreground);
+  box-shadow: var(--glow);
 }
 
 .chip-rumor,
 .chip[data-filter="rumors"] {
-  color: var(--yellow);
-  border-color: rgba(224, 175, 104, 0.55);
+  color: var(--magenta);
+  border-color: rgba(255, 77, 184, 0.45);
 }
 
 .chip-rumor:hover,
 .chip[data-filter="rumors"]:hover,
 .chip-rumor.is-on,
 .chip[data-filter="rumors"].is-on {
-  color: var(--yellow);
-  border-color: var(--yellow);
-  background: rgba(224, 175, 104, 0.14);
+  color: var(--magenta);
+  border-color: var(--magenta);
+  background: rgba(255, 77, 184, 0.18);
+  box-shadow: var(--glow);
 }
 
 .rumor-mill {
-  border: 1.5px dashed var(--yellow);
-  border-radius: 14px;
+  border: 1.5px dashed rgba(255, 77, 184, 0.45);
+  border-radius: 16px;
   padding: 22px 24px 16px;
   margin: 0 0 32px;
-  background: rgba(224, 175, 104, 0.045);
+  background: rgba(255, 77, 184, 0.05);
   min-width: 0;
   max-width: 100%;
 }
@@ -275,7 +295,7 @@ h1 {
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--yellow);
+  color: var(--magenta);
 }
 
 .unconfirmed {
@@ -284,10 +304,11 @@ h1 {
   font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--darker-background);
-  background: var(--yellow);
+  color: #14091f;
+  background: linear-gradient(90deg, #ff4db8, #c084fc);
   border-radius: 999px;
   padding: 5px 10px;
+  box-shadow: var(--glow);
 }
 
 .rumor-explainer,
@@ -317,15 +338,16 @@ h1 {
   max-width: none;
   aspect-ratio: auto;
   min-height: 0;
-  background: var(--darker-background);
-  border: 1px solid var(--muted);
-  border-radius: 10px;
+  background: rgba(22, 16, 34, 0.95);
+  border: 1px solid var(--card-border);
+  border-radius: 14px;
   padding: 10px 12px 11px;
   box-sizing: border-box;
 }
 
 .rumor:hover {
-  border-color: rgba(224, 175, 104, 0.45);
+  border-color: rgba(255, 77, 184, 0.55);
+  box-shadow: var(--glow);
 }
 
 .rumor-kicker {
@@ -339,7 +361,7 @@ h1 {
 }
 
 .rumor-flag {
-  color: var(--yellow);
+  color: var(--magenta);
   font-weight: 600;
 }
 
@@ -373,7 +395,7 @@ h1 {
 }
 
 .rumor h3 a:hover {
-  color: var(--yellow);
+  color: var(--magenta);
 }
 
 .rumor-caveat {
@@ -417,11 +439,11 @@ h1 {
   display: grid;
   grid-template-columns: 48px minmax(0, 1fr);
   gap: 2px 12px;
-  background: var(--lighter-background);
-  border: 1px solid var(--muted);
-  border-radius: 8px;
+  background: rgba(22, 16, 34, 0.9);
+  border: 1px solid var(--card-border);
+  border-radius: 14px;
   padding: 10px 12px 8px;
-  box-shadow: none;
+  box-shadow: 0 10px 36px rgba(0, 0, 0, 0.35);
   min-width: 0;
   max-width: 100%;
   overflow: visible;
@@ -432,8 +454,9 @@ h1 {
 }
 
 .story:hover {
-  background: var(--selection);
-  border-color: var(--accent);
+  background: rgba(42, 21, 56, 0.95);
+  border-color: rgba(255, 77, 184, 0.55);
+  box-shadow: var(--glow);
 }
 
 .rank {
@@ -441,7 +464,7 @@ h1 {
   font-size: 1.35rem;
   font-weight: 600;
   line-height: 1;
-  color: var(--blue);
+  color: var(--magenta);
   grid-row: span 2;
   padding-top: 2px;
 }
@@ -581,8 +604,10 @@ h1 {
 
 .share-menu-item:hover,
 .share-menu-item:focus-visible {
-  background: color-mix(in srgb, var(--accent) 16%, transparent);
-  color: var(--accent);
+  background: linear-gradient(90deg, rgba(255, 77, 184, 0.28), rgba(167, 139, 250, 0.22));
+  color: var(--bright-foreground);
+  border-color: rgba(255, 77, 184, 0.55);
+  box-shadow: var(--glow);
   outline: none;
 }
 
@@ -1016,4 +1041,18 @@ footer {
     margin-top: 32px;
     font-size: 0.8rem;
   }
+}
+
+
+html[data-theme="light"] .story,
+html[data-theme="light"] .rumor {
+  background: #ffffff;
+  box-shadow: var(--shadow);
+}
+
+html[data-theme="light"] body {
+  background:
+    radial-gradient(900px 520px at 12% -8%, rgba(192, 38, 160, 0.1), transparent 55%),
+    radial-gradient(800px 480px at 92% 4%, rgba(124, 58, 237, 0.1), transparent 50%),
+    linear-gradient(180deg, #faf7ff 0%, #ffffff 45%, #f3edfb 100%);
 }
