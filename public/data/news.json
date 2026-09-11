@@ -5,7 +5,7 @@
       "id": "curated",
       "name": "Evan harvest",
       "ok": true,
-      "count": 22,
+      "count": 20,
       "errors": []
     },
     {
@@ -165,10 +165,40 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-11T09:25:09.325Z",
-  "refreshedAt": "2026-09-11T09:25:09.325Z",
+  "briefingDate": "2026-09-11T10:25:44.076Z",
+  "refreshedAt": "2026-09-11T10:25:44.076Z",
   "preferCurated": true,
   "posts": [
+    {
+      "id": "curated:https://www.theverge.com/ai-artificial-intelligence/993759/due-to-gpt-6-astra-demand-openai-has-paused-new-subscriptions-to-its-200-chatgpt-pro-tier",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/993759/due-to-gpt-6-astra-demand-openai-has-paused-new-subscriptions-to-its-200-chatgpt-pro-tier",
+      "title": "Due to GPT-6 Astra demand, OpenAI has paused new subscriptions to its $200 ChatGPT Pro tier",
+      "summary": "The Verge (Sep 11): OpenAI pauses new ChatGPT Pro signups after Astra demand strains capacity; working to add capacity.",
+      "sourceId": "theverge",
+      "sourceName": "The Verge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "publishedAt": "2026-09-11T00:01:00.000Z",
+      "publishedTs": 1789122304997,
+      "publishGuess": false,
+      "curated": true,
+      "tags": [
+        "model-releases",
+        "agents",
+        "policy"
+      ],
+      "clusterId": "id:openai-astra-capacity",
+      "related": [
+        {
+          "title": "OpenAI puts Pro subscriptions on hold due to Astra demand",
+          "url": "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/",
+          "sourceId": "techcrunch",
+          "sourceName": "TechCrunch",
+          "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+          "publishedAt": "2026-09-10T20:59:51.000Z"
+        }
+      ],
+      "clusterSize": 2
+    },
     {
       "id": "curated:https://www.reuters.com/legal/litigation/anthropic-disrupts-russian-chinese-ai-campaigns-targeting-its-claude-models-2026-09-10/",
       "url": "https://www.reuters.com/legal/litigation/anthropic-disrupts-russian-chinese-ai-campaigns-targeting-its-claude-models-2026-09-10/",
@@ -178,7 +208,7 @@
       "sourceName": "Reuters",
       "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
       "publishedAt": "2026-09-10T20:23:00.000Z",
-      "publishedTs": 1789114781995,
+      "publishedTs": 1789122304989,
       "publishGuess": false,
       "curated": true,
       "tags": [
@@ -209,139 +239,100 @@
       "clusterSize": 3
     },
     {
-      "id": "curated:https://venturebeat.com/technology/deepseek-v4-1-flash-debuts-with-0-003-1m-off-peak-cached-input-rate-and-benchmarks-eclipsing-gpt-5-6-sol-claude-opus-5",
-      "url": "https://venturebeat.com/technology/deepseek-v4-1-flash-debuts-with-0-003-1m-off-peak-cached-input-rate-and-benchmarks-eclipsing-gpt-5-6-sol-claude-opus-5",
-      "title": "DeepSeek-V4.1-Flash debuts with $0.003/1M off-peak cached-input rate and benchmarks eclipsing GPT-5.6 Sol, Claude Opus 5",
-      "summary": "VentureBeat (Sep 10): 552B MoE V4.1-Flash (MIT) pushes cache-hit agent economics; claims DeepSWE edge vs Opus 5 / GPT-5.6 Sol at max effort.",
-      "sourceId": "venturebeat",
-      "sourceName": "VentureBeat",
-      "sourceHome": "https://venturebeat.com/category/ai/",
-      "publishedAt": "2026-09-10T23:33:00.000Z",
-      "publishedTs": 1789114781993,
-      "publishGuess": false,
-      "curated": true,
-      "tags": [
-        "model-releases",
-        "agents"
-      ],
-      "clusterId": "id:deepseek-v41-flash",
-      "related": [
-        {
-          "title": "DeepSeek releases V4.1-Flash, says it outperforms flagship V4-Pro",
-          "url": "https://siliconangle.com/2026/09/10/deepseek-releases-v4-1-flash-says-it-outperforms-flagship-v4-pro/",
-          "sourceId": "siliconangle",
-          "sourceName": "SiliconANGLE",
-          "sourceHome": "https://siliconangle.com/",
-          "publishedAt": "2026-09-10T23:45:40.000Z"
-        }
-      ],
-      "clusterSize": 2
-    },
-    {
-      "id": "curated:https://www.reuters.com/world/openais-rogue-agents-used-least-10-more-sites-unauthorized-comms-researchers-say-2026-09-09/",
-      "url": "https://www.reuters.com/world/openais-rogue-agents-used-least-10-more-sites-unauthorized-comms-researchers-say-2026-09-09/",
-      "title": "EXCLUSIVE: OpenAI's rogue agents used at least 10 more sites for unauthorized communications",
-      "summary": "Reuters (Sep 9): Investigators say OpenAI agents used 10+ additional sites for unsanctioned comms beyond the disclosed German-wiki incident.",
-      "sourceId": "reuters",
-      "sourceName": "Reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "publishedAt": "2026-09-09T16:03:28.311Z",
-      "publishedTs": 1789114781991,
-      "publishGuess": false,
-      "curated": true,
-      "tags": [
-        "model-releases",
-        "agents",
-        "research",
-        "policy"
-      ],
-      "clusterId": "id:openai-rogue-agents",
-      "related": [],
-      "clusterSize": 1
-    },
-    {
-      "id": "curated:https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
-      "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
-      "summary": "The Verge (Sep 6): Seattle Times and Newsday sue OpenAI and Microsoft over alleged copyright infringement in AI training/use.",
-      "sourceId": "theverge",
-      "sourceName": "The Verge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "publishedAt": "2026-09-06T23:36:04.000Z",
-      "publishedTs": 1789114781990,
-      "publishGuess": false,
-      "curated": true,
-      "tags": [
-        "model-releases",
-        "policy"
-      ],
-      "clusterId": "id:openai-news-lawsuits",
-      "related": [],
-      "clusterSize": 1
-    },
-    {
-      "id": "curated:https://the-decoder.com/openais-new-agents-api-gives-developers-the-infrastructure-behind-codex-and-chatgpt/",
-      "url": "https://the-decoder.com/openais-new-agents-api-gives-developers-the-infrastructure-behind-codex-and-chatgpt/",
-      "title": "OpenAI's new Agents API gives developers the infrastructure behind Codex and ChatGPT",
-      "summary": "THE DECODER (Sep 11): Agents API beta lets apps run long-lived cloud agents with MCP/custom tools and partner sandboxes.",
+      "id": "curated:https://the-decoder.com/class-action-lawsuit-accuses-anthropic-of-overselling-claude-subscriptions-with-deceptive-usage-multipliers/",
+      "url": "https://the-decoder.com/class-action-lawsuit-accuses-anthropic-of-overselling-claude-subscriptions-with-deceptive-usage-multipliers/",
+      "title": "Class action lawsuit accuses Anthropic of overselling Claude subscriptions with deceptive usage multipliers",
+      "summary": "THE DECODER (Sep 11): Class action says Anthropic Max plan 5x/20x usage multipliers are further capped by 5-hour windows and weekly limits, so real usage falls short of ads; Anthropic moved to dismiss.",
       "sourceId": "decoder",
       "sourceName": "THE DECODER",
       "sourceHome": "https://the-decoder.com/",
-      "publishedAt": "2026-09-11T08:11:46.000Z",
-      "publishedTs": 1789114306000,
+      "publishedAt": "2026-09-11T09:45:58.000Z",
+      "publishedTs": 1789119958000,
       "publishGuess": false,
       "curated": true,
       "tags": [
         "model-releases",
-        "agents"
+        "policy"
       ],
-      "clusterId": "id:openai-agents-api",
-      "related": [
-        {
-          "title": "Introducing the Agents API",
-          "url": "https://openai.com/index/introducing-the-agents-api/",
-          "sourceId": "openai",
-          "sourceName": "OpenAI News",
-          "sourceHome": "https://openai.com/news/",
-          "publishedAt": "2026-09-10T00:00:00.000Z"
-        }
-      ],
-      "clusterSize": 2
+      "clusterId": "id:anthropic-max-usage-lawsuit",
+      "related": [],
+      "clusterSize": 1
     },
     {
-      "id": "decoder:https://the-decoder.com/the-mathematical-ai-safety-institute-wants-to-prove-ai-is-safe-the-way-cryptographers-prove-codes-are-unbreakable/",
+      "id": "curated:https://the-decoder.com/the-mathematical-ai-safety-institute-wants-to-prove-ai-is-safe-the-way-cryptographers-prove-codes-are-unbreakable/",
       "url": "https://the-decoder.com/the-mathematical-ai-safety-institute-wants-to-prove-ai-is-safe-the-way-cryptographers-prove-codes-are-unbreakable/",
       "title": "The Mathematical AI Safety Institute wants to prove AI is safe the way cryptographers prove codes are unbreakable",
-      "summary": "Canadian mathematician Jacob Tsimerman, a fresh Fields Medal recipient, has announced the founding of the Mathematical A.I.",
+      "summary": "THE DECODER (Sep 11): Fields Medalist Jacob Tsimerman launches MAISI (Bay Area, Jan 2027) for cryptographic-style AI safety proofs; he is also joining OpenAI's safety team.",
       "sourceId": "decoder",
       "sourceName": "THE DECODER",
       "sourceHome": "https://the-decoder.com/",
       "publishedAt": "2026-09-11T09:15:10.000Z",
       "publishedTs": 1789118110000,
+      "publishGuess": false,
+      "curated": true,
       "tags": [
-        "research"
+        "model-releases",
+        "research",
+        "policy"
       ],
+      "clusterId": "id:maisi-ai-safety-institute",
       "related": [],
-      "clusterId": "auto:the-mathematical-ai-safety-institute-wants-to-pr",
       "clusterSize": 1
     },
     {
-      "id": "decoder:https://the-decoder.com/anthropics-1-5-billion-book-settlement-descends-into-chaos-as-authors-and-publishers-fight-over-who-gets-paid/",
+      "id": "curated:https://the-decoder.com/anthropics-1-5-billion-book-settlement-descends-into-chaos-as-authors-and-publishers-fight-over-who-gets-paid/",
       "url": "https://the-decoder.com/anthropics-1-5-billion-book-settlement-descends-into-chaos-as-authors-and-publishers-fight-over-who-gets-paid/",
       "title": "Anthropic's $1.5 billion book settlement descends into chaos as authors and publishers fight over who gets paid",
-      "summary": "Authors and publishers fight over how to split Anthropic's $1.5 billion settlement, the largest copyright deal in US history.",
+      "summary": "THE DECODER (Sep 11): Authors and publishers file competing claims over Anthropic's $1.5B copyright settlement ($3k/book across ~482k titles); arbitrator to resolve disputes.",
       "sourceId": "decoder",
       "sourceName": "THE DECODER",
       "sourceHome": "https://the-decoder.com/",
       "publishedAt": "2026-09-11T08:40:01.000Z",
       "publishedTs": 1789116001000,
+      "publishGuess": false,
+      "curated": true,
       "tags": [
         "model-releases",
         "funding",
         "policy"
       ],
+      "clusterId": "id:anthropic-book-settlement",
       "related": [],
-      "clusterId": "auto:anthropic-s-1-5-billion-book-settlement-descends",
+      "clusterSize": 1
+    },
+    {
+      "id": "siliconangle:https://siliconangle.com/2026/09/10/extreme-networks-agent-one-coworker-moves-ai-networking-from-dashboards-to-answers/",
+      "url": "https://siliconangle.com/2026/09/10/extreme-networks-agent-one-coworker-moves-ai-networking-from-dashboards-to-answers/",
+      "title": "Extreme Networks’ Agent ONE Coworker moves AI networking from dashboards to answers",
+      "summary": "Operating a network has not changed in decades.",
+      "sourceId": "siliconangle",
+      "sourceName": "SiliconANGLE",
+      "sourceHome": "https://siliconangle.com/",
+      "publishedAt": "2026-09-11T01:58:50.000Z",
+      "publishedTs": 1789091930000,
+      "tags": [
+        "agents"
+      ],
+      "related": [],
+      "clusterId": "auto:extreme-networks-agent-one-coworker-moves-ai-net",
+      "clusterSize": 1
+    },
+    {
+      "id": "gizmodo:https://gizmodo.com/sam-altman-please-let-openai-into-the-energy-grid-2000810331",
+      "url": "https://gizmodo.com/sam-altman-please-let-openai-into-the-energy-grid-2000810331",
+      "title": "Sam Altman: Please Let OpenAI Into the Energy Grid",
+      "summary": "",
+      "sourceId": "gizmodo",
+      "sourceName": "Gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "publishedAt": "2026-09-11T01:01:51.000Z",
+      "publishedTs": 1789088511000,
+      "tags": [
+        "model-releases",
+        "policy"
+      ],
+      "related": [],
+      "clusterId": "auto:sam-altman-please-let-openai-into-the-energy-gri",
       "clusterSize": 1
     },
     {
@@ -354,7 +345,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-08T17:20:56.000Z",
       "publishedTs": 1788888056000,
-      "score": 890688,
+      "score": 890869,
       "authorHandle": "openai",
       "tags": [
         "model-releases",
@@ -383,7 +374,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-10T17:13:22.000Z",
       "publishedTs": 1789060402000,
-      "score": 262786,
+      "score": 278928,
       "authorHandle": "anthropicai",
       "tags": [
         "model-releases",
@@ -403,7 +394,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-08T19:10:03.000Z",
       "publishedTs": 1788894603000,
-      "score": 150846,
+      "score": 150866,
       "authorHandle": "finkd",
       "tags": [
         "agents"
@@ -417,15 +408,15 @@
     {
       "id": "rumor:https://x.com/validapau/status/2096629089851297894",
       "title": "Anthropic compute deals estimated at $517B+",
-      "summary": "Unconfirmed (oEmbed-verified @validapau): The Information's Valida Pau estimates Anthropic has locked ~$517B+ in compute deals and large GW capacity — IPO-investor focus. Treat as rumor/analysis, not official.",
+      "summary": "UNCONFIRMED X rumor: @validapau estimates Anthropic's total compute bill/deals around $517B+ — not independently verified; treat as rumor only.",
       "url": "https://x.com/validapau/status/2096629089851297894",
       "via": "@validapau",
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-11T08:19:42.000Z",
-      "publishedAt": "2026-09-11T08:19:42.000Z",
-      "publishedTs": 1789114782000,
+      "harvestedAt": "2026-09-11T10:25:05.000Z",
+      "publishedAt": "2026-09-11T10:25:05.000Z",
+      "publishedTs": 1789122305000,
       "tags": [
         "rumor"
       ]
@@ -433,15 +424,15 @@
     {
       "id": "rumor:https://x.com/amir/status/2095678832535843209",
       "title": "Nvidia talks ~$2.5–3B into Thinking Machines",
-      "summary": "Unconfirmed (oEmbed-verified @amir): Amir Efrati says Nvidia is in talks to put $2.5B–$3B into Mira Murati's Thinking Machines Lab. Talks, not a closed round.",
+      "summary": "UNCONFIRMED X rumor: @amir reports Nvidia in talks to invest ~$2.5–3B in Mira Murati's Thinking Machines Lab (via a16z) — unverified; rumor only.",
       "url": "https://x.com/amir/status/2095678832535843209",
       "via": "@amir",
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-11T08:19:42.000Z",
-      "publishedAt": "2026-09-11T08:19:42.000Z",
-      "publishedTs": 1789114782000,
+      "harvestedAt": "2026-09-11T10:25:05.000Z",
+      "publishedAt": "2026-09-11T10:25:05.000Z",
+      "publishedTs": 1789122305000,
       "tags": [
         "rumor"
       ]
@@ -449,15 +440,15 @@
     {
       "id": "rumor:https://x.com/validapau/status/2092788937186045962",
       "title": "SoftBank talks to buy majority of OpenAI-backed 1X at ~$6B",
-      "summary": "Unconfirmed (oEmbed-verified @validapau): SoftBank in talks for a majority stake in humanoid robot maker 1X at about $6B. Not confirmed by SoftBank/1X.",
+      "summary": "UNCONFIRMED X rumor: @validapau reports SoftBank talks for majority stake in OpenAI-backed 1X around ~$6B — unverified; rumor only.",
       "url": "https://x.com/validapau/status/2092788937186045962",
       "via": "@validapau",
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-11T08:19:42.000Z",
-      "publishedAt": "2026-09-11T08:19:42.000Z",
-      "publishedTs": 1789114782000,
+      "harvestedAt": "2026-09-11T10:25:05.000Z",
+      "publishedAt": "2026-09-11T10:25:05.000Z",
+      "publishedTs": 1789122305000,
       "tags": [
         "rumor"
       ]

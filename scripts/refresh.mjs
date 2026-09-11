@@ -1418,7 +1418,7 @@ function renderHtml(payload) {
   <div class="wrap">
     <header class="masthead">
       <div class="masthead-top">
-        <p class="kicker"><span>Multi-source AI news</span></p>
+        <p class="kicker"><span>Many outlets · one briefing</span></p>
         <div class="masthead-aside">
           <div class="masthead-controls">
             <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Switch to light theme" aria-pressed="false">☀ Light</button>
@@ -1427,7 +1427,7 @@ function renderHtml(payload) {
       </div>
       <h1>Ai Source</h1>
       <p class="dateline">
-        <span>What matters in AI today · refreshed ${refreshed}</span>
+        <span>What matters in AI today — clustered from many sources · refreshed ${refreshed}</span>
       </p>
       ${filterBar()}
     </header>

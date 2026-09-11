@@ -1,10 +1,23 @@
 {
-  "harvestedAt": "2026-09-11T09:41:08.000Z",
+  "harvestedAt": "2026-09-11T10:25:05.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
+      "title": "Class action lawsuit accuses Anthropic of overselling Claude subscriptions with deceptive usage multipliers",
+      "summary": "THE DECODER (Sep 11): Class action says Anthropic Max plan 5x/20x usage multipliers are further capped by 5-hour windows and weekly limits, so real usage falls short of ads; Anthropic moved to dismiss.",
+      "url": "https://the-decoder.com/class-action-lawsuit-accuses-anthropic-of-overselling-claude-subscriptions-with-deceptive-usage-multipliers/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "policy"
+      ],
+      "clusterId": "anthropic-max-usage-lawsuit",
+      "publishedAt": "2026-09-11T09:45:58.000Z"
+    },
+    {
       "title": "The Mathematical AI Safety Institute wants to prove AI is safe the way cryptographers prove codes are unbreakable",
-      "summary": "THE DECODER (Sep 11): Fields Medalist Jacob Tsimerman launches MAISI (Bay Area, Jan 2027) to pursue cryptographic-style proofs of AI safety; he is also joining OpenAI's safety team.",
+      "summary": "THE DECODER (Sep 11): Fields Medalist Jacob Tsimerman launches MAISI (Bay Area, Jan 2027) for cryptographic-style AI safety proofs; he is also joining OpenAI's safety team.",
       "url": "https://the-decoder.com/the-mathematical-ai-safety-institute-wants-to-prove-ai-is-safe-the-way-cryptographers-prove-codes-are-unbreakable/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
@@ -58,20 +71,6 @@
       "publishedAt": "2026-09-10T20:59:51.000Z"
     },
     {
-      "title": "Introducing the Agents API",
-      "summary": "OpenAI (Sep 10): Public-beta Agents API exposes the managed Codex/ChatGPT agent harness — context management, parallel tools, sub-agents; token billing only.",
-      "url": "https://openai.com/index/introducing-the-agents-api/",
-      "sourceName": "OpenAI News",
-      "sourceId": "openai",
-      "sourceHome": "https://openai.com/news/",
-      "tags": [
-        "agents",
-        "model-releases"
-      ],
-      "clusterId": "openai-agents-api",
-      "publishedAt": "2026-09-10T00:00:00.000Z"
-    },
-    {
       "title": "OpenAI's new Agents API gives developers the infrastructure behind Codex and ChatGPT",
       "summary": "THE DECODER (Sep 11): Agents API beta lets apps run long-lived cloud agents with MCP/custom tools and partner sandboxes (Cloudflare, Vercel, Oracle).",
       "url": "https://the-decoder.com/openais-new-agents-api-gives-developers-the-infrastructure-behind-codex-and-chatgpt/",
@@ -86,8 +85,50 @@
       "publishedAt": "2026-09-11T08:11:46.000Z"
     },
     {
-      "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
-      "summary": "OpenAI (Sep 10): GPT-Live-1 full-duplex voice API at $0.05/min; can delegate reasoning/tools to Astra or other backends.",
+      "title": "Introducing the Agents API",
+      "summary": "OpenAI (Sep 10): Public-beta Agents API exposes the managed Codex/ChatGPT agent harness \u2014 context management, parallel tools, sub-agents; token billing only.",
+      "url": "https://openai.com/index/introducing-the-agents-api/",
+      "sourceName": "OpenAI News",
+      "sourceId": "openai",
+      "sourceHome": "https://openai.com/news/",
+      "tags": [
+        "agents",
+        "model-releases"
+      ],
+      "clusterId": "openai-agents-api",
+      "publishedAt": "2026-09-10T00:00:00.000Z"
+    },
+    {
+      "title": "Introducing ChatGPT for Financial Services",
+      "summary": "OpenAI (Sep 10): ChatGPT for Financial Services targets Wall Street workflows with firm-data grounding and compliance-oriented controls.",
+      "url": "https://openai.com/index/introducing-chatgpt-financial-services",
+      "sourceName": "OpenAI News",
+      "sourceId": "openai",
+      "sourceHome": "https://openai.com/news/",
+      "tags": [
+        "agents",
+        "model-releases"
+      ],
+      "clusterId": "openai-chatgpt-financial",
+      "publishedAt": "2026-09-10T07:00:00.000Z"
+    },
+    {
+      "title": "OpenAI targets Wall Street bankers with a new version of ChatGPT",
+      "summary": "SiliconANGLE (Sep 10): OpenAI pitches a finance-focused ChatGPT SKU at banks and capital-markets teams.",
+      "url": "https://siliconangle.com/2026/09/10/openai-targets-wall-street-bankers-with-a-new-version-of-chatgpt/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "agents",
+        "model-releases"
+      ],
+      "clusterId": "openai-chatgpt-financial",
+      "publishedAt": "2026-09-11T01:54:51.000Z"
+    },
+    {
+      "title": "Build more natural voice experiences with GPT-Live-1 in the API",
+      "summary": "OpenAI (Sep 10): GPT-Live-1 full-duplex voice API at $0.05/min; can pair with Astra or other backends for reasoning/tools.",
       "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/",
       "sourceName": "OpenAI News",
       "sourceId": "openai",
@@ -128,22 +169,8 @@
       "publishedAt": "2026-09-10T20:23:00.000Z"
     },
     {
-      "title": "Anthropic says AI now lets lone operators run state-level hacking campaigns",
-      "summary": "SiliconANGLE (Sep 10): Anthropic report: lone operators run state-scale intrusions with agent swarms; names Alibaba/Moonshot/DeepSeek distillation plus Midnight Blizzard-style ops.",
-      "url": "https://siliconangle.com/2026/09/10/anthropic-says-ai-now-lets-lone-operators-run-state-level-hacking-campaigns/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "policy",
-        "agents"
-      ],
-      "clusterId": "anthropic-distillation-threat",
-      "publishedAt": "2026-09-10T22:50:10.000Z"
-    },
-    {
       "title": "Six Chinese AI firms accused of aggressively copying US frontier models",
-      "summary": "Ars Technica (Sep 9): Coverage of Anthropic's accusations that Chinese labs aggressively distill US frontier models; US urge to ID/switch Chinese users.",
+      "summary": "Ars Technica (Sep 9): Coverage of Anthropic's accusations that Chinese labs aggressively distill US frontier models.",
       "url": "https://arstechnica.com/tech-policy/2026/09/six-chinese-ai-firms-accused-of-aggressively-copying-us-frontier-models/",
       "sourceName": "Ars Technica",
       "sourceId": "arstechnica",
@@ -157,7 +184,7 @@
     },
     {
       "title": "DeepSeek releases V4.1-Flash, says it outperforms flagship V4-Pro",
-      "summary": "SiliconANGLE (Sep 10): DeepSeek ships V4.1-Flash (552B MoE, MIT weights); claims it beats V4-Pro on agent/coding benches with much smaller KV cache; V4-Pro traffic routes to Flash Sep 14.",
+      "summary": "SiliconANGLE (Sep 10): DeepSeek ships V4.1-Flash (552B MoE, MIT weights); claims it beats V4-Pro on agent/coding benches with much smaller KV cache. (VB RSS 429 this cycle \u2014 SA used.)",
       "url": "https://siliconangle.com/2026/09/10/deepseek-releases-v4-1-flash-says-it-outperforms-flagship-v4-pro/",
       "sourceName": "SiliconANGLE",
       "sourceId": "siliconangle",
@@ -170,7 +197,20 @@
       "publishedAt": "2026-09-10T23:45:40.000Z"
     },
     {
-      "title": "Meta’s AI agent Muse is now the No. 2 app in the US",
+      "title": "Salesforce introduces Enterprise AI Harness, AI Control Plane",
+      "summary": "SiliconANGLE (Sep 10): Salesforce launches Enterprise AI Harness / Control Plane for enterprises juggling multiple agent platforms.",
+      "url": "https://siliconangle.com/2026/09/10/salesforce-introduces-enterprise-ai-harness-ai-control-plane/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "agents"
+      ],
+      "clusterId": "salesforce-enterprise-ai-harness",
+      "publishedAt": "2026-09-11T00:19:52.000Z"
+    },
+    {
+      "title": "Meta's AI agent Muse is now the No. 2 app in the US",
       "summary": "TechCrunch (Sep 10): Meta's Muse personal AI agent climbs to No. 2 on US app charts shortly after launch.",
       "url": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/",
       "sourceName": "TechCrunch",
@@ -181,32 +221,6 @@
       ],
       "clusterId": "meta-muse",
       "publishedAt": "2026-09-10T19:50:04.000Z"
-    },
-    {
-      "title": "Meta’s Muse AI works and creeps me out",
-      "summary": "The Verge (Sep 10): Hands-on with Meta Muse — capable personal agent that shops/books forms, with privacy/creepiness tradeoffs.",
-      "url": "https://www.theverge.com/tech/993391/meta-muse-ai-hands-on",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "agents"
-      ],
-      "clusterId": "meta-muse",
-      "publishedAt": "2026-09-10T15:00:00.000Z"
-    },
-    {
-      "title": "Chipmaker Positron nabs $875M to speed up inference with consumer-grade memory",
-      "summary": "SiliconANGLE (Sep 10): Positron raises $875M to accelerate AI inference using consumer-grade memory.",
-      "url": "https://siliconangle.com/2026/09/10/chipmaker-positron-nabs-875m-to-speed-up-inference-with-consumer-grade-memory/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "funding"
-      ],
-      "clusterId": "positron-875m",
-      "publishedAt": "2026-09-10T20:34:36.000Z"
     },
     {
       "title": "Ayar Labs bags $150M in additional late-stage funding to help make bigger AI chip clusters",
@@ -222,6 +236,19 @@
       "publishedAt": "2026-09-11T02:36:41.000Z"
     },
     {
+      "title": "Chipmaker Positron nabs $875M to speed up inference with consumer-grade memory",
+      "summary": "SiliconANGLE (Sep 10): Positron raises $875M to accelerate AI inference using consumer-grade memory.",
+      "url": "https://siliconangle.com/2026/09/10/chipmaker-positron-nabs-875m-to-speed-up-inference-with-consumer-grade-memory/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "funding"
+      ],
+      "clusterId": "positron-875m",
+      "publishedAt": "2026-09-10T20:34:36.000Z"
+    },
+    {
       "title": "Jensen Huang explains why Nvidia will grow an astounding 70% next year",
       "summary": "TechCrunch (Sep 10): Nvidia CEO Jensen Huang outlines why he expects ~70% growth next year, driven by AI infrastructure demand.",
       "url": "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/",
@@ -235,77 +262,49 @@
       "publishedAt": "2026-09-10T21:51:59.000Z"
     },
     {
-      "title": "Panic builds over bankrupt Spirit’s looming data sale to Google",
-      "summary": "Ars Technica (Sep 10): Advocates warn Spirit Airlines bankruptcy data sale to Google could become an AI training data land grab.",
-      "url": "https://arstechnica.com/tech-policy/2026/09/panic-builds-over-bankrupt-spirits-looming-data-sale-to-google/",
-      "sourceName": "Ars Technica",
-      "sourceId": "arstechnica",
-      "sourceHome": "https://arstechnica.com/tag/artificial-intelligence/",
+      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+      "summary": "Google DeepMind (Sep 2026): AlphaGenome Atlas maps effects of possible DNA letter changes; IEEE Spectrum covered the ~9B-variant map on Sep 8.",
+      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "sourceName": "Google DeepMind Blog",
+      "sourceId": "deepmind",
+      "sourceHome": "https://deepmind.google/blog/",
       "tags": [
-        "policy"
-      ],
-      "clusterId": "spirit-google-data-sale",
-      "publishedAt": "2026-09-10T18:14:14.000Z"
-    },
-    {
-      "title": "AI Models Are Watermarking Text—Will You Notice?",
-      "summary": "IEEE Spectrum (Sep 9): Anthropic/Google-style invisible text watermarks for AI outputs — how they work and whether users will notice.",
-      "url": "https://spectrum.ieee.org/ai-watermark-text-anthropic-openai",
-      "sourceName": "IEEE Spectrum",
-      "sourceId": "ieee-spectrum",
-      "sourceHome": "https://spectrum.ieee.org/topic/artificial-intelligence/",
-      "tags": [
-        "research",
-        "policy"
-      ],
-      "clusterId": "ai-text-watermarks",
-      "publishedAt": "2026-09-09T12:00:04.000Z"
-    },
-    {
-      "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
-      "summary": "Hugging Face Blog (Sep 9): IBM Research ships Granite time-series PatchTST-FM-r2 as SOTA with a commercial-friendly license.",
-      "url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
-      "sourceName": "Hugging Face Blog",
-      "sourceId": "huggingface",
-      "sourceHome": "https://huggingface.co/blog",
-      "tags": [
-        "model-releases",
         "research"
       ],
-      "clusterId": "ibm-granite-timeseries",
-      "publishedAt": "2026-09-09T15:36:24.000Z"
+      "clusterId": "alphagenome-atlas",
+      "publishedAt": "2026-09-08T14:00:05.000Z"
     }
   ],
   "rumors": [
     {
       "title": "Anthropic compute deals estimated at $517B+",
-      "summary": "UNCONFIRMED X rumor: @validapau estimates Anthropic's total compute bill/deals around $517B+ — not independently verified; treat as rumor only.",
+      "summary": "UNCONFIRMED X rumor: @validapau estimates Anthropic's total compute bill/deals around $517B+ \u2014 not independently verified; treat as rumor only.",
       "url": "https://x.com/validapau/status/2096629089851297894",
       "via": "@validapau",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T09:41:08.000Z",
+      "harvestedAt": "2026-09-11T10:25:05.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "Nvidia talks ~$2.5–3B into Thinking Machines",
-      "summary": "UNCONFIRMED X rumor: @amir reports Nvidia in talks to invest ~$2.5–3B in Mira Murati's Thinking Machines Lab (via a16z) — unverified; rumor only.",
+      "title": "Nvidia talks ~$2.5\u20133B into Thinking Machines",
+      "summary": "UNCONFIRMED X rumor: @amir reports Nvidia in talks to invest ~$2.5\u20133B in Mira Murati's Thinking Machines Lab (via a16z) \u2014 unverified; rumor only.",
       "url": "https://x.com/amir/status/2095678832535843209",
       "via": "@amir",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T09:41:08.000Z",
+      "harvestedAt": "2026-09-11T10:25:05.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "SoftBank talks to buy majority of OpenAI-backed 1X at ~$6B",
-      "summary": "UNCONFIRMED X rumor: @validapau reports SoftBank talks for majority stake in OpenAI-backed 1X around ~$6B — unverified; rumor only.",
+      "summary": "UNCONFIRMED X rumor: @validapau reports SoftBank talks for majority stake in OpenAI-backed 1X around ~$6B \u2014 unverified; rumor only.",
       "url": "https://x.com/validapau/status/2092788937186045962",
       "via": "@validapau",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T09:41:08.000Z",
+      "harvestedAt": "2026-09-11T10:25:05.000Z",
       "tags": [
         "rumor"
       ]

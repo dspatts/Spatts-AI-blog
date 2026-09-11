@@ -100,15 +100,16 @@ a {
   gap: 16px;
   flex-wrap: wrap;
   font-family: var(--font-mono);
-  font-size: 0.72rem;
-  letter-spacing: 0.16em;
+  font-size: 0.8rem;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
+  font-weight: 600;
   color: var(--dark-foreground);
   margin: 0;
 }
 
 .kicker span {
-  color: var(--cyan);
+  color: var(--accent);
 }
 
 .masthead-aside {
