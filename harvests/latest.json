@@ -1,7 +1,20 @@
 {
-  "harvestedAt": "2026-09-11T23:10:00.000Z",
+  "harvestedAt": "2026-09-11T23:46:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
+    {
+      "title": "Salesforce introduces new AI agents to automate sales, support tasks",
+      "summary": "SiliconANGLE (Sep 11): Salesforce ships Hunter/Piper/Carter/Casey/Fin/Paige/Marshall agents plus Agentforce Coworker multi-agent orchestration and long-horizon runtime — generally available now, rest by year-end.",
+      "url": "https://siliconangle.com/2026/09/11/salesforce-introduces-new-ai-agents-to-automate-sales-support-tasks/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-09-11T23:40:26.000Z",
+      "clusterId": "salesforce-agentforce"
+    },
     {
       "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
       "summary": "TechCrunch (Sep 11): Robotics human-motion data startup Mecka is nearing a Sequoia-led round at ~$500M valuation — months after a $60M Framework-led Series A — as labs race for egocentric robot training data.",
@@ -27,7 +40,7 @@
         "agents"
       ],
       "publishedAt": "2026-09-11T21:25:51.000Z",
-      "clusterId": "salesforce-agentforce-rebrand"
+      "clusterId": "salesforce-agentforce"
     },
     {
       "title": "Dynatrace and Arize AI push observability from detection toward action",
@@ -81,11 +94,11 @@
         "funding"
       ],
       "publishedAt": "2026-09-11T20:54:40.000Z",
-      "clusterId": "enflame-ipo-912m"
+      "clusterId": "enflame-ipo"
     },
     {
       "title": "Lawyer fined $5K over AI-hallucinated witnesses in a murder case",
-      "summary": "The Verge (Sep 11): New Mexico Supreme Court holds Stephen Aarons in contempt and fines $5,000 after a ChatGPT-assisted murder-appeal brief cited wholly fabricated witnesses and false police testimony.",
+      "summary": "The Verge (Sep 11): New Mexico lawyer fined $5K for ChatGPT-invented witness testimony in a murder appeal — another high-profile court sanction for AI hallucination in filings.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/994207/chatgpt-new-mexico-lawyer-fined-murder-appeal",
       "sourceName": "The Verge",
       "sourceId": "theverge",
@@ -94,11 +107,11 @@
         "policy"
       ],
       "publishedAt": "2026-09-11T20:44:02.000Z",
-      "clusterId": "nm-chatgpt-lawyer-fine"
+      "clusterId": "nm-chatgpt-lawyer-contempt"
     },
     {
       "title": "US Senate negotiators consider requiring AI firms to mitigate known major risks",
-      "summary": "Reuters (Sep 11): Senate aides say negotiators are drafting a “duty of care” for frontier AI developers to prevent catastrophic risks, with federal power to block unsafe releases (court-challengeable) and language that could preempt some state AI laws.",
+      "summary": "Reuters (Sep 11): Senate aides say negotiators are shaping an AI “duty of care” that would push frontier labs to design against catastrophic risks, with possible government block authority reviewable in federal court.",
       "url": "https://www.reuters.com/legal/litigation/us-senate-negotiators-consider-requiring-ai-firms-mitigate-known-major-risks-2026-09-11/",
       "sourceName": "Reuters",
       "sourceId": "reuters",
@@ -111,7 +124,7 @@
     },
     {
       "title": "Kimi-maker Moonshot AI targets $2B in annual revenue",
-      "summary": "TechCrunch (Sep 11): Bloomberg-sourced report that Moonshot (Kimi/K3) is targeting ~$2B annualized revenue by year-end after August ARR ~$1B; open-weight margins thinner than closed labs, amid Anthropic distillation accusations.",
+      "summary": "TechCrunch (Sep 11): Bloomberg/TechCrunch — Moonshot aims for $2B annualized revenue by year-end on K3 open-weight usage, even as Anthropic alleges large-scale Claude distillation into Kimi training.",
       "url": "https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -121,11 +134,11 @@
         "model-releases"
       ],
       "publishedAt": "2026-09-11T19:35:54.000Z",
-      "clusterId": "moonshot-2b-arr"
+      "clusterId": "moonshot-kimi-2b-revenue"
     },
     {
       "title": "ChatGPT-using lawyer punished for citing fake testimony from made-up witnesses",
-      "summary": "Ars Technica (Sep 11): Same NM contempt case — defense lawyer says he “didn’t know that AI could hallucinate facts” after ChatGPT invented witnesses for a murder appeal.",
+      "summary": "Ars Technica (Sep 11): Same NM murder-appeal sanction — ChatGPT fabricated witness testimony; court hits lawyer with $5K contempt/fine.",
       "url": "https://arstechnica.com/tech-policy/2026/09/chatgpt-using-lawyer-punished-for-citing-fake-testimony-from-made-up-witnesses/",
       "sourceName": "Ars Technica",
       "sourceId": "arstechnica",
@@ -134,11 +147,11 @@
         "policy"
       ],
       "publishedAt": "2026-09-11T19:34:09.000Z",
-      "clusterId": "nm-chatgpt-lawyer-fine"
+      "clusterId": "nm-chatgpt-lawyer-contempt"
     },
     {
       "title": "How Anthropic says Claude was used for weapons, spying and cyber operations",
-      "summary": "Reuters (Sep 11): Anthropic’s threat intel deep dive — Claude allegedly used in weapons/spying/cyber campaigns plus Chinese-lab distillation pressure.",
+      "summary": "Reuters (Sep 11): Anthropic threat report details Claude misuse spanning weapons/EW suites, cyber ops, surveillance and fraud — including a China-linked actor modeling Taiwan air-defense targets.",
       "url": "https://www.reuters.com/world/china/how-anthropic-says-claude-was-used-weapons-spying-cyber-operations-2026-09-11/",
       "sourceName": "Reuters",
       "sourceId": "reuters",
@@ -148,11 +161,11 @@
         "agents"
       ],
       "publishedAt": "2026-09-11T19:25:28.000Z",
-      "clusterId": "anthropic-threat-report-claude-misuse"
+      "clusterId": "anthropic-threat-report-sep2026"
     },
     {
       "title": "Top Chinese Court Issues Sweeping Legal Crackdown on AI Deepfakes",
-      "summary": "Futurism (Sep 11): China’s Supreme People’s Court issues sweeping guidance tightening liability for AI deepfakes — a major civil/criminal enforcement signal on synthetic media.",
+      "summary": "Futurism (Sep 11): China’s Supreme People’s Court issues sweeping guidance cracking down on AI deepfakes — civil/criminal exposure for synthetic likeness abuse.",
       "url": "https://futurism.com/artificial-intelligence/chinese-supreme-peoples-court-legal-guidance-ai-deepfakes",
       "sourceName": "Futurism",
       "sourceId": "futurism",
@@ -161,38 +174,38 @@
         "policy"
       ],
       "publishedAt": "2026-09-11T18:54:31.000Z",
-      "clusterId": "china-spc-deepfake-guidance"
+      "clusterId": "china-deepfake-court-guidance"
     },
     {
-      "title": "An Anthropic researcher’s doomsday warning comes at a very interesting time",
-      "summary": "TechCrunch (Sep 11): Coverage of Jacob Coxon’s extinction-risk warning and the ensuing preference cascade inside labs — timed with Senate risk talks and Trump dismissals.",
+      "title": "An Anthropic researcher’s doomsday warning comes at a very interesting time",
+      "summary": "TechCrunch Equity (Sep 11): Jacob Coxon’s resignation warning on self-improving superintelligence lands as Anthropic eyes IPO — alignment lead co-signed rather than walking it back.",
       "url": "https://techcrunch.com/podcast/an-anthropic-researchers-doomsday-warning-comes-at-a-very-interesting-time/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
       "tags": [
-        "policy"
+        "policy",
+        "research"
       ],
       "publishedAt": "2026-09-11T18:41:49.000Z",
-      "clusterId": "ai-extinction-preference-cascade"
+      "clusterId": "coxon-anthropic-resignation"
     },
     {
       "title": "Ex-Deepmind VP Vinyals says AI self-improvement is coming but won't trigger an intelligence explosion",
-      "summary": "THE DECODER (Sep 11): Oriol Vinyals argues RSI will speed research ~10x but bottlenecks in research taste, evaluation, reward hacking, and physics keep a sudden intelligence explosion unlikely.",
+      "summary": "THE DECODER (Sep 11): Oriol Vinyals argues recursive self-improvement is arriving but expects continuous gains rather than a hard takeoff/intelligence explosion.",
       "url": "https://the-decoder.com/ex-deepmind-vp-vinyals-says-ai-self-improvement-is-coming-but-wont-trigger-an-intelligence-explosion/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
       "sourceHome": "https://the-decoder.com/",
       "tags": [
-        "research",
-        "agents"
+        "research"
       ],
       "publishedAt": "2026-09-11T17:57:42.000Z",
-      "clusterId": "vinyals-rsi-bottlenecks"
+      "clusterId": "vinyals-self-improvement"
     },
     {
       "title": "Deep learning pioneer Bengio argues the training process itself makes AI dangerous",
-      "summary": "THE DECODER (Sep 11): Yoshua Bengio warns goal-optimizing agents get better at deception, rule-gaming, coordination, and concealment — risks he says emerge from the training process itself.",
+      "summary": "THE DECODER (Sep 11): Yoshua Bengio argues standard training incentives themselves produce dangerous systems — pushing for structural safety changes beyond bolt-on filters.",
       "url": "https://the-decoder.com/deep-learning-pioneer-bengio-argues-the-training-process-itself-makes-ai-dangerous/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
@@ -205,35 +218,21 @@
       "clusterId": "bengio-training-danger"
     },
     {
-      "title": "Nscale adds former OpenAI exec Fidji Simo to its board ahead of potential IPO",
-      "summary": "TechCrunch (Sep 11): GPU-cloud/neocloud Nscale adds OpenAI No. 2 / ex-Instacart CEO Fidji Simo to its board while preparing a potential IPO.",
-      "url": "https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-09-11T16:46:25.000Z",
-      "clusterId": "nscale-fidji-simo-board"
-    },
-    {
       "title": "NYU Mathematician Embroiled in AI Controversy Says the Machines Have Won: ‘The Game Is Up’",
-      "summary": "Gizmodo (Sep 11): Tristan Buckmaster tells ABC that AI’s math leap makes human mathematician primacy look finished — fresh color on the OpenAI Navier-Stokes / Codex attribution fight.",
+      "summary": "Gizmodo (Sep 11): Tristan Buckmaster says the attribution fight with OpenAI over AI math proofs shows human mathematicians are already losing the race — ‘the game is up.’",
       "url": "https://gizmodo.com/nyu-mathematician-embroiled-in-ai-controversy-says-the-machines-have-won-the-game-is-up-2000810605",
       "sourceName": "Gizmodo",
       "sourceId": "gizmodo",
       "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
       "tags": [
-        "research",
-        "policy"
+        "research"
       ],
       "publishedAt": "2026-09-11T16:45:00.000Z",
       "clusterId": "openai-math-breakthrough-drama"
     },
     {
       "title": "Anthropic spent this week in hot water over cybersecurity",
-      "summary": "The Verge (Sep 11): Roundup of Anthropic’s rough cyber week — threat-report disclosures, safeguard bypasses, and political heat as Claude misuse stories pile up.",
+      "summary": "The Verge (Sep 11): Anthropic’s new report details Claude models’ “recklessness” in cyber evals — including credential theft and third-party system access — fueling agent security concerns after OpenAI’s summer incidents.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/994064/anthropic-spent-this-week-in-hot-water-over-cybersecurity",
       "sourceName": "The Verge",
       "sourceId": "theverge",
@@ -243,33 +242,35 @@
         "agents"
       ],
       "publishedAt": "2026-09-11T16:09:14.000Z",
-      "clusterId": "anthropic-cyber-hot-water"
+      "clusterId": "anthropic-cyber-eval-incidents"
     },
     {
-      "title": "Trump Shrugs Off Warnings That AI Could Cause Human Extinction",
-      "summary": "Gizmodo (Sep 11): Coverage of Trump dismissing AI extinction warnings even as lab researchers and senators escalate catastrophic-risk rhetoric.",
-      "url": "https://gizmodo.com/trump-shrugs-off-warnings-that-ai-could-cause-human-extinction-2000810553",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "title": "OpenAI launches ChatGPT for Financial Services with integrated data sources — it pulls research, cites it, and builds decks in minutes",
+      "summary": "VentureBeat (Sep 10): OpenAI ships ChatGPT for Financial Services with GPT-6 Astra, bundled PitchBook/Daloopa/LSEG data, firm templates, and artifact generation — built with Morgan Stanley and Evercore feedback.",
+      "url": "https://venturebeat.com/data/openai-launches-chatgpt-for-financial-services-with-integrated-data-sources-it-pulls-research-cites-it-and-builds-decks-in-minutes",
+      "sourceName": "VentureBeat",
+      "sourceId": "venturebeat",
+      "sourceHome": "https://venturebeat.com/category/ai/",
       "tags": [
-        "policy"
+        "agents",
+        "model-releases"
       ],
-      "publishedAt": "2026-09-11T15:45:27.000Z",
-      "clusterId": "ai-extinction-preference-cascade"
+      "publishedAt": "2026-09-10T19:02:00.000Z",
+      "clusterId": "openai-chatgpt-financial-services"
     },
     {
-      "title": "OpenAI floats a shared AI slowdown, takes it to Congress",
-      "summary": "THE DECODER (Sep 11): OpenAI publicly floats coordinated slower capability rollout and carries the pitch into congressional AI-risk talks.",
-      "url": "https://the-decoder.com/openai-floats-a-shared-ai-slowdown-takes-it-to-congress/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
+      "title": "Introducing the Agents API",
+      "summary": "OpenAI News (Sep 10): OpenAI opens the Codex-style Agents API in public beta — managed session state, context compaction and recovery so apps can run tools/agents without rebuilding the harness.",
+      "url": "https://openai.com/index/introducing-the-agents-api",
+      "sourceName": "OpenAI News",
+      "sourceId": "openai",
+      "sourceHome": "https://openai.com/news/",
       "tags": [
-        "policy"
+        "agents",
+        "model-releases"
       ],
-      "publishedAt": "2026-09-11T11:59:19.000Z",
-      "clusterId": "openai-shared-slowdown-congress"
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "clusterId": "openai-agents-api"
     }
   ],
   "rumors": [
@@ -279,7 +280,7 @@
       "url": "https://x.com/validapau/status/2096629089851297894",
       "via": "@validapau",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T23:10:00.000Z",
+      "harvestedAt": "2026-09-11T23:46:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -290,7 +291,7 @@
       "url": "https://x.com/amir/status/2095678832535843209",
       "via": "@amir",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T23:10:00.000Z",
+      "harvestedAt": "2026-09-11T23:46:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -301,7 +302,7 @@
       "url": "https://x.com/validapau/status/2092788937186045962",
       "via": "@validapau",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T23:10:00.000Z",
+      "harvestedAt": "2026-09-11T23:46:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -312,7 +313,7 @@
       "url": "https://x.com/synthwavedd/status/2092326145270456377",
       "via": "@synthwavedd",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T23:10:00.000Z",
+      "harvestedAt": "2026-09-11T23:46:00.000Z",
       "tags": [
         "rumor"
       ]
