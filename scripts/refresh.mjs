@@ -1290,7 +1290,6 @@ function rumorCard(rumor) {
     <span class="rumor-when">${when}</span>
   </div>
   <h3><a href="${escapeHtml(rumor.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(rumor.title)}</a></h3>
-  <p class="rumor-caveat">${escapeHtml(rumor.summary)}</p>
   <p class="rumor-via">Via <a href="${escapeHtml(viaHref)}" target="_blank" rel="noopener noreferrer">${escapeHtml(rumor.via)}</a></p>
 </article>`;
 }

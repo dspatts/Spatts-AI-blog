@@ -300,16 +300,22 @@ h1 {
 
 .rumor-list {
   display: grid;
-  gap: 10px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  align-items: stretch;
 }
 
 .rumor {
+  display: flex;
+  flex-direction: column;
+  aspect-ratio: 1 / 1;
   background: var(--darker-background);
   border: 1px solid var(--muted);
-  border-radius: 10px;
-  padding: 14px 16px 12px;
+  border-radius: 12px;
+  padding: 12px 14px 12px;
   min-width: 0;
   max-width: 100%;
+  min-height: 0;
 }
 
 .rumor:hover {
@@ -336,12 +342,17 @@ h1 {
 }
 
 .rumor h3 {
-  margin: 8px 0 6px;
-  font-size: 1.02rem;
+  margin: 10px 0 0;
+  flex: 1 1 auto;
+  font-size: 0.95rem;
   font-weight: 600;
   line-height: 1.35;
   color: var(--bright-foreground);
   overflow-wrap: anywhere;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .rumor h3 a {
@@ -353,16 +364,14 @@ h1 {
 }
 
 .rumor-caveat {
-  margin: 0;
-  font-size: 0.9rem;
-  line-height: 1.55;
-  color: var(--foreground);
+  display: none;
 }
 
 .rumor-via {
-  margin: 8px 0 0;
+  margin: 10px 0 0;
+  margin-top: auto;
   font-family: var(--font-mono);
-  font-size: 0.75rem;
+  font-size: 0.72rem;
   color: var(--cyan);
 }
 
@@ -831,12 +840,19 @@ footer {
     font-size: 0.95rem;
   }
 
+  .rumor-list {
+    grid-template-columns: 1fr;
+  }
+
   .rumor {
+    aspect-ratio: auto;
+    min-height: 0;
     padding: 12px 12px 10px;
   }
 
   .rumor h3 {
     font-size: 0.98rem;
+    -webkit-line-clamp: 3;
   }
 
   .rumor-explainer,
