@@ -3,16 +3,18 @@
   "sources": [
     {
       "id": "curated",
-      "name": "Evan harvest",
+      "name": "Evan harvest (expired)",
       "ok": true,
       "count": 20,
-      "errors": []
+      "errors": [
+        "older than 2h; ranked with live feeds"
+      ]
     },
     {
       "id": "techcrunch",
       "name": "TechCrunch",
       "ok": true,
-      "count": 20,
+      "count": 19,
       "errors": []
     },
     {
@@ -60,7 +62,7 @@
       "id": "huggingface",
       "name": "Hugging Face Blog",
       "ok": true,
-      "count": 860,
+      "count": 861,
       "errors": []
     },
     {
@@ -81,10 +83,80 @@
       ]
     },
     {
+      "id": "arstechnica",
+      "name": "Ars Technica",
+      "ok": true,
+      "count": 20,
+      "errors": []
+    },
+    {
+      "id": "ieee-spectrum",
+      "name": "IEEE Spectrum",
+      "ok": true,
+      "count": 30,
+      "errors": []
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI News",
+      "ok": true,
+      "count": 1189,
+      "errors": []
+    },
+    {
+      "id": "deepmind",
+      "name": "Google DeepMind",
+      "ok": true,
+      "count": 100,
+      "errors": []
+    },
+    {
+      "id": "google-ai",
+      "name": "Google AI Blog",
+      "ok": true,
+      "count": 20,
+      "errors": []
+    },
+    {
+      "id": "nvidia",
+      "name": "NVIDIA Blog",
+      "ok": true,
+      "count": 18,
+      "errors": []
+    },
+    {
+      "id": "futurism",
+      "name": "Futurism",
+      "ok": true,
+      "count": 43,
+      "errors": []
+    },
+    {
+      "id": "import-ai",
+      "name": "Import AI",
+      "ok": true,
+      "count": 20,
+      "errors": []
+    },
+    {
+      "id": "lastweekinai",
+      "name": "Last Week in AI",
+      "ok": true,
+      "count": 20,
+      "errors": []
+    },
+    {
+      "id": "gizmodo",
+      "name": "Gizmodo",
+      "ok": true,
+      "count": 20,
+      "errors": []
+    },
+    {
       "id": "x",
       "name": "X",
       "ok": true,
-      "count": 10,
+      "count": 12,
       "errors": []
     },
     {
@@ -95,239 +167,197 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-08T17:25:31.347Z",
-  "refreshedAt": "2026-09-08T17:25:31.347Z",
-  "preferCurated": true,
+  "briefingDate": "2026-09-11T06:35:50.565Z",
+  "refreshedAt": "2026-09-11T06:35:50.565Z",
+  "preferCurated": false,
   "posts": [
     {
-      "id": "curated:https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/",
-      "url": "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/",
-      "title": "Mistral raises €3B as sovereign AI becomes big business",
-      "summary": "TechCrunch (Sep 8): French lab closed a €3B Series D at a €21B valuation led by Samsung, Scaleup Europe and PSG Equity — framed as sovereign/open-weight AI becoming big business.",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-08T17:22:45.000Z",
-      "publishedTs": 1788888165000,
-      "curated": true,
-      "tags": [
-        "model-releases",
-        "funding"
-      ],
-      "clusterId": "id:mistral-24b-raise",
-      "related": [
-        {
-          "title": "Mistral AI raises 3 billion euros in Europe's largest-ever tech funding round despite lagging behind rivals",
-          "url": "https://the-decoder.com/mistral-ai-raises-3-billion-euros-in-europes-largest-ever-tech-funding-round-despite-lagging-behind-rivals/",
-          "sourceId": "decoder",
-          "sourceName": "THE DECODER",
-          "sourceHome": "https://the-decoder.com/",
-          "publishedAt": "2026-09-08T17:22:45.000Z"
-        },
-        {
-          "title": "Mistral raises €3B",
-          "url": "https://prismix.dev/news/7db995c30f47",
-          "sourceId": "prismix",
-          "sourceName": "Prismix",
-          "sourceHome": "https://prismix.dev/news",
-          "publishedAt": "2026-09-08T17:22:45.000Z"
-        }
-      ],
-      "clusterSize": 3
-    },
-    {
-      "id": "curated:https://www.reuters.com/world/asia-pacific/nvidia-backed-firmus-signs-deal-with-openai-malaysia-data-centre-capacity-2026-09-08/",
-      "url": "https://www.reuters.com/world/asia-pacific/nvidia-backed-firmus-signs-deal-with-openai-malaysia-data-centre-capacity-2026-09-08/",
-      "title": "Nvidia-backed Firmus signs deal with OpenAI for Malaysia data centre capacity",
-      "summary": "Reuters (Sep 8): Australia's Firmus signed a multi-year deal to supply OpenAI compute from two Malaysian data centres; contracted capacity now >900MW; Firmus valued ahead of a rumoured IPO with Nvidia among backers.",
-      "sourceId": "reuters",
-      "sourceName": "Reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "publishedAt": "2026-09-08T17:22:45.000Z",
-      "publishedTs": 1788888164997,
-      "curated": true,
+      "id": "siliconangle:https://siliconangle.com/2026/09/10/ayar-labs-bags-150m-in-additional-series-e-funding-to-help-make-bigger-ai-chip-clusters/",
+      "url": "https://siliconangle.com/2026/09/10/ayar-labs-bags-150m-in-additional-series-e-funding-to-help-make-bigger-ai-chip-clusters/",
+      "title": "Ayar Labs bags $150M in additional late-stage funding to help make bigger AI chip clusters",
+      "summary": "Networking technology startup Ayar Labs Inc.",
+      "sourceId": "siliconangle",
+      "sourceName": "SiliconANGLE",
+      "sourceHome": "https://siliconangle.com/",
+      "publishedAt": "2026-09-11T02:36:41.000Z",
+      "publishedTs": 1789094201000,
       "tags": [
         "funding"
       ],
-      "clusterId": "id:firmus-openai-malaysia",
       "related": [],
+      "clusterId": "auto:ayar-labs-bags-150m-in-additional-late-stage-fun",
       "clusterSize": 1
     },
     {
-      "id": "curated:https://techcrunch.com/2026/09/08/google-cloud-races-to-catch-up-in-the-ai-deployment-wars-with-accenture-deal/",
-      "url": "https://techcrunch.com/2026/09/08/google-cloud-races-to-catch-up-in-the-ai-deployment-wars-with-accenture-deal/",
-      "title": "Google Cloud races to catch up in the AI deployment wars with Accenture deal",
-      "summary": "TechCrunch (Sep 8): Google Cloud partners with Accenture on forward-deployed engineers to speed enterprise AI adoption and ease deployment bottlenecks.",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "publishedAt": "2026-09-08T17:22:45.000Z",
-      "publishedTs": 1788888164996,
-      "curated": true,
+      "id": "siliconangle:https://siliconangle.com/2026/09/10/extreme-networks-agent-one-coworker-moves-ai-networking-from-dashboards-to-answers/",
+      "url": "https://siliconangle.com/2026/09/10/extreme-networks-agent-one-coworker-moves-ai-networking-from-dashboards-to-answers/",
+      "title": "Extreme Networks’ Agent ONE Coworker moves AI networking from dashboards to answers",
+      "summary": "Operating a network has not changed in decades.",
+      "sourceId": "siliconangle",
+      "sourceName": "SiliconANGLE",
+      "sourceHome": "https://siliconangle.com/",
+      "publishedAt": "2026-09-11T01:58:50.000Z",
+      "publishedTs": 1789091930000,
       "tags": [
         "agents"
       ],
-      "clusterId": "id:google-cloud-accenture",
       "related": [],
+      "clusterId": "auto:extreme-networks-agent-one-coworker-moves-ai-net",
       "clusterSize": 1
     },
     {
-      "id": "curated:https://the-decoder.com/meta-drops-ai-usage-from-engineer-performance-reviews-after-tokenmaxxing-backfires/",
-      "url": "https://the-decoder.com/meta-drops-ai-usage-from-engineer-performance-reviews-after-tokenmaxxing-backfires/",
-      "title": "Meta drops AI usage from engineer performance reviews after \"tokenmaxxing\" backfires",
-      "summary": "THE DECODER (Sep 8): Internal memo (via The Information) — Meta stops judging engineers on AI dashboards/token counters after tokenmaxxing inflated costs; budgets/central dashboard planned for 2027.",
-      "sourceId": "decoder",
-      "sourceName": "THE DECODER",
-      "sourceHome": "https://the-decoder.com/",
-      "publishedAt": "2026-09-08T17:22:45.000Z",
-      "publishedTs": 1788888164995,
-      "curated": true,
-      "tags": [
-        "agents",
-        "policy"
-      ],
-      "clusterId": "id:tokenmaxxing",
-      "related": [
-        {
-          "title": "Companies are spending millions rewiring how AI gets used. Almost none can prove it's working.",
-          "url": "https://venturebeat.com/orchestration/companies-are-spending-millions-rewiring-how-ai-gets-used-almost-none-can-prove-its-working",
-          "sourceId": "venturebeat",
-          "sourceName": "VentureBeat",
-          "sourceHome": "https://venturebeat.com/category/ai/",
-          "publishedAt": "2026-09-08T17:22:45.000Z"
-        }
-      ],
-      "clusterSize": 2
-    },
-    {
-      "id": "curated:https://www.theverge.com/ai-artificial-intelligence/991180/google-launches-alpha-genome-atlas",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/991180/google-launches-alpha-genome-atlas",
-      "title": "Google's Atlas of the human genome could pave the way for new treatments",
-      "summary": "The Verge (Sep 8): DeepMind's AlphaGenome Atlas maps predicted molecular effects for DNA letter changes — pitched as a predictive genome map that could accelerate biology and treatments.",
-      "sourceId": "theverge",
-      "sourceName": "The Verge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "publishedAt": "2026-09-08T17:22:45.000Z",
-      "publishedTs": 1788888164993,
-      "curated": true,
-      "tags": [
-        "research"
-      ],
-      "clusterId": "id:alphagenome-atlas",
-      "related": [
-        {
-          "title": "AlphaGenome Atlas — a prediction for every possible DNA letter change",
-          "url": "https://ai-tldr.dev/releases/google-alphagenome-atlas/",
-          "sourceId": "ai-tldr",
-          "sourceName": "AI/TLDR",
-          "sourceHome": "https://ai-tldr.dev/",
-          "publishedAt": "2026-09-08T17:22:45.000Z"
-        }
-      ],
-      "clusterSize": 2
-    },
-    {
-      "id": "decoder:https://the-decoder.com/openai-researcher-allegedly-pressured-mathematician-to-drop-anthropic-co-author-from-math-breakthrough-paper/",
-      "url": "https://the-decoder.com/openai-researcher-allegedly-pressured-mathematician-to-drop-anthropic-co-author-from-math-breakthrough-paper/",
-      "title": "OpenAI researcher allegedly pressured mathematician to drop Anthropic co-author from math breakthrough paper",
-      "summary": "Mathematician Tristan Buckmaster says OpenAI pressured him after his AI-assisted progress on the Navier-Stokes equations leaked.",
-      "sourceId": "decoder",
-      "sourceName": "THE DECODER",
-      "sourceHome": "https://the-decoder.com/",
-      "publishedAt": "2026-09-08T17:23:04.000Z",
-      "publishedTs": 1788888184000,
-      "tags": [
-        "research"
-      ],
-      "related": [],
-      "clusterId": "auto:openai-researcher-allegedly-pressured-mathematic",
-      "clusterSize": 1
-    },
-    {
-      "id": "decoder:https://the-decoder.com/patagonia-has-what-ai-data-centers-want-including-no-resistance-so-far/",
-      "url": "https://the-decoder.com/patagonia-has-what-ai-data-centers-want-including-no-resistance-so-far/",
-      "title": "Patagonia has what AI data centers want, including no resistance so far",
-      "summary": "Argentina's Patagonia is drawing attention as a possible site for large AI data centers.",
-      "sourceId": "decoder",
-      "sourceName": "THE DECODER",
-      "sourceHome": "https://the-decoder.com/",
-      "publishedAt": "2026-09-08T15:16:47.000Z",
-      "publishedTs": 1788880607000,
+      "id": "siliconangle:https://siliconangle.com/2026/09/10/openai-targets-wall-street-bankers-with-a-new-version-of-chatgpt/",
+      "url": "https://siliconangle.com/2026/09/10/openai-targets-wall-street-bankers-with-a-new-version-of-chatgpt/",
+      "title": "OpenAI targets Wall Street bankers with a new version of ChatGPT",
+      "summary": "OpenAI Group PBC is going after Wall Street with a new version of ChatGPT that’s tailor made for financial tasks such as analysis and…",
+      "sourceId": "siliconangle",
+      "sourceName": "SiliconANGLE",
+      "sourceHome": "https://siliconangle.com/",
+      "publishedAt": "2026-09-11T01:54:51.000Z",
+      "publishedTs": 1789091691000,
       "tags": [],
       "related": [],
-      "clusterId": "auto:patagonia-has-what-ai-data-centers-want-includin",
+      "clusterId": "auto:openai-targets-wall-street-bankers-with-a-new-ve",
       "clusterSize": 1
     },
     {
-      "id": "x:2096616468851097811",
-      "url": "https://x.com/kliu128/status/2096616468851097811",
-      "title": "Today we're releasing data on models accelerating research at OpenAI.",
-      "summary": "Today we're releasing data on models accelerating research at OpenAI. Recursive self-improvement could be the most important contributor…",
-      "sourceId": "x",
-      "sourceName": "X",
-      "sourceHome": "https://x.com",
-      "publishedAt": "2026-09-06T15:08:14.000Z",
-      "publishedTs": 1788707294000,
-      "score": 25681,
-      "authorHandle": "kliu128",
-      "tags": [
-        "model-releases",
-        "research"
-      ],
-      "related": [],
-      "clusterId": "auto:today-we-re-releasing-data-on-models-acceleratin",
-      "clusterSize": 1
-    },
-    {
-      "id": "x:2097188835897586083",
-      "url": "https://x.com/MistralAI/status/2097188835897586083",
-      "title": "Today marks a major step for Mistral: we’re announcing a €3B Series D, the largest equity round ever raised…",
-      "summary": "Today marks a major step for Mistral: we’re announcing a €3B Series D, the largest equity round ever raised by a European tech company,…",
-      "sourceId": "x",
-      "sourceName": "X",
-      "sourceHome": "https://x.com",
-      "publishedAt": "2026-09-08T05:02:37.000Z",
-      "publishedTs": 1788843757000,
-      "score": 23820,
-      "authorHandle": "mistralai",
-      "tags": [
-        "funding"
-      ],
-      "related": [],
-      "clusterId": "auto:today-marks-a-major-step-for-mistral-we-re-annou",
-      "clusterSize": 1
-    },
-    {
-      "id": "x:2097325048109384166",
-      "url": "https://x.com/GoogleDeepMind/status/2097325048109384166",
-      "title": "We’re launching AlphaGenome Atlas: an AI-powered searchable database mapping the predicted impact of all 9…",
-      "summary": "We’re launching AlphaGenome Atlas: an AI-powered searchable database mapping the predicted impact of all 9 billion possible single-letter…",
-      "sourceId": "x",
-      "sourceName": "X",
-      "sourceHome": "https://x.com",
-      "publishedAt": "2026-09-08T14:03:52.000Z",
-      "publishedTs": 1788876232000,
-      "score": 12036,
-      "authorHandle": "googledeepmind",
+      "id": "gizmodo:https://gizmodo.com/sam-altman-please-let-openai-into-the-energy-grid-2000810331",
+      "url": "https://gizmodo.com/sam-altman-please-let-openai-into-the-energy-grid-2000810331",
+      "title": "Sam Altman: Please Let OpenAI Into the Energy Grid",
+      "summary": "",
+      "sourceId": "gizmodo",
+      "sourceName": "Gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "publishedAt": "2026-09-11T01:01:51.000Z",
+      "publishedTs": 1789088511000,
       "tags": [],
       "related": [],
-      "clusterId": "auto:we-re-launching-alphagenome-atlas-an-ai-powered-",
+      "clusterId": "auto:sam-altman-please-let-openai-into-the-energy-gri",
       "clusterSize": 1
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/",
+      "url": "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/",
+      "title": "Jensen Huang explains why Nvidia will grow an astounding 70% next year",
+      "summary": "",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "publishedAt": "2026-09-10T21:51:59.000Z",
+      "publishedTs": 1789077119000,
+      "tags": [],
+      "related": [],
+      "clusterId": "auto:jensen-huang-explains-why-nvidia-will-grow-an-as",
+      "clusterSize": 1
+    },
+    {
+      "id": "techcrunch:https://techcrunch.com/2026/09/10/mark-wahlberg-is-coming-to-techcrunch-disrupt-2026/",
+      "url": "https://techcrunch.com/2026/09/10/mark-wahlberg-is-coming-to-techcrunch-disrupt-2026/",
+      "title": "Mark Wahlberg is coming to TechCrunch Disrupt 2026, and he wants to talk about your work, not his",
+      "summary": "",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "publishedAt": "2026-09-10T21:35:00.000Z",
+      "publishedTs": 1789076100000,
+      "tags": [],
+      "related": [],
+      "clusterId": "auto:mark-wahlberg-is-coming-to-techcrunch-disrupt-20",
+      "clusterSize": 1
+    },
+    {
+      "id": "gizmodo:https://gizmodo.com/heres-palantir-ceo-alex-karp-wearing-a-keffiyeh-in-college-2000810168",
+      "url": "https://gizmodo.com/heres-palantir-ceo-alex-karp-wearing-a-keffiyeh-in-college-2000810168",
+      "title": "Here’s Palantir CEO Alex Karp Wearing a Keffiyeh in College",
+      "summary": "",
+      "sourceId": "gizmodo",
+      "sourceName": "Gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "publishedAt": "2026-09-10T21:25:24.000Z",
+      "publishedTs": 1789075524000,
+      "tags": [],
+      "related": [],
+      "clusterId": "auto:here-s-palantir-ceo-alex-karp-wearing-a-keffiyeh",
+      "clusterSize": 1
+    },
+    {
+      "id": "x:2098097512544444447",
+      "url": "https://x.com/AnthropicAI/status/2098097512544444447",
+      "title": "We're publishing our most detailed threat intelligence report to date.",
+      "summary": "We're publishing our most detailed threat intelligence report to date. It covers how people tried to misuse Claude—for cyberattacks,…",
+      "sourceId": "x",
+      "sourceName": "X",
+      "sourceHome": "https://x.com",
+      "publishedAt": "2026-09-10T17:13:22.000Z",
+      "publishedTs": 1789060402000,
+      "score": 212671,
+      "authorHandle": "anthropicai",
+      "tags": [
+        "model-releases"
+      ],
+      "related": [],
+      "clusterId": "auto:we-re-publishing-our-most-detailed-threat-intell",
+      "clusterSize": 1
+    },
+    {
+      "id": "x:2097402101332590646",
+      "url": "https://x.com/finkd/status/2097402101332590646",
+      "title": "Introducing Muse, the personal agent that understands your goals and works 24/7 to get things done for you.",
+      "summary": "Introducing Muse, the personal agent that understands your goals and works 24/7 to get things done for you.",
+      "sourceId": "x",
+      "sourceName": "X",
+      "sourceHome": "https://x.com",
+      "publishedAt": "2026-09-08T19:10:03.000Z",
+      "publishedTs": 1788894603000,
+      "score": 150785,
+      "authorHandle": "finkd",
+      "tags": [
+        "agents"
+      ],
+      "related": [],
+      "clusterId": "auto:introducing-muse-the-personal-agent-that-underst",
+      "clusterSize": 1
+    },
+    {
+      "id": "x:2097374640582668336",
+      "url": "https://x.com/OpenAI/status/2097374640582668336",
+      "title": "We’re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the…",
+      "summary": "We’re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the frontier of mathematics. The…",
+      "sourceId": "x",
+      "sourceName": "X",
+      "sourceHome": "https://x.com",
+      "publishedAt": "2026-09-08T17:20:56.000Z",
+      "publishedTs": 1788888056000,
+      "score": 890064,
+      "authorHandle": "openai",
+      "tags": [],
+      "related": [
+        {
+          "title": "On the Navier–Stokes Millennium Prize Problem",
+          "url": "https://openai.com/index/navier-stokes-solution",
+          "sourceId": "openai",
+          "sourceName": "OpenAI News",
+          "sourceHome": "https://openai.com/news/",
+          "publishedAt": "2026-09-08T10:00:00.000Z"
+        }
+      ],
+      "clusterId": "auto:on-the-navier-stokes-millennium-prize-problem",
+      "clusterSize": 2
     }
   ],
   "rumors": [
     {
       "id": "rumor:https://x.com/validapau/status/2096629089851297894",
       "title": "Anthropic compute deals estimated at $517B+",
-      "summary": "Unconfirmed (oEmbed-verified @validapau): The Information's Valida Pau estimates Anthropic has locked ~$517B+ in compute deals and ~14.8 GW+ of agreed capacity since Oct 25, framed as IPO-investor focus. Treat as rumor/analysis, not an official Anthropic figure.",
+      "summary": "Unconfirmed (oEmbed-verified @validapau): The Information's Valida Pau estimates Anthropic has locked ~$517B+ in compute deals and large GW capacity since Oct 25, framed as IPO-investor focus. Treat as rumor/analysis, not an official Anthropic figure.",
       "url": "https://x.com/validapau/status/2096629089851297894",
       "via": "@validapau",
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-08T17:22:45.000Z",
-      "publishedAt": "2026-09-08T17:22:45.000Z",
-      "publishedTs": 1788888165000,
+      "harvestedAt": "2026-09-08T23:15:33.000Z",
+      "publishedAt": "2026-09-08T23:15:33.000Z",
+      "publishedTs": 1788909333000,
       "tags": [
         "rumor"
       ]
@@ -341,9 +371,9 @@
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-08T17:22:45.000Z",
-      "publishedAt": "2026-09-08T17:22:45.000Z",
-      "publishedTs": 1788888165000,
+      "harvestedAt": "2026-09-08T23:15:33.000Z",
+      "publishedAt": "2026-09-08T23:15:33.000Z",
+      "publishedTs": 1788909333000,
       "tags": [
         "rumor"
       ]
@@ -357,9 +387,9 @@
       "sourceKind": "x",
       "sourceId": "x",
       "sourceName": "X",
-      "harvestedAt": "2026-09-08T17:22:45.000Z",
-      "publishedAt": "2026-09-08T17:22:45.000Z",
-      "publishedTs": 1788888165000,
+      "harvestedAt": "2026-09-08T23:15:33.000Z",
+      "publishedAt": "2026-09-08T23:15:33.000Z",
+      "publishedTs": 1788909333000,
       "tags": [
         "rumor"
       ]

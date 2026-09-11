@@ -105,6 +105,66 @@ const SOURCES = [
       "https://news.google.com/rss/search?q=site:reuters.com+(AI+OR+artificial+intelligence+OR+OpenAI+OR+Anthropic+OR+GPT)+when:3d&hl=en-US&gl=US&ceid=US:en",
     ],
   },
+  {
+    id: "arstechnica",
+    name: "Ars Technica",
+    home: "https://arstechnica.com/tag/artificial-intelligence/",
+    feeds: ["https://arstechnica.com/tag/artificial-intelligence/feed/"],
+  },
+  {
+    id: "ieee-spectrum",
+    name: "IEEE Spectrum",
+    home: "https://spectrum.ieee.org/topic/artificial-intelligence/",
+    feeds: ["https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss"],
+  },
+  {
+    id: "openai",
+    name: "OpenAI News",
+    home: "https://openai.com/news/",
+    feeds: ["https://openai.com/news/rss.xml"],
+  },
+  {
+    id: "deepmind",
+    name: "Google DeepMind",
+    home: "https://deepmind.google/blog/",
+    feeds: ["https://deepmind.google/blog/rss.xml"],
+  },
+  {
+    id: "google-ai",
+    name: "Google AI Blog",
+    home: "https://blog.google/technology/ai/",
+    feeds: ["https://blog.google/technology/ai/rss/"],
+  },
+  {
+    id: "nvidia",
+    name: "NVIDIA Blog",
+    home: "https://blogs.nvidia.com/blog/category/generative-ai/",
+    feeds: ["https://blogs.nvidia.com/blog/category/generative-ai/feed/"],
+  },
+  {
+    id: "futurism",
+    name: "Futurism",
+    home: "https://futurism.com/categories/ai-artificial-intelligence",
+    feeds: ["https://futurism.com/categories/ai-artificial-intelligence/feed"],
+  },
+  {
+    id: "import-ai",
+    name: "Import AI",
+    home: "https://importai.substack.com/",
+    feeds: ["https://importai.substack.com/feed"],
+  },
+  {
+    id: "lastweekinai",
+    name: "Last Week in AI",
+    home: "https://lastweekin.ai/",
+    feeds: ["https://lastweekin.ai/feed"],
+  },
+  {
+    id: "gizmodo",
+    name: "Gizmodo",
+    home: "https://gizmodo.com/tech/artificial-intelligence",
+    feeds: ["https://gizmodo.com/tech/artificial-intelligence/rss"],
+  },
 ];
 
 const AI_HINT =
@@ -1268,7 +1328,7 @@ function renderHtml(payload) {
   })();
   </script>
   <title>Ai Source — AI news</title>
-  <meta name="description" content="Top AI news from TechCrunch, VentureBeat, The Verge, AI/TLDR, The Signal, THE DECODER, Hugging Face Blog, SiliconANGLE, Reuters, and X. Refreshed every 3 hours.">
+  <meta name="description" content="Top AI news from TechCrunch, VentureBeat, The Verge, Reuters, Ars Technica, IEEE Spectrum, OpenAI, DeepMind, Google, NVIDIA, Futurism, Import AI, Last Week in AI, Gizmodo, and more. Refreshed every 3 hours.">
   <meta http-equiv="refresh" content="10800">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
