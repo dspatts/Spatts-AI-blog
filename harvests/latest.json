@@ -1,10 +1,24 @@
 {
-  "harvestedAt": "2026-09-11T19:15:00.000Z",
+  "harvestedAt": "2026-09-11T19:31:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
+      "title": "Never Forget, AI Slop Is Polluting 9/11 History on the Internet as We Speak",
+      "summary": "Gizmodo (Sep 11): AI-generated junk is flooding anniversary coverage and search results, muddying the historical record around 9/11.",
+      "url": "https://gizmodo.com/never-forget-ai-slop-is-polluting-9-11-history-on-the-internet-as-we-speak-2000810667",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "policy",
+        "research"
+      ],
+      "publishedAt": "2026-09-11T19:20:06.000Z",
+      "clusterId": "ai-slop-911-history"
+    },
+    {
       "title": "Top Chinese Court Issues Sweeping Legal Crackdown on AI Deepfakes",
-      "summary": "Futurism (Sep 11): China\u2019s Supreme People\u2019s Court issues 24-article guidance on deepfakes, voice cloning, privacy, and doxing for lower courts.",
+      "summary": "Futurism (Sep 11): China’s Supreme People’s Court issues 24-article guidance on deepfakes, voice cloning, privacy, and doxing for lower courts.",
       "url": "https://futurism.com/artificial-intelligence/chinese-supreme-peoples-court-legal-guidance-ai-deepfakes",
       "sourceName": "Futurism",
       "sourceId": "futurism",
@@ -16,8 +30,8 @@
       "clusterId": "china-spc-deepfake-guidance"
     },
     {
-      "title": "An Anthropic researcher\u2019s doomsday warning comes at a very interesting time",
-      "summary": "TechCrunch Equity (Sep 11): Podcast on Anthropic researcher Jacob Coxon\u2019s viral resignation warning of self-improving superintelligence \u2014 timed amid IPO chatter and alignment-lead co-sign.",
+      "title": "An Anthropic researcher’s doomsday warning comes at a very interesting time",
+      "summary": "TechCrunch Equity (Sep 11): Podcast on Anthropic researcher Jacob Coxon’s viral resignation warning of self-improving superintelligence — timed amid IPO chatter and alignment-lead co-sign.",
       "url": "https://techcrunch.com/podcast/an-anthropic-researchers-doomsday-warning-comes-at-a-very-interesting-time/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -30,8 +44,22 @@
       "clusterId": "ai-extinction-preference-cascade"
     },
     {
+      "title": "Oracle tries to appease Stargate data center opponents with renewables push",
+      "summary": "Ars Technica (Sep 11): Oracle pledges ~2 GW of renewables to match Stargate data-center emissions amid local opposition.",
+      "url": "https://arstechnica.com/gadgets/2026/09/oracle-promises-2-gw-of-renewables-to-match-stargate-data-center-emissions/",
+      "sourceName": "Ars Technica",
+      "sourceId": "arstechnica",
+      "sourceHome": "https://arstechnica.com/tag/artificial-intelligence/",
+      "tags": [
+        "policy",
+        "funding"
+      ],
+      "publishedAt": "2026-09-11T18:22:22.000Z",
+      "clusterId": "oracle-stargate-renewables"
+    },
+    {
       "title": "Ex-Deepmind VP Vinyals says AI self-improvement is coming but won't trigger an intelligence explosion",
-      "summary": "THE DECODER (Sep 11): Oriol Vinyals argues recursive self-improvement will speed research ~10x but hit bottlenecks in research taste, evaluation, reward hacking, and physics \u2014 now building Discovery Loop with Jeff Dean et al.",
+      "summary": "THE DECODER (Sep 11): Oriol Vinyals argues recursive self-improvement will speed research ~10x but hit bottlenecks in research taste, evaluation, reward hacking, and physics — now building Discovery Loop with Jeff Dean et al.",
       "url": "https://the-decoder.com/ex-deepmind-vp-vinyals-says-ai-self-improvement-is-coming-but-wont-trigger-an-intelligence-explosion/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
@@ -84,22 +112,21 @@
       "clusterId": "nscale-fidji-simo-board"
     },
     {
-      "title": "NYU Mathematician Embroiled in AI Controversy Says the Machines Have Won: \u2018The Game Is Up\u2019",
-      "summary": "Gizmodo (Sep 11): Tristan Buckmaster, central to the OpenAI Navier\u2013Stokes credit fight, says AI has permanently changed mathematical research competition.",
+      "title": "NYU Mathematician Embroiled in AI Controversy Says the Machines Have Won: ‘The Game Is Up’",
+      "summary": "Gizmodo (Sep 11): Erwin Buckmaster says OpenAI’s claimed math breakthrough ends the debate over whether AI can do real research mathematics.",
       "url": "https://gizmodo.com/nyu-mathematician-embroiled-in-ai-controversy-says-the-machines-have-won-the-game-is-up-2000810605",
       "sourceName": "Gizmodo",
       "sourceId": "gizmodo",
       "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
       "tags": [
-        "research",
-        "policy"
+        "research"
       ],
       "publishedAt": "2026-09-11T16:45:00.000Z",
-      "clusterId": "openai-navier-stokes-drama"
+      "clusterId": "openai-math-breakthrough-drama"
     },
     {
       "title": "Anthropic spent this week in hot water over cybersecurity",
-      "summary": "The Verge (Sep 11): Roundup of Anthropic's week of cybersecurity controversy, including threat-intel disclosures and dual-use misuse cases.",
+      "summary": "The Verge (Sep 11): Anthropic faces a rough week on cyber misuse disclosures, Claude safeguards, and related safety headlines.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/994064/anthropic-spent-this-week-in-hot-water-over-cybersecurity",
       "sourceName": "The Verge",
       "sourceId": "theverge",
@@ -108,12 +135,12 @@
         "policy",
         "agents"
       ],
-      "publishedAt": "2026-09-11T16:09:00.000Z",
-      "clusterId": "anthropic-threat-intel-sep2026"
+      "publishedAt": "2026-09-11T16:09:14.000Z",
+      "clusterId": "anthropic-cyber-hot-water"
     },
     {
       "title": "Trump Shrugs Off Warnings That AI Could Cause Human Extinction",
-      "summary": "Gizmodo (Sep 11): Trump downplays researcher warnings that advanced AI could threaten human extinction amid the week's preference-cascade debate.",
+      "summary": "Gizmodo (Sep 11): Reporting on the White House dismissing extinction-risk warnings as AI labs race ahead.",
       "url": "https://gizmodo.com/trump-shrugs-off-warnings-that-ai-could-cause-human-extinction-2000810553",
       "sourceName": "Gizmodo",
       "sourceId": "gizmodo",
@@ -122,11 +149,25 @@
         "policy"
       ],
       "publishedAt": "2026-09-11T15:45:27.000Z",
-      "clusterId": "ai-extinction-preference-cascade"
+      "clusterId": "trump-ai-extinction-shrug"
     },
     {
-      "title": "Meta says it's changing AI suggestions after posing invasive personal questions",
-      "summary": "The Verge (Sep 11): Meta says it will change AI chatbot suggested prompts after reports it dug for personal details about a woman's young daughters.",
+      "title": "The hard physics and complex economics of AI’s insatiable hunger for power",
+      "summary": "SiliconANGLE (Sep 11): Analysis of power, cooling, and economics constraining AI data-center buildout.",
+      "url": "https://siliconangle.com/2026/09/11/the-hard-physics-and-complex-economics-of-ais-insatiable-hunger-for-power/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "research",
+        "funding"
+      ],
+      "publishedAt": "2026-09-11T14:30:29.000Z",
+      "clusterId": "ai-power-hunger-physics"
+    },
+    {
+      "title": "Meta says it’s changing AI suggestions after posing invasive personal questions",
+      "summary": "The Verge (Sep 11): Meta will revise AI prompt suggestions after users reported invasive personal questions from Meta AI.",
       "url": "https://www.theverge.com/tech/993974/meta-ai-prompt-invasive-suggestions",
       "sourceName": "The Verge",
       "sourceId": "theverge",
@@ -135,55 +176,26 @@
         "policy",
         "agents"
       ],
-      "publishedAt": "2026-09-11T14:48:06.000Z",
+      "publishedAt": "2026-09-11T14:25:21.000Z",
       "clusterId": "meta-ai-invasive-prompts"
     },
     {
-      "title": "The hard physics and complex economics of AI's insatiable hunger for power",
-      "summary": "SiliconANGLE (Sep 11): Deep dive on the physical and economic constraints behind AI's surging electricity and data-center demand.",
-      "url": "https://siliconangle.com/2026/09/11/the-hard-physics-and-complex-economics-of-ais-insatiable-hunger-for-power/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "research",
-        "policy"
-      ],
-      "publishedAt": "2026-09-11T14:30:29.000Z",
-      "clusterId": "ai-power-hunger"
-    },
-    {
-      "title": "AI's existential crisis explodes but AI companies plunge ahead anyway",
-      "summary": "SiliconANGLE (Sep 11): Roundup of the week's extinction-risk preference cascade, lab safety warnings, and why frontier companies are still accelerating.",
-      "url": "https://siliconangle.com/2026/09/11/ais-existential-crisis-explodes-but-ai-companies-plunge-ahead-anyway/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "policy",
-        "research"
-      ],
-      "publishedAt": "2026-09-11T14:00:28.000Z",
-      "clusterId": "ai-extinction-preference-cascade"
-    },
-    {
-      "title": "How hackers used Claude for missiles, drone swarms, and surveillance, while Chinese labs mined it for training data",
-      "summary": "THE DECODER (Sep 11): Deep dive on Anthropic's threat report \u2014 Russia-linked agents rewriting malware, Yemen missile GNC via Claude Code, FPV swarms, Chinese-lab distillation, dual-use biology filter failures.",
-      "url": "https://the-decoder.com/how-hackers-used-claude-for-missiles-drone-swarms-and-surveillance-while-chinese-labs-mined-it-for-training-data/",
+      "title": "How hackers used Claude for missiles, drone swarms, and surveillance, while Chinese labs mirrored the models",
+      "summary": "THE DECODER (Sep 11): Roundup of Anthropic’s threat report on Claude misuse for weapons/surveillance and distillation attempts by Chinese labs.",
+      "url": "https://the-decoder.com/how-hackers-used-claude-for-missiles-drone-swarms-and-surveillance-while-chinese-labs-mirrored-the-models/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
       "sourceHome": "https://the-decoder.com/",
       "tags": [
         "policy",
-        "research",
         "agents"
       ],
       "publishedAt": "2026-09-11T13:50:28.000Z",
-      "clusterId": "anthropic-threat-intel-sep2026"
+      "clusterId": "anthropic-threat-report-claude-misuse"
     },
     {
       "title": "Claude users found ways around safeguards for bioweapons research",
-      "summary": "Ars Technica (Sep 11): Anthropic says it stopped multiple attempts to use Claude for research that could aid biological weapons, amid rising dual-use fears.",
+      "summary": "Ars Technica (Sep 11): Dangerous biology often looks like legitimate research, complicating AI lab safeguards — Anthropic reports Claude misuse attempts.",
       "url": "https://arstechnica.com/ai/2026/09/claude-users-found-ways-around-safeguards-for-bioweapons-research/",
       "sourceName": "Ars Technica",
       "sourceId": "arstechnica",
@@ -193,7 +205,21 @@
         "research"
       ],
       "publishedAt": "2026-09-11T13:02:35.000Z",
-      "clusterId": "anthropic-bioweapons-disrupt"
+      "clusterId": "anthropic-bioweapons-safeguards"
+    },
+    {
+      "title": "Introducing Fugu Max and Fugu Ultra v2: Orchestrating the Pareto Frontier",
+      "summary": "AI/TLDR → Sakana (Sep 11): Sakana ships Fugu Max (cheap orchestrator) and Fugu Ultra v2 (Chartography 48.3 vs Opus 5’s 27.3); hosted OpenAI-compatible API.",
+      "url": "https://sakana.ai/fugu-max-release/",
+      "sourceName": "AI/TLDR",
+      "sourceId": "ai-tldr",
+      "sourceHome": "https://ai-tldr.dev/",
+      "tags": [
+        "model-releases",
+        "agents"
+      ],
+      "publishedAt": "2026-09-11T12:00:00.000Z",
+      "clusterId": "sakana-fugu-max-ultra-v2"
     },
     {
       "title": "OpenAI floats a shared AI slowdown, takes it to Congress",
@@ -222,49 +248,22 @@
       "clusterId": "zai-hk-5b-raise"
     },
     {
-      "title": "EXCLUSIVE: UAE revises AI data center plan after Iranian attacks, sources say",
-      "summary": "Reuters (Sep 11): UAE revisiting its 5 GW AI data-center blueprint after Iran war \u2014 including air defenses and possible underground builds.",
-      "url": "https://www.reuters.com/world/middle-east/uae-revises-ai-data-center-plan-after-iranian-attacks-sources-say-2026-09-11/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+      "summary": "OpenAI (Sep 11): Engineering post on Habitat evolving into a globally distributed storage platform for ~1B ChatGPT users and ~22M req/s.",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "sourceName": "OpenAI News",
+      "sourceId": "openai",
+      "sourceHome": "https://openai.com/news/",
       "tags": [
-        "policy",
-        "funding"
+        "research",
+        "agents"
       ],
-      "publishedAt": "2026-09-11T08:00:00.000Z",
-      "clusterId": "uae-ai-campus-revise"
-    },
-    {
-      "title": "Ayar Labs bags $150M in additional late-stage funding to help make bigger AI chip clusters",
-      "summary": "SiliconANGLE (Sep 11): Optical interconnect startup Ayar Labs extends Series E by $150M to $650M total for larger AI chip clusters.",
-      "url": "https://siliconangle.com/2026/09/10/ayar-labs-bags-150m-in-additional-series-e-funding-to-help-make-bigger-ai-chip-clusters/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "funding",
-        "research"
-      ],
-      "publishedAt": "2026-09-11T02:36:41.000Z",
-      "clusterId": "ayar-labs-150m-extension"
-    },
-    {
-      "title": "Altman tells staff OpenAI is open to slowing AI development, Bloomberg News reports",
-      "summary": "Reuters (Sep 11): Sam Altman told employees OpenAI could pace AI system development alongside other labs amid rising advanced-AI safety concerns.",
-      "url": "https://www.reuters.com/business/altman-tells-staff-openai-is-open-slowing-ai-development-bloomberg-news-reports-2026-09-11/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-09-11T02:33:00.000Z",
-      "clusterId": "openai-pace-slowdown"
+      "publishedAt": "2026-09-11T10:00:00.000Z",
+      "clusterId": "openai-storage-1b-users"
     },
     {
       "title": "DeepSeek releases V4.1-Flash, says it outperforms flagship V4-Pro",
-      "summary": "SiliconANGLE (Sep 10): DeepSeek launches open-weight V4.1-Flash, claiming third-party tests put the smaller model ahead of larger V4-Pro on key benchmarks.",
+      "summary": "SiliconANGLE (Sep 10): DeepSeek launches open-weight V4.1-Flash, claiming third-party tests put the smaller model ahead of larger V4-Pro on key benchmarks. (VB category also covered Sep 10; VB feed/curl 429 this cycle.)",
       "url": "https://siliconangle.com/2026/09/10/deepseek-releases-v4-1-flash-says-it-outperforms-flagship-v4-pro/",
       "sourceName": "SiliconANGLE",
       "sourceId": "siliconangle",
@@ -279,44 +278,44 @@
   "rumors": [
     {
       "title": "Anthropic compute deals tallied at ~$517B+",
-      "summary": "UNCONFIRMED / estimate: @validapau (The Information) tallies Anthropic compute agreements since Oct. 2025 at roughly $517B+ and ~14.8 GW of capacity versus OpenAI \u2014 an analytical upper-bound reconstruction, not a company disclosure or confirmed cash spend.",
+      "summary": "UNCONFIRMED / estimate: @validapau (The Information) tallies Anthropic compute agreements since Oct. 2025 at roughly $517B+ and ~14.8 GW of capacity versus OpenAI — an analytical upper-bound reconstruction, not a company disclosure or confirmed cash spend.",
       "url": "https://x.com/validapau/status/2096629089851297894",
       "via": "@validapau",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T19:15:00.000Z",
+      "harvestedAt": "2026-09-11T19:31:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "Nvidia talks ~$2.5\u20133B into Thinking Machines Lab",
-      "summary": "UNCONFIRMED: @amir (The Information) reports Nvidia is in talks to invest about $2.5B\u2013$3B in Mira Murati\u2019s Thinking Machines Lab (story updated with a16z-related details). Talks may still change; not a closed deal.",
+      "title": "Nvidia talks ~$2.5–3B into Thinking Machines Lab",
+      "summary": "UNCONFIRMED: @amir (The Information) reports Nvidia is in talks to invest about $2.5B–$3B in Mira Murati’s Thinking Machines Lab (story updated with a16z-related details). Talks may still change; not a closed deal.",
       "url": "https://x.com/amir/status/2095678832535843209",
       "via": "@amir",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T19:15:00.000Z",
+      "harvestedAt": "2026-09-11T19:31:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "SoftBank in talks for majority stake in 1X (~$6B)",
-      "summary": "UNCONFIRMED scoop: @validapau with @rocketalignment / @amir reports SoftBank is in talks to buy a majority stake in OpenAI-backed humanoid startup 1X Technologies at about a $6B valuation. Negotiations only \u2014 not announced as closed.",
+      "summary": "UNCONFIRMED scoop: @validapau with @rocketalignment / @amir reports SoftBank is in talks to buy a majority stake in OpenAI-backed humanoid startup 1X Technologies at about a $6B valuation. Negotiations only — not announced as closed.",
       "url": "https://x.com/validapau/status/2092788937186045962",
       "via": "@validapau",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T19:15:00.000Z",
+      "harvestedAt": "2026-09-11T19:31:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "OpenAI finished \u201cBel\u201d >10T pretrain (post-Doug)",
-      "summary": "UNCONFIRMED single-source leak: @synthwavedd claimed OpenAI finished a giant pretrain codenamed Bel (>10T params), successor to Doug and intended as a post-GPT-6 / post-Astra base. No OpenAI confirmation, system card, or independent outlet corroboration after GPT-6 Astra shipped \u2014 treat as rumor.",
+      "title": "OpenAI finished “Bel” >10T pretrain (post-Doug)",
+      "summary": "UNCONFIRMED single-source leak: @synthwavedd claimed OpenAI finished a giant pretrain codenamed Bel (>10T params), successor to Doug and intended as a post-GPT-6 / post-Astra base. No OpenAI confirmation, system card, or independent outlet corroboration after GPT-6 Astra shipped — treat as rumor.",
       "url": "https://x.com/synthwavedd/status/2092326145270456377",
       "via": "@synthwavedd",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T19:15:00.000Z",
+      "harvestedAt": "2026-09-11T19:31:00.000Z",
       "tags": [
         "rumor"
       ]
