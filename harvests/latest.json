@@ -308,6 +308,17 @@
       "tags": [
         "rumor"
       ]
+    },
+    {
+      "title": "Claude said to have solved Navier–Stokes before Anthropic IPO",
+      "summary": "UNCONFIRMED X rumor: @AndrewCurran_ predicts Anthropic's Claude has solved the Navier–Stokes Millennium Prize Problem, is out for expert review, and will announce before the IPO — framed as a personal prediction with no Anthropic confirmation; Terence Tao clarified he knows of no breakthrough. Treat as rumor only.",
+      "url": "https://x.com/AndrewCurran_/status/2096062392442724805",
+      "via": "@AndrewCurran_",
+      "sourceKind": "x",
+      "harvestedAt": "2026-09-11T10:46:15Z",
+      "tags": [
+        "rumor"
+      ]
     }
   ]
 }

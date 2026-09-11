@@ -161,12 +161,12 @@
       "id": "rumors",
       "name": "Rumor mill (X)",
       "ok": true,
-      "count": 3,
+      "count": 4,
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-11T10:43:28.388Z",
-  "refreshedAt": "2026-09-11T10:43:28.388Z",
+  "briefingDate": "2026-09-11T10:46:36.534Z",
+  "refreshedAt": "2026-09-11T10:46:36.534Z",
   "preferCurated": true,
   "posts": [
     {
@@ -335,7 +335,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-08T17:20:56.000Z",
       "publishedTs": 1788888056000,
-      "score": 890933,
+      "score": 890953,
       "authorHandle": "openai",
       "tags": [
         "model-releases",
@@ -364,7 +364,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-10T17:13:22.000Z",
       "publishedTs": 1789060402000,
-      "score": 283496,
+      "score": 284453,
       "authorHandle": "anthropicai",
       "tags": [
         "model-releases",
@@ -395,6 +395,22 @@
     }
   ],
   "rumors": [
+    {
+      "id": "rumor:https://x.com/AndrewCurran_/status/2096062392442724805",
+      "title": "Claude said to have solved Navier–Stokes before Anthropic IPO",
+      "summary": "UNCONFIRMED X rumor: @AndrewCurran_ predicts Anthropic's Claude has solved the Navier–Stokes Millennium Prize Problem, is out for expert review, and will announce before the IPO — framed as a personal prediction with no Anthropic confirmation; Terence Tao clarified he knows of no breakthrough. Treat as rumor only.",
+      "url": "https://x.com/AndrewCurran_/status/2096062392442724805",
+      "via": "@AndrewCurran_",
+      "sourceKind": "x",
+      "sourceId": "x",
+      "sourceName": "X",
+      "harvestedAt": "2026-09-11T10:46:15Z",
+      "publishedAt": "2026-09-11T10:46:15Z",
+      "publishedTs": 1789123575000,
+      "tags": [
+        "rumor"
+      ]
+    },
     {
       "id": "rumor:https://x.com/validapau/status/2096629089851297894",
       "title": "Anthropic compute deals estimated at $517B+",
