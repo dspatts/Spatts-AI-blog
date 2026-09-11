@@ -4,7 +4,7 @@
   "posts": [
     {
       "title": "Introducing the Agents API",
-      "summary": "OpenAI (Sep 10): Public-beta Agents API exposes the managed Codex/ChatGPT agent harness \u2014 context management, parallel tools, sub-agents; token billing only.",
+      "summary": "OpenAI (Sep 10): Public-beta Agents API exposes the managed Codex/ChatGPT agent harness — context management, parallel tools, sub-agents; token billing only.",
       "url": "https://openai.com/index/introducing-the-agents-api/",
       "sourceName": "OpenAI News",
       "sourceId": "openai",
@@ -13,7 +13,8 @@
         "agents",
         "model-releases"
       ],
-      "clusterId": "openai-agents-api"
+      "clusterId": "openai-agents-api",
+      "publishedAt": "2026-09-10T00:00:00.000Z"
     },
     {
       "title": "OpenAI's new Agents API gives developers the infrastructure behind Codex and ChatGPT",
@@ -26,10 +27,11 @@
         "agents",
         "model-releases"
       ],
-      "clusterId": "openai-agents-api"
+      "clusterId": "openai-agents-api",
+      "publishedAt": "2026-09-11T08:11:46.000Z"
     },
     {
-      "title": "Build more natural voice experiences with GPT\u2011Live\u20111 in the API",
+      "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
       "summary": "OpenAI (Sep 10): GPT-Live-1 full-duplex voice API at $0.05/min; can delegate reasoning/tools to Astra or other backends.",
       "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/",
       "sourceName": "OpenAI News",
@@ -39,7 +41,8 @@
         "model-releases",
         "agents"
       ],
-      "clusterId": "openai-gpt-live-1"
+      "clusterId": "openai-gpt-live-1",
+      "publishedAt": "2026-09-10T00:00:00.000Z"
     },
     {
       "title": "OpenAI puts Pro subscriptions on hold due to Astra demand",
@@ -52,7 +55,8 @@
         "model-releases",
         "policy"
       ],
-      "clusterId": "openai-astra-capacity"
+      "clusterId": "openai-astra-capacity",
+      "publishedAt": "2026-09-10T20:59:51.000Z"
     },
     {
       "title": "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek",
@@ -65,7 +69,8 @@
         "policy",
         "research"
       ],
-      "clusterId": "anthropic-distillation-threat"
+      "clusterId": "anthropic-distillation-threat",
+      "publishedAt": "2026-09-10T20:57:30.000Z"
     },
     {
       "title": "Anthropic disrupts Russian, Chinese AI campaigns targeting its Claude models",
@@ -78,7 +83,8 @@
         "policy",
         "research"
       ],
-      "clusterId": "anthropic-distillation-threat"
+      "clusterId": "anthropic-distillation-threat",
+      "publishedAt": "2026-09-10T20:23:00.000Z"
     },
     {
       "title": "Six Chinese AI firms accused of aggressively copying US frontier models",
@@ -90,7 +96,8 @@
       "tags": [
         "policy"
       ],
-      "clusterId": "anthropic-distillation-threat"
+      "clusterId": "anthropic-distillation-threat",
+      "publishedAt": "2026-09-09T20:06:28.000Z"
     },
     {
       "title": "DeepSeek-V4.1-Flash debuts with $0.003/1M off-peak cached-input rate and benchmarks eclipsing GPT-5.6 Sol, Claude Opus 5",
@@ -103,11 +110,12 @@
         "model-releases",
         "agents"
       ],
-      "clusterId": "deepseek-v41-flash"
+      "clusterId": "deepseek-v41-flash",
+      "publishedAt": "2026-09-10T23:33:00.000Z"
     },
     {
-      "title": "Meta\u2019s AI agent Muse is now the No. 2 app in the US",
-      "summary": "TechCrunch (Sep 10): Meta\u2019s Muse personal agent climbs to No. 2 on U.S. app charts days after launch.",
+      "title": "Meta’s AI agent Muse is now the No. 2 app in the US",
+      "summary": "TechCrunch (Sep 10): Meta’s Muse personal agent climbs to No. 2 on U.S. app charts days after launch.",
       "url": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -115,7 +123,8 @@
       "tags": [
         "agents"
       ],
-      "clusterId": "meta-muse-charts"
+      "clusterId": "meta-muse-charts",
+      "publishedAt": "2026-09-10T19:50:04.000Z"
     },
     {
       "title": "EXCLUSIVE: OpenAI's rogue agents used at least 10 more sites for unauthorized communications",
@@ -128,7 +137,8 @@
         "agents",
         "policy"
       ],
-      "clusterId": "openai-rogue-agents"
+      "clusterId": "openai-rogue-agents",
+      "publishedAt": "2026-09-09T16:03:28.311Z"
     },
     {
       "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
@@ -140,11 +150,12 @@
       "tags": [
         "policy"
       ],
-      "clusterId": "openai-news-lawsuits"
+      "clusterId": "openai-news-lawsuits",
+      "publishedAt": "2026-09-06T23:36:04.000Z"
     },
     {
       "title": "DeepSeek releases V4.1-Flash, says it outperforms flagship V4-Pro",
-      "summary": "SiliconANGLE (Sep 10): DeepSeek says V4.1-Flash outperforms flagship V4-Pro on key agent/coding metrics \u2014 cluster with VB coverage.",
+      "summary": "SiliconANGLE (Sep 10): DeepSeek says V4.1-Flash outperforms flagship V4-Pro on key agent/coding metrics — cluster with VB coverage.",
       "url": "https://siliconangle.com/2026/09/10/deepseek-releases-v4-1-flash-says-it-outperforms-flagship-v4-pro/",
       "sourceName": "SiliconANGLE",
       "sourceId": "siliconangle",
@@ -153,7 +164,8 @@
         "model-releases",
         "agents"
       ],
-      "clusterId": "deepseek-v41-flash"
+      "clusterId": "deepseek-v41-flash",
+      "publishedAt": "2026-09-10T23:45:40.000Z"
     },
     {
       "title": "Ayar Labs bags $150M in additional late-stage funding to help make bigger AI chip clusters",
@@ -165,7 +177,8 @@
       "tags": [
         "funding"
       ],
-      "clusterId": "ayar-labs-150m"
+      "clusterId": "ayar-labs-150m",
+      "publishedAt": "2026-09-11T02:36:41.000Z"
     },
     {
       "title": "Google DeepMind Maps 9 Billion Possible DNA Variants",
@@ -177,11 +190,12 @@
       "tags": [
         "research"
       ],
-      "clusterId": "alphagenome-atlas"
+      "clusterId": "alphagenome-atlas",
+      "publishedAt": "2026-09-08T14:00:05.000Z"
     },
     {
       "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
-      "summary": "Google DeepMind (Sep 2): Third Flash drop in six weeks \u2014 3.8 Flash for agentic coding/reasoning; Flash Cyber for trusted defenders via Fairwind.",
+      "summary": "Google DeepMind (Sep 2): Third Flash drop in six weeks — 3.8 Flash for agentic coding/reasoning; Flash Cyber for trusted defenders via Fairwind.",
       "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
       "sourceName": "Google DeepMind Blog",
       "sourceId": "deepmind",
@@ -190,7 +204,8 @@
         "model-releases",
         "agents"
       ],
-      "clusterId": "gemini-38-flash"
+      "clusterId": "gemini-38-flash",
+      "publishedAt": "2026-09-02T16:18:31.000Z"
     },
     {
       "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
@@ -203,7 +218,8 @@
         "model-releases",
         "research"
       ],
-      "clusterId": "ibm-granite-timeseries"
+      "clusterId": "ibm-granite-timeseries",
+      "publishedAt": "2026-09-09T15:36:24.000Z"
     },
     {
       "title": "NVIDIA Brings Real-Time AI to Broadcast, Sports and Global Streaming at IBC",
@@ -215,11 +231,12 @@
       "tags": [
         "model-releases"
       ],
-      "clusterId": "nvidia-ibc-2026"
+      "clusterId": "nvidia-ibc-2026",
+      "publishedAt": "2026-09-09T16:00:42.000Z"
     },
     {
-      "title": "OpenAI\u2019s Supposed Mathematical Breakthrough Devolves Into Explosive Drama as Mathematician",
-      "summary": "Futurism (Sep 10): Navier\u2013Stokes AI proof claim sparks credit and process fight with mathematicians.",
+      "title": "OpenAI’s Supposed Mathematical Breakthrough Devolves Into Explosive Drama as Mathematician",
+      "summary": "Futurism (Sep 10): Navier–Stokes AI proof claim sparks credit and process fight with mathematicians.",
       "url": "https://futurism.com/artificial-intelligence/drama-openai-supposed-mathematical-breakthrough",
       "sourceName": "Futurism",
       "sourceId": "futurism",
@@ -228,11 +245,12 @@
         "research",
         "policy"
       ],
-      "clusterId": "openai-navier-stokes-drama"
+      "clusterId": "openai-navier-stokes-drama",
+      "publishedAt": "2026-09-10T19:40:00.000Z"
     },
     {
       "title": "Import AI 472: DeepMind's cheating math agents; populist AI policies; and Forethought theo",
-      "summary": "Import AI (Sep 7): Jack Clark weekly \u2014 DeepMind math-agent evals, populist AI policy threads, Forethought notes.",
+      "summary": "Import AI (Sep 7): Jack Clark weekly — DeepMind math-agent evals, populist AI policy threads, Forethought notes.",
       "url": "https://importai.substack.com/p/import-ai-472-deepminds-cheating",
       "sourceName": "Import AI",
       "sourceId": "import-ai",
@@ -241,10 +259,11 @@
         "research",
         "policy"
       ],
-      "clusterId": "import-ai-472"
+      "clusterId": "import-ai-472",
+      "publishedAt": "2026-09-07T12:26:31.000Z"
     },
     {
-      "title": "Last Week in AI #343 - GPT-6, OpenAI\u2019s agents chatted on a wiki, Fable 5.1",
+      "title": "Last Week in AI #343 - GPT-6, OpenAI’s agents chatted on a wiki, Fable 5.1",
       "summary": "Last Week in AI (Sep 7): Weekly digest covering GPT-6 Astra, rogue-agent wiki chatter, and Claude Fable 5.1.",
       "url": "https://lastweekin.ai/p/last-week-in-ai-343-gpt-6-openais",
       "sourceName": "Last Week in AI",
@@ -254,7 +273,8 @@
         "model-releases",
         "agents"
       ],
-      "clusterId": "lwiai-343"
+      "clusterId": "lwiai-343",
+      "publishedAt": "2026-09-07T13:02:49.000Z"
     },
     {
       "title": "Sam Altman: Please Let OpenAI Into the Energy Grid",
@@ -266,11 +286,12 @@
       "tags": [
         "policy"
       ],
-      "clusterId": "altman-energy-grid"
+      "clusterId": "altman-energy-grid",
+      "publishedAt": "2026-09-11T01:01:51.000Z"
     },
     {
       "title": "Chipmaker Positron nabs $875M to speed up inference with consumer-grade memory",
-      "summary": "SiliconANGLE (Sep 10): Positron raises $875M for inference accelerators using consumer-grade memory \u2014 AI infra funding.",
+      "summary": "SiliconANGLE (Sep 10): Positron raises $875M for inference accelerators using consumer-grade memory — AI infra funding.",
       "url": "https://siliconangle.com/2026/09/10/chipmaker-positron-nabs-875m-to-speed-up-inference-with-consumer-grade-memory/",
       "sourceName": "SiliconANGLE",
       "sourceId": "siliconangle",
@@ -278,13 +299,14 @@
       "tags": [
         "funding"
       ],
-      "clusterId": "positron-875m"
+      "clusterId": "positron-875m",
+      "publishedAt": "2026-09-10T20:34:36.000Z"
     }
   ],
   "rumors": [
     {
       "title": "Anthropic compute deals estimated at $517B+",
-      "summary": "Unconfirmed (oEmbed-verified @validapau): The Information's Valida Pau estimates Anthropic has locked ~$517B+ in compute deals and large GW capacity \u2014 IPO-investor focus. Treat as rumor/analysis, not official.",
+      "summary": "Unconfirmed (oEmbed-verified @validapau): The Information's Valida Pau estimates Anthropic has locked ~$517B+ in compute deals and large GW capacity — IPO-investor focus. Treat as rumor/analysis, not official.",
       "url": "https://x.com/validapau/status/2096629089851297894",
       "via": "@validapau",
       "sourceKind": "x",
@@ -294,8 +316,8 @@
       ]
     },
     {
-      "title": "Nvidia talks ~$2.5\u20133B into Thinking Machines",
-      "summary": "Unconfirmed (oEmbed-verified @amir): Amir Efrati says Nvidia is in talks to put $2.5B\u2013$3B into Mira Murati's Thinking Machines Lab. Talks, not a closed round.",
+      "title": "Nvidia talks ~$2.5–3B into Thinking Machines",
+      "summary": "Unconfirmed (oEmbed-verified @amir): Amir Efrati says Nvidia is in talks to put $2.5B–$3B into Mira Murati's Thinking Machines Lab. Talks, not a closed round.",
       "url": "https://x.com/amir/status/2095678832535843209",
       "via": "@amir",
       "sourceKind": "x",

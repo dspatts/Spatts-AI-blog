@@ -165,8 +165,8 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-11T09:19:19.849Z",
-  "refreshedAt": "2026-09-11T09:19:19.849Z",
+  "briefingDate": "2026-09-11T09:25:09.325Z",
+  "refreshedAt": "2026-09-11T09:25:09.325Z",
   "preferCurated": true,
   "posts": [
     {
@@ -177,7 +177,7 @@
       "sourceId": "reuters",
       "sourceName": "Reuters",
       "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "publishedAt": "2026-09-09T20:06:28.000Z",
+      "publishedAt": "2026-09-10T20:23:00.000Z",
       "publishedTs": 1789114781995,
       "publishGuess": false,
       "curated": true,
@@ -188,7 +188,6 @@
         "policy"
       ],
       "clusterId": "id:anthropic-distillation-threat",
-      "publishFromUrl": true,
       "related": [
         {
           "title": "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek",
@@ -217,9 +216,9 @@
       "sourceId": "venturebeat",
       "sourceName": "VentureBeat",
       "sourceHome": "https://venturebeat.com/category/ai/",
-      "publishedAt": "2026-09-10T23:45:40.000Z",
+      "publishedAt": "2026-09-10T23:33:00.000Z",
       "publishedTs": 1789114781993,
-      "publishGuess": true,
+      "publishGuess": false,
       "curated": true,
       "tags": [
         "model-releases",
@@ -246,7 +245,7 @@
       "sourceId": "reuters",
       "sourceName": "Reuters",
       "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "publishedAt": "2026-09-09T12:00:00.000Z",
+      "publishedAt": "2026-09-09T16:03:28.311Z",
       "publishedTs": 1789114781991,
       "publishGuess": false,
       "curated": true,
@@ -257,7 +256,6 @@
         "policy"
       ],
       "clusterId": "id:openai-rogue-agents",
-      "publishFromUrl": true,
       "related": [],
       "clusterSize": 1
     },
@@ -269,9 +267,9 @@
       "sourceId": "theverge",
       "sourceName": "The Verge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "publishedAt": "2026-09-11T08:19:42.000Z",
+      "publishedAt": "2026-09-06T23:36:04.000Z",
       "publishedTs": 1789114781990,
-      "publishGuess": true,
+      "publishGuess": false,
       "curated": true,
       "tags": [
         "model-releases",
@@ -289,7 +287,7 @@
       "sourceId": "decoder",
       "sourceName": "THE DECODER",
       "sourceHome": "https://the-decoder.com/",
-      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "publishedAt": "2026-09-11T08:11:46.000Z",
       "publishedTs": 1789114306000,
       "publishGuess": false,
       "curated": true,
@@ -311,6 +309,23 @@
       "clusterSize": 2
     },
     {
+      "id": "decoder:https://the-decoder.com/the-mathematical-ai-safety-institute-wants-to-prove-ai-is-safe-the-way-cryptographers-prove-codes-are-unbreakable/",
+      "url": "https://the-decoder.com/the-mathematical-ai-safety-institute-wants-to-prove-ai-is-safe-the-way-cryptographers-prove-codes-are-unbreakable/",
+      "title": "The Mathematical AI Safety Institute wants to prove AI is safe the way cryptographers prove codes are unbreakable",
+      "summary": "Canadian mathematician Jacob Tsimerman, a fresh Fields Medal recipient, has announced the founding of the Mathematical A.I.",
+      "sourceId": "decoder",
+      "sourceName": "THE DECODER",
+      "sourceHome": "https://the-decoder.com/",
+      "publishedAt": "2026-09-11T09:15:10.000Z",
+      "publishedTs": 1789118110000,
+      "tags": [
+        "research"
+      ],
+      "related": [],
+      "clusterId": "auto:the-mathematical-ai-safety-institute-wants-to-pr",
+      "clusterSize": 1
+    },
+    {
       "id": "decoder:https://the-decoder.com/anthropics-1-5-billion-book-settlement-descends-into-chaos-as-authors-and-publishers-fight-over-who-gets-paid/",
       "url": "https://the-decoder.com/anthropics-1-5-billion-book-settlement-descends-into-chaos-as-authors-and-publishers-fight-over-who-gets-paid/",
       "title": "Anthropic's $1.5 billion book settlement descends into chaos as authors and publishers fight over who gets paid",
@@ -330,23 +345,6 @@
       "clusterSize": 1
     },
     {
-      "id": "siliconangle:https://siliconangle.com/2026/09/10/extreme-networks-agent-one-coworker-moves-ai-networking-from-dashboards-to-answers/",
-      "url": "https://siliconangle.com/2026/09/10/extreme-networks-agent-one-coworker-moves-ai-networking-from-dashboards-to-answers/",
-      "title": "Extreme Networks’ Agent ONE Coworker moves AI networking from dashboards to answers",
-      "summary": "Operating a network has not changed in decades.",
-      "sourceId": "siliconangle",
-      "sourceName": "SiliconANGLE",
-      "sourceHome": "https://siliconangle.com/",
-      "publishedAt": "2026-09-11T01:58:50.000Z",
-      "publishedTs": 1789091930000,
-      "tags": [
-        "agents"
-      ],
-      "related": [],
-      "clusterId": "auto:extreme-networks-agent-one-coworker-moves-ai-net",
-      "clusterSize": 1
-    },
-    {
       "id": "x:2097374640582668336",
       "url": "https://x.com/OpenAI/status/2097374640582668336",
       "title": "We’re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the…",
@@ -354,9 +352,9 @@
       "sourceId": "x",
       "sourceName": "X",
       "sourceHome": "https://x.com",
-      "publishedAt": "2026-09-08T10:00:00.000Z",
-      "publishedTs": 1788861600000,
-      "score": 890672,
+      "publishedAt": "2026-09-08T17:20:56.000Z",
+      "publishedTs": 1788888056000,
+      "score": 890688,
       "authorHandle": "openai",
       "tags": [
         "model-releases",
@@ -385,7 +383,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-10T17:13:22.000Z",
       "publishedTs": 1789060402000,
-      "score": 261322,
+      "score": 262786,
       "authorHandle": "anthropicai",
       "tags": [
         "model-releases",
@@ -405,7 +403,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-08T19:10:03.000Z",
       "publishedTs": 1788894603000,
-      "score": 150845,
+      "score": 150846,
       "authorHandle": "finkd",
       "tags": [
         "agents"

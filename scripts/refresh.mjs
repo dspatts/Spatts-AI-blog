@@ -460,9 +460,8 @@ async function loadCurated() {
         sourceName: p.sourceName || "Curated",
         sourceHome: p.sourceHome || p.url,
         publishedAt: p.publishedAt || data.harvestedAt || null,
-        publishedTs: p.publishedAt
-          ? Date.parse(p.publishedAt) || (harvestedAt || Date.now()) - i
-          : (harvestedAt || Date.now()) - i,
+        // Curated Top-10 ranking uses harvest order, not article age.
+        publishedTs: (harvestedAt || Date.now()) - i,
         publishGuess: !p.publishedAt,
         curated: fresh,
         tags: Array.isArray(p.tags) ? p.tags : undefined,
@@ -977,7 +976,9 @@ function toCluster(items, clusterId) {
   const sorted = [...items].sort(compareStories);
   const lead = sorted[0];
   const related = uniqueRelated(sorted, lead);
-  const publishedAt = bestPublishedIso(sorted) || publishedIso(lead);
+  // Prefer the lead story's own article clock when known; else earliest real date in the cluster.
+  const leadIso = !lead.publishGuess ? publishedIso(lead) : null;
+  const publishedAt = leadIso || bestPublishedIso(sorted) || publishedIso(lead);
   return {
     ...lead,
     publishedAt,
@@ -1644,7 +1645,7 @@ export async function refreshNews() {
     }
     if (best) {
       curatedPost.publishedAt = best.publishedAt;
-      curatedPost.publishedTs = best.publishedTs;
+      // Keep curated harvest-order ranking; only refresh display date.
       curatedPost.publishGuess = false;
     }
   }
