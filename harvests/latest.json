@@ -1,7 +1,20 @@
 {
-  "harvestedAt": "2026-09-11T15:41:00.000Z",
+  "harvestedAt": "2026-09-11T16:46:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
+    {
+      "title": "Nscale adds former OpenAI exec Fidji Simo to its board ahead of potential IPO",
+      "summary": "TechCrunch (Sep 11): AI cloud firm Nscale appoints former OpenAI apps CEO Fidji Simo to its board as it prepares a potential IPO.",
+      "url": "https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-09-11T16:46:25.000Z",
+      "clusterId": "nscale-fidji-simo-board"
+    },
     {
       "title": "How hackers used Claude for missiles, drone swarms, and surveillance, while Chinese labs mined it for training data",
       "summary": "THE DECODER (Sep 11): Deep dive on Anthropic's threat report — Russia-linked agents rewriting malware, Yemen missile GNC via Claude Code, FPV swarms, Chinese-lab distillation, dual-use biology filter failures.",
@@ -60,20 +73,6 @@
       "clusterId": "meta-ai-invasive-prompts"
     },
     {
-      "title": "Mother Horrified When Meta's AI Scours Instagram and Facebook for Invasive Information About Her Young Daughters",
-      "summary": "Futurism (Sep 10): Viral case study of Meta AI assembling a family dossier from Instagram/Facebook posts and relatives' shares; Meta later said the prompts 'missed the mark.'",
-      "url": "https://futurism.com/artificial-intelligence/mother-horrified-meta-ai-family",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
-      "tags": [
-        "policy",
-        "agents"
-      ],
-      "publishedAt": "2026-09-10T13:29:00.000Z",
-      "clusterId": "meta-ai-invasive-prompts"
-    },
-    {
       "title": "AI's existential crisis explodes but AI companies plunge ahead anyway",
       "summary": "SiliconANGLE (Sep 11): Roundup of the week's extinction-risk preference cascade, lab safety warnings, and why frontier companies are still accelerating.",
       "url": "https://siliconangle.com/2026/09/11/ais-existential-crisis-explodes-but-ai-companies-plunge-ahead-anyway/",
@@ -84,39 +83,26 @@
         "policy",
         "research"
       ],
-      "publishedAt": "2026-09-11T14:00:28.000Z",
-      "clusterId": "ai-existential-crisis-week"
+      "publishedAt": "2026-09-11T14:30:00.000Z",
+      "clusterId": "ai-extinction-preference-cascade"
     },
     {
       "title": "The hard physics and complex economics of AI's insatiable hunger for power",
-      "summary": "SiliconANGLE (Sep 11): Deep dive on data-center power physics, grid constraints, agent token waste, and the economics driving AI's energy buildout backlash.",
+      "summary": "SiliconANGLE (Sep 11): Data-center power demand trajectory, inference vs training energy, and why AI cost/carbon can't be fixed at a single stack layer.",
       "url": "https://siliconangle.com/2026/09/11/the-hard-physics-and-complex-economics-of-ais-insatiable-hunger-for-power/",
       "sourceName": "SiliconANGLE",
       "sourceId": "siliconangle",
       "sourceHome": "https://siliconangle.com/",
       "tags": [
-        "policy",
+        "research",
         "funding"
       ],
       "publishedAt": "2026-09-11T14:30:00.000Z",
-      "clusterId": "ai-power-hunger-economics"
-    },
-    {
-      "title": "OpenAI floats a shared AI slowdown, takes it to Congress",
-      "summary": "THE DECODER (Sep 11): OpenAI asked Congress whether industry-wide frontier slowdown coordination would be legal under antitrust; Altman told staff OpenAI could pace with other labs.",
-      "url": "https://the-decoder.com/openai-floats-a-shared-ai-slowdown-takes-it-to-congress/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-09-11T11:59:19.000Z",
-      "clusterId": "openai-pace-slowdown"
+      "clusterId": "ai-power-hunger-physics"
     },
     {
       "title": "Altman tells staff OpenAI is open to slowing AI development, Bloomberg News reports",
-      "summary": "Reuters (Sep 11): Sam Altman told staff OpenAI is open to pacing frontier development alongside other labs amid safety alarms and recent agent breakouts.",
+      "summary": "Reuters (Sep 11): Citing Bloomberg, Altman told staff OpenAI could pace frontier development alongside other labs amid rising safety pressure after Coxon's resignation.",
       "url": "https://www.reuters.com/business/altman-tells-staff-openai-is-open-slowing-ai-development-bloomberg-news-reports-2026-09-11/",
       "sourceName": "Reuters",
       "sourceId": "reuters",
@@ -124,40 +110,65 @@
       "tags": [
         "policy"
       ],
-      "publishedAt": "2026-09-11T02:33:00.000Z",
+      "publishedAt": "2026-09-11T00:00:00.000Z",
       "clusterId": "openai-pace-slowdown"
     },
     {
-      "title": "AI Models Can Crack Everything But CAPTCHAs",
-      "summary": "Gizmodo (Sep 11): Fresh reporting that frontier models still struggle with CAPTCHAs even as they crack many other security tasks — a practical agent bottleneck.",
-      "url": "https://gizmodo.com/ai-models-can-crack-everything-but-captchas-2000810126",
+      "title": "OpenAI floats a shared AI slowdown, takes it to Congress",
+      "summary": "THE DECODER (Sep 11): OpenAI asks Congress whether industry-wide safety coordination would violate antitrust; Altman and Pachocki float pacing with other labs.",
+      "url": "https://the-decoder.com/openai-floats-a-shared-ai-slowdown-takes-it-to-congress/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-09-11T12:00:00.000Z",
+      "clusterId": "openai-pace-slowdown"
+    },
+    {
+      "title": "Tencent-backed Enflame nearly triples in Shanghai debut on AI chip demand bets",
+      "summary": "Reuters (Sep 11): Shanghai Enflame closed ~179% up after a $912M IPO, underscoring China AI-chip listing mania as Nvidia alternatives.",
+      "url": "https://www.reuters.com/world/asia-pacific/tencent-backed-enflame-open-up-188-shanghai-debut-after-912-million-ipo-2026-09-11/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-09-11T00:00:00.000Z",
+      "clusterId": "enflame-shanghai-ipo"
+    },
+    {
+      "title": "NYU Mathematician Embroiled in AI Controversy Says the Machines Have Won: 'The Game Is Up'",
+      "summary": "Gizmodo (Sep 11): NYU mathematician in the OpenAI Navier–Stokes/proof dispute says AI has permanently changed mathematical research practice.",
+      "url": "https://gizmodo.com/nyu-mathematician-embroiled-in-ai-controversy-says-the-machines-have-won-the-game-is-up-2000810605",
       "sourceName": "Gizmodo",
       "sourceId": "gizmodo",
       "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
       "tags": [
         "research",
-        "agents"
+        "policy"
       ],
-      "publishedAt": "2026-09-11T12:00:53.000Z",
-      "clusterId": "ai-captcha-hard-case"
+      "publishedAt": "2026-09-11T16:45:00.000Z",
+      "clusterId": "openai-navier-stokes-drama"
     },
     {
-      "title": "Anthropic reveals rogue AI agents hate CAPTCHAs, just like you",
-      "summary": "TechCrunch (Sep 10): Anthropic's threat intel notes CAPTCHAs remain a stubborn blocker for otherwise capable rogue agents.",
-      "url": "https://techcrunch.com/2026/09/10/anthropic-reveals-rogue-ai-agents-hate-captchas-just-like-you/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "title": "Trump Shrugs Off Warnings That AI Could Cause Human Extinction",
+      "summary": "Gizmodo (Sep 11): Coverage of Trump downplaying extinction-risk warnings as Anthropic/OpenAI staff speak out after Coxon's resignation.",
+      "url": "https://gizmodo.com/trump-shrugs-off-warnings-that-ai-could-cause-human-extinction-2000810553",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
       "tags": [
-        "research",
-        "agents"
+        "policy"
       ],
-      "publishedAt": "2026-09-10T17:54:44.000Z",
-      "clusterId": "ai-captcha-hard-case"
+      "publishedAt": "2026-09-11T15:45:27.000Z",
+      "clusterId": "ai-extinction-preference-cascade"
     },
     {
       "title": "Class action lawsuit accuses Anthropic of overselling Claude subscriptions with deceptive usage multipliers",
-      "summary": "THE DECODER (Sep 11): Class action says Anthropic Max plan 5x/20x usage multipliers are further capped by 5-hour windows and weekly limits, so real usage falls short of ads.",
+      "summary": "THE DECODER (Sep 11): Max-plan subscribers allege advertised 5×/20× multipliers are undercut by rolling and weekly caps; Anthropic seeks dismissal.",
       "url": "https://the-decoder.com/class-action-lawsuit-accuses-anthropic-of-overselling-claude-subscriptions-with-deceptive-usage-multipliers/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
@@ -165,12 +176,12 @@
       "tags": [
         "policy"
       ],
-      "publishedAt": "2026-09-11T09:45:58.000Z",
+      "publishedAt": "2026-09-11T12:00:00.000Z",
       "clusterId": "anthropic-max-usage-lawsuit"
     },
     {
       "title": "The Mathematical AI Safety Institute wants to prove AI is safe the way cryptographers prove codes are unbreakable",
-      "summary": "THE DECODER (Sep 11): Fields Medalist Jacob Tsimerman launches MAISI (Bay Area, Jan 2027) for cryptographic-style AI safety proofs; he is also joining OpenAI's safety team.",
+      "summary": "THE DECODER (Sep 11): Fields medalist Jacob Tsimerman launches MAISI to seek formal proofs for AI safety; also joining OpenAI's safety team.",
       "url": "https://the-decoder.com/the-mathematical-ai-safety-institute-wants-to-prove-ai-is-safe-the-way-cryptographers-prove-codes-are-unbreakable/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
@@ -179,23 +190,8 @@
         "research",
         "policy"
       ],
-      "publishedAt": "2026-09-11T09:15:10.000Z",
-      "clusterId": "maisi-ai-safety-institute"
-    },
-    {
-      "title": "Anthropic says AI now lets lone operators run state-level hacking campaigns",
-      "summary": "SiliconANGLE (Sep 10): Anthropic threat reporting says AI now enables lone operators to run campaigns at a scale once associated with state actors.",
-      "url": "https://siliconangle.com/2026/09/10/anthropic-says-ai-now-lets-lone-operators-run-state-level-hacking-campaigns/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "policy",
-        "agents",
-        "research"
-      ],
-      "publishedAt": "2026-09-10T22:50:10.000Z",
-      "clusterId": "anthropic-threat-intel-sep2026"
+      "publishedAt": "2026-09-11T12:00:00.000Z",
+      "clusterId": "maisi-math-ai-safety"
     },
     {
       "title": "OpenAI puts Pro subscriptions on hold due to Astra demand",
@@ -225,6 +221,20 @@
       "clusterId": "anthropic-threat-intel-sep2026"
     },
     {
+      "title": "Anthropic reveals rogue AI agents hate CAPTCHAs, just like you",
+      "summary": "TechCrunch (Sep 10): Anthropic threat intel notes Claude-powered agents frequently stall on CAPTCHAs during automated attack chains.",
+      "url": "https://techcrunch.com/2026/09/10/anthropic-reveals-rogue-ai-agents-hate-captchas-just-like-you/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "agents",
+        "policy"
+      ],
+      "publishedAt": "2026-09-10T19:00:00.000Z",
+      "clusterId": "anthropic-threat-intel-sep2026"
+    },
+    {
       "title": "Introducing the Agents API",
       "summary": "OpenAI (Sep 10): Managed Agents API (Codex harness) for cloud agents with long-running sessions, orchestration, and tool use — public beta.",
       "url": "https://openai.com/index/introducing-the-agents-api",
@@ -239,35 +249,22 @@
       "clusterId": "openai-agents-api"
     },
     {
-      "title": "Meta's AI agent Muse is now the No. 2 app in the US",
-      "summary": "TechCrunch (Sep 10): Meta's Muse AI agent app climbed to No. 2 in the US App Store.",
-      "url": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "title": "Introducing ChatGPT for Financial Services",
+      "summary": "OpenAI (Sep 10): ChatGPT Financial Services product for regulated workflows — compliance-oriented tooling for finance teams.",
+      "url": "https://openai.com/index/introducing-chatgpt-financial-services",
+      "sourceName": "OpenAI News",
+      "sourceId": "openai",
+      "sourceHome": "https://openai.com/news/",
       "tags": [
-        "agents"
+        "agents",
+        "model-releases"
       ],
-      "publishedAt": "2026-09-10T19:50:04.000Z",
-      "clusterId": "meta-muse-agent"
-    },
-    {
-      "title": "DeepSeek releases V4.1-Flash, says it outperforms flagship V4-Pro",
-      "summary": "SiliconANGLE (Sep 10): DeepSeek ships V4.1-Flash claiming better agent/memory efficiency and outperformance vs V4-Pro on selected benches.",
-      "url": "https://siliconangle.com/2026/09/10/deepseek-releases-v4-1-flash-says-it-outperforms-flagship-v4-pro/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "model-releases",
-        "agents"
-      ],
-      "publishedAt": "2026-09-10T23:45:40.000Z",
-      "clusterId": "deepseek-v41-flash"
+      "publishedAt": "2026-09-10T07:00:00.000Z",
+      "clusterId": "openai-chatgpt-financial"
     },
     {
       "title": "Jensen Huang explains why Nvidia will grow an astounding 70% next year",
-      "summary": "TechCrunch (Sep 10): At Goldman Sachs Communacopia, Huang reiterates ~70% YoY revenue outlook (~$680B) and argues Nvidia's platform visibility across labs, clouds, and GW buildouts justifies confidence.",
+      "summary": "TechCrunch (Sep 10): At Goldman Sachs Communacopia, Huang reiterates ~70% YoY revenue outlook and platform visibility across labs and GW buildouts.",
       "url": "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -286,7 +283,7 @@
       "url": "https://x.com/validapau/status/2096629089851297894",
       "via": "@validapau",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T15:41:00.000Z",
+      "harvestedAt": "2026-09-11T16:46:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -297,7 +294,7 @@
       "url": "https://x.com/amir/status/2095678832535843209",
       "via": "@amir",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T15:41:00.000Z",
+      "harvestedAt": "2026-09-11T16:46:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -308,7 +305,7 @@
       "url": "https://x.com/validapau/status/2092788937186045962",
       "via": "@validapau",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T15:41:00.000Z",
+      "harvestedAt": "2026-09-11T16:46:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -319,7 +316,7 @@
       "url": "https://x.com/AndrewCurran_/status/2096062392442724805",
       "via": "@AndrewCurran_",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T15:41:00.000Z",
+      "harvestedAt": "2026-09-11T16:46:00.000Z",
       "tags": [
         "rumor"
       ]
