@@ -1,5 +1,5 @@
 {
-  "harvestedAt": "2026-09-11T11:18:00.000Z",
+  "harvestedAt": "2026-09-11T11:42:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
@@ -98,18 +98,18 @@
       "publishedAt": "2026-09-10T20:59:51.000Z"
     },
     {
-      "title": "OpenAI's new Agents API gives developers the infrastructure behind Codex and ChatGPT",
-      "summary": "THE DECODER (Sep 11): Agents API beta lets apps run long-lived cloud agents with MCP/custom tools and partner sandboxes (Cloudflare, Vercel, Oracle).",
-      "url": "https://the-decoder.com/openais-new-agents-api-gives-developers-the-infrastructure-behind-codex-and-chatgpt/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
+      "title": "Introducing the Agents API",
+      "summary": "OpenAI (Sep 10): Agents API gives developers the cloud agent infrastructure behind Codex and ChatGPT — long-lived agents with tools/MCP and partner sandboxes.",
+      "url": "https://openai.com/index/introducing-the-agents-api",
+      "sourceName": "OpenAI News",
+      "sourceId": "openai",
+      "sourceHome": "https://openai.com/news/",
       "tags": [
         "agents",
         "model-releases"
       ],
       "clusterId": "openai-agents-api",
-      "publishedAt": "2026-09-11T08:11:46.000Z"
+      "publishedAt": "2026-09-10T00:00:00.000Z"
     },
     {
       "title": "Introducing ChatGPT for Financial Services",
@@ -169,7 +169,7 @@
     },
     {
       "title": "DeepSeek releases V4.1-Flash, says it outperforms flagship V4-Pro",
-      "summary": "SiliconANGLE (Sep 10): DeepSeek ships V4.1-Flash (MoE, MIT weights); claims it beats V4-Pro on agent/coding benches with much smaller KV cache. (VB RSS 429 this cycle — SA used.)",
+      "summary": "SiliconANGLE (Sep 10): DeepSeek ships V4.1-Flash (MoE, MIT weights); claims it beats V4-Pro on agent/coding benches with much smaller KV cache. (VB RSS 429 — SA used.)",
       "url": "https://siliconangle.com/2026/09/10/deepseek-releases-v4-1-flash-says-it-outperforms-flagship-v4-pro/",
       "sourceName": "SiliconANGLE",
       "sourceId": "siliconangle",
@@ -249,6 +249,19 @@
       "publishedAt": "2026-09-10T22:52:28.000Z"
     },
     {
+      "title": "Salesforce introduces Enterprise AI Harness, AI Control Plane",
+      "summary": "SiliconANGLE (Sep 10): Salesforce launches Enterprise AI Harness / AI Control Plane to govern multiple agent platforms enterprises already run.",
+      "url": "https://siliconangle.com/2026/09/10/salesforce-introduces-enterprise-ai-harness-ai-control-plane/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "agents"
+      ],
+      "clusterId": "salesforce-enterprise-ai-harness",
+      "publishedAt": "2026-09-11T00:19:52.000Z"
+    },
+    {
       "title": "Mathematicians want proof OpenAI didn’t use their work",
       "summary": "The Verge (Sep 10): A second mathematician challenges OpenAI over math training-data provenance after the Millennium Prize-style breakthrough row.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data",
@@ -270,7 +283,7 @@
       "url": "https://x.com/validapau/status/2096629089851297894",
       "via": "@validapau",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T11:18:00.000Z",
+      "harvestedAt": "2026-09-11T11:42:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -281,7 +294,7 @@
       "url": "https://x.com/amir/status/2095678832535843209",
       "via": "@amir",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T11:18:00.000Z",
+      "harvestedAt": "2026-09-11T11:42:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -292,7 +305,7 @@
       "url": "https://x.com/validapau/status/2092788937186045962",
       "via": "@validapau",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T11:18:00.000Z",
+      "harvestedAt": "2026-09-11T11:42:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -303,7 +316,7 @@
       "url": "https://x.com/AndrewCurran_/status/2096062392442724805",
       "via": "@AndrewCurran_",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T11:18:00.000Z",
+      "harvestedAt": "2026-09-11T11:42:00.000Z",
       "tags": [
         "rumor"
       ]
