@@ -1,7 +1,46 @@
 {
-  "harvestedAt": "2026-09-11T20:10:00.000Z",
+  "harvestedAt": "2026-09-11T20:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
+    {
+      "title": "Chinese AI chip developer Enflame raises $912M in IPO",
+      "summary": "SiliconANGLE (Sep 11): Shanghai Enflame’s STAR-market debut raised ~6.12B yuan (~$912M); shares closed ~179% higher for ~$25.5B market cap. Tencent is top customer (~83% of 2025 revenue) and largest shareholder (~18% post-IPO). Fourth Chinese AI-chip IPO in a year after Biren, MetaX, Moore Threads.",
+      "url": "https://siliconangle.com/2026/09/11/chinese-ai-chip-developer-enflame-raises-912m-in-ipo/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-09-11T20:54:40.000Z",
+      "clusterId": "enflame-ipo-912m"
+    },
+    {
+      "title": "Lawyer fined $5K over AI-hallucinated witnesses in a murder case",
+      "summary": "The Verge (Sep 11): New Mexico Supreme Court holds Stephen Aarons in contempt and fines $5,000 after a ChatGPT-assisted murder-appeal brief cited wholly fabricated witnesses and false police testimony; justice asks if counsel ‘watch[es] the news’ about AI hallucinations.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/994207/chatgpt-new-mexico-lawyer-fined-murder-appeal",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-09-11T20:44:02.000Z",
+      "clusterId": "nm-chatgpt-lawyer-fine"
+    },
+    {
+      "title": "ChatGPT-using lawyer punished for citing fake testimony from made-up witnesses",
+      "summary": "Ars Technica (Sep 11): Same NM Supreme Court contempt order — Aarons admitted not verifying ChatGPT output; barred from appearing pending discipline; client gets new counsel after fake cops and witnesses in the brief.",
+      "url": "https://arstechnica.com/tech-policy/2026/09/chatgpt-using-lawyer-punished-for-citing-fake-testimony-from-made-up-witnesses/",
+      "sourceName": "Ars Technica",
+      "sourceId": "arstechnica",
+      "sourceHome": "https://arstechnica.com/tag/artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-09-11T19:34:09.000Z",
+      "clusterId": "nm-chatgpt-lawyer-fine"
+    },
     {
       "title": "Kimi-maker Moonshot AI targets $2 billion in annual revenue",
       "summary": "TechCrunch (Sep 11): Bloomberg-sourced report that Moonshot (Kimi/K3) is targeting ~$2B annualized revenue by year-end after August ARR ~$1B; open-weight margins thinner than closed labs, amid Anthropic distillation accusations.",
@@ -79,28 +118,29 @@
       "sourceId": "decoder",
       "sourceHome": "https://the-decoder.com/",
       "tags": [
-        "research"
+        "research",
+        "agents"
       ],
       "publishedAt": "2026-09-11T17:57:42.000Z",
       "clusterId": "vinyals-rsi-bottlenecks"
     },
     {
       "title": "Deep learning pioneer Bengio argues the training process itself makes AI dangerous",
-      "summary": "THE DECODER (Sep 11): Yoshua Bengio warns goal-optimizing agents can learn deception and reward hacking, urging independent safety reviews before further training or deployment.",
+      "summary": "THE DECODER (Sep 11): Yoshua Bengio warns goal-optimizing agents get better at deception, reward hacking, and coordination; points to training dynamics (imitation + RL) as the root — amid Trump dismissing extinction risk.",
       "url": "https://the-decoder.com/deep-learning-pioneer-bengio-argues-the-training-process-itself-makes-ai-dangerous/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
       "sourceHome": "https://the-decoder.com/",
       "tags": [
-        "policy",
-        "research"
+        "research",
+        "policy"
       ],
       "publishedAt": "2026-09-11T17:22:18.000Z",
       "clusterId": "bengio-training-danger"
     },
     {
       "title": "Nscale adds former OpenAI exec Fidji Simo to its board ahead of potential IPO",
-      "summary": "TechCrunch (Sep 11): AI cloud firm Nscale appoints former OpenAI apps CEO Fidji Simo to its board as it prepares a potential IPO.",
+      "summary": "TechCrunch (Sep 11): AI infra firm Nscale adds OpenAI No. 2 / ex-Instacart CEO Fidji Simo to its board amid IPO chatter.",
       "url": "https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -113,20 +153,21 @@
     },
     {
       "title": "NYU Mathematician Embroiled in AI Controversy Says the Machines Have Won: ‘The Game Is Up’",
-      "summary": "Gizmodo (Sep 11): Erwin Buckmaster says OpenAI’s claimed math breakthrough ends the debate over whether AI can do real research mathematics.",
+      "summary": "Gizmodo (Sep 11): NYU mathematician in the OpenAI math-breakthrough attribution fight says private ChatGPT chats and lab claims leave researchers outmatched — ‘the game is up.’",
       "url": "https://gizmodo.com/nyu-mathematician-embroiled-in-ai-controversy-says-the-machines-have-won-the-game-is-up-2000810605",
       "sourceName": "Gizmodo",
       "sourceId": "gizmodo",
       "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
       "tags": [
-        "research"
+        "research",
+        "policy"
       ],
       "publishedAt": "2026-09-11T16:45:00.000Z",
       "clusterId": "openai-math-breakthrough-drama"
     },
     {
       "title": "Anthropic spent this week in hot water over cybersecurity",
-      "summary": "The Verge (Sep 11): Anthropic faces a rough week on cyber misuse disclosures, Claude safeguards, and related safety headlines.",
+      "summary": "The Verge (Sep 11): Roundup of Anthropic’s rough cyber week — researcher resignation cascade plus threat-intel disclosures on Claude misuse for hacking, weapons, and surveillance.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/994064/anthropic-spent-this-week-in-hot-water-over-cybersecurity",
       "sourceName": "The Verge",
       "sourceId": "theverge",
@@ -140,13 +181,13 @@
     },
     {
       "title": "The hard physics and complex economics of AI’s insatiable hunger for power",
-      "summary": "SiliconANGLE (Sep 11): Analysis of power, cooling, and economics constraining AI data-center buildout.",
+      "summary": "SiliconANGLE (Sep 11): Data-center power demand unites unlikely opponents; physics and grid economics of frontier AI training/inference vs local backlash.",
       "url": "https://siliconangle.com/2026/09/11/the-hard-physics-and-complex-economics-of-ais-insatiable-hunger-for-power/",
       "sourceName": "SiliconANGLE",
       "sourceId": "siliconangle",
       "sourceHome": "https://siliconangle.com/",
       "tags": [
-        "research",
+        "policy",
         "funding"
       ],
       "publishedAt": "2026-09-11T14:30:29.000Z",
@@ -154,7 +195,7 @@
     },
     {
       "title": "Meta says it’s changing AI suggestions after posing invasive personal questions",
-      "summary": "The Verge (Sep 11): Meta will revise AI prompt suggestions after users reported invasive personal questions from Meta AI.",
+      "summary": "The Verge (Sep 11): Meta says it will change Muse/AI suggestion behavior after the assistant asked users invasive personal questions.",
       "url": "https://www.theverge.com/tech/993974/meta-ai-prompt-invasive-suggestions",
       "sourceName": "The Verge",
       "sourceId": "theverge",
@@ -167,22 +208,23 @@
       "clusterId": "meta-ai-invasive-prompts"
     },
     {
-      "title": "AI’s existential crisis explodes but AI companies plunge ahead anyway",
-      "summary": "SiliconANGLE (Sep 11): Coxon resignation and extinction-risk cascade collide with labs racing toward IPOs and continued frontier pushes.",
-      "url": "https://siliconangle.com/2026/09/11/ais-existential-crisis-explodes-but-ai-companies-plunge-ahead-anyway/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
+      "title": "How Anthropic says Claude was used for weapons, spying and cyber operations",
+      "summary": "Reuters (Sep 11): Deep dive on Anthropic’s threat report — alleged Claude misuse spanning conventional weapons software, bio-research attempts, Russia/China cyber ops, and surveillance-as-a-service cases Anthropic says it disrupted.",
+      "url": "https://www.reuters.com/world/china/how-anthropic-says-claude-was-used-weapons-spying-cyber-operations-2026-09-11/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
       "tags": [
-        "policy"
+        "policy",
+        "agents"
       ],
-      "publishedAt": "2026-09-11T14:00:28.000Z",
-      "clusterId": "ai-extinction-preference-cascade"
+      "publishedAt": "2026-09-11T14:00:00.000Z",
+      "clusterId": "anthropic-threat-report-claude-misuse"
     },
     {
-      "title": "How hackers used Claude for missiles, drone swarms, and surveillance, while Chinese labs mirrored the models",
-      "summary": "THE DECODER (Sep 11): Roundup of Anthropic’s threat report on Claude misuse for weapons/surveillance and distillation attempts by Chinese labs.",
-      "url": "https://the-decoder.com/how-hackers-used-claude-for-missiles-drone-swarms-and-surveillance-while-chinese-labs-mirrored-the-models/",
+      "title": "How hackers used Claude for missiles, drone swarms, and surveillance, while Chinese labs mined it for training data",
+      "summary": "THE DECODER (Sep 11): Anthropic threat intel — Claude misuse for missiles/drones/surveillance plus alleged Chinese lab distillation campaigns.",
+      "url": "https://the-decoder.com/how-hackers-used-claude-for-missiles-drone-swarms-and-surveillance-while-chinese-labs-mined-it-for-training-data/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
       "sourceHome": "https://the-decoder.com/",
@@ -195,7 +237,7 @@
     },
     {
       "title": "Claude users found ways around safeguards for bioweapons research",
-      "summary": "Ars Technica (Sep 11): Dangerous biology often looks like legitimate research, complicating AI lab safeguards — Anthropic reports Claude misuse attempts.",
+      "summary": "Ars Technica (Sep 11): Anthropic says some dangerous biology looks like legitimate research, complicating classifiers; details disrupted misuse cases tied to pathogen research.",
       "url": "https://arstechnica.com/ai/2026/09/claude-users-found-ways-around-safeguards-for-bioweapons-research/",
       "sourceName": "Ars Technica",
       "sourceId": "arstechnica",
@@ -223,7 +265,7 @@
     },
     {
       "title": "OpenAI floats a shared AI slowdown, takes it to Congress",
-      "summary": "THE DECODER (Sep 11): OpenAI signals openness to pacing frontier development alongside other labs and brings the idea into the US policy conversation.",
+      "summary": "THE DECODER (Sep 11): OpenAI signals openness to pacing frontier development alongside other labs and brings antitrust/legality questions into the US policy conversation.",
       "url": "https://the-decoder.com/openai-floats-a-shared-ai-slowdown-takes-it-to-congress/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
@@ -233,46 +275,6 @@
       ],
       "publishedAt": "2026-09-11T11:59:19.000Z",
       "clusterId": "openai-pace-slowdown"
-    },
-    {
-      "title": "Altman tells staff OpenAI is open to slowing AI development, Bloomberg News reports",
-      "summary": "Reuters (Sep 11): Sam Altman told employees OpenAI could pace development with other labs amid safety alarms and recent rogue-agent incidents; Anthropic also signals interest in industry pacing.",
-      "url": "https://www.reuters.com/business/altman-tells-staff-openai-is-open-slowing-ai-development-bloomberg-news-reports-2026-09-11/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-09-11T02:33:00.000Z",
-      "clusterId": "openai-pace-slowdown"
-    },
-    {
-      "title": "DeepSeek releases V4.1-Flash, says it outperforms flagship V4-Pro",
-      "summary": "SiliconANGLE (Sep 10): DeepSeek launches open-weight V4.1-Flash, claiming third-party tests put the smaller model ahead of larger V4-Pro on key benchmarks. (VB category WebFetch also covered Sep 10; VB feed/curl 429 this cycle.)",
-      "url": "https://siliconangle.com/2026/09/10/deepseek-releases-v4-1-flash-says-it-outperforms-flagship-v4-pro/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-09-10T23:45:40.000Z",
-      "clusterId": "deepseek-v4-1-flash"
-    },
-    {
-      "title": "Introducing North Small Translate: A leading sovereign open-weight machine translation model",
-      "summary": "AI/TLDR → Cohere (Sep 10): Cohere Labs ships North Small Translate (218B MoE / 25B active), scoring 83.60 on WMT26 All Languages vs DeepL NextGen 81.37; open weights CC BY-NC on Hugging Face.",
-      "url": "https://cohere.com/blog/north-small-translate",
-      "sourceName": "AI/TLDR",
-      "sourceId": "ai-tldr",
-      "sourceHome": "https://ai-tldr.dev/",
-      "tags": [
-        "model-releases",
-        "research"
-      ],
-      "publishedAt": "2026-09-10T16:00:00.000Z",
-      "clusterId": "cohere-north-small-translate"
     }
   ],
   "rumors": [
@@ -282,7 +284,7 @@
       "url": "https://x.com/validapau/status/2096629089851297894",
       "via": "@validapau",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T20:10:00.000Z",
+      "harvestedAt": "2026-09-11T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -293,7 +295,7 @@
       "url": "https://x.com/amir/status/2095678832535843209",
       "via": "@amir",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T20:10:00.000Z",
+      "harvestedAt": "2026-09-11T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -304,7 +306,7 @@
       "url": "https://x.com/validapau/status/2092788937186045962",
       "via": "@validapau",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T20:10:00.000Z",
+      "harvestedAt": "2026-09-11T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -315,7 +317,7 @@
       "url": "https://x.com/synthwavedd/status/2092326145270456377",
       "via": "@synthwavedd",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T20:10:00.000Z",
+      "harvestedAt": "2026-09-11T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
