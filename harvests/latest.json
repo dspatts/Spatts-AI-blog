@@ -1,7 +1,20 @@
 {
-  "harvestedAt": "2026-09-11T21:05:00.000Z",
+  "harvestedAt": "2026-09-11T21:40:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
+    {
+      "title": "Dynatrace and Arize AI push observability from detection toward action",
+      "summary": "SiliconANGLE (Sep 11): Dynatrace’s Arize AI deal frames enterprise observability for nondeterministic agents — evaluation/quality, shared app+AI telemetry, and machine-consumable context so agents can diagnose/remediate, not just dashboard alerts.",
+      "url": "https://siliconangle.com/2026/09/11/observability-ai-agents-dynatrace-arize-appdevangle/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-09-11T21:17:44.000Z",
+      "clusterId": "dynatrace-arize-agent-observability"
+    },
     {
       "title": "Y Combinator’s Garry Tan wants U.S. open-weight AI labs to ‘distill’ frontier models, too",
       "summary": "TechCrunch (Sep 11): YC’s Garry Tan tells CNBC/TechCrunch U.S. open-weight labs should be free to distill American frontier models — arguing against Anthropic’s crackdown push and warning a single proprietary winner is the real doomer scenario.",
@@ -181,19 +194,6 @@
       "clusterId": "meta-muse-agent"
     },
     {
-      "title": "Nscale adds former OpenAI exec Fidji Simo to its board ahead of potential IPO",
-      "summary": "TechCrunch (Sep 11): AI infra firm Nscale adds OpenAI No. 2 / ex-Instacart CEO Fidji Simo to its board amid IPO chatter.",
-      "url": "https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-09-11T16:46:25.000Z",
-      "clusterId": "nscale-fidji-simo-board"
-    },
-    {
       "title": "NYU Mathematician Embroiled in AI Controversy Says the Machines Have Won: ‘The Game Is Up’",
       "summary": "Gizmodo (Sep 11): NYU mathematician in the OpenAI math-breakthrough attribution fight says private ChatGPT chats and lab claims leave researchers outmatched — ‘the game is up.’",
       "url": "https://gizmodo.com/nyu-mathematician-embroiled-in-ai-controversy-says-the-machines-have-won-the-game-is-up-2000810605",
@@ -285,7 +285,7 @@
       "url": "https://x.com/validapau/status/2096629089851297894",
       "via": "@validapau",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T21:05:00.000Z",
+      "harvestedAt": "2026-09-11T21:40:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -296,7 +296,7 @@
       "url": "https://x.com/amir/status/2095678832535843209",
       "via": "@amir",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T21:05:00.000Z",
+      "harvestedAt": "2026-09-11T21:40:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -307,7 +307,7 @@
       "url": "https://x.com/validapau/status/2092788937186045962",
       "via": "@validapau",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T21:05:00.000Z",
+      "harvestedAt": "2026-09-11T21:40:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -318,7 +318,7 @@
       "url": "https://x.com/synthwavedd/status/2092326145270456377",
       "via": "@synthwavedd",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T21:05:00.000Z",
+      "harvestedAt": "2026-09-11T21:40:00.000Z",
       "tags": [
         "rumor"
       ]
