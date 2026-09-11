@@ -1282,7 +1282,7 @@ function rumorCard(rumor) {
   const iso = rumor.harvestedAt || rumor.publishedAt;
   const stamp = timeHtml(iso);
   const age = formatAge(iso);
-  const when = ["X", stamp || escapeHtml(age)].filter(Boolean).join(" · ");
+  const when = escapeHtml(age) ? `X · ${escapeHtml(age)}` : (stamp ? `X · ${stamp}` : "X");
   const viaHref = rumorViaHref(rumor);
   return `<article class="rumor">
   <div class="rumor-kicker">
@@ -1406,7 +1406,7 @@ function renderHtml(payload) {
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css?v=rumor-rect-1">
+  <link rel="stylesheet" href="./styles.css?v=rumor-wide-3">
   <link rel="icon" href="./favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16.png">
