@@ -165,8 +165,8 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-11T08:23:17.906Z",
-  "refreshedAt": "2026-09-11T08:23:17.906Z",
+  "briefingDate": "2026-09-11T09:07:50.105Z",
+  "refreshedAt": "2026-09-11T09:07:50.105Z",
   "preferCurated": true,
   "posts": [
     {
@@ -303,6 +303,25 @@
       "clusterSize": 2
     },
     {
+      "id": "decoder:https://the-decoder.com/anthropics-1-5-billion-book-settlement-descends-into-chaos-as-authors-and-publishers-fight-over-who-gets-paid/",
+      "url": "https://the-decoder.com/anthropics-1-5-billion-book-settlement-descends-into-chaos-as-authors-and-publishers-fight-over-who-gets-paid/",
+      "title": "Anthropic's $1.5 billion book settlement descends into chaos as authors and publishers fight over who gets paid",
+      "summary": "Authors and publishers fight over how to split Anthropic's $1.5 billion settlement, the largest copyright deal in US history.",
+      "sourceId": "decoder",
+      "sourceName": "THE DECODER",
+      "sourceHome": "https://the-decoder.com/",
+      "publishedAt": "2026-09-11T08:40:01.000Z",
+      "publishedTs": 1789116001000,
+      "tags": [
+        "model-releases",
+        "funding",
+        "policy"
+      ],
+      "related": [],
+      "clusterId": "auto:anthropic-s-1-5-billion-book-settlement-descends",
+      "clusterSize": 1
+    },
+    {
       "id": "siliconangle:https://siliconangle.com/2026/09/10/extreme-networks-agent-one-coworker-moves-ai-networking-from-dashboards-to-answers/",
       "url": "https://siliconangle.com/2026/09/10/extreme-networks-agent-one-coworker-moves-ai-networking-from-dashboards-to-answers/",
       "title": "Extreme Networks’ Agent ONE Coworker moves AI networking from dashboards to answers",
@@ -320,23 +339,6 @@
       "clusterSize": 1
     },
     {
-      "id": "siliconangle:https://siliconangle.com/2026/09/10/openai-targets-wall-street-bankers-with-a-new-version-of-chatgpt/",
-      "url": "https://siliconangle.com/2026/09/10/openai-targets-wall-street-bankers-with-a-new-version-of-chatgpt/",
-      "title": "OpenAI targets Wall Street bankers with a new version of ChatGPT",
-      "summary": "OpenAI Group PBC is going after Wall Street with a new version of ChatGPT that’s tailor made for financial tasks such as analysis and…",
-      "sourceId": "siliconangle",
-      "sourceName": "SiliconANGLE",
-      "sourceHome": "https://siliconangle.com/",
-      "publishedAt": "2026-09-11T01:54:51.000Z",
-      "publishedTs": 1789091691000,
-      "tags": [
-        "model-releases"
-      ],
-      "related": [],
-      "clusterId": "auto:openai-targets-wall-street-bankers-with-a-new-ve",
-      "clusterSize": 1
-    },
-    {
       "id": "x:2097374640582668336",
       "url": "https://x.com/OpenAI/status/2097374640582668336",
       "title": "We’re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the…",
@@ -346,7 +348,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-08T17:20:56.000Z",
       "publishedTs": 1788888056000,
-      "score": 890482,
+      "score": 890655,
       "authorHandle": "openai",
       "tags": [
         "model-releases",
@@ -375,7 +377,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-10T17:13:22.000Z",
       "publishedTs": 1789060402000,
-      "score": 246635,
+      "score": 258184,
       "authorHandle": "anthropicai",
       "tags": [
         "model-releases",
@@ -395,7 +397,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-08T19:10:03.000Z",
       "publishedTs": 1788894603000,
-      "score": 150829,
+      "score": 150841,
       "authorHandle": "finkd",
       "tags": [
         "agents"
