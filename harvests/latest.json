@@ -1,7 +1,21 @@
 {
-  "harvestedAt": "2026-09-11T19:31:00.000Z",
+  "harvestedAt": "2026-09-11T20:10:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
+    {
+      "title": "Kimi-maker Moonshot AI targets $2 billion in annual revenue",
+      "summary": "TechCrunch (Sep 11): Bloomberg-sourced report that Moonshot (Kimi/K3) is targeting ~$2B annualized revenue by year-end after August ARR ~$1B; open-weight margins thinner than closed labs, amid Anthropic distillation accusations.",
+      "url": "https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "funding",
+        "model-releases"
+      ],
+      "publishedAt": "2026-09-11T19:35:54.000Z",
+      "clusterId": "moonshot-2b-arr"
+    },
     {
       "title": "Never Forget, AI Slop Is Polluting 9/11 History on the Internet as We Speak",
       "summary": "Gizmodo (Sep 11): AI-generated junk is flooding anniversary coverage and search results, muddying the historical record around 9/11.",
@@ -45,7 +59,7 @@
     },
     {
       "title": "Oracle tries to appease Stargate data center opponents with renewables push",
-      "summary": "Ars Technica (Sep 11): Oracle pledges ~2 GW of renewables to match Stargate data-center emissions amid local opposition.",
+      "summary": "Ars Technica (Sep 11): Oracle pledges ~2 GW of renewables to match Stargate/Project Jupiter emissions amid New Mexico opposition; fuel cells still gas-fired.",
       "url": "https://arstechnica.com/gadgets/2026/09/oracle-promises-2-gw-of-renewables-to-match-stargate-data-center-emissions/",
       "sourceName": "Ars Technica",
       "sourceId": "arstechnica",
@@ -83,20 +97,6 @@
       ],
       "publishedAt": "2026-09-11T17:22:18.000Z",
       "clusterId": "bengio-training-danger"
-    },
-    {
-      "title": "Meta Releases Uber-Creepy AI Chatbot as Its Platforms Crumble Under Grotesque Child Abuse",
-      "summary": "Futurism (Sep 11): Meta's Muse AI chatbot draws creepiness criticism amid broader platform child-safety scandals.",
-      "url": "https://futurism.com/artificial-intelligence/meta-creepy-ai-chatbot-muse",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
-      "tags": [
-        "agents",
-        "policy"
-      ],
-      "publishedAt": "2026-09-11T17:09:46.000Z",
-      "clusterId": "meta-muse-creepy-chatbot"
     },
     {
       "title": "Nscale adds former OpenAI exec Fidji Simo to its board ahead of potential IPO",
@@ -139,19 +139,6 @@
       "clusterId": "anthropic-cyber-hot-water"
     },
     {
-      "title": "Trump Shrugs Off Warnings That AI Could Cause Human Extinction",
-      "summary": "Gizmodo (Sep 11): Reporting on the White House dismissing extinction-risk warnings as AI labs race ahead.",
-      "url": "https://gizmodo.com/trump-shrugs-off-warnings-that-ai-could-cause-human-extinction-2000810553",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-09-11T15:45:27.000Z",
-      "clusterId": "trump-ai-extinction-shrug"
-    },
-    {
       "title": "The hard physics and complex economics of AI’s insatiable hunger for power",
       "summary": "SiliconANGLE (Sep 11): Analysis of power, cooling, and economics constraining AI data-center buildout.",
       "url": "https://siliconangle.com/2026/09/11/the-hard-physics-and-complex-economics-of-ais-insatiable-hunger-for-power/",
@@ -178,6 +165,19 @@
       ],
       "publishedAt": "2026-09-11T14:25:21.000Z",
       "clusterId": "meta-ai-invasive-prompts"
+    },
+    {
+      "title": "AI’s existential crisis explodes but AI companies plunge ahead anyway",
+      "summary": "SiliconANGLE (Sep 11): Coxon resignation and extinction-risk cascade collide with labs racing toward IPOs and continued frontier pushes.",
+      "url": "https://siliconangle.com/2026/09/11/ais-existential-crisis-explodes-but-ai-companies-plunge-ahead-anyway/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-09-11T14:00:28.000Z",
+      "clusterId": "ai-extinction-preference-cascade"
     },
     {
       "title": "How hackers used Claude for missiles, drone swarms, and surveillance, while Chinese labs mirrored the models",
@@ -235,35 +235,21 @@
       "clusterId": "openai-pace-slowdown"
     },
     {
-      "title": "China AI developer Z.AI launches $5 billion Hong Kong share, convertible bond sales, term sheet shows",
-      "summary": "Reuters (Sep 11): Zhipu/Z.AI markets ~$2B HK share placement plus ~$3B convertibles for compute, R&D, and expansion.",
-      "url": "https://www.reuters.com/world/asia-pacific/china-ai-developer-zai-launches-5-billion-hong-kong-share-convertible-bond-sales-2026-09-11/",
+      "title": "Altman tells staff OpenAI is open to slowing AI development, Bloomberg News reports",
+      "summary": "Reuters (Sep 11): Sam Altman told employees OpenAI could pace development with other labs amid safety alarms and recent rogue-agent incidents; Anthropic also signals interest in industry pacing.",
+      "url": "https://www.reuters.com/business/altman-tells-staff-openai-is-open-slowing-ai-development-bloomberg-news-reports-2026-09-11/",
       "sourceName": "Reuters",
       "sourceId": "reuters",
       "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
       "tags": [
-        "funding"
+        "policy"
       ],
-      "publishedAt": "2026-09-11T10:47:00.000Z",
-      "clusterId": "zai-hk-5b-raise"
-    },
-    {
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
-      "summary": "OpenAI (Sep 11): Engineering post on Habitat evolving into a globally distributed storage platform for ~1B ChatGPT users and ~22M req/s.",
-      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-      "sourceName": "OpenAI News",
-      "sourceId": "openai",
-      "sourceHome": "https://openai.com/news/",
-      "tags": [
-        "research",
-        "agents"
-      ],
-      "publishedAt": "2026-09-11T10:00:00.000Z",
-      "clusterId": "openai-storage-1b-users"
+      "publishedAt": "2026-09-11T02:33:00.000Z",
+      "clusterId": "openai-pace-slowdown"
     },
     {
       "title": "DeepSeek releases V4.1-Flash, says it outperforms flagship V4-Pro",
-      "summary": "SiliconANGLE (Sep 10): DeepSeek launches open-weight V4.1-Flash, claiming third-party tests put the smaller model ahead of larger V4-Pro on key benchmarks. (VB category also covered Sep 10; VB feed/curl 429 this cycle.)",
+      "summary": "SiliconANGLE (Sep 10): DeepSeek launches open-weight V4.1-Flash, claiming third-party tests put the smaller model ahead of larger V4-Pro on key benchmarks. (VB category WebFetch also covered Sep 10; VB feed/curl 429 this cycle.)",
       "url": "https://siliconangle.com/2026/09/10/deepseek-releases-v4-1-flash-says-it-outperforms-flagship-v4-pro/",
       "sourceName": "SiliconANGLE",
       "sourceId": "siliconangle",
@@ -273,6 +259,20 @@
       ],
       "publishedAt": "2026-09-10T23:45:40.000Z",
       "clusterId": "deepseek-v4-1-flash"
+    },
+    {
+      "title": "Introducing North Small Translate: A leading sovereign open-weight machine translation model",
+      "summary": "AI/TLDR → Cohere (Sep 10): Cohere Labs ships North Small Translate (218B MoE / 25B active), scoring 83.60 on WMT26 All Languages vs DeepL NextGen 81.37; open weights CC BY-NC on Hugging Face.",
+      "url": "https://cohere.com/blog/north-small-translate",
+      "sourceName": "AI/TLDR",
+      "sourceId": "ai-tldr",
+      "sourceHome": "https://ai-tldr.dev/",
+      "tags": [
+        "model-releases",
+        "research"
+      ],
+      "publishedAt": "2026-09-10T16:00:00.000Z",
+      "clusterId": "cohere-north-small-translate"
     }
   ],
   "rumors": [
@@ -282,7 +282,7 @@
       "url": "https://x.com/validapau/status/2096629089851297894",
       "via": "@validapau",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T19:31:00.000Z",
+      "harvestedAt": "2026-09-11T20:10:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -293,7 +293,7 @@
       "url": "https://x.com/amir/status/2095678832535843209",
       "via": "@amir",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T19:31:00.000Z",
+      "harvestedAt": "2026-09-11T20:10:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -304,7 +304,7 @@
       "url": "https://x.com/validapau/status/2092788937186045962",
       "via": "@validapau",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T19:31:00.000Z",
+      "harvestedAt": "2026-09-11T20:10:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -315,7 +315,7 @@
       "url": "https://x.com/synthwavedd/status/2092326145270456377",
       "via": "@synthwavedd",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T19:31:00.000Z",
+      "harvestedAt": "2026-09-11T20:10:00.000Z",
       "tags": [
         "rumor"
       ]
