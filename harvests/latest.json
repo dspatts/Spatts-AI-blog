@@ -1,7 +1,35 @@
 {
-  "harvestedAt": "2026-09-11T20:55:00.000Z",
+  "harvestedAt": "2026-09-11T21:05:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
+    {
+      "title": "Y Combinator’s Garry Tan wants U.S. open-weight AI labs to ‘distill’ frontier models, too",
+      "summary": "TechCrunch (Sep 11): YC’s Garry Tan tells CNBC/TechCrunch U.S. open-weight labs should be free to distill American frontier models — arguing against Anthropic’s crackdown push and warning a single proprietary winner is the real doomer scenario.",
+      "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "policy",
+        "model-releases"
+      ],
+      "publishedAt": "2026-09-11T20:59:47.000Z",
+      "clusterId": "us-open-weight-distillation"
+    },
+    {
+      "title": "OpenAI’s feud with mathematicians is only escalating",
+      "summary": "TechCrunch (Sep 11): 25 Fields Medallists sign an open letter that rushed AI math “solutions” break attribution and the human math transmission chain; OpenAI withdrew Caltech sponsorship after criticism amid Buckmaster/Codex attribution fight.",
+      "url": "https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "research",
+        "policy"
+      ],
+      "publishedAt": "2026-09-11T20:57:36.000Z",
+      "clusterId": "openai-math-breakthrough-drama"
+    },
     {
       "title": "Chinese AI chip developer Enflame raises $912M in IPO",
       "summary": "SiliconANGLE (Sep 11): Shanghai Enflame’s STAR-market debut raised ~6.12B yuan (~$912M); shares closed ~179% higher for ~$25.5B market cap. Tencent is top customer (~83% of 2025 revenue) and largest shareholder (~18% post-IPO). Fourth Chinese AI-chip IPO in a year after Biren, MetaX, Moore Threads.",
@@ -29,6 +57,20 @@
       "clusterId": "nm-chatgpt-lawyer-fine"
     },
     {
+      "title": "Kimi-maker Moonshot AI targets $2 billion in annual revenue",
+      "summary": "TechCrunch (Sep 11): Bloomberg-sourced report that Moonshot (Kimi/K3) is targeting ~$2B annualized revenue by year-end after August ARR ~$1B; open-weight margins thinner than closed labs, amid Anthropic distillation accusations.",
+      "url": "https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "funding",
+        "model-releases"
+      ],
+      "publishedAt": "2026-09-11T19:35:54.000Z",
+      "clusterId": "moonshot-2b-arr"
+    },
+    {
       "title": "ChatGPT-using lawyer punished for citing fake testimony from made-up witnesses",
       "summary": "Ars Technica (Sep 11): Same NM Supreme Court contempt order — Aarons admitted not verifying ChatGPT output; barred from appearing pending discipline; client gets new counsel after fake cops and witnesses in the brief.",
       "url": "https://arstechnica.com/tech-policy/2026/09/chatgpt-using-lawyer-punished-for-citing-fake-testimony-from-made-up-witnesses/",
@@ -42,18 +84,18 @@
       "clusterId": "nm-chatgpt-lawyer-fine"
     },
     {
-      "title": "Kimi-maker Moonshot AI targets $2 billion in annual revenue",
-      "summary": "TechCrunch (Sep 11): Bloomberg-sourced report that Moonshot (Kimi/K3) is targeting ~$2B annualized revenue by year-end after August ARR ~$1B; open-weight margins thinner than closed labs, amid Anthropic distillation accusations.",
-      "url": "https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "title": "How Anthropic says Claude was used for weapons, spying and cyber operations",
+      "summary": "Reuters (Sep 11): Deep dive on Anthropic’s threat report — alleged Claude misuse spanning conventional weapons software, bio-research attempts, Russia/China cyber ops, and surveillance-as-a-service cases Anthropic says it disrupted.",
+      "url": "https://www.reuters.com/world/china/how-anthropic-says-claude-was-used-weapons-spying-cyber-operations-2026-09-11/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
       "tags": [
-        "funding",
-        "model-releases"
+        "policy",
+        "agents"
       ],
-      "publishedAt": "2026-09-11T19:35:54.000Z",
-      "clusterId": "moonshot-2b-arr"
+      "publishedAt": "2026-09-11T19:24:00.000Z",
+      "clusterId": "anthropic-threat-report-claude-misuse"
     },
     {
       "title": "Never Forget, AI Slop Is Polluting 9/11 History on the Internet as We Speak",
@@ -97,20 +139,6 @@
       "clusterId": "ai-extinction-preference-cascade"
     },
     {
-      "title": "Oracle tries to appease Stargate data center opponents with renewables push",
-      "summary": "Ars Technica (Sep 11): Oracle pledges ~2 GW of renewables to match Stargate/Project Jupiter emissions amid New Mexico opposition; fuel cells still gas-fired.",
-      "url": "https://arstechnica.com/gadgets/2026/09/oracle-promises-2-gw-of-renewables-to-match-stargate-data-center-emissions/",
-      "sourceName": "Ars Technica",
-      "sourceId": "arstechnica",
-      "sourceHome": "https://arstechnica.com/tag/artificial-intelligence/",
-      "tags": [
-        "policy",
-        "funding"
-      ],
-      "publishedAt": "2026-09-11T18:22:22.000Z",
-      "clusterId": "oracle-stargate-renewables"
-    },
-    {
       "title": "Ex-Deepmind VP Vinyals says AI self-improvement is coming but won't trigger an intelligence explosion",
       "summary": "THE DECODER (Sep 11): Oriol Vinyals argues recursive self-improvement will speed research ~10x but hit bottlenecks in research taste, evaluation, reward hacking, and physics — now building Discovery Loop with Jeff Dean et al.",
       "url": "https://the-decoder.com/ex-deepmind-vp-vinyals-says-ai-self-improvement-is-coming-but-wont-trigger-an-intelligence-explosion/",
@@ -137,6 +165,20 @@
       ],
       "publishedAt": "2026-09-11T17:22:18.000Z",
       "clusterId": "bengio-training-danger"
+    },
+    {
+      "title": "Meta Releases Uber-Creepy AI Chatbot as Its Platforms Crumble Under Grotesque Child Abuse",
+      "summary": "Futurism (Sep 11): Meta’s Muse agent launch lands amid intensifying scrutiny of Meta platforms and child-safety failures; piece frames Muse as privacy-invasive life-running chatbot.",
+      "url": "https://futurism.com/artificial-intelligence/meta-creepy-ai-chatbot-muse",
+      "sourceName": "Futurism",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
+      "tags": [
+        "agents",
+        "policy"
+      ],
+      "publishedAt": "2026-09-11T17:09:46.000Z",
+      "clusterId": "meta-muse-agent"
     },
     {
       "title": "Nscale adds former OpenAI exec Fidji Simo to its board ahead of potential IPO",
@@ -194,34 +236,6 @@
       "clusterId": "ai-power-hunger-physics"
     },
     {
-      "title": "Meta says it’s changing AI suggestions after posing invasive personal questions",
-      "summary": "The Verge (Sep 11): Meta says it will change Muse/AI suggestion behavior after the assistant asked users invasive personal questions.",
-      "url": "https://www.theverge.com/tech/993974/meta-ai-prompt-invasive-suggestions",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "policy",
-        "agents"
-      ],
-      "publishedAt": "2026-09-11T14:25:21.000Z",
-      "clusterId": "meta-ai-invasive-prompts"
-    },
-    {
-      "title": "How Anthropic says Claude was used for weapons, spying and cyber operations",
-      "summary": "Reuters (Sep 11): Deep dive on Anthropic’s threat report — alleged Claude misuse spanning conventional weapons software, bio-research attempts, Russia/China cyber ops, and surveillance-as-a-service cases Anthropic says it disrupted.",
-      "url": "https://www.reuters.com/world/china/how-anthropic-says-claude-was-used-weapons-spying-cyber-operations-2026-09-11/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "policy",
-        "agents"
-      ],
-      "publishedAt": "2026-09-11T14:00:00.000Z",
-      "clusterId": "anthropic-threat-report-claude-misuse"
-    },
-    {
       "title": "How hackers used Claude for missiles, drone swarms, and surveillance, while Chinese labs mined it for training data",
       "summary": "THE DECODER (Sep 11): Anthropic threat intel — Claude misuse for missiles/drones/surveillance plus alleged Chinese lab distillation campaigns.",
       "url": "https://the-decoder.com/how-hackers-used-claude-for-missiles-drone-swarms-and-surveillance-while-chinese-labs-mined-it-for-training-data/",
@@ -262,19 +276,6 @@
       ],
       "publishedAt": "2026-09-11T12:00:00.000Z",
       "clusterId": "sakana-fugu-max-ultra-v2"
-    },
-    {
-      "title": "OpenAI floats a shared AI slowdown, takes it to Congress",
-      "summary": "THE DECODER (Sep 11): OpenAI signals openness to pacing frontier development alongside other labs and brings antitrust/legality questions into the US policy conversation.",
-      "url": "https://the-decoder.com/openai-floats-a-shared-ai-slowdown-takes-it-to-congress/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-09-11T11:59:19.000Z",
-      "clusterId": "openai-pace-slowdown"
     }
   ],
   "rumors": [
@@ -284,7 +285,7 @@
       "url": "https://x.com/validapau/status/2096629089851297894",
       "via": "@validapau",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T20:55:00.000Z",
+      "harvestedAt": "2026-09-11T21:05:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -295,7 +296,7 @@
       "url": "https://x.com/amir/status/2095678832535843209",
       "via": "@amir",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T20:55:00.000Z",
+      "harvestedAt": "2026-09-11T21:05:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -306,7 +307,7 @@
       "url": "https://x.com/validapau/status/2092788937186045962",
       "via": "@validapau",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T20:55:00.000Z",
+      "harvestedAt": "2026-09-11T21:05:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -317,7 +318,7 @@
       "url": "https://x.com/synthwavedd/status/2092326145270456377",
       "via": "@synthwavedd",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T20:55:00.000Z",
+      "harvestedAt": "2026-09-11T21:05:00.000Z",
       "tags": [
         "rumor"
       ]
