@@ -165,8 +165,8 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-11T09:07:50.105Z",
-  "refreshedAt": "2026-09-11T09:07:50.105Z",
+  "briefingDate": "2026-09-11T09:08:36.951Z",
+  "refreshedAt": "2026-09-11T09:08:36.951Z",
   "preferCurated": true,
   "posts": [
     {
@@ -348,7 +348,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-08T17:20:56.000Z",
       "publishedTs": 1788888056000,
-      "score": 890655,
+      "score": 890658,
       "authorHandle": "openai",
       "tags": [
         "model-releases",
@@ -377,7 +377,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-10T17:13:22.000Z",
       "publishedTs": 1789060402000,
-      "score": 258184,
+      "score": 258391,
       "authorHandle": "anthropicai",
       "tags": [
         "model-releases",

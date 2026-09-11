@@ -1338,12 +1338,12 @@ function renderHtml(payload) {
   })();
   </script>
   <title>Ai Source — AI news</title>
-  <meta name="description" content="Top AI news from TechCrunch, VentureBeat, The Verge, Reuters, Ars Technica, IEEE Spectrum, OpenAI, DeepMind, Google, NVIDIA, Futurism, Import AI, Last Week in AI, Gizmodo, and more. Refreshed every 3 hours.">
-  <meta http-equiv="refresh" content="10800">
+  <meta name="description" content="Top AI news from TechCrunch, VentureBeat, The Verge, Reuters, Ars Technica, IEEE Spectrum, OpenAI, DeepMind, Google, NVIDIA, Futurism, Import AI, Last Week in AI, Gizmodo, and more.">
+  <meta http-equiv="refresh" content="1800">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css?v=ios-refresh-1">
+  <link rel="stylesheet" href="./styles.css?v=clean-cadence-1">
   <link rel="icon" href="./favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16.png">
@@ -1358,11 +1358,7 @@ function renderHtml(payload) {
         <div class="masthead-aside">
           <div class="masthead-controls">
             <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Switch to light theme" aria-pressed="false">☀ Light</button>
-            <p class="sydney-clock">
-              <time id="sydney-clock" datetime="${escapeHtml(clockIso)}" aria-label="Current time in Australia/Sydney">${escapeHtml(clockText)}</time>
-            </p>
           </div>
-          <p class="kicker-cadence">Every 3 hours</p>
         </div>
       </div>
       <h1>Ai Source</h1>
