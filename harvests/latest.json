@@ -1,19 +1,20 @@
 {
-  "harvestedAt": "2026-09-11T22:38:00.000Z",
+  "harvestedAt": "2026-09-11T23:10:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
-      "title": "Dynatrace and Arize AI push observability from detection toward action",
-      "summary": "SiliconANGLE (Sep 11): Dynatrace’s Arize AI deal frames enterprise observability for nondeterministic agents — evaluation/quality, shared app+AI telemetry, and machine-consumable context so agents can diagnose/remediate, not just dashboard alerts.",
-      "url": "https://siliconangle.com/2026/09/11/observability-ai-agents-dynatrace-arize-appdevangle/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
+      "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
+      "summary": "TechCrunch (Sep 11): Robotics human-motion data startup Mecka is nearing a Sequoia-led round at ~$500M valuation — months after a $60M Framework-led Series A — as labs race for egocentric robot training data.",
+      "url": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
       "tags": [
+        "funding",
         "agents"
       ],
-      "publishedAt": "2026-09-11T21:17:44.000Z",
-      "clusterId": "dynatrace-arize-agent-observability"
+      "publishedAt": "2026-09-11T22:58:17.000Z",
+      "clusterId": "mecka-500m-sequoia"
     },
     {
       "title": "Exclusive: Salesforce to Drop ‘Agentforce’ Branding From Some Products",
@@ -29,7 +30,20 @@
       "clusterId": "salesforce-agentforce-rebrand"
     },
     {
-      "title": "Y Combinator’s Garry Tan wants U.S. open-weight AI labs to ‘distill’ frontier models, too",
+      "title": "Dynatrace and Arize AI push observability from detection toward action",
+      "summary": "SiliconANGLE (Sep 11): Dynatrace’s Arize AI deal frames enterprise observability for nondeterministic agents — evaluation/quality, shared app+AI telemetry, and machine-consumable context so agents can diagnose/remediate, not just dashboard alerts.",
+      "url": "https://siliconangle.com/2026/09/11/observability-ai-agents-dynatrace-arize-appdevangle/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-09-11T21:17:44.000Z",
+      "clusterId": "dynatrace-arize-agent-observability"
+    },
+    {
+      "title": "Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too",
       "summary": "TechCrunch (Sep 11): YC’s Garry Tan tells CNBC/TechCrunch U.S. open-weight labs should be free to distill American frontier models — arguing against Anthropic’s crackdown push and warning a single proprietary winner is the real doomer scenario.",
       "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
       "sourceName": "TechCrunch",
@@ -111,7 +125,7 @@
     },
     {
       "title": "ChatGPT-using lawyer punished for citing fake testimony from made-up witnesses",
-      "summary": "Ars Technica (Sep 11): Same NM Supreme Court contempt order — Aarons admitted not verifying ChatGPT output; barred from appearing pending discipline; client gets new counsel after fake cops and witnesses in the brief.",
+      "summary": "Ars Technica (Sep 11): Same NM contempt case — defense lawyer says he “didn’t know that AI could hallucinate facts” after ChatGPT invented witnesses for a murder appeal.",
       "url": "https://arstechnica.com/tech-policy/2026/09/chatgpt-using-lawyer-punished-for-citing-fake-testimony-from-made-up-witnesses/",
       "sourceName": "Ars Technica",
       "sourceId": "arstechnica",
@@ -124,7 +138,7 @@
     },
     {
       "title": "How Anthropic says Claude was used for weapons, spying and cyber operations",
-      "summary": "Reuters (Sep 11): Deep dive on Anthropic’s threat report — Claude allegedly used for China/Taiwan EW sims, Yemen missile software, Russia-linked drone swarms, bio research attempts, and multi-country cyber/surveillance ops; Anthropic says it disrupted accounts.",
+      "summary": "Reuters (Sep 11): Anthropic’s threat intel deep dive — Claude allegedly used in weapons/spying/cyber campaigns plus Chinese-lab distillation pressure.",
       "url": "https://www.reuters.com/world/china/how-anthropic-says-claude-was-used-weapons-spying-cyber-operations-2026-09-11/",
       "sourceName": "Reuters",
       "sourceId": "reuters",
@@ -138,7 +152,7 @@
     },
     {
       "title": "Top Chinese Court Issues Sweeping Legal Crackdown on AI Deepfakes",
-      "summary": "Futurism (Sep 11): China’s Supreme People’s Court issues legal guidance tightening liability and enforcement around AI deepfakes — a major civil-law signal on synthetic media abuse.",
+      "summary": "Futurism (Sep 11): China’s Supreme People’s Court issues sweeping guidance tightening liability for AI deepfakes — a major civil/criminal enforcement signal on synthetic media.",
       "url": "https://futurism.com/artificial-intelligence/chinese-supreme-peoples-court-legal-guidance-ai-deepfakes",
       "sourceName": "Futurism",
       "sourceId": "futurism",
@@ -150,8 +164,8 @@
       "clusterId": "china-spc-deepfake-guidance"
     },
     {
-      "title": "An Anthropic researcher’s doomsday warning comes at a very interesting time",
-      "summary": "TechCrunch (Sep 11): Equity podcast on Anthropic researcher Jacob Coxon’s extinction warning and the preference-cascade of lab employees echoing catastrophic-risk concerns amid congressional AI talks.",
+      "title": "An Anthropic researcher’s doomsday warning comes at a very interesting time",
+      "summary": "TechCrunch (Sep 11): Coverage of Jacob Coxon’s extinction-risk warning and the ensuing preference cascade inside labs — timed with Senate risk talks and Trump dismissals.",
       "url": "https://techcrunch.com/podcast/an-anthropic-researchers-doomsday-warning-comes-at-a-very-interesting-time/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -164,7 +178,7 @@
     },
     {
       "title": "Ex-Deepmind VP Vinyals says AI self-improvement is coming but won't trigger an intelligence explosion",
-      "summary": "THE DECODER (Sep 11): Oriol Vinyals argues recursive self-improvement is approaching but bottlenecks mean no sudden intelligence explosion — a tempered RSI take from a former DeepMind research lead.",
+      "summary": "THE DECODER (Sep 11): Oriol Vinyals argues RSI will speed research ~10x but bottlenecks in research taste, evaluation, reward hacking, and physics keep a sudden intelligence explosion unlikely.",
       "url": "https://the-decoder.com/ex-deepmind-vp-vinyals-says-ai-self-improvement-is-coming-but-wont-trigger-an-intelligence-explosion/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
@@ -178,7 +192,7 @@
     },
     {
       "title": "Deep learning pioneer Bengio argues the training process itself makes AI dangerous",
-      "summary": "THE DECODER (Sep 11): Yoshua Bengio argues danger is baked into how frontier models are trained — not only post-training misuse — sharpening the safety debate beyond deployment controls.",
+      "summary": "THE DECODER (Sep 11): Yoshua Bengio warns goal-optimizing agents get better at deception, rule-gaming, coordination, and concealment — risks he says emerge from the training process itself.",
       "url": "https://the-decoder.com/deep-learning-pioneer-bengio-argues-the-training-process-itself-makes-ai-dangerous/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
@@ -192,7 +206,7 @@
     },
     {
       "title": "Nscale adds former OpenAI exec Fidji Simo to its board ahead of potential IPO",
-      "summary": "TechCrunch (Sep 11): AI infrastructure firm Nscale adds Fidji Simo (OpenAI #2 / ex-Instacart IPO CEO) to its board as it prepares a potential public listing.",
+      "summary": "TechCrunch (Sep 11): GPU-cloud/neocloud Nscale adds OpenAI No. 2 / ex-Instacart CEO Fidji Simo to its board while preparing a potential IPO.",
       "url": "https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -202,6 +216,20 @@
       ],
       "publishedAt": "2026-09-11T16:46:25.000Z",
       "clusterId": "nscale-fidji-simo-board"
+    },
+    {
+      "title": "NYU Mathematician Embroiled in AI Controversy Says the Machines Have Won: ‘The Game Is Up’",
+      "summary": "Gizmodo (Sep 11): Tristan Buckmaster tells ABC that AI’s math leap makes human mathematician primacy look finished — fresh color on the OpenAI Navier-Stokes / Codex attribution fight.",
+      "url": "https://gizmodo.com/nyu-mathematician-embroiled-in-ai-controversy-says-the-machines-have-won-the-game-is-up-2000810605",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "research",
+        "policy"
+      ],
+      "publishedAt": "2026-09-11T16:45:00.000Z",
+      "clusterId": "openai-math-breakthrough-drama"
     },
     {
       "title": "Anthropic spent this week in hot water over cybersecurity",
@@ -219,7 +247,7 @@
     },
     {
       "title": "Trump Shrugs Off Warnings That AI Could Cause Human Extinction",
-      "summary": "Gizmodo (Sep 11): Coverage of Trump dismissing AI extinction warnings even as lab researchers and senators escalate catastrophic-risk rhetoric — twin to the Coxon preference-cascade story.",
+      "summary": "Gizmodo (Sep 11): Coverage of Trump dismissing AI extinction warnings even as lab researchers and senators escalate catastrophic-risk rhetoric.",
       "url": "https://gizmodo.com/trump-shrugs-off-warnings-that-ai-could-cause-human-extinction-2000810553",
       "sourceName": "Gizmodo",
       "sourceId": "gizmodo",
@@ -231,22 +259,8 @@
       "clusterId": "ai-extinction-preference-cascade"
     },
     {
-      "title": "How hackers used Claude for missiles, drone swarms, and surveillance, while Chinese labs mined it for training data",
-      "summary": "THE DECODER (Sep 11): Decoder’s pass on Anthropic’s threat intel — Claude for missiles/drone swarms/surveillance plus Chinese-lab distillation — same cluster as the Reuters deep dive.",
-      "url": "https://the-decoder.com/how-hackers-used-claude-for-missiles-drone-swarms-and-surveillance-while-chinese-labs-mined-it-for-training-data/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "policy",
-        "agents"
-      ],
-      "publishedAt": "2026-09-11T13:50:28.000Z",
-      "clusterId": "anthropic-threat-report-claude-misuse"
-    },
-    {
       "title": "OpenAI floats a shared AI slowdown, takes it to Congress",
-      "summary": "THE DECODER (Sep 11): OpenAI publicly floats coordinated slower capability rollout and carries the pitch into congressional AI-risk talks — policy twin to Altman “open to slowing” coverage.",
+      "summary": "THE DECODER (Sep 11): OpenAI publicly floats coordinated slower capability rollout and carries the pitch into congressional AI-risk talks.",
       "url": "https://the-decoder.com/openai-floats-a-shared-ai-slowdown-takes-it-to-congress/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
@@ -256,20 +270,6 @@
       ],
       "publishedAt": "2026-09-11T11:59:19.000Z",
       "clusterId": "openai-shared-slowdown-congress"
-    },
-    {
-      "title": "Introducing Fugu Max and Fugu Ultra v2: Orchestrating the Pareto Frontier of Open Models",
-      "summary": "Sakana AI via AI/TLDR (Sep 11): Fugu Max/Ultra v2 router splits workload across cheap vs strong open models along a Pareto frontier — practical multi-model orchestration release.",
-      "url": "https://sakana.ai/fugu-max-release/",
-      "sourceName": "AI/TLDR",
-      "sourceId": "ai-tldr",
-      "sourceHome": "https://ai-tldr.dev/",
-      "tags": [
-        "model-releases",
-        "agents"
-      ],
-      "publishedAt": "2026-09-11T00:00:00.000Z",
-      "clusterId": "sakana-fugu-max-ultra-v2"
     }
   ],
   "rumors": [
@@ -279,7 +279,7 @@
       "url": "https://x.com/validapau/status/2096629089851297894",
       "via": "@validapau",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T22:38:00.000Z",
+      "harvestedAt": "2026-09-11T23:10:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -290,7 +290,7 @@
       "url": "https://x.com/amir/status/2095678832535843209",
       "via": "@amir",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T22:38:00.000Z",
+      "harvestedAt": "2026-09-11T23:10:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -301,7 +301,7 @@
       "url": "https://x.com/validapau/status/2092788937186045962",
       "via": "@validapau",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T22:38:00.000Z",
+      "harvestedAt": "2026-09-11T23:10:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -312,7 +312,7 @@
       "url": "https://x.com/synthwavedd/status/2092326145270456377",
       "via": "@synthwavedd",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T22:38:00.000Z",
+      "harvestedAt": "2026-09-11T23:10:00.000Z",
       "tags": [
         "rumor"
       ]
