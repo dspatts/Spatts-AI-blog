@@ -1,10 +1,37 @@
 {
-  "harvestedAt": "2026-09-11T18:40:00.000Z",
+  "harvestedAt": "2026-09-11T19:15:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
+      "title": "Top Chinese Court Issues Sweeping Legal Crackdown on AI Deepfakes",
+      "summary": "Futurism (Sep 11): China\u2019s Supreme People\u2019s Court issues 24-article guidance on deepfakes, voice cloning, privacy, and doxing for lower courts.",
+      "url": "https://futurism.com/artificial-intelligence/chinese-supreme-peoples-court-legal-guidance-ai-deepfakes",
+      "sourceName": "Futurism",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-09-11T18:54:31.000Z",
+      "clusterId": "china-spc-deepfake-guidance"
+    },
+    {
+      "title": "An Anthropic researcher\u2019s doomsday warning comes at a very interesting time",
+      "summary": "TechCrunch Equity (Sep 11): Podcast on Anthropic researcher Jacob Coxon\u2019s viral resignation warning of self-improving superintelligence \u2014 timed amid IPO chatter and alignment-lead co-sign.",
+      "url": "https://techcrunch.com/podcast/an-anthropic-researchers-doomsday-warning-comes-at-a-very-interesting-time/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "policy",
+        "research"
+      ],
+      "publishedAt": "2026-09-11T18:41:49.000Z",
+      "clusterId": "ai-extinction-preference-cascade"
+    },
+    {
       "title": "Ex-Deepmind VP Vinyals says AI self-improvement is coming but won't trigger an intelligence explosion",
-      "summary": "THE DECODER (Sep 11): Oriol Vinyals argues recursive self-improvement will speed research ~10x but hit bottlenecks in research taste, evaluation, reward hacking, and physics — now building Discovery Loop with Jeff Dean et al.",
+      "summary": "THE DECODER (Sep 11): Oriol Vinyals argues recursive self-improvement will speed research ~10x but hit bottlenecks in research taste, evaluation, reward hacking, and physics \u2014 now building Discovery Loop with Jeff Dean et al.",
       "url": "https://the-decoder.com/ex-deepmind-vp-vinyals-says-ai-self-improvement-is-coming-but-wont-trigger-an-intelligence-explosion/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
@@ -44,20 +71,6 @@
       "clusterId": "meta-muse-creepy-chatbot"
     },
     {
-      "title": "Anthropic spent this week in hot water over cybersecurity",
-      "summary": "The Verge (Sep 11): Roundup of Anthropic's week of cybersecurity controversy, including threat-intel disclosures and dual-use misuse cases.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/994064/anthropic-spent-this-week-in-hot-water-over-cybersecurity",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "policy",
-        "agents"
-      ],
-      "publishedAt": "2026-09-11T16:55:17.000Z",
-      "clusterId": "anthropic-threat-intel-sep2026"
-    },
-    {
       "title": "Nscale adds former OpenAI exec Fidji Simo to its board ahead of potential IPO",
       "summary": "TechCrunch (Sep 11): AI cloud firm Nscale appoints former OpenAI apps CEO Fidji Simo to its board as it prepares a potential IPO.",
       "url": "https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo/",
@@ -69,6 +82,34 @@
       ],
       "publishedAt": "2026-09-11T16:46:25.000Z",
       "clusterId": "nscale-fidji-simo-board"
+    },
+    {
+      "title": "NYU Mathematician Embroiled in AI Controversy Says the Machines Have Won: \u2018The Game Is Up\u2019",
+      "summary": "Gizmodo (Sep 11): Tristan Buckmaster, central to the OpenAI Navier\u2013Stokes credit fight, says AI has permanently changed mathematical research competition.",
+      "url": "https://gizmodo.com/nyu-mathematician-embroiled-in-ai-controversy-says-the-machines-have-won-the-game-is-up-2000810605",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "research",
+        "policy"
+      ],
+      "publishedAt": "2026-09-11T16:45:00.000Z",
+      "clusterId": "openai-navier-stokes-drama"
+    },
+    {
+      "title": "Anthropic spent this week in hot water over cybersecurity",
+      "summary": "The Verge (Sep 11): Roundup of Anthropic's week of cybersecurity controversy, including threat-intel disclosures and dual-use misuse cases.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/994064/anthropic-spent-this-week-in-hot-water-over-cybersecurity",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "policy",
+        "agents"
+      ],
+      "publishedAt": "2026-09-11T16:09:00.000Z",
+      "clusterId": "anthropic-threat-intel-sep2026"
     },
     {
       "title": "Trump Shrugs Off Warnings That AI Could Cause Human Extinction",
@@ -127,7 +168,7 @@
     },
     {
       "title": "How hackers used Claude for missiles, drone swarms, and surveillance, while Chinese labs mined it for training data",
-      "summary": "THE DECODER (Sep 11): Deep dive on Anthropic's threat report — Russia-linked agents rewriting malware, Yemen missile GNC via Claude Code, FPV swarms, Chinese-lab distillation, dual-use biology filter failures.",
+      "summary": "THE DECODER (Sep 11): Deep dive on Anthropic's threat report \u2014 Russia-linked agents rewriting malware, Yemen missile GNC via Claude Code, FPV swarms, Chinese-lab distillation, dual-use biology filter failures.",
       "url": "https://the-decoder.com/how-hackers-used-claude-for-missiles-drone-swarms-and-surveillance-while-chinese-labs-mined-it-for-training-data/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
@@ -155,20 +196,6 @@
       "clusterId": "anthropic-bioweapons-disrupt"
     },
     {
-      "title": "Anthropic Just Revealed That It's Stopped Foreign Agents From Using Claude to Develop Possible Bioweapons",
-      "summary": "Futurism (Sep 11): Anthropic threat intel says it blocked foreign actors attempting Claude-assisted work that could support bioweapons development.",
-      "url": "https://futurism.com/artificial-intelligence/anthropic-stopped-bioweapons",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
-      "tags": [
-        "policy",
-        "research"
-      ],
-      "publishedAt": "2026-09-11T12:36:46.000Z",
-      "clusterId": "anthropic-bioweapons-disrupt"
-    },
-    {
       "title": "OpenAI floats a shared AI slowdown, takes it to Congress",
       "summary": "THE DECODER (Sep 11): OpenAI signals openness to pacing frontier development alongside other labs and brings the idea into the US policy conversation.",
       "url": "https://the-decoder.com/openai-floats-a-shared-ai-slowdown-takes-it-to-congress/",
@@ -180,6 +207,47 @@
       ],
       "publishedAt": "2026-09-11T11:59:19.000Z",
       "clusterId": "openai-pace-slowdown"
+    },
+    {
+      "title": "China AI developer Z.AI launches $5 billion Hong Kong share, convertible bond sales, term sheet shows",
+      "summary": "Reuters (Sep 11): Zhipu/Z.AI markets ~$2B HK share placement plus ~$3B convertibles for compute, R&D, and expansion.",
+      "url": "https://www.reuters.com/world/asia-pacific/china-ai-developer-zai-launches-5-billion-hong-kong-share-convertible-bond-sales-2026-09-11/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-09-11T10:47:00.000Z",
+      "clusterId": "zai-hk-5b-raise"
+    },
+    {
+      "title": "EXCLUSIVE: UAE revises AI data center plan after Iranian attacks, sources say",
+      "summary": "Reuters (Sep 11): UAE revisiting its 5 GW AI data-center blueprint after Iran war \u2014 including air defenses and possible underground builds.",
+      "url": "https://www.reuters.com/world/middle-east/uae-revises-ai-data-center-plan-after-iranian-attacks-sources-say-2026-09-11/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "policy",
+        "funding"
+      ],
+      "publishedAt": "2026-09-11T08:00:00.000Z",
+      "clusterId": "uae-ai-campus-revise"
+    },
+    {
+      "title": "Ayar Labs bags $150M in additional late-stage funding to help make bigger AI chip clusters",
+      "summary": "SiliconANGLE (Sep 11): Optical interconnect startup Ayar Labs extends Series E by $150M to $650M total for larger AI chip clusters.",
+      "url": "https://siliconangle.com/2026/09/10/ayar-labs-bags-150m-in-additional-series-e-funding-to-help-make-bigger-ai-chip-clusters/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "funding",
+        "research"
+      ],
+      "publishedAt": "2026-09-11T02:36:41.000Z",
+      "clusterId": "ayar-labs-150m-extension"
     },
     {
       "title": "Altman tells staff OpenAI is open to slowing AI development, Bloomberg News reports",
@@ -196,7 +264,7 @@
     },
     {
       "title": "DeepSeek releases V4.1-Flash, says it outperforms flagship V4-Pro",
-      "summary": "SiliconANGLE (Sep 10): DeepSeek launches open-weight V4.1-Flash, claiming third-party tests put the smaller model ahead of larger V4-Pro on key benchmarks (VB twin blocked this cycle).",
+      "summary": "SiliconANGLE (Sep 10): DeepSeek launches open-weight V4.1-Flash, claiming third-party tests put the smaller model ahead of larger V4-Pro on key benchmarks.",
       "url": "https://siliconangle.com/2026/09/10/deepseek-releases-v4-1-flash-says-it-outperforms-flagship-v4-pro/",
       "sourceName": "SiliconANGLE",
       "sourceId": "siliconangle",
@@ -206,118 +274,49 @@
       ],
       "publishedAt": "2026-09-10T23:45:40.000Z",
       "clusterId": "deepseek-v4-1-flash"
-    },
-    {
-      "title": "OpenAI puts Pro subscriptions on hold due to Astra demand",
-      "summary": "TechCrunch (Sep 10): OpenAI pauses Pro sign-ups while adding capacity after Astra-driven demand strained systems.",
-      "url": "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "model-releases",
-        "agents"
-      ],
-      "publishedAt": "2026-09-10T20:59:51.000Z",
-      "clusterId": "openai-astra-pro-pause"
-    },
-    {
-      "title": "Introducing the Agents API",
-      "summary": "OpenAI (Sep 10): OpenAI launches an Agents API for building and running agentic workflows on its models.",
-      "url": "https://openai.com/index/introducing-the-agents-api",
-      "sourceName": "OpenAI",
-      "sourceId": "openai",
-      "sourceHome": "https://openai.com/news/",
-      "tags": [
-        "agents",
-        "model-releases"
-      ],
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "clusterId": "openai-agents-api"
-    },
-    {
-      "title": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
-      "summary": "NVIDIA (Sep 10): Skild AI uses NVIDIA Physical AI so robots can learn new tasks from a single demonstration video.",
-      "url": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
-      "sourceName": "NVIDIA",
-      "sourceId": "nvidia",
-      "sourceHome": "https://blogs.nvidia.com/blog/category/generative-ai/",
-      "tags": [
-        "agents",
-        "research"
-      ],
-      "publishedAt": "2026-09-10T16:30:35.000Z",
-      "clusterId": "nvidia-skild-physical-ai"
-    },
-    {
-      "title": "Tencent-backed Enflame nearly triples in Shanghai debut on AI chip demand bets",
-      "summary": "Reuters (Sep 11): Shanghai Enflame closed up ~179% after its $912M STAR Market IPO as investors bet on Chinese AI chip demand.",
-      "url": "https://www.reuters.com/world/asia-pacific/tencent-backed-enflame-open-up-188-shanghai-debut-after-912-million-ipo-2026-09-11/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-09-11T01:33:00.000Z",
-      "clusterId": "enflame-shanghai-ipo"
-    },
-    {
-      "title": "AI Models Are Watermarking Text—Will You Notice?",
-      "summary": "IEEE Spectrum (Sep 9): Look at how Anthropic, OpenAI, and others are watermarking AI text — and how detectable those marks really are.",
-      "url": "https://spectrum.ieee.org/ai-watermark-text-anthropic-openai",
-      "sourceName": "IEEE Spectrum",
-      "sourceId": "ieee-spectrum",
-      "sourceHome": "https://spectrum.ieee.org/topic/artificial-intelligence/",
-      "tags": [
-        "research",
-        "policy"
-      ],
-      "publishedAt": "2026-09-09T12:00:04.000Z",
-      "clusterId": "ai-text-watermarks"
     }
   ],
   "rumors": [
     {
       "title": "Anthropic compute deals tallied at ~$517B+",
-      "summary": "UNCONFIRMED / estimate: @validapau (The Information) tallies Anthropic compute agreements since Oct. 2025 at roughly $517B+ and ~14.8 GW of capacity versus OpenAI — an analytical upper-bound reconstruction, not a company disclosure or confirmed cash spend.",
+      "summary": "UNCONFIRMED / estimate: @validapau (The Information) tallies Anthropic compute agreements since Oct. 2025 at roughly $517B+ and ~14.8 GW of capacity versus OpenAI \u2014 an analytical upper-bound reconstruction, not a company disclosure or confirmed cash spend.",
       "url": "https://x.com/validapau/status/2096629089851297894",
       "via": "@validapau",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T18:40:00.000Z",
+      "harvestedAt": "2026-09-11T19:15:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "Nvidia talks ~$2.5–3B into Thinking Machines Lab",
-      "summary": "UNCONFIRMED: @amir (The Information) reports Nvidia is in talks to invest about $2.5B–$3B in Mira Murati’s Thinking Machines Lab (story updated with a16z-related details). Talks may still change; not a closed deal.",
+      "title": "Nvidia talks ~$2.5\u20133B into Thinking Machines Lab",
+      "summary": "UNCONFIRMED: @amir (The Information) reports Nvidia is in talks to invest about $2.5B\u2013$3B in Mira Murati\u2019s Thinking Machines Lab (story updated with a16z-related details). Talks may still change; not a closed deal.",
       "url": "https://x.com/amir/status/2095678832535843209",
       "via": "@amir",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T18:40:00.000Z",
+      "harvestedAt": "2026-09-11T19:15:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "SoftBank in talks for majority stake in 1X (~$6B)",
-      "summary": "UNCONFIRMED scoop: @validapau with @rocketalignment / @amir reports SoftBank is in talks to buy a majority stake in OpenAI-backed humanoid startup 1X Technologies at about a $6B valuation. Negotiations only — not announced as closed.",
+      "summary": "UNCONFIRMED scoop: @validapau with @rocketalignment / @amir reports SoftBank is in talks to buy a majority stake in OpenAI-backed humanoid startup 1X Technologies at about a $6B valuation. Negotiations only \u2014 not announced as closed.",
       "url": "https://x.com/validapau/status/2092788937186045962",
       "via": "@validapau",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T18:40:00.000Z",
+      "harvestedAt": "2026-09-11T19:15:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "OpenAI finished “Bel” >10T pretrain (post-Doug)",
-      "summary": "UNCONFIRMED single-source leak: @synthwavedd claimed OpenAI finished a giant pretrain codenamed Bel (>10T params), successor to Doug and intended as a post-GPT-6 / post-Astra base. No OpenAI confirmation, system card, or independent outlet corroboration after GPT-6 Astra shipped — treat as rumor.",
+      "title": "OpenAI finished \u201cBel\u201d >10T pretrain (post-Doug)",
+      "summary": "UNCONFIRMED single-source leak: @synthwavedd claimed OpenAI finished a giant pretrain codenamed Bel (>10T params), successor to Doug and intended as a post-GPT-6 / post-Astra base. No OpenAI confirmation, system card, or independent outlet corroboration after GPT-6 Astra shipped \u2014 treat as rumor.",
       "url": "https://x.com/synthwavedd/status/2092326145270456377",
       "via": "@synthwavedd",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T18:40:00.000Z",
+      "harvestedAt": "2026-09-11T19:15:00.000Z",
       "tags": [
         "rumor"
       ]
