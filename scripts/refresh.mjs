@@ -459,8 +459,11 @@ async function loadCurated() {
         sourceId: p.sourceId || "curated",
         sourceName: p.sourceName || "Curated",
         sourceHome: p.sourceHome || p.url,
-        publishedAt: data.harvestedAt || null,
-        publishedTs: (harvestedAt || Date.now()) - i,
+        publishedAt: p.publishedAt || data.harvestedAt || null,
+        publishedTs: p.publishedAt
+          ? Date.parse(p.publishedAt) || (harvestedAt || Date.now()) - i
+          : (harvestedAt || Date.now()) - i,
+        publishGuess: !p.publishedAt,
         curated: fresh,
         tags: Array.isArray(p.tags) ? p.tags : undefined,
         clusterId:
@@ -947,12 +950,38 @@ function uniqueRelated(items, lead) {
   return related;
 }
 
+function bestPublishedIso(items) {
+  let bestIso = null;
+  let bestTs = Infinity;
+  let fallbackIso = null;
+  let fallbackTs = Infinity;
+  for (const p of items) {
+    const iso = publishedIso(p);
+    if (!iso) continue;
+    const ts = Date.parse(iso);
+    if (Number.isNaN(ts)) continue;
+    if (ts < fallbackTs) {
+      fallbackTs = ts;
+      fallbackIso = iso;
+    }
+    // Prefer real article dates over harvest-time guesses.
+    if (!p.publishGuess && ts < bestTs) {
+      bestTs = ts;
+      bestIso = iso;
+    }
+  }
+  return bestIso || fallbackIso;
+}
+
 function toCluster(items, clusterId) {
   const sorted = [...items].sort(compareStories);
   const lead = sorted[0];
   const related = uniqueRelated(sorted, lead);
+  const publishedAt = bestPublishedIso(sorted) || publishedIso(lead);
   return {
     ...lead,
+    publishedAt,
+    publishedTs: publishedAt ? Date.parse(publishedAt) : lead.publishedTs || 0,
     tags: clusterTags(sorted),
     related,
     clusterId,
@@ -1042,10 +1071,23 @@ function mergeByUrl(items, preferCurated) {
     }
     if (preferCurated) {
       if (item.curated && !prev.curated) {
-        byUrl.set(key, item);
+        byUrl.set(key, {
+          ...item,
+          publishedAt: (!item.publishGuess && item.publishedAt) || prev.publishedAt || item.publishedAt,
+          publishedTs: (!item.publishGuess && item.publishedTs) || prev.publishedTs || item.publishedTs,
+          publishGuess: item.publishGuess && !prev.publishedAt ? true : !((!item.publishGuess && item.publishedAt) || prev.publishedAt),
+        });
         continue;
       }
-      if (prev.curated && !item.curated) continue;
+      if (prev.curated && !item.curated) {
+        byUrl.set(key, {
+          ...prev,
+          publishedAt: item.publishedAt || prev.publishedAt,
+          publishedTs: item.publishedTs || prev.publishedTs,
+          publishGuess: item.publishedAt ? false : prev.publishGuess,
+        });
+        continue;
+      }
     }
     if (item.publishedTs > prev.publishedTs) byUrl.set(key, item);
   }
@@ -1259,7 +1301,9 @@ function renderHtml(payload) {
       const cta = isX ? "Read on X →" : "Read story →";
       const meta = [
         handle ? `<span>${escapeHtml(handle)}</span>` : "",
-        when ? `<span>${when}</span>` : "",
+        when
+          ? `<span class="published">Published ${when}</span>`
+          : `<span class="published published-unknown">Published time unavailable</span>`,
       ]
         .filter(Boolean)
         .join("\n      ");
@@ -1343,7 +1387,7 @@ function renderHtml(payload) {
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css?v=clean-cadence-1">
+  <link rel="stylesheet" href="./styles.css?v=published-1">
   <link rel="icon" href="./favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16.png">
@@ -1563,6 +1607,28 @@ export async function refreshNews() {
   });
   if (xErrors.length) console.error("x", xErrors.join("; "));
   all.push(...xItems);
+
+  // Backfill real pubDates onto curated harvest rows from live-feed twins.
+  for (const curatedPost of all.filter((p) => p.curated && p.publishGuess)) {
+    let best = null;
+    let bestScore = 0;
+    for (const live of all) {
+      if (live.curated || live.publishGuess || !live.publishedAt) continue;
+      if (live.sourceId === X_SOURCE.id) continue;
+      const sameUrl = normalizeUrl(live.url) === normalizeUrl(curatedPost.url);
+      const score = sameUrl ? 1 : jaccard(titleTokens(curatedPost), titleTokens(live));
+      if (score < (sameUrl ? 0.99 : 0.55)) continue;
+      if (score > bestScore) {
+        bestScore = score;
+        best = live;
+      }
+    }
+    if (best) {
+      curatedPost.publishedAt = best.publishedAt;
+      curatedPost.publishedTs = best.publishedTs;
+      curatedPost.publishGuess = false;
+    }
+  }
 
   const posts = pickTop(all, curated.fresh);
   const rumors = pickRumors(curated.rumors || [], posts);

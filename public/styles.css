@@ -584,6 +584,16 @@ h1 {
   margin-bottom: 4px;
 }
 
+.published {
+  color: var(--light-foreground);
+  font-variant-numeric: tabular-nums;
+}
+
+.published-unknown {
+  color: var(--dark-foreground);
+  font-style: italic;
+}
+
 .author {
   display: flex;
   align-items: center;
