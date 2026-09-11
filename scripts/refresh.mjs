@@ -1304,7 +1304,7 @@ function rumorMill(rumors) {
     <h2>Rumor mill</h2>
     <span class="unconfirmed">Unconfirmed</span>
   </div>
-  <p class="rumor-explainer">Unverified X chatter. Stays out of the Top 10 until real outlets confirm it.</p>
+  <p class="rumor-explainer">Unverified X chatter.</p>
   <div class="rumor-list">${body}</div>
 </section>`;
 }
