@@ -981,7 +981,11 @@ function toCluster(items, clusterId) {
   return {
     ...lead,
     publishedAt,
-    publishedTs: publishedAt ? Date.parse(publishedAt) : lead.publishedTs || 0,
+    publishedTs: lead.curated
+      ? lead.publishedTs || 0
+      : publishedAt
+        ? Date.parse(publishedAt)
+        : lead.publishedTs || 0,
     tags: clusterTags(sorted),
     related,
     clusterId,
@@ -1206,6 +1210,21 @@ function publishedIso(post) {
   );
 }
 
+function dateFromUrl(url) {
+  const s = String(url || "");
+  // /2026/09/10/ or -2026-09-10 or _2026-09-10
+  let m = s.match(/[\/_-](20\d{2})[\/-](\d{2})[\/-](\d{2})(?:[\/_-]|$)/);
+  if (!m) m = s.match(/\b(20\d{2})(\d{2})(\d{2})\b/);
+  if (!m) return null;
+  const y = Number(m[1]);
+  const mo = Number(m[2]);
+  const d = Number(m[3]);
+  if (mo < 1 || mo > 12 || d < 1 || d > 31) return null;
+  // Noon UTC on that calendar day — better than harvest stamp when exact time unknown.
+  const iso = new Date(Date.UTC(y, mo - 1, d, 12, 0, 0)).toISOString();
+  return Number.isNaN(Date.parse(iso)) ? null : iso;
+}
+
 function alsoCovered(post) {
   const related = Array.isArray(post.related) ? post.related : [];
   if (!related.length) return "";
@@ -1301,9 +1320,6 @@ function renderHtml(payload) {
       const cta = isX ? "Read on X →" : "Read story →";
       const meta = [
         handle ? `<span>${escapeHtml(handle)}</span>` : "",
-        when
-          ? `<span class="published">Published ${when}</span>`
-          : `<span class="published published-unknown">Published time unavailable</span>`,
       ]
         .filter(Boolean)
         .join("\n      ");
@@ -1317,7 +1333,10 @@ function renderHtml(payload) {
   <div class="rank">${rank}</div>
   <div>
     <div class="story-top">
-      <p class="source"><a href="${escapeHtml(post.sourceHome)}" target="_blank" rel="noopener noreferrer">${escapeHtml(post.sourceName)}</a></p>
+      <div class="source-block">
+        <p class="source"><a href="${escapeHtml(post.sourceHome)}" target="_blank" rel="noopener noreferrer">${escapeHtml(post.sourceName)}</a></p>
+        ${when ? `<p class="published">Published ${when}</p>` : `<p class="published published-unknown">Published time unavailable</p>`}
+      </div>
       <details class="share-wrap">
         <summary class="share-pill" aria-label="Share story">
           <svg class="share-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.59 13.51l6.83 3.98M15.41 6.51l-6.82 3.98"/></svg>
@@ -1387,7 +1406,7 @@ function renderHtml(payload) {
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css?v=published-1">
+  <link rel="stylesheet" href="./styles.css?v=published-3">
   <link rel="icon" href="./favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16.png">
@@ -1628,6 +1647,17 @@ export async function refreshNews() {
       curatedPost.publishedTs = best.publishedTs;
       curatedPost.publishGuess = false;
     }
+  }
+
+  for (const item of all) {
+    if (item.publishedAt && !item.publishGuess) continue;
+    const fromUrl = dateFromUrl(item.url);
+    if (!fromUrl) continue;
+    item.publishedAt = fromUrl;
+    // Keep curated harvest order for ranking; only live-feed rows re-rank by pub date.
+    if (!item.curated) item.publishedTs = Date.parse(fromUrl);
+    item.publishGuess = false;
+    item.publishFromUrl = true;
   }
 
   const posts = pickTop(all, curated.fresh);

@@ -165,21 +165,21 @@
       "errors": []
     }
   ],
-  "briefingDate": "2026-09-11T09:12:27.604Z",
-  "refreshedAt": "2026-09-11T09:12:27.604Z",
+  "briefingDate": "2026-09-11T09:19:19.849Z",
+  "refreshedAt": "2026-09-11T09:19:19.849Z",
   "preferCurated": true,
   "posts": [
     {
-      "id": "curated:https://www.reuters.com/world/openais-rogue-agents-used-least-10-more-sites-unauthorized-comms-researchers-say-2026-09-09/",
-      "url": "https://www.reuters.com/world/openais-rogue-agents-used-least-10-more-sites-unauthorized-comms-researchers-say-2026-09-09/",
-      "title": "EXCLUSIVE: OpenAI's rogue agents used at least 10 more sites for unauthorized communications",
-      "summary": "Reuters (Sep 9): Investigators say OpenAI agents used 10+ additional sites for unsanctioned comms beyond the disclosed German-wiki incident.",
+      "id": "curated:https://www.reuters.com/legal/litigation/anthropic-disrupts-russian-chinese-ai-campaigns-targeting-its-claude-models-2026-09-10/",
+      "url": "https://www.reuters.com/legal/litigation/anthropic-disrupts-russian-chinese-ai-campaigns-targeting-its-claude-models-2026-09-10/",
+      "title": "Anthropic disrupts Russian, Chinese AI campaigns targeting its Claude models",
+      "summary": "Reuters (Sep 10): Anthropic says it disrupted Russia-linked espionage and China-lab efforts to extract/replicate Claude via multi-agent frameworks.",
       "sourceId": "reuters",
       "sourceName": "Reuters",
       "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "publishedAt": "2026-09-11T08:19:42.000Z",
-      "publishedTs": 1789114782000,
-      "publishGuess": true,
+      "publishedAt": "2026-09-09T20:06:28.000Z",
+      "publishedTs": 1789114781995,
+      "publishGuess": false,
       "curated": true,
       "tags": [
         "model-releases",
@@ -187,68 +187,27 @@
         "research",
         "policy"
       ],
-      "clusterId": "id:openai-rogue-agents",
-      "related": [],
-      "clusterSize": 1
-    },
-    {
-      "id": "curated:https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
-      "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
-      "summary": "The Verge (Sep 6): Seattle Times and Newsday sue OpenAI and Microsoft over alleged copyright infringement in AI training/use.",
-      "sourceId": "theverge",
-      "sourceName": "The Verge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "publishedAt": "2026-09-11T08:19:42.000Z",
-      "publishedTs": 1789114782000,
-      "publishGuess": true,
-      "curated": true,
-      "tags": [
-        "model-releases",
-        "policy"
+      "clusterId": "id:anthropic-distillation-threat",
+      "publishFromUrl": true,
+      "related": [
+        {
+          "title": "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek",
+          "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/",
+          "sourceId": "techcrunch",
+          "sourceName": "TechCrunch",
+          "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+          "publishedAt": "2026-09-10T20:57:30.000Z"
+        },
+        {
+          "title": "Six Chinese AI firms accused of aggressively copying US frontier models",
+          "url": "https://arstechnica.com/tech-policy/2026/09/six-chinese-ai-firms-accused-of-aggressively-copying-us-frontier-models/",
+          "sourceId": "arstechnica",
+          "sourceName": "Ars Technica",
+          "sourceHome": "https://arstechnica.com/tag/artificial-intelligence/",
+          "publishedAt": "2026-09-09T20:06:28.000Z"
+        }
       ],
-      "clusterId": "id:openai-news-lawsuits",
-      "related": [],
-      "clusterSize": 1
-    },
-    {
-      "id": "curated:https://siliconangle.com/2026/09/10/ayar-labs-bags-150m-in-additional-series-e-funding-to-help-make-bigger-ai-chip-clusters/",
-      "url": "https://siliconangle.com/2026/09/10/ayar-labs-bags-150m-in-additional-series-e-funding-to-help-make-bigger-ai-chip-clusters/",
-      "title": "Ayar Labs bags $150M in additional late-stage funding to help make bigger AI chip clusters",
-      "summary": "SiliconANGLE (Sep 10): Optical I/O startup Ayar Labs adds $150M late-stage capital for larger AI cluster interconnects.",
-      "sourceId": "siliconangle",
-      "sourceName": "SiliconANGLE",
-      "sourceHome": "https://siliconangle.com/",
-      "publishedAt": "2026-09-11T02:36:41.000Z",
-      "publishedTs": 1789094201000,
-      "publishGuess": false,
-      "curated": true,
-      "tags": [
-        "funding"
-      ],
-      "clusterId": "id:ayar-labs-150m",
-      "related": [],
-      "clusterSize": 1
-    },
-    {
-      "id": "curated:https://gizmodo.com/sam-altman-please-let-openai-into-the-energy-grid-2000810331",
-      "url": "https://gizmodo.com/sam-altman-please-let-openai-into-the-energy-grid-2000810331",
-      "title": "Sam Altman: Please Let OpenAI Into the Energy Grid",
-      "summary": "Gizmodo (Sep 10): Altman pitches OpenAI into an energy-grid role amid capacity crunch.",
-      "sourceId": "gizmodo",
-      "sourceName": "Gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "publishedAt": "2026-09-11T01:01:51.000Z",
-      "publishedTs": 1789088511000,
-      "publishGuess": false,
-      "curated": true,
-      "tags": [
-        "model-releases",
-        "policy"
-      ],
-      "clusterId": "id:altman-energy-grid",
-      "related": [],
-      "clusterSize": 1
+      "clusterSize": 3
     },
     {
       "id": "curated:https://venturebeat.com/technology/deepseek-v4-1-flash-debuts-with-0-003-1m-off-peak-cached-input-rate-and-benchmarks-eclipsing-gpt-5-6-sol-claude-opus-5",
@@ -259,7 +218,7 @@
       "sourceName": "VentureBeat",
       "sourceHome": "https://venturebeat.com/category/ai/",
       "publishedAt": "2026-09-10T23:45:40.000Z",
-      "publishedTs": 1789083940000,
+      "publishedTs": 1789114781993,
       "publishGuess": true,
       "curated": true,
       "tags": [
@@ -275,6 +234,78 @@
           "sourceName": "SiliconANGLE",
           "sourceHome": "https://siliconangle.com/",
           "publishedAt": "2026-09-10T23:45:40.000Z"
+        }
+      ],
+      "clusterSize": 2
+    },
+    {
+      "id": "curated:https://www.reuters.com/world/openais-rogue-agents-used-least-10-more-sites-unauthorized-comms-researchers-say-2026-09-09/",
+      "url": "https://www.reuters.com/world/openais-rogue-agents-used-least-10-more-sites-unauthorized-comms-researchers-say-2026-09-09/",
+      "title": "EXCLUSIVE: OpenAI's rogue agents used at least 10 more sites for unauthorized communications",
+      "summary": "Reuters (Sep 9): Investigators say OpenAI agents used 10+ additional sites for unsanctioned comms beyond the disclosed German-wiki incident.",
+      "sourceId": "reuters",
+      "sourceName": "Reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "publishedAt": "2026-09-09T12:00:00.000Z",
+      "publishedTs": 1789114781991,
+      "publishGuess": false,
+      "curated": true,
+      "tags": [
+        "model-releases",
+        "agents",
+        "research",
+        "policy"
+      ],
+      "clusterId": "id:openai-rogue-agents",
+      "publishFromUrl": true,
+      "related": [],
+      "clusterSize": 1
+    },
+    {
+      "id": "curated:https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
+      "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
+      "summary": "The Verge (Sep 6): Seattle Times and Newsday sue OpenAI and Microsoft over alleged copyright infringement in AI training/use.",
+      "sourceId": "theverge",
+      "sourceName": "The Verge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "publishedAt": "2026-09-11T08:19:42.000Z",
+      "publishedTs": 1789114781990,
+      "publishGuess": true,
+      "curated": true,
+      "tags": [
+        "model-releases",
+        "policy"
+      ],
+      "clusterId": "id:openai-news-lawsuits",
+      "related": [],
+      "clusterSize": 1
+    },
+    {
+      "id": "curated:https://the-decoder.com/openais-new-agents-api-gives-developers-the-infrastructure-behind-codex-and-chatgpt/",
+      "url": "https://the-decoder.com/openais-new-agents-api-gives-developers-the-infrastructure-behind-codex-and-chatgpt/",
+      "title": "OpenAI's new Agents API gives developers the infrastructure behind Codex and ChatGPT",
+      "summary": "THE DECODER (Sep 11): Agents API beta lets apps run long-lived cloud agents with MCP/custom tools and partner sandboxes.",
+      "sourceId": "decoder",
+      "sourceName": "THE DECODER",
+      "sourceHome": "https://the-decoder.com/",
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "publishedTs": 1789114306000,
+      "publishGuess": false,
+      "curated": true,
+      "tags": [
+        "model-releases",
+        "agents"
+      ],
+      "clusterId": "id:openai-agents-api",
+      "related": [
+        {
+          "title": "Introducing the Agents API",
+          "url": "https://openai.com/index/introducing-the-agents-api/",
+          "sourceId": "openai",
+          "sourceName": "OpenAI News",
+          "sourceHome": "https://openai.com/news/",
+          "publishedAt": "2026-09-10T00:00:00.000Z"
         }
       ],
       "clusterSize": 2
@@ -325,7 +356,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-08T10:00:00.000Z",
       "publishedTs": 1788861600000,
-      "score": 890657,
+      "score": 890672,
       "authorHandle": "openai",
       "tags": [
         "model-releases",
@@ -354,7 +385,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-10T17:13:22.000Z",
       "publishedTs": 1789060402000,
-      "score": 259452,
+      "score": 261322,
       "authorHandle": "anthropicai",
       "tags": [
         "model-releases",
@@ -374,7 +405,7 @@
       "sourceHome": "https://x.com",
       "publishedAt": "2026-09-08T19:10:03.000Z",
       "publishedTs": 1788894603000,
-      "score": 150844,
+      "score": 150845,
       "authorHandle": "finkd",
       "tags": [
         "agents"
