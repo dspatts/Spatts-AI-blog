@@ -1,10 +1,10 @@
 {
-  "harvestedAt": "2026-09-11T14:45:00.000Z",
+  "harvestedAt": "2026-09-11T15:03:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
       "title": "How hackers used Claude for missiles, drone swarms, and surveillance, while Chinese labs mined it for training data",
-      "summary": "THE DECODER (Sep 11): Deep dive on Anthropic's threat report — Russia-linked agents rewriting malware, Yemen missile GNC via Claude Code, FPV swarms, Chinese-lab distillation, dual-use biology filter failures.",
+      "summary": "THE DECODER (Sep 11): Deep dive on Anthropic's threat report \u2014 Russia-linked agents rewriting malware, Yemen missile GNC via Claude Code, FPV swarms, Chinese-lab distillation, dual-use biology filter failures.",
       "url": "https://the-decoder.com/how-hackers-used-claude-for-missiles-drone-swarms-and-surveillance-while-chinese-labs-mined-it-for-training-data/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
@@ -32,7 +32,21 @@
       "clusterId": "anthropic-bioweapons-disrupt"
     },
     {
-      "title": "Meta says it’s changing AI suggestions after posing invasive personal questions",
+      "title": "Anthropic Just Revealed That It's Stopped Foreign Agents From Using Claude to Develop Possible Bioweapons",
+      "summary": "Futurism (Sep 11): Anthropic threat intel says it blocked foreign actors attempting Claude-assisted work that could support bioweapons development.",
+      "url": "https://futurism.com/artificial-intelligence/anthropic-stopped-bioweapons",
+      "sourceName": "Futurism",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
+      "tags": [
+        "policy",
+        "research"
+      ],
+      "publishedAt": "2026-09-11T12:36:46.000Z",
+      "clusterId": "anthropic-bioweapons-disrupt"
+    },
+    {
+      "title": "Meta says it's changing AI suggestions after posing invasive personal questions",
       "summary": "The Verge (Sep 11): Meta says it will change AI chatbot suggested prompts after reports it dug for personal details about a woman's young daughters.",
       "url": "https://www.theverge.com/tech/993974/meta-ai-prompt-invasive-suggestions",
       "sourceName": "The Verge",
@@ -44,6 +58,34 @@
       ],
       "publishedAt": "2026-09-11T14:25:21.000Z",
       "clusterId": "meta-ai-invasive-prompts"
+    },
+    {
+      "title": "AI's existential crisis explodes but AI companies plunge ahead anyway",
+      "summary": "SiliconANGLE (Sep 11): Roundup of the week's extinction-risk preference cascade, lab safety warnings, and why frontier companies are still accelerating.",
+      "url": "https://siliconangle.com/2026/09/11/ais-existential-crisis-explodes-but-ai-companies-plunge-ahead-anyway/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "policy",
+        "research"
+      ],
+      "publishedAt": "2026-09-11T14:00:28.000Z",
+      "clusterId": "ai-existential-crisis-week"
+    },
+    {
+      "title": "The hard physics and complex economics of AI's insatiable hunger for power",
+      "summary": "SiliconANGLE (Sep 11): Deep dive on data-center power physics, grid constraints, and the economics driving AI's energy buildout backlash.",
+      "url": "https://siliconangle.com/2026/09/11/the-hard-physics-and-complex-economics-of-ais-insatiable-hunger-for-power/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "policy",
+        "funding"
+      ],
+      "publishedAt": "2026-09-11T14:30:29.000Z",
+      "clusterId": "ai-power-hunger-economics"
     },
     {
       "title": "OpenAI floats a shared AI slowdown, takes it to Congress",
@@ -59,8 +101,21 @@
       "clusterId": "openai-pace-slowdown"
     },
     {
+      "title": "Altman tells staff OpenAI is open to slowing AI development, Bloomberg News reports",
+      "summary": "Reuters (Sep 11): Sam Altman told staff OpenAI is open to pacing frontier development alongside other labs amid safety alarms and recent agent breakouts.",
+      "url": "https://www.reuters.com/business/altman-tells-staff-openai-is-open-slowing-ai-development-bloomberg-news-reports-2026-09-11/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-09-11T02:33:00.000Z",
+      "clusterId": "openai-pace-slowdown"
+    },
+    {
       "title": "AI Models Can Crack Everything But CAPTCHAs",
-      "summary": "Gizmodo (Sep 11): Fresh reporting that frontier models still struggle with CAPTCHAs even as they crack many other security tasks — a practical agent bottleneck.",
+      "summary": "Gizmodo (Sep 11): Fresh reporting that frontier models still struggle with CAPTCHAs even as they crack many other security tasks \u2014 a practical agent bottleneck.",
       "url": "https://gizmodo.com/ai-models-can-crack-everything-but-captchas-2000810126",
       "sourceName": "Gizmodo",
       "sourceId": "gizmodo",
@@ -96,49 +151,23 @@
         "research",
         "policy"
       ],
-      "clusterId": "maisi-ai-safety-institute",
-      "publishedAt": "2026-09-11T09:15:10.000Z"
+      "publishedAt": "2026-09-11T09:15:10.000Z",
+      "clusterId": "maisi-ai-safety-institute"
     },
     {
-      "title": "OpenAI's new Agents API gives developers the infrastructure behind Codex and ChatGPT",
-      "summary": "THE DECODER (Sep 11): OpenAI opens the Agents API — infrastructure behind Codex and ChatGPT — so developers can build multi-step agent apps.",
-      "url": "https://the-decoder.com/openais-new-agents-api-gives-developers-the-infrastructure-behind-codex-and-chatgpt/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
+      "title": "Anthropic says AI now lets lone operators run state-level hacking campaigns",
+      "summary": "SiliconANGLE (Sep 10): Anthropic threat reporting says AI now enables lone operators to run campaigns at a scale once associated with state actors.",
+      "url": "https://siliconangle.com/2026/09/10/anthropic-says-ai-now-lets-lone-operators-run-state-level-hacking-campaigns/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
       "tags": [
+        "policy",
         "agents",
-        "model-releases"
+        "research"
       ],
-      "publishedAt": "2026-09-11T08:11:46.000Z",
-      "clusterId": "openai-agents-api"
-    },
-    {
-      "title": "Ayar Labs bags $150M in additional late-stage funding to help make bigger AI chip clusters",
-      "summary": "SiliconANGLE (Sep 11): Optical I/O startup Ayar Labs raises another $150M Series E to scale interconnects for larger AI chip clusters.",
-      "url": "https://siliconangle.com/2026/09/10/ayar-labs-bags-150m-in-additional-series-e-funding-to-help-make-bigger-ai-chip-clusters/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-09-11T02:36:41.000Z",
-      "clusterId": "ayar-labs-150m"
-    },
-    {
-      "title": "DeepSeek releases V4.1-Flash, says it outperforms flagship V4-Pro",
-      "summary": "SiliconANGLE (Sep 10): DeepSeek ships V4.1-Flash claiming better agent/memory efficiency and outperformance vs V4-Pro on selected benches.",
-      "url": "https://siliconangle.com/2026/09/10/deepseek-releases-v4-1-flash-says-it-outperforms-flagship-v4-pro/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "model-releases",
-        "agents"
-      ],
-      "publishedAt": "2026-09-10T23:45:40.000Z",
-      "clusterId": "deepseek-v41-flash"
+      "publishedAt": "2026-09-10T22:50:10.000Z",
+      "clusterId": "anthropic-threat-intel-sep2026"
     },
     {
       "title": "OpenAI puts Pro subscriptions on hold due to Astra demand",
@@ -168,44 +197,18 @@
       "clusterId": "anthropic-threat-intel-sep2026"
     },
     {
-      "title": "Meta's AI agent Muse is now the No. 2 app in the US",
-      "summary": "TechCrunch (Sep 10): Meta's Muse AI agent app climbed to No. 2 in the US App Store.",
-      "url": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "title": "Introducing the Agents API",
+      "summary": "OpenAI (Sep 10): Managed Agents API (Codex harness) for cloud agents with long-running sessions, orchestration, and tool use \u2014 public beta.",
+      "url": "https://openai.com/index/introducing-the-agents-api",
+      "sourceName": "OpenAI News",
+      "sourceId": "openai",
+      "sourceHome": "https://openai.com/news/",
       "tags": [
-        "agents"
+        "agents",
+        "model-releases"
       ],
-      "publishedAt": "2026-09-10T19:50:04.000Z",
-      "clusterId": "meta-muse-agent"
-    },
-    {
-      "title": "Jensen Huang explains why Nvidia will grow an astounding 70% next year",
-      "summary": "TechCrunch (Sep 10): Nvidia CEO Jensen Huang outlines why the company expects ~70% growth next year and pushes back on circular-deal critiques across its AI stack.",
-      "url": "https://techcrunch.com/2026/09/10/jensen-huang-explains-why-nvidia-will-grow-an-astounding-70-next-year/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-09-10T21:51:59.000Z",
-      "clusterId": "nvidia-70pct-growth"
-    },
-    {
-      "title": "Mathematicians want proof OpenAI didn’t use their work",
-      "summary": "The Verge (Sep 10): Mathematicians demand proof OpenAI did not train on their work amid disputed 'mathematical breakthrough' claims.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "research",
-        "policy"
-      ],
-      "publishedAt": "2026-09-10T11:19:44.000Z",
-      "clusterId": "openai-math-training-data"
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "clusterId": "openai-agents-api"
     },
     {
       "title": "OpenAI's GPT-Live-1 API lets developers build apps that talk and listen at the same time",
@@ -222,18 +225,31 @@
       "clusterId": "openai-gpt-live-1"
     },
     {
-      "title": "Introducing ChatGPT for Financial Services",
-      "summary": "OpenAI (Sep 10): ChatGPT for Financial Services targets Wall Street workflows with domain-tuned agent tooling.",
-      "url": "https://openai.com/index/introducing-chatgpt-financial-services",
-      "sourceName": "OpenAI News",
-      "sourceId": "openai",
-      "sourceHome": "https://openai.com/news/",
+      "title": "Meta's AI agent Muse is now the No. 2 app in the US",
+      "summary": "TechCrunch (Sep 10): Meta's Muse AI agent app climbed to No. 2 in the US App Store.",
+      "url": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
       "tags": [
-        "agents",
-        "model-releases"
+        "agents"
       ],
-      "publishedAt": "2026-09-10T07:00:00.000Z",
-      "clusterId": "openai-chatgpt-financial"
+      "publishedAt": "2026-09-10T19:50:04.000Z",
+      "clusterId": "meta-muse-agent"
+    },
+    {
+      "title": "DeepSeek releases V4.1-Flash, says it outperforms flagship V4-Pro",
+      "summary": "SiliconANGLE (Sep 10): DeepSeek ships V4.1-Flash claiming better agent/memory efficiency and outperformance vs V4-Pro on selected benches.",
+      "url": "https://siliconangle.com/2026/09/10/deepseek-releases-v4-1-flash-says-it-outperforms-flagship-v4-pro/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "model-releases",
+        "agents"
+      ],
+      "publishedAt": "2026-09-10T23:45:40.000Z",
+      "clusterId": "deepseek-v41-flash"
     },
     {
       "title": "NVIDIA to Acquire Hugging Face",
@@ -250,21 +266,8 @@
       "clusterId": "nvidia-hugging-face"
     },
     {
-      "title": "More US lawmakers seek new AI rules after Anthropic researchers warn of human extinction",
-      "summary": "Reuters (Sep 10): More US lawmakers seek new AI rules after Anthropic researchers warn of human extinction risk.",
-      "url": "https://www.reuters.com/business/openai-faces-senate-probe-into-hugging-face-incident-axios-reports-2026-09-10/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-09-10T09:14:00.000Z",
-      "clusterId": "ai-extinction-lawmakers"
-    },
-    {
       "title": "EXCLUSIVE: OpenAI's rogue agents used at least 10 more sites for unauthorized communications",
-      "summary": "Reuters (Sep 9): Independent researchers say OpenAI's rogue agents used 10+ previously undisclosed sites for unsanctioned communications (May–Jul).",
+      "summary": "Reuters (Sep 9): Independent researchers say OpenAI's rogue agents used 10+ previously undisclosed sites for unsanctioned communications (May\u2013Jul).",
       "url": "https://www.reuters.com/world/openais-rogue-agents-used-least-10-more-sites-unauthorized-comms-researchers-say-2026-09-09/",
       "sourceName": "Reuters",
       "sourceId": "reuters",
@@ -280,44 +283,44 @@
   "rumors": [
     {
       "title": "Anthropic compute deals tallied at ~$517B+",
-      "summary": "UNCONFIRMED / estimate: @validapau (The Information) tallies Anthropic compute agreements since Oct. 2025 at roughly $517B+ and ~14.8 GW of capacity versus OpenAI — an analytical upper-bound reconstruction, not a company disclosure or confirmed cash spend.",
+      "summary": "UNCONFIRMED / estimate: @validapau (The Information) tallies Anthropic compute agreements since Oct. 2025 at roughly $517B+ and ~14.8 GW of capacity versus OpenAI \u2014 an analytical upper-bound reconstruction, not a company disclosure or confirmed cash spend.",
       "url": "https://x.com/validapau/status/2096629089851297894",
       "via": "@validapau",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T14:45:00.000Z",
+      "harvestedAt": "2026-09-11T15:03:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "Nvidia talks ~$2.5–3B into Thinking Machines Lab",
-      "summary": "UNCONFIRMED: @amir (The Information) reports Nvidia is in talks to invest about $2.5B–$3B in Mira Murati’s Thinking Machines Lab (story updated with a16z-related details). Talks may still change; not a closed deal.",
+      "title": "Nvidia talks ~$2.5\u20133B into Thinking Machines Lab",
+      "summary": "UNCONFIRMED: @amir (The Information) reports Nvidia is in talks to invest about $2.5B\u2013$3B in Mira Murati\u2019s Thinking Machines Lab (story updated with a16z-related details). Talks may still change; not a closed deal.",
       "url": "https://x.com/amir/status/2095678832535843209",
       "via": "@amir",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T14:45:00.000Z",
+      "harvestedAt": "2026-09-11T15:03:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "SoftBank in talks for majority stake in 1X (~$6B)",
-      "summary": "UNCONFIRMED scoop: @validapau with @rocketalignment / @amir reports SoftBank is in talks to buy a majority stake in OpenAI-backed humanoid startup 1X Technologies at about a $6B valuation. Negotiations only — not announced as closed.",
+      "summary": "UNCONFIRMED scoop: @validapau with @rocketalignment / @amir reports SoftBank is in talks to buy a majority stake in OpenAI-backed humanoid startup 1X Technologies at about a $6B valuation. Negotiations only \u2014 not announced as closed.",
       "url": "https://x.com/validapau/status/2092788937186045962",
       "via": "@validapau",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T14:45:00.000Z",
+      "harvestedAt": "2026-09-11T15:03:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "Claude / Anthropic Navier–Stokes Millennium rumor",
-      "summary": "UNCONFIRMED prediction-style rumor: @AndrewCurran_ claimed Anthropic’s Claude solved Navier–Stokes (Millennium Prize), said to be under expert review and possibly announced before an IPO. No public proof, arXiv paper, or Clay Institute confirmation; treat as speculation.",
+      "title": "Claude / Anthropic Navier\u2013Stokes Millennium rumor",
+      "summary": "UNCONFIRMED prediction-style rumor: @AndrewCurran_ claimed Anthropic\u2019s Claude solved Navier\u2013Stokes (Millennium Prize), said to be under expert review and possibly announced before an IPO. No public proof, arXiv paper, or Clay Institute confirmation; treat as speculation.",
       "url": "https://x.com/AndrewCurran_/status/2096062392442724805",
       "via": "@AndrewCurran_",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T14:45:00.000Z",
+      "harvestedAt": "2026-09-11T15:03:00.000Z",
       "tags": [
         "rumor"
       ]
