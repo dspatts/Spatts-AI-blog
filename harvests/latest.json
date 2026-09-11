@@ -1,5 +1,5 @@
 {
-  "harvestedAt": "2026-09-11T21:40:00.000Z",
+  "harvestedAt": "2026-09-11T22:30:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
@@ -45,7 +45,7 @@
     },
     {
       "title": "Chinese AI chip developer Enflame raises $912M in IPO",
-      "summary": "SiliconANGLE (Sep 11): Shanghai Enflame’s STAR-market debut raised ~6.12B yuan (~$912M); shares closed ~179% higher for ~$25.5B market cap. Tencent is top customer (~83% of 2025 revenue) and largest shareholder (~18% post-IPO). Fourth Chinese AI-chip IPO in a year after Biren, MetaX, Moore Threads.",
+      "summary": "SiliconANGLE (Sep 11): Shanghai Enflame’s STAR-market debut raised ~6.12B yuan (~$912M); shares closed sharply higher. Fourth Chinese AI-chip IPO in a year after Biren, MetaX, Moore Threads.",
       "url": "https://siliconangle.com/2026/09/11/chinese-ai-chip-developer-enflame-raises-912m-in-ipo/",
       "sourceName": "SiliconANGLE",
       "sourceId": "siliconangle",
@@ -58,7 +58,7 @@
     },
     {
       "title": "Lawyer fined $5K over AI-hallucinated witnesses in a murder case",
-      "summary": "The Verge (Sep 11): New Mexico Supreme Court holds Stephen Aarons in contempt and fines $5,000 after a ChatGPT-assisted murder-appeal brief cited wholly fabricated witnesses and false police testimony; justice asks if counsel ‘watch[es] the news’ about AI hallucinations.",
+      "summary": "The Verge (Sep 11): New Mexico Supreme Court holds Stephen Aarons in contempt and fines $5,000 after a ChatGPT-assisted murder-appeal brief cited wholly fabricated witnesses and false police testimony.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/994207/chatgpt-new-mexico-lawyer-fined-murder-appeal",
       "sourceName": "The Verge",
       "sourceId": "theverge",
@@ -66,11 +66,11 @@
       "tags": [
         "policy"
       ],
-      "publishedAt": "2026-09-11T20:44:02.000Z",
+      "publishedAt": "2026-09-11T20:44:25.000Z",
       "clusterId": "nm-chatgpt-lawyer-fine"
     },
     {
-      "title": "Kimi-maker Moonshot AI targets $2 billion in annual revenue",
+      "title": "Kimi-maker Moonshot AI targets $2B in annual revenue",
       "summary": "TechCrunch (Sep 11): Bloomberg-sourced report that Moonshot (Kimi/K3) is targeting ~$2B annualized revenue by year-end after August ARR ~$1B; open-weight margins thinner than closed labs, amid Anthropic distillation accusations.",
       "url": "https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue/",
       "sourceName": "TechCrunch",
@@ -111,22 +111,8 @@
       "clusterId": "anthropic-threat-report-claude-misuse"
     },
     {
-      "title": "Never Forget, AI Slop Is Polluting 9/11 History on the Internet as We Speak",
-      "summary": "Gizmodo (Sep 11): AI-generated junk is flooding anniversary coverage and search results, muddying the historical record around 9/11.",
-      "url": "https://gizmodo.com/never-forget-ai-slop-is-polluting-9-11-history-on-the-internet-as-we-speak-2000810667",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "tags": [
-        "policy",
-        "research"
-      ],
-      "publishedAt": "2026-09-11T19:20:06.000Z",
-      "clusterId": "ai-slop-911-history"
-    },
-    {
       "title": "Top Chinese Court Issues Sweeping Legal Crackdown on AI Deepfakes",
-      "summary": "Futurism (Sep 11): China’s Supreme People’s Court issues 24-article guidance on deepfakes, voice cloning, privacy, and doxing for lower courts.",
+      "summary": "Futurism (Sep 11): China’s Supreme People’s Court issues sweeping legal guidance on deepfakes, voice cloning, privacy, and doxing for lower courts.",
       "url": "https://futurism.com/artificial-intelligence/chinese-supreme-peoples-court-legal-guidance-ai-deepfakes",
       "sourceName": "Futurism",
       "sourceId": "futurism",
@@ -180,6 +166,19 @@
       "clusterId": "bengio-training-danger"
     },
     {
+      "title": "Nscale adds former OpenAI exec Fidji Simo to its board ahead of potential IPO",
+      "summary": "TechCrunch (Sep 11): U.K. AI data-center startup Nscale adds Fidji Simo (ex-OpenAI No. 2 / Instacart CEO) to a board with Sandberg, Decker, and Clegg ahead of a rumored fall IPO and up-to-$3.5B raise.",
+      "url": "https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-09-11T16:46:25.000Z",
+      "clusterId": "nscale-fidji-simo-board"
+    },
+    {
       "title": "Meta Releases Uber-Creepy AI Chatbot as Its Platforms Crumble Under Grotesque Child Abuse",
       "summary": "Futurism (Sep 11): Meta’s Muse agent launch lands amid intensifying scrutiny of Meta platforms and child-safety failures; piece frames Muse as privacy-invasive life-running chatbot.",
       "url": "https://futurism.com/artificial-intelligence/meta-creepy-ai-chatbot-muse",
@@ -194,20 +193,6 @@
       "clusterId": "meta-muse-agent"
     },
     {
-      "title": "NYU Mathematician Embroiled in AI Controversy Says the Machines Have Won: ‘The Game Is Up’",
-      "summary": "Gizmodo (Sep 11): NYU mathematician in the OpenAI math-breakthrough attribution fight says private ChatGPT chats and lab claims leave researchers outmatched — ‘the game is up.’",
-      "url": "https://gizmodo.com/nyu-mathematician-embroiled-in-ai-controversy-says-the-machines-have-won-the-game-is-up-2000810605",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "tags": [
-        "research",
-        "policy"
-      ],
-      "publishedAt": "2026-09-11T16:45:00.000Z",
-      "clusterId": "openai-math-breakthrough-drama"
-    },
-    {
       "title": "Anthropic spent this week in hot water over cybersecurity",
       "summary": "The Verge (Sep 11): Roundup of Anthropic’s rough cyber week — researcher resignation cascade plus threat-intel disclosures on Claude misuse for hacking, weapons, and surveillance.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/994064/anthropic-spent-this-week-in-hot-water-over-cybersecurity",
@@ -218,8 +203,21 @@
         "policy",
         "agents"
       ],
-      "publishedAt": "2026-09-11T16:09:14.000Z",
+      "publishedAt": "2026-09-11T16:55:17.000Z",
       "clusterId": "anthropic-cyber-hot-water"
+    },
+    {
+      "title": "Trump Shrugs Off Warnings That AI Could Cause Human Extinction",
+      "summary": "Gizmodo (Sep 11): Trump says he has no existential-AI concerns and frames beating China as the real risk — days after Anthropic’s Coxon resignation and Hubinger/Wang extinction-risk posts.",
+      "url": "https://gizmodo.com/trump-shrugs-off-warnings-that-ai-could-cause-human-extinction-2000810553",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-09-11T15:45:27.000Z",
+      "clusterId": "ai-extinction-preference-cascade"
     },
     {
       "title": "The hard physics and complex economics of AI’s insatiable hunger for power",
@@ -250,22 +248,21 @@
       "clusterId": "anthropic-threat-report-claude-misuse"
     },
     {
-      "title": "Claude users found ways around safeguards for bioweapons research",
-      "summary": "Ars Technica (Sep 11): Anthropic says some dangerous biology looks like legitimate research, complicating classifiers; details disrupted misuse cases tied to pathogen research.",
-      "url": "https://arstechnica.com/ai/2026/09/claude-users-found-ways-around-safeguards-for-bioweapons-research/",
-      "sourceName": "Ars Technica",
-      "sourceId": "arstechnica",
-      "sourceHome": "https://arstechnica.com/tag/artificial-intelligence/",
+      "title": "OpenAI floats a shared AI slowdown, takes it to Congress",
+      "summary": "THE DECODER (Sep 11): OpenAI asks Congress whether coordinating an industry-wide development slowdown would be legal under Sherman Act; Altman floated slowing alongside other labs after agent safety incidents; CATSR Act still in Judiciary.",
+      "url": "https://the-decoder.com/openai-floats-a-shared-ai-slowdown-takes-it-to-congress/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
       "tags": [
-        "policy",
-        "research"
+        "policy"
       ],
-      "publishedAt": "2026-09-11T13:02:35.000Z",
-      "clusterId": "anthropic-bioweapons-safeguards"
+      "publishedAt": "2026-09-11T11:59:19.000Z",
+      "clusterId": "openai-shared-slowdown-congress"
     },
     {
       "title": "Introducing Fugu Max and Fugu Ultra v2: Orchestrating the Pareto Frontier",
-      "summary": "AI/TLDR → Sakana (Sep 11): Sakana ships Fugu Max (cheap orchestrator) and Fugu Ultra v2 (Chartography 48.3 vs Opus 5’s 27.3); hosted OpenAI-compatible API.",
+      "summary": "AI/TLDR → Sakana (Sep 11): Sakana ships Fugu Max (cheap orchestrator) and Fugu Ultra v2 (stronger routing; Chartography lead vs Opus); hosted OpenAI-compatible API.",
       "url": "https://sakana.ai/fugu-max-release/",
       "sourceName": "AI/TLDR",
       "sourceId": "ai-tldr",
@@ -285,7 +282,7 @@
       "url": "https://x.com/validapau/status/2096629089851297894",
       "via": "@validapau",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T21:40:00.000Z",
+      "harvestedAt": "2026-09-11T22:30:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -296,7 +293,7 @@
       "url": "https://x.com/amir/status/2095678832535843209",
       "via": "@amir",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T21:40:00.000Z",
+      "harvestedAt": "2026-09-11T22:30:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -307,7 +304,7 @@
       "url": "https://x.com/validapau/status/2092788937186045962",
       "via": "@validapau",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T21:40:00.000Z",
+      "harvestedAt": "2026-09-11T22:30:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -318,7 +315,7 @@
       "url": "https://x.com/synthwavedd/status/2092326145270456377",
       "via": "@synthwavedd",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-11T21:40:00.000Z",
+      "harvestedAt": "2026-09-11T22:30:00.000Z",
       "tags": [
         "rumor"
       ]
