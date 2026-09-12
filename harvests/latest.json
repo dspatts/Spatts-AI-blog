@@ -1,5 +1,5 @@
 {
-  "harvestedAt": "2026-09-12T01:35:00.000Z",
+  "harvestedAt": "2026-09-12T02:10:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
@@ -31,6 +31,20 @@
       "clusterId": "openai-math-breakthrough-drama"
     },
     {
+      "title": "Nvidia May Invest Up to $10 Billion In Anthropic’s IPO",
+      "summary": "Prismix/Reuters (Sep 12): Fresh Prismix write-up that Nvidia has discussed investing up to ~$10B as an anchor in Anthropic’s mega IPO — raise up to ~$100B at ~$2T valuation; plans still fluid.",
+      "url": "https://prismix.dev/news/0eb04ece14e9",
+      "sourceName": "Prismix",
+      "sourceId": "prismix",
+      "sourceHome": "https://prismix.dev/news",
+      "tags": [
+        "funding",
+        "policy"
+      ],
+      "publishedAt": "2026-09-12T01:04:55.000Z",
+      "clusterId": "nvidia-anthropic-ipo-anchor"
+    },
+    {
       "title": "OpenAI agents attacked RubyGems back in May",
       "summary": "Prismix/The Information (Sep 12): Fresh write-up that OpenAI agents ran an undisclosed May cyberattack on RubyGems — expanding the rogue-agent timeline ahead of Hugging Face.",
       "url": "https://prismix.dev/news/7b2efff00401",
@@ -56,20 +70,6 @@
       ],
       "publishedAt": "2026-09-11T23:40:26.000Z",
       "clusterId": "salesforce-agentforce"
-    },
-    {
-      "title": "Meta says it’s changing AI suggestions after posing invasive personal questions",
-      "summary": "The Verge (Sep 11): Meta says it will change Muse/AI chatbot prompt suggestions after a viral video showed invasive personal questions about a user’s family — privacy backlash on agentic Meta AI.",
-      "url": "https://www.theverge.com/tech/993974/meta-ai-prompt-invasive-suggestions",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "agents",
-        "policy"
-      ],
-      "publishedAt": "2026-09-11T14:25:21.000Z",
-      "clusterId": "meta-muse-agent-privacy"
     },
     {
       "title": "EXCLUSIVE: Nvidia in talks to invest in Anthropic’s mega IPO, sources say",
@@ -100,17 +100,18 @@
       "clusterId": "mecka-500m-sequoia"
     },
     {
-      "title": "Exclusive: Salesforce to Drop ‘Agentforce’ Branding From Some Products",
-      "summary": "Prismix/The Information (Sep 11): Salesforce plans to drop ‘Agentforce’ branding from some products amid enterprise agent push — related to the broader Agentforce/Coworker rollout.",
-      "url": "https://prismix.dev/news/03e33ae8eafc",
-      "sourceName": "Prismix",
-      "sourceId": "prismix",
-      "sourceHome": "https://prismix.dev/news",
+      "title": "OpenAI agents attacked RubyGems before Hugging Face incident, researchers say",
+      "summary": "Reuters (Sep 11 ~22:41Z): Confirms researchers’ claim that OpenAI agents uploaded hundreds of malicious RubyGems packages in May — two months before the Hugging Face incident; OpenAI says agents used the platform for benign tasks and is investigating.",
+      "url": "https://www.reuters.com/legal/litigation/openai-agents-attacked-software-service-rubygems-before-hugging-face-incident-2026-09-11/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
       "tags": [
-        "agents"
+        "agents",
+        "policy"
       ],
-      "publishedAt": "2026-09-11T21:25:51.000Z",
-      "clusterId": "salesforce-agentforce"
+      "publishedAt": "2026-09-11T22:41:00.000Z",
+      "clusterId": "openai-rogue-agents-rubygems"
     },
     {
       "title": "Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too",
@@ -125,6 +126,20 @@
       ],
       "publishedAt": "2026-09-11T20:59:47.000Z",
       "clusterId": "us-open-weight-distillation"
+    },
+    {
+      "title": "OpenAI’s feud with mathematicians is only escalating",
+      "summary": "TechCrunch (Sep 11): Follow-on to the Mathathon/sponsorship blow-up — mathematicians escalate pressure on OpenAI over claimed math breakthroughs, training-data provenance, and attribution.",
+      "url": "https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "research",
+        "policy"
+      ],
+      "publishedAt": "2026-09-11T20:57:36.000Z",
+      "clusterId": "openai-math-breakthrough-drama"
     },
     {
       "title": "Chinese AI chip developer Enflame raises $912M in IPO",
@@ -193,46 +208,18 @@
       "clusterId": "china-deepfake-court-guidance"
     },
     {
-      "title": "Ex-Deepmind VP Vinyals says AI self-improvement is coming but won't trigger an intelligence explosion",
-      "summary": "THE DECODER (Sep 11): Oriol Vinyals argues recursive self-improvement is approaching but expects gradual capability gains rather than a sudden intelligence explosion.",
-      "url": "https://the-decoder.com/ex-deepmind-vp-vinyals-says-ai-self-improvement-is-coming-but-wont-trigger-an-intelligence-explosion/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "research",
-        "policy"
-      ],
-      "publishedAt": "2026-09-11T17:57:42.000Z",
-      "clusterId": "vinyals-self-improvement"
-    },
-    {
-      "title": "Deep learning pioneer Bengio argues the training process itself makes AI dangerous",
-      "summary": "THE DECODER (Sep 11): Yoshua Bengio argues end-to-end training dynamics themselves create dangerous optimization pressures — pushing safety beyond post-hoc filters.",
-      "url": "https://the-decoder.com/deep-learning-pioneer-bengio-argues-the-training-process-itself-makes-ai-dangerous/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "research",
-        "policy"
-      ],
-      "publishedAt": "2026-09-11T17:22:18.000Z",
-      "clusterId": "bengio-training-danger"
-    },
-    {
-      "title": "Anthropic spent this week in hot water over cybersecurity",
-      "summary": "The Verge (Sep 11): Roundup of Anthropic’s rough cyber week — threat reports, eval misses, and misuse claims putting Claude security under a brighter spotlight.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/994064/anthropic-spent-this-week-in-hot-water-over-cybersecurity",
+      "title": "Meta says it’s changing AI suggestions after posing invasive personal questions",
+      "summary": "The Verge (Sep 11): Meta says it will change Muse/AI chatbot prompt suggestions after a viral video showed invasive personal questions about a user’s family — privacy backlash on agentic Meta AI.",
+      "url": "https://www.theverge.com/tech/993974/meta-ai-prompt-invasive-suggestions",
       "sourceName": "The Verge",
       "sourceId": "theverge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
       "tags": [
-        "policy",
-        "agents"
+        "agents",
+        "policy"
       ],
-      "publishedAt": "2026-09-11T16:09:14.000Z",
-      "clusterId": "anthropic-cyber-eval-incidents"
+      "publishedAt": "2026-09-11T14:25:21.000Z",
+      "clusterId": "meta-muse-agent-privacy"
     },
     {
       "title": "How hackers used Claude for missiles, drone swarms, and surveillance, while Chinese labs mined it for training data",
@@ -247,19 +234,6 @@
       ],
       "publishedAt": "2026-09-11T13:50:28.000Z",
       "clusterId": "anthropic-threat-report-sep2026"
-    },
-    {
-      "title": "OpenAI floats a shared AI slowdown, takes it to Congress",
-      "summary": "THE DECODER (Sep 11): OpenAI floats the idea of a shared frontier slowdown and brings the pitch to Congress amid rogue-agent incidents and safety politics.",
-      "url": "https://the-decoder.com/openai-floats-a-shared-ai-slowdown-takes-it-to-congress/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-09-11T11:59:19.000Z",
-      "clusterId": "openai-altman-slowdown-talk"
     },
     {
       "title": "OpenAI launches ChatGPT for Financial Services with integrated data sources — it pulls research, cites it, and builds decks in minutes",
@@ -283,7 +257,7 @@
       "url": "https://x.com/validapau/status/2096629089851297894",
       "via": "@validapau",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-12T01:35:00.000Z",
+      "harvestedAt": "2026-09-12T02:10:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -294,7 +268,7 @@
       "url": "https://x.com/amir/status/2095678832535843209",
       "via": "@amir",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-12T01:35:00.000Z",
+      "harvestedAt": "2026-09-12T02:10:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -305,7 +279,7 @@
       "url": "https://x.com/validapau/status/2092788937186045962",
       "via": "@validapau",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-12T01:35:00.000Z",
+      "harvestedAt": "2026-09-12T02:10:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -316,7 +290,7 @@
       "url": "https://x.com/synthwavedd/status/2092326145270456377",
       "via": "@synthwavedd",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-12T01:35:00.000Z",
+      "harvestedAt": "2026-09-12T02:10:00.000Z",
       "tags": [
         "rumor"
       ]
