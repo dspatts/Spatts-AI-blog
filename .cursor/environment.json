@@ -1,0 +1,17 @@
+{
+  "name": "Spatts AI Blog",
+  "install": "node --version",
+  "terminals": [
+    {
+      "name": "blog-server",
+      "command": "node scripts/server.mjs",
+      "description": "Static blog server + on-demand news refresh on http://127.0.0.1:4173"
+    }
+  ],
+  "ports": [
+    {
+      "name": "blog",
+      "port": 4173
+    }
+  ]
+}
