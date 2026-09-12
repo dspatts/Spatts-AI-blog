@@ -1,5 +1,5 @@
 {
-  "harvestedAt": "2026-09-12T08:35:00.000Z",
+  "harvestedAt": "2026-09-12T09:05:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
@@ -113,20 +113,6 @@
       "clusterId": "openai-rogue-agents-rubygems"
     },
     {
-      "title": "Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too",
-      "summary": "TechCrunch (Sep 11): YC’s Garry Tan argues US open-weight labs should distill frontier models the way Chinese labs allegedly do — policy/competitive push amid Anthropic distillation disclosures.",
-      "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "policy",
-        "model-releases"
-      ],
-      "publishedAt": "2026-09-11T20:59:47.000Z",
-      "clusterId": "garry-tan-us-distill"
-    },
-    {
       "title": "Lawyer fined $5K over AI-hallucinated witnesses in a murder case",
       "summary": "The Verge (Sep 11 ~20:44 UTC): New Mexico lawyer fined $5K after ChatGPT-hallucinated witness testimony appeared in a murder-case appeal — courts keep punishing AI-fabricated citations.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/994207/chatgpt-new-mexico-lawyer-fined-murder-appeal",
@@ -182,6 +168,20 @@
       "clusterId": "anthropic-claude-misuse-sep2026"
     },
     {
+      "title": "How hackers used Claude for missiles, drone swarms, and surveillance, while Chinese labs mined it for training data",
+      "summary": "THE DECODER (Sep 11): Anthropic threat-intel roundup — Claude abused for missile software, kamikaze drones, surveillance; Chinese labs (Qwen/DeepSeek/Moonshot) mass-relayed or mined training data (Qwen >151M exchanges). Decoder primary angle on the Sep misuse report.",
+      "url": "https://the-decoder.com/how-hackers-used-claude-for-missiles-drone-swarms-and-surveillance-while-chinese-labs-mined-it-for-training-data/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "agents",
+        "policy"
+      ],
+      "publishedAt": "2026-09-11T13:50:28.000Z",
+      "clusterId": "anthropic-claude-misuse-sep2026"
+    },
+    {
       "title": "US Senate negotiators consider requiring AI firms to mitigate known major risks",
       "summary": "Reuters (Sep 11): Senate negotiators debating duty-of-care style rules for AI firms, possible federal power to block unsafe model releases (court-challengeable), and limits on overlapping state AI risk laws.",
       "url": "https://www.reuters.com/legal/litigation/us-senate-negotiators-consider-requiring-ai-firms-mitigate-known-major-risks-2026-09-11/",
@@ -195,17 +195,18 @@
       "clusterId": "us-federal-ai-safety-rules"
     },
     {
-      "title": "Top Chinese Court Issues Sweeping Legal Crackdown on AI Deepfakes",
-      "summary": "Futurism (Sep 11): China’s Supreme People’s Court issues sweeping guidance cracking down on AI deepfakes and related misuse.",
-      "url": "https://futurism.com/artificial-intelligence/chinese-supreme-peoples-court-legal-guidance-ai-deepfakes",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
+      "title": "Class action lawsuit accuses Anthropic of overselling Claude subscriptions with deceptive usage multipliers",
+      "summary": "THE DECODER (Sep 11): Class action claims Anthropic misrepresented how much Claude subscribers actually get to use — deceptive usage multipliers / oversold subscription capacity.",
+      "url": "https://the-decoder.com/class-action-lawsuit-accuses-anthropic-of-overselling-claude-subscriptions-with-deceptive-usage-multipliers/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
       "tags": [
-        "policy"
+        "policy",
+        "funding"
       ],
-      "publishedAt": "2026-09-11T18:54:31.000Z",
-      "clusterId": "china-deepfake-crackdown"
+      "publishedAt": "2026-09-11T09:45:58.000Z",
+      "clusterId": "anthropic-claude-usage-class-action"
     },
     {
       "title": "Ex-Deepmind VP Vinyals says AI self-improvement is coming but won't trigger an intelligence explosion",
@@ -284,7 +285,7 @@
       "url": "https://x.com/validapau/status/2096629089851297894",
       "via": "@validapau",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-12T08:35:00.000Z",
+      "harvestedAt": "2026-09-12T09:05:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -295,7 +296,7 @@
       "url": "https://x.com/amir/status/2095678832535843209",
       "via": "@amir",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-12T08:35:00.000Z",
+      "harvestedAt": "2026-09-12T09:05:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -306,7 +307,7 @@
       "url": "https://x.com/validapau/status/2092788937186045962",
       "via": "@validapau",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-12T08:35:00.000Z",
+      "harvestedAt": "2026-09-12T09:05:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -317,7 +318,7 @@
       "url": "https://x.com/synthwavedd/status/2092326145270456377",
       "via": "@synthwavedd",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-12T08:35:00.000Z",
+      "harvestedAt": "2026-09-12T09:05:00.000Z",
       "tags": [
         "rumor"
       ]
