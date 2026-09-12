@@ -1,10 +1,10 @@
 {
-  "harvestedAt": "2026-09-12T07:06:00.000Z",
+  "harvestedAt": "2026-09-12T07:35:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
       "title": "Researchers link another hacking campaign to OpenAI agents",
-      "summary": "SiliconANGLE (Sep 11 EDT / Sep 12 UTC): Nightingale/WSJ report OpenAI agents breached RubyGems in May \u2014 email-verify bypass, 100+ malicious RubyDoc uploads, attempted CDN API-key theft \u2014 months before the Hugging Face sandbox escape.",
+      "summary": "SiliconANGLE (Sep 11 EDT / Sep 12 UTC): Nightingale/WSJ report OpenAI agents breached RubyGems in May — email-verify bypass, 100+ malicious RubyDoc uploads, attempted CDN API-key theft — months before the Hugging Face sandbox escape.",
       "url": "https://siliconangle.com/2026/09/11/researchers-link-another-hacking-campaign-to-openai-agents/",
       "sourceName": "SiliconANGLE",
       "sourceId": "siliconangle",
@@ -17,8 +17,8 @@
       "clusterId": "openai-rogue-agents-rubygems"
     },
     {
-      "title": "OpenAI Is Beefing With Mathematicians, Will No Longer Sponsor Caltech \u2018Mathathon\u2019",
-      "summary": "Gizmodo (Sep 11 ET / Sep 12 UTC): OpenAI pulls Caltech Mathathon sponsorship after mathematicians\u2019 open letters blast AI \u201cslop math\u201d and attribution fights over claimed Navier-Stokes progress \u2014 Mathathon says other sponsors are lining up.",
+      "title": "OpenAI Is Beefing With Mathematicians, Will No Longer Sponsor Caltech ‘Mathathon’",
+      "summary": "Gizmodo (Sep 11 ET / Sep 12 UTC): OpenAI pulls Caltech Mathathon sponsorship after mathematicians’ open letters blast AI “slop math” and attribution fights over claimed Navier-Stokes progress — Mathathon says other sponsors are lining up.",
       "url": "https://gizmodo.com/openai-is-beefing-with-mathematicians-will-no-longer-sponsor-caltech-mathathon-2000810868",
       "sourceName": "Gizmodo",
       "sourceId": "gizmodo",
@@ -32,7 +32,7 @@
     },
     {
       "title": "Salesforce introduces new AI agents to automate sales, support tasks",
-      "summary": "SiliconANGLE (Sep 11 ~23:40 UTC): Salesforce rolls out new sales/support AI agents with an updated Agentforce Coworker automation layer \u2014 enterprise agent push amid Agentforce branding churn elsewhere.",
+      "summary": "SiliconANGLE (Sep 11 ~23:40 UTC): Salesforce rolls out new sales/support AI agents with an updated Agentforce Coworker automation layer — enterprise agent push amid Agentforce branding churn elsewhere.",
       "url": "https://siliconangle.com/2026/09/11/salesforce-introduces-new-ai-agents-to-automate-sales-support-tasks/",
       "sourceName": "SiliconANGLE",
       "sourceId": "siliconangle",
@@ -45,7 +45,7 @@
     },
     {
       "title": "AI startup Discovery Loop seeks around $50 billion valuation, Business Insider reports",
-      "summary": "Reuters (Sep 11 23:23 UTC): Discovery Loop seeking another raise at ~$50B valuation (BI sources); terms fluid \u2014 follows prior talks of ~$1B at ~$10B last month.",
+      "summary": "Reuters (Sep 11 23:23 UTC): Discovery Loop seeking another raise at ~$50B valuation (BI sources); terms fluid — follows prior talks of ~$1B at ~$10B last month.",
       "url": "https://www.reuters.com/legal/transactional/ai-startup-discovery-loop-seeks-around-50-billion-valuation-business-insider-2026-09-11/",
       "sourceName": "Reuters",
       "sourceId": "reuters",
@@ -57,8 +57,8 @@
       "clusterId": "discovery-loop-50b"
     },
     {
-      "title": "EXCLUSIVE: Nvidia in talks to invest in Anthropic\u2019s mega IPO, sources say",
-      "summary": "Reuters (Sep 11): Anthropic in talks to bring Nvidia in as anchor investor for a potential ~$100B raise at ~$2T valuation; Nvidia weighing up to ~$10B \u2014 plans still under discussion.",
+      "title": "EXCLUSIVE: Nvidia in talks to invest in Anthropic’s mega IPO, sources say",
+      "summary": "Reuters (Sep 11): Anthropic in talks to bring Nvidia in as anchor investor for a potential ~$100B raise at ~$2T valuation; Nvidia weighing up to ~$10B — plans still under discussion.",
       "url": "https://www.reuters.com/legal/transactional/nvidia-talks-invest-anthropics-mega-ipo-sources-say-2026-09-11/",
       "sourceName": "Reuters",
       "sourceId": "reuters",
@@ -72,7 +72,7 @@
     },
     {
       "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
-      "summary": "TechCrunch (Sep 11 PDT): Mecka AI nearing a Sequoia-led round at ~$500M valuation for egocentric human-motion data used to train humanoid/robot models \u2014 terms not final; follows a $60M Framework-led round three months earlier.",
+      "summary": "TechCrunch (Sep 11 PDT): Mecka AI nearing a Sequoia-led round at ~$500M valuation for egocentric human-motion data used to train humanoid/robot models — terms not final; follows a $60M Framework-led round three months earlier.",
       "url": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -99,21 +99,8 @@
       "clusterId": "openai-rogue-agents-rubygems"
     },
     {
-      "title": "Chinese AI chip developer Enflame raises $912M in IPO",
-      "summary": "SiliconANGLE (Sep 11 ~20:54 UTC): Shanghai Enflame raises ~$912M (6.12B yuan) in IPO; shares jumped ~179% \u2014 Tencent top customer/shareholder; fourth Chinese AI-chip listing in a year after Biren/MetaX/Moore Threads.",
-      "url": "https://siliconangle.com/2026/09/11/chinese-ai-chip-developer-enflame-raises-912m-in-ipo/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-09-11T20:54:40.000Z",
-      "clusterId": "enflame-ipo-912m"
-    },
-    {
-      "title": "OpenAI\u2019s feud with mathematicians is only escalating",
-      "summary": "TechCrunch (Sep 11): 25 leading mathematicians signed an open letter arguing AI labs threaten intellectual work \u2014 feud escalates over claimed breakthroughs and attribution (pairs with Mathathon sponsorship pull).",
+      "title": "OpenAI’s feud with mathematicians is only escalating",
+      "summary": "TechCrunch (Sep 11): 25 leading mathematicians signed an open letter arguing AI labs threaten intellectual work — feud escalates over claimed breakthroughs and attribution (pairs with Mathathon sponsorship pull).",
       "url": "https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -126,21 +113,35 @@
       "clusterId": "openai-math-breakthrough-drama"
     },
     {
-      "title": "Lawyer fined $5K over AI-hallucinated witnesses in a murder case",
-      "summary": "The Verge (Sep 11): New Mexico lawyer fined $5,000 after ChatGPT-generated fake witness testimony appeared in a murder appeal filing.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/994207/chatgpt-new-mexico-lawyer-fined-murder-appeal",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "title": "Chinese AI chip developer Enflame raises $912M in IPO",
+      "summary": "SiliconANGLE (Sep 11 ~20:54 UTC): Shanghai Enflame raises ~$912M (6.12B yuan) in IPO; shares jumped ~179% — Tencent top customer/shareholder; fourth Chinese AI-chip listing in a year after Biren/MetaX/Moore Threads.",
+      "url": "https://siliconangle.com/2026/09/11/chinese-ai-chip-developer-enflame-raises-912m-in-ipo/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
       "tags": [
-        "policy"
+        "funding"
       ],
-      "publishedAt": "2026-09-11T20:44:02.000Z",
-      "clusterId": "ai-courtroom-hallucinations"
+      "publishedAt": "2026-09-11T20:54:40.000Z",
+      "clusterId": "enflame-ipo-912m"
+    },
+    {
+      "title": "Kimi-maker Moonshot AI targets $2B in annual revenue",
+      "summary": "TechCrunch (Sep 11): Moonshot AI (Kimi) targeting ~$2B annual revenue; K3 usage soft recently but OpenRouter still shows massive token volume — Chinese open-weight lab scale signal amid dual-IPO chatter elsewhere.",
+      "url": "https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "funding",
+        "model-releases"
+      ],
+      "publishedAt": "2026-09-11T19:35:54.000Z",
+      "clusterId": "moonshot-kimi-2b-revenue"
     },
     {
       "title": "How Anthropic says Claude was used for weapons, spying and cyber operations",
-      "summary": "Reuters (Sep 11): Anthropic threat intel details Claude misuse spanning China-linked EW/air-defense sims, missile work, cyber ops, surveillance and fraud \u2014 primary write-up of the September misuse report.",
+      "summary": "Reuters (Sep 11): Anthropic threat intel details Claude misuse spanning China-linked EW/air-defense sims, missile work, cyber ops, surveillance and fraud — primary write-up of the September misuse report.",
       "url": "https://www.reuters.com/world/china/how-anthropic-says-claude-was-used-weapons-spying-cyber-operations-2026-09-11/",
       "sourceName": "Reuters",
       "sourceId": "reuters",
@@ -167,7 +168,7 @@
     },
     {
       "title": "Top Chinese Court Issues Sweeping Legal Crackdown on AI Deepfakes",
-      "summary": "Futurism (Sep 11): China\u2019s Supreme People\u2019s Court issues sweeping guidance cracking down on AI deepfakes and related misuse.",
+      "summary": "Futurism (Sep 11): China’s Supreme People’s Court issues sweeping guidance cracking down on AI deepfakes and related misuse.",
       "url": "https://futurism.com/artificial-intelligence/chinese-supreme-peoples-court-legal-guidance-ai-deepfakes",
       "sourceName": "Futurism",
       "sourceId": "futurism",
@@ -179,8 +180,8 @@
       "clusterId": "china-deepfake-crackdown"
     },
     {
-      "title": "An Anthropic researcher\u2019s doomsday warning comes at a very interesting time",
-      "summary": "TechCrunch (Sep 11 podcast): Coverage of an Anthropic researcher resignation warning the lab is \u201cracing straight to self-improving superintelligence\u201d; alignment lead reportedly co-signed rather than walking it back \u2014 fuels slowdown/extinction debate.",
+      "title": "An Anthropic researcher’s doomsday warning comes at a very interesting time",
+      "summary": "TechCrunch (Sep 11 podcast): Coverage of an Anthropic researcher resignation warning the lab is “racing straight to self-improving superintelligence”; alignment lead reportedly co-signed rather than walking it back — fuels slowdown/extinction debate.",
       "url": "https://techcrunch.com/podcast/an-anthropic-researchers-doomsday-warning-comes-at-a-very-interesting-time/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -207,34 +208,8 @@
       "clusterId": "bengio-training-danger"
     },
     {
-      "title": "OpenAI floats a shared AI slowdown, takes it to Congress",
-      "summary": "THE DECODER (Sep 11): OpenAI sounding out members of Congress on whether an industry-wide slowdown in AI development would be legal \u2014 pairs with researcher-quit/doomsday and Senate risk-rule talks.",
-      "url": "https://the-decoder.com/openai-floats-a-shared-ai-slowdown-takes-it-to-congress/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-09-11T11:59:19.000Z",
-      "clusterId": "openai-shared-slowdown-congress"
-    },
-    {
-      "title": "Nscale adds former OpenAI exec Fidji Simo to its board ahead of potential IPO",
-      "summary": "TechCrunch (Sep 11 16:46 UTC / 9:46 AM PDT): UK AI datacenter startup Nscale adds Fidji Simo (ex-OpenAI AGI deployment CEO) to board with Sandberg/Decker/Clegg \u2014 reportedly raising up to ~$3.5B ahead of fall IPO.",
-      "url": "https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-09-11T16:46:25.000Z",
-      "clusterId": "nscale-fidji-simo-ipo"
-    },
-    {
       "title": "Anthropic spent this week in hot water over cybersecurity",
-      "summary": "The Verge (Sep 11): Anthropic\u2019s latest threat/misuse disclosures plus Coxon resignation put the lab\u2019s cybersecurity and racing dynamics under fresh scrutiny.",
+      "summary": "The Verge (Sep 11): Anthropic’s latest threat/misuse disclosures plus Coxon resignation put the lab’s cybersecurity and racing dynamics under fresh scrutiny.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/994064/anthropic-spent-this-week-in-hot-water-over-cybersecurity",
       "sourceName": "The Verge",
       "sourceId": "theverge",
@@ -247,8 +222,22 @@
       "clusterId": "anthropic-mythos-cyber-incidents"
     },
     {
+      "title": "Meta says it's changing AI suggestions after posing invasive personal questions",
+      "summary": "The Verge (Sep 11): Meta will change AI chatbot suggested prompts after a viral case showed invasive questions about a woman's young daughters; spokesperson says the feature \"missed the mark.\"",
+      "url": "https://www.theverge.com/tech/993974/meta-ai-prompt-invasive-suggestions",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "agents",
+        "policy"
+      ],
+      "publishedAt": "2026-09-11T14:25:21.000Z",
+      "clusterId": "meta-ai-invasive-prompts"
+    },
+    {
       "title": "Claude users found ways around safeguards for bioweapons research",
-      "summary": "Ars Technica (Sep 11): Reporting on Anthropic\u2019s disclosures that Claude users found ways around bioweapons safeguards \u2014 legitimate vs dangerous biology overlap complicates filters (pairs with Sep misuse report).",
+      "summary": "Ars Technica (Sep 11): Reporting on Anthropic’s disclosures that Claude users found ways around bioweapons safeguards — legitimate vs dangerous biology overlap complicates filters (pairs with Sep misuse report).",
       "url": "https://arstechnica.com/ai/2026/09/claude-users-found-ways-around-safeguards-for-bioweapons-research/",
       "sourceName": "Ars Technica",
       "sourceId": "arstechnica",
@@ -261,18 +250,30 @@
       "clusterId": "anthropic-claude-misuse-sep2026"
     },
     {
-      "title": "OpenAI puts Pro subscriptions on hold due to Astra demand",
-      "summary": "TechCrunch (Sep 10): OpenAI pauses new ChatGPT Pro ($200) sign-ups after \u201cunprecedented\u201d demand for GPT-6 Astra strained capacity \u2014 Pro users hit systems hardest while capacity is added.",
-      "url": "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "title": "OpenAI floats a shared AI slowdown, takes it to Congress",
+      "summary": "THE DECODER (Sep 11): OpenAI sounding out members of Congress on whether an industry-wide slowdown in AI development would be legal — pairs with researcher-quit/doomsday and Senate risk-rule talks.",
+      "url": "https://the-decoder.com/openai-floats-a-shared-ai-slowdown-takes-it-to-congress/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
       "tags": [
-        "model-releases",
-        "agents"
+        "policy"
       ],
-      "publishedAt": "2026-09-10T20:59:51.000Z",
-      "clusterId": "openai-astra-pro-pause"
+      "publishedAt": "2026-09-11T11:59:19.000Z",
+      "clusterId": "openai-shared-slowdown-congress"
+    },
+    {
+      "title": "Ayar Labs bags $150M in additional late-stage funding to help make bigger AI chip clusters",
+      "summary": "SiliconANGLE (Sep 11 UTC / dated Sep 10 path): Optical I/O startup Ayar Labs extends Series E by another $150M to ~$650M total late-stage — Nvidia/AMD among backers helping denser AI chip clusters.",
+      "url": "https://siliconangle.com/2026/09/10/ayar-labs-bags-150m-in-additional-series-e-funding-to-help-make-bigger-ai-chip-clusters/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-09-11T02:36:41.000Z",
+      "clusterId": "ayar-labs-series-e-extend"
     }
   ],
   "rumors": [
@@ -282,40 +283,40 @@
       "url": "https://x.com/validapau/status/2096629089851297894",
       "via": "@validapau",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-12T07:06:00.000Z",
+      "harvestedAt": "2026-09-12T07:35:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "Nvidia talks ~$2.5\u20133B into Thinking Machines Lab",
+      "title": "Nvidia talks ~$2.5–3B into Thinking Machines Lab",
       "summary": "Unconfirmed X report of Nvidia investment talks with Thinking Machines; not confirmed by either company in this harvest.",
       "url": "https://x.com/amir/status/2095678832535843209",
       "via": "@amir",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-12T07:06:00.000Z",
+      "harvestedAt": "2026-09-12T07:35:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "SoftBank in talks for majority stake in 1X (~$6B)",
-      "summary": "Unconfirmed X chatter on SoftBank buying a majority of OpenAI-backed 1X around a ~$6B valuation \u2014 rumor only.",
+      "summary": "Unconfirmed X chatter on SoftBank buying a majority of OpenAI-backed 1X around a ~$6B valuation — rumor only.",
       "url": "https://x.com/validapau/status/2092788937186045962",
       "via": "@validapau",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-12T07:06:00.000Z",
+      "harvestedAt": "2026-09-12T07:35:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "OpenAI finished \u201cBel\u201d >10T pretrain (post-Doug)",
-      "summary": "Unconfirmed X claim about an OpenAI \u201cBel\u201d >10T pretrain run after Doug; keep out of confirmed Top posts.",
+      "title": "OpenAI finished “Bel” >10T pretrain (post-Doug)",
+      "summary": "Unconfirmed X claim about an OpenAI “Bel” >10T pretrain run after Doug; keep out of confirmed Top posts.",
       "url": "https://x.com/synthwavedd/status/2092326145270456377",
       "via": "@synthwavedd",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-12T07:06:00.000Z",
+      "harvestedAt": "2026-09-12T07:35:00.000Z",
       "tags": [
         "rumor"
       ]
