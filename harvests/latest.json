@@ -1,5 +1,5 @@
 {
-  "harvestedAt": "2026-09-12T06:10:00.000Z",
+  "harvestedAt": "2026-09-12T06:32:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
@@ -29,6 +29,19 @@
       ],
       "publishedAt": "2026-09-12T01:05:18.000Z",
       "clusterId": "openai-math-breakthrough-drama"
+    },
+    {
+      "title": "Salesforce introduces new AI agents to automate sales, support tasks",
+      "summary": "SiliconANGLE (Sep 11 ~23:40 UTC): Salesforce rolls out new sales/support AI agents with an updated Agentforce Coworker automation layer — enterprise agent push amid Agentforce branding churn elsewhere.",
+      "url": "https://siliconangle.com/2026/09/11/salesforce-introduces-new-ai-agents-to-automate-sales-support-tasks/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-09-11T23:40:26.000Z",
+      "clusterId": "salesforce-agentforce-agents"
     },
     {
       "title": "AI startup Discovery Loop seeks around $50 billion valuation, Business Insider reports",
@@ -86,20 +99,6 @@
       "clusterId": "openai-rogue-agents-rubygems"
     },
     {
-      "title": "Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too",
-      "summary": "TechCrunch (Sep 11): Garry Tan argues US open-weight labs should distill frontier models the way Chinese labs allegedly have — framing distillation as competitive necessity amid Anthropic’s misuse/distillation disclosures.",
-      "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "model-releases",
-        "policy"
-      ],
-      "publishedAt": "2026-09-11T20:59:47.000Z",
-      "clusterId": "china-distillation-campaigns"
-    },
-    {
       "title": "Chinese AI chip developer Enflame raises $912M in IPO",
       "summary": "SiliconANGLE (Sep 11 ~20:54 UTC): Shanghai Enflame raises ~$912M (6.12B yuan) in IPO; shares jumped ~179% — Tencent top customer/shareholder; fourth Chinese AI-chip listing in a year after Biren/MetaX/Moore Threads.",
       "url": "https://siliconangle.com/2026/09/11/chinese-ai-chip-developer-enflame-raises-912m-in-ipo/",
@@ -124,20 +123,6 @@
       ],
       "publishedAt": "2026-09-11T20:44:02.000Z",
       "clusterId": "ai-courtroom-hallucinations"
-    },
-    {
-      "title": "Kimi-maker Moonshot AI targets $2B in annual revenue",
-      "summary": "TechCrunch (Sep 11): Moonshot (Kimi) reportedly targeting ~$2B ARR as Chinese frontier labs push commercial scale amid US distillation/security scrutiny.",
-      "url": "https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "funding",
-        "model-releases"
-      ],
-      "publishedAt": "2026-09-11T19:35:54.000Z",
-      "clusterId": "moonshot-kimi-2b-arr"
     },
     {
       "title": "How Anthropic says Claude was used for weapons, spying and cyber operations",
@@ -180,18 +165,18 @@
       "clusterId": "china-deepfake-crackdown"
     },
     {
-      "title": "Ex-Deepmind VP Vinyals says AI self-improvement is coming but won't trigger an intelligence explosion",
-      "summary": "THE DECODER (Sep 11): Oriol Vinyals argues recursive self-improvement is arriving but doubts a sudden intelligence-explosion discontinuity.",
-      "url": "https://the-decoder.com/ex-deepmind-vp-vinyals-says-ai-self-improvement-is-coming-but-wont-trigger-an-intelligence-explosion/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
+      "title": "An Anthropic researcher’s doomsday warning comes at a very interesting time",
+      "summary": "TechCrunch (Sep 11 podcast): Coverage of an Anthropic researcher resignation warning the lab is “racing straight to self-improving superintelligence”; alignment lead reportedly co-signed rather than walking it back — fuels slowdown/extinction debate.",
+      "url": "https://techcrunch.com/podcast/an-anthropic-researchers-doomsday-warning-comes-at-a-very-interesting-time/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
       "tags": [
-        "research",
-        "agents"
+        "policy",
+        "research"
       ],
-      "publishedAt": "2026-09-11T17:57:42.000Z",
-      "clusterId": "vinyals-self-improvement"
+      "publishedAt": "2026-09-11T18:41:49.000Z",
+      "clusterId": "anthropic-researcher-quit-self-improve"
     },
     {
       "title": "Deep learning pioneer Bengio argues the training process itself makes AI dangerous",
@@ -249,6 +234,20 @@
       "clusterId": "meta-ai-invasive-prompts"
     },
     {
+      "title": "Claude users found ways around safeguards for bioweapons research",
+      "summary": "Ars Technica (Sep 11): Reporting on Anthropic’s disclosures that Claude users found ways around bioweapons safeguards — legitimate vs dangerous biology overlap complicates filters (pairs with Sep misuse report).",
+      "url": "https://arstechnica.com/ai/2026/09/claude-users-found-ways-around-safeguards-for-bioweapons-research/",
+      "sourceName": "Ars Technica",
+      "sourceId": "arstechnica",
+      "sourceHome": "https://arstechnica.com/tag/artificial-intelligence/",
+      "tags": [
+        "agents",
+        "policy"
+      ],
+      "publishedAt": "2026-09-11T13:02:35.000Z",
+      "clusterId": "anthropic-claude-misuse-sep2026"
+    },
+    {
       "title": "OpenAI puts Pro subscriptions on hold due to Astra demand",
       "summary": "TechCrunch (Sep 10): OpenAI pauses new ChatGPT Pro ($200) sign-ups after “unprecedented” demand for GPT-6 Astra strained capacity — Pro users hit systems hardest while capacity is added.",
       "url": "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand/",
@@ -284,7 +283,7 @@
       "url": "https://x.com/validapau/status/2096629089851297894",
       "via": "@validapau",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-12T06:10:00.000Z",
+      "harvestedAt": "2026-09-12T06:32:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -295,7 +294,7 @@
       "url": "https://x.com/amir/status/2095678832535843209",
       "via": "@amir",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-12T06:10:00.000Z",
+      "harvestedAt": "2026-09-12T06:32:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -306,7 +305,7 @@
       "url": "https://x.com/validapau/status/2092788937186045962",
       "via": "@validapau",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-12T06:10:00.000Z",
+      "harvestedAt": "2026-09-12T06:32:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -317,7 +316,7 @@
       "url": "https://x.com/synthwavedd/status/2092326145270456377",
       "via": "@synthwavedd",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-12T06:10:00.000Z",
+      "harvestedAt": "2026-09-12T06:32:00.000Z",
       "tags": [
         "rumor"
       ]
