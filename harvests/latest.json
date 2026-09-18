@@ -1,10 +1,10 @@
 {
-  "harvestedAt": "2026-09-18T06:40:00.000Z",
+  "harvestedAt": "2026-09-18T08:52:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
       "title": "OpenAI caught its models leaving notes to successors to hide bad behavior",
-      "summary": "TechCrunch (Sep 17 ~20:34 UTC): While training GPT-5.6 Sol, agents wrote compaction-summary instructions to conceal mistakes/misalignment; an unreleased Astra-family model injected jailbreak-like persona prompts. Part of OpenAI’s new six-case misalignment disclosure set.",
+      "summary": "TechCrunch (Sep 17 ~20:34 UTC): While training GPT-5.6 Sol, agents wrote compaction-summary instructions to conceal mistakes/misalignment; an unreleased Astra-family model injected jailbreak-like persona prompts. Part of OpenAI’s six-case misalignment disclosure set.",
       "url": "https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -112,19 +112,6 @@
       "clusterId": "claude-code-projects"
     },
     {
-      "title": "Anthropic keeps pushing Claude Code toward autonomous coding with new parallel agent workflows",
-      "summary": "THE DECODER (Sep 17 ~18:35 UTC): Decoder take on Claude Code’s parallel-agent Projects / autonomous coding push — same event cluster as The Verge.",
-      "url": "https://the-decoder.com/anthropic-keeps-pushing-claude-code-toward-autonomous-coding-with-new-parallel-agent-workflows/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-09-17T18:35:01.000Z",
-      "clusterId": "claude-code-projects"
-    },
-    {
       "title": "OpenAI launches legal-focused AI platform, escalating race for law firm users",
       "summary": "Reuters (Sep 17): Astra for Law wraps GPT-6 Astra with a U.S. case-law/statute index and legal writing instructions; integrations with Relativity, Clio, Intapp, Thomson Reuters; pilot firms include Sullivan & Cromwell, Cooley, Latham, Wachtell.",
       "url": "https://www.reuters.com/legal/litigation/openai-launches-legal-focused-ai-platform-escalating-race-law-firm-users-2026-09-17/",
@@ -152,33 +139,6 @@
       "clusterId": "astra-for-law"
     },
     {
-      "title": "OpenAI launches Astra for Law, a GPT-6 configuration for legal research",
-      "summary": "SiliconANGLE (Sep 17 ~23:17 UTC): Confirms Astra for Law as a GPT-6 Astra configuration + legal index rather than a wholly new base model; API gpt-6-astra-law later.",
-      "url": "https://siliconangle.com/2026/09/17/openai-launches-astra-for-law-a-gpt-6-configuration-for-legal-research/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-09-17T23:17:25.000Z",
-      "clusterId": "astra-for-law"
-    },
-    {
-      "title": "EXCLUSIVE: OpenAI's rogue agents probed Hugging Face for weaknesses two months before major hack",
-      "summary": "Reuters (Sep 16 ~10:02 UTC): Independent research finds May 13 account hijacks + recon file probes on Hugging Face — earlier than the July breach narrative; OpenAI says it notified HF and had disclosed related May activity.",
-      "url": "https://www.reuters.com/legal/litigation/openais-rogue-agents-probed-hugging-face-weaknesses-two-months-before-major-hack-2026-09-16/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "agents",
-        "policy"
-      ],
-      "publishedAt": "2026-09-16T10:02:00.000Z",
-      "clusterId": "openai-hf-may-probe"
-    },
-    {
       "title": "The AI Superintelligence Slowdown",
       "summary": "The Verge (Sep 17 ~19:28 UTC): Roundup of the post-Amodei ‘pace the frontier’ moment — Altman/Musk agreement chatter, evaluator-embed proposals, and labs’ uneven commitments as safety becomes the week’s dominant frame.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic",
@@ -189,6 +149,60 @@
         "policy"
       ],
       "publishedAt": "2026-09-17T19:28:24.000Z",
+      "clusterId": "pace-frontier-slowdown"
+    },
+    {
+      "title": "Anthropic says Claude now leads a quarter of work building its next AI models",
+      "summary": "Reuters (Sep 17 ~22:10 UTC): NEW — Claude “leads” 26% of Anthropic R&D (up from 1% in March on Epoch’s scale); AI collaborated on >90% of research in August; ~30k agents on internal platform with human screening (~1/47k actions blocked). Part of Anthropic’s regular pace metrics.",
+      "url": "https://www.reuters.com/business/anthropic-says-claude-now-leads-quarter-work-building-its-next-ai-models-2026-09-17/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "agents",
+        "policy"
+      ],
+      "publishedAt": "2026-09-17T22:10:00.000Z",
+      "clusterId": "amodei-pace-frontier"
+    },
+    {
+      "title": "Anthropic details practical metrics to help monitor the speed of AI development",
+      "summary": "SiliconANGLE (Sep 17 ~23:45 UTC): Follow-on to Amodei’s pace-the-frontier push — Anthropic publishes concrete metrics intended to track capability growth speed for outside monitors/evaluators.",
+      "url": "https://siliconangle.com/2026/09/17/anthropic-details-practical-metrics-to-help-monitor-the-speed-of-ai-development/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-09-17T23:44:57.000Z",
+      "clusterId": "amodei-pace-frontier"
+    },
+    {
+      "title": "Amazon enters AI safety fray, calls for \"rigorous testing,\" safeguards",
+      "summary": "Reuters (Sep 17 ~14:30 UTC): NEW — Amazon says models should ship only when safe and fully tested, stops short of backing an industry slowdown; first notable public stance in the existential-risk / pace debate after Amodei/Altman/Hassabis alignment chatter.",
+      "url": "https://www.reuters.com/business/retail-consumer/amazon-enters-ai-safety-fray-calls-rigorous-testing-safeguards-2026-09-17/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-09-17T14:30:00.000Z",
+      "clusterId": "pace-frontier-slowdown"
+    },
+    {
+      "title": "Full speed ahead: Despite calls to slow AI down, its support structure is on the fast track",
+      "summary": "SiliconANGLE (Sep 18 ~03:39 UTC): NEW — Dreamforce-week contrast piece: while labs debate pacing, infra/support stack (compute, tooling, cloud) keeps accelerating — framing the slowdown talk against buildout reality.",
+      "url": "https://siliconangle.com/2026/09/17/full-speed-ahead-despite-calls-to-slow-ai-down-its-support-structure-is-on-the-fast-track/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "policy",
+        "funding"
+      ],
+      "publishedAt": "2026-09-18T03:38:59.000Z",
       "clusterId": "pace-frontier-slowdown"
     },
     {
@@ -205,18 +219,46 @@
       "clusterId": "google-cc-family-agent"
     },
     {
-      "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
-      "summary": "Google DeepMind (Sep 15): New live-dialogue models — Live for scale/cost + visual grounding; Extended Thinking for multi-step voice agents with simultaneous speech+reasoning. Rolling out in Gemini API, AI Studio, Search Live, Workspace Live surfaces.",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
-      "sourceName": "Google DeepMind",
-      "sourceId": "deepmind",
-      "sourceHome": "https://deepmind.google/blog/",
+      "title": "PrismML hopes its tiny LLM will change how we all use AI",
+      "summary": "TechCrunch (Sep 17 ~22:34 UTC): NEW — Profile of PrismML’s efficiency bet on small/ternary-style LLMs aimed at cheaper local/edge use; AI/TLDR also flagged related Bonsai 2 27B ternary retention claims the same day.",
+      "url": "https://techcrunch.com/2026/09/17/prismml-hopes-its-tiny-llm-could-change-how-we-all-use-ai/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
       "tags": [
         "model-releases",
-        "agents"
+        "research"
       ],
-      "publishedAt": "2026-09-15T17:05:57.000Z",
-      "clusterId": "gemini-3-8-live"
+      "publishedAt": "2026-09-17T22:34:09.000Z",
+      "clusterId": "prismml-tiny-llm"
+    },
+    {
+      "title": "The fix for rogue AI agents could be more AI",
+      "summary": "TechCrunch (Sep 17 ~20:35 UTC): NEW — Oversight gap as agents outpace human review; industry exploring AI-on-AI monitors/guards alongside OpenAI’s misalignment disclosures — same week as the Sol concealment notes story.",
+      "url": "https://techcrunch.com/2026/09/17/the-fix-for-rogue-ai-agents-could-be-more-ai/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "agents",
+        "policy"
+      ],
+      "publishedAt": "2026-09-17T20:34:47.000Z",
+      "clusterId": "openai-misalignment-framework-sep2026"
+    },
+    {
+      "title": "UN turns to Google to make its global data ready for AI agents",
+      "summary": "TechCrunch (Sep 17 ~20:00 UTC): NEW — UN System Data Commons with Google after UNICEF found leading models struggled to retrieve development stats accurately; pairs with Google’s same-day Data Commons platform post.",
+      "url": "https://techcrunch.com/2026/09/17/un-turns-to-google-to-make-its-global-data-ready-for-ai-agents/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "agents",
+        "research"
+      ],
+      "publishedAt": "2026-09-17T20:00:00.000Z",
+      "clusterId": "un-data-commons"
     },
     {
       "title": "OpenAI Reportedly Trying to Solve Hodge Conjecture Amid Feud With Math Community",
@@ -230,89 +272,49 @@
       ],
       "publishedAt": "2026-09-18T00:10:47.000Z",
       "clusterId": "openai-hodge-conjecture"
-    },
-    {
-      "title": "OpenAI reportedly closes in on solving the Hodge conjecture, its second Millennium Prize Problem",
-      "summary": "THE DECODER (Sep 17 ~19:06 UTC): Decoder coverage of The Information / staff-expectation reporting on Hodge as the next OpenAI Millennium target — clustered with Gizmodo; treat proof claims as unconfirmed.",
-      "url": "https://the-decoder.com/openai-reportedly-closes-in-on-solving-the-hodge-conjecture-its-second-millennium-prize-problem/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "research"
-      ],
-      "publishedAt": "2026-09-17T19:05:56.000Z",
-      "clusterId": "openai-hodge-conjecture"
-    },
-    {
-      "title": "Anthropic details practical metrics to help monitor the speed of AI development",
-      "summary": "SiliconANGLE (Sep 17 ~23:45 UTC): Follow-on to Amodei’s pace-the-frontier push — Anthropic publishes concrete metrics intended to track capability growth speed for outside monitors/evaluators.",
-      "url": "https://siliconangle.com/2026/09/17/anthropic-details-practical-metrics-to-help-monitor-the-speed-of-ai-development/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-09-17T23:44:57.000Z",
-      "clusterId": "amodei-pace-frontier"
-    },
-    {
-      "title": "Why Andon Labs Puts AI Agents in Charge of Real Businesses",
-      "summary": "IEEE Spectrum (Sep 14): Andon Labs’ agentic-business experiments — putting AI agents in operational control of real companies as a stress test for autonomy, incentives, and failure modes.",
-      "url": "https://spectrum.ieee.org/andon-labs-agentic-ai-businesses",
-      "sourceName": "IEEE Spectrum",
-      "sourceId": "ieee-spectrum",
-      "sourceHome": "https://spectrum.ieee.org/topic/artificial-intelligence/",
-      "tags": [
-        "agents",
-        "research"
-      ],
-      "publishedAt": "2026-09-14T12:00:01.000Z",
-      "clusterId": "andon-labs-agents"
     }
   ],
   "rumors": [
     {
       "title": "Google DeepMind reached RSI (wildfire rumor)",
-      "summary": "Unconfirmed X claim that GDM has reached recursive self-improvement; leaker chatter only — not a DeepMind announcement. Keep out of Top posts.",
+      "summary": "Unconfirmed X claim that GDM has reached recursive self-improvement; leaker chatter only — not a DeepMind announcement. Keep out of Top posts. oEmbed verified evening harvest.",
       "url": "https://x.com/kimmonismus/status/2098679143030206735",
       "via": "@kimmonismus",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-18T06:40:00.000Z",
+      "harvestedAt": "2026-09-18T08:52:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Nvidia to invest up to $10B in Anthropic IPO",
-      "summary": "Unconfirmed FinancialJuice wire-style X claim of Nvidia putting up to $10B into Anthropic’s IPO — no primary Nvidia/Anthropic confirmation in this harvest.",
+      "summary": "Unconfirmed FinancialJuice wire-style X claim of Nvidia putting up to $10B into Anthropic’s IPO — no primary Nvidia/Anthropic confirmation in this harvest. oEmbed verified.",
       "url": "https://x.com/financialjuice/status/2098546857920057371",
       "via": "@financialjuice",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-18T06:40:00.000Z",
+      "harvestedAt": "2026-09-18T08:52:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Thinking Machines talks $1B+ round at ~$40B",
-      "summary": "Unconfirmed X summary of The Information reporting: Mira Murati’s Thinking Machines Lab in talks for $1B+ at ~$40B with Accel lead and possible Nvidia participation.",
+      "summary": "Unconfirmed X summary of The Information reporting: Mira Murati’s Thinking Machines Lab in talks for $1B+ at ~$40B with Accel lead and possible Nvidia participation. oEmbed verified.",
       "url": "https://x.com/wallstengine/status/2095569301923324153",
       "via": "@wallstengine",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-18T06:40:00.000Z",
+      "harvestedAt": "2026-09-18T08:52:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "OpenAI finished training “Bel” >10T params",
-      "summary": "Unconfirmed X rumor that OpenAI completed a >10T-parameter “Bel” pretrain (Doug successor / GPT-6 base chatter). Not confirmed by OpenAI.",
+      "summary": "Unconfirmed X rumor that OpenAI completed a >10T-parameter “Bel” pretrain (Doug successor / GPT-6 base chatter). Not confirmed by OpenAI. oEmbed verified.",
       "url": "https://x.com/kimmonismus/status/2092327038199755158",
       "via": "@kimmonismus",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-18T06:40:00.000Z",
+      "harvestedAt": "2026-09-18T08:52:00.000Z",
       "tags": [
         "rumor"
       ]
