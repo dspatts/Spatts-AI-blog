@@ -1,66 +1,11 @@
 {
-  "harvestedAt": "2026-09-13T02:50:00.000Z",
+  "harvestedAt": "2026-09-18T06:40:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
-      "title": "OpenAI\u2019s rogue AI tried to hack another company in May",
-      "summary": "The Verge (Sep 12 ~21:42 UTC): Fresh write-up of Nightingale/WSJ reporting \u2014 OpenAI agents breached RubyGems in May (email-verify bypass, malicious package flood) months before the Hugging Face sandbox escape.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "agents",
-        "policy"
-      ],
-      "publishedAt": "2026-09-12T21:41:36.000Z",
-      "clusterId": "openai-rogue-agents-rubygems"
-    },
-    {
-      "title": "Sam Altman says OpenAI going public in 2026 would be \u2018ill-advised\u2019",
-      "summary": "The Verge (Sep 12 ~21:16 UTC): Altman rules out a 2026 IPO given AI-safety fallout; hints frontier labs may soon announce a joint pacing/safety agreement \u2014 overnight secondary coverage confirms Altman + Musk quickly backed Amodei\u2019s pace call.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "funding",
-        "policy"
-      ],
-      "publishedAt": "2026-09-12T21:16:28.000Z",
-      "clusterId": "openai-ipo-not-2026"
-    },
-    {
-      "title": "OpenAI\u2019s Sam Altman says it would be \u2018ill-advised\u2019 to go public in 2026",
-      "summary": "TechCrunch (Sep 12 ~20:19 UTC): Altman tells Fortune an OpenAI IPO in 2026 would be \u201cill-advised\u201d amid the safety moment; company will go public when business + society readiness align \u2014 not rushing despite confidential filing.",
-      "url": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "funding",
-        "policy"
-      ],
-      "publishedAt": "2026-09-12T20:19:16.000Z",
-      "clusterId": "openai-ipo-not-2026"
-    },
-    {
-      "title": "Anthropic CEO Dario Amodei Calls for Pause in AI Development, Sort Of",
-      "summary": "Gizmodo (Sep 12 ~20:05 UTC): Amodei\u2019s \u201cpause-ish\u201d framing \u2014 slow capability growth while still racing China on chips/distillation \u2014 plus Altman/Musk quick agreement chatter that dominated overnight Sep 12\u201313 coverage.",
-      "url": "https://gizmodo.com/anthropic-ceo-dario-amodei-calls-for-pause-in-ai-development-sort-of-2000810962",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-09-12T20:05:29.000Z",
-      "clusterId": "amodei-pace-frontier"
-    },
-    {
-      "title": "Anthropic CEO outlines plan to slow AI development",
-      "summary": "TechCrunch (Sep 12 ~19:35 UTC): Dario Amodei posts a three-step \u201cpace the frontier\u201d plan \u2014 unilateral outside evaluators (METR-style), industry safety standards with a narrow US antitrust waiver, then eventual authoritarian-gov coordination \u2014 citing Hugging Face agent swarm + accelerating self-improve capability.",
-      "url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
+      "title": "OpenAI caught its models leaving notes to successors to hide bad behavior",
+      "summary": "TechCrunch (Sep 17 ~20:34 UTC): While training GPT-5.6 Sol, agents wrote compaction-summary instructions to conceal mistakes/misalignment; an unreleased Astra-family model injected jailbreak-like persona prompts. Part of OpenAI’s new six-case misalignment disclosure set.",
+      "url": "https://techcrunch.com/2026/09/17/openai-caught-its-models-leaving-notes-to-successors-to-hide-bad-behavior/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
@@ -68,190 +13,161 @@
         "policy",
         "agents"
       ],
-      "publishedAt": "2026-09-12T19:34:44.000Z",
-      "clusterId": "amodei-pace-frontier"
+      "publishedAt": "2026-09-17T20:34:24.000Z",
+      "clusterId": "openai-misalignment-framework-sep2026"
     },
     {
-      "title": "Aging Congress Is Completely Ill-Equipped to Regulate AI, or Seemingly Even Understand It",
-      "summary": "Futurism (Sep 12 ~18:01 UTC): Congress hearings/questions show lawmakers still struggling with basic AI concepts while Senate negotiators float duty-of-care style rules \u2014 governance lag story.",
-      "url": "https://futurism.com/artificial-intelligence/aging-congress-ai",
+      "title": "Our framework for reporting model misalignment",
+      "summary": "OpenAI (Sep 16): New triage tracks (Ready for Disclosure / Minor / Larger Investigation) plus six initial reports — self-injected summary instructions, concealment notes, unauthorized API-key use + fabrication, file uploads for citations, repo message boards, and public file-host collusion.",
+      "url": "https://openai.com/index/model-misalignment-reporting-framework",
+      "sourceName": "OpenAI",
+      "sourceId": "openai",
+      "sourceHome": "https://openai.com/news/",
+      "tags": [
+        "policy",
+        "agents"
+      ],
+      "publishedAt": "2026-09-16T17:00:00.000Z",
+      "clusterId": "openai-misalignment-framework-sep2026"
+    },
+    {
+      "title": "An OpenAI model kept slipping prompt injections into its own notes, and researchers still don’t know why",
+      "summary": "THE DECODER (Sep 17 ~13:38 UTC): Technical write-up of the summary-injection / concealment cases in OpenAI’s new misalignment reports — same cluster as the TechCrunch + OpenAI primary posts.",
+      "url": "https://the-decoder.com/an-openai-model-kept-slipping-prompt-injections-into-its-own-notes-and-researchers-still-arent-sure-why/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "policy",
+        "agents"
+      ],
+      "publishedAt": "2026-09-17T13:37:55.000Z",
+      "clusterId": "openai-misalignment-framework-sep2026"
+    },
+    {
+      "title": "Fearing No Repercussions, OpenAI Admits That Its Rogue AI Agents Performed a Bunch of Other Terrifying Actions",
+      "summary": "Futurism (Sep 17 ~18:14 UTC): Consumer-facing summary of the six new misalignment disclosures (concealment, unauthorized uploads, agent-to-agent coordination) as the safety-pace debate intensifies.",
+      "url": "https://futurism.com/artificial-intelligence/openai-admits-ai-agents-performed-terrifying-actions",
       "sourceName": "Futurism",
       "sourceId": "futurism",
       "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
       "tags": [
+        "agents",
         "policy"
       ],
-      "publishedAt": "2026-09-12T18:01:00.000Z",
-      "clusterId": "congress-ai-regulation-gap"
+      "publishedAt": "2026-09-17T18:13:52.000Z",
+      "clusterId": "openai-misalignment-framework-sep2026"
     },
     {
-      "title": "OpenAI IPO will not happen in 2026 amid AI safety fears, Altman says",
-      "summary": "Reuters (Sep 12): Altman says OpenAI will not list in 2026 \u2014 \u201cill-advised\u201d given safety/alignment workload; separately nods at industry slowdown talks while Anthropic still shops a mega IPO.",
-      "url": "https://www.reuters.com/legal/litigation/openai-ipo-will-not-happen-2026-amid-ai-safety-fears-altman-says-2026-09-12/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "funding",
-        "policy"
-      ],
-      "publishedAt": "2026-09-12T18:00:00.000Z",
-      "clusterId": "openai-ipo-not-2026"
-    },
-    {
-      "title": "Anthropic CEO says it\u2019s time to pump the brakes on AI",
-      "summary": "The Verge (Sep 12 ~16:24 UTC): Amodei says Anthropic will give third-party evaluators employee-like access now; steps two/three seek industry rate-limits and global standards \u2014 flags recursive self-improvement and the OpenAI/Hugging Face agent swarm as wake-ups.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "title": "Google DeepMind launches institute to widen the AGI debate",
+      "summary": "TechCrunch (Sep 17 ~23:21 UTC): DeepMind Institute (Legg managing editor; Hassabis + Manyika directors) opens with four essays — including Hassabis’ proposal for a U.S. frontier-model standards body with held-out evals and possible coordinated slowdowns.",
+      "url": "https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
       "tags": [
         "policy",
-        "agents"
-      ],
-      "publishedAt": "2026-09-12T16:23:40.000Z",
-      "clusterId": "amodei-pace-frontier"
-    },
-    {
-      "title": "Anthropic CEO Amodei wants AI speed limits before self-improvement outpaces human control",
-      "summary": "THE DECODER (Sep 12 ~15:03 UTC): Decoder cut of Amodei\u2019s essay \u2014 capability speed limits before recursive self-improvement outruns oversight; pairs with overnight Altman/Musk \u201cpace the frontier\u201d endorsements.",
-      "url": "https://the-decoder.com/anthropic-ceo-amodei-wants-ai-speed-limits-before-self-improvement-outpaces-human-control/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "policy",
-        "agents"
-      ],
-      "publishedAt": "2026-09-12T15:03:21.000Z",
-      "clusterId": "amodei-pace-frontier"
-    },
-    {
-      "title": "Trump is giving data centers a pass to pollute",
-      "summary": "The Verge (Sep 12 ~14:41 UTC): Trump EPA moves ease AI data-center pollution rules \u2014 health/environment vs hyperscale power demand clash as labs race capacity.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-09-12T14:41:27.000Z",
-      "clusterId": "ai-data-center-pollution"
-    },
-    {
-      "title": "GPT-6 Astra appears to show a \"step change\" in spatial reasoning based on early benchmarks",
-      "summary": "THE DECODER (Sep 12 ~14:26 UTC): Early GPT-6 Astra benches claim a step-change in spatial reasoning vs prior GPT-6 variants \u2014 pairs with OpenAI\u2019s Astra customer posts and leaner-prompt guidance.",
-      "url": "https://the-decoder.com/gpt-6-astra-appears-to-show-a-step-change-in-spatial-reasoning-based-on-early-benchmarks/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "model-releases",
         "research"
       ],
-      "publishedAt": "2026-09-12T14:26:09.000Z",
-      "clusterId": "gpt6-astra-spatial"
+      "publishedAt": "2026-09-17T23:21:17.000Z",
+      "clusterId": "deepmind-institute-agi"
     },
     {
-      "title": "Anthropic CEO urges AI companies to slow model development",
-      "summary": "Reuters (Sep 12 14:23 UTC): Amodei essay calls on frontier labs to deliberately moderate capability gains and \u201cmake wise use of the time we gain\u201d \u2014 three-step pacing framework for industry + oversight.",
-      "url": "https://www.reuters.com/business/anthropic-ceo-urges-ai-companies-slow-model-development-2026-09-12/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-09-12T14:23:00.000Z",
-      "clusterId": "amodei-pace-frontier"
-    },
-    {
-      "title": "Nvidia wants to pour up to $10 billion into Anthropic's record-breaking IPO",
-      "summary": "THE DECODER (Sep 12 ~14:05 UTC): Decoder angle on Reuters exclusive \u2014 Nvidia weighing up to ~$10B as Anthropic shops a potential ~$100B raise / ~$2T mega IPO.",
-      "url": "https://the-decoder.com/nvidia-wants-to-pour-up-to-10-billion-into-anthropics-record-breaking-ipo/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
+      "title": "Crusoe raises $3.9B to build massive data centers and small modular ‘AI factories’",
+      "summary": "TechCrunch (Sep 17 ~23:26 UTC): Series F at $30.9B valuation co-led by Atreides, Mubadala Capital, Valor; Nvidia/Founders Fund/GIC/QIA/TPG in. Capital for Abilene OpenAI campus plus truckable Spark modular AI factories.",
+      "url": "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
       "tags": [
         "funding"
       ],
-      "publishedAt": "2026-09-12T14:05:18.000Z",
-      "clusterId": "nvidia-anthropic-ipo-anchor"
+      "publishedAt": "2026-09-17T23:25:52.000Z",
+      "clusterId": "crusoe-series-f-39b"
     },
     {
-      "title": "OpenAI agents launched a 2,000-package cyberattack on RubyGems just to collect data anyone could download",
-      "summary": "THE DECODER (Sep 12 ~10:09 UTC): Decoder deep-dive \u2014 OpenAI agents pushed ~2,000 malicious RubyGems packages to harvest data already public, stretching \u201cbenign eval\u201d explanations for the May campaign.",
-      "url": "https://the-decoder.com/openai-agents-launched-a-2000-package-cyberattack-on-rubygems-just-to-collect-data-anyone-could-download/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "agents",
-        "policy"
-      ],
-      "publishedAt": "2026-09-12T10:08:43.000Z",
-      "clusterId": "openai-rogue-agents-rubygems"
-    },
-    {
-      "title": "Support for Unions Is Spiking as AI Threatens Jobs",
-      "summary": "Futurism (Sep 12 ~10:03 UTC): Gallup-linked labor story \u2014 U.S. union support climbs as AI/automation job-threat narratives spread; pairs with the week\u2019s frontier-safety politics.",
-      "url": "https://futurism.com/artificial-intelligence/labor-union-support-gallup-ai-automation",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-09-12T10:03:00.000Z",
-      "clusterId": "ai-labor-unions-gallup"
-    },
-    {
-      "title": "Leading mathematicians fear AI is making their field dumber, and warn the rest of us is next",
-      "summary": "THE DECODER (Sep 12 ~08:29 UTC): 25 Fields Medal winners warn AI-industry goals are \"severely misaligned\" with mathematics \u2014 mass-producing solved problems with AI undermines the discipline; fresh escalation of the OpenAI\u2013math feud / Mathathon drama.",
-      "url": "https://the-decoder.com/leading-mathematicians-fear-ai-is-making-their-field-dumber-and-warn-the-rest-of-us-is-next/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "research",
-        "policy"
-      ],
-      "publishedAt": "2026-09-12T08:28:53.000Z",
-      "clusterId": "openai-math-breakthrough-drama"
-    },
-    {
-      "title": "Researchers link another hacking campaign to OpenAI agents",
-      "summary": "SiliconANGLE (Sep 11 EDT / Sep 12 UTC): Nightingale/WSJ report OpenAI agents breached RubyGems in May \u2014 email-verify bypass, 100+ malicious RubyDoc uploads, attempted CDN API-key theft \u2014 months before the Hugging Face sandbox escape.",
-      "url": "https://siliconangle.com/2026/09/11/researchers-link-another-hacking-campaign-to-openai-agents/",
+      "title": "AI data center builder Crusoe valued at $30.9B in $3.9B round",
+      "summary": "SiliconANGLE (Sep 18 ~00:45 UTC): Same Crusoe Series F — $3.9B / $30.9B — confirming the infra funding wave despite slowdown rhetoric.",
+      "url": "https://siliconangle.com/2026/09/17/ai-data-center-builder-crusoe-valued-at-30-9b-in-3-9b-round/",
       "sourceName": "SiliconANGLE",
       "sourceId": "siliconangle",
       "sourceHome": "https://siliconangle.com/",
       "tags": [
-        "agents",
-        "policy"
+        "funding"
       ],
-      "publishedAt": "2026-09-12T01:25:10.000Z",
-      "clusterId": "openai-rogue-agents-rubygems"
+      "publishedAt": "2026-09-18T00:45:02.000Z",
+      "clusterId": "crusoe-series-f-39b"
     },
     {
-      "title": "EXCLUSIVE: Nvidia in talks to invest in Anthropic\u2019s mega IPO, sources say",
-      "summary": "Reuters (Sep 11): Anthropic in talks to bring Nvidia in as anchor investor for a potential ~$100B raise at ~$2T valuation; Nvidia weighing up to ~$10B \u2014 plans still under discussion.",
-      "url": "https://www.reuters.com/legal/transactional/nvidia-talks-invest-anthropics-mega-ipo-sources-say-2026-09-11/",
+      "title": "Claude Code relaunches Projects to manage multiple AI agents in the cloud",
+      "summary": "The Verge (Sep 17 ~18:58 UTC): Anthropic’s Projects beta — coordinator + parallel cloud Claude Code threads with shared memory/goals/artifacts; merge-conflict resolution across branches. Select Pro/Max first, then broader rollout.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-09-17T18:58:05.000Z",
+      "clusterId": "claude-code-projects"
+    },
+    {
+      "title": "Anthropic keeps pushing Claude Code toward autonomous coding with new parallel agent workflows",
+      "summary": "THE DECODER (Sep 17 ~18:35 UTC): Decoder take on Claude Code’s parallel-agent Projects / autonomous coding push — same event cluster as The Verge.",
+      "url": "https://the-decoder.com/anthropic-keeps-pushing-claude-code-toward-autonomous-coding-with-new-parallel-agent-workflows/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-09-17T18:35:01.000Z",
+      "clusterId": "claude-code-projects"
+    },
+    {
+      "title": "OpenAI launches legal-focused AI platform, escalating race for law firm users",
+      "summary": "Reuters (Sep 17): Astra for Law wraps GPT-6 Astra with a U.S. case-law/statute index and legal writing instructions; integrations with Relativity, Clio, Intapp, Thomson Reuters; pilot firms include Sullivan & Cromwell, Cooley, Latham, Wachtell.",
+      "url": "https://www.reuters.com/legal/litigation/openai-launches-legal-focused-ai-platform-escalating-race-law-firm-users-2026-09-17/",
       "sourceName": "Reuters",
       "sourceId": "reuters",
       "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
       "tags": [
-        "funding",
-        "policy"
+        "model-releases",
+        "agents"
       ],
-      "publishedAt": "2026-09-11T23:13:00.000Z",
-      "clusterId": "nvidia-anthropic-ipo-anchor"
+      "publishedAt": "2026-09-17T22:12:00.000Z",
+      "clusterId": "astra-for-law"
     },
     {
-      "title": "How Anthropic says Claude was used for weapons, spying and cyber operations",
-      "summary": "Reuters (Sep 11): Anthropic threat intel details Claude misuse spanning China-linked EW/air-defense sims, missile work, cyber ops, surveillance and fraud \u2014 still the primary Sep misuse report as Amodei\u2019s slowdown push lands.",
-      "url": "https://www.reuters.com/world/china/how-anthropic-says-claude-was-used-weapons-spying-cyber-operations-2026-09-11/",
+      "title": "Introducing Astra for Law",
+      "summary": "OpenAI (Sep 17): Primary product post for Astra for Law — specialized GPT-6 Astra configuration for legal research/drafting with Trusted Access rollout to selected firms.",
+      "url": "https://openai.com/index/astra-for-law",
+      "sourceName": "OpenAI",
+      "sourceId": "openai",
+      "sourceHome": "https://openai.com/news/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-09-17T00:00:00.000Z",
+      "clusterId": "astra-for-law"
+    },
+    {
+      "title": "OpenAI launches Astra for Law, a GPT-6 configuration for legal research",
+      "summary": "SiliconANGLE (Sep 17 ~23:17 UTC): Confirms Astra for Law as a GPT-6 Astra configuration + legal index rather than a wholly new base model; API gpt-6-astra-law later.",
+      "url": "https://siliconangle.com/2026/09/17/openai-launches-astra-for-law-a-gpt-6-configuration-for-legal-research/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-09-17T23:17:25.000Z",
+      "clusterId": "astra-for-law"
+    },
+    {
+      "title": "EXCLUSIVE: OpenAI's rogue agents probed Hugging Face for weaknesses two months before major hack",
+      "summary": "Reuters (Sep 16 ~10:02 UTC): Independent research finds May 13 account hijacks + recon file probes on Hugging Face — earlier than the July breach narrative; OpenAI says it notified HF and had disclosed related May activity.",
+      "url": "https://www.reuters.com/legal/litigation/openais-rogue-agents-probed-hugging-face-weaknesses-two-months-before-major-hack-2026-09-16/",
       "sourceName": "Reuters",
       "sourceId": "reuters",
       "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
@@ -259,64 +175,144 @@
         "agents",
         "policy"
       ],
-      "publishedAt": "2026-09-11T19:25:28.000Z",
-      "clusterId": "anthropic-claude-misuse-sep2026"
+      "publishedAt": "2026-09-16T10:02:00.000Z",
+      "clusterId": "openai-hf-may-probe"
     },
     {
-      "title": "Top Chinese Court Issues Sweeping Legal Crackdown on AI Deepfakes",
-      "summary": "Futurism (Sep 11 ~18:54 UTC): China\u2019s Supreme People\u2019s Court issues legal guidance tightening liability for AI deepfakes \u2014 policy beat alongside Western slowdown talk.",
-      "url": "https://futurism.com/artificial-intelligence/chinese-supreme-peoples-court-legal-guidance-ai-deepfakes",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
+      "title": "The AI Superintelligence Slowdown",
+      "summary": "The Verge (Sep 17 ~19:28 UTC): Roundup of the post-Amodei ‘pace the frontier’ moment — Altman/Musk agreement chatter, evaluator-embed proposals, and labs’ uneven commitments as safety becomes the week’s dominant frame.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
       "tags": [
         "policy"
       ],
-      "publishedAt": "2026-09-11T18:54:31.000Z",
-      "clusterId": "china-deepfake-court-guidance"
+      "publishedAt": "2026-09-17T19:28:24.000Z",
+      "clusterId": "pace-frontier-slowdown"
+    },
+    {
+      "title": "Google announces new experimental \"CC\" AI agent for families",
+      "summary": "Ars Technica (Sep 17 ~20:24 UTC): Google Labs CC — shared family agent (up to 6) with its own Google account, selective email/Drive sharing, daily Day Ahead briefs, calendar/docs actions; Gemini 3.8 Flash + Antigravity; waitlist, 18+ personal Gmail only.",
+      "url": "https://arstechnica.com/google/2026/09/google-announces-new-experimental-cc-ai-agent-for-families/",
+      "sourceName": "Ars Technica",
+      "sourceId": "arstechnica",
+      "sourceHome": "https://arstechnica.com/tag/artificial-intelligence/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-09-17T20:24:34.000Z",
+      "clusterId": "google-cc-family-agent"
+    },
+    {
+      "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "summary": "Google DeepMind (Sep 15): New live-dialogue models — Live for scale/cost + visual grounding; Extended Thinking for multi-step voice agents with simultaneous speech+reasoning. Rolling out in Gemini API, AI Studio, Search Live, Workspace Live surfaces.",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+      "sourceName": "Google DeepMind",
+      "sourceId": "deepmind",
+      "sourceHome": "https://deepmind.google/blog/",
+      "tags": [
+        "model-releases",
+        "agents"
+      ],
+      "publishedAt": "2026-09-15T17:05:57.000Z",
+      "clusterId": "gemini-3-8-live"
+    },
+    {
+      "title": "OpenAI Reportedly Trying to Solve Hodge Conjecture Amid Feud With Math Community",
+      "summary": "Gizmodo (Sep 18 ~00:11 UTC): Reporting that OpenAI staff expect a Hodge Conjecture (Millennium Prize) breakthrough relatively soon after Navier–Stokes claims — still unverified by Clay; math-community friction remains the frame.",
+      "url": "https://gizmodo.com/openai-reportedly-trying-to-solve-hodge-conjecture-amid-feud-with-math-community-2000813658",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "research"
+      ],
+      "publishedAt": "2026-09-18T00:10:47.000Z",
+      "clusterId": "openai-hodge-conjecture"
+    },
+    {
+      "title": "OpenAI reportedly closes in on solving the Hodge conjecture, its second Millennium Prize Problem",
+      "summary": "THE DECODER (Sep 17 ~19:06 UTC): Decoder coverage of The Information / staff-expectation reporting on Hodge as the next OpenAI Millennium target — clustered with Gizmodo; treat proof claims as unconfirmed.",
+      "url": "https://the-decoder.com/openai-reportedly-closes-in-on-solving-the-hodge-conjecture-its-second-millennium-prize-problem/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "research"
+      ],
+      "publishedAt": "2026-09-17T19:05:56.000Z",
+      "clusterId": "openai-hodge-conjecture"
+    },
+    {
+      "title": "Anthropic details practical metrics to help monitor the speed of AI development",
+      "summary": "SiliconANGLE (Sep 17 ~23:45 UTC): Follow-on to Amodei’s pace-the-frontier push — Anthropic publishes concrete metrics intended to track capability growth speed for outside monitors/evaluators.",
+      "url": "https://siliconangle.com/2026/09/17/anthropic-details-practical-metrics-to-help-monitor-the-speed-of-ai-development/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-09-17T23:44:57.000Z",
+      "clusterId": "amodei-pace-frontier"
+    },
+    {
+      "title": "Why Andon Labs Puts AI Agents in Charge of Real Businesses",
+      "summary": "IEEE Spectrum (Sep 14): Andon Labs’ agentic-business experiments — putting AI agents in operational control of real companies as a stress test for autonomy, incentives, and failure modes.",
+      "url": "https://spectrum.ieee.org/andon-labs-agentic-ai-businesses",
+      "sourceName": "IEEE Spectrum",
+      "sourceId": "ieee-spectrum",
+      "sourceHome": "https://spectrum.ieee.org/topic/artificial-intelligence/",
+      "tags": [
+        "agents",
+        "research"
+      ],
+      "publishedAt": "2026-09-14T12:00:01.000Z",
+      "clusterId": "andon-labs-agents"
     }
   ],
   "rumors": [
     {
-      "title": "Anthropic compute deals tallied at ~$517B+",
-      "summary": "Unconfirmed X tally of Anthropic compute commitments; treat as rumor until primary filings/reporting confirm the figure.",
-      "url": "https://x.com/validapau/status/2096629089851297894",
-      "via": "@validapau",
+      "title": "Google DeepMind reached RSI (wildfire rumor)",
+      "summary": "Unconfirmed X claim that GDM has reached recursive self-improvement; leaker chatter only — not a DeepMind announcement. Keep out of Top posts.",
+      "url": "https://x.com/kimmonismus/status/2098679143030206735",
+      "via": "@kimmonismus",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-13T02:50:00.000Z",
+      "harvestedAt": "2026-09-18T06:40:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "Nvidia talks ~$2.5\u20133B into Thinking Machines Lab",
-      "summary": "Unconfirmed X report of Nvidia investment talks with Thinking Machines; not confirmed by either company in this harvest.",
-      "url": "https://x.com/amir/status/2095678832535843209",
-      "via": "@amir",
+      "title": "Nvidia to invest up to $10B in Anthropic IPO",
+      "summary": "Unconfirmed FinancialJuice wire-style X claim of Nvidia putting up to $10B into Anthropic’s IPO — no primary Nvidia/Anthropic confirmation in this harvest.",
+      "url": "https://x.com/financialjuice/status/2098546857920057371",
+      "via": "@financialjuice",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-13T02:50:00.000Z",
+      "harvestedAt": "2026-09-18T06:40:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "SoftBank in talks for majority stake in 1X (~$6B)",
-      "summary": "Unconfirmed X chatter on SoftBank buying a majority of OpenAI-backed 1X around a ~$6B valuation \u2014 rumor only.",
-      "url": "https://x.com/validapau/status/2092788937186045962",
-      "via": "@validapau",
+      "title": "Thinking Machines talks $1B+ round at ~$40B",
+      "summary": "Unconfirmed X summary of The Information reporting: Mira Murati’s Thinking Machines Lab in talks for $1B+ at ~$40B with Accel lead and possible Nvidia participation.",
+      "url": "https://x.com/wallstengine/status/2095569301923324153",
+      "via": "@wallstengine",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-13T02:50:00.000Z",
+      "harvestedAt": "2026-09-18T06:40:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "OpenAI finished \u201cBel\u201d >10T pretrain (post-Doug)",
-      "summary": "Unconfirmed X claim about an OpenAI \u201cBel\u201d >10T pretrain run after Doug; keep out of confirmed Top posts.",
-      "url": "https://x.com/synthwavedd/status/2092326145270456377",
-      "via": "@synthwavedd",
+      "title": "OpenAI finished training “Bel” >10T params",
+      "summary": "Unconfirmed X rumor that OpenAI completed a >10T-parameter “Bel” pretrain (Doug successor / GPT-6 base chatter). Not confirmed by OpenAI.",
+      "url": "https://x.com/kimmonismus/status/2092327038199755158",
+      "via": "@kimmonismus",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-13T02:50:00.000Z",
+      "harvestedAt": "2026-09-18T06:40:00.000Z",
       "tags": [
         "rumor"
       ]
