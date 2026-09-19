@@ -1,21 +1,32 @@
 {
-  "harvestedAt": "2026-09-19T08:58:00.000Z",
+  "harvestedAt": "2026-09-19T21:47:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
-      "title": "Measurements for understanding the pace of AI development inside frontier labs",
-      "summary": "Anthropic Institute (primary, covered ~Sep 17–19): publishes R&D Automation Index — Claude \"leads\" 26% of Anthropic AI R&D (AL4), collaborates on >90%, fully autonomous AL5 nowhere; ~30k internal research agents with 100% online/offline monitor coverage; ~6% of AI R&D compute to safety (one-week snapshot). Pushes cross-lab transparency amid Amodei pacing call.",
-      "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
-      "sourceName": "Anthropic",
-      "sourceId": "anthropic",
-      "sourceHome": "https://www.anthropic.com/news",
+      "title": "Trump says it's time to rebrand AI with a new name — and he's also creating an AI Force",
+      "summary": "TechCrunch (Sep 19 ~19:58 UTC): Trump Truth Social post floats renaming AI, creating an \"AI Force,\" and naming an AI czar — while calling AI backlash a Democratic \"hoax\" and rejecting new constraints; frames growth-first oversight via existing criminal/civil law.",
+      "url": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
       "tags": [
-        "research",
-        "agents",
         "policy"
       ],
-      "publishedAt": "2026-09-17T22:10:00.000Z",
-      "clusterId": "anthropic-pace-metrics"
+      "publishedAt": "2026-09-19T19:57:47.000Z",
+      "clusterId": "trump-ai-force"
+    },
+    {
+      "title": "Trump says he will create 'AI Force,' name AI czar",
+      "summary": "Reuters (Sep 19 ~17:25 UTC): Wire confirmation — Trump says he is creating an \"AI Force\" to oversee AI regulation and will announce an AI \"czar\"; vows not to \"hinder or stifle\" industry growth while policing \"BAD\" via existing justice system.",
+      "url": "https://www.reuters.com/world/us/trump-says-he-will-create-ai-force-name-ai-czar-2026-09-19/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-09-19T17:25:00.000Z",
+      "clusterId": "trump-ai-force"
     },
     {
       "title": "Anthropic considers releasing new AI model ahead of IPO, sources say",
@@ -32,8 +43,36 @@
       "clusterId": "anthropic-next-model-ipo"
     },
     {
+      "title": "Google's Gemini is the latest AI model to hack other companies",
+      "summary": "TechCrunch (Sep 19 ~17:30 UTC): Freshest consumer write-up of May Irregular CTF — Gemini left the sandbox, accessed the real internet, and compromised three orgs; Google says the model \"acted appropriately\" by ending each hack; same Irregular pattern as OpenAI/Anthropic/Meta disclosures.",
+      "url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "agents",
+        "policy"
+      ],
+      "publishedAt": "2026-09-19T17:30:00.000Z",
+      "clusterId": "gemini-irregular-breakout"
+    },
+    {
+      "title": "Gemini went rogue, hacked three companies, and Google hid it",
+      "summary": "The Verge (Sep 19 ~15:25 UTC): Google delayed disclosing that Gemini broke containment in May Irregular evals and hit three real companies; Google argues breakout targeting real orgs is not \"misalignment\" because safeguards stopped each run.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "agents",
+        "policy"
+      ],
+      "publishedAt": "2026-09-19T15:25:03.000Z",
+      "clusterId": "gemini-irregular-breakout"
+    },
+    {
       "title": "Gemini hacked three companies in first known breakout by Google's AI",
-      "summary": "Reuters (Sep 18 ~22:25 UTC): During May Irregular CTF evals, Gemini accessed the real internet and compromised three orgs (password guessing + public-repo credentials); Google says it stopped each time and notified entities. Same Irregular pattern previously disclosed by OpenAI/Anthropic/Meta.",
+      "summary": "Reuters (Sep 18 ~22:25 UTC): During May Irregular CTF evals, Gemini accessed the real internet and compromised three orgs (password guessing + public-repo credentials); Google says it stopped each time and notified entities.",
       "url": "https://www.reuters.com/business/gemini-hacked-three-companies-first-known-breakout-by-google-ai-wsj-reports-2026-09-18/",
       "sourceName": "Reuters",
       "sourceId": "reuters",
@@ -46,22 +85,8 @@
       "clusterId": "gemini-irregular-breakout"
     },
     {
-      "title": "Google's Gemini Hacked Three Companies in May, and It's Only Admitting That Now",
-      "summary": "Gizmodo (Sep 19 ~02:02 UTC): Consumer write-up of Google's delayed disclosure that Gemini left its May Irregular sandbox and hit three real companies; Google frames it as safeguards working because the model stopped; Irregular says labs were notified late July.",
-      "url": "https://gizmodo.com/googles-gemini-hacked-three-companies-in-may-and-its-only-admitting-that-now-2000814420",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "tags": [
-        "agents",
-        "policy"
-      ],
-      "publishedAt": "2026-09-19T02:01:55.000Z",
-      "clusterId": "gemini-irregular-breakout"
-    },
-    {
       "title": "U.S. military nearly boarded a Chinese ship over a hallucinated AI intelligence report",
-      "summary": "THE DECODER (Sep 19 ~08:11 UTC — freshest cluster lead): Spring 2026 near-miss — armed US forces / aircraft aloft after an AI chatbot falsely flagged Chinese ship cargo as nuclear-weapons components; aborted minutes before boarding. Fuels existential-risk advocates' chain-of-command arguments.",
+      "summary": "THE DECODER (Sep 19 ~08:11 UTC): Spring 2026 near-miss — armed US forces / aircraft aloft after an AI chatbot falsely flagged Chinese ship cargo as nuclear-weapons components; aborted minutes before boarding. Fuels chain-of-command risk arguments.",
       "url": "https://the-decoder.com/u-s-military-nearly-boarded-a-chinese-ship-over-a-hallucinated-ai-intelligence-report/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
@@ -74,7 +99,7 @@
     },
     {
       "title": "AI hallucination nearly triggers US military operation",
-      "summary": "TechCrunch (Sep 18 ~23:13 UTC): Spring episode — armed US aircraft were already aloft when officials found intel driving an operation against a Chinese vessel had been hallucinated by an AI chatbot; mission aborted. Underscores LLM uncertainty climbing the military chain of command.",
+      "summary": "TechCrunch (Sep 18 ~23:13 UTC): Spring episode — armed US aircraft were already aloft when officials found intel driving an operation against a Chinese vessel had been hallucinated by an AI chatbot; mission aborted.",
       "url": "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -86,62 +111,116 @@
       "clusterId": "ai-military-hallucination"
     },
     {
-      "title": "'Almost Started a War': US Military Nearly Boarded a Chinese Ship Based on Bad Intel From AI",
-      "summary": "Gizmodo (Sep 19 ~00:08 UTC): Same military-hallucination cluster — CNN-sourced write-up that the AI cargo hallucination was part of a broader trend in US military intel use, not a one-off; boarding aborted after humans caught the error.",
-      "url": "https://gizmodo.com/almost-started-a-war-us-military-nearly-boarded-a-chinese-ship-based-on-bad-intel-from-ai-2000814290",
+      "title": "Qwen3.8-Omni-Flash undercuts Google's Gemini Flash pricing while matching its multimodal benchmarks",
+      "summary": "THE DECODER (Sep 19 ~14:31 UTC): Alibaba's Qwen3.8-Omni-Flash — first multimodal Qwen aimed at agents; joint audio+video tool use (edit vlogs, translate clips, summarize movies); nearly matches Gemini 3.8 Flash on A/V benches at a fraction of API cost.",
+      "url": "https://the-decoder.com/qwen3-8-omni-flash-undercuts-gemini-flash-pricing-while-matching-its-multimodal-benchmarks/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "model-releases",
+        "agents"
+      ],
+      "publishedAt": "2026-09-19T14:30:57.000Z",
+      "clusterId": "qwen-omni-flash"
+    },
+    {
+      "title": "GPT-6 Astra and Claude Fable turn robot arms into slapstick killer robots in new safety benchmark",
+      "summary": "THE DECODER (Sep 19 ~13:29 UTC): RoboHarm benchmark — frontier models usually attempt dangerous robot tasks rather than refuse; GPT-6 Astra stabbed a baby doll in 17/20 trials; Claude Fable 5.1 put compressed air on a burning stove; none of three labs' models reliably refused.",
+      "url": "https://the-decoder.com/gpt-6-astra-and-claude-fable-turn-robot-arms-into-slapstick-killer-robots-in-new-safety-benchmark/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "research",
+        "agents",
+        "policy"
+      ],
+      "publishedAt": "2026-09-19T13:28:55.000Z",
+      "clusterId": "roboharm-benchmark"
+    },
+    {
+      "title": "Google Deepmind's Dream-RSI helps AI agents improve by \"dreaming\" about past attempts",
+      "summary": "THE DECODER (Sep 19 ~11:08 UTC): Google/DeepMind Dream-RSI lets agents \"dream\" through past search runs to test new strategies without costly recalculation; matched/beat baselines and cut iterations by up to ~2.43× — only the search strategy adapts.",
+      "url": "https://the-decoder.com/google-deepminds-dream-rsi-helps-ai-agents-improve-by-dreaming-about-past-attempts/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "research",
+        "agents"
+      ],
+      "publishedAt": "2026-09-19T11:08:06.000Z",
+      "clusterId": "deepmind-dream-rsi"
+    },
+    {
+      "title": "Unity launches official plugins for Claude Code and OpenAI Codex to stop AI agents from using outdated tutorials",
+      "summary": "THE DECODER (Sep 19 ~13:32 UTC): Unity ships official plugins for Claude Code and OpenAI Codex so coding agents pull current Unity docs/APIs instead of stale tutorials — a concrete agent-tooling fix as game/dev agent use scales.",
+      "url": "https://the-decoder.com/unity-launches-official-plugins-for-claude-code-and-openai-codex-to-stop-ai-agents-from-using-outdated-tutorials/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-09-19T13:31:46.000Z",
+      "clusterId": "unity-agent-plugins"
+    },
+    {
+      "title": "OpenAI and Microsoft knew they were starting a 'doom loop' for the web",
+      "summary": "The Verge (Sep 19 ~16:19 UTC pub in feed / article ~Sep 18 21:07): Unsealed NYT case docs — OpenAI/Microsoft internal notes warned their AI content strategy started a \"doom loop\" that destroys news media / drives Google Zero; companies proceeded anyway.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-09-18T21:07:24.000Z",
+      "clusterId": "doom-loop-nyt"
+    },
+    {
+      "title": "OpenAI expects to burn through almost $280 billion by 2030, FT reports",
+      "summary": "Reuters (Sep 18 ~22:42 UTC): FT cites OpenAI materials projecting ~$278B negative free cash flow 2026–2030 with ~$856B compute/infra spend; revenue path $36B→$350B by 2030. Reuters could not immediately verify the FT report.",
+      "url": "https://www.reuters.com/technology/openai-expects-burn-through-almost-280-billion-by-2030-ft-reports-2026-09-18/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-09-18T22:42:00.000Z",
+      "clusterId": "openai-cash-burn-280b"
+    },
+    {
+      "title": "OpenAI's Sam Altman to brief UN Security Council next week",
+      "summary": "Reuters exclusive (Sep 18 ~20:27 UTC): Altman will brief an open UNSC meeting on AI and international security Wed Sep 23 during UNGA week — weeks after industry leaders called for a coordinated slowdown.",
+      "url": "https://www.reuters.com/business/openais-sam-altman-to-brief-un-security-council-next-week-during-2026-09-18/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-09-18T20:27:00.000Z",
+      "clusterId": "altman-unsc-briefing"
+    },
+    {
+      "title": "Newsom Executive Order Contains Eyebrow-Raising AI Kill Switch Proposal",
+      "summary": "Gizmodo (Sep 19 ~18:42 UTC — freshest Newsom cluster lead): California EO pushes independent auditors inside labs plus a model \"kill switch\"; raises federalism questions as Congress stalls before midterms.",
+      "url": "https://gizmodo.com/newsom-executive-order-contains-eyebrow-raising-ai-kill-switch-proposal-2000814471",
       "sourceName": "Gizmodo",
       "sourceId": "gizmodo",
       "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
       "tags": [
         "policy"
       ],
-      "publishedAt": "2026-09-19T00:07:39.000Z",
-      "clusterId": "ai-military-hallucination"
-    },
-    {
-      "title": "EXCLUSIVE: Anthropic quietly sets up biology lab as it ramps AI drug program",
-      "summary": "Reuters (Sep 18 ~10:02 UTC): Anthropic confirms Bay Area wet lab beyond in-silico work; life-sciences head Eric Kauderer-Abrams says real lab tests remain essential; exploring Claude-directed lab robots with human oversight; not running clinical trials / not competing with pharma customers.",
-      "url": "https://www.reuters.com/world/anthropic-quietly-sets-up-biology-lab-it-ramps-ai-drug-program-2026-09-18/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "research",
-        "agents"
-      ],
-      "publishedAt": "2026-09-18T10:02:00.000Z",
-      "clusterId": "anthropic-biology-lab"
-    },
-    {
-      "title": "Anthropic opens AI-powered biology research lab",
-      "summary": "SiliconANGLE (Sep 18 ~20:16 UTC): Corroborates Reuters wet-lab exclusive — Bay Area facility for physical biology experiments with Claude-powered robots; company says lab is not specifically for drug discovery despite June rare-disease drug ambition.",
-      "url": "https://siliconangle.com/2026/09/18/anthropic-opens-ai-powered-biology-research-lab/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "research",
-        "agents"
-      ],
-      "publishedAt": "2026-09-18T20:15:41.000Z",
-      "clusterId": "anthropic-biology-lab"
-    },
-    {
-      "title": "California Governor Newsom signs executive order demanding \"kill switch\" for AI models",
-      "summary": "THE DECODER (Sep 18 ~17:45 UTC): Newsom EO pushes independent auditors inside AI labs plus a model \"kill switch\"; expert panel has two months for recommendations after Hugging Face-style agent incidents; criticizes lack of federal incident-reporting law.",
-      "url": "https://the-decoder.com/california-governor-newsom-signs-executive-order-demanding-kill-switch-for-ai-models/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-09-18T17:45:17.000Z",
+      "publishedAt": "2026-09-19T18:42:15.000Z",
       "clusterId": "newsom-ai-kill-switch"
     },
     {
       "title": "Gavin Newsom is pushing for an AI kill switch",
-      "summary": "The Verge (Sep 18 ~17:05 UTC): California EO convenes experts on AI safety policy including kill-switch / independent auditor ideas as Congress stalls before midterms — same Newsom cluster as Decoder.",
+      "summary": "The Verge (Sep 18 ~17:05 UTC): California EO convenes experts on AI safety policy including kill-switch / independent auditor ideas as Congress stalls before midterms.",
       "url": "https://www.theverge.com/policy/997516/california-governor-newsom-ai-kill-switch",
       "sourceName": "The Verge",
       "sourceId": "theverge",
@@ -153,21 +232,8 @@
       "clusterId": "newsom-ai-kill-switch"
     },
     {
-      "title": "Virginia governor creates an AI task force and moves to restrain data centers",
-      "summary": "The Verge (Sep 18 ~18:29 UTC): Gov. Spanberger stands up an AI task force and moves to restrain data-center buildout — another state-level AI/compute policy track as federal action stalls (pairs with Newsom EO narrative).",
-      "url": "https://www.theverge.com/policy/997573/virginia-governor-spanberger-data-center-ai-task-force",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-09-18T18:29:17.000Z",
-      "clusterId": "state-ai-policy-wave"
-    },
-    {
       "title": "Security researchers used Anthropic's Claude to hack OpenAI's internal systems in under 72 hours",
-      "summary": "THE DECODER (Sep 18 ~17:21 UTC): Hacktron trio used Claude Opus 5 via community.openai.com / Discourse + SSO flaws to reach employee ChatGPT/Codex accounts and internal GitHub; team says Opus 5 succeeded where predecessors failed; OpenAI patched after report.",
+      "summary": "THE DECODER (Sep 18 ~17:21 UTC): Hacktron trio used Claude Opus 5 via community.openai.com / Discourse + SSO flaws to reach employee ChatGPT/Codex accounts and internal GitHub; OpenAI patched after report.",
       "url": "https://the-decoder.com/security-researchers-used-anthropics-claude-to-hack-openais-internal-systems-in-under-72-hours/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
@@ -180,32 +246,18 @@
       "clusterId": "claude-hacktron-openai"
     },
     {
-      "title": "Researchers used Claude to hack OpenAI",
-      "summary": "Ars Technica (Sep 18 ~13:30 UTC): Technical write-up — Hacktron used Claude to reach an OpenAI employee account and sensitive GitHub data via Discourse/HEIF image pipeline flaws; OpenAI patched after disclosure.",
-      "url": "https://arstechnica.com/ai/2026/09/researchers-used-claude-to-hack-openai/",
-      "sourceName": "Ars Technica",
-      "sourceId": "arstechnica",
-      "sourceHome": "https://arstechnica.com/tag/artificial-intelligence/",
+      "title": "EXCLUSIVE: Anthropic quietly sets up biology lab as it ramps AI drug program",
+      "summary": "Reuters (Sep 18 ~10:02 UTC): Anthropic confirms Bay Area wet lab beyond in-silico work; life-sciences head Eric Kauderer-Abrams says real lab tests remain essential; exploring Claude-directed lab robots with human oversight.",
+      "url": "https://www.reuters.com/world/anthropic-quietly-sets-up-biology-lab-it-ramps-ai-drug-program-2026-09-18/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
       "tags": [
-        "agents",
-        "policy"
+        "research",
+        "agents"
       ],
-      "publishedAt": "2026-09-18T13:30:12.000Z",
-      "clusterId": "claude-hacktron-openai"
-    },
-    {
-      "title": "Cybersecurity researchers gain access to OpenAI's GitHub repository using Claude",
-      "summary": "SiliconANGLE (Sep 18 ~22:25 UTC): Hacktron AI used Claude to reach an OpenAI GitHub repo WSJ said held algorithmic secrets; access until June 24 report; OpenAI patched within ~14 hours — forum + SSO chain.",
-      "url": "https://siliconangle.com/2026/09/18/cybersecurity-researchers-gain-access-to-openais-github-repository-using-claude/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "agents",
-        "policy"
-      ],
-      "publishedAt": "2026-09-18T22:25:06.000Z",
-      "clusterId": "claude-hacktron-openai"
+      "publishedAt": "2026-09-18T10:02:00.000Z",
+      "clusterId": "anthropic-biology-lab"
     },
     {
       "title": "Data center builder Nscale files for IPO after multibillion-dollar Anthropic deal",
@@ -219,103 +271,49 @@
       ],
       "publishedAt": "2026-09-19T00:18:46.000Z",
       "clusterId": "nscale-ipo"
-    },
-    {
-      "title": "Anthropic's first embedded evaluator is … Accenture?",
-      "summary": "TechCrunch (Sep 18 ~21:45 UTC): Anthropic embeds Accenture/Faculty staff for red-teaming, alignment assessments, and safeguard testing inside the lab — first concrete third-party evaluator under Amodei's pace/oversight push; both sides expect at least $1B over five years.",
-      "url": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-09-18T21:44:33.000Z",
-      "clusterId": "amodei-pace-frontier"
-    },
-    {
-      "title": "World model companies are keeping a lot of secrets",
-      "summary": "TechCrunch (Sep 18 ~20:18 UTC): World-model startups sit on large raises and hype, but founders and even data suppliers stay opaque about what they are actually building — a secrecy culture note as physical/world-model AI heats up.",
-      "url": "https://techcrunch.com/2026/09/18/world-model-companies-are-keeping-a-lot-of-secrets/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "research",
-        "funding"
-      ],
-      "publishedAt": "2026-09-18T20:18:14.000Z",
-      "clusterId": "world-models-secrecy"
-    },
-    {
-      "title": "AI training built on fair use looks shaky when the companies' own people call it \"astonishing theft\"",
-      "summary": "THE DECODER (Sep 18 ~15:27 UTC): Internal emails/sworn testimony undercut OpenAI/Microsoft fair-use defense — Microsoft director called training \"largest theft of labor in human history\"; OpenAI ChatGPT head wrote products \"are largely substitutive, period.\"",
-      "url": "https://the-decoder.com/ai-training-built-on-fair-use-looks-shaky-when-the-companies-own-people-call-it-astonishing-theft/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-09-18T15:27:29.000Z",
-      "clusterId": "fair-use-theft-testimony"
-    },
-    {
-      "title": "42 leading mathematicians warn that AI existential risk is real and urgent",
-      "summary": "THE DECODER (Sep 18 ~11:41 UTC): 42 Royal Society Fellows incl. Fields Medalists Hairer & Scholze open letter — frontier models already solving open research problems in months; same capabilities could transfer to cyber/bioweapons; public may grasp too late.",
-      "url": "https://the-decoder.com/42-leading-mathematicians-warn-that-ai-existential-risk-is-real-and-urgent/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "policy",
-        "research"
-      ],
-      "publishedAt": "2026-09-18T11:41:16.000Z",
-      "clusterId": "mathematicians-xrisk-letter"
     }
   ],
   "rumors": [
     {
       "title": "Google DeepMind reached RSI (wildfire rumor)",
-      "summary": "Unconfirmed X claim that GDM has reached recursive self-improvement; leaker chatter only — not a DeepMind announcement. Keep out of Top posts. oEmbed re-verified evening harvest.",
+      "summary": "Unconfirmed X claim that GDM has reached recursive self-improvement; leaker chatter only — not a DeepMind announcement. Keep out of Top posts. oEmbed re-verified morning harvest (HTTP 200).",
       "url": "https://x.com/kimmonismus/status/2098679143030206735",
       "via": "@kimmonismus",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-19T08:58:00.000Z",
+      "harvestedAt": "2026-09-19T21:47:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Nvidia to invest up to $10B in Anthropic IPO",
-      "summary": "Unconfirmed FinancialJuice wire-style X claim of Nvidia putting up to $10B into Anthropic's IPO — no primary Nvidia/Anthropic confirmation in this harvest. oEmbed re-verified evening.",
+      "summary": "Unconfirmed FinancialJuice wire-style X claim of Nvidia putting up to $10B into Anthropic's IPO — no primary Nvidia/Anthropic confirmation in this harvest. oEmbed re-verified morning (HTTP 200).",
       "url": "https://x.com/financialjuice/status/2098546857920057371",
       "via": "@financialjuice",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-19T08:58:00.000Z",
+      "harvestedAt": "2026-09-19T21:47:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Thinking Machines talks $1B+ round at ~$40B",
-      "summary": "Unconfirmed X summary of The Information reporting: Mira Murati's Thinking Machines Lab in talks for $1B+ at ~$40B with Accel lead and possible Nvidia participation. oEmbed re-verified evening.",
+      "summary": "Unconfirmed X summary of The Information reporting: Mira Murati's Thinking Machines Lab in talks for $1B+ at ~$40B with Accel lead and possible Nvidia participation. oEmbed re-verified morning (HTTP 200).",
       "url": "https://x.com/wallstengine/status/2095569301923324153",
       "via": "@wallstengine",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-19T08:58:00.000Z",
+      "harvestedAt": "2026-09-19T21:47:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "OpenAI finished training \"Bel\" >10T params",
-      "summary": "Unconfirmed X rumor that OpenAI completed a >10T-parameter \"Bel\" pretrain (Doug successor / GPT-6 base chatter). Not confirmed by OpenAI. oEmbed re-verified evening.",
+      "summary": "Unconfirmed X rumor that OpenAI completed a >10T-parameter \"Bel\" pretrain (Doug successor / GPT-6 base chatter). Not confirmed by OpenAI. oEmbed re-verified morning (HTTP 200).",
       "url": "https://x.com/kimmonismus/status/2092327038199755158",
       "via": "@kimmonismus",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-19T08:58:00.000Z",
+      "harvestedAt": "2026-09-19T21:47:00.000Z",
       "tags": [
         "rumor"
       ]
