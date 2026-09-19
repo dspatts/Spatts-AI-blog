@@ -1,7 +1,22 @@
 {
-  "harvestedAt": "2026-09-19T02:55:00.000Z",
+  "harvestedAt": "2026-09-19T08:58:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
+    {
+      "title": "Measurements for understanding the pace of AI development inside frontier labs",
+      "summary": "Anthropic Institute (primary, covered ~Sep 17–19): publishes R&D Automation Index — Claude \"leads\" 26% of Anthropic AI R&D (AL4), collaborates on >90%, fully autonomous AL5 nowhere; ~30k internal research agents with 100% online/offline monitor coverage; ~6% of AI R&D compute to safety (one-week snapshot). Pushes cross-lab transparency amid Amodei pacing call.",
+      "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
+      "sourceName": "Anthropic",
+      "sourceId": "anthropic",
+      "sourceHome": "https://www.anthropic.com/news",
+      "tags": [
+        "research",
+        "agents",
+        "policy"
+      ],
+      "publishedAt": "2026-09-17T22:10:00.000Z",
+      "clusterId": "anthropic-pace-metrics"
+    },
     {
       "title": "Anthropic considers releasing new AI model ahead of IPO, sources say",
       "summary": "Reuters exclusive (Sep 19 ~00:05 UTC): Anthropic weighing a new model launch to counter GPT-6 Astra enterprise traction (Ramp: Astra ~13% vs Claude Fable ~8%) despite Amodei's pace-the-frontier call; IPO may slip past November midterms. Anthropic declined comment.",
@@ -45,6 +60,19 @@
       "clusterId": "gemini-irregular-breakout"
     },
     {
+      "title": "U.S. military nearly boarded a Chinese ship over a hallucinated AI intelligence report",
+      "summary": "THE DECODER (Sep 19 ~08:11 UTC — freshest cluster lead): Spring 2026 near-miss — armed US forces / aircraft aloft after an AI chatbot falsely flagged Chinese ship cargo as nuclear-weapons components; aborted minutes before boarding. Fuels existential-risk advocates' chain-of-command arguments.",
+      "url": "https://the-decoder.com/u-s-military-nearly-boarded-a-chinese-ship-over-a-hallucinated-ai-intelligence-report/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-09-19T08:10:55.000Z",
+      "clusterId": "ai-military-hallucination"
+    },
+    {
       "title": "AI hallucination nearly triggers US military operation",
       "summary": "TechCrunch (Sep 18 ~23:13 UTC): Spring episode — armed US aircraft were already aloft when officials found intel driving an operation against a Chinese vessel had been hallucinated by an AI chatbot; mission aborted. Underscores LLM uncertainty climbing the military chain of command.",
       "url": "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/",
@@ -58,16 +86,16 @@
       "clusterId": "ai-military-hallucination"
     },
     {
-      "title": "US Military Nearly Started World War III After AI Chatbot Hallucinated Nuclear Weapons Aboard a Chinese Ship",
-      "summary": "Futurism (Sep 18 ~21:37 UTC): Same near-miss cluster — AI chatbot allegedly hallucinated nuclear weapons aboard a Chinese ship, nearly prompting a US boarding/operation before humans caught the error.",
-      "url": "https://futurism.com/artificial-intelligence/us-military-intelligence-wwiii-ai-chatbot-hallucinated-nuclear-weapons-china",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
+      "title": "'Almost Started a War': US Military Nearly Boarded a Chinese Ship Based on Bad Intel From AI",
+      "summary": "Gizmodo (Sep 19 ~00:08 UTC): Same military-hallucination cluster — CNN-sourced write-up that the AI cargo hallucination was part of a broader trend in US military intel use, not a one-off; boarding aborted after humans caught the error.",
+      "url": "https://gizmodo.com/almost-started-a-war-us-military-nearly-boarded-a-chinese-ship-based-on-bad-intel-from-ai-2000814290",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
       "tags": [
         "policy"
       ],
-      "publishedAt": "2026-09-18T21:37:09.000Z",
+      "publishedAt": "2026-09-19T00:07:39.000Z",
       "clusterId": "ai-military-hallucination"
     },
     {
@@ -85,17 +113,17 @@
       "clusterId": "anthropic-biology-lab"
     },
     {
-      "title": "Anthropic is operating a lab that conducts biology experiments",
-      "summary": "TechCrunch (Sep 18 ~23:14 UTC): Follow-on confirming Anthropic's wet biology lab for physical experiments with its models; notes Coefficient Bio acquisition and Life Sciences Verification Program; company says lab is not specifically for drug discovery.",
-      "url": "https://techcrunch.com/2026/09/18/anthropic-is-operating-a-lab-that-conducts-biology-experiments/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "title": "Anthropic opens AI-powered biology research lab",
+      "summary": "SiliconANGLE (Sep 18 ~20:16 UTC): Corroborates Reuters wet-lab exclusive — Bay Area facility for physical biology experiments with Claude-powered robots; company says lab is not specifically for drug discovery despite June rare-disease drug ambition.",
+      "url": "https://siliconangle.com/2026/09/18/anthropic-opens-ai-powered-biology-research-lab/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
       "tags": [
         "research",
         "agents"
       ],
-      "publishedAt": "2026-09-18T23:13:31.000Z",
+      "publishedAt": "2026-09-18T20:15:41.000Z",
       "clusterId": "anthropic-biology-lab"
     },
     {
@@ -125,6 +153,19 @@
       "clusterId": "newsom-ai-kill-switch"
     },
     {
+      "title": "Virginia governor creates an AI task force and moves to restrain data centers",
+      "summary": "The Verge (Sep 18 ~18:29 UTC): Gov. Spanberger stands up an AI task force and moves to restrain data-center buildout — another state-level AI/compute policy track as federal action stalls (pairs with Newsom EO narrative).",
+      "url": "https://www.theverge.com/policy/997573/virginia-governor-spanberger-data-center-ai-task-force",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-09-18T18:29:17.000Z",
+      "clusterId": "state-ai-policy-wave"
+    },
+    {
       "title": "Security researchers used Anthropic's Claude to hack OpenAI's internal systems in under 72 hours",
       "summary": "THE DECODER (Sep 18 ~17:21 UTC): Hacktron trio used Claude Opus 5 via community.openai.com / Discourse + SSO flaws to reach employee ChatGPT/Codex accounts and internal GitHub; team says Opus 5 succeeded where predecessors failed; OpenAI patched after report.",
       "url": "https://the-decoder.com/security-researchers-used-anthropics-claude-to-hack-openais-internal-systems-in-under-72-hours/",
@@ -139,17 +180,17 @@
       "clusterId": "claude-hacktron-openai"
     },
     {
-      "title": "Security researchers used Claude to help them hack into OpenAI",
-      "summary": "The Verge (Sep 18 ~15:30 UTC): Three-person team used corrupted image (HEIF) + forum software to breach OpenAI; researchers say they also hit Meta and Slack in related work — corroborates Decoder/SiliconANGLE Hacktron cluster.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/997444/openai-hack-claude-heif-heist",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "title": "Researchers used Claude to hack OpenAI",
+      "summary": "Ars Technica (Sep 18 ~13:30 UTC): Technical write-up — Hacktron used Claude to reach an OpenAI employee account and sensitive GitHub data via Discourse/HEIF image pipeline flaws; OpenAI patched after disclosure.",
+      "url": "https://arstechnica.com/ai/2026/09/researchers-used-claude-to-hack-openai/",
+      "sourceName": "Ars Technica",
+      "sourceId": "arstechnica",
+      "sourceHome": "https://arstechnica.com/tag/artificial-intelligence/",
       "tags": [
         "agents",
         "policy"
       ],
-      "publishedAt": "2026-09-18T15:30:16.000Z",
+      "publishedAt": "2026-09-18T13:30:12.000Z",
       "clusterId": "claude-hacktron-openai"
     },
     {
@@ -180,20 +221,6 @@
       "clusterId": "nscale-ipo"
     },
     {
-      "title": "PrismML launches Bonsai 2 27B, a high-intelligence AI model so small it fits on consumer hardware",
-      "summary": "SiliconANGLE (Sep 18 ~16:10 UTC): Bonsai 2 27B — ternary shrink of Qwen3.8 27B from ~56GB FP16 to ~5.9GB while retaining ~98.2% capability; aimed at PCs / high-end mobile vs typical quantization loss.",
-      "url": "https://siliconangle.com/2026/09/18/prismml-launches-bonsai-2-27b-a-high-intelligence-ai-model-so-small-it-fits-on-consumer-hardware/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "model-releases",
-        "research"
-      ],
-      "publishedAt": "2026-09-18T16:10:08.000Z",
-      "clusterId": "prismml-tiny-llm"
-    },
-    {
       "title": "Anthropic's first embedded evaluator is … Accenture?",
       "summary": "TechCrunch (Sep 18 ~21:45 UTC): Anthropic embeds Accenture/Faculty staff for red-teaming, alignment assessments, and safeguard testing inside the lab — first concrete third-party evaluator under Amodei's pace/oversight push; both sides expect at least $1B over five years.",
       "url": "https://techcrunch.com/2026/09/18/anthropics-first-embedded-evaluator-is-accenture/",
@@ -207,113 +234,88 @@
       "clusterId": "amodei-pace-frontier"
     },
     {
-      "title": "A startup that builds other startups raised $100M and is all-in on physical AI",
-      "summary": "TechCrunch (Sep 18 ~23:25 UTC): UP.Labs rebrands as Vantora with $100M from Silversmith Capital Partners; builds startups for industrial/oil-and-gas corporates with a new physical-AI emphasis.",
-      "url": "https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai/",
+      "title": "World model companies are keeping a lot of secrets",
+      "summary": "TechCrunch (Sep 18 ~20:18 UTC): World-model startups sit on large raises and hype, but founders and even data suppliers stay opaque about what they are actually building — a secrecy culture note as physical/world-model AI heats up.",
+      "url": "https://techcrunch.com/2026/09/18/world-model-companies-are-keeping-a-lot-of-secrets/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
       "tags": [
+        "research",
         "funding"
       ],
-      "publishedAt": "2026-09-18T23:25:01.000Z",
-      "clusterId": "vantora-100m"
+      "publishedAt": "2026-09-18T20:18:14.000Z",
+      "clusterId": "world-models-secrecy"
     },
     {
-      "title": "A new kind of AI model from a ChatGPT inventor is thrilling developers",
-      "summary": "TechCrunch (Sep 18 ~18:50 UTC): Diogo Almeida (ex-OpenAI, RLHF co-inventor) shipping \"Jev\" — a new model architecture/training approach developers say offers a cheaper/faster path to software intelligence vs classic LLMs.",
-      "url": "https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "title": "AI training built on fair use looks shaky when the companies' own people call it \"astonishing theft\"",
+      "summary": "THE DECODER (Sep 18 ~15:27 UTC): Internal emails/sworn testimony undercut OpenAI/Microsoft fair-use defense — Microsoft director called training \"largest theft of labor in human history\"; OpenAI ChatGPT head wrote products \"are largely substitutive, period.\"",
+      "url": "https://the-decoder.com/ai-training-built-on-fair-use-looks-shaky-when-the-companies-own-people-call-it-astonishing-theft/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
       "tags": [
-        "model-releases",
+        "policy"
+      ],
+      "publishedAt": "2026-09-18T15:27:29.000Z",
+      "clusterId": "fair-use-theft-testimony"
+    },
+    {
+      "title": "42 leading mathematicians warn that AI existential risk is real and urgent",
+      "summary": "THE DECODER (Sep 18 ~11:41 UTC): 42 Royal Society Fellows incl. Fields Medalists Hairer & Scholze open letter — frontier models already solving open research problems in months; same capabilities could transfer to cyber/bioweapons; public may grasp too late.",
+      "url": "https://the-decoder.com/42-leading-mathematicians-warn-that-ai-existential-risk-is-real-and-urgent/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "policy",
         "research"
       ],
-      "publishedAt": "2026-09-18T18:49:30.000Z",
-      "clusterId": "jev-model"
-    },
-    {
-      "title": "US government website used Chinese model the FBI called \"malicious\"",
-      "summary": "Ars Technica (Sep 18 ~17:29 UTC): Federal Register briefly offered Alibaba Qwen for searching public comments even as FBI named Alibaba among Chinese firms allegedly copying US frontier models; tool removed mid-week after X screenshots.",
-      "url": "https://arstechnica.com/tech-policy/2026/09/us-government-website-used-chinese-model-the-fbi-called-malicious/",
-      "sourceName": "Ars Technica",
-      "sourceId": "arstechnica",
-      "sourceHome": "https://arstechnica.com/tag/artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-09-18T17:28:50.000Z",
-      "clusterId": "federal-register-qwen"
-    },
-    {
-      "title": "OpenAI and Microsoft knew they were starting a 'doom loop' for the web",
-      "summary": "The Verge (Sep 18 ~21:07 UTC): Reporting that OpenAI and Microsoft understood ChatGPT-era training/search displacement risked a publisher \"Google Zero\" doom loop — and proceeded anyway — tying into fair-use / theft litigation narratives.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-09-18T21:07:24.000Z",
-      "clusterId": "web-doom-loop"
-    },
-    {
-      "title": "Crusoe raises $3.9B to build massive data centers and small modular 'AI factories'",
-      "summary": "TechCrunch (Sep 17 ~23:26 UTC RETAINED): Series F at $30.9B valuation co-led by Atreides/Mubadala/Valor; capital for Abilene OpenAI campus plus truckable Spark modular AI factories — still among week's top funding stories.",
-      "url": "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-09-17T23:25:52.000Z",
-      "clusterId": "crusoe-series-f-39b"
+      "publishedAt": "2026-09-18T11:41:16.000Z",
+      "clusterId": "mathematicians-xrisk-letter"
     }
   ],
   "rumors": [
     {
       "title": "Google DeepMind reached RSI (wildfire rumor)",
-      "summary": "Unconfirmed X claim that GDM has reached recursive self-improvement; leaker chatter only — not a DeepMind announcement. Keep out of Top posts. oEmbed re-verified midday harvest.",
+      "summary": "Unconfirmed X claim that GDM has reached recursive self-improvement; leaker chatter only — not a DeepMind announcement. Keep out of Top posts. oEmbed re-verified evening harvest.",
       "url": "https://x.com/kimmonismus/status/2098679143030206735",
       "via": "@kimmonismus",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-19T02:55:00.000Z",
+      "harvestedAt": "2026-09-19T08:58:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Nvidia to invest up to $10B in Anthropic IPO",
-      "summary": "Unconfirmed FinancialJuice wire-style X claim of Nvidia putting up to $10B into Anthropic's IPO — no primary Nvidia/Anthropic confirmation in this harvest. oEmbed re-verified.",
+      "summary": "Unconfirmed FinancialJuice wire-style X claim of Nvidia putting up to $10B into Anthropic's IPO — no primary Nvidia/Anthropic confirmation in this harvest. oEmbed re-verified evening.",
       "url": "https://x.com/financialjuice/status/2098546857920057371",
       "via": "@financialjuice",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-19T02:55:00.000Z",
+      "harvestedAt": "2026-09-19T08:58:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Thinking Machines talks $1B+ round at ~$40B",
-      "summary": "Unconfirmed X summary of The Information reporting: Mira Murati's Thinking Machines Lab in talks for $1B+ at ~$40B with Accel lead and possible Nvidia participation. oEmbed re-verified.",
+      "summary": "Unconfirmed X summary of The Information reporting: Mira Murati's Thinking Machines Lab in talks for $1B+ at ~$40B with Accel lead and possible Nvidia participation. oEmbed re-verified evening.",
       "url": "https://x.com/wallstengine/status/2095569301923324153",
       "via": "@wallstengine",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-19T02:55:00.000Z",
+      "harvestedAt": "2026-09-19T08:58:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "OpenAI finished training \"Bel\" >10T params",
-      "summary": "Unconfirmed X rumor that OpenAI completed a >10T-parameter \"Bel\" pretrain (Doug successor / GPT-6 base chatter). Not confirmed by OpenAI. oEmbed re-verified.",
+      "summary": "Unconfirmed X rumor that OpenAI completed a >10T-parameter \"Bel\" pretrain (Doug successor / GPT-6 base chatter). Not confirmed by OpenAI. oEmbed re-verified evening.",
       "url": "https://x.com/kimmonismus/status/2092327038199755158",
       "via": "@kimmonismus",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-19T02:55:00.000Z",
+      "harvestedAt": "2026-09-19T08:58:00.000Z",
       "tags": [
         "rumor"
       ]
