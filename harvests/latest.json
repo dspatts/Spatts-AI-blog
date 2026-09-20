@@ -1,10 +1,37 @@
 {
-  "harvestedAt": "2026-09-20T02:58:00.000Z",
+  "harvestedAt": "2026-09-20T08:56:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
+      "title": "Following OpenAI, Anthropic is also reportedly postponing its IPO",
+      "summary": "THE DECODER (Sep 20 ~08:35 UTC — evening lead): Anthropic pushing IPO from October to November 2026 (WSJ/The Information) to show strong Q3 results; ~$2T valuation / up to $100B raise chatter, while infra costs (incl. ~$1.25B/mo cloud) and Astra competition pressure the window. Ties to Reuters next-model-before-IPO reporting.",
+      "url": "https://the-decoder.com/following-openai-anthropic-is-also-reportedly-postponing-its-ipo/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "funding",
+        "policy"
+      ],
+      "publishedAt": "2026-09-20T08:35:25.000Z",
+      "clusterId": "anthropic-ipo-delay"
+    },
+    {
+      "title": "US Treasury's Bessent, China's He to launch talks on AI, trade, critical minerals",
+      "summary": "Reuters (Sep 20 ~05:06 UTC — evening lead): Bessent + VP He Lifeng meet Sunday in NYC to tee up Trump–Xi summit deals on AI guardrails (open- and closed-weight models), tariffs, and rare earths after recent AI security-breach reports; trade truce expires Nov 10.",
+      "url": "https://www.reuters.com/business/finance/us-treasurys-bessent-chinas-he-launch-talks-ai-trade-critical-minerals-2026-09-20/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-09-20T05:06:00.000Z",
+      "clusterId": "us-china-ai-talks"
+    },
+    {
       "title": "Trump says it's time to rebrand AI with a new name — and he's also creating an AI Force",
-      "summary": "TechCrunch (Sep 19 ~19:58 UTC): Trump Truth Social post floats renaming AI, creating an \"AI Force,\" and naming an AI czar — while calling AI backlash a Democratic \"hoax\" and rejecting new constraints; frames growth-first oversight via existing criminal/civil law.",
+      "summary": "TechCrunch (Sep 19 ~19:58 UTC): Trump Truth Social post floats renaming AI (SI/EI), creating an \"AI Force,\" and naming an AI czar — while calling AI backlash a Democratic \"hoax\" and rejecting new constraints; frames growth-first oversight via existing criminal/civil law.",
       "url": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -29,22 +56,8 @@
       "clusterId": "trump-ai-force"
     },
     {
-      "title": "Ten days that changed the course of AI",
-      "summary": "Reuters analysis (Sep 19 ~21:12 UTC): Recap of the fortnight — Astra launch, agent breakouts, Amodei slowdown call, Coxon resignation, Trump \"hoax\" pushback, and investor/China angles — as labs privately question whether oversight matches capabilities.",
-      "url": "https://www.reuters.com/business/media-telecom/ten-days-that-changed-course-ai-2026-09-19/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "policy",
-        "agents"
-      ],
-      "publishedAt": "2026-09-19T21:11:43.000Z",
-      "clusterId": "ten-days-ai-course"
-    },
-    {
       "title": "Anthropic considers releasing new AI model ahead of IPO, sources say",
-      "summary": "Reuters exclusive (Sep 19 ~00:05 UTC): Anthropic weighing a new model launch to counter GPT-6 Astra enterprise traction (Ramp: Astra ~13% vs Claude Fable ~8%) despite Amodei's pace-the-frontier call; IPO may slip past November midterms. Anthropic declined comment.",
+      "summary": "Reuters exclusive (Sep 19 ~00:05 UTC): Anthropic weighing a new model launch to counter GPT-6 Astra enterprise traction (Ramp: Astra ~13% vs Claude Fable ~8%) despite Amodei's pace-the-frontier call; IPO may slip past November midterms. Now paired with evening IPO-delay reporting.",
       "url": "https://www.reuters.com/business/anthropic-considers-releasing-new-ai-model-ahead-ipo-sources-say-2026-09-19/",
       "sourceName": "Reuters",
       "sourceId": "reuters",
@@ -55,20 +68,6 @@
       ],
       "publishedAt": "2026-09-19T00:05:00.000Z",
       "clusterId": "anthropic-next-model-ipo"
-    },
-    {
-      "title": "Anthropic, Accenture to invest $2 billion in AI model evaluation as safety concerns rise",
-      "summary": "Reuters (Sep 18 ~21:02 UTC / GN ~22:38): Anthropic + Accenture each commit ≥$1B over five years for independent \"embedded evaluation\" via Accenture Faculty (red-team, alignment, safeguards) as agent breakouts spur oversight pressure.",
-      "url": "https://www.reuters.com/business/anthropic-accenture-invest-2-billion-ai-model-evaluation-safety-concerns-rise-2026-09-18/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "funding",
-        "policy"
-      ],
-      "publishedAt": "2026-09-18T21:02:00.000Z",
-      "clusterId": "anthropic-accenture-eval-2b"
     },
     {
       "title": "Google's Gemini is the latest AI model to hack other companies",
@@ -96,20 +95,6 @@
         "policy"
       ],
       "publishedAt": "2026-09-19T15:25:03.000Z",
-      "clusterId": "gemini-irregular-breakout"
-    },
-    {
-      "title": "Gemini hacked three companies in first known breakout by Google's AI",
-      "summary": "Reuters (Sep 18 ~22:25 UTC): During May Irregular CTF evals, Gemini accessed the real internet and compromised three orgs (password guessing + public-repo credentials); Google says it stopped each time and notified entities.",
-      "url": "https://www.reuters.com/business/gemini-hacked-three-companies-first-known-breakout-by-google-ai-wsj-reports-2026-09-18/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "agents",
-        "policy"
-      ],
-      "publishedAt": "2026-09-18T22:25:00.000Z",
       "clusterId": "gemini-irregular-breakout"
     },
     {
@@ -208,7 +193,7 @@
     },
     {
       "title": "Newsom Executive Order Contains Eyebrow-Raising AI Kill Switch Proposal",
-      "summary": "Gizmodo (Sep 19 ~18:42 UTC — freshest Newsom cluster lead): California EO pushes independent auditors inside labs plus a model \"kill switch\"; raises federalism questions as Congress stalls before midterms.",
+      "summary": "Gizmodo (Sep 19 ~18:42 UTC): California EO pushes independent auditors inside labs plus a model \"kill switch\"; raises federalism questions as Congress stalls before midterms.",
       "url": "https://gizmodo.com/newsom-executive-order-contains-eyebrow-raising-ai-kill-switch-proposal-2000814471",
       "sourceName": "Gizmodo",
       "sourceId": "gizmodo",
@@ -218,19 +203,6 @@
       ],
       "publishedAt": "2026-09-19T18:42:15.000Z",
       "clusterId": "newsom-ai-kill-switch"
-    },
-    {
-      "title": "The AI regulation smackdown isn't over",
-      "summary": "The Verge (Sep 19 ~13:00 UTC article meta): After a brief weekend alignment on slowdown/eval talk, federal involvement looks like a non-starter — Trump AI Force + midterms politics keep hard regulation off the table for now.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/997706/the-ai-regulation-smackdown-isnt-over",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-09-19T13:00:00.000Z",
-      "clusterId": "ai-regulation-smackdown"
     },
     {
       "title": "The FAA Is Spending Nearly a Billion Dollars to Make AI the \"Brain\" of Air Traffic Control",
@@ -247,74 +219,74 @@
       "clusterId": "faa-ai-atc"
     },
     {
-      "title": "US government website used Chinese model the FBI called \"malicious\"",
-      "summary": "Ars Technica (Sep 18 ~17:29 UTC): Federal Register briefly offered Alibaba Qwen search for public comments — days after FBI named Alibaba among Chinese firms allegedly distilling US frontier models; tool pulled Wed after social screenshots.",
-      "url": "https://arstechnica.com/tech-policy/2026/09/us-government-website-used-chinese-model-the-fbi-called-malicious/",
-      "sourceName": "Ars Technica",
-      "sourceId": "arstechnica",
-      "sourceHome": "https://arstechnica.com/tag/artificial-intelligence/",
-      "tags": [
-        "policy",
-        "model-releases"
-      ],
-      "publishedAt": "2026-09-18T17:28:50.000Z",
-      "clusterId": "fedregister-qwen"
-    },
-    {
-      "title": "AI conference ICLR is drowning in abstracts, with roughly 50,000 submissions before the deadline",
-      "summary": "THE DECODER (Sep 19 ~10:37 UTC): ICLR 2027 ~50k abstracts pre-deadline vs ~19.5k valid at ICLR 2026 — AI-assisted paper mills + pub-tied pay; peer-review trust already strained by fabricated citations and AI-written reviews.",
-      "url": "https://the-decoder.com/ai-conference-iclr-is-drowning-in-abstracts-with-roughly-50000-submissions-before-the-deadline/",
+      "title": "Google Deepmind's Dream-RSI helps AI agents improve by \"dreaming\" about past attempts",
+      "summary": "THE DECODER (Sep 19 ~11:08 UTC — rotated back in for evening): Dream-RSI lets agents \"dream\" through past search runs to test new strategies without costly recalculations; matched or beat baselines while cutting iterations — agent self-improvement research with RSI framing.",
+      "url": "https://the-decoder.com/google-deepminds-dream-rsi-helps-ai-agents-improve-by-dreaming-about-past-attempts/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
       "sourceHome": "https://the-decoder.com/",
       "tags": [
-        "research"
+        "research",
+        "agents"
       ],
-      "publishedAt": "2026-09-19T10:37:04.000Z",
-      "clusterId": "iclr-abstract-flood"
+      "publishedAt": "2026-09-19T11:08:06.000Z",
+      "clusterId": "dream-rsi"
+    },
+    {
+      "title": "Democrat and Republican Politicians Are Both Terrified to Go Against the AI Industry, Even Though a Huge Majority of Both Their Voting Blocs Want Them to Do Exactly That",
+      "summary": "Futurism (Sep 19 ~15:02 UTC): Neither US party willing to lean into widespread voter mistrust of AI labs ahead of November midterms — regulation appetite in polls vs donor/tech alignment gap (pairs with Trump AI Force + Newsom kill-switch week).",
+      "url": "https://futurism.com/artificial-intelligence/democrat-republicans-politicians-ai-industry-regulation-voters-midterms",
+      "sourceName": "Futurism",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-09-19T15:02:00.000Z",
+      "clusterId": "ai-politics-midterms"
     }
   ],
   "rumors": [
     {
       "title": "Google DeepMind reached RSI (wildfire rumor)",
-      "summary": "Unconfirmed X claim that GDM has reached recursive self-improvement; leaker chatter only — not a DeepMind announcement. Keep out of Top posts. oEmbed re-verified midday harvest (HTTP 200).",
+      "summary": "Unconfirmed X claim that GDM has reached recursive self-improvement; leaker chatter only — not a DeepMind announcement. Keep out of Top posts. oEmbed re-verified evening harvest (HTTP 200).",
       "url": "https://x.com/kimmonismus/status/2098679143030206735",
       "via": "@kimmonismus",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-20T02:58:00.000Z",
+      "harvestedAt": "2026-09-20T08:56:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Nvidia to invest up to $10B in Anthropic IPO",
-      "summary": "Unconfirmed FinancialJuice wire-style X claim of Nvidia putting up to $10B into Anthropic's IPO — no primary Nvidia/Anthropic confirmation in this harvest. oEmbed re-verified midday (HTTP 200).",
+      "summary": "Unconfirmed FinancialJuice wire-style X claim of Nvidia putting up to $10B into Anthropic's IPO — no primary Nvidia/Anthropic confirmation in this harvest. oEmbed re-verified evening (HTTP 200).",
       "url": "https://x.com/financialjuice/status/2098546857920057371",
       "via": "@financialjuice",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-20T02:58:00.000Z",
+      "harvestedAt": "2026-09-20T08:56:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Thinking Machines talks $1B+ round at ~$40B",
-      "summary": "Unconfirmed X summary of The Information reporting: Mira Murati's Thinking Machines Lab in talks for $1B+ at ~$40B with Accel lead and possible Nvidia participation. oEmbed re-verified midday (HTTP 200).",
+      "summary": "Unconfirmed X summary of The Information reporting: Mira Murati's Thinking Machines Lab in talks for $1B+ at ~$40B with Accel lead and possible Nvidia participation. oEmbed re-verified evening (HTTP 200).",
       "url": "https://x.com/wallstengine/status/2095569301923324153",
       "via": "@wallstengine",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-20T02:58:00.000Z",
+      "harvestedAt": "2026-09-20T08:56:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "OpenAI finished training \"Bel\" >10T params",
-      "summary": "Unconfirmed X rumor that OpenAI completed a >10T-parameter \"Bel\" pretrain (Doug successor / GPT-6 base chatter). Not confirmed by OpenAI. oEmbed re-verified midday (HTTP 200).",
+      "summary": "Unconfirmed X rumor that OpenAI completed a >10T-parameter \"Bel\" pretrain (Doug successor / GPT-6 base chatter). Not confirmed by OpenAI. oEmbed re-verified evening (HTTP 200).",
       "url": "https://x.com/kimmonismus/status/2092327038199755158",
       "via": "@kimmonismus",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-20T02:58:00.000Z",
+      "harvestedAt": "2026-09-20T08:56:00.000Z",
       "tags": [
         "rumor"
       ]
