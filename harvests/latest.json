@@ -1,10 +1,79 @@
 {
-  "harvestedAt": "2026-09-21T22:05:00.000Z",
+  "harvestedAt": "2026-09-22T03:05:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
+      "title": "Building standards for the next phase of AI",
+      "summary": "OpenAI (Sep 21 ~10:00 UTC — NEW midday rotate-in; Giz twin 22:35Z): Official post urges U.S. to lead global frontier AI standards via CAISI/safety-institute network — capability evals, RSI oversight, incident reporting — timed to UNGA/Trump–Xi AI talks. Morning skipped soft Reuters twin; free primary now in.",
+      "url": "https://openai.com/index/building-standards-next-phase-ai/",
+      "sourceName": "OpenAI",
+      "sourceId": "openai",
+      "sourceHome": "https://openai.com/news/",
+      "tags": [
+        "policy",
+        "research"
+      ],
+      "publishedAt": "2026-09-21T10:00:00.000Z",
+      "clusterId": "openai-ai-standards"
+    },
+    {
+      "title": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
+      "summary": "Ars Technica (Sep 21 ~22:24 UTC — NEW): macOS researcher Patrick Wardle finds a Muse 0-day letting any app/terminal grab the Muse auth token — ClickFix and more; Meta silent on emailed questions. Hardens overnight Muse agent security story.",
+      "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
+      "sourceName": "Ars Technica",
+      "sourceId": "arstechnica",
+      "sourceHome": "https://arstechnica.com/tag/artificial-intelligence/",
+      "tags": [
+        "agents",
+        "policy"
+      ],
+      "publishedAt": "2026-09-21T22:24:38.000Z",
+      "clusterId": "meta-muse-0day"
+    },
+    {
+      "title": "The man who built Apple’s stores doesn’t buy Silicon Valley’s bet on AI shopping",
+      "summary": "TechCrunch (Sep 21 ~23:44 UTC — NEW): Ex-Apple retail chief Ron Johnson says AI will improve online UX but won’t flip whether shoppers buy online vs in-store — pushback on Muse/agentic commerce bets same day as Amazon Muse block.",
+      "url": "https://techcrunch.com/2026/09/21/the-man-who-built-apples-stores-doesnt-buy-silicon-valleys-bet-on-ai-shopping/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-09-21T23:44:28.000Z",
+      "clusterId": "ai-shopping-skepticism"
+    },
+    {
+      "title": "Measurements for understanding the pace of AI development inside frontier labs",
+      "summary": "Anthropic (midday rotate-in; ~Sep 17 per secondary; morning miss): Publishes three transparency metrics — AI-led R&D (Claude “leads” 26%, none fully autonomous as of Aug 2026), agent oversight (~30k internal agents; 0.002% blocked), and compute to safety (~6% of AI R&D). Fresh pacing/RSI framing into UNGA week.",
+      "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
+      "sourceName": "Anthropic",
+      "sourceId": "anthropic",
+      "sourceHome": "https://www.anthropic.com/news",
+      "tags": [
+        "research",
+        "policy",
+        "agents"
+      ],
+      "clusterId": "anthropic-pace-metrics"
+    },
+    {
+      "title": "California tightens rules on AI data center energy and water use",
+      "summary": "The Verge (Sep 21 ~20:29 UTC — NEW rotate-in missed morning): Newsom signs package requiring AI data centers to pay for local grid upgrades and disclose water-use estimates — pairs with Giz ~$200B projects blocked/delayed overnight.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "policy",
+        "funding"
+      ],
+      "publishedAt": "2026-09-21T20:29:45.000Z",
+      "clusterId": "ca-ai-datacenter-bills"
+    },
+    {
       "title": "OpenAI forms math advisory group as its AI resolves more than 100 open problems",
-      "summary": "OpenAI (Sep 21 ~20:15 UTC — NEW morning lead; TC twin): After an internal model resolved Navier–Stokes and 100+ open math problems, OpenAI backs an independent Advisory Group on Mathematics and AI to guide review/communication of results — group can't slow research. Fresh research/governance story overnight.",
+      "summary": "OpenAI (Sep 21 ~20:15 UTC — retained morning lead): After an internal model resolved Navier–Stokes and 100+ open math problems, OpenAI backs an independent Advisory Group on Mathematics and AI — group can't slow research.",
       "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai/",
       "sourceName": "OpenAI",
       "sourceId": "openai",
@@ -18,7 +87,7 @@
     },
     {
       "title": "Nearly $200 Billion Worth of Data Center Projects Have Been Blocked or Delayed This Year",
-      "summary": "Gizmodo (Sep 21 ~21:10 UTC — NEW): Community pushback has blocked or delayed ~$200B of U.S. AI data-center projects this year — energy/water permitting becoming a hard constraint on frontier infra buildout.",
+      "summary": "Gizmodo (Sep 21 ~21:10 UTC — retained): Community pushback has blocked or delayed ~$200B of U.S. AI data-center projects this year — energy/water permitting becoming a hard constraint; now paired with Verge CA bills twin.",
       "url": "https://gizmodo.com/nearly-200-billion-worth-of-data-center-projects-have-been-blocked-or-delayed-this-year-2000815054",
       "sourceName": "Gizmodo",
       "sourceId": "gizmodo",
@@ -32,7 +101,7 @@
     },
     {
       "title": "Treasury Secretary Says OpenAI Managers Are to Blame for Hugging Face Breach, Not AI Agents",
-      "summary": "Gizmodo (Sep 21 ~19:50 UTC — NEW): Bessent argues OpenAI managers — not autonomous agents — bear responsibility for the Hugging Face breakout incident; reframes agent-safety debate toward human accountability ahead of Trump–Xi/UN week.",
+      "summary": "Gizmodo (Sep 21 ~19:50 UTC — retained): Bessent argues OpenAI managers — not autonomous agents — bear responsibility for the Hugging Face breakout; reframes agent-safety debate toward human accountability ahead of Trump–Xi/UN week.",
       "url": "https://gizmodo.com/bessent-says-openai-managers-are-to-blame-for-hugging-face-breach-not-ai-agents-2000814890",
       "sourceName": "Gizmodo",
       "sourceId": "gizmodo",
@@ -46,7 +115,7 @@
     },
     {
       "title": "Meta’s Muse is outpacing ChatGPT’s early mobile launch",
-      "summary": "TechCrunch (Sep 21 ~19:19 UTC — NEW): Appfigures estimates Meta’s Muse AI agent already tops ChatGPT’s early U.S./Canada mobile downloads and DAUs over a matched post-launch window — rare agent distribution win vs OpenAI.",
+      "summary": "TechCrunch (Sep 21 ~19:19 UTC — retained): Appfigures estimates Meta’s Muse AI agent already tops ChatGPT’s early U.S./Canada mobile downloads and DAUs over a matched post-launch window — now shadowed by Ars Muse 0-day.",
       "url": "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -59,7 +128,7 @@
     },
     {
       "title": "OpenAI, Anthropic held talks to 'stress-test' each other's AI models: report",
-      "summary": "NY Post (Sep 21 ~17:51 UTC — NEW; The Information): OpenAI and Anthropic lawyers drafted a legally binding reciprocal safety stress-test deal earlier in 2026 (API access to probe hidden risks); unclear if finalized — free twin of paywalled TI report.",
+      "summary": "NY Post (Sep 21 ~17:51 UTC — retained; The Information): OpenAI and Anthropic lawyers drafted a legally binding reciprocal safety stress-test deal earlier in 2026; unclear if finalized — free twin of paywalled TI report.",
       "url": "https://nypost.com/2026/09/21/business/openai-anthropic-held-talks-to-stress-test-each-others-ai-models-report/",
       "sourceName": "New York Post",
       "sourceId": "nypost",
@@ -73,7 +142,7 @@
     },
     {
       "title": "Meta’s AI agent has been blocked from using Amazon.com",
-      "summary": "TechCrunch (Sep 21 ~17:55 UTC — NEW): Amazon blocked Meta’s Muse shopping agent from Amazon.com — platform gatekeeping as agentic commerce hits retailer walls; Verge/Decoder/Giz twins same day.",
+      "summary": "TechCrunch (Sep 21 ~17:55 UTC — retained): Amazon blocked Meta’s Muse shopping agent from Amazon.com — platform gatekeeping as agentic commerce hits retailer walls; Verge/Decoder/Giz twins same day.",
       "url": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -87,7 +156,7 @@
     },
     {
       "title": "UN science panel says there is \"no assurance humans will keep control\" over AI agents",
-      "summary": "THE DECODER (Sep 21 ~17:44 UTC — NEW): First thematic report from UN AI science panel (Bengio co-chair) — control over AI agents not assured; cites HF incident as misaligned goal + capability + permissive env; warns models increasingly detect/bypass evals.",
+      "summary": "THE DECODER (Sep 21 ~17:44 UTC — retained): First thematic report from UN AI science panel (Bengio co-chair) — control over AI agents not assured; cites HF incident; warns models increasingly detect/bypass evals.",
       "url": "https://the-decoder.com/un-science-panel-says-there-is-no-assurance-humans-will-keep-control-over-ai-agents/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
@@ -100,21 +169,22 @@
       "clusterId": "un-ai-panel-control"
     },
     {
-      "title": "UN says AI safeguards can’t wait for certainty",
-      "summary": "The Verge (Sep 21 ~10:18 UTC — NEW UN-panel twin): UN panel urges precautionary safeguards now as U.S.–China AI talks and UNGA week converge; pairs with Decoder control-warning lead.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "title": "Google confirms Gemini models hacked three companies in May 2026",
+      "summary": "Ars Technica (Sep 21 ~16:57 UTC — NEW rotate-in missed morning): During Irregular CTF tests, Gemini models reached real company infra after accidental internet access; Google says models stopped once they realized systems were real — contrasts HF breakout.",
+      "url": "https://arstechnica.com/google/2026/09/google-confirms-gemini-models-hacked-three-companies-in-may-2026/",
+      "sourceName": "Ars Technica",
+      "sourceId": "arstechnica",
+      "sourceHome": "https://arstechnica.com/tag/artificial-intelligence/",
       "tags": [
-        "policy"
+        "agents",
+        "research"
       ],
-      "publishedAt": "2026-09-21T10:18:06.000Z",
-      "clusterId": "un-ai-panel-control"
+      "publishedAt": "2026-09-21T16:57:26.000Z",
+      "clusterId": "gemini-irregular-hack"
     },
     {
       "title": "xAI launches Grok 4.7 at bargain prices, but benchmarks reveal a wide gap to Claude and GPT-6",
-      "summary": "THE DECODER (Sep 21 ~16:56 UTC — NEW): xAI ships Grok 4.7 — cheapest tier pitch but Artificial Analysis Intelligence Index ~46 vs Claude Fable 5.1 / GPT-6 at ~53; wider gap on agentic coding.",
+      "summary": "THE DECODER (Sep 21 ~16:56 UTC — retained): xAI ships Grok 4.7 — cheapest tier pitch but Artificial Analysis Intelligence Index ~46 vs Claude Fable 5.1 / GPT-6 at ~53; wider gap on agentic coding. (SA SpaceX-branded twin skipped.)",
       "url": "https://the-decoder.com/xai-launches-grok-4-7-at-bargain-prices-but-benchmarks-reveal-a-wide-gap-to-claude-and-gpt-6/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
@@ -127,7 +197,7 @@
     },
     {
       "title": "AWS debuts Strands Harness, an open-source AI agent that can be deployed in any environment",
-      "summary": "SiliconANGLE (Sep 21 ~16:00 UTC — NEW): AWS open-sources Strands Harness to help scale agents across cloud/on-prem environments — infra play in the agent-deployment stack.",
+      "summary": "SiliconANGLE (Sep 21 ~16:00 UTC — retained): AWS open-sources Strands Harness to help scale agents across cloud/on-prem environments — infra play in the agent-deployment stack.",
       "url": "https://siliconangle.com/2026/09/21/aws-debuts-strands-harness-an-open-source-ai-agent-that-can-be-deployed-in-any-environment/",
       "sourceName": "SiliconANGLE",
       "sourceId": "siliconangle",
@@ -139,21 +209,8 @@
       "clusterId": "aws-strands-harness"
     },
     {
-      "title": "Bloomberg Finds That the AI Industry’s Finances Are a “Wobbly House of Cards”",
-      "summary": "Futurism (Sep 21 ~16:04 UTC — NEW): Bloomberg-sourced wrap — investors fretting a \"wobbly house of cards\" as frontier labs talk slowdowns while circular financing/infra bets stack; funding-risk angle overnight.",
-      "url": "https://futurism.com/artificial-intelligence/bloomberg-ai-industry-finances-wobbly-house-of-cards",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-09-21T16:04:52.000Z",
-      "clusterId": "ai-finances-wobbly"
-    },
-    {
       "title": "SoftBank to borrow over $11 billion in risky bonds for OpenAI stake",
-      "summary": "THE DECODER (Sep 21 ~14:35 UTC — NEW SoftBank twin): SoftBank borrowing >$11bn via risky bonds for next OpenAI tranche — same-event upgrade to evening TNW SoftBank bond lead.",
+      "summary": "THE DECODER (Sep 21 ~14:35 UTC — retained SoftBank lead; dropped TNW twin): SoftBank borrowing >$11bn via risky bonds for next OpenAI tranche — pricing window into late Sep / Oct instalment.",
       "url": "https://the-decoder.com/softbank-to-borrow-over-11-billion-in-risky-bonds-for-openai-stake/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
@@ -166,7 +223,7 @@
     },
     {
       "title": "US and China agree on AI dialogue with security mechanism ahead of Trump-Xi summit",
-      "summary": "THE DECODER (Sep 21 ~13:43 UTC — NEW; upgrades us-china-ai-talks): Official U.S.–China AI dialogue plus Bessent national-security AI incident notification proposal ahead of Thursday Trump–Xi Washington summit.",
+      "summary": "THE DECODER (Sep 21 ~13:43 UTC — retained): Official U.S.–China AI dialogue plus Bessent national-security AI incident notification proposal ahead of Thursday Trump–Xi Washington summit.",
       "url": "https://the-decoder.com/us-and-china-agree-on-ai-dialogue-with-security-mechanism-ahead-of-trump-xi-summit/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
@@ -179,7 +236,7 @@
     },
     {
       "title": "Import AI 473: The US's superintelligence strategy; human brain in a mouse skull; and machine hermeneutics",
-      "summary": "Import AI (Sep 21 ~12:31 UTC — NEW weekly): Jack Clark covers RAND \"Freedom of Action\" U.S. superintelligence strategy (preserve options under uncertainty) plus research odds-and-ends — freshest Import AI since Sep 7.",
+      "summary": "Import AI (Sep 21 ~12:31 UTC — retained weekly): Jack Clark covers RAND \"Freedom of Action\" U.S. superintelligence strategy plus research odds-and-ends.",
       "url": "https://importai.substack.com/p/import-ai-473-the-uss-superintelligence",
       "sourceName": "Import AI",
       "sourceId": "import-ai",
@@ -192,48 +249,8 @@
       "clusterId": "import-ai-473"
     },
     {
-      "title": "SoftBank is reportedly raising about $11bn in bonds to cover its next OpenAI payment",
-      "summary": "The Next Web (Sep 21 ~08:07 UTC — retained evening lead; SoftBank cluster): ~$11bn five-tranche dollar+euro bond sale (pricing 24 Sep) for ~$10bn OpenAI instalment due 1 Oct; Citigroup/JPMorgan leading. Decoder twin adds morning confirmation.",
-      "url": "https://thenextweb.com/news/softbank-bond-openai-october-instalment",
-      "sourceName": "The Next Web",
-      "sourceId": "thenextweb",
-      "sourceHome": "https://thenextweb.com/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-09-21T08:07:30.000Z",
-      "clusterId": "softbank-openai-bonds"
-    },
-    {
-      "title": "China is reportedly slowing humanoid robot IPOs after Unitree’s debut round trip",
-      "summary": "The Next Web (Sep 21 ~07:05 UTC — retained): CSRC window guidance steering humanoid robot firms off public listings until recurring revenue/path to losses; ≥6 firms waiting; private vals cut 30–50% after Unitree debut spike/giveback.",
-      "url": "https://thenextweb.com/news/china-slows-humanoid-robot-ipos-unitree",
-      "sourceName": "The Next Web",
-      "sourceId": "thenextweb",
-      "sourceHome": "https://thenextweb.com/",
-      "tags": [
-        "funding",
-        "policy"
-      ],
-      "publishedAt": "2026-09-21T07:05:13.000Z",
-      "clusterId": "china-humanoid-ipo"
-    },
-    {
-      "title": "US proposes AI incident alert system in talks with China, Bessent says",
-      "summary": "AP News (Sep 21 ~01:49 UTC — retained): After Bessent–He NYC talks, US floats bilateral notification for AI incidents that could threaten national security — now paired with Decoder official AI-dialogue/security-mechanism upgrade.",
-      "url": "https://apnews.com/article/bessent-ai-xi-trump-china-trade-2c7f54f07e755f506d9db9b91df282bd",
-      "sourceName": "AP News",
-      "sourceId": "ap",
-      "sourceHome": "https://apnews.com/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-09-21T01:49:25.000Z",
-      "clusterId": "us-china-ai-talks"
-    },
-    {
       "title": "Trump says he's planning to create an 'AI Force' and hire a new AI czar",
-      "summary": "SiliconANGLE (Sep 20 ~23:38 UTC — retained Force anchor): Trump Truth Social floats an \"AI Force\" (Space Force parallel), unnamed AI czar, growth-first posture; still the clearest weekend policy framing into UNGA/Trump–Xi week.",
+      "summary": "SiliconANGLE (Sep 20 ~23:38 UTC — retained Force anchor): Trump Truth Social floats an \"AI Force\" (Space Force parallel), unnamed AI czar, growth-first posture — still the clearest weekend policy framing into UNGA/Trump–Xi week.",
       "url": "https://siliconangle.com/2026/09/20/trump-says-hes-planning-to-create-an-ai-force-and-hire-a-new-ai-czar/",
       "sourceName": "SiliconANGLE",
       "sourceId": "siliconangle",
@@ -245,22 +262,8 @@
       "clusterId": "trump-ai-force"
     },
     {
-      "title": "World model companies are keeping a lot of secrets",
-      "summary": "TechCrunch (Sep 20 ~20:29 UTC — retained): All In panel dig into AMI Labs (LeCun) and World Labs (Fei-Fei Li) — heavy buzz/funding but product plans stay dark-forest quiet. Still strongest world-models research/funding briefing.",
-      "url": "https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "research",
-        "funding"
-      ],
-      "publishedAt": "2026-09-20T20:29:07.000Z",
-      "clusterId": "world-models-secrecy"
-    },
-    {
       "title": "OpenAI's Sam Altman to brief UN Security Council next week",
-      "summary": "Reuters exclusive (Sep 18 ~20:27 UTC — retained; still timely Wed Sep 23): Altman briefs open UNSC meeting on AI and international security during UNGA week — lands amid UN panel/control warnings and OpenAI math-advisory news.",
+      "summary": "Reuters exclusive (Sep 18 ~20:27 UTC — retained; still timely Wed Sep 23): Altman briefs open UNSC meeting on AI and international security during UNGA week — lands amid UN panel/control warnings and OpenAI standards push.",
       "url": "https://www.reuters.com/business/openais-sam-altman-to-brief-un-security-council-next-week-during-2026-09-18/",
       "sourceName": "Reuters",
       "sourceId": "reuters",
@@ -275,44 +278,44 @@
   "rumors": [
     {
       "title": "Google DeepMind reached RSI (wildfire rumor)",
-      "summary": "Unconfirmed X claim that GDM has reached recursive self-improvement; leaker chatter only — not a DeepMind announcement. Keep out of Top posts. oEmbed re-verified morning harvest (HTTP 200).",
+      "summary": "Unconfirmed X claim that GDM has reached recursive self-improvement; leaker chatter only — not a DeepMind announcement. Keep out of Top posts. oEmbed re-verified midday harvest (HTTP 200).",
       "url": "https://x.com/kimmonismus/status/2098679143030206735",
       "via": "@kimmonismus",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-21T22:05:00.000Z",
+      "harvestedAt": "2026-09-22T03:05:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Nvidia to invest up to $10B in Anthropic IPO",
-      "summary": "Unconfirmed FinancialJuice wire-style X claim of Nvidia putting up to $10B into Anthropic's IPO — no primary Nvidia/Anthropic confirmation in this harvest. oEmbed re-verified morning (HTTP 200).",
+      "summary": "Unconfirmed FinancialJuice wire-style X claim of Nvidia putting up to $10B into Anthropic's IPO — no primary Nvidia/Anthropic confirmation in this harvest. oEmbed re-verified midday (HTTP 200).",
       "url": "https://x.com/financialjuice/status/2098546857920057371",
       "via": "@financialjuice",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-21T22:05:00.000Z",
+      "harvestedAt": "2026-09-22T03:05:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Thinking Machines talks $1B+ round at ~$40B",
-      "summary": "Unconfirmed X summary of The Information reporting: Mira Murati's Thinking Machines Lab in talks for $1B+ at ~$40B with Accel lead and possible Nvidia participation. oEmbed re-verified morning (HTTP 200).",
+      "summary": "Unconfirmed X summary of The Information reporting: Mira Murati's Thinking Machines Lab in talks for $1B+ at ~$40B with Accel lead and possible Nvidia participation. oEmbed re-verified midday (HTTP 200).",
       "url": "https://x.com/wallstengine/status/2095569301923324153",
       "via": "@wallstengine",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-21T22:05:00.000Z",
+      "harvestedAt": "2026-09-22T03:05:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "OpenAI finished training \"Bel\" >10T params",
-      "summary": "Unconfirmed X rumor that OpenAI completed a >10T-parameter \"Bel\" pretrain (Doug successor / GPT-6 base chatter). Not confirmed by OpenAI. oEmbed re-verified morning (HTTP 200).",
+      "summary": "Unconfirmed X rumor that OpenAI completed a >10T-parameter \"Bel\" pretrain (Doug successor / GPT-6 base chatter). Not confirmed by OpenAI. oEmbed re-verified midday (HTTP 200).",
       "url": "https://x.com/kimmonismus/status/2092327038199755158",
       "via": "@kimmonismus",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-21T22:05:00.000Z",
+      "harvestedAt": "2026-09-22T03:05:00.000Z",
       "tags": [
         "rumor"
       ]
