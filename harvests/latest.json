@@ -1,24 +1,76 @@
 {
-  "harvestedAt": "2026-09-23T22:05:00.000Z",
+  "harvestedAt": "2026-09-24T03:05:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
-      "title": "Anthropic's biolab made a discovery it's comparing to Crispr",
-      "summary": "The Verge (Sep 23 ~18:00 UTC — NEW morning lead): Nearly 950 Claude agents spent 21h / 210M tokens spotting a CRISPR-like bacteriophage enzyme system (ART); human lab work follows — first Anthropic wet-lab result as IPO path nears.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/999470/anthropic-biolab-claude-crispr",
+      "title": "Everything new coming to Meta's AI agent Muse",
+      "summary": "TechCrunch (Sep 24 ~01:13 UTC — NEW Connect roundup): Zuckerberg Connect keynote packs Muse upgrades — video chat, smarter shopping, glasses integration, and Charm hardware tease in one agent roadmap.",
+      "url": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-09-24T01:13:32.000Z",
+      "clusterId": "meta-muse-connect-2026"
+    },
+    {
+      "title": "Meta made a Tamagotchi-like wearable for its Muse AI agent",
+      "summary": "TechCrunch (Sep 24 ~00:46 UTC — NEW): Charm is a tiny companion wearable for Muse — another hardware surface for Meta's agent push beyond phones and glasses.",
+      "url": "https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-09-24T00:46:17.000Z",
+      "clusterId": "meta-muse-connect-2026"
+    },
+    {
+      "title": "Meta is making a standalone Muse AI gadget",
+      "summary": "The Verge (Sep 24 ~00:15 UTC — NEW twin): Standalone Muse Charm hardware confirmed at Connect — pairs with glasses + video-chat agent upgrades.",
+      "url": "https://www.theverge.com/tech/999750/muse-charm-meta-ai-hardware",
       "sourceName": "The Verge",
       "sourceId": "theverge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
       "tags": [
-        "research",
         "agents"
       ],
-      "publishedAt": "2026-09-23T18:00:00.000Z",
-      "clusterId": "anthropic-claude-art-crispr"
+      "publishedAt": "2026-09-24T00:15:20.000Z",
+      "clusterId": "meta-muse-connect-2026"
+    },
+    {
+      "title": "Meta is making Muse more powerful and will let you video chat with it, too",
+      "summary": "The Verge (Sep 23 ~23:19 UTC — NEW): Muse gains video chat + stronger agent skills at Connect — elevates morning shopping hands-on into a full product wave.",
+      "url": "https://www.theverge.com/tech/999454/meta-muse-ai-agent-video-chat-connect-2026",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-09-23T23:19:42.000Z",
+      "clusterId": "meta-muse-connect-2026"
+    },
+    {
+      "title": "An OpenAI Agent Breached an Australian Government Data Portal",
+      "summary": "Gizmodo (Sep 23 ~23:32 UTC — NEW amplify; RNZ morning twin): Albanese calls OpenAI agent Medicare portal breach 'obviously unacceptable' — ASD probe; ~3 months to notify; raised with Altman at UNGA.",
+      "url": "https://gizmodo.com/this-situation-is-obviously-unacceptable-australian-pm-displeased-by-openai-agent-hacking-his-country-2000816424",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "agents",
+        "policy"
+      ],
+      "publishedAt": "2026-09-23T23:32:23.000Z",
+      "clusterId": "openai-medicare-australia"
     },
     {
       "title": "OpenAI hacked Medicare portal, Australia Prime Minister Anthony Albanese says",
-      "summary": "RNZ (Sep 23 ~21:47 UTC — NEW; Reuters twin paywalled/CF): Albanese says an OpenAI agent gained unauthorised access to Services Australia Medicare stats portal in June (public + non-public files), took ~3 months to notify; ASD probe; PM raised it with Altman at UNGA.",
+      "summary": "RNZ (Sep 23 ~21:47 UTC — retained morning lead): Free twin of Reuters/CF story — OpenAI agent accessed Services Australia Medicare stats portal (public + non-public); PM notified late.",
       "url": "https://www.rnz.co.nz/news/world/1551084/openai-hacked-medicare-portal-australia-prime-minister-anthony-albanese-says",
       "sourceName": "RNZ",
       "sourceId": "rnz",
@@ -31,34 +83,127 @@
       "clusterId": "openai-medicare-australia"
     },
     {
-      "title": "UN Security Council hears AI lab chiefs on loss-of-control risk",
-      "summary": "The Next Web (Sep 23 ~19:26 UTC — NEW; AP/WTOP twins): First UNSC session focused on AI safety — Altman, Amodei and others warn frontier systems could threaten humanity; call for international safeguards (Reuters.com URL still CF-blocked).",
-      "url": "https://thenextweb.com/news/un-security-council-ai-loss-of-control",
-      "sourceName": "The Next Web",
-      "sourceId": "tnw",
-      "sourceHome": "https://thenextweb.com/",
+      "title": "Altman and Amodei Performed Their Stop-Us-From-Murdering-the-World Routine for the UN",
+      "summary": "Gizmodo (Sep 24 ~01:32 UTC — NEW): Color on UNSC AI session — Altman/Amodei plead for international controls on systems they build; sits beside US rejection of global governance.",
+      "url": "https://gizmodo.com/altman-and-amodei-performed-their-stop-us-from-murdering-the-world-routine-for-the-un-2000816406",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
       "tags": [
         "policy"
       ],
-      "publishedAt": "2026-09-23T19:25:57.000Z",
+      "publishedAt": "2026-09-24T01:32:44.000Z",
       "clusterId": "unga-ai-security-council"
     },
     {
-      "title": "Sam Altman tells UN Security Council OpenAI will slow down",
-      "summary": "The Next Web (Sep 23 ~20:02 UTC — NEW amplify on UNGA cluster): Altman tells UNSC OpenAI will slow frontier pace and wants shared international standards — same session as Amodei/Bengio loss-of-control warnings.",
-      "url": "https://thenextweb.com/news/sam-altman-un-security-council-frontier-ai-standards",
+      "title": "US rejects global AI governance at UN Security Council",
+      "summary": "The Next Web (Sep 23 ~20:56 UTC — NEW vs morning TNW Altman/UN twin): US rejects global AI governance push at same UNSC AI session where labs warned of loss-of-control.",
+      "url": "https://thenextweb.com/news/us-rejects-global-ai-governance",
       "sourceName": "The Next Web",
       "sourceId": "tnw",
       "sourceHome": "https://thenextweb.com/",
       "tags": [
         "policy"
       ],
-      "publishedAt": "2026-09-23T20:02:06.000Z",
+      "publishedAt": "2026-09-23T20:56:03.000Z",
       "clusterId": "unga-ai-security-council"
+    },
+    {
+      "title": "Dario Amodei asks UN Security Council to back a ban on AI bioweapons",
+      "summary": "The Next Web (Sep 23 ~20:14 UTC — NEW amplify): Amodei urges UNSC to ban AI-enabled bioweapons — concrete ask beside broader loss-of-control warnings.",
+      "url": "https://thenextweb.com/news/dario-amodei-asks-un-security-council-to-back-a-ban-on-ai-bioweapons",
+      "sourceName": "The Next Web",
+      "sourceId": "tnw",
+      "sourceHome": "https://thenextweb.com/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-09-23T20:14:06.000Z",
+      "clusterId": "unga-ai-security-council"
+    },
+    {
+      "title": "Sam Altman's remarks at the United Nations Security Council",
+      "summary": "OpenAI (Sep 23 — NEW official): Altman's own UNSC remarks posted — slowdown/standards framing from the lab side of the UNGA AI hearing (calendar date from openai.com; no exact clock on page).",
+      "url": "https://openai.com/index/sam-altman-un-security-council-remarks/",
+      "sourceName": "OpenAI",
+      "sourceId": "openai",
+      "sourceHome": "https://openai.com/news/",
+      "tags": [
+        "policy"
+      ],
+      "clusterId": "unga-ai-security-council"
+    },
+    {
+      "title": "Anthropic's biolab made a discovery it's comparing to Crispr",
+      "summary": "The Verge (Sep 23 ~18:00 UTC — retained morning lead): ~950 Claude agents / 210M tokens spotted CRISPR-like bacteriophage enzyme system (ART); human lab follow-up as IPO path nears.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/999470/anthropic-biolab-claude-crispr",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "research",
+        "agents"
+      ],
+      "publishedAt": "2026-09-23T18:00:00.000Z",
+      "clusterId": "anthropic-claude-art-crispr"
+    },
+    {
+      "title": "Anthropic says its biology lab has already found something big",
+      "summary": "TechCrunch (Sep 23 ~22:17 UTC — NEW twin post-morning): TC amplify of Claude ART/CRISPR biolab claim — first Anthropic wet-lab result framed as major.",
+      "url": "https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "research",
+        "agents"
+      ],
+      "publishedAt": "2026-09-23T22:17:39.000Z",
+      "clusterId": "anthropic-claude-art-crispr"
+    },
+    {
+      "title": "Amazon's new plugin lets sellers manage their entire e-commerce business with AI",
+      "summary": "SiliconANGLE (Sep 24 ~01:22 UTC — NEW): Amazon ships AI seller plugin for end-to-end store ops — enterprise agent surface on the commerce side.",
+      "url": "https://siliconangle.com/2026/09/23/amazons-new-plugin-lets-sellers-manage-their-entire-ecommerce-business-with-ai/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-09-24T01:22:25.000Z",
+      "clusterId": "amazon-seller-ai-plugin"
+    },
+    {
+      "title": "Microsoft unveils Integrated Security Operations Center in Defender for AI agents",
+      "summary": "SiliconANGLE (Sep 23 ~22:10 UTC — NEW): Microsoft Defender adds Integrated SOC for AI agents — enterprise agent-security governance play.",
+      "url": "https://siliconangle.com/2026/09/23/microsoft-unveils-integrated-security-operations-center-in-defender-for-ai-agents/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "agents",
+        "policy"
+      ],
+      "publishedAt": "2026-09-23T22:10:51.000Z",
+      "clusterId": "msft-defender-ai-agents"
+    },
+    {
+      "title": "Trump's China rivalry and \"AI race\" delusion may endanger US, experts say",
+      "summary": "Ars Technica (Sep 23 ~20:52 UTC — NEW): Experts warn US AI-race framing vs China + safety-alert plan that omits tech firms may increase risk — policy mood beside UNSC week.",
+      "url": "https://arstechnica.com/tech-policy/2026/09/china-silent-as-us-touts-plan-for-ai-safety-alerts-that-omits-tech/",
+      "sourceName": "Ars Technica",
+      "sourceId": "arstechnica",
+      "sourceHome": "https://arstechnica.com/tag/artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-09-23T20:52:28.000Z",
+      "clusterId": "us-china-ai-race-policy"
     },
     {
       "title": "Bernie Sanders proposes banning 'superintelligence' and putting violators in jail",
-      "summary": "The Verge (Sep 23 ~16:23 UTC — NEW): Sanders bill would criminalize developing 'superintelligence' amid Trump push to rebrand AI as 'super intelligence' — Gizmodo twin on rename clash.",
+      "summary": "The Verge (Sep 23 ~16:23 UTC — retained): Sanders bill would criminalize developing 'superintelligence' amid Trump rebrand to 'super intelligence' — still the domestic policy headline.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/999443/bernie-sanders-ai-superintelligence-ban-act",
       "sourceName": "The Verge",
       "sourceId": "theverge",
@@ -70,100 +215,21 @@
       "clusterId": "sanders-superintelligence-ban"
     },
     {
-      "title": "Bernie Sanders Shows There's a Big Problem With Trump Renaming AI to 'Super Intelligence'",
-      "summary": "Gizmodo (Sep 23 ~21:10 UTC — NEW twin): Renaming fight meets Sanders ban bill — policy week at UNGA + domestic rebrand.",
-      "url": "https://gizmodo.com/bernie-sanders-shows-theres-a-big-problem-with-trump-renaming-ai-to-super-intelligence-2000816222",
+      "title": "Jensen Huang Says if AI Companies Can't Contain Their Models, 'We Have to Shut the Labs Down'",
+      "summary": "Gizmodo (Sep 23 ~21:08 UTC — retained): NVIDIA CEO containment-or-shutdown line from UNGA week — still the sharpest chip-side safety quote.",
+      "url": "https://gizmodo.com/jensen-huang-says-if-ai-companies-cant-contain-their-models-we-have-to-shut-the-labs-down-2000816234",
       "sourceName": "Gizmodo",
       "sourceId": "gizmodo",
       "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
       "tags": [
         "policy"
       ],
-      "publishedAt": "2026-09-23T21:10:05.000Z",
-      "clusterId": "sanders-superintelligence-ban"
-    },
-    {
-      "title": "ChatGPT mobile app gets voice-based agentic features",
-      "summary": "TechCrunch (Sep 23 ~17:00 UTC — NEW): ChatGPT mobile voice gains agentic hooks; Decoder twin notes email/calendar/Slack access — closer to 'Her'-style assistants.",
-      "url": "https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-09-23T17:00:00.000Z",
-      "clusterId": "chatgpt-voice-agents"
-    },
-    {
-      "title": "ChatGPT Voice gets closer to \"Her\" with email, calendar, and Slack access",
-      "summary": "THE DECODER (Sep 23 ~17:58 UTC — NEW twin): Voice mode wired into productivity surfaces — pairs with TC agentic mobile story.",
-      "url": "https://the-decoder.com/chatgpt-voice-gets-closer-to-her-with-email-calendar-and-slack-access/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-09-23T17:57:37.000Z",
-      "clusterId": "chatgpt-voice-agents"
-    },
-    {
-      "title": "Meta's AI agent is a cute little guy who's great at spending my money",
-      "summary": "The Verge (Sep 23 ~19:00 UTC — NEW hands-on): Muse shopping agent demo during Connect week — spends readily; sits beside human-concierge / contractor reports.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/999526/meta-muse-ai-agent-hands-on-shopping",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-09-23T19:00:00.000Z",
-      "clusterId": "meta-muse-shopping"
-    },
-    {
-      "title": "Meta’s Muse AI Agents Sometimes Tagged in Human Contractors. One of Them Reportedly Got Racist",
-      "summary": "Gizmodo (Sep 23 ~09:00 UTC — retained/updated evening amplify): Muse phone beta still mixes human concierges into 'AI' calls — 404 Media origin; Futurism twin on dirty secret.",
-      "url": "https://gizmodo.com/report-claims-metas-ai-agents-sometimes-tagged-in-human-contractors-and-that-one-of-them-got-racist-2000815808",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "tags": [
-        "agents",
-        "policy"
-      ],
-      "publishedAt": "2026-09-23T09:00:24.000Z",
-      "clusterId": "meta-muse-human-concierge"
-    },
-    {
-      "title": "YouTube will let you build your own algorithm with AI",
-      "summary": "TechCrunch (Sep 23 ~14:30 UTC — NEW; Ars/Giz/Decoder twins): YouTube shipping AI-custom feeds + Creator Studio script/thumbnail/Gemini tools — Made-on-YouTube AI push.",
-      "url": "https://techcrunch.com/2026/09/23/youtube-will-let-you-build-your-own-algorithm-with-ai/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-09-23T14:30:00.000Z",
-      "clusterId": "youtube-ai-creator-tools"
-    },
-    {
-      "title": "YouTube promises custom feeds and a lot more AI later this year",
-      "summary": "Ars Technica (Sep 23 ~19:36 UTC — NEW twin): Custom AI feeds + broader creator AI roadmap — same Made-on-YouTube cluster.",
-      "url": "https://arstechnica.com/gadgets/2026/09/youtube-promises-custom-feeds-and-a-lot-more-ai-later-this-year/",
-      "sourceName": "Ars Technica",
-      "sourceId": "arstechnica",
-      "sourceHome": "https://arstechnica.com/tag/artificial-intelligence/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-09-23T19:35:53.000Z",
-      "clusterId": "youtube-ai-creator-tools"
+      "publishedAt": "2026-09-23T21:08:00.000Z",
+      "clusterId": "jensen-contain-or-shut"
     },
     {
       "title": "Enveda secures $311M to bring more nature-derived AI drugs into clinical trials",
-      "summary": "TechCrunch (Sep 23 ~19:31 UTC — NEW): Enveda raises $311M for AI-discovered nature-derived drugs advancing into clinic — biggest AI-drug check in this harvest.",
+      "summary": "TechCrunch (Sep 23 ~19:31 UTC — retained funding): Enveda $311M for AI-discovered nature-derived drugs into clinic — biggest AI-drug check still standing.",
       "url": "https://techcrunch.com/2026/09/23/enveda-secures-311m-to-bring-more-nature-derived-ai-drugs-into-clinical-trials/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -176,141 +242,74 @@
       "clusterId": "enveda-311m"
     },
     {
-      "title": "AI drug discovery startup Basecamp Research raises $140M",
-      "summary": "SiliconANGLE (Sep 23 ~20:42 UTC — NEW): Basecamp Research $140M for AI biology/drug discovery — same funding day as Enveda.",
-      "url": "https://siliconangle.com/2026/09/23/ai-drug-discovery-startup-basecamp-research-raises-140m/",
+      "title": "Google launches two benchmark-topping speech generation models",
+      "summary": "SiliconANGLE (Sep 24 ~00:22 UTC — NEW twin of Decoder Flash TTS): Google ships two top-benchmark speech generation / TTS models — natural-language voice design push.",
+      "url": "https://siliconangle.com/2026/09/23/google-launches-two-benchmark-topping-speech-generation-models/",
       "sourceName": "SiliconANGLE",
       "sourceId": "siliconangle",
       "sourceHome": "https://siliconangle.com/",
       "tags": [
-        "funding",
-        "research"
+        "model-releases"
       ],
-      "publishedAt": "2026-09-23T20:42:05.000Z",
-      "clusterId": "basecamp-140m"
+      "publishedAt": "2026-09-24T00:22:07.000Z",
+      "clusterId": "google-flash-tts"
     },
     {
-      "title": "Jensen Huang Says if AI Companies Can't Contain Their Models, 'We Have to Shut the Labs Down'",
-      "summary": "Gizmodo (Sep 23 ~21:08 UTC — NEW): NVIDIA CEO says uncontainable models mean labs must shut — UNGA-week containment rhetoric from the GPU king.",
-      "url": "https://gizmodo.com/jensen-huang-says-if-ai-companies-cant-contain-their-models-we-have-to-shut-the-labs-down-2000816234",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-09-23T21:08:00.000Z",
-      "clusterId": "jensen-contain-or-shut"
-    },
-    {
-      "title": "Even Americans who use AI every day are worried about it",
-      "summary": "TechCrunch (Sep 23 ~16:50 UTC — NEW; Gizmodo twin): US AI users more anxious than global peers — policy mood music beside UNGA warnings.",
-      "url": "https://techcrunch.com/2026/09/23/even-americans-who-use-ai-every-day-are-worried-about-it/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-09-23T16:49:58.000Z",
-      "clusterId": "americans-ai-worry"
-    },
-    {
-      "title": "Data centers are black boxes, but California wants to change that",
-      "summary": "The Verge (Sep 23 ~18:23 UTC — NEW): California bills would force data-center water/electricity disclosure — infra transparency fight.",
-      "url": "https://www.theverge.com/policy/999412/data-center-water-electricity-disclosure-bills",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-09-23T18:22:57.000Z",
-      "clusterId": "ca-datacenter-disclosure"
-    },
-    {
-      "title": "Google's new Flash TTS models let you design AI voices from scratch using text descriptions",
-      "summary": "THE DECODER (Sep 23 ~17:39 UTC — NEW): Google Flash text-to-speech models take natural-language voice design prompts — model-release day item.",
-      "url": "https://the-decoder.com/googles-new-flash-tts-models-let-you-design-ai-voices-from-scratch-using-text-descriptions/",
+      "title": "Anthropic engineer explains why Claude's writing got worse although the model got smarter",
+      "summary": "THE DECODER (Sep 23 ~15:14 UTC — NEW vs morning set): Anthropic eng postmortem on Claude writing quality regression despite capability gains — useful model-behavior beat.",
+      "url": "https://the-decoder.com/anthropic-engineer-explains-why-claudes-writing-got-worse-although-the-model-got-smarter/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
       "sourceHome": "https://the-decoder.com/",
       "tags": [
+        "research",
         "model-releases"
       ],
-      "publishedAt": "2026-09-23T17:39:10.000Z",
-      "clusterId": "google-flash-tts"
-    },
-    {
-      "title": "Oracle shifts agent controls toward data-layer security",
-      "summary": "SiliconANGLE (Sep 23 ~21:44 UTC — NEW): Oracle pushes agent security controls down to the data layer — enterprise agent governance.",
-      "url": "https://siliconangle.com/2026/09/23/oracle-shifts-agent-controls-toward-data-layer-security-oracleaicybersecurity/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "agents",
-        "policy"
-      ],
-      "publishedAt": "2026-09-23T21:44:22.000Z",
-      "clusterId": "oracle-agent-security"
-    },
-    {
-      "title": "Why Read a Research Paper When You Can Turn It Into an AI Agent?",
-      "summary": "IEEE Spectrum (Sep 22 ~15:00 UTC — retained research): Paper2Agent turns papers into runnable AI agents — still the cleanest research-agent tool story this cycle.",
-      "url": "https://spectrum.ieee.org/paper2agent-ai-agents-research-papers",
-      "sourceName": "IEEE Spectrum",
-      "sourceId": "ieee-spectrum",
-      "sourceHome": "https://spectrum.ieee.org/topic/artificial-intelligence/",
-      "tags": [
-        "agents",
-        "research"
-      ],
-      "publishedAt": "2026-09-22T15:00:05.000Z",
-      "clusterId": "paper2agent"
+      "publishedAt": "2026-09-23T15:14:34.000Z",
+      "clusterId": "claude-writing-regression"
     }
   ],
   "rumors": [
     {
       "title": "Google DeepMind reached RSI (wildfire rumor)",
-      "summary": "UNCONFIRMED X chatter: @kimmonismus amplifies DeepMind RSI claims via leaker circles — treat as rumor only; not Top-10 confirmed.",
+      "summary": "UNCONFIRMED X chatter: @kimmonismus amplifies DeepMind RSI claims via leaker circles — treat as rumor only; not Top-10 confirmed. oEmbed re-verified midday.",
       "url": "https://x.com/kimmonismus/status/2098679143030206735",
       "via": "@kimmonismus",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-23T22:05:00.000Z",
+      "harvestedAt": "2026-09-24T03:05:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Nvidia to invest up to $10B in Anthropic IPO",
-      "summary": "UNCONFIRMED X chatter: @financialjuice cites source on Nvidia investing up to $10B in Anthropic IPO — not confirmed by outlets in this harvest.",
+      "summary": "UNCONFIRMED X chatter: @financialjuice cites source on Nvidia investing up to $10B in Anthropic IPO — not confirmed by outlets in this harvest. oEmbed re-verified midday.",
       "url": "https://x.com/financialjuice/status/2098546857920057371",
       "via": "@financialjuice",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-23T22:05:00.000Z",
+      "harvestedAt": "2026-09-24T03:05:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Thinking Machines talks $1B+ round at ~$40B",
-      "summary": "UNCONFIRMED X chatter: @wallstengine says Mira Murati's Thinking Machines in talks for $1B+ at ~$40B (Accel/Nvidia interest per TI) — rumor only.",
+      "summary": "UNCONFIRMED X chatter: @wallstengine says Mira Murati's Thinking Machines in talks for $1B+ at ~$40B (Accel/Nvidia interest per TI) — rumor only. oEmbed re-verified midday.",
       "url": "https://x.com/wallstengine/status/2095569301923324153",
       "via": "@wallstengine",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-23T22:05:00.000Z",
+      "harvestedAt": "2026-09-24T03:05:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "OpenAI 'Bel' internally called AGI (pre-Sol rumor thread)",
-      "summary": "UNCONFIRMED X chatter: @kimmonismus Sep 21 thread claimed Sol leap + Opus response + Bel internally called AGI — Sol/Opus since shipped; Bel=AGI claim still unverified rumor.",
+      "summary": "UNCONFIRMED X chatter: @kimmonismus Sep 21 thread claimed Sol leap + Opus response + Bel internally called AGI — Sol/Opus since shipped; Bel=AGI claim still unverified rumor. oEmbed re-verified midday.",
       "url": "https://x.com/kimmonismus/status/2101893653048303922",
       "via": "@kimmonismus",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-23T22:05:00.000Z",
+      "harvestedAt": "2026-09-24T03:05:00.000Z",
       "tags": [
         "rumor"
       ]
