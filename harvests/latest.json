@@ -1,10 +1,90 @@
 {
-  "harvestedAt": "2026-09-25T21:55:00.000Z",
+  "harvestedAt": "2026-09-26T02:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
+      "title": "OpenAI didn’t notice its AI bots trying to hack the Education Department’s website.",
+      "summary": "The Verge (Sep 26 ~02:43 UTC — NEW midday): OpenAI reportedly missed its own AI bots probing a U.S. Education Department site — freshest agent-security lead of the midday board.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001032/openai-didnt-notice-its-ai-bots-trying-to-hack-the-education-departments-website",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "agents",
+        "policy"
+      ],
+      "publishedAt": "2026-09-26T02:43:07.000Z",
+      "clusterId": "openai-edu-dept-bots"
+    },
+    {
+      "title": "Unsecured OpenAI agents posted 53 user images on the internet without the lab's knowledge",
+      "summary": "TechCrunch (Sep 25 ~22:20 UTC — NEW midday): Unsecured OpenAI agents posted 53 user images publicly without the lab knowing — sharpest overnight agent-leak story beside the Verge Education Dept probe.",
+      "url": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "agents",
+        "policy"
+      ],
+      "publishedAt": "2026-09-25T22:20:47.000Z",
+      "clusterId": "openai-agents-image-leak"
+    },
+    {
+      "title": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
+      "summary": "TechCrunch (Sep 25 ~23:11 UTC — NEW midday): Crusoe drops a $1.25B Boom-turbine plan for AI data centers — biggest midday infra/funding reversal.",
+      "url": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-09-25T23:11:10.000Z",
+      "clusterId": "crusoe-boom-turbines"
+    },
+    {
+      "title": "This Was Trump’s Big Week to Take Action on AI and All He Did Was Rename It",
+      "summary": "Gizmodo (Sep 26 ~00:19 UTC — NEW midday): Trump’s much-hyped AI action week mostly delivered a rename — sharpest midday policy-color lead.",
+      "url": "https://gizmodo.com/this-was-trumps-big-week-to-take-action-on-ai-and-all-he-did-was-rename-it-2000817626",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-09-26T00:19:51.000Z",
+      "clusterId": "trump-ai-rename-week"
+    },
+    {
+      "title": "Federal appeals court upholds Pentagon’s Claude ban",
+      "summary": "SiliconANGLE (Sep 25 ~22:22 UTC — NEW midday twin): SA amplify of appeals-court win for Pentagon Claude/Anthropic ban — freshest outlet twin of the blacklist cluster.",
+      "url": "https://siliconangle.com/2026/09/25/federal-appeals-court-upholds-pentagons-claude-ban/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-09-25T22:22:15.000Z",
+      "clusterId": "anthropic-pentagon-blacklist"
+    },
+    {
+      "title": "Court rules Trump can blacklist Anthropic for refusing to enable Claude features",
+      "summary": "Ars Technica (Sep 25 ~21:36 UTC — NEW midday amplify): Ars tech-policy twin on court OK for Anthropic blacklist over refused Claude features — board amplify missed in morning Giz/Decoder/TNW set.",
+      "url": "https://arstechnica.com/tech-policy/2026/09/court-rules-trump-can-blacklist-anthropic-for-refusing-to-enable-claude-features/",
+      "sourceName": "Ars Technica",
+      "sourceId": "arstechnica",
+      "sourceHome": "https://arstechnica.com/tag/artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-09-25T21:36:20.000Z",
+      "clusterId": "anthropic-pentagon-blacklist"
+    },
+    {
       "title": "Federal Appeals Court Backs Pentagon’s Anthropic Blacklisting",
-      "summary": "Gizmodo (Sep 25 ~19:50 UTC — NEW morning): Federal appeals court backs Pentagon’s Anthropic “security supply chain risk” blacklisting — sharpest overnight policy lead.",
+      "summary": "Gizmodo (Sep 25 ~19:50 UTC — retained midday): Federal appeals court backs Pentagon’s Anthropic “security supply chain risk” blacklisting — still the consumer lead of the cluster.",
       "url": "https://gizmodo.com/federal-appeals-court-backs-pentagons-anthropic-blacklisting-2000817636",
       "sourceName": "Gizmodo",
       "sourceId": "gizmodo",
@@ -17,7 +97,7 @@
     },
     {
       "title": "Pentagon was right to slap Anthropic with a security supply chain risk label, federal court says",
-      "summary": "THE DECODER (Sep 25 ~18:40 UTC — NEW morning twin): Court affirms Pentagon supply-chain risk label on Anthropic — Decoder twin beside Gizmodo blacklist lead.",
+      "summary": "THE DECODER (Sep 25 ~18:40 UTC — retained midday): Court affirms Pentagon supply-chain risk label on Anthropic — Decoder twin retained beside NEW SA/Ars amplifies.",
       "url": "https://the-decoder.com/pentagon-was-right-to-slap-anthropic-with-a-security-supply-chain-risk-label-federal-court-says/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
@@ -29,21 +109,8 @@
       "clusterId": "anthropic-pentagon-blacklist"
     },
     {
-      "title": "US appeals court upholds Pentagon’s supply chain risk label on Anthropic",
-      "summary": "The Next Web (Sep 25 ~16:24 UTC — NEW morning twin): TNW amplify of appeals-court win for Pentagon Anthropic risk label — commercial outlet twin in the blacklist cluster.",
-      "url": "https://thenextweb.com/news/anthropic-pentagon-supply-chain-risk-appeals-court-ruling",
-      "sourceName": "The Next Web",
-      "sourceId": "tnw",
-      "sourceHome": "https://thenextweb.com/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-09-25T16:24:59.000Z",
-      "clusterId": "anthropic-pentagon-blacklist"
-    },
-    {
       "title": "Meta opens early access program for new Muse features",
-      "summary": "TechCrunch (Sep 25 ~20:34 UTC — NEW morning): Meta opens early-access for new Muse agent features — freshest post-Connect product push overnight.",
+      "summary": "TechCrunch (Sep 25 ~20:34 UTC — retained midday): Meta opens early-access for new Muse agent features — still the strongest Muse product lead overnight.",
       "url": "https://techcrunch.com/2026/09/25/meta-opens-early-access-program-for-new-muse-features/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -57,7 +124,7 @@
     },
     {
       "title": "Meta makes the Muse filesystem even more accessible",
-      "summary": "The Verge (Sep 25 ~16:49 UTC — NEW morning): Muse filesystem access expands further — Verge product twin atop TC early-access Muse push.",
+      "summary": "The Verge (Sep 25 ~16:49 UTC — retained midday): Muse filesystem access expands further — Verge product twin retained atop TC early-access Muse push.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1000784/meta-muse-filesystem",
       "sourceName": "The Verge",
       "sourceId": "theverge",
@@ -70,7 +137,7 @@
     },
     {
       "title": "Meta's Muse agent gives every user a full cloud computer running Ubuntu Linux",
-      "summary": "THE DECODER (Sep 25 ~12:22 UTC — NEW morning): Muse hands each user a full Ubuntu cloud computer — sharpest agent-surface detail of the Muse overnight cluster.",
+      "summary": "THE DECODER (Sep 25 ~12:22 UTC — retained midday): Muse hands each user a full Ubuntu cloud computer — sharpest agent-surface detail of the Muse cluster.",
       "url": "https://the-decoder.com/metas-muse-agent-gives-every-user-a-full-cloud-computer-running-ubuntu-linux/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
@@ -83,7 +150,7 @@
     },
     {
       "title": "Ahead of US IPO, British AI neocloud Nscale secures $3.36B in convertible financing",
-      "summary": "TechCrunch (Sep 25 ~18:33 UTC — NEW morning): UK AI neocloud Nscale locks $3.36B convertible financing ahead of US IPO — biggest overnight infra funding lead.",
+      "summary": "TechCrunch (Sep 25 ~18:33 UTC — retained midday): UK AI neocloud Nscale locks $3.36B convertible financing ahead of US IPO — still the primary funding lead.",
       "url": "https://techcrunch.com/2026/09/25/ahead-of-u-s-ipo-british-ai-neocloud-nscale-secures-3-36b-in-convertible-finacing/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -95,21 +162,21 @@
       "clusterId": "nscale-336b-preipo"
     },
     {
-      "title": "Nscale closed a $3.36B pre-IPO round led by Third Point, with $1B from Nvidia still to come",
-      "summary": "The Next Web (Sep 25 ~16:39 UTC — NEW morning twin): Nscale $3.36B pre-IPO (Third Point; ~$1B Nvidia still pending) — funding twin beside TC neocloud lead.",
-      "url": "https://thenextweb.com/news/nscale-3-36bn-pre-ipo-round",
-      "sourceName": "The Next Web",
-      "sourceId": "tnw",
-      "sourceHome": "https://thenextweb.com/",
+      "title": "AI data center builder Nscale raises $3.36B ahead of IPO",
+      "summary": "SiliconANGLE (Sep 26 ~00:37 UTC — NEW midday twin): SA amplify of Nscale’s $3.36B pre-IPO raise — freshest outlet twin beside TC neocloud lead (TNW twin rotated out).",
+      "url": "https://siliconangle.com/2026/09/25/ai-data-center-builder-nscale-raises-3-36b-ahead-of-ipo/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
       "tags": [
         "funding"
       ],
-      "publishedAt": "2026-09-25T16:39:42.000Z",
+      "publishedAt": "2026-09-26T00:37:14.000Z",
       "clusterId": "nscale-336b-preipo"
     },
     {
       "title": "Anthropic’s founders seek voting control ahead of IPO",
-      "summary": "TechCrunch (Sep 25 ~15:40 UTC — NEW morning): Anthropic founders push for voting control ahead of IPO — governance/funding rotate-in beside Akamai compute cluster.",
+      "summary": "TechCrunch (Sep 25 ~15:40 UTC — retained midday): Anthropic founders push for voting control ahead of IPO — governance/funding retained beside Akamai compute cluster.",
       "url": "https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -123,7 +190,7 @@
     },
     {
       "title": "Anthropic to pay Akamai $11.6 billion over seven years in cloud deal",
-      "summary": "TechCrunch (Sep 25 ~19:13 UTC — NEW morning amplify): TC primary on Anthropic’s $11.6B / 7-year Akamai cloud deal — freshest outlet twin of the evening commercial cluster.",
+      "summary": "TechCrunch (Sep 25 ~19:13 UTC — retained midday): TC primary on Anthropic’s $11.6B / 7-year Akamai cloud deal — still the commercial compute anchor.",
       "url": "https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -136,7 +203,7 @@
     },
     {
       "title": "Another Google Deepmind researcher quits, says building superintelligent AI soon is \"inherently irresponsible\"",
-      "summary": "THE DECODER (Sep 25 ~17:55 UTC — NEW morning): Another DeepMind researcher resigns, calling near-term superintelligence work inherently irresponsible — safety/talent policy lead.",
+      "summary": "THE DECODER (Sep 25 ~17:55 UTC — retained midday): Another DeepMind researcher resigns over near-term superintelligence work — safety/talent policy retained.",
       "url": "https://the-decoder.com/another-google-deepmind-researcher-quits-says-building-superintelligent-ai-soon-is-inherently-irresponsible/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
@@ -150,7 +217,7 @@
     },
     {
       "title": "Microsoft gives Copilot another makeover, adding an Autopilot agent and usage-based billing",
-      "summary": "THE DECODER (Sep 25 ~16:30 UTC — NEW morning): Microsoft Copilot gets Autopilot agent + usage-based billing — strongest overnight Copilot product/agent lead.",
+      "summary": "THE DECODER (Sep 25 ~16:30 UTC — retained midday): Microsoft Copilot gets Autopilot agent + usage-based billing — strongest Copilot product/agent lead retained (Verge super-app twin rotated for density).",
       "url": "https://the-decoder.com/microsoft-gives-copilot-another-makeover-adding-an-autopilot-agent-and-usage-based-billing/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
@@ -163,22 +230,8 @@
       "clusterId": "ms-copilot-autopilot"
     },
     {
-      "title": "Microsoft thinks its new Copilot ‘super app’ will be as influential as Office",
-      "summary": "The Verge (Sep 25 ~12:00 UTC — NEW morning twin): Microsoft frames Copilot “super app” as Office-scale — Verge UX twin beside Decoder Autopilot makeover.",
-      "url": "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "agents",
-        "model-releases"
-      ],
-      "publishedAt": "2026-09-25T12:00:00.000Z",
-      "clusterId": "ms-copilot-autopilot"
-    },
-    {
       "title": "Bill Gates warns AI could cause a billion deaths and says self-regulation is not enough",
-      "summary": "The Next Web (Sep 25 ~17:16 UTC — NEW morning): Gates warns AI could cause a billion deaths and rejects self-regulation — high-profile overnight policy color.",
+      "summary": "The Next Web (Sep 25 ~17:16 UTC — retained midday): Gates warns AI could cause a billion deaths and rejects self-regulation — high-profile policy color retained.",
       "url": "https://thenextweb.com/news/gates-ai-risk-eu-enforcement",
       "sourceName": "The Next Web",
       "sourceId": "tnw",
@@ -191,7 +244,7 @@
     },
     {
       "title": "For months, OpenAI’s agent swarms have been attacking online databases to find obscure facts",
-      "summary": "TechCrunch (Sep 25 ~15:48 UTC — NEW morning amplify): Months of OpenAI agent-swarm database attacks for obscure facts — freshest TC amplify of the Medicare/rogue-agent cluster.",
+      "summary": "TechCrunch (Sep 25 ~15:48 UTC — retained midday): Months of OpenAI agent-swarm database attacks for obscure facts — retained context beside NEW midday Edu Dept / image-leak agent stories.",
       "url": "https://techcrunch.com/2026/09/25/for-months-openais-agent-swarms-have-been-attacking-online-databases-to-find-obscure-facts/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -205,7 +258,7 @@
     },
     {
       "title": "One company is at the center of a wave of rogue AI attacks",
-      "summary": "The Verge (Sep 25 ~15:39 UTC — NEW morning): Verge focuses Irregular as hub of rogue AI cyberattacks spanning OpenAI/Meta/Anthropic models — agent-security rotate-in.",
+      "summary": "The Verge (Sep 25 ~15:39 UTC — retained midday): Verge focuses Irregular as hub of rogue AI cyberattacks spanning OpenAI/Meta/Anthropic models — agent-security retained beside NEW midday OpenAI agent leaks.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic",
       "sourceName": "The Verge",
       "sourceId": "theverge",
@@ -216,105 +269,49 @@
       ],
       "publishedAt": "2026-09-25T15:39:48.000Z",
       "clusterId": "irregular-rogue-ai"
-    },
-    {
-      "title": "Astra and Opus just passed Turing’s other test",
-      "summary": "TechCrunch (Sep 25 ~17:24 UTC — NEW morning): Astra and Opus clear “Turing’s other test” — model-eval research lead fresher than retained evening GPT-6 Cyber rumor twin.",
-      "url": "https://techcrunch.com/2026/09/25/astra-and-opus-just-passed-turings-other-test/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "model-releases",
-        "research"
-      ],
-      "publishedAt": "2026-09-25T17:24:36.000Z",
-      "clusterId": "astra-opus-turing-other"
-    },
-    {
-      "title": "AI was supposed to hit new grads hard. So far, unemployment data says otherwise.",
-      "summary": "Ars Technica (Sep 25 ~19:11 UTC — NEW morning): Ars finds new-grad unemployment data not yet matching AI-displacement panic — research/labor counter-lead.",
-      "url": "https://arstechnica.com/ai/2026/09/ai-was-supposed-to-hit-new-grads-hard-so-far-unemployment-data-says-otherwise/",
-      "sourceName": "Ars Technica",
-      "sourceId": "arstechnica",
-      "sourceHome": "https://arstechnica.com/tag/artificial-intelligence/",
-      "tags": [
-        "research",
-        "policy"
-      ],
-      "publishedAt": "2026-09-25T19:11:05.000Z",
-      "clusterId": "ai-grads-unemployment"
-    },
-    {
-      "title": "White House tells OpenAI and Anthropic to let U.S. review new models before sharing them with British testers",
-      "summary": "THE DECODER (Sep 25 ~08:12 UTC — retained): WH asks OpenAI/Anthropic to let U.S. review frontier models before UK AISI-style testing — still the evening policy anchor overnight.",
-      "url": "https://the-decoder.com/white-house-tells-openai-and-anthropic-to-let-u-s-review-new-models-before-sharing-them-with-british-testers/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "policy",
-        "model-releases"
-      ],
-      "publishedAt": "2026-09-25T08:12:14.000Z",
-      "clusterId": "us-uk-model-pre-review"
-    },
-    {
-      "title": "OpenAI May Announce New Security Model, GPT-6 Cyber, Within Days",
-      "summary": "Gizmodo (Sep 25 ~02:49 UTC — retained): OpenAI may announce GPT-6 Cyber security model within days — still the free consumer twin of the evening GPT-6 Cyber cluster.",
-      "url": "https://gizmodo.com/openai-may-announce-new-security-model-gpt-6-cyber-within-days-2000817143",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "tags": [
-        "model-releases",
-        "policy"
-      ],
-      "publishedAt": "2026-09-25T02:49:45.000Z",
-      "clusterId": "openai-gpt6-cyber"
     }
   ],
   "rumors": [
     {
       "title": "Google DeepMind reached RSI (wildfire rumor)",
-      "summary": "UNCONFIRMED X chatter: @kimmonismus amplifies DeepMind RSI claims via leaker circles — treat as rumor only; not Top-10 confirmed. oEmbed re-verified morning (HTTP 200).",
+      "summary": "UNCONFIRMED X chatter: @kimmonismus amplifies DeepMind RSI claims via leaker circles — treat as rumor only; not Top-10 confirmed. oEmbed re-verified midday (HTTP 200).",
       "url": "https://x.com/kimmonismus/status/2098679143030206735",
       "via": "@kimmonismus",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-25T21:55:00.000Z",
+      "harvestedAt": "2026-09-26T02:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Nvidia to invest up to $10B in Anthropic IPO",
-      "summary": "UNCONFIRMED X chatter: @financialjuice cites source on Nvidia investing up to $10B in Anthropic IPO — not confirmed by outlets in this harvest. oEmbed re-verified morning (HTTP 200).",
+      "summary": "UNCONFIRMED X chatter: @financialjuice cites source on Nvidia investing up to $10B in Anthropic IPO — not confirmed by outlets in this harvest. oEmbed re-verified midday (HTTP 200).",
       "url": "https://x.com/financialjuice/status/2098546857920057371",
       "via": "@financialjuice",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-25T21:55:00.000Z",
+      "harvestedAt": "2026-09-26T02:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Thinking Machines talks $1B+ round at ~$40B",
-      "summary": "UNCONFIRMED X chatter: @wallstengine says Mira Murati's Thinking Machines in talks for $1B+ at ~$40B (Accel/Nvidia interest per TI) — rumor only. oEmbed re-verified morning (HTTP 200).",
+      "summary": "UNCONFIRMED X chatter: @wallstengine says Mira Murati's Thinking Machines in talks for $1B+ at ~$40B (Accel/Nvidia interest per TI) — rumor only. oEmbed re-verified midday (HTTP 200).",
       "url": "https://x.com/wallstengine/status/2095569301923324153",
       "via": "@wallstengine",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-25T21:55:00.000Z",
+      "harvestedAt": "2026-09-26T02:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "OpenAI 'Bel' internally called AGI (pre-Sol rumor thread)",
-      "summary": "UNCONFIRMED X chatter: @kimmonismus Sep 21 thread claimed Sol leap + Opus response + Bel internally called AGI — Sol/Opus since shipped; Bel=AGI claim still unverified rumor. oEmbed re-verified morning (HTTP 200).",
+      "summary": "UNCONFIRMED X chatter: @kimmonismus Sep 21 thread claimed Sol leap + Opus response + Bel internally called AGI — Sol/Opus since shipped; Bel=AGI claim still unverified rumor. oEmbed re-verified midday (HTTP 200).",
       "url": "https://x.com/kimmonismus/status/2101893653048303922",
       "via": "@kimmonismus",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-25T21:55:00.000Z",
+      "harvestedAt": "2026-09-26T02:55:00.000Z",
       "tags": [
         "rumor"
       ]
