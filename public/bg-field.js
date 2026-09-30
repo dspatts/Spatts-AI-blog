@@ -57,7 +57,7 @@
   function layout() {
     dpr = Math.min(window.devicePixelRatio || 1, 1.75);
     W = window.innerWidth;
-    H = Math.max(window.innerHeight, document.documentElement.scrollHeight || 0);
+    H = window.innerHeight;
     canvas.width = Math.round(W * dpr);
     canvas.height = Math.round(H * dpr);
     canvas.style.width = W + "px";
@@ -136,8 +136,7 @@
 
   function onPointer(e) {
     if (reduceMotion || isLight()) return;
-    var scrollY = window.scrollY || window.pageYOffset || 0;
-    pointerTarget = { x: e.clientX, y: e.clientY + scrollY };
+    pointerTarget = { x: e.clientX, y: e.clientY };
     kick();
   }
 
@@ -157,15 +156,6 @@
     layout();
     kick();
   });
-  window.addEventListener("scroll", function () {
-    // keep canvas covering long pages
-    var needed = Math.max(window.innerHeight, document.documentElement.scrollHeight || 0);
-    if (Math.abs(needed - H) > 80) {
-      layout();
-      kick();
-    }
-  }, { passive: true });
-
   var themeObs = new MutationObserver(function () {
     kick();
   });
