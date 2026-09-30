@@ -1148,30 +1148,26 @@ html[data-theme="light"] .rumor {
   z-index: 0;
   pointer-events: none;
   will-change: transform;
+  transform: translate3d(0, 0, 0) scale(1.06);
   background:
     radial-gradient(55% 45% at 18% 28%, rgba(247, 73, 4, 0.34), transparent 62%),
     radial-gradient(48% 42% at 82% 18%, rgba(90, 60, 220, 0.26), transparent 58%),
     radial-gradient(52% 48% at 58% 88%, rgba(247, 73, 4, 0.16), transparent 62%);
-  animation: aisource-drift 14s ease-in-out infinite alternate;
 }
 #bg-drift::after {
   content: "";
   position: absolute;
   inset: -8%;
-  will-change: transform;
+  will-change: transform, opacity;
   background:
     radial-gradient(42% 36% at 72% 62%, rgba(120, 90, 255, 0.22), transparent 70%),
-    radial-gradient(38% 32% at 28% 72%, rgba(247, 73, 4, 0.2), transparent 70%);
-  animation: aisource-drift-rev 18s ease-in-out infinite alternate;
+    radial-gradient(38% 32% at 28% 70%, rgba(247, 73, 4, 0.2), transparent 70%);
+  transform: translate3d(var(--drift-x, 0%), var(--drift-y, 0%), 0);
+  animation: aisource-drift-fade 6s ease-in-out infinite alternate;
 }
-@keyframes aisource-drift {
-  0% { transform: translate3d(-3%, 2%, 0) scale(1.02); }
-  50% { transform: translate3d(4%, -3%, 0) scale(1.08); }
-  100% { transform: translate3d(2%, 3.5%, 0) scale(1.04); }
-}
-@keyframes aisource-drift-rev {
-  0% { transform: translate3d(3%, -2%, 0) scale(1.03); }
-  100% { transform: translate3d(-5%, 4%, 0) scale(1.07); }
+@keyframes aisource-drift-fade {
+  0% { opacity: 0.55; }
+  100% { opacity: 1; }
 }
 .wrap {
   position: relative;
@@ -1184,8 +1180,5 @@ html[data-theme="light"] #bg-drift {
     radial-gradient(52% 48% at 58% 88%, rgba(214, 64, 5, 0.1), transparent 62%);
 }
 @media (prefers-reduced-motion: reduce) {
-  #bg-drift,
-  #bg-drift::after {
-    animation: none;
-  }
+  #bg-drift::after { animation: none; opacity: 0.8; }
 }
