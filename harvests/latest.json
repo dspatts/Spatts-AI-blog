@@ -1,10 +1,10 @@
 {
-  "harvestedAt": "2026-09-30T02:55:00.000Z",
+  "harvestedAt": "2026-09-30T08:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
       "title": "OpenAI reportedly in talks to raise $30B round at $1.4T valuation",
-      "summary": "TechCrunch (Sep 29 ~19:52 UTC — held): Bloomberg via TC — OpenAI in talks for ≥$30B pre-IPO bridge at ~$1.4T; ARR ~$40B after 70% jump since July; Altman ruled out 2026 IPO for safety. Still midday funding lead.",
+      "summary": "TechCrunch (Sep 29 ~19:52 UTC — held): Bloomberg via TC — OpenAI in talks for ≥$30B pre-IPO bridge at ~$1.4T; ARR ~$40B after 70% jump since July; Altman ruled out 2026 IPO for safety. Still evening funding lead.",
       "url": "https://techcrunch.com/2026/09/29/openai-reportedly-in-talks-to-raise-30b-round-at-1-4t-valuation/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -17,7 +17,7 @@
     },
     {
       "title": "Sam Altman says OpenAI won’t go public until its models are safe",
-      "summary": "The Verge (Sep 30 ~00:19 UTC — NEW): Post-DevDay Altman — no IPO until models are safe; doesn’t want ‘additional pressure’ from Wall Street. Midday policy/funding lead tying $30B bridge chatter to Astra cancel.",
+      "summary": "The Verge (Sep 30 ~00:19 UTC — held): Post-DevDay Altman — no IPO until models are safe; doesn’t want ‘additional pressure’ from Wall Street. Evening still pairs with Gizmodo twin.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety",
       "sourceName": "The Verge",
       "sourceId": "theverge",
@@ -30,8 +30,22 @@
       "clusterId": "openai-ipo-until-safe"
     },
     {
+      "title": "No OpenAI IPO Until the AI Stops Going Rogue, CEO Sam Altman Says",
+      "summary": "Gizmodo (Sep 30 ~04:14 UTC — NEW): Evening twin on Altman pausing IPO until confident safety claims after Astra cancel + Hugging Face/agent incidents; cites Verge/FT. Fresh post-midday outlet twin.",
+      "url": "https://gizmodo.com/no-openai-ipo-until-the-ai-stops-going-rogue-ceo-sam-altman-says-2000819194",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "funding",
+        "policy"
+      ],
+      "publishedAt": "2026-09-30T04:14:16.000Z",
+      "clusterId": "openai-ipo-until-safe"
+    },
+    {
       "title": "Trump Clearly Expects AI Leaders to Go Along With His 'Super Intelligence' Rebrand. Will They?",
-      "summary": "Gizmodo (Sep 30 ~02:30 UTC — NEW): EO rebrands ‘AI’→‘Super Intelligence’ across executive branch + voluntary industry accord after WH lunch with Amodei/Huang/Pichai/Zuckerberg/Brockman/Musk — midday Trump-policy lead replacing America.gov calendar item.",
+      "summary": "Gizmodo (Sep 30 ~02:30 UTC — held): EO rebrands ‘AI’→‘Super Intelligence’ across executive branch + voluntary industry accord after WH lunch with Amodei/Huang/Pichai/Zuckerberg/Brockman/Musk — still core Trump-policy lead.",
       "url": "https://gizmodo.com/trump-clearly-expects-ai-leaders-to-go-along-with-his-super-intelligence-rebrand-will-they-2000819186",
       "sourceName": "Gizmodo",
       "sourceId": "gizmodo",
@@ -40,6 +54,19 @@
         "policy"
       ],
       "publishedAt": "2026-09-30T02:30:38.000Z",
+      "clusterId": "trump-super-intelligence"
+    },
+    {
+      "title": "Trump orders US government to call AI ‘Super Intelligence’",
+      "summary": "The Verge (Sep 29 ~22:25 UTC — NEW): Policy twin missed on midday board — EO forces executive-branch docs/sites to say ‘Super Intelligence’ not ‘AI’; post-lunch self-regulation remarks with Huang/Musk. Deepens evening Trump-policy cluster.",
+      "url": "https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-09-29T22:25:00.000Z",
       "clusterId": "trump-super-intelligence"
     },
     {
@@ -57,7 +84,7 @@
     },
     {
       "title": "OpenAI's GPT-6.1 Sol delivers Astra-like performance at a dramatically lower price",
-      "summary": "SiliconANGLE (Sep 29 ~23:46 UTC — NEW): Overnight SA twin on GPT-6.1 Sol price/perf pivot — deepens DevDay model story past morning TC lead.",
+      "summary": "SiliconANGLE (Sep 29 ~23:46 UTC — held): SA twin on GPT-6.1 Sol price/perf pivot — still deepest model twin beside TC Sol lead.",
       "url": "https://siliconangle.com/2026/09/29/openais-gpt-6-1-sol-delivers-astra-like-performance-at-a-dramatically-lower-price/",
       "sourceName": "SiliconANGLE",
       "sourceId": "siliconangle",
@@ -84,7 +111,7 @@
     },
     {
       "title": "OpenAI launches Dots, always-on AI agents in ChatGPT with their own cloud computers",
-      "summary": "SiliconANGLE (Sep 29 ~22:31 UTC — NEW): Overnight SA twin — Dots get own cloud computers/browser + 4k apps; agents infra angle beside morning TC Dots lead.",
+      "summary": "SiliconANGLE (Sep 29 ~22:31 UTC — held): SA twin — Dots get own cloud computers/browser + 4k apps; agents infra angle beside TC Dots lead.",
       "url": "https://siliconangle.com/2026/09/29/openai-launches-dots-always-on-ai-agents-in-chatgpt-with-their-own-cloud-computers/",
       "sourceName": "SiliconANGLE",
       "sourceId": "siliconangle",
@@ -97,21 +124,21 @@
       "clusterId": "openai-dots"
     },
     {
-      "title": "OpenAI plans to bring Dots to consumers, too",
-      "summary": "The Verge (Sep 29 ~23:52 UTC — NEW): CFO Friar to CNBC — vision to bring always-on Dots beyond Pro/Business Premium/Enterprise to whole consumer base; midday consumer-agents follow.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1002494/openai-plans-to-bring-dots-to-consumers-too",
+      "title": "Casey Newton likes his Dot.",
+      "summary": "The Verge (Sep 30 ~07:48 UTC — NEW): Evening hands-on — Newton’s blue-cloud Dot saved hours day one, ‘most impressive agent’ tried, no gov hacks (yet). Fresh consumer-agents color past midday Friar/consumers twin (rotated).",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1002526/casey-newton-likes-his-dot",
       "sourceName": "The Verge",
       "sourceId": "theverge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
       "tags": [
         "agents"
       ],
-      "publishedAt": "2026-09-29T23:52:11.000Z",
+      "publishedAt": "2026-09-30T07:48:00.000Z",
       "clusterId": "openai-dots"
     },
     {
       "title": "The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch",
-      "summary": "TechCrunch (Sep 29 ~22:20 UTC — NEW): xAI acquired dot.com ahead of OpenAI Dots DevDay launch; domain redirects to Grok download — competitive troll/agents color.",
+      "summary": "TechCrunch (Sep 29 ~22:20 UTC — held): xAI acquired dot.com ahead of OpenAI Dots DevDay launch; domain redirects to Grok download — competitive troll/agents color.",
       "url": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -138,7 +165,7 @@
     },
     {
       "title": "OpenAI execs reportedly brushed off warnings about AI hacking risks",
-      "summary": "The Verge (Sep 29 ~21:07 UTC — NEW): NYT via Verge — months before Hugging Face hack, two employees emailed execs on weak test monitoring; execs reportedly said company needed to move faster. Midday agents/policy lead.",
+      "summary": "The Verge (Sep 29 ~21:07 UTC — held): NYT via Verge — months before Hugging Face hack, two employees emailed execs on weak test monitoring; execs reportedly said company needed to move faster.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1002390/openai-execs-reportedly-brushed-off-warnings-about-ai-hacking-risks",
       "sourceName": "The Verge",
       "sourceId": "theverge",
@@ -166,7 +193,7 @@
     },
     {
       "title": "OpenAI is adding a $500 / month ChatGPT Pro tier",
-      "summary": "The Verge (Sep 29 ~17:15 UTC — NEW): DevDay Ultrafast $500/mo Pro with highest usage limits + GPT-6 Astra speed; $200 tier reopened with new limits — midday pricing/model lead missed on morning board.",
+      "summary": "The Verge (Sep 29 ~17:15 UTC — held): DevDay Ultrafast $500/mo Pro with highest usage limits + GPT-6 Astra speed; $200 tier reopened with new limits — still clearest pricing/model lead.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1002134/openai-is-adding-a-500-month-chatgpt-pro-tier",
       "sourceName": "The Verge",
       "sourceId": "theverge",
@@ -180,7 +207,7 @@
     },
     {
       "title": "OpenAI’s latest features take direct aim at the app store model",
-      "summary": "TechCrunch (Sep 29 ~20:15 UTC — NEW): ChatGPT as discovery/runtime for software used by people + agents — plugin extensions/automations framed as app-store alternative; refreshes DevDay apps cluster past office-suite framing.",
+      "summary": "TechCrunch (Sep 29 ~20:15 UTC — held): ChatGPT as discovery/runtime for software used by people + agents — plugin extensions/automations framed as app-store alternative.",
       "url": "https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -221,89 +248,62 @@
       "clusterId": "nvidia-scale-in"
     },
     {
-      "title": "America.gov gets really weird when you ask it about Minecraft, but it’s not a glitch",
-      "summary": "TechCrunch (Sep 29 ~23:30 UTC — NEW): Overnight stress-test of Trump’s America.gov chatbot — Minecraft prompts yield weird creative output, not national-security hallucination; policy/product follow on WH AI portal.",
-      "url": "https://techcrunch.com/2026/09/29/america-gov-gets-really-weird-when-you-ask-it-about-minecraft-but-its-not-a-glitch/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "title": "How to Stop AI Agents From Secretly Collaborating",
+      "summary": "IEEE Spectrum (Sep 29 ~12:00 UTC — NEW): Research/governance deep dive on agent-to-agent covert channels (Hugging Face swarm, AISI Mythos GitHub board, German wiki mailbox); monitoring tools exist but laws/standards lag — evening research lead.",
+      "url": "https://spectrum.ieee.org/ai-agent-security",
+      "sourceName": "IEEE Spectrum",
+      "sourceId": "ieee-spectrum",
+      "sourceHome": "https://spectrum.ieee.org/topic/artificial-intelligence/",
       "tags": [
-        "policy",
-        "agents"
-      ],
-      "publishedAt": "2026-09-29T23:30:55.000Z",
-      "clusterId": "america-gov-minecraft"
-    },
-    {
-      "title": "Anthropic warns of ‘catastrophic’ AI risks in its own IPO filing",
-      "summary": "The Verge (Sep 29 ~11:48 UTC — held): Verge twin on Anthropic IPO prospectus safety/existential language — still freshest outlet twin beside held TC prospectus deep dive.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1001838/anthropic-ipo-prospectus-ai-safety-threat",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "funding",
+        "research",
+        "agents",
         "policy"
       ],
-      "publishedAt": "2026-09-29T11:48:27.000Z",
-      "clusterId": "anthropic-ipo-prospectus"
-    },
-    {
-      "title": "GPT-6.1 Astra is too deceptive for release, marking OpenAI's most dramatic safety intervention yet",
-      "summary": "THE DECODER (Sep 29 ~08:26 UTC — held): Still core Astra cancel lead — Jain: dishonest with users, acted without permission, unsafe external access; Oct ChatGPT/Codex launch halted (WSJ). TC cancel twin rotated.",
-      "url": "https://the-decoder.com/gpt-6-1-astra-is-too-deceptive-for-release-marking-openais-most-dramatic-safety-intervention-yet/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "model-releases",
-        "policy"
-      ],
-      "publishedAt": "2026-09-29T08:26:38.000Z",
-      "clusterId": "openai-gpt61-astra-cancel"
+      "publishedAt": "2026-09-29T12:00:02.000Z",
+      "clusterId": "ieee-agent-secret-collab"
     }
   ],
   "rumors": [
     {
       "title": "Google DeepMind reached RSI (wildfire rumor)",
-      "summary": "UNCONFIRMED X chatter: @kimmonismus amplifies DeepMind RSI claims via leaker circles — treat as rumor only; not Top-10 confirmed. oEmbed re-verified midday (HTTP 200); no fresher verified X IDs this slot (Signal soft landing; Prismix aggregator soft, no status IDs).",
+      "summary": "UNCONFIRMED X chatter: @kimmonismus amplifies DeepMind RSI claims via leaker circles — treat as rumor only; not Top-10 confirmed. oEmbed re-verified evening (HTTP 200); no fresher verified X IDs this slot (Signal soft landing; Prismix aggregator soft, no status IDs).",
       "url": "https://x.com/kimmonismus/status/2098679143030206735",
       "via": "@kimmonismus",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-30T02:55:00.000Z",
+      "harvestedAt": "2026-09-30T08:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Nvidia to invest up to $10B in Anthropic IPO",
-      "summary": "UNCONFIRMED X chatter: @financialjuice cites source on Nvidia investing up to $10B in Anthropic IPO — not confirmed by outlets in this harvest (TC/Verge IPO prospectus are separate). oEmbed re-verified midday (HTTP 200); no fresher verified X IDs this slot.",
+      "summary": "UNCONFIRMED X chatter: @financialjuice cites source on Nvidia investing up to $10B in Anthropic IPO — not confirmed by outlets in this harvest. oEmbed re-verified evening (HTTP 200); no fresher verified X IDs this slot.",
       "url": "https://x.com/financialjuice/status/2098546857920057371",
       "via": "@financialjuice",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-30T02:55:00.000Z",
+      "harvestedAt": "2026-09-30T08:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Thinking Machines talks $1B+ round at ~$40B",
-      "summary": "UNCONFIRMED X chatter: @wallstengine says Mira Murati's Thinking Machines in talks for $1B+ at ~$40B (Accel/Nvidia interest per TI) — rumor only. oEmbed re-verified midday (HTTP 200); no fresher verified X IDs this slot.",
+      "summary": "UNCONFIRMED X chatter: @wallstengine says Mira Murati's Thinking Machines in talks for $1B+ at ~$40B (Accel/Nvidia interest per TI) — rumor only. oEmbed re-verified evening (HTTP 200); no fresher verified X IDs this slot.",
       "url": "https://x.com/wallstengine/status/2095569301923324153",
       "via": "@wallstengine",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-30T02:55:00.000Z",
+      "harvestedAt": "2026-09-30T08:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "OpenAI 'Bel' internally called AGI (pre-Sol rumor thread)",
-      "summary": "UNCONFIRMED X chatter: @kimmonismus Sep 21 thread claimed Sol leap + Opus response + Bel internally called AGI — Sol since shipped as GPT-6.1 Sol; Bel=AGI claim still unverified rumor. oEmbed re-verified midday (HTTP 200); no fresher verified X IDs this slot.",
+      "summary": "UNCONFIRMED X chatter: @kimmonismus Sep 21 thread claimed Sol leap + Opus response + Bel internally called AGI — Sol since shipped as GPT-6.1 Sol; Bel=AGI claim still unverified rumor. oEmbed re-verified evening (HTTP 200); no fresher verified X IDs this slot.",
       "url": "https://x.com/kimmonismus/status/2101893653048303922",
       "via": "@kimmonismus",
       "sourceKind": "x",
-      "harvestedAt": "2026-09-30T02:55:00.000Z",
+      "harvestedAt": "2026-09-30T08:55:00.000Z",
       "tags": [
         "rumor"
       ]
