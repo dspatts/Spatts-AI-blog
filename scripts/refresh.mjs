@@ -1584,8 +1584,8 @@ function renderHtml(payload) {
   window.setInterval(checkFresh, 5 * 60 * 1000);
 })();
 </script>
-<script src="./bg-drift.js?v=1" defer></script>
-<script src="./bg-drift.js?v=1" defer></script>
+<script src="./bg-drift.js?v=2" defer></script>
+<script src="./bg-drift.js?v=2" defer></script>
 </body>
 </html>
 `;
