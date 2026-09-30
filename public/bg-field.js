@@ -68,11 +68,12 @@
     oy = (H - BASE_H * scale) / 2 - 30;
   }
 
+  function themeColors() {
+    if (isLight()) return { a: "#d64005", b: "#6b4cff", alpha: 0.18 };
+    return { a: "#f74904", b: "#7a3cff", alpha: 0.3 };
+  }
+
   function drawFrame() {
-    if (isLight()) {
-      ctx.clearRect(0, 0, W, H);
-      return;
-    }
     if (pointerTarget) {
       if (!pointer) pointer = { x: pointerTarget.x, y: pointerTarget.y };
       else {
@@ -86,12 +87,13 @@
     }
 
     ctx.clearRect(0, 0, W, H);
+    var theme = themeColors();
     var g = ctx.createLinearGradient(W * 0.25, H * 0.8, W * 0.75, H * 0.15);
-    g.addColorStop(0, COLOR_A);
-    g.addColorStop(1, COLOR_B);
+    g.addColorStop(0, theme.a);
+    g.addColorStop(1, theme.b);
     ctx.fillStyle = g;
 
-    var alphaBase = reduceMotion ? 0.2 : 0.3;
+    var alphaBase = reduceMotion ? theme.alpha * 0.7 : theme.alpha;
     for (var i = 0; i < bars.length; i++) {
       var b = bars[i];
       var x = ox + b.x * scale;
@@ -120,14 +122,12 @@
 
   function loop() {
     drawFrame();
-    if (!reduceMotion && !isLight()) raf = requestAnimationFrame(loop);
+    if (!reduceMotion) raf = requestAnimationFrame(loop);
     else raf = 0;
   }
 
   function kick() {
-    if (isLight()) {
-      if (raf) cancelAnimationFrame(raf);
-      raf = 0;
+    if (reduceMotion) {
       drawFrame();
       return;
     }
@@ -135,7 +135,7 @@
   }
 
   function onPointer(e) {
-    if (reduceMotion || isLight()) return;
+    if (reduceMotion) return;
     pointerTarget = { x: e.clientX, y: e.clientY };
     kick();
   }

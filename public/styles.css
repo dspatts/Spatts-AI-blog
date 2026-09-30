@@ -1164,10 +1164,6 @@ html[data-theme="light"] .rumor {
   z-index: 1;
 }
 
-html[data-theme="light"] #bg-field {
-  display: none;
-}
-
 @media (prefers-reduced-motion: reduce) {
   #bg-field {
     opacity: 0.85;
