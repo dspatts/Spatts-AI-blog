@@ -1148,3 +1148,28 @@ html[data-theme="light"] .rumor {
   background: var(--lighter-background);
   box-shadow: var(--shadow);
 }
+
+/* Interactive Depot-style background field */
+#bg-field {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.wrap {
+  position: relative;
+  z-index: 1;
+}
+
+html[data-theme="light"] #bg-field {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #bg-field {
+    opacity: 0.85;
+  }
+}

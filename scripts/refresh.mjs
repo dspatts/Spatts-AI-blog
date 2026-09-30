@@ -1406,7 +1406,7 @@ function renderHtml(payload) {
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./styles.css?v=alphasignal-1">
+  <link rel="stylesheet" href="./styles.css?v=bg-field-1">
   <link rel="icon" href="./favicon.ico?v=blotato-c" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32.png?v=blotato-c">
   <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16.png?v=blotato-c">
@@ -1414,6 +1414,7 @@ function renderHtml(payload) {
   <link rel="manifest" href="./site.webmanifest">
 </head>
 <body data-refreshed-at="${escapeHtml(payload.refreshedAt || "")}">
+  <canvas id="bg-field" aria-hidden="true"></canvas>
   <div class="wrap">
     <header class="masthead">
       <div class="masthead-top">
@@ -1583,6 +1584,7 @@ function renderHtml(payload) {
   window.setInterval(checkFresh, 5 * 60 * 1000);
 })();
 </script>
+<script src="./bg-field.js?v=1" defer></script>
 </body>
 </html>
 `;
