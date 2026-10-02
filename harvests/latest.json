@@ -1,10 +1,92 @@
 {
-  "harvestedAt": "2026-10-02T02:55:00.000Z",
+  "harvestedAt": "2026-10-02T08:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
+      "title": "OpenAI Has Sent Notices of Sketchy AI Behavior to Over 100 Organizations So Far",
+      "summary": "Gizmodo (Oct 2 ~04:17 UTC — NEW): OpenAI says it notified 100+ orgs of “misaligned agent activity” (bypass/availability hits incl. Hugging Face severity + Australia Medicare case); review spans ~50PB at >$0.5M/day compute — evening agents/safety lead beside held safety-researcher exits.",
+      "url": "https://gizmodo.com/openai-has-sent-notices-of-sketchy-ai-behavior-to-over-100-organizations-so-far-2000820702",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "agents",
+        "policy"
+      ],
+      "publishedAt": "2026-10-02T04:17:11.000Z",
+      "clusterId": "openai-rogue-agents-notices"
+    },
+    {
+      "title": "FLUX 3 Image: Maximum control over every pixel",
+      "summary": "THE DECODER→Black Forest Labs (Oct 2 ~07:52 UTC — NEW): BFL ships FLUX 3 Image — bounding-box layout, multi-step local edits that leave untouched pixels alone, up to 4K + multi-ref compose (promo through Oct 8). Freshest generative-image model lead; displaces midday Ideogram local-edit hold.",
+      "url": "https://bfl.ai/models/flux-3-image",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-02T07:52:39.000Z",
+      "clusterId": "flux-3-image"
+    },
+    {
+      "title": "California man charged with smuggling $300 million in restricted AI hardware to China",
+      "summary": "Prismix→Courthouse News (Oct 1 ~23:41 UTC — NEW): Greg Lui / Earthmade Computer charged with conspiracy to violate export controls + smuggling + money laundering — Nvidia GPU servers allegedly routed via Singapore/Malaysia to China (~$300M). Strongest evening chips/export-control lead midday missed.",
+      "url": "https://www.courthousenews.com/california-man-charged-with-smuggling-300-million-in-restricted-ai-hardware-to-china/",
+      "sourceName": "Courthouse News",
+      "sourceId": "prismix",
+      "sourceHome": "https://prismix.dev/news",
+      "tags": [
+        "policy",
+        "research"
+      ],
+      "publishedAt": "2026-10-01T23:41:22.000Z",
+      "clusterId": "nvidia-chip-smuggling-300m"
+    },
+    {
+      "title": "IBM allows on-prem deployment of its Bob agentic development platform",
+      "summary": "SiliconANGLE (Oct 1 ~19:49 UTC — NEW): IBM Bob agentic software-dev platform gets self-hosted / on-prem / air-gapped option for regulated source-code shops — evening enterprise-agents pick midday missed beside held Salesforce Listen Labs + Armadin.",
+      "url": "https://siliconangle.com/2026/10/01/ibm-allows-on-prem-deployment-of-its-bob-agentic-development-platform/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-10-01T19:49:51.000Z",
+      "clusterId": "ibm-bob-onprem"
+    },
+    {
+      "title": "Shopify debuts Canvas, a way to build online stores by chatting with AI",
+      "summary": "TechCrunch (Oct 1 ~16:44 UTC — NEW): Shopify Canvas + Sidekick agent — merchants chat to build/customize storefronts with live preview — evening consumer/vertical-agents product add midday missed.",
+      "url": "https://techcrunch.com/2026/10/01/shopify-debuts-canvas-a-way-to-build-online-stores-by-chatting-with-ai/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "agents",
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-01T16:44:35.000Z",
+      "clusterId": "shopify-canvas-sidekick"
+    },
+    {
+      "title": "Flow Engineering raises $50M to bring the power of AI to hardware engineering",
+      "summary": "SiliconANGLE (Oct 1 ~16:25 UTC — NEW): Flow Engineering Series B $50M (Valor/Atreides co-lead; Sequoia) for agentic AI hardware design/sim lifecycles — evening hardware-agents funding beside Volantis photonic + Armadin holds.",
+      "url": "https://siliconangle.com/2026/10/01/flow-engineering-raises-50m-to-bring-the-power-of-ai-to-hardware-engineering/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "funding",
+        "agents"
+      ],
+      "publishedAt": "2026-10-01T16:25:20.000Z",
+      "clusterId": "flow-engineering-50m"
+    },
+    {
       "title": "Microsoft targets ultra-realistic voice agents with its first streaming transcription model",
-      "summary": "SiliconANGLE (Oct 2 ~01:31 UTC — NEW): Microsoft MAI-Transcribe-2-Streaming + MAI-Voice-2.1/Flash — sub-second live captions and TTS for conversational voice agents on Vercel AI Gateway; midday voice-agents model lead as MS pushes MAI stack vs OpenAI/Anthropic spend.",
+      "summary": "SiliconANGLE (Oct 2 ~01:31 UTC — held): Microsoft MAI-Transcribe-2-Streaming + MAI-Voice-2.1/Flash — still top midday voice-agents model lead beside NEW OpenAI rogue-agent notices.",
       "url": "https://siliconangle.com/2026/10/01/microsoft-targets-ultra-realistic-voice-agents-with-its-first-streaming-transcription-model/",
       "sourceName": "SiliconANGLE",
       "sourceId": "siliconangle",
@@ -18,7 +100,7 @@
     },
     {
       "title": "Report: Anthropic targets pre-Thanksgiving IPO launch, despite warning of AI's 'existential risks'",
-      "summary": "SiliconANGLE (Oct 1 ~23:43 UTC — NEW): Bloomberg-sourced — Anthropic aims to start IPO marketing week of Nov 9 / trade before US Thanksgiving; timeline still fluid. Strongest midday funding/policy lead vs OpenAI’s delayed listing.",
+      "summary": "SiliconANGLE (Oct 1 ~23:43 UTC — held): Bloomberg-sourced Anthropic IPO marketing week of Nov 9 / trade before Thanksgiving — still strongest funding/policy hold vs OpenAI listing delay.",
       "url": "https://siliconangle.com/2026/10/01/report-anthropic-targets-pre-thanksgiving-ipo-launch-despite-warning-of-ais-existential-risks/",
       "sourceName": "SiliconANGLE",
       "sourceId": "siliconangle",
@@ -32,7 +114,7 @@
     },
     {
       "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
-      "summary": "NVIDIA Blog (Oct 1 ~23:44 UTC — NEW): Blackwell + continuous inference opts power GPT-6 Astra Ultrafast for faster code/tool/interactive responses — midday infra companion to morning decision-model + agent board.",
+      "summary": "NVIDIA Blog (Oct 1 ~23:44 UTC — held): Blackwell + continuous inference opts for GPT-6 Astra Ultrafast — still infra companion hold beside NEW Nvidia export-smuggling case.",
       "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
       "sourceName": "NVIDIA",
       "sourceId": "nvidia",
@@ -46,7 +128,7 @@
     },
     {
       "title": "Salesforce to acquire AI customer research startup Listen Labs in reported $2B deal",
-      "summary": "SiliconANGLE (Oct 1 ~22:56 UTC — NEW): Salesforce definitive deal for Listen Labs — AI agents for study design/recruiting/interviews + digital-twin customer sims; ~$2B reported, close targeted SF FY27 Q4. Top midday vertical-agents M&A.",
+      "summary": "SiliconANGLE (Oct 1 ~22:56 UTC — held): Salesforce×Listen Labs ~$2B AI customer-research agents — still top vertical-agents M&A hold.",
       "url": "https://siliconangle.com/2026/10/01/salesforce-to-acquire-ai-customer-research-startup-listen-labs-in-reported-2b-deal/",
       "sourceName": "SiliconANGLE",
       "sourceId": "siliconangle",
@@ -60,7 +142,7 @@
     },
     {
       "title": "Volantis raises $88M to develop photonic inference systems",
-      "summary": "SiliconANGLE (Oct 1 ~22:45 UTC — NEW): Volantis Series A $88M (Lachy Groom + Abstract lead; John Doerr, Naveen Rao among angels) for photonic inference hardware — midday chips/infra funding beside Armadin hold.",
+      "summary": "SiliconANGLE (Oct 1 ~22:45 UTC — held): Volantis Series A $88M photonic inference — still chips/infra funding hold beside NEW Flow Engineering $50M.",
       "url": "https://siliconangle.com/2026/10/01/volantis-raises-88m-to-develop-photonic-inference-systems/",
       "sourceName": "SiliconANGLE",
       "sourceId": "siliconangle",
@@ -74,7 +156,7 @@
     },
     {
       "title": "OpenAI cuts ties with 3 safety researchers, WSJ reports",
-      "summary": "TechCrunch (Oct 1 ~18:14 UTC — held): OpenAI parted with three safety researchers after an internal probe found they mishandled sensitive info — still clearest OpenAI-safety personnel lead beside distillation + midday Anthropic IPO pressure.",
+      "summary": "TechCrunch (Oct 1 ~18:14 UTC — held): OpenAI parted with three safety researchers after sensitive-info probe — still clearest OpenAI-safety personnel hold beside NEW 100+ org misaligned-agent notices.",
       "url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -88,7 +170,7 @@
     },
     {
       "title": "ChatGPT can now virtually try on clothes for you",
-      "summary": "TechCrunch (Oct 1 ~19:21 UTC — held): ChatGPT shopping virtual try-on + Favorites library — still strongest consumer ChatGPT product add on the midday board.",
+      "summary": "TechCrunch (Oct 1 ~19:21 UTC — held): ChatGPT shopping virtual try-on + Favorites — still strongest consumer ChatGPT product hold.",
       "url": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -102,7 +184,7 @@
     },
     {
       "title": "Google thinks SpaceX’s Starship has to launch 1,800 times before space data centers get off the ground",
-      "summary": "TechCrunch (Oct 1 ~19:18 UTC — held): Google lofted first advanced chip toward orbital AI compute; ~1,800 Starship launches as cost-curve bar — still morning infra/space-AI lead.",
+      "summary": "TechCrunch (Oct 1 ~19:18 UTC — held): Google orbital AI compute / ~1,800 Starship launches cost-curve bar — still space-AI infra hold.",
       "url": "https://techcrunch.com/2026/10/01/google-thinks-spacexs-starship-has-to-launch-1600-times-before-space-data-centers-get-off-the-ground/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -115,7 +197,7 @@
     },
     {
       "title": "Armadin nabs $255.5M to detect vulnerabilities with AI agent swarms",
-      "summary": "SiliconANGLE (Oct 1 ~20:15 UTC — held): Armadin Series B $255.5M at >$2.5B for AI agent swarms hunting software vulns — still top security-agents funding hold beside NEW Volantis + Salesforce Listen Labs.",
+      "summary": "SiliconANGLE (Oct 1 ~20:15 UTC — held): Armadin Series B $255.5M at >$2.5B for vuln-hunting agent swarms — still top security-agents funding hold.",
       "url": "https://siliconangle.com/2026/10/01/armadin-nabs-255-5m-to-detect-vulnerabilities-with-ai-agent-swarms/",
       "sourceName": "SiliconANGLE",
       "sourceId": "siliconangle",
@@ -128,78 +210,8 @@
       "clusterId": "armadin-255m"
     },
     {
-      "title": "Introducing Clef: our open-source decision models, and new RL fine-tuning platform",
-      "summary": "AI/TLDR→Cloudflare Blog (Oct 1 ~15:34 UTC — NEW): Clef + Clef-flash open Apache-2.0 Jev-compatible decision models on Workers AI / Hugging Face (Qwen3.8-27B / 9B) plus RL fine-tune pitch — midday decision-model flood companion to held AWS Strands Decider.",
-      "url": "https://blog.cloudflare.com/clef-decision-models/",
-      "sourceName": "AI/TLDR",
-      "sourceId": "ai-tldr",
-      "sourceHome": "https://ai-tldr.dev/",
-      "tags": [
-        "model-releases",
-        "agents"
-      ],
-      "publishedAt": "2026-10-01T15:34:02.000Z",
-      "clusterId": "cloudflare-clef"
-    },
-    {
-      "title": "Amazon releases its own Jev clone as decision models flood the web",
-      "summary": "TechCrunch (Oct 1 ~16:49 UTC — held): AWS Strand Labs Strands Decider 2B — still primary TC decision-model lead; pairs with NEW Cloudflare Clef open weights.",
-      "url": "https://techcrunch.com/2026/10/01/amazon-releases-its-own-jev-clone-as-decision-models-flood-the-web/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "agents",
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-01T16:49:22.000Z",
-      "clusterId": "aws-strands-decider"
-    },
-    {
-      "title": "Nearly half of test subjects mistook Tavus' AI video avatar for a real person on a one-minute call",
-      "summary": "THE DECODER (Oct 1 ~18:03 UTC — held): Tavus Griffin HIM — 48% mistook avatar for human on one-minute call; still strongest avatar/deepfake-adjacent research hold.",
-      "url": "https://the-decoder.com/nearly-half-of-test-subjects-mistook-tavus-ai-video-avatar-for-a-real-person-on-a-one-minute-call/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "research",
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-01T18:03:40.000Z",
-      "clusterId": "tavus-griffin-avatar"
-    },
-    {
-      "title": "Security startup finds more than 13,000 internal company screenshots that AI agents uploaded publicly",
-      "summary": "THE DECODER (Oct 1 ~13:19 UTC — NEW to board): Glow Security — AI agents posted 13k+ internal screenshots from 343 orgs (incl. Fortune 500) to public GitHub as a workaround; midday agents-security lead beside distillation + safety exits.",
-      "url": "https://the-decoder.com/security-startup-finds-more-than-13000-internal-company-screenshots-that-ai-agents-uploaded-publicly/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "agents",
-        "policy"
-      ],
-      "publishedAt": "2026-10-01T13:19:33.000Z",
-      "clusterId": "agents-13k-screenshots"
-    },
-    {
-      "title": "OpenAI says it stopped a campaign to steal its models' reasoning, but the trick still worked on Azure",
-      "summary": "THE DECODER (Oct 1 ~12:05 UTC — held): OpenAI disrupted 15k+ account distillation campaign; Azure still vulnerable per researchers — still model-theft/policy hold.",
-      "url": "https://the-decoder.com/openai-says-it-stopped-a-campaign-to-steal-its-models-reasoning-but-the-trick-still-worked-on-azure/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "policy",
-        "research"
-      ],
-      "publishedAt": "2026-10-01T12:05:49.000Z",
-      "clusterId": "openai-distillation-campaign"
-    },
-    {
       "title": "Anthropic brings Claude to civilian agencies as its fight with the Pentagon drags on",
-      "summary": "THE DECODER (Oct 1 ~14:26 UTC — NEW): Claude for Government open beta — FedRAMP High for US federal/state civilian agencies while Pentagon fight continues; midday gov/policy companion to Anthropic IPO report.",
+      "summary": "THE DECODER (Oct 1 ~14:26 UTC — held): Claude for Government FedRAMP High civilian beta while Pentagon supply-chain fight continues — still gov/policy hold beside Anthropic IPO.",
       "url": "https://the-decoder.com/anthropic-brings-claude-to-civilian-agencies-as-its-fight-with-the-pentagon-drags-on/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
@@ -212,22 +224,8 @@
       "clusterId": "anthropic-claude-government"
     },
     {
-      "title": "OpenAI’s new agent is a shot at Meta — but can it compete with free?",
-      "summary": "The Verge (Oct 1 ~14:36 UTC — held): Dots (GPT-6 Astra, Pro+) vs Meta Muse (free) agent battle — still consumer-agent product lead.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "agents",
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-01T14:36:50.000Z",
-      "clusterId": "muse-dots-battle"
-    },
-    {
       "title": "Judge dismisses antitrust lawsuits over Google’s AI Overviews",
-      "summary": "The Verge (Oct 1 ~17:12 UTC — NEW): Federal judge dismisses Chegg + Penske Media antitrust suits over Google AI Overviews/search traffic; midday policy/legal lead beside Newsom hold.",
+      "summary": "The Verge (Oct 1 ~17:12 UTC — held): Federal judge dismisses Chegg + Penske Media suits over Google AI Overviews — still policy/legal hold.",
       "url": "https://www.theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed",
       "sourceName": "The Verge",
       "sourceId": "theverge",
@@ -239,88 +237,61 @@
       "clusterId": "google-ai-overviews-dismissed"
     },
     {
-      "title": "Gavin Newsom Signs Bill Banning ‘Robo Bosses’ as Part of California Crackdown on AI",
-      "summary": "Gizmodo (Oct 1 ~15:55 UTC — held): Newsom signs CA package on AI workplace surveillance/layoffs, deepfakes, medical AI + ‘robo boss’ ban — still strongest US state-policy hold.",
-      "url": "https://gizmodo.com/gavin-newsom-signs-bill-banning-robo-bosses-as-part-of-california-crackdown-on-ai-2000820302",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "tags": [
-        "policy",
-        "agents"
-      ],
-      "publishedAt": "2026-10-01T15:55:08.000Z",
-      "clusterId": "newsom-robo-bosses"
-    },
-    {
-      "title": "Ideogram says its new model can edit part of an image without messing up the rest",
-      "summary": "THE DECODER (Oct 1 ~17:33 UTC — NEW): Ideogram local/partial image edit without wrecking the rest of the canvas — freshest midday generative-image model pick.",
-      "url": "https://the-decoder.com/ideogram-says-its-new-model-can-edit-part-of-an-image-without-messing-up-the-rest/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-01T17:33:03.000Z",
-      "clusterId": "ideogram-local-edit"
-    },
-    {
-      "title": "Always-on AI agents turn infrastructure into a continuous learning loop",
-      "summary": "SiliconANGLE (Oct 1 ~19:12 UTC — held): Cognition + CoreWeave on production agent infra — continuous training/reliability; still agents-infra color beside NEW Microsoft voice agents + Armadin.",
-      "url": "https://siliconangle.com/2026/10/01/cognition-scales-ai-agent-infrastructure-coreweave-fullyconnected/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
+      "title": "OpenAI’s new agent is a shot at Meta — but can it compete with free?",
+      "summary": "The Verge (Oct 1 ~14:36 UTC — held): Dots (GPT-6 Astra, Pro+) vs Meta Muse (free) — still consumer-agent product hold beside NEW Shopify Canvas.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
       "tags": [
         "agents",
-        "research"
+        "model-releases"
       ],
-      "publishedAt": "2026-10-01T19:12:01.000Z",
-      "clusterId": "always-on-ai-agents"
+      "publishedAt": "2026-10-01T14:36:50.000Z",
+      "clusterId": "muse-dots-battle"
     }
   ],
   "rumors": [
     {
       "title": "Google DeepMind reached RSI (wildfire rumor)",
-      "summary": "UNCONFIRMED X chatter: @kimmonismus amplifies DeepMind RSI claims via leaker circles — treat as rumor only; not Top confirmed. oEmbed re-verified midday (HTTP 200); no fresher verified X IDs this slot (xcancel 451; Signal SPA/no status IDs; Prismix headlines only).",
+      "summary": "UNCONFIRMED X chatter: @kimmonismus amplifies DeepMind RSI claims via leaker circles — treat as rumor only; not Top confirmed. oEmbed re-verified evening (HTTP 200 GET); no fresher verified X IDs this slot (Decoder CF-blocked; Signal SPA; Prismix headlines only; AI-TLDR empty; xcancel unused).",
       "url": "https://x.com/kimmonismus/status/2098679143030206735",
       "via": "@kimmonismus",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-02T02:55:00.000Z",
+      "harvestedAt": "2026-10-02T08:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Nvidia to invest up to $10B in Anthropic IPO",
-      "summary": "UNCONFIRMED X chatter: @financialjuice cites source on Nvidia investing up to $10B in Anthropic IPO — not confirmed by outlets in this harvest (pairs with NEW Anthropic pre-Thanksgiving IPO report as rumor only). oEmbed re-verified midday (HTTP 200).",
+      "summary": "UNCONFIRMED X chatter: @financialjuice cites source on Nvidia investing up to $10B in Anthropic IPO — not confirmed by outlets in this harvest (pairs with held Anthropic pre-Thanksgiving IPO report as rumor only). oEmbed re-verified evening (HTTP 200 GET).",
       "url": "https://x.com/financialjuice/status/2098546857920057371",
       "via": "@financialjuice",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-02T02:55:00.000Z",
+      "harvestedAt": "2026-10-02T08:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Thinking Machines talks $1B+ round at ~$40B",
-      "summary": "UNCONFIRMED X chatter: @wallstengine says Mira Murati's Thinking Machines in talks for $1B+ at ~$40B (Accel/Nvidia interest per TI) — rumor only. oEmbed re-verified midday (HTTP 200).",
+      "summary": "UNCONFIRMED X chatter: @wallstengine says Mira Murati's Thinking Machines in talks for $1B+ at ~$40B (Accel/Nvidia interest per TI) — rumor only. oEmbed re-verified evening (HTTP 200 GET).",
       "url": "https://x.com/wallstengine/status/2095569301923324153",
       "via": "@wallstengine",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-02T02:55:00.000Z",
+      "harvestedAt": "2026-10-02T08:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "OpenAI 'Bel' internally called AGI (pre-Sol rumor thread)",
-      "summary": "UNCONFIRMED X chatter: @kimmonismus Sep 21 thread claimed Sol leap + Opus response + Bel internally called AGI — Sol since shipped as GPT-6.1 Sol; Bel=AGI claim still unverified rumor. oEmbed re-verified midday (HTTP 200).",
+      "summary": "UNCONFIRMED X chatter: @kimmonismus Sep 21 thread claimed Sol leap + Opus response + Bel internally called AGI — Sol since shipped as GPT-6.1 Sol; Bel=AGI claim still unverified rumor. oEmbed re-verified evening (HTTP 200 GET).",
       "url": "https://x.com/kimmonismus/status/2101893653048303922",
       "via": "@kimmonismus",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-02T02:55:00.000Z",
+      "harvestedAt": "2026-10-02T08:55:00.000Z",
       "tags": [
         "rumor"
       ]
