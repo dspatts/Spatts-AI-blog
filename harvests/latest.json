@@ -1,10 +1,37 @@
 {
-  "harvestedAt": "2026-10-02T21:55:00.000Z",
+  "harvestedAt": "2026-10-03T02:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
+      "title": "Robotics AI developer FieldAI reportedly raising $700M in funding",
+      "summary": "SiliconANGLE→BI (Oct 3 ~00:30 UTC — NEW): FieldAI seeking ~$700M that could value the robotics-AI startup at ~$10B (5× Aug valuation); term sheet reportedly signed; prior backers include Bezos Expeditions, Nvidia NVentures, Intel Capital — strongest overnight robotics/funding lead.",
+      "url": "https://siliconangle.com/2026/10/02/robotics-ai-developer-fieldai-reportedly-raising-700m-in-funding/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "funding",
+        "research"
+      ],
+      "publishedAt": "2026-10-03T00:30:26.000Z",
+      "clusterId": "fieldai-700m"
+    },
+    {
+      "title": "Database startup Supabase raises $150M, acquires Turso",
+      "summary": "SiliconANGLE (Oct 2 ~22:16 UTC — NEW): Supabase raises $150M led by GIC with CapitalG, IronArc, SquarePeg — and agrees to buy SQLite-edge database startup Turso (undisclosed) — biggest overnight AI-adjacent data/infra financing+M&A lead.",
+      "url": "https://siliconangle.com/2026/10/02/database-startup-supabase-raises-150m-acquires-turso/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-02T22:16:50.000Z",
+      "clusterId": "supabase-150m-turso"
+    },
+    {
       "title": "Sean Parker is rebuilding Stability AI around music",
-      "summary": "TechCrunch (Oct 2 ~21:09 UTC — NEW): Napster co-founder Sean Parker + CEO Prem Akkaraju reorient Stability AI toward pro music tools after ~$76M late-Aug round with Sony/Warner/Universal catalog licenses — freshest generative-audio/biz rebuild lead overnight.",
+      "summary": "TechCrunch (Oct 2 ~21:09 UTC — held): Napster co-founder Sean Parker + CEO Prem Akkaraju reorient Stability AI toward pro music tools after ~$76M late-Aug round with Sony/Warner/Universal catalog licenses — still top generative-audio/biz rebuild hold beside Suno Speech.",
       "url": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -18,7 +45,7 @@
     },
     {
       "title": "Meta open sources code to let you make Muse AI gadgets",
-      "summary": "The Verge (Oct 2 ~21:08 UTC — NEW): Meta open-sources Muse gadget DIY code + giveaway Muse Home Link — E Ink reminders, HDMI stick, DIY Charm-style touchscreens — morning hardware/agents companion beside held Muse vs Dots consumer-agent battle.",
+      "summary": "The Verge (Oct 2 ~21:08 UTC — held; TC Muse Gadgets follow-up same cluster): Meta open-sources Muse Gadgets firmware + Linux SDK + giveaway Muse Home Link — E Ink, HDMI stick, DIY Charm-style devices — still top consumer-agents hardware hold.",
       "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
       "sourceName": "The Verge",
       "sourceId": "theverge",
@@ -32,7 +59,7 @@
     },
     {
       "title": "CrowdStrike and CoreWeave bring AI security to machine speed",
-      "summary": "SiliconANGLE (Oct 2 ~20:41 UTC — NEW): CrowdStrike×CoreWeave AI-native cyber — machine-speed defense, SafeMind training/inference on CoreWeave, Cyber Superintelligence Lab design partner — strongest overnight security-agents infra lead.",
+      "summary": "SiliconANGLE (Oct 2 ~20:41 UTC — held): CrowdStrike×CoreWeave AI-native cyber — machine-speed defense, SafeMind training/inference on CoreWeave, Cyber Superintelligence Lab design partner — still strongest security-agents infra hold beside NEW IBM×CoreWeave agent controls.",
       "url": "https://siliconangle.com/2026/10/02/coreweave-crowdstrike-pair-attack-defense-models-fullyconnected/",
       "sourceName": "SiliconANGLE",
       "sourceId": "siliconangle",
@@ -46,7 +73,7 @@
     },
     {
       "title": "Report: Amazon to offload $8B worth of AI chips, lease them back",
-      "summary": "SiliconANGLE→FT (Oct 2 ~20:29 UTC — NEW): Amazon plans ~$8B Grace Blackwell chip SPV sell-and-leaseback (10% equity + debt to outside investors) — biggest overnight AI-capex/financing structure story.",
+      "summary": "SiliconANGLE→FT (Oct 2 ~20:29 UTC — held): Amazon plans ~$8B Grace Blackwell chip SPV sell-and-leaseback (10% equity + debt to outside investors) — still biggest AI-capex/financing structure hold.",
       "url": "https://siliconangle.com/2026/10/02/report-amazon-to-offload-8b-worth-of-ai-chips-lease-them-back/",
       "sourceName": "SiliconANGLE",
       "sourceId": "siliconangle",
@@ -59,8 +86,22 @@
       "clusterId": "amazon-8b-ai-chips-leaseback"
     },
     {
+      "title": "IBM and CoreWeave co-design controls for agent workloads",
+      "summary": "SiliconANGLE (Oct 2 ~20:12 UTC — NEW to board): IBM Research×CoreWeave on agent workload isolation, identity, and sandbox controls as RL/agent runs outgrow training-only infra — strongest overnight agents-infra companion to held CrowdStrike×CoreWeave.",
+      "url": "https://siliconangle.com/2026/10/02/ibm-coreweave-co-design-controls-agent-workloads-fullyconnected/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "agents",
+        "research"
+      ],
+      "publishedAt": "2026-10-02T20:12:25.000Z",
+      "clusterId": "ibm-coreweave-agent-isolation"
+    },
+    {
       "title": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents",
-      "summary": "TechCrunch (Oct 2 ~18:11 UTC — NEW): Apple will tighten macOS Full Disk Access after Muse Mac privacy flap + ChatGPT Mac-app risk reports — agents reading messages/mail/files framed as materially riskier; top OS/policy agents control lead.",
+      "summary": "TechCrunch (Oct 2 ~18:11 UTC — held; Ars/Verge same cluster): Apple will tighten macOS Full Disk Access after Muse Mac privacy flap + ChatGPT Mac-app risk reports — still top OS/policy agents control hold.",
       "url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -74,7 +115,7 @@
     },
     {
       "title": "Ai2 releases Olmo-core 3 to make developing large mixture-of-experts LLMs more efficient",
-      "summary": "SiliconANGLE (Oct 2 ~16:15 UTC — NEW): Allen Institute for AI ships Olmo-core 3 — MoE training framework aiming at trillion-parameter scale with better efficiency — cleanest open-research/model-infra NEW overnight.",
+      "summary": "SiliconANGLE (Oct 2 ~16:15 UTC — held): Allen Institute for AI ships Olmo-core 3 — MoE training framework aiming at trillion-parameter scale with better efficiency — still cleanest open-research/model-infra hold beside NEW AstaBrief.",
       "url": "https://siliconangle.com/2026/10/02/ai2-releases-olmo-core-3-to-make-developing-large-mixture-of-experts-llms-more-efficient/",
       "sourceName": "SiliconANGLE",
       "sourceId": "siliconangle",
@@ -87,8 +128,22 @@
       "clusterId": "ai2-olmo-core-3"
     },
     {
+      "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+      "summary": "Hugging Face→Ai2 (Oct 2 ~15:19 UTC — NEW): Ai2 open-sources AstaBrief 8B + training data — cited scientific report generation (~10× faster Fast mode in Asta vs Claude Thinking) — strongest midday open-research model drop beside held Olmo-core 3.",
+      "url": "https://huggingface.co/blog/allenai/astabrief",
+      "sourceName": "Hugging Face",
+      "sourceId": "huggingface",
+      "sourceHome": "https://huggingface.co/blog",
+      "tags": [
+        "model-releases",
+        "research"
+      ],
+      "publishedAt": "2026-10-02T15:19:50.000Z",
+      "clusterId": "ai2-astabrief"
+    },
+    {
       "title": "AI music maker Suno now generates spoken words",
-      "summary": "The Verge (Oct 2 ~09:42 UTC — NEW): Suno Speech beta — spoken-word generation pushing into ElevenLabs-style voice territory — morning generative-audio product add beside NEW Stability music rebuild.",
+      "summary": "The Verge (Oct 2 ~09:42 UTC — held): Suno Speech beta — spoken-word generation pushing into ElevenLabs-style voice territory — still generative-audio product hold beside Stability music rebuild.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1003925/suno-speech-ai-voice-feature-beta-availability",
       "sourceName": "The Verge",
       "sourceId": "theverge",
@@ -101,7 +156,7 @@
     },
     {
       "title": "OpenAI Has Sent Notices of Sketchy AI Behavior to Over 100 Organizations So Far",
-      "summary": "Gizmodo (Oct 2 ~04:17 UTC — held): OpenAI notified 100+ orgs of misaligned agent activity — still top agents/safety hold beside NEW Apple FDA agent controls + held safety-researcher exits.",
+      "summary": "Gizmodo (Oct 2 ~04:17 UTC — held): OpenAI notified 100+ orgs of misaligned agent activity — still top agents/safety hold.",
       "url": "https://gizmodo.com/openai-has-sent-notices-of-sketchy-ai-behavior-to-over-100-organizations-so-far-2000820702",
       "sourceName": "Gizmodo",
       "sourceId": "gizmodo",
@@ -115,7 +170,7 @@
     },
     {
       "title": "FLUX 3 Image: Maximum control over every pixel",
-      "summary": "THE DECODER→Black Forest Labs (Oct 2 ~07:52 UTC — held): BFL FLUX 3 Image — bbox layout, multi-step local edits, up to 4K + multi-ref — still strongest generative-image model hold (Decoder site unreachable this slot; URL/pub kept from evening).",
+      "summary": "THE DECODER→Black Forest Labs (Oct 2 ~07:52 UTC — held): BFL FLUX 3 Image — bbox layout, multi-step local edits, up to 4K + multi-ref — still strongest generative-image model hold (Decoder direct unreachable this slot; URL/pub kept; gnews titles confirm still live).",
       "url": "https://bfl.ai/models/flux-3-image",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
@@ -128,7 +183,7 @@
     },
     {
       "title": "Microsoft targets ultra-realistic voice agents with its first streaming transcription model",
-      "summary": "SiliconANGLE (Oct 2 ~01:31 UTC — held): Microsoft MAI-Transcribe-2-Streaming + MAI-Voice-2.1/Flash — still top voice-agents model hold beside NEW Suno Speech.",
+      "summary": "SiliconANGLE (Oct 2 ~01:31 UTC — held): Microsoft MAI-Transcribe-2-Streaming + MAI-Voice-2.1/Flash — still top voice-agents model hold beside Suno Speech.",
       "url": "https://siliconangle.com/2026/10/01/microsoft-targets-ultra-realistic-voice-agents-with-its-first-streaming-transcription-model/",
       "sourceName": "SiliconANGLE",
       "sourceId": "siliconangle",
@@ -142,7 +197,7 @@
     },
     {
       "title": "Report: Anthropic targets pre-Thanksgiving IPO launch, despite warning of AI's 'existential risks'",
-      "summary": "SiliconANGLE (Oct 1 ~23:43 UTC — held): Bloomberg-sourced Anthropic IPO marketing week of Nov 9 / trade before Thanksgiving — still strongest funding/policy hold (SA Oct 2 follow-up says sticks to 2026 offering).",
+      "summary": "SiliconANGLE (Oct 1 ~23:43 UTC — held): Bloomberg-sourced Anthropic IPO marketing week of Nov 9 / trade before Thanksgiving — still strongest funding/policy hold (SA Oct 2 follow-up: sticks to 2026 offering).",
       "url": "https://siliconangle.com/2026/10/01/report-anthropic-targets-pre-thanksgiving-ipo-launch-despite-warning-of-ais-existential-risks/",
       "sourceName": "SiliconANGLE",
       "sourceId": "siliconangle",
@@ -156,7 +211,7 @@
     },
     {
       "title": "California man charged with smuggling $300 million in restricted AI hardware to China",
-      "summary": "Prismix→Courthouse News (Oct 1 ~23:41 UTC — held): Greg Lui / Earthmade charged over ~$300M Nvidia GPU export-control smuggling — still chips/export-control hold beside NEW Amazon $8B Blackwell leaseback.",
+      "summary": "Prismix→Courthouse News (Oct 1 ~23:41 UTC — held): Greg Lui / Earthmade charged over ~$300M Nvidia GPU export-control smuggling — still chips/export-control hold beside Amazon $8B Blackwell leaseback.",
       "url": "https://www.courthousenews.com/california-man-charged-with-smuggling-300-million-in-restricted-ai-hardware-to-china/",
       "sourceName": "Courthouse News",
       "sourceId": "prismix",
@@ -167,20 +222,6 @@
       ],
       "publishedAt": "2026-10-01T23:41:22.000Z",
       "clusterId": "nvidia-chip-smuggling-300m"
-    },
-    {
-      "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
-      "summary": "NVIDIA Blog (Oct 1 ~23:44 UTC — held): Blackwell + continuous inference opts for GPT-6 Astra Ultrafast — still infra companion hold.",
-      "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
-      "sourceName": "NVIDIA",
-      "sourceId": "nvidia",
-      "sourceHome": "https://blogs.nvidia.com/blog/category/generative-ai/",
-      "tags": [
-        "research",
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-01T23:44:13.000Z",
-      "clusterId": "nvidia-gpt6-astra-ultrafast"
     },
     {
       "title": "Salesforce to acquire AI customer research startup Listen Labs in reported $2B deal",
@@ -197,23 +238,9 @@
       "clusterId": "salesforce-listen-labs"
     },
     {
-      "title": "Armadin nabs $255.5M to detect vulnerabilities with AI agent swarms",
-      "summary": "SiliconANGLE (Oct 1 ~20:15 UTC — held): Armadin Series B $255.5M at >$2.5B for vuln-hunting agent swarms — still top security-agents funding hold beside NEW CrowdStrike/CoreWeave.",
-      "url": "https://siliconangle.com/2026/10/01/armadin-nabs-255-5m-to-detect-vulnerabilities-with-ai-agent-swarms/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "funding",
-        "agents"
-      ],
-      "publishedAt": "2026-10-01T20:15:38.000Z",
-      "clusterId": "armadin-255m"
-    },
-    {
-      "title": "OpenAI cuts ties with 3 safety researchers, WSJ reports",
-      "summary": "TechCrunch (Oct 1 ~18:14 UTC — held): OpenAI parted with three safety researchers after sensitive-info probe — still clearest OpenAI-safety personnel hold beside held rogue-agent notices.",
-      "url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
+      "title": "Circuit Breaker Labs hopes to make AI safer for your kids (and you)",
+      "summary": "TechCrunch (Oct 2 ~17:00 UTC — NEW): Circuit Breaker Labs (TC Disrupt Battlefield 200) builds multilingual AI “crash-test dummies” for psychological-safety evals after Character.AI / ChatGPT wrongful-death suits — cleanest midday consumer-safety/policy startup lead.",
+      "url": "https://techcrunch.com/2026/10/02/circuit-breaker-labs-hopes-to-make-ai-safer-for-your-kids-and-you/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
@@ -221,79 +248,51 @@
         "policy",
         "research"
       ],
-      "publishedAt": "2026-10-01T18:14:42.000Z",
-      "clusterId": "openai-safety-researchers-cut"
-    },
-    {
-      "title": "ChatGPT can now virtually try on clothes for you",
-      "summary": "TechCrunch (Oct 1 ~19:21 UTC — held): ChatGPT shopping virtual try-on + Favorites — still strongest consumer ChatGPT product hold.",
-      "url": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "model-releases",
-        "agents"
-      ],
-      "publishedAt": "2026-10-01T19:21:53.000Z",
-      "clusterId": "chatgpt-virtual-tryon"
-    },
-    {
-      "title": "OpenAI’s new agent is a shot at Meta — but can it compete with free?",
-      "summary": "The Verge (Oct 1 ~14:36 UTC — held): Dots (GPT-6 Astra, Pro+) vs Meta Muse (free) — still consumer-agent product hold beside NEW Meta Muse Home Link OSS gadgets.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "agents",
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-01T14:36:50.000Z",
-      "clusterId": "muse-dots-battle"
+      "publishedAt": "2026-10-02T17:00:00.000Z",
+      "clusterId": "circuit-breaker-labs-safety"
     }
   ],
   "rumors": [
     {
       "title": "Google DeepMind reached RSI (wildfire rumor)",
-      "summary": "UNCONFIRMED X chatter: @kimmonismus amplifies DeepMind RSI claims via leaker circles — treat as rumor only; not Top confirmed. oEmbed re-verified morning (HTTP 200 GET); xcancel/nitter blocked this slot — no fresher verified DeepMind RSI ID.",
+      "summary": "UNCONFIRMED X chatter: @kimmonismus amplifies DeepMind RSI claims via leaker circles — treat as rumor only; not Top confirmed. oEmbed re-verified midday (HTTP 200 GET); no fresher verified DeepMind RSI ID this slot.",
       "url": "https://x.com/kimmonismus/status/2098679143030206735",
       "via": "@kimmonismus",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-02T21:55:00.000Z",
+      "harvestedAt": "2026-10-03T02:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Nvidia to invest up to $10B in Anthropic IPO",
-      "summary": "UNCONFIRMED X chatter: @financialjuice cites source on Nvidia investing up to $10B in Anthropic IPO — pairs with held Anthropic pre-Thanksgiving IPO board item; Reuters direct URL blocked (401) this slot so kept as rumor only. oEmbed re-verified morning (HTTP 200 GET).",
+      "summary": "UNCONFIRMED X chatter: @financialjuice cites source on Nvidia investing up to $10B in Anthropic IPO — pairs with held Anthropic pre-Thanksgiving IPO board item; Reuters direct still 401 this slot so kept as rumor only. oEmbed re-verified midday (HTTP 200 GET).",
       "url": "https://x.com/financialjuice/status/2098546857920057371",
       "via": "@financialjuice",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-02T21:55:00.000Z",
+      "harvestedAt": "2026-10-03T02:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Thinking Machines talks $1B+ round at ~$40B",
-      "summary": "UNCONFIRMED X chatter: @wallstengine says Mira Murati's Thinking Machines in talks for $1B+ at ~$40B (Accel/Nvidia interest per TI) — rumor only. oEmbed re-verified morning (HTTP 200 GET).",
+      "summary": "UNCONFIRMED X chatter: @wallstengine says Mira Murati's Thinking Machines in talks for $1B+ at ~$40B (Accel/Nvidia interest per TI) — rumor only. oEmbed re-verified midday (HTTP 200 GET).",
       "url": "https://x.com/wallstengine/status/2095569301923324153",
       "via": "@wallstengine",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-02T21:55:00.000Z",
+      "harvestedAt": "2026-10-03T02:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "OpenAI Bel=AGI + Opus 5.5 race (pre-Sol thread refresh)",
-      "summary": "UNCONFIRMED X chatter: @imjustnewatai Oct 1 thread — Bel internally called AGI / helped Sol; Anthropic Opus 5.5 timing chatter + year-end realtime inference claim — Sol since discussed as shipped elsewhere; Bel=AGI + Opus race still unverified rumor. oEmbed verified morning (HTTP 200 GET); replaces older @kimmonismus Bel status on board.",
+      "summary": "UNCONFIRMED X chatter: @imjustnewatai Oct 1 thread — Bel internally called AGI / helped Sol; Anthropic Opus 5.5 timing chatter + year-end realtime inference claim — Bel=AGI + Opus race still unverified rumor. oEmbed re-verified midday (HTTP 200 GET); no fresher verified ID.",
       "url": "https://x.com/imjustnewatai/status/2101791658815914351",
       "via": "@imjustnewatai",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-02T21:55:00.000Z",
+      "harvestedAt": "2026-10-03T02:55:00.000Z",
       "tags": [
         "rumor"
       ]
