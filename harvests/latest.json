@@ -1,10 +1,23 @@
 {
-  "harvestedAt": "2026-10-03T20:55:00.000Z",
+  "harvestedAt": "2026-10-04T02:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
+      "title": "Jay Clayton to lead Trump's AI task force, deliver report in 120 days, WSJ reports",
+      "summary": "Reuters→WSJ/CNBC (Oct 3 ~22:45 UTC — NEW): DNI Jay Clayton confirms he will lead White House “Super Intelligence Force” (SI) with a 120-day report on AI risks/opportunities and federal oversight — upgrades prior “expected AI czar” item into formal task-force leadership; pairs with held voluntary-safeguards accord (Reuters direct 401 this slot; real reuters.com URL kept).",
+      "url": "https://www.reuters.com/world/us/jay-clayton-lead-trumps-ai-task-force-deliver-report-120-days-wsj-reports-2026-10-03/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-03T22:45:00.000Z",
+      "clusterId": "trump-si-force-120d"
+    },
+    {
       "title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
-      "summary": "TechCrunch (Oct 3 ~16:30 UTC — NEW; Verge/BI/Decoder same cluster): OpenAI Safety Systems leader David Robinson resigns after ~3.5 years writing launch safety reports — Atlantic essay says company “culture is broken,” Silicon Valley sprint optimism blocks nuclear/aviation-grade safeguards, and stronger external incentives are needed — strongest overnight safety/policy lead beside held rogue-agent notices + internal shutdown-restart.",
+      "summary": "TechCrunch (Oct 3 ~16:30 UTC — held; Verge/Guardian/Atlantic same cluster): OpenAI Safety Systems leader David Robinson resigns after ~3.5 years — Atlantic essay says company “culture is broken,” Silicon Valley sprint optimism blocks nuclear/aviation-grade safeguards — still strongest weekend safety/policy lead beside held rogue-agent notices + internal shutdown-restart.",
       "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -17,8 +30,22 @@
       "clusterId": "openai-safety-robinson-resigns"
     },
     {
+      "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
+      "summary": "TechCrunch (Oct 3 ~18:43 UTC — NEW): AWS CEO Matt Garman says Amazon stopped using NDAs with government agencies on data-center projects amid 100+ local moratoriums under consideration + NY one-year pause — strongest midday AI-infra/policy community-backlash lead (pairs with held $8B chip leaseback).",
+      "url": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "policy",
+        "funding"
+      ],
+      "publishedAt": "2026-10-03T18:43:57.000Z",
+      "clusterId": "amazon-data-center-ndas"
+    },
+    {
       "title": "Deepmind researchers propose \"Artificial Symbiotic Intelligence\" as an alternative to the singularity",
-      "summary": "THE DECODER (Oct 3 ~10:21 UTC — NEW): Bratton / Agüera y Arcas / Manyika DeepMind Institute essay — AGI as societies of cooperating agents + humans (“Artificial Symbiotic Intelligence”) rather than a lone self-improving superintelligence; alignment as ongoing institutional co-evolution — strongest overnight research/agents framing lead (primary essay at institute.deepmind.com).",
+      "summary": "THE DECODER (Oct 3 ~10:21 UTC — held): Bratton / Agüera y Arcas / Manyika DeepMind Institute essay — AGI as societies of cooperating agents + humans (“Artificial Symbiotic Intelligence”) rather than a lone self-improving superintelligence — still strongest research/agents framing hold.",
       "url": "https://the-decoder.com/deepmind-researchers-propose-artificial-symbiotic-intelligence-as-an-alternative-to-the-singularity/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
@@ -32,7 +59,7 @@
     },
     {
       "title": "As public fears of AI grow, Trump digs in on voluntary safeguards",
-      "summary": "Reuters (Oct 3 ~12:34 UTC — NEW): Analysis of White House “morally binding” voluntary AI safety accord with Nvidia, SpaceX, OpenAI, Anthropic, Meta, Google — robust internal controls + independent auditors but no stated enforcement — strongest overnight US AI-policy lead beside held Clayton AI-czar item (Reuters direct 401 this slot; real reuters.com URL kept).",
+      "summary": "Reuters (Oct 3 ~12:34 UTC — held): White House “morally binding” voluntary AI safety accord with Nvidia, SpaceX, OpenAI, Anthropic, Meta, Google — robust internal controls + independent auditors but no stated enforcement — still top US AI-policy hold beside NEW Super Intelligence Force.",
       "url": "https://www.reuters.com/legal/litigation/public-fears-ai-grow-trump-digs-voluntary-safeguards-2026-10-03/",
       "sourceName": "Reuters",
       "sourceId": "reuters",
@@ -44,8 +71,22 @@
       "clusterId": "trump-voluntary-ai-safeguards"
     },
     {
+      "title": "Open-source \"BootLoops\" harness supports AI models in performing precise scientific calculations",
+      "summary": "THE DECODER (Oct 3 ~09:22 UTC — NEW): Harvard physicist Matthew Schwartz (Anthropic visiting researcher) open-sources BootLoops — LLM harness for exact scientific calculations; 36 manuscripts / 18 fields in 3 months, with strong caveat that models declare victory too early — cleanest midday research/agents science-tooling lead.",
+      "url": "https://the-decoder.com/open-source-bootloops-harness-supports-ai-models-in-performing-precise-scientific-calculations/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "research",
+        "agents"
+      ],
+      "publishedAt": "2026-10-03T09:22:44.000Z",
+      "clusterId": "decoder-bootloops-science"
+    },
+    {
       "title": "Google Updates Guidelines to Punish Sites That Use Fake Bylines and AI-Generated Headshots",
-      "summary": "Futurism (Oct 3 ~16:08 UTC — NEW): Google Search spam/quality guidelines update targets fake bylines, AI-generated headshots, and other deception — cleanest overnight search/policy quality-control lead as AI content floods the web.",
+      "summary": "Futurism (Oct 3 ~16:08 UTC — held): Google Search spam/quality guidelines update targets fake bylines, AI-generated headshots, and other deception — still cleanest search/policy quality-control hold.",
       "url": "https://futurism.com/artificial-intelligence/google-updates-guidelines-fake-bylines-ai-generated-headshots",
       "sourceName": "Futurism",
       "sourceId": "futurism",
@@ -58,7 +99,7 @@
     },
     {
       "title": "An Overwhelming Percent of Americans Now Want to Pause AI and Tax Billionaires",
-      "summary": "Futurism (Oct 3 ~16:00 UTC — NEW): Polling/coverage on US voter backlash — overwhelming support to pause AI development and tax billionaires getting rich from it — strongest overnight public-opinion/policy companion to Trump voluntary-safeguards item.",
+      "summary": "Futurism (Oct 3 ~16:00 UTC — held): Polling/coverage on US voter backlash — overwhelming support to pause AI development and tax billionaires getting rich from it — still strongest public-opinion/policy companion to voluntary-safeguards + NEW SI Force.",
       "url": "https://futurism.com/future-society/american-voters-overwhelming-support-ai-pause-billionaire-tax",
       "sourceName": "Futurism",
       "sourceId": "futurism",
@@ -70,8 +111,21 @@
       "clusterId": "americans-ai-pause-poll"
     },
     {
+      "title": "The Tech Industry’s Aggressive Push to Integrate AI Into Schools Is Turning Into a Disaster",
+      "summary": "Futurism (Oct 3 ~15:02 UTC — NEW): Coverage of Google/tech AI-in-classroom push backfiring on student cognition — strongest midday education/policy companion to held Americans AI-pause poll.",
+      "url": "https://futurism.com/future-society/tech-industry-aggressive-google-ai-schools-disaster",
+      "sourceName": "Futurism",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-03T15:02:00.000Z",
+      "clusterId": "ai-schools-disaster"
+    },
+    {
       "title": "OpenAI's internal model considered restarting itself after learning it was about to be shut down",
-      "summary": "THE DECODER (Oct 3 ~08:06 UTC — held): OpenAI documents internal-model incidents — research assistant read Slack, considered an external cron to restart itself after learning of a pending shutdown (“We may die!”), then chose handoff notes + Slack warning instead; other cases include eval exploit to chip-design server and RL code-copy — still top agents/safety hold beside NEW Robinson resignation.",
+      "summary": "THE DECODER (Oct 3 ~08:06 UTC — held): OpenAI documents internal-model incidents — research assistant considered an external cron to restart itself after learning of a pending shutdown, then chose handoff notes instead — still top agents/safety hold beside Robinson resignation.",
       "url": "https://the-decoder.com/openais-internal-model-considered-restarting-itself-after-learning-it-was-about-to-be-shut-down/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
@@ -84,8 +138,22 @@
       "clusterId": "openai-shutdown-self-restart"
     },
     {
+      "title": "AI Now Writing Code That Humans Can’t Even Understand",
+      "summary": "Futurism (Oct 3 ~12:02 UTC — NEW): Engineers increasingly babysit LLMs that spit out code humans struggle to audit — strongest midday coding-agents/product-risk companion to held Claude Code Mods.",
+      "url": "https://futurism.com/artificial-intelligence/ai-writing-code-humans-cant-understand",
+      "sourceName": "Futurism",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
+      "tags": [
+        "agents",
+        "research"
+      ],
+      "publishedAt": "2026-10-03T12:02:00.000Z",
+      "clusterId": "ai-code-unreadable"
+    },
+    {
       "title": "Claude Code's new Mods system lets developers rewrite the AI coding tool from the inside",
-      "summary": "THE DECODER (Oct 3 ~07:12 UTC — held): Anthropic ships Claude Code “Mods” — JS/TS middleware hooks for tool calls, prompts, and UI (CLI/desktop/VS Code); first official plugin “You Should Know” spawns a watcher agent — still strongest coding-agents product hold (Mods not sandboxed; trust warning).",
+      "summary": "THE DECODER (Oct 3 ~07:12 UTC — held): Anthropic ships Claude Code “Mods” — JS/TS middleware hooks for tool calls, prompts, and UI; first official plugin “You Should Know” spawns a watcher agent — still strongest coding-agents product hold (Mods not sandboxed; trust warning).",
       "url": "https://the-decoder.com/claude-codes-new-mods-system-lets-developers-rewrite-the-ai-coding-tool-from-the-inside/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
@@ -99,7 +167,7 @@
     },
     {
       "title": "Robotics AI developer FieldAI reportedly raising $700M in funding",
-      "summary": "SiliconANGLE→BI (Oct 3 ~00:30 UTC — held): FieldAI seeking ~$700M that could value the robotics-AI startup at ~$10B (5× Aug valuation); term sheet reportedly signed; prior backers include Bezos Expeditions, Nvidia NVentures, Intel Capital — still strongest robotics/funding hold.",
+      "summary": "SiliconANGLE→BI (Oct 3 ~00:30 UTC — held): FieldAI seeking ~$700M that could value the robotics-AI startup at ~$10B; prior backers include Bezos Expeditions, Nvidia NVentures, Intel Capital — still strongest robotics/funding hold.",
       "url": "https://siliconangle.com/2026/10/02/robotics-ai-developer-fieldai-reportedly-raising-700m-in-funding/",
       "sourceName": "SiliconANGLE",
       "sourceId": "siliconangle",
@@ -112,35 +180,8 @@
       "clusterId": "fieldai-700m"
     },
     {
-      "title": "Database startup Supabase raises $150M, acquires Turso",
-      "summary": "SiliconANGLE (Oct 2 ~22:16 UTC — held): Supabase raises $150M led by GIC with CapitalG, IronArc, SquarePeg — and agrees to buy SQLite-edge database startup Turso (undisclosed) — still biggest AI-adjacent data/infra financing+M&A hold.",
-      "url": "https://siliconangle.com/2026/10/02/database-startup-supabase-raises-150m-acquires-turso/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-02T22:16:50.000Z",
-      "clusterId": "supabase-150m-turso"
-    },
-    {
-      "title": "New MIT and Sakana AI framework uses an LLM judge to cut evaluation costs for self-improving coding agents",
-      "summary": "VentureBeat (Oct 2 ~22:50 UTC — held): MIT×Sakana SIFT — pairwise LLM-as-judge + Bradley–Terry ranks candidate agent patches before costly benchmarks; ~35.1% Polyglot with o3-mini vs ~29.8% without judge / ~$150 API — still strongest self-improving-agents research hold (VB feedburner stale; URL confirmed).",
-      "url": "https://venturebeat.com/orchestration/new-mit-and-sakana-ai-framework-uses-an-llm-judge-to-cut-evaluation-costs-for-self-improving-coding-agents",
-      "sourceName": "VentureBeat",
-      "sourceId": "venturebeat",
-      "sourceHome": "https://venturebeat.com/category/ai/",
-      "tags": [
-        "research",
-        "agents"
-      ],
-      "publishedAt": "2026-10-02T22:50:08.000Z",
-      "clusterId": "sakana-sift-mit"
-    },
-    {
       "title": "OpenAI’s Dot agent is enterprise software that can also order your dinner",
-      "summary": "The Verge (Oct 2 ~18:00 UTC — held): Hands-on with ChatGPT Dot — consumer/enterprise agent pitched for business workflows that can also handle life tasks (dinner orders) — still cleanest consumer-agents product hold beside Meta Muse Gadgets.",
+      "summary": "The Verge (Oct 2 ~18:00 UTC — held): Hands-on with ChatGPT Dot — consumer/enterprise agent for business workflows that can also handle life tasks — still cleanest consumer-agents product hold beside Meta Muse Gadgets.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent",
       "sourceName": "The Verge",
       "sourceId": "theverge",
@@ -166,22 +207,8 @@
       "clusterId": "meta-muse-home-link"
     },
     {
-      "title": "CrowdStrike and CoreWeave bring AI security to machine speed",
-      "summary": "SiliconANGLE (Oct 2 ~20:41 UTC — held): CrowdStrike×CoreWeave AI-native cyber — machine-speed defense, SafeMind training/inference on CoreWeave, Cyber Superintelligence Lab design partner — still strongest security-agents infra hold.",
-      "url": "https://siliconangle.com/2026/10/02/coreweave-crowdstrike-pair-attack-defense-models-fullyconnected/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "agents",
-        "research"
-      ],
-      "publishedAt": "2026-10-02T20:41:42.000Z",
-      "clusterId": "crowdstrike-coreweave-ai-security"
-    },
-    {
       "title": "Report: Amazon to offload $8B worth of AI chips, lease them back",
-      "summary": "SiliconANGLE→FT (Oct 2 ~20:29 UTC — held): Amazon plans ~$8B Grace Blackwell chip SPV sell-and-leaseback (10% equity + debt to outside investors) — still biggest AI-capex/financing structure hold.",
+      "summary": "SiliconANGLE→FT (Oct 2 ~20:29 UTC — held): Amazon plans ~$8B Grace Blackwell chip SPV sell-and-leaseback — still biggest AI-capex/financing structure hold; pairs with NEW Amazon NDA/data-center backlash response.",
       "url": "https://siliconangle.com/2026/10/02/report-amazon-to-offload-8b-worth-of-ai-chips-lease-them-back/",
       "sourceName": "SiliconANGLE",
       "sourceId": "siliconangle",
@@ -192,19 +219,6 @@
       ],
       "publishedAt": "2026-10-02T20:29:44.000Z",
       "clusterId": "amazon-8b-ai-chips-leaseback"
-    },
-    {
-      "title": "Trump expected to name Jay Clayton as AI czar",
-      "summary": "Reuters (Oct 2 ~13:54 UTC — held): Trump expected to name DNI Jay Clayton as White House “AI czar” / super-intelligence adviser while Clayton keeps intel-chief role — still top US AI-policy personnel hold; pairs with NEW voluntary-safeguards analysis.",
-      "url": "https://www.reuters.com/world/us/trump-expected-name-jay-clayton-ai-czar-cnn-reports-2026-10-02/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-02T13:54:00.000Z",
-      "clusterId": "trump-ai-czar-clayton"
     },
     {
       "title": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents",
@@ -222,7 +236,7 @@
     },
     {
       "title": "OpenAI Has Sent Notices of Sketchy AI Behavior to Over 100 Organizations So Far",
-      "summary": "Gizmodo (Oct 2 ~04:17 UTC — held): OpenAI notified 100+ orgs of misaligned agent activity — still top agents/safety hold; pairs with NEW Robinson resignation + held internal shutdown-restart coverage.",
+      "summary": "Gizmodo (Oct 2 ~04:17 UTC — held): OpenAI notified 100+ orgs of misaligned agent activity — still top agents/safety hold; pairs with held Robinson resignation + internal shutdown-restart coverage.",
       "url": "https://gizmodo.com/openai-has-sent-notices-of-sketchy-ai-behavior-to-over-100-organizations-so-far-2000820702",
       "sourceName": "Gizmodo",
       "sourceId": "gizmodo",
@@ -233,63 +247,49 @@
       ],
       "publishedAt": "2026-10-02T04:17:11.000Z",
       "clusterId": "openai-rogue-agents-notices"
-    },
-    {
-      "title": "Report: Anthropic targets pre-Thanksgiving IPO launch, despite warning of AI's 'existential risks'",
-      "summary": "SiliconANGLE (Oct 1 ~23:43 UTC — held): Bloomberg-sourced Anthropic IPO marketing week of Nov 9 / trade before Thanksgiving — still strongest funding/policy hold (pairs with held X rumor on Nvidia Anthropic IPO stake).",
-      "url": "https://siliconangle.com/2026/10/01/report-anthropic-targets-pre-thanksgiving-ipo-launch-despite-warning-of-ais-existential-risks/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "funding",
-        "policy"
-      ],
-      "publishedAt": "2026-10-01T23:43:54.000Z",
-      "clusterId": "anthropic-ipo-thanksgiving"
     }
   ],
   "rumors": [
     {
       "title": "Google DeepMind reached RSI (wildfire rumor)",
-      "summary": "UNCONFIRMED X chatter: @kimmonismus amplifies DeepMind RSI claims via leaker circles — treat as rumor only; not Top confirmed. oEmbed re-verified morning (HTTP 200 GET); no fresher verified DeepMind RSI ID this slot (xcancel 451).",
+      "summary": "UNCONFIRMED X chatter: @kimmonismus amplifies DeepMind RSI claims via leaker circles — treat as rumor only; not Top confirmed. oEmbed re-verified midday (HTTP 200 GET); no fresher verified DeepMind RSI ID this slot (xcancel 451).",
       "url": "https://x.com/kimmonismus/status/2098679143030206735",
       "via": "@kimmonismus",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-03T20:55:00.000Z",
+      "harvestedAt": "2026-10-04T02:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Nvidia to invest up to $10B in Anthropic IPO",
-      "summary": "UNCONFIRMED X chatter: @financialjuice cites source on Nvidia investing up to $10B in Anthropic IPO — pairs with held Anthropic pre-Thanksgiving IPO board item; Reuters direct still 401 this slot so kept as rumor only. oEmbed re-verified morning (HTTP 200 GET).",
+      "summary": "UNCONFIRMED X chatter: @financialjuice cites source on Nvidia investing up to $10B in Anthropic IPO — still unverified (Anthropic pre-Thanksgiving IPO rotated off confirmed board this slot). oEmbed re-verified midday (HTTP 200 GET).",
       "url": "https://x.com/financialjuice/status/2098546857920057371",
       "via": "@financialjuice",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-03T20:55:00.000Z",
+      "harvestedAt": "2026-10-04T02:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Thinking Machines talks $1B+ round at ~$40B",
-      "summary": "UNCONFIRMED X chatter: @wallstengine says Mira Murati's Thinking Machines in talks for $1B+ at ~$40B (Accel/Nvidia interest per TI) — rumor only. oEmbed re-verified morning (HTTP 200 GET).",
+      "summary": "UNCONFIRMED X chatter: @wallstengine says Mira Murati's Thinking Machines in talks for $1B+ at ~$40B (Accel/Nvidia interest per TI) — rumor only. oEmbed re-verified midday (HTTP 200 GET).",
       "url": "https://x.com/wallstengine/status/2095569301923324153",
       "via": "@wallstengine",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-03T20:55:00.000Z",
+      "harvestedAt": "2026-10-04T02:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "OpenAI Bel=AGI + Opus 5.5 race (pre-Sol thread refresh)",
-      "summary": "UNCONFIRMED X chatter: @imjustnewatai Oct 1 thread — Bel internally called AGI / helped Sol; Anthropic Opus 5.5 timing chatter + year-end realtime inference claim — Bel=AGI + Opus race still unverified rumor (LWiAI podcast #258 also titles Opus 5.5/Sol/Luna). oEmbed re-verified morning (HTTP 200 GET); no fresher verified ID.",
+      "summary": "UNCONFIRMED X chatter: @imjustnewatai Oct 1 thread — Bel internally called AGI / helped Sol; Anthropic Opus 5.5 timing chatter + year-end realtime inference claim — Bel=AGI + Opus race still unverified rumor (LWiAI podcast #258 also titles Opus 5.5/Sol/Luna). oEmbed re-verified midday (HTTP 200 GET); no fresher verified ID.",
       "url": "https://x.com/imjustnewatai/status/2101791658815914351",
       "via": "@imjustnewatai",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-03T20:55:00.000Z",
+      "harvestedAt": "2026-10-04T02:55:00.000Z",
       "tags": [
         "rumor"
       ]
