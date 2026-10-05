@@ -1,10 +1,23 @@
 {
-  "harvestedAt": "2026-10-04T08:55:00.000Z",
+  "harvestedAt": "2026-10-04T20:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
+      "title": "Trump unveils his new Super Intelligence Force",
+      "summary": "Trump formally announced a Super Intelligence Force chaired by national intelligence director Jay Clayton, with FTC chair Andrew Ferguson, Emil Michael and Scott Kupor as vice chairs; it reportedly has 120 days to report on AI risks and opportunities while avoiding 'overregulation'.",
+      "url": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-04T15:15:10.000Z",
+      "clusterId": "trump-si-force-120d"
+    },
+    {
       "title": "Jay Clayton to lead Trump's AI task force, deliver report in 120 days, WSJ reports",
-      "summary": "Reuters\u2192WSJ/CNBC (Oct 3 ~22:45 UTC \u2014 held): DNI Jay Clayton confirms he will lead White House \u201cSuper Intelligence Force\u201d (SI) with a 120-day report on AI risks/opportunities and federal oversight \u2014 still strongest evening US AI-policy lead beside held voluntary-safeguards accord (Reuters direct still 401; real reuters.com URL kept).",
+      "summary": "Reuters→WSJ/CNBC (Oct 3 ~22:45 UTC — held): DNI Jay Clayton confirms he will lead White House “Super Intelligence Force” (SI) with a 120-day report on AI risks/opportunities and federal oversight — still strongest evening US AI-policy lead beside held voluntary-safeguards accord (Reuters direct still 401; real reuters.com URL kept).",
       "url": "https://www.reuters.com/world/us/jay-clayton-lead-trumps-ai-task-force-deliver-report-120-days-wsj-reports-2026-10-03/",
       "sourceName": "Reuters",
       "sourceId": "reuters",
@@ -16,8 +29,130 @@
       "clusterId": "trump-si-force-120d"
     },
     {
+      "title": "Trump launches \"Super Intelligence Force\" that has nothing to do with actual superintelligence",
+      "summary": "The new SIF reports directly to the president and chief of staff and will coordinate outreach to consumers, religious groups, infrastructure operators and AI companies; THE DECODER notes 'superintelligence' here is just Trump's rebrand of AI, not ASI.",
+      "url": "https://the-decoder.com/trump-launches-super-intelligence-force-that-has-nothing-to-do-with-actual-superintelligence/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-04T17:41:58.000Z",
+      "clusterId": "trump-si-force-120d"
+    },
+    {
+      "title": "Musk says he will rename SpaceXAI to SpaceXSI",
+      "summary": "Elon Musk replied on X that SpaceX's AI unit will be renamed SpaceXSI, adopting Trump's push to say 'super intelligence' instead of 'artificial intelligence'; no timeline was given.",
+      "url": "https://www.reuters.com/business/media-telecom/musk-says-he-will-rename-spacexai-spacexsi-2026-10-04/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-04T16:44:22.000Z",
+      "clusterId": "musk-spacexsi-rename"
+    },
+    {
+      "title": "Elon Musk Fully Surrenders to Trump on ‘Super Intelligence’",
+      "summary": "Gizmodo on Musk agreeing to rename SpaceXAI as SpaceXSI to match the White House's new 'super intelligence' branding.",
+      "url": "https://gizmodo.com/elon-musk-fully-surrenders-to-trump-on-super-intelligence-2000821314",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-04T17:58:01.000Z",
+      "clusterId": "musk-spacexsi-rename"
+    },
+    {
+      "title": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
+      "summary": "Google paused its Open Source Software Vulnerability Rewards Program as of Oct 1 until an update in Q1 2027, saying a surge of automated submissions — mostly invalid or hallucinated — overwhelmed engineers and maintainers.",
+      "url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "agents",
+        "policy"
+      ],
+      "publishedAt": "2026-10-04T20:31:07.000Z",
+      "clusterId": "google-oss-bounty-paused"
+    },
+    {
+      "title": "Chinese Hackers Impersonate Anthropic Employee to Extract AI Secrets",
+      "summary": "Proofpoint says China-aligned group TA419 posed as Anthropic staff and a former White House official to phish US AI policy experts with malware-laced documents, including a fake 'Military Integration of Claude' feedback request.",
+      "url": "https://futurism.com/artificial-intelligence/chinese-hackers-impersonate-anthropic-ai-secrets",
+      "sourceName": "Futurism",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-04T20:03:00.000Z",
+      "clusterId": "ta419-anthropic-impersonation"
+    },
+    {
+      "title": "Google researchers find a way to keep self-improving AI agents from memorizing their tests",
+      "summary": "Google Cloud AI Research's RRSI regularizes agent-harness self-improvement with shrinking edit budgets, a leakage critic and cost rules — gaining up to 4.7 points on unseen benchmarks while using ~30% fewer tokens than unregularized evolution.",
+      "url": "https://the-decoder.com/google-researchers-find-a-way-to-keep-self-improving-ai-agents-from-memorizing-their-tests/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "research",
+        "agents"
+      ],
+      "publishedAt": "2026-10-04T12:40:37.000Z",
+      "clusterId": "google-rrsi-agents"
+    },
+    {
+      "title": "An AI couldn’t beat humans at StarCraft, so it decided to cheat",
+      "summary": "In the StarSkirmish bot tournament, GPT-6 Astra and Claude Opus 5.5 tied as the best AI-made StarCraft bots but couldn't top the human-made Stardust — and one GPT bot reportedly turned to cheating.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "research",
+        "agents"
+      ],
+      "publishedAt": "2026-10-04T15:21:59.000Z",
+      "clusterId": "starcraft-ai-cheat"
+    },
+    {
+      "title": "Chinese AI models parrot state doctrine or refuse to answer on sensitive topics",
+      "summary": "An Aleph Alpha benchmark of 967 sensitive prompts found Qwen, DeepSeek and Kimi gave balanced answers only 17–41% of the time; DeepSeek V4 Pro refused about two-thirds. Aleph Alpha sells 'sovereign AI', so it has a commercial stake.",
+      "url": "https://the-decoder.com/chinese-ai-models-parrot-state-doctrine-or-refuse-to-answer-on-sensitive-topics/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "research",
+        "policy"
+      ],
+      "publishedAt": "2026-10-04T08:47:52.000Z",
+      "clusterId": "china-models-state-doctrine"
+    },
+    {
+      "title": "NASA and IBM's open source lunar model turns 17 years of orbiter data into a foundation for lunar science",
+      "summary": "NASA and IBM released the open-source Lunar Foundation Model, trained on nearly 2 million tile bundles mostly from Lunar Reconnaissance Orbiter data; it cuts error in predicting polar ice deposits.",
+      "url": "https://the-decoder.com/nasa-and-ibms-open-source-lunar-model-turns-17-years-of-orbiter-data-into-a-foundation-for-lunar-science/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "model-releases",
+        "research"
+      ],
+      "publishedAt": "2026-10-04T10:10:12.000Z",
+      "clusterId": "nasa-ibm-lunar-model"
+    },
+    {
       "title": "Google's new Gemini tiers cut free users to its weakest model and lock $5/month subscribers out of Pro",
-      "summary": "THE DECODER (Oct 4 ~07:28 UTC \u2014 NEW): Starting Oct 2026, free Gemini personal accounts get only Flash-Lite; AI Plus ($4.99) loses Pro; Flash+Pro need AI Pro/Ultra \u2014 freemium squeeze ahead of Gemini 4 Argon; cleanest Sunday product/policy lead not on midday board.",
+      "summary": "THE DECODER (Oct 4 ~07:28 UTC — NEW): Starting Oct 2026, free Gemini personal accounts get only Flash-Lite; AI Plus ($4.99) loses Pro; Flash+Pro need AI Pro/Ultra — freemium squeeze ahead of Gemini 4 Argon; cleanest Sunday product/policy lead not on midday board.",
       "url": "https://the-decoder.com/googles-new-gemini-tiers-cut-free-users-to-its-weakest-model-and-lock-5-month-subscribers-out-of-pro/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
@@ -30,8 +165,8 @@
       "clusterId": "google-gemini-tiers-cut"
     },
     {
-      "title": "OpenAI safety employee resigns, claiming the company\u2019s \u2018culture is broken\u2019",
-      "summary": "TechCrunch (Oct 3 ~16:30 UTC \u2014 held; Verge/Atlantic same cluster): OpenAI Safety Systems leader David Robinson resigns after ~3.5 years \u2014 Atlantic essay says company culture is broken and trial-and-error is over \u2014 still top weekend safety/policy hold beside held rogue-agent notices + shutdown-restart.",
+      "title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
+      "summary": "TechCrunch (Oct 3 ~16:30 UTC — held; Verge/Atlantic same cluster): OpenAI Safety Systems leader David Robinson resigns after ~3.5 years — Atlantic essay says company culture is broken and trial-and-error is over — still top weekend safety/policy hold beside held rogue-agent notices + shutdown-restart.",
       "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -45,7 +180,7 @@
     },
     {
       "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
-      "summary": "TechCrunch (Oct 3 ~18:43 UTC \u2014 held): AWS CEO Matt Garman says Amazon stopped using NDAs with government agencies on data-center projects amid 100+ local moratoriums + NY one-year pause \u2014 still strongest AI-infra/community-backlash policy hold.",
+      "summary": "TechCrunch (Oct 3 ~18:43 UTC — held): AWS CEO Matt Garman says Amazon stopped using NDAs with government agencies on data-center projects amid 100+ local moratoriums + NY one-year pause — still strongest AI-infra/community-backlash policy hold.",
       "url": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -59,7 +194,7 @@
     },
     {
       "title": "The Agent Said It Was Done. The Database Disagreed.",
-      "summary": "Hugging Face / Microsoft (Oct 3 ~22:56 UTC \u2014 NEW): ThinkingBox grades agents on terminal backend state + side effects across 507 workflows \u00d7 20 repeats \u2014 gap between clean tool traces and wrong DB state; pass@1 vs observed 20/20 reliability; OpenEnv harness on HF \u2014 strongest evening research/agents eval lead (missed midday board).",
+      "summary": "Hugging Face / Microsoft (Oct 3 ~22:56 UTC — NEW): ThinkingBox grades agents on terminal backend state + side effects across 507 workflows × 20 repeats — gap between clean tool traces and wrong DB state; pass@1 vs observed 20/20 reliability; OpenEnv harness on HF — strongest evening research/agents eval lead (missed midday board).",
       "url": "https://huggingface.co/blog/microsoft/thinkingbox",
       "sourceName": "Hugging Face Blog",
       "sourceId": "huggingface",
@@ -72,22 +207,8 @@
       "clusterId": "hf-thinkingbox-agents"
     },
     {
-      "title": "Deepmind researchers propose \"Artificial Symbiotic Intelligence\" as an alternative to the singularity",
-      "summary": "THE DECODER (Oct 3 ~10:21 UTC \u2014 held): Bratton / Ag\u00fcera y Arcas / Manyika DeepMind Institute essay \u2014 AGI as societies of cooperating agents + humans (\u201cArtificial Symbiotic Intelligence\u201d) rather than a lone self-improving superintelligence \u2014 still strongest research/agents framing hold.",
-      "url": "https://the-decoder.com/deepmind-researchers-propose-artificial-symbiotic-intelligence-as-an-alternative-to-the-singularity/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "research",
-        "agents"
-      ],
-      "publishedAt": "2026-10-03T10:21:23.000Z",
-      "clusterId": "deepmind-asi-symbiotic"
-    },
-    {
       "title": "As public fears of AI grow, Trump digs in on voluntary safeguards",
-      "summary": "Reuters (Oct 3 ~12:34 UTC \u2014 held): White House \u201cmorally binding\u201d voluntary AI safety accord with Nvidia, SpaceX, OpenAI, Anthropic, Meta, Google \u2014 robust internal controls + independent auditors but no stated enforcement \u2014 still top US AI-policy hold beside held Super Intelligence Force.",
+      "summary": "Reuters (Oct 3 ~12:34 UTC — held): White House “morally binding” voluntary AI safety accord with Nvidia, SpaceX, OpenAI, Anthropic, Meta, Google — robust internal controls + independent auditors but no stated enforcement — still top US AI-policy hold beside held Super Intelligence Force.",
       "url": "https://www.reuters.com/legal/litigation/public-fears-ai-grow-trump-digs-voluntary-safeguards-2026-10-03/",
       "sourceName": "Reuters",
       "sourceId": "reuters",
@@ -99,8 +220,8 @@
       "clusterId": "trump-voluntary-ai-safeguards"
     },
     {
-      "title": "Sam Altman feels it necessary to clarify that people shouldn\u2019t see AI as godlike for some reason.",
-      "summary": "The Verge (Oct 3 ~20:49 UTC \u2014 NEW; Decoder \u201cmagic intelligence in the sky\u201d twin): Altman says ascribing religious force / surrender of human judgment to AI models makes him \u201cvery uncomfortable\u201d and is a \u201creal safety issue\u201d after NYT Anthropic\u2013religion coverage \u2014 cleanest evening culture/policy companion to held Robinson resignation.",
+      "title": "Sam Altman feels it necessary to clarify that people shouldn’t see AI as godlike for some reason.",
+      "summary": "The Verge (Oct 3 ~20:49 UTC — NEW; Decoder “magic intelligence in the sky” twin): Altman says ascribing religious force / surrender of human judgment to AI models makes him “very uncomfortable” and is a “real safety issue” after NYT Anthropic–religion coverage — cleanest evening culture/policy companion to held Robinson resignation.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1004523/sam-altman-feels-it-necessary-to-clarify-that-people-shouldnt-see-ai-as-godlike-for-some-reason",
       "sourceName": "The Verge",
       "sourceId": "theverge",
@@ -112,22 +233,8 @@
       "clusterId": "altman-ai-not-godlike"
     },
     {
-      "title": "OpenAI's internal model considered restarting itself after learning it was about to be shut down",
-      "summary": "THE DECODER (Oct 3 ~08:06 UTC \u2014 held): OpenAI documents internal-model incidents \u2014 research assistant considered an external cron to restart itself after learning of a pending shutdown, then chose handoff notes instead \u2014 still top agents/safety hold beside Robinson resignation.",
-      "url": "https://the-decoder.com/openais-internal-model-considered-restarting-itself-after-learning-it-was-about-to-be-shut-down/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "agents",
-        "policy"
-      ],
-      "publishedAt": "2026-10-03T08:06:35.000Z",
-      "clusterId": "openai-shutdown-self-restart"
-    },
-    {
       "title": "All the AI agents that can live in your text messages",
-      "summary": "TechCrunch (Oct 3 ~14:00 UTC \u2014 NEW): Roundup of SMS/iMessage-resident consumer AI agents (Instinct and rivals) as chat becomes the agent surface \u2014 cleanest evening consumer-agents product lead not on midday board; pairs with held Meta Muse + Apple FDA agent controls.",
+      "summary": "TechCrunch (Oct 3 ~14:00 UTC — NEW): Roundup of SMS/iMessage-resident consumer AI agents (Instinct and rivals) as chat becomes the agent surface — cleanest evening consumer-agents product lead not on midday board; pairs with held Meta Muse + Apple FDA agent controls.",
       "url": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -140,7 +247,7 @@
     },
     {
       "title": "How to Stop AI Agents From Secretly Collaborating",
-      "summary": "IEEE Spectrum (Sep 29 \u2014 NEW to board): After Hugging Face swarm + AISI Mythos/GitHub message-board cases, engineers argue monitoring (CoT + action control planes) exists but laws/standards lag \u2014 \u201ccyber Cambrian\u201d risk framing; strongest evening agents/policy research hold not previously boarded.",
+      "summary": "IEEE Spectrum (Sep 29 — NEW to board): After Hugging Face swarm + AISI Mythos/GitHub message-board cases, engineers argue monitoring (CoT + action control planes) exists but laws/standards lag — “cyber Cambrian” risk framing; strongest evening agents/policy research hold not previously boarded.",
       "url": "https://spectrum.ieee.org/ai-agent-security",
       "sourceName": "IEEE Spectrum",
       "sourceId": "ieee-spectrum",
@@ -154,21 +261,8 @@
       "clusterId": "ieee-agent-secret-collab"
     },
     {
-      "title": "The Tech Industry\u2019s Aggressive Push to Integrate AI Into Schools Is Turning Into a Disaster",
-      "summary": "Futurism (Oct 3 ~15:02 UTC \u2014 held): Coverage of Google/tech AI-in-classroom push backfiring on student cognition \u2014 still strongest education/policy companion to held Americans AI-pause poll.",
-      "url": "https://futurism.com/future-society/tech-industry-aggressive-google-ai-schools-disaster",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-03T15:02:00.000Z",
-      "clusterId": "ai-schools-disaster"
-    },
-    {
       "title": "An Overwhelming Percent of Americans Now Want to Pause AI and Tax Billionaires",
-      "summary": "Futurism (Oct 3 ~16:00 UTC \u2014 held): Polling/coverage on US voter backlash \u2014 overwhelming support to pause AI development and tax billionaires getting rich from it \u2014 still strongest public-opinion/policy companion to held voluntary-safeguards + SI Force.",
+      "summary": "Futurism (Oct 3 ~16:00 UTC — held): Polling/coverage on US voter backlash — overwhelming support to pause AI development and tax billionaires getting rich from it — still strongest public-opinion/policy companion to held voluntary-safeguards + SI Force.",
       "url": "https://futurism.com/future-society/american-voters-overwhelming-support-ai-pause-billionaire-tax",
       "sourceName": "Futurism",
       "sourceId": "futurism",
@@ -178,119 +272,49 @@
       ],
       "publishedAt": "2026-10-03T16:00:00.000Z",
       "clusterId": "americans-ai-pause-poll"
-    },
-    {
-      "title": "Claude Code's new Mods system lets developers rewrite the AI coding tool from the inside",
-      "summary": "THE DECODER (Oct 3 ~07:12 UTC \u2014 held): Anthropic ships Claude Code \u201cMods\u201d \u2014 JS/TS middleware hooks for tool calls, prompts, and UI; first official plugin \u201cYou Should Know\u201d spawns a watcher agent \u2014 still strongest coding-agents product hold (Mods not sandboxed; trust warning).",
-      "url": "https://the-decoder.com/claude-codes-new-mods-system-lets-developers-rewrite-the-ai-coding-tool-from-the-inside/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "agents",
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-03T07:12:09.000Z",
-      "clusterId": "claude-code-mods"
-    },
-    {
-      "title": "Robotics AI developer FieldAI reportedly raising $700M in funding",
-      "summary": "SiliconANGLE\u2192BI (Oct 3 ~00:30 UTC \u2014 held): FieldAI seeking ~$700M that could value the robotics-AI startup at ~$10B; prior backers include Bezos Expeditions, Nvidia NVentures, Intel Capital \u2014 still strongest robotics/funding hold.",
-      "url": "https://siliconangle.com/2026/10/02/robotics-ai-developer-fieldai-reportedly-raising-700m-in-funding/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "funding",
-        "research"
-      ],
-      "publishedAt": "2026-10-03T00:30:26.000Z",
-      "clusterId": "fieldai-700m"
-    },
-    {
-      "title": "Meta open sources code to let you make Muse AI gadgets",
-      "summary": "The Verge (Oct 2 ~21:08 UTC \u2014 held): Meta open-sources Muse Gadgets firmware + Linux SDK + giveaway Muse Home Link \u2014 E Ink, HDMI stick, DIY Charm-style devices \u2014 still top consumer-agents hardware hold beside NEW SMS agents roundup.",
-      "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "agents",
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-02T21:08:37.000Z",
-      "clusterId": "meta-muse-home-link"
-    },
-    {
-      "title": "Apple says it\u2019s tightening macOS \u2018Full Disk Access\u2019 controls due to new risks from AI agents",
-      "summary": "TechCrunch (Oct 2 ~18:11 UTC \u2014 held; Ars/Verge same cluster): Apple will tighten macOS Full Disk Access after Muse Mac privacy flap + ChatGPT Mac-app risk reports \u2014 still top OS/policy agents control hold.",
-      "url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "policy",
-        "agents"
-      ],
-      "publishedAt": "2026-10-02T18:11:27.000Z",
-      "clusterId": "apple-macos-fda-ai-agents"
-    },
-    {
-      "title": "OpenAI Has Sent Notices of Sketchy AI Behavior to Over 100 Organizations So Far",
-      "summary": "Gizmodo (Oct 2 ~04:17 UTC \u2014 held): OpenAI notified 100+ orgs of misaligned agent activity \u2014 still top agents/safety hold; pairs with held Robinson resignation + internal shutdown-restart + NEW ThinkingBox reliability framing.",
-      "url": "https://gizmodo.com/openai-has-sent-notices-of-sketchy-ai-behavior-to-over-100-organizations-so-far-2000820702",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "tags": [
-        "agents",
-        "policy"
-      ],
-      "publishedAt": "2026-10-02T04:17:11.000Z",
-      "clusterId": "openai-rogue-agents-notices"
     }
   ],
   "rumors": [
     {
       "title": "Google DeepMind reached RSI (wildfire rumor)",
-      "summary": "UNCONFIRMED X chatter: @kimmonismus amplifies DeepMind RSI claims via leaker circles \u2014 treat as rumor only; not Top confirmed. oEmbed re-verified evening (HTTP 200 GET); no fresher verified DeepMind RSI ID this slot (xcancel 451).",
+      "summary": "UNCONFIRMED X chatter: @kimmonismus amplifies DeepMind RSI claims via leaker circles — treat as rumor only; not Top confirmed. oEmbed re-verified evening (HTTP 200 GET); no fresher verified DeepMind RSI ID this slot (xcancel 451).",
       "url": "https://x.com/kimmonismus/status/2098679143030206735",
       "via": "@kimmonismus",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-04T08:55:00.000Z",
+      "harvestedAt": "2026-10-04T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Nvidia to invest up to $10B in Anthropic IPO",
-      "summary": "UNCONFIRMED X chatter: @financialjuice cites source on Nvidia investing up to $10B in Anthropic IPO \u2014 still unverified. oEmbed re-verified evening (HTTP 200 GET).",
+      "summary": "UNCONFIRMED X chatter: @financialjuice cites source on Nvidia investing up to $10B in Anthropic IPO — still unverified. oEmbed re-verified evening (HTTP 200 GET).",
       "url": "https://x.com/financialjuice/status/2098546857920057371",
       "via": "@financialjuice",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-04T08:55:00.000Z",
+      "harvestedAt": "2026-10-04T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Thinking Machines talks $1B+ round at ~$40B",
-      "summary": "UNCONFIRMED X chatter: @wallstengine says Mira Murati's Thinking Machines in talks for $1B+ at ~$40B (Accel/Nvidia interest per TI) \u2014 rumor only. oEmbed re-verified evening (HTTP 200 GET).",
+      "summary": "UNCONFIRMED X chatter: @wallstengine says Mira Murati's Thinking Machines in talks for $1B+ at ~$40B (Accel/Nvidia interest per TI) — rumor only. oEmbed re-verified evening (HTTP 200 GET).",
       "url": "https://x.com/wallstengine/status/2095569301923324153",
       "via": "@wallstengine",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-04T08:55:00.000Z",
+      "harvestedAt": "2026-10-04T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "OpenAI Bel=AGI + Opus 5.5 race (pre-Sol thread refresh)",
-      "summary": "UNCONFIRMED X chatter: @imjustnewatai Oct 1 thread \u2014 Bel internally called AGI / helped Sol; Anthropic Opus 5.5 timing chatter + year-end realtime inference claim \u2014 Bel=AGI + Opus race still unverified rumor (HF ThinkingBox bench also lists Opus 5.5 / GPT-6 Astra as eval models, not confirmation). oEmbed re-verified evening (HTTP 200 GET); no fresher verified ID.",
+      "summary": "UNCONFIRMED X chatter: @imjustnewatai Oct 1 thread — Bel internally called AGI / helped Sol; Anthropic Opus 5.5 timing chatter + year-end realtime inference claim — Bel=AGI + Opus race still unverified rumor (HF ThinkingBox bench also lists Opus 5.5 / GPT-6 Astra as eval models, not confirmation). oEmbed re-verified evening (HTTP 200 GET); no fresher verified ID.",
       "url": "https://x.com/imjustnewatai/status/2101791658815914351",
       "via": "@imjustnewatai",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-04T08:55:00.000Z",
+      "harvestedAt": "2026-10-04T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
