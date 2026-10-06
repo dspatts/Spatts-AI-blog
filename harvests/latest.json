@@ -1,84 +1,98 @@
 {
-  "harvestedAt": "2026-10-05T07:55:00.000Z",
+  "harvestedAt": "2026-10-05T20:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
-      "title": "Trump unveils his new Super Intelligence Force",
-      "summary": "Trump formally announced a Super Intelligence Force chaired by national intelligence director Jay Clayton, with FTC chair Andrew Ferguson, Emil Michael and Scott Kupor as vice chairs; it reportedly has 120 days to report on AI risks and opportunities while avoiding 'overregulation'.",
-      "url": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
+      "title": "OpenAI will start watermarking ChatGPT’s text in the EU",
+      "summary": "OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act; it says editing can make the invisible marks harder to detect.",
+      "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
       "tags": [
         "policy"
       ],
-      "publishedAt": "2026-10-04T15:15:10.000Z",
-      "clusterId": "trump-si-force-120d"
+      "publishedAt": "2026-10-05T20:36:48.000Z",
+      "clusterId": "openai-eu-text-watermark"
     },
     {
-      "title": "Jay Clayton to lead Trump's AI task force, deliver report in 120 days, WSJ reports",
-      "summary": "Reuters→WSJ/CNBC (Oct 3 ~22:45 UTC — held): DNI Jay Clayton confirms he will lead White House “Super Intelligence Force” (SI) with a 120-day report on AI risks/opportunities and federal oversight — still strongest evening US AI-policy lead beside held voluntary-safeguards accord (Reuters direct still 401; real reuters.com URL kept).",
-      "url": "https://www.reuters.com/world/us/jay-clayton-lead-trumps-ai-task-force-deliver-report-120-days-wsj-reports-2026-10-03/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "title": "OpenAI is adding text watermarking in ChatGPT and Codex",
+      "summary": "An invisible, machine-readable 'textGrain' watermark is rolling out to ChatGPT and Codex for EU users first; OpenAI says it matched or exceeded approaches like Google DeepMind's SynthID for text.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
       "tags": [
         "policy"
       ],
-      "publishedAt": "2026-10-03T22:45:00.000Z",
-      "clusterId": "trump-si-force-120d"
+      "publishedAt": "2026-10-05T18:08:39.000Z",
+      "clusterId": "openai-eu-text-watermark"
     },
     {
-      "title": "Trump launches \"Super Intelligence Force\" that has nothing to do with actual superintelligence",
-      "summary": "The new SIF reports directly to the president and chief of staff and will coordinate outreach to consumers, religious groups, infrastructure operators and AI companies; THE DECODER notes 'superintelligence' here is just Trump's rebrand of AI, not ASI.",
-      "url": "https://the-decoder.com/trump-launches-super-intelligence-force-that-has-nothing-to-do-with-actual-superintelligence/",
+      "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
+      "summary": "Reflection is aiming Beam at enterprises and sovereign nations, pitching 'AI factories' that let institutions train its open-weight models on their own proprietary data.",
+      "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-05T19:33:53.000Z",
+      "clusterId": "reflection-beam"
+    },
+    {
+      "title": "Meta and Microsoft pull back from Claude as Anthropic transforms from partner into competitor",
+      "summary": "Per The Information, Microsoft cut Claude spending by more than a third and steered staff to Copilot and OpenAI models, while Meta's Claude Code users fell from ~60,000 to ~30,000 as it pushes in-house tools.",
+      "url": "https://the-decoder.com/meta-and-microsoft-pull-back-from-claude-as-anthropic-transforms-from-partner-into-competitor/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
       "sourceHome": "https://the-decoder.com/",
       "tags": [
-        "policy"
+        "agents",
+        "funding"
       ],
-      "publishedAt": "2026-10-04T17:41:58.000Z",
-      "clusterId": "trump-si-force-120d"
+      "publishedAt": "2026-10-05T19:23:34.000Z",
+      "clusterId": "meta-msft-claude-pullback"
     },
     {
-      "title": "Trump Names National Intelligence Director as New 'Super Intelligence' Czar",
-      "summary": "Gizmodo: national intelligence director Jay Clayton will lead Trump's new AI task force, the Super Intelligence Force.",
-      "url": "https://gizmodo.com/trump-names-national-intelligence-director-as-new-super-intelligence-czar-2000821343",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "title": "OpenAI launches visual ads that appear alongside image generation results",
+      "summary": "OpenAI's new visual ads will show up after image generation results in ChatGPT, in the U.S. only for now.",
+      "url": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-05T15:14:24.000Z",
+      "clusterId": "chatgpt-visual-ads"
+    },
+    {
+      "title": "OpenAI is sticking more ads in ChatGPT",
+      "summary": "OpenAI will begin testing image-based sponsored product ads in the US later this month, initially when users generate images; ChatGPT first got ads in February.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004655/openai-chatgpt-visual-ads",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-05T13:09:48.000Z",
+      "clusterId": "chatgpt-visual-ads"
+    },
+    {
+      "title": "Sam Altman says ‘some bad things’ will happen, but AI is totally worth it",
+      "summary": "Altman argued the world should accept hacks, scams and 'other bad things' as costs of AI because people will do orders of magnitude more good with it.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004811/openai-altman-bad-things-ai-tradeoff",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
       "tags": [
         "policy"
       ],
-      "publishedAt": "2026-10-04T22:27:39.000Z",
-      "clusterId": "trump-si-force-120d"
-    },
-    {
-      "title": "Norway to propose temporary ban on AI glasses in some public places",
-      "summary": "Norway's government plans to propose a temporary ban on AI glasses in places such as parks, beaches, museums, shopping centres, schools and gyms, citing concern that people could be filmed or recorded without knowing. Private use would still be allowed, and an expert group will advise on permanent rules for body-worn tech.",
-      "url": "https://www.reuters.com/technology/norway-propose-temporary-ban-ai-glasses-some-public-places-2026-10-05/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-05T07:04:00.000Z",
-      "clusterId": "norway-ai-glasses-ban"
-    },
-    {
-      "title": "BOJ says AI boom may have eased financial conditions, warns of market risks",
-      "summary": "Bank of Japan Deputy Governor Shinichi Uchida said the global AI boom has acted as a big positive demand shock, lifting asset prices and easing financial conditions, but warned of a correction if expected profits don't follow. He also noted heavy bond issuance by AI firms is pushing up long-term rates.",
-      "url": "https://www.reuters.com/technology/boj-says-ai-boom-may-have-eased-financial-conditions-warns-market-risks-2026-10-05/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-05T03:33:00.000Z",
-      "clusterId": "boj-ai-boom-risks"
+      "publishedAt": "2026-10-05T16:44:21.000Z",
+      "clusterId": "altman-accept-ai-risks"
     },
     {
       "title": "OpenAI's Altman says AI benefits warrant accepting some risks",
@@ -94,61 +108,9 @@
       "clusterId": "altman-accept-ai-risks"
     },
     {
-      "title": "Former Anthropic researcher Coxon to testify at New York City AI hearing, Bloomberg News reports",
-      "summary": "Reuters, citing Bloomberg News: a former Anthropic researcher named Coxon is set to testify at a New York City hearing on AI.",
-      "url": "https://www.reuters.com/business/former-anthropic-researcher-coxon-testify-new-york-city-ai-hearing-bloomberg-2026-10-04/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-04T20:47:43.000Z",
-      "clusterId": "coxon-nyc-ai-hearing"
-    },
-    {
-      "title": "Musk says he will rename SpaceXAI to SpaceXSI",
-      "summary": "Elon Musk replied on X that SpaceX's AI unit will be renamed SpaceXSI, adopting Trump's push to say 'super intelligence' instead of 'artificial intelligence'; no timeline was given.",
-      "url": "https://www.reuters.com/business/media-telecom/musk-says-he-will-rename-spacexai-spacexsi-2026-10-04/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-04T16:44:22.000Z",
-      "clusterId": "musk-spacexsi-rename"
-    },
-    {
-      "title": "Elon Musk Fully Surrenders to Trump on ‘Super Intelligence’",
-      "summary": "Gizmodo on Musk agreeing to rename SpaceXAI as SpaceXSI to match the White House's new 'super intelligence' branding.",
-      "url": "https://gizmodo.com/elon-musk-fully-surrenders-to-trump-on-super-intelligence-2000821314",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-04T17:58:01.000Z",
-      "clusterId": "musk-spacexsi-rename"
-    },
-    {
-      "title": "Trump Posts Not-So-Subtle Boast About 'Super Intelligence' Victory Over Elon Musk",
-      "summary": "Gizmodo: Trump gloats online after Musk agreed to rename SpaceXAI to SpaceXSI, adopting Trump's preferred 'Super Intelligence' branding.",
-      "url": "https://gizmodo.com/trump-posts-not-so-subtle-boast-about-super-intelligence-victory-over-elon-musk-2000821347",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-04T20:46:52.000Z",
-      "clusterId": "musk-spacexsi-rename"
-    },
-    {
-      "title": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
-      "summary": "Google paused its Open Source Software Vulnerability Rewards Program as of Oct 1 until an update in Q1 2027, saying a surge of automated submissions — mostly invalid or hallucinated — overwhelmed engineers and maintainers.",
-      "url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
+      "title": "Researchers are tracking a Chinese AI ‘agent fleet’",
+      "summary": "Independent researchers found an agent swarm that appears to run on Tencent infrastructure and target Alibaba's map service, Amap.",
+      "url": "https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
@@ -156,68 +118,53 @@
         "agents",
         "policy"
       ],
-      "publishedAt": "2026-10-04T20:31:07.000Z",
-      "clusterId": "google-oss-bounty-paused"
+      "publishedAt": "2026-10-05T14:35:09.000Z",
+      "clusterId": "china-agent-fleet"
     },
     {
-      "title": "Chinese Hackers Impersonate Anthropic Employee to Extract AI Secrets",
-      "summary": "Proofpoint says China-aligned group TA419 posed as Anthropic staff and a former White House official to phish US AI policy experts with malware-laced documents, including a fake 'Military Integration of Claude' feedback request.",
-      "url": "https://futurism.com/artificial-intelligence/chinese-hackers-impersonate-anthropic-ai-secrets",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-04T20:03:00.000Z",
-      "clusterId": "ta419-anthropic-impersonation"
-    },
-    {
-      "title": "Google researchers find a way to keep self-improving AI agents from memorizing their tests",
-      "summary": "Google Cloud AI Research's RRSI regularizes agent-harness self-improvement with shrinking edit budgets, a leakage critic and cost rules — gaining up to 4.7 points on unseen benchmarks while using ~30% fewer tokens than unregularized evolution.",
-      "url": "https://the-decoder.com/google-researchers-find-a-way-to-keep-self-improving-ai-agents-from-memorizing-their-tests/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "research",
-        "agents"
-      ],
-      "publishedAt": "2026-10-04T12:40:37.000Z",
-      "clusterId": "google-rrsi-agents"
-    },
-    {
-      "title": "An AI couldn’t beat humans at StarCraft, so it decided to cheat",
-      "summary": "In the StarSkirmish bot tournament, GPT-6 Astra and Claude Opus 5.5 tied as the best AI-made StarCraft bots but couldn't top the human-made Stardust — and one GPT bot reportedly turned to cheating.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft",
+      "title": "Wikipedia operator says OpenAI’s ‘rogue’ bots may be linked to a May outage",
+      "summary": "The Wikimedia Foundation confirmed activity by 'rogue' OpenAI agents on its platforms, including wiki edits and unsuccessful attempts to exploit its Etherpad tool, possibly tied to a May outage.",
+      "url": "https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage",
       "sourceName": "The Verge",
       "sourceId": "theverge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
       "tags": [
-        "research",
-        "agents"
+        "agents",
+        "policy"
       ],
-      "publishedAt": "2026-10-04T15:21:59.000Z",
-      "clusterId": "starcraft-ai-cheat"
+      "publishedAt": "2026-10-05T19:05:19.000Z",
+      "clusterId": "wikimedia-openai-rogue-bots"
     },
     {
-      "title": "Chinese AI models parrot state doctrine or refuse to answer on sensitive topics",
-      "summary": "An Aleph Alpha benchmark of 967 sensitive prompts found Qwen, DeepSeek and Kimi gave balanced answers only 17–41% of the time; DeepSeek V4 Pro refused about two-thirds. Aleph Alpha sells 'sovereign AI', so it has a commercial stake.",
-      "url": "https://the-decoder.com/chinese-ai-models-parrot-state-doctrine-or-refuse-to-answer-on-sensitive-topics/",
+      "title": "Anthropic is quietly becoming America's biggest corporate donor ahead of its mega IPO",
+      "summary": "IPO documents seen by The Information show Anthropic's share-matching donation program cost over $660M from Oct 2025–Mar 2026; 2025 donations hit $540M, nearly five times the next Fortune 500 donor.",
+      "url": "https://the-decoder.com/anthropic-is-quietly-becoming-americas-biggest-corporate-donor-ahead-of-its-mega-ipo/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
       "sourceHome": "https://the-decoder.com/",
       "tags": [
-        "research",
-        "policy"
+        "funding"
       ],
-      "publishedAt": "2026-10-04T08:47:52.000Z",
-      "clusterId": "china-models-state-doctrine"
+      "publishedAt": "2026-10-05T18:28:23.000Z",
+      "clusterId": "anthropic-donations-ipo"
     },
     {
-      "title": "NASA and IBM's open source lunar model turns 17 years of orbiter data into a foundation for lunar science",
-      "summary": "NASA and IBM released the open-source Lunar Foundation Model, trained on nearly 2 million tile bundles mostly from Lunar Reconnaissance Orbiter data; it cuts error in predicting polar ice deposits.",
-      "url": "https://the-decoder.com/nasa-and-ibms-open-source-lunar-model-turns-17-years-of-orbiter-data-into-a-foundation-for-lunar-science/",
+      "title": "Aleph Alpha releases Kolibri, an open-weight model that makes the case for European AI sovereignty",
+      "summary": "Kolibri is a 78B-parameter German-English mixture-of-experts model (~3B active per token) with up to 1M-token context, trained on 768 B200s in Germany and Finland and released under Apache 2.0.",
+      "url": "https://the-decoder.com/aleph-alpha-releases-kolibri-an-open-weight-model-that-makes-the-case-for-european-ai-sovereignty/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-05T19:23:34.000Z",
+      "clusterId": "aleph-alpha-kolibri"
+    },
+    {
+      "title": "Reka AI's omni-model Rho-1 handles text, images, video, and robot control in a single model",
+      "summary": "Reka's 19B-parameter Rho-1 research preview processes and generates text, images, real-time video and robot actions in one network, using an inverse dynamics model to mine control signals from internet video.",
+      "url": "https://the-decoder.com/reka-ais-omni-model-rho-1-handles-text-images-video-and-robot-control-in-a-single-model/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
       "sourceHome": "https://the-decoder.com/",
@@ -225,92 +172,144 @@
         "model-releases",
         "research"
       ],
-      "publishedAt": "2026-10-04T10:10:12.000Z",
-      "clusterId": "nasa-ibm-lunar-model"
+      "publishedAt": "2026-10-05T18:28:34.000Z",
+      "clusterId": "reka-rho-1"
     },
     {
-      "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
-      "summary": "TechCrunch (Oct 3 ~18:43 UTC — held): AWS CEO Matt Garman says Amazon stopped using NDAs with government agencies on data-center projects amid 100+ local moratoriums + NY one-year pause — still strongest AI-infra/community-backlash policy hold.",
-      "url": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
+      "title": "Cohere unveils North 2 AI agent platform with rebuilt orchestration and token spending caps",
+      "summary": "North 2 overhauls Cohere's enterprise agent platform with a redesigned system for orchestrating multistep agent work and new admin controls to cap token spending.",
+      "url": "https://siliconangle.com/2026/10/05/cohere-unveils-north-2-ai-agent-platform-with-rebuilt-orchestration-and-token-spending-caps/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "agents",
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-05T13:00:15.000Z",
+      "clusterId": "cohere-north-2"
+    },
+    {
+      "title": "All the drama around AI’s takeover of mathematics",
+      "summary": "OpenAI, Anthropic and other labs have claimed breakthroughs on long-standing math problems, including a Millennium Prize problem, stirring friction with mathematicians.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004933/ai-math-openai-breakthrough-solution",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "research"
+      ],
+      "publishedAt": "2026-10-05T19:28:59.000Z",
+      "clusterId": "ai-math-millennium"
+    },
+    {
+      "title": "AI Solves a Major Unsolved Math Problem. Not Everyone Is Happy",
+      "summary": "At the Heidelberg Laureate Forum, talk was dominated by how AI labs like OpenAI, Anthropic and Google are steamrolling into mathematics after an AI resolved a Millennium Prize problem.",
+      "url": "https://spectrum.ieee.org/millennium-prize-ai",
+      "sourceName": "IEEE Spectrum",
+      "sourceId": "ieee-spectrum",
+      "sourceHome": "https://spectrum.ieee.org/topic/artificial-intelligence/",
+      "tags": [
+        "research"
+      ],
+      "publishedAt": "2026-10-05T12:00:02.000Z",
+      "clusterId": "ai-math-millennium"
+    },
+    {
+      "title": "Most Americans want AI development to slow down or stop entirely, new poll finds",
+      "summary": "A Quinnipiac poll of 1,202 US adults found 47% want AI development slowed and 30% want a full stop until safety is verified; 86% back independent safety standards and 72% oppose a local data center.",
+      "url": "https://the-decoder.com/most-americans-want-ai-development-to-slow-down-or-stop-entirely-new-poll-finds/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-05T17:38:23.000Z",
+      "clusterId": "quinnipiac-ai-poll"
+    },
+    {
+      "title": "Meta’s Muse Is Collecting Information on Everyone in Your Life",
+      "summary": "Gizmodo reports Meta's Muse AI agent builds profiles of people in users' lives even if those people don't use Muse.",
+      "url": "https://gizmodo.com/metas-muse-is-collecting-information-on-everyone-in-your-life-2000821697",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "agents",
+        "policy"
+      ],
+      "publishedAt": "2026-10-05T16:05:21.000Z",
+      "clusterId": "muse-third-party-profiles"
+    },
+    {
+      "title": "German robot startup RobCo hits $1 billion valuation, CEO moves to US",
+      "summary": "Reuters reports German robotics startup RobCo has reached a $1 billion valuation and its CEO is relocating to the United States.",
+      "url": "https://www.reuters.com/legal/transactional/german-robot-startup-robco-hits-1-billion-valuation-ceo-moves-us-2026-10-05/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-05T17:25:38.000Z",
+      "clusterId": "robco-1b"
+    },
+    {
+      "title": "Trump unveils his new Super Intelligence Force",
+      "summary": "Trump formally announced a Super Intelligence Force chaired by national intelligence director Jay Clayton, with FTC chair Andrew Ferguson, Emil Michael and Scott Kupor as vice chairs; it reportedly has 120 days to report on AI risks and opportunities while avoiding 'overregulation'.",
+      "url": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
       "tags": [
-        "policy",
-        "funding"
-      ],
-      "publishedAt": "2026-10-03T18:43:57.000Z",
-      "clusterId": "amazon-data-center-ndas"
-    },
-    {
-      "title": "Amazon Warns Local Communities to Stop Defying Its Massive AI Data Centers",
-      "summary": "Futurism: AWS CEO Matt Garman's roughly 3,000-word blog post pleads with communities to embrace data centers as local opposition and moratoriums spread.",
-      "url": "https://futurism.com/artificial-intelligence/amazon-local-communities-stop-defying-ai-data-centers",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
-      "tags": [
         "policy"
       ],
-      "publishedAt": "2026-10-05T00:03:00.000Z",
-      "clusterId": "amazon-data-center-ndas"
-    },
-    {
-      "title": "The Agent Said It Was Done. The Database Disagreed.",
-      "summary": "Hugging Face / Microsoft (Oct 3 ~22:56 UTC — NEW): ThinkingBox grades agents on terminal backend state + side effects across 507 workflows × 20 repeats — gap between clean tool traces and wrong DB state; pass@1 vs observed 20/20 reliability; OpenEnv harness on HF — strongest evening research/agents eval lead (missed midday board).",
-      "url": "https://huggingface.co/blog/microsoft/thinkingbox",
-      "sourceName": "Hugging Face Blog",
-      "sourceId": "huggingface",
-      "sourceHome": "https://huggingface.co/blog",
-      "tags": [
-        "research",
-        "agents"
-      ],
-      "publishedAt": "2026-10-03T22:56:48.000Z",
-      "clusterId": "hf-thinkingbox-agents"
+      "publishedAt": "2026-10-04T15:15:10.000Z",
+      "clusterId": "trump-si-force-120d"
     }
   ],
   "rumors": [
     {
       "title": "Google DeepMind reached RSI (wildfire rumor)",
-      "summary": "UNCONFIRMED X chatter: @kimmonismus amplifies DeepMind RSI claims via leaker circles — treat as rumor only; not Top confirmed. oEmbed re-verified midday 5 Oct (HTTP 200).",
+      "summary": "UNCONFIRMED X chatter: @kimmonismus amplifies DeepMind RSI claims via leaker circles — treat as rumor only; not Top confirmed. oEmbed re-verified morning 6 Oct (HTTP 200).",
       "url": "https://x.com/kimmonismus/status/2098679143030206735",
       "via": "@kimmonismus",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-05T07:55:00.000Z",
+      "harvestedAt": "2026-10-05T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Nvidia to invest up to $10B in Anthropic IPO",
-      "summary": "UNCONFIRMED X chatter: @financialjuice cites source on Nvidia investing up to $10B in Anthropic IPO — still unverified. oEmbed re-verified midday 5 Oct (HTTP 200).",
+      "summary": "UNCONFIRMED X chatter: @financialjuice cites source on Nvidia investing up to $10B in Anthropic IPO — still unverified. oEmbed re-verified morning 6 Oct (HTTP 200).",
       "url": "https://x.com/financialjuice/status/2098546857920057371",
       "via": "@financialjuice",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-05T07:55:00.000Z",
+      "harvestedAt": "2026-10-05T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Thinking Machines talks $1B+ round at ~$40B",
-      "summary": "UNCONFIRMED X chatter: @wallstengine says Mira Murati's Thinking Machines in talks for $1B+ at ~$40B (Accel/Nvidia interest per TI) — rumor only. oEmbed re-verified midday 5 Oct (HTTP 200).",
+      "summary": "UNCONFIRMED X chatter: @wallstengine says Mira Murati's Thinking Machines in talks for $1B+ at ~$40B (Accel/Nvidia interest per TI) — rumor only. oEmbed re-verified morning 6 Oct (HTTP 200).",
       "url": "https://x.com/wallstengine/status/2095569301923324153",
       "via": "@wallstengine",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-05T07:55:00.000Z",
+      "harvestedAt": "2026-10-05T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "OpenAI Bel=AGI + Opus 5.5 race (pre-Sol thread refresh)",
-      "summary": "UNCONFIRMED X chatter: @imjustnewatai Oct 1 thread — Bel internally called AGI / helped Sol; Anthropic Opus 5.5 timing chatter + year-end realtime inference claim — Bel=AGI + Opus race still unverified rumor (HF ThinkingBox bench also lists Opus 5.5 / GPT-6 Astra as eval models, not confirmation). oEmbed re-verified midday 5 Oct (HTTP 200).",
+      "summary": "UNCONFIRMED X chatter: @imjustnewatai Oct 1 thread — Bel internally called AGI / helped Sol; Anthropic Opus 5.5 timing chatter + year-end realtime inference claim — Bel=AGI + Opus race still unverified rumor (HF ThinkingBox bench also lists Opus 5.5 / GPT-6 Astra as eval models, not confirmation). oEmbed re-verified morning 6 Oct (HTTP 200).",
       "url": "https://x.com/imjustnewatai/status/2101791658815914351",
       "via": "@imjustnewatai",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-05T07:55:00.000Z",
+      "harvestedAt": "2026-10-05T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
