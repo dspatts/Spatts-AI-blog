@@ -1,7 +1,231 @@
 {
-  "harvestedAt": "2026-10-07T07:55:00.000Z",
+  "harvestedAt": "2026-10-07T20:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
+    {
+      "title": "GPT-6 and Intelligent UI for everyone",
+      "summary": "GPT-6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
+      "url": "https://openai.com/index/gpt-6-for-everyone",
+      "sourceName": "OpenAI News",
+      "sourceId": "openai",
+      "sourceHome": "https://openai.com/news/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-07T00:00:00.000Z",
+      "clusterId": "gpt6-intelligent-ui"
+    },
+    {
+      "title": "ChatGPT's 'Intelligent UI' update fills its responses with pictures, charts, and buttons",
+      "summary": "OpenAI's new Intelligent UI, rolling out to all users alongside GPT-6, lets ChatGPT combine text answers with diagrams, charts, forms, tappable buttons and more.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-07T19:10:42.000Z",
+      "clusterId": "gpt6-intelligent-ui"
+    },
+    {
+      "title": "ChatGPT is getting a lot more visual, with the launch of a new interface",
+      "summary": "OpenAI is launching a new user interface that brings interactive visuals to ChatGPT as GPT-6 rolls out to everyone.",
+      "url": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-07T18:00:19.000Z",
+      "clusterId": "gpt6-intelligent-ui"
+    },
+    {
+      "title": "Claude Haiku 5.5 arrives with massive price cuts proving the AI pricing arms race is far from over",
+      "summary": "Anthropic's Claude Haiku 5.5 jumps from 15.7 to 72.4 percent on the OSWorld computer-use benchmark, with token prices down by up to 90 percent, though a new tokenizer uses more tokens per task.",
+      "url": "https://the-decoder.com/claude-haiku-5-5-arrives-with-massive-price-cuts-proving-the-ai-pricing-arms-race-is-far-from-over/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-07T18:49:23.000Z",
+      "clusterId": "claude-haiku-5-5"
+    },
+    {
+      "title": "Anthropic launches Claude Haiku 5.5 with 90% API price reduction, matching GPT-6 Luna",
+      "summary": "Anthropic's new Claude Haiku 5.5 cuts API prices by 90%, putting its small model on par with OpenAI's GPT-6 Luna on cost.",
+      "url": "https://venturebeat.com/technology/anthropic-launches-claude-haiku-5-5-with-90-api-price-reduction-matching-gpt-6-luna",
+      "sourceName": "VentureBeat",
+      "sourceId": "venturebeat",
+      "sourceHome": "https://venturebeat.com/category/ai/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-07T18:08:00.000Z",
+      "clusterId": "claude-haiku-5-5"
+    },
+    {
+      "title": "Anthropic launches third Claude 5.5 model, expanding AI lineup before planned IPO",
+      "summary": "Reuters reports Anthropic has launched a third Claude 5.5 model, broadening its lineup ahead of a planned IPO.",
+      "url": "https://www.reuters.com/business/anthropic-launches-third-claude-55-model-expanding-ai-lineup-before-planned-ipo-2026-10-07/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-07T18:07:00.000Z",
+      "clusterId": "claude-haiku-5-5"
+    },
+    {
+      "title": "Zuckerberg's Biohub leads a $1.8 billion push to build AI models that predict cell behavior",
+      "summary": "Biohub is coordinating a $1.8 billion initiative to train AI models that predict cell behavior, with Meta, Google DeepMind, Isomorphic Labs and the US Department of Energy funding data, lab equipment and compute; a first dataset is due in about a year.",
+      "url": "https://the-decoder.com/zuckerbergs-biohub-leads-a-1-8-billion-push-to-build-ai-models-that-predict-cell-behavior/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "research",
+        "funding"
+      ],
+      "publishedAt": "2026-10-07T17:58:20.000Z",
+      "clusterId": "biohub-virtual-cell"
+    },
+    {
+      "title": "US government, Google join Zuckerberg-backed Biohub in $1.8 billion push for AI biology data",
+      "summary": "Reuters reports the US government and Google are joining the Zuckerberg-backed Biohub in a $1.8 billion effort to generate biology data for AI models.",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/us-government-google-join-zuckerberg-backed-biohub-18-billion-push-ai-biology-2026-10-07/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "research",
+        "funding"
+      ],
+      "publishedAt": "2026-10-07T15:02:00.000Z",
+      "clusterId": "biohub-virtual-cell"
+    },
+    {
+      "title": "Google's new SynthID website can identify AI-generated media",
+      "summary": "Google launched a site that lets anyone check whether an image, video or audio clip was generated using AI.",
+      "url": "https://techcrunch.com/2026/10/07/googles-new-synthid-website-can-identify-ai-generated-media/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-07T14:00:00.000Z",
+      "clusterId": "google-synthid-detector"
+    },
+    {
+      "title": "Google rolls out improved SynthID AI content detector, now available globally",
+      "summary": "Google's new SynthID website can now identify AI content from Google, OpenAI and more, and is available worldwide.",
+      "url": "https://arstechnica.com/ai/2026/10/google-rolls-out-improved-synthid-ai-content-detector-now-available-globally/",
+      "sourceName": "Ars Technica",
+      "sourceId": "arstechnica",
+      "sourceHome": "https://arstechnica.com/tag/artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-07T14:00:08.000Z",
+      "clusterId": "google-synthid-detector"
+    },
+    {
+      "title": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
+      "summary": "The developer of the Hermes agent raised a $90 million Series B at a $1.5 billion valuation and is launching AI agents for business users.",
+      "url": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "funding",
+        "agents"
+      ],
+      "publishedAt": "2026-10-07T20:48:45.000Z",
+      "clusterId": "nous-research-1-5b"
+    },
+    {
+      "title": "Microsoft is giving Copilot more control over Windows and your files",
+      "summary": "At its Windows and Surface event, Microsoft showed a Copilot upgrade that can access local files and take actions across the OS, part of a push it calls \"Hybrid Intelligence.\"",
+      "url": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-10-07T18:01:20.000Z",
+      "clusterId": "microsoft-copilot-windows"
+    },
+    {
+      "title": "OpenAI launches Decisions API that reduces complex evaluations to yes, no, or pick one",
+      "summary": "OpenAI's Decisions API classifies text and images about ten times faster than the Responses API, returning yes/no probabilities, category picks or scale ratings for $0.10 per million input tokens; paid API tiers drop from five to three.",
+      "url": "https://the-decoder.com/openai-launches-decisions-api-that-reduces-complex-evaluations-to-yes-no-or-pick-one/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-07T15:36:39.000Z",
+      "clusterId": "openai-decisions-api"
+    },
+    {
+      "title": "ChatGPT for Teens is an 'unacceptable risk,' says Common Sense Media",
+      "summary": "Common Sense Media rated OpenAI's ChatGPT for Teens an \"unacceptable risk\" despite its teen guardrails, after parental alerts failed during self-harm conversations.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-07T09:00:00.000Z",
+      "clusterId": "chatgpt-teens-risk"
+    },
+    {
+      "title": "Multimodal open d1 decision models for the edge",
+      "summary": "Liquid AI released open d1 decision models, d1-3B and the experimental d1-omni-600M, multimodal models that answer in milliseconds on NVIDIA Jetson hardware; d1-3B leads sub-10B models on the Decision Index.",
+      "url": "https://huggingface.co/blog/LiquidAI/open-d1",
+      "sourceName": "Hugging Face Blog",
+      "sourceId": "huggingface",
+      "sourceHome": "https://huggingface.co/blog",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-07T16:54:33.000Z",
+      "clusterId": "liquid-open-d1"
+    },
+    {
+      "title": "Introducing Playground: Create and play custom games",
+      "summary": "Google's experimental Playground platform uses Gemini to let people create, play and share custom games in the browser.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+      "sourceName": "Google AI Blog",
+      "sourceId": "google-ai",
+      "sourceHome": "https://blog.google/technology/ai/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-07T12:00:00.000Z",
+      "clusterId": "google-playground"
+    },
+    {
+      "title": "OpenAI publishes 722 AI-generated math discoveries in major scientific milestone",
+      "summary": "OpenAI published 722 math papers generated with an unreleased AI model, some proving long-standing hypotheses, spanning about 20 areas of mathematics.",
+      "url": "https://siliconangle.com/2026/10/07/openai-publishes-722-ai-generated-math-discoveries-in-major-scientific-milestone/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "research"
+      ],
+      "publishedAt": "2026-10-07T20:37:22.000Z",
+      "clusterId": "openai-math-results"
+    },
     {
       "title": "Sharing AI progress in mathematics",
       "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model, with Lean proof formalizations and research details shared on GitHub.",
@@ -16,298 +240,73 @@
       "clusterId": "openai-math-results"
     },
     {
-      "title": "OpenAI drops another batch of mathematical breakthroughs",
-      "summary": "OpenAI revealed solutions to long-standing math problems produced by an unreleased frontier model, in 722 manuscripts covering 372 result families, a run that has impressed and unsettled parts of the math world.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "research"
-      ],
-      "publishedAt": "2026-10-06T23:26:38.000Z",
-      "clusterId": "openai-math-results"
-    },
-    {
-      "title": "OpenAI Dumps 377 New Math Results on GitHub, Publishes Hand-Wringing Blog Post",
-      "summary": "Gizmodo looks at OpenAI's latest bulk release of math results on GitHub and what it means for professional mathematicians.",
-      "url": "https://gizmodo.com/openai-dumps-377-new-math-results-on-github-publishes-hand-wringing-blog-post-2000822613",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "tags": [
-        "research"
-      ],
-      "publishedAt": "2026-10-07T01:50:52.000Z",
-      "clusterId": "openai-math-results"
-    },
-    {
-      "title": "You can now open Claude directly in Google Docs, Sheets and Slides (and vice versa)",
-      "summary": "Anthropic's Claude can now be opened directly inside Google Docs, Sheets and Slides, and Claude can open and edit those Workspace files in turn.",
-      "url": "https://venturebeat.com/technology/you-can-now-open-claude-directly-in-google-docs-sheets-and-slides-and-vice-versa-open-and-edit-the-files-in-claude",
-      "sourceName": "VentureBeat",
-      "sourceId": "venturebeat",
-      "sourceHome": "https://venturebeat.com/category/ai/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-07T02:07:00.000Z",
-      "clusterId": "claude-google-workspace"
-    },
-    {
-      "title": "Atlassian lays groundwork for humans and AI agents to work side by side",
-      "summary": "At Team '26 Europe, Atlassian announced Agentic Multiplayer Protocol, a platform update for humans and AI agents to collaborate on shared context and tasks in the same workspace.",
-      "url": "https://siliconangle.com/2026/10/07/atlassian-lays-the-groundwork-for-humans-and-ai-agents-to-work-side-by-side/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-07T07:00:29.000Z",
-      "clusterId": "atlassian-agentic-multiplayer"
-    },
-    {
-      "title": "Meta teams up with Bret Taylor’s Sierra Technologies on new standards for AI agent commerce",
-      "summary": "Meta is partnering with Walmart, Stripe and Sierra on new standards defining how autonomous AI agents interact with businesses online, introduced by Sierra co-founder Bret Taylor.",
-      "url": "https://siliconangle.com/2026/10/06/meta-teams-up-with-bret-taylors-sierra-technologies-on-new-standards-for-ai-agent-commerce/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "agents",
-        "policy"
-      ],
-      "publishedAt": "2026-10-07T00:54:21.000Z",
-      "clusterId": "agent-commerce-standards"
-    },
-    {
-      "title": "Mistral’s new 1T model aims to leapfrog closed and open rivals",
-      "summary": "French AI lab Mistral AI has released Mistral Large 4, a new large multimodal model aiming to leapfrog both American and Chinese rivals.",
-      "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-06T14:33:16.000Z",
-      "clusterId": "mistral-large-4"
-    },
-    {
-      "title": "France's Mistral launches AI model it says outperforms some Chinese rivals",
-      "summary": "Reuters reports Mistral's CEO says the company's new AI model beats Chinese rivals in some areas.",
-      "url": "https://www.reuters.com/world/china/mistral-ceo-says-new-ai-model-beats-chinese-ones-some-areas-2026-10-06/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-06T15:44:00.000Z",
-      "clusterId": "mistral-large-4"
-    },
-    {
-      "title": "Anthropic opens its most powerful AI models to more security teams",
-      "summary": "Reuters reports Anthropic is widening access to its most powerful AI models for more security teams.",
-      "url": "https://www.reuters.com/legal/litigation/anthropic-opens-its-most-powerful-ai-models-more-security-teams-2026-10-06/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "model-releases",
-        "policy"
-      ],
-      "publishedAt": "2026-10-06T19:03:00.000Z",
-      "clusterId": "anthropic-security-access"
-    },
-    {
-      "title": "Anthropic folds Project Glasswing into an expanded three-tier Cyber Verification Program",
-      "summary": "Anthropic expanded its Cyber Verification Program into three tiers of access for vetted security teams, with fewer cybersecurity blocks at each step up.",
-      "url": "https://siliconangle.com/2026/10/06/anthropic-folds-project-glasswing-into-an-expanded-three-tier-cyber-verification-program/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "model-releases",
-        "policy"
-      ],
-      "publishedAt": "2026-10-06T22:46:17.000Z",
-      "clusterId": "anthropic-security-access"
-    },
-    {
-      "title": "Companies cutting jobs as investments shift toward AI",
-      "summary": "Reuters tracks companies announcing job cuts as spending shifts toward artificial intelligence.",
-      "url": "https://www.reuters.com/business/world-at-work/companies-cutting-jobs-investments-shift-toward-ai-2026-10-06/",
+      "title": "Most US voters say Trump, Congress don't take AI risks seriously, Reuters/Ipsos poll finds",
+      "summary": "A Reuters/Ipsos poll finds most US voters believe President Trump and Congress are not taking the risks of AI seriously.",
+      "url": "https://www.reuters.com/world/most-us-voters-say-trump-congress-dont-take-ai-risks-seriously-reutersipsos-poll-2026-10-07/",
       "sourceName": "Reuters",
       "sourceId": "reuters",
       "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
       "tags": [
         "policy"
       ],
-      "publishedAt": "2026-10-07T07:01:00.000Z",
-      "clusterId": "ai-job-cuts"
+      "publishedAt": "2026-10-07T16:18:00.000Z",
+      "clusterId": "us-voters-ai-risk-poll"
     },
     {
-      "title": "HSBC plans job cuts across UK wealth business in AI push, FT reports",
-      "summary": "Reuters, citing the Financial Times, reports HSBC plans job cuts across its UK wealth business as part of an AI push.",
-      "url": "https://www.reuters.com/business/finance/hsbc-plans-job-cuts-across-uk-wealth-business-ai-push-ft-reports-2026-10-07/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-07T04:17:00.000Z",
-      "clusterId": "ai-job-cuts"
-    },
-    {
-      "title": "South Korean megachurches probe suspected AI-linked cyberattacks",
-      "summary": "Reuters reports South Korean megachurches are investigating suspected cyberattacks linked to AI.",
-      "url": "https://www.reuters.com/legal/litigation/south-korean-megachurches-probe-suspected-ai-linked-cyberattacks-2026-10-07/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-07T03:00:00.000Z",
-      "clusterId": "korea-church-ai-cyberattacks"
-    },
-    {
-      "title": "US Justice Dept tells staff to call AI 'super intelligence' under Trump order",
-      "summary": "Reuters reports the US Justice Department has told staff to refer to AI as 'super intelligence' under a Trump order.",
-      "url": "https://www.reuters.com/legal/litigation/us-justice-dept-tells-staff-call-ai-super-intelligence-under-trump-order-2026-10-06/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-06T20:13:00.000Z",
-      "clusterId": "doj-super-intelligence"
-    },
-    {
-      "title": "SpaceX seeks $40 billion to buy Nvidia chips, FT reports",
-      "summary": "Reuters, citing the Financial Times, reports SpaceX is seeking $40 billion to buy Nvidia chips.",
-      "url": "https://www.reuters.com/business/media-telecom/spacex-seeks-40-billion-buy-nvidia-chips-ft-reports-2026-10-06/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-06T22:43:00.000Z",
-      "clusterId": "spacex-nvidia-40b"
-    },
-    {
-      "title": "AI computing startup Lambda to raise $4B ahead of planned IPO",
-      "summary": "Nvidia-backed Lambda is raising up to $4 billion at a $14.5 billion pre-money valuation ahead of a planned 2027 IPO, led by Coatue and Blackstone.",
-      "url": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-06T20:00:30.000Z",
-      "clusterId": "lambda-4b-raise"
-    },
-    {
-      "title": "TwelveLabs debuts Pegasus 1.6 to improve robotics training data from first-person video",
-      "summary": "TwelveLabs released Pegasus 1.6, a video-understanding model aimed at turning first-person video into better robotics training data.",
-      "url": "https://venturebeat.com/technology/twelvelabs-debuts-pegasus-1-6-to-improve-robotics-training-data-from-first-person-video",
-      "sourceName": "VentureBeat",
-      "sourceId": "venturebeat",
-      "sourceHome": "https://venturebeat.com/category/ai/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-06T18:17:35.000Z",
-      "clusterId": "twelvelabs-pegasus-1-6"
-    },
-    {
-      "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-      "summary": "Google DeepMind introduces EmbeddingGemma 2, an open, lightweight multimodal embedding model that Google says outperforms rival embedding models twice its size.",
-      "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-      "sourceName": "Google DeepMind Blog",
-      "sourceId": "deepmind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "tags": [
-        "model-releases",
-        "research"
-      ],
-      "publishedAt": "2026-10-06T19:57:04.000Z",
-      "clusterId": "embeddinggemma-2"
-    },
-    {
-      "title": "Google's new image model Nano Banana 2.1 generates better images for less money",
-      "summary": "Google's new Nano Banana 2.1 image model produces better images at a lower price, THE DECODER reports.",
-      "url": "https://the-decoder.com/googles-new-image-model-nano-banana-2-1-generates-better-images-for-less-money/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-06T19:48:00.000Z",
-      "clusterId": "nano-banana-2-1"
-    },
-    {
-      "title": "Court Finds That Using Copyrighted Material as AI Training Data Is Not Fair Use",
-      "summary": "Futurism covers a court finding that using copyrighted material as AI training data is not fair use, a potential turning point for copyright holders.",
-      "url": "https://futurism.com/artificial-intelligence/court-finds-copyrighted-material-training-data-fair-use",
+      "title": "Finland Orders Google to Suspend New Data Centers After Contractors Pave Over Protected Forests",
+      "summary": "Finnish authorities ordered Google to suspend new data center work after contractors paved over protected forest; a company spokesperson admitted it had \"fallen short.\"",
+      "url": "https://futurism.com/artificial-intelligence/finland-google-data-centers-forests-environment",
       "sourceName": "Futurism",
       "sourceId": "futurism",
       "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
       "tags": [
         "policy"
       ],
-      "publishedAt": "2026-10-06T14:58:51.000Z",
-      "clusterId": "ai-training-not-fair-use"
+      "publishedAt": "2026-10-07T19:58:01.000Z",
+      "clusterId": "finland-google-datacenters"
     }
   ],
   "rumors": [
     {
       "title": "Google DeepMind reached RSI (wildfire rumor)",
-      "summary": "UNCONFIRMED X chatter: @kimmonismus amplifies DeepMind RSI claims via leaker circles — treat as rumor only; not Top confirmed. oEmbed re-verified evening 7 Oct (HTTP 200).",
+      "summary": "UNCONFIRMED X chatter: @kimmonismus amplifies DeepMind RSI claims via leaker circles — treat as rumor only; not Top confirmed. oEmbed re-verified morning 8 Oct (HTTP 200).",
       "url": "https://x.com/kimmonismus/status/2098679143030206735",
       "via": "@kimmonismus",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-07T07:55:00.000Z",
+      "harvestedAt": "2026-10-07T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Nvidia to invest up to $10B in Anthropic IPO",
-      "summary": "UNCONFIRMED X chatter: @financialjuice cites source on Nvidia investing up to $10B in Anthropic IPO — still unverified. oEmbed re-verified evening 7 Oct (HTTP 200).",
+      "summary": "UNCONFIRMED X chatter: @financialjuice cites source on Nvidia investing up to $10B in Anthropic IPO — still unverified. oEmbed re-verified morning 8 Oct (HTTP 200).",
       "url": "https://x.com/financialjuice/status/2098546857920057371",
       "via": "@financialjuice",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-07T07:55:00.000Z",
+      "harvestedAt": "2026-10-07T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Thinking Machines talks $1B+ round at ~$40B",
-      "summary": "UNCONFIRMED X chatter: @wallstengine says Mira Murati's Thinking Machines in talks for $1B+ at ~$40B (Accel/Nvidia interest per TI) — rumor only. oEmbed re-verified evening 7 Oct (HTTP 200).",
+      "summary": "UNCONFIRMED X chatter: @wallstengine says Mira Murati's Thinking Machines in talks for $1B+ at ~$40B (Accel/Nvidia interest per TI) — rumor only. oEmbed re-verified morning 8 Oct (HTTP 200).",
       "url": "https://x.com/wallstengine/status/2095569301923324153",
       "via": "@wallstengine",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-07T07:55:00.000Z",
+      "harvestedAt": "2026-10-07T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "OpenAI Bel=AGI + Opus 5.5 race (pre-Sol thread refresh)",
-      "summary": "UNCONFIRMED X chatter: @imjustnewatai Oct 1 thread — Bel internally called AGI / helped Sol; Anthropic Opus 5.5 timing chatter + year-end realtime inference claim — Bel=AGI + Opus race still unverified rumor (HF ThinkingBox bench also lists Opus 5.5 / GPT-6 Astra as eval models, not confirmation). oEmbed re-verified evening 7 Oct (HTTP 200).",
+      "summary": "UNCONFIRMED X chatter: @imjustnewatai Oct 1 thread — Bel internally called AGI / helped Sol; Anthropic Opus 5.5 timing chatter + year-end realtime inference claim — Bel=AGI + Opus race still unverified rumor (HF ThinkingBox bench also lists Opus 5.5 / GPT-6 Astra as eval models, not confirmation). oEmbed re-verified morning 8 Oct (HTTP 200).",
       "url": "https://x.com/imjustnewatai/status/2101791658815914351",
       "via": "@imjustnewatai",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-07T07:55:00.000Z",
+      "harvestedAt": "2026-10-07T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
