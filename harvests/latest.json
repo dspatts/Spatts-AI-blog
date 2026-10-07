@@ -1,317 +1,315 @@
 {
-  "harvestedAt": "2026-10-06T07:55:00.000Z",
+  "harvestedAt": "2026-10-07T01:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
-      "title": "South Korea plans to develop $3.5 billion frontier AI model starting next year",
-      "summary": "Reuters reports South Korea plans to spend $3.5 billion developing a national frontier AI model, with work starting next year.",
-      "url": "https://www.reuters.com/world/asia-pacific/south-korea-plans-develop-35-billion-frontier-ai-model-starting-next-year-2026-10-06/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "title": "Sharing AI progress in mathematics",
+      "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model, with Lean proof formalizations and research details shared on GitHub.",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+      "sourceName": "OpenAI News",
+      "sourceId": "openai",
+      "sourceHome": "https://openai.com/news/",
       "tags": [
-        "policy",
-        "model-releases"
+        "research"
       ],
-      "publishedAt": "2026-10-06T02:22:00.000Z",
-      "clusterId": "korea-frontier-ai-model"
+      "publishedAt": "2026-10-06T12:00:00.000Z",
+      "clusterId": "openai-math-results"
     },
     {
-      "title": "Anthropic Reports User to the Police",
-      "summary": "A Florida woman faces a second-degree felony charge after telling Anthropic's Claude chatbot about her violent ideas, Futurism reports, raising questions about what AI companies pass to law enforcement.",
-      "url": "https://futurism.com/artificial-intelligence/anthropic-claude-ai-chatbot-police-violence-safety",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
+      "title": "OpenAI drops another batch of mathematical breakthroughs",
+      "summary": "OpenAI revealed solutions to long-standing math problems produced by an unreleased frontier model, in 722 manuscripts covering 372 result families, a run that has impressed and unsettled parts of the math world.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
       "tags": [
-        "policy"
+        "research"
       ],
-      "publishedAt": "2026-10-06T00:52:00.000Z",
-      "clusterId": "anthropic-claude-police-report"
+      "publishedAt": "2026-10-06T23:26:38.000Z",
+      "clusterId": "openai-math-results"
     },
     {
-      "title": "Utah gives startup Nolla Health permission to start issuing AI automated prescriptions for acne treatments",
-      "summary": "Utah has become the first U.S. state to let an AI startup automate approval of prescription refills with minimal oversight from human physicians, under a pilot granted to Nolla Health.",
-      "url": "https://siliconangle.com/2026/10/05/utah-gives-startup-nolla-health-permission-to-start-issuing-ai-automated-prescriptions-for-acne-treatments/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "policy",
-        "agents"
-      ],
-      "publishedAt": "2026-10-06T02:33:01.000Z",
-      "clusterId": "utah-ai-prescriptions"
-    },
-    {
-      "title": "Utah Pilots AI-Only Examination and Prescription Process for Certain Patients",
-      "summary": "Gizmodo covers Utah's pilot letting an AI system examine certain patients and issue prescriptions with no human doctor involved.",
-      "url": "https://gizmodo.com/utah-pilots-ai-only-examination-and-prescription-process-for-certain-patients-2000821993",
+      "title": "OpenAI Dumps 377 New Math Results on GitHub, Publishes Hand-Wringing Blog Post",
+      "summary": "Gizmodo looks at OpenAI's latest bulk release of math results on GitHub and what it means for professional mathematicians.",
+      "url": "https://gizmodo.com/openai-dumps-377-new-math-results-on-github-publishes-hand-wringing-blog-post-2000822613",
       "sourceName": "Gizmodo",
       "sourceId": "gizmodo",
       "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
       "tags": [
-        "policy",
-        "agents"
-      ],
-      "publishedAt": "2026-10-06T03:16:03.000Z",
-      "clusterId": "utah-ai-prescriptions"
-    },
-    {
-      "title": "Meta Insiders Convinced Muse Is Going to End Up Leaking the Bank Accounts and Email Archives They’re Vacuuming Up From Users",
-      "summary": "Meta employees fear the company's new Muse AI agent, which ingests sensitive user data like bank accounts and email archives, could lead to a catastrophic data breach.",
-      "url": "https://futurism.com/artificial-intelligence/meta-muse-data-breach-bank-accounts-email-archives",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
-      "tags": [
-        "agents",
-        "policy"
-      ],
-      "publishedAt": "2026-10-05T23:50:00.000Z",
-      "clusterId": "muse-data-breach-fears"
-    },
-    {
-      "title": "South Korea's Lee says AI appears to have been used in bank hacks",
-      "summary": "South Korean President Lee Jae-myung says AI appears to have been used in recent bank hacks, Reuters reports.",
-      "url": "https://www.reuters.com/world/south-koreas-lee-says-ai-appears-have-been-used-bank-hacks-2026-10-06/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-06T02:13:00.000Z",
-      "clusterId": "korea-ai-bank-hacks"
-    },
-    {
-      "title": "OpenAI will start watermarking ChatGPT’s text in the EU",
-      "summary": "OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act; it says editing can make the invisible marks harder to detect.",
-      "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-05T20:36:48.000Z",
-      "clusterId": "openai-eu-text-watermark"
-    },
-    {
-      "title": "OpenAI is adding text watermarking in ChatGPT and Codex",
-      "summary": "An invisible, machine-readable 'textGrain' watermark is rolling out to ChatGPT and Codex for EU users first; OpenAI says it matched or exceeded approaches like Google DeepMind's SynthID for text.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-05T18:08:39.000Z",
-      "clusterId": "openai-eu-text-watermark"
-    },
-    {
-      "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
-      "summary": "Reflection is aiming Beam at enterprises and sovereign nations, pitching 'AI factories' that let institutions train its open-weight models on their own proprietary data.",
-      "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-05T19:33:53.000Z",
-      "clusterId": "reflection-beam"
-    },
-    {
-      "title": "Reflection AI debuts open-source Beam model with 501B parameters",
-      "summary": "Reflection AI's Beam is a 501B-parameter open-source LLM, launched months after the startup raised at a $25B valuation and reportedly signed a $6.3B deal with SpaceX to rent Nvidia GB300 NVL72 systems.",
-      "url": "https://siliconangle.com/2026/10/05/reflection-ai-debuts-open-source-beam-model-with-501b-parameters/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-06T00:46:33.000Z",
-      "clusterId": "reflection-beam"
-    },
-    {
-      "title": "Nvidia-backed Reflection unveils first AI model to take on Chinese open models",
-      "summary": "Reuters reports Nvidia-backed Reflection has unveiled its first AI model, an open model positioned against Chinese open-weight rivals.",
-      "url": "https://www.reuters.com/technology/nvidia-backed-reflection-unveils-first-ai-model-take-chinese-open-models-2026-10-05/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-05T20:54:09.000Z",
-      "clusterId": "reflection-beam"
-    },
-    {
-      "title": "Cohere pitches North 2 as the enterprise AI control room that works with any model",
-      "summary": "Cohere is positioning North 2 as a model-agnostic enterprise control room for building, orchestrating and governing AI agents, THE DECODER reports.",
-      "url": "https://the-decoder.com/cohere-pitches-north-2-as-the-enterprise-ai-control-room-that-works-with-any-model/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-06T07:03:25.000Z",
-      "clusterId": "cohere-north-2"
-    },
-    {
-      "title": "MCP for agent-to-agent comms may be the riskiest protocol you've never heard of",
-      "summary": "A vulnerability affecting agents from Google and others exposes a structural flaw: trust gaps in the agent-to-agent protocol let malicious prompts spread from one agent to another.",
-      "url": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
-      "sourceName": "Ars Technica",
-      "sourceId": "arstechnica",
-      "sourceHome": "https://arstechnica.com/tag/artificial-intelligence/",
-      "tags": [
-        "agents",
         "research"
       ],
-      "publishedAt": "2026-10-05T22:26:35.000Z",
-      "clusterId": "agent-protocol-prompt-spread"
+      "publishedAt": "2026-10-07T01:50:52.000Z",
+      "clusterId": "openai-math-results"
     },
     {
-      "title": "Signed data pioneer SignSplit launches with $400M to help everyone get paid for their AI contributions",
-      "summary": "SignSplit PBC, which helps users protect and monetize their personal data for AI, launched with $400M from W Group at a $1B valuation.",
-      "url": "https://siliconangle.com/2026/10/05/signed-data-pioneer-signsplit-launches-with-400m-to-help-everyone-get-paid-for-their-ai-contributions/",
+      "title": "Meta teams up with Bret Taylor’s Sierra Technologies on new standards for AI agent commerce",
+      "summary": "Meta is partnering with Walmart, Stripe and Sierra on new standards defining how autonomous AI agents interact with businesses online, introduced by Sierra co-founder Bret Taylor.",
+      "url": "https://siliconangle.com/2026/10/06/meta-teams-up-with-bret-taylors-sierra-technologies-on-new-standards-for-ai-agent-commerce/",
       "sourceName": "SiliconANGLE",
       "sourceId": "siliconangle",
       "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "agents",
+        "policy"
+      ],
+      "publishedAt": "2026-10-07T00:54:21.000Z",
+      "clusterId": "agent-commerce-standards"
+    },
+    {
+      "title": "Meta Wants to Write the Industry Standards for Safe Agentic Commerce, Report Says",
+      "summary": "Meta is pushing to shape standards for agentic commerce even as its Muse agent has been implicated in several privacy and security issues since launching less than a month ago.",
+      "url": "https://gizmodo.com/meta-wants-to-write-the-industry-standards-for-safe-agentic-commerce-report-says-2000822526",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "agents",
+        "policy"
+      ],
+      "publishedAt": "2026-10-06T23:26:58.000Z",
+      "clusterId": "agent-commerce-standards"
+    },
+    {
+      "title": "Mistral’s new 1T model aims to leapfrog closed and open rivals",
+      "summary": "French AI lab Mistral AI has released Mistral Large 4, a new large multimodal model aiming to leapfrog both American and Chinese rivals.",
+      "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-06T14:33:16.000Z",
+      "clusterId": "mistral-large-4"
+    },
+    {
+      "title": "France's Mistral launches AI model it says outperforms some Chinese rivals",
+      "summary": "Reuters reports Mistral's CEO says the company's new AI model beats Chinese rivals in some areas.",
+      "url": "https://www.reuters.com/world/china/mistral-ceo-says-new-ai-model-beats-chinese-ones-some-areas-2026-10-06/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-06T15:44:00.000Z",
+      "clusterId": "mistral-large-4"
+    },
+    {
+      "title": "Anthropic opens its most powerful AI models to more security teams",
+      "summary": "Reuters reports Anthropic is widening access to its most powerful AI models for more security teams.",
+      "url": "https://www.reuters.com/legal/litigation/anthropic-opens-its-most-powerful-ai-models-more-security-teams-2026-10-06/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "model-releases",
+        "policy"
+      ],
+      "publishedAt": "2026-10-06T19:03:00.000Z",
+      "clusterId": "anthropic-security-access"
+    },
+    {
+      "title": "Anthropic folds Project Glasswing into an expanded three-tier Cyber Verification Program",
+      "summary": "Anthropic expanded its Cyber Verification Program into three tiers of access for vetted security teams, with fewer cybersecurity blocks at each step up.",
+      "url": "https://siliconangle.com/2026/10/06/anthropic-folds-project-glasswing-into-an-expanded-three-tier-cyber-verification-program/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "model-releases",
+        "policy"
+      ],
+      "publishedAt": "2026-10-06T22:46:17.000Z",
+      "clusterId": "anthropic-security-access"
+    },
+    {
+      "title": "US Justice Dept tells staff to call AI 'super intelligence' under Trump order",
+      "summary": "Reuters reports the US Justice Department has told staff to refer to AI as 'super intelligence' under a Trump order.",
+      "url": "https://www.reuters.com/legal/litigation/us-justice-dept-tells-staff-call-ai-super-intelligence-under-trump-order-2026-10-06/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-06T20:13:00.000Z",
+      "clusterId": "doj-super-intelligence"
+    },
+    {
+      "title": "SpaceX seeks $40 billion to buy Nvidia chips, FT reports",
+      "summary": "Reuters, citing the Financial Times, reports SpaceX is seeking $40 billion to buy Nvidia chips.",
+      "url": "https://www.reuters.com/business/media-telecom/spacex-seeks-40-billion-buy-nvidia-chips-ft-reports-2026-10-06/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
       "tags": [
         "funding"
       ],
-      "publishedAt": "2026-10-06T01:43:01.000Z",
-      "clusterId": "signsplit-400m"
+      "publishedAt": "2026-10-06T22:43:00.000Z",
+      "clusterId": "spacex-nvidia-40b"
     },
     {
-      "title": "AI agent hardware startup Ghost, led by its 19-year-old-founder, raises $11M",
-      "summary": "Ghost AI raised $11M led by Andreessen Horowitz to build what it calls the first personal computer dedicated to running personal AI agents.",
-      "url": "https://siliconangle.com/2026/10/05/ai-agent-hardware-startup-ghost-led-by-its-19-year-old-founder-raises-11m/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
+      "title": "AI computing startup Lambda to raise $4B ahead of planned IPO",
+      "summary": "Nvidia-backed Lambda is raising up to $4 billion at a $14.5 billion pre-money valuation ahead of a planned 2027 IPO, led by Coatue and Blackstone.",
+      "url": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
       "tags": [
-        "funding",
-        "agents"
+        "funding"
       ],
-      "publishedAt": "2026-10-06T00:43:54.000Z",
-      "clusterId": "ghost-ai-11m"
+      "publishedAt": "2026-10-06T20:00:30.000Z",
+      "clusterId": "lambda-4b-raise"
     },
     {
-      "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
-      "summary": "TII introduces Falcon-Emirati-7B, built on Falcon-H1-Arabic and adapted to the Emirati dialect and culture using authentic dialect web data, cultural MSA data and guided synthetic data, evaluated by native speakers.",
-      "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
-      "sourceName": "Hugging Face Blog",
-      "sourceId": "huggingface",
-      "sourceHome": "https://huggingface.co/blog",
+      "title": "TwelveLabs debuts Pegasus 1.6 to improve robotics training data from first-person video",
+      "summary": "TwelveLabs released Pegasus 1.6, a video-understanding model aimed at turning first-person video into better robotics training data.",
+      "url": "https://venturebeat.com/technology/twelvelabs-debuts-pegasus-1-6-to-improve-robotics-training-data-from-first-person-video",
+      "sourceName": "VentureBeat",
+      "sourceId": "venturebeat",
+      "sourceHome": "https://venturebeat.com/category/ai/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-06T18:17:35.000Z",
+      "clusterId": "twelvelabs-pegasus-1-6"
+    },
+    {
+      "title": "Italy regulator probes AI music startup Suno over terms of service",
+      "summary": "Reuters reports an Italian regulator has opened a probe into AI music startup Suno over its terms of service.",
+      "url": "https://www.reuters.com/legal/litigation/italy-regulator-probes-ai-music-startup-suno-over-terms-service-2026-10-06/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-06T20:54:00.000Z",
+      "clusterId": "italy-suno-probe"
+    },
+    {
+      "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+      "summary": "Google DeepMind introduces EmbeddingGemma 2, an open, lightweight multimodal embedding model that Google says outperforms rival embedding models twice its size.",
+      "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+      "sourceName": "Google DeepMind Blog",
+      "sourceId": "deepmind",
+      "sourceHome": "https://deepmind.google/blog/",
       "tags": [
         "model-releases",
         "research"
       ],
-      "publishedAt": "2026-10-06T06:44:39.000Z",
-      "clusterId": "falcon-emirati"
+      "publishedAt": "2026-10-06T19:57:04.000Z",
+      "clusterId": "embeddinggemma-2"
     },
     {
-      "title": "Meta and Microsoft pull back from Claude as Anthropic transforms from partner into competitor",
-      "summary": "Per The Information, Microsoft cut Claude spending by more than a third and steered staff to Copilot and OpenAI models, while Meta's Claude Code users fell from ~60,000 to ~30,000 as it pushes in-house tools.",
-      "url": "https://the-decoder.com/meta-and-microsoft-pull-back-from-claude-as-anthropic-transforms-from-partner-into-competitor/",
+      "title": "Google's new image model Nano Banana 2.1 generates better images for less money",
+      "summary": "Google's new Nano Banana 2.1 image model produces better images at a lower price, THE DECODER reports.",
+      "url": "https://the-decoder.com/googles-new-image-model-nano-banana-2-1-generates-better-images-for-less-money/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
       "sourceHome": "https://the-decoder.com/",
       "tags": [
-        "agents",
-        "funding"
+        "model-releases"
       ],
-      "publishedAt": "2026-10-05T19:23:34.000Z",
-      "clusterId": "meta-msft-claude-pullback"
+      "publishedAt": "2026-10-06T19:48:00.000Z",
+      "clusterId": "nano-banana-2-1"
     },
     {
-      "title": "Gemini Call for Me might tell your mom you’re running late",
-      "summary": "An APK teardown suggests Google may expand Gemini's 'Call for Me' feature beyond business calls so the AI can phone friends and family with messages on your behalf.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors",
+      "title": "Court Finds That Using Copyrighted Material as AI Training Data Is Not Fair Use",
+      "summary": "Futurism covers a court finding that using copyrighted material as AI training data is not fair use, a potential turning point for copyright holders.",
+      "url": "https://futurism.com/artificial-intelligence/court-finds-copyrighted-material-training-data-fair-use",
+      "sourceName": "Futurism",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-06T14:58:51.000Z",
+      "clusterId": "ai-training-not-fair-use"
+    },
+    {
+      "title": "CATL and Tencent back Deepseek's ballooning funding round as the AI startup eyes a 2027 IPO",
+      "summary": "THE DECODER reports battery giant CATL and Tencent are backing DeepSeek's growing funding round as the Chinese AI startup eyes a 2027 IPO.",
+      "url": "https://the-decoder.com/catl-and-tencent-back-deepseeks-ballooning-funding-round-as-the-ai-startup-eyes-a-2027-ipo/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-06T11:23:00.000Z",
+      "clusterId": "deepseek-funding-round"
+    },
+    {
+      "title": "Google is about to remove free access to Gemini Flash and Pro",
+      "summary": "The Verge reports Google is about to remove free access to Gemini Flash and Pro, leaving free users with Flash-Lite only.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only",
       "sourceName": "The Verge",
       "sourceId": "theverge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
       "tags": [
-        "agents"
+        "model-releases"
       ],
-      "publishedAt": "2026-10-05T23:09:55.000Z",
-      "clusterId": "gemini-call-for-me"
+      "publishedAt": "2026-10-06T13:19:00.000Z",
+      "clusterId": "gemini-free-tier-cut"
     },
     {
-      "title": "Italy PM Meloni seeks EU trademark for her voice amid AI deepfake risks",
-      "summary": "Italian Prime Minister Giorgia Meloni is seeking an EU trademark on her voice as protection against AI deepfakes, Reuters reports.",
-      "url": "https://www.reuters.com/technology/italy-pm-meloni-seeks-eu-trademark-her-voice-amid-ai-deepfake-risks-2026-10-05/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "title": "Wikimedia Detected Activity From OpenAI’s ‘Rogue’ Agents Across Its Platforms",
+      "summary": "The nonprofit says the agents made unauthorized edits, probed its services, and may have contributed to a partial outage.",
+      "url": "https://gizmodo.com/wikimedia-detected-activity-from-openais-rogue-agents-across-its-platforms-2000822207",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
       "tags": [
+        "agents",
         "policy"
       ],
-      "publishedAt": "2026-10-05T21:09:43.000Z",
-      "clusterId": "meloni-voice-trademark"
-    },
-    {
-      "title": "AI is eroding office hours, study groups, and the trust between faculty and students, MIT report finds",
-      "summary": "An MIT report finds AI use is eroding office hours, study groups and trust between faculty and students, according to THE DECODER.",
-      "url": "https://the-decoder.com/ai-is-eroding-office-hours-study-groups-and-the-trust-between-faculty-and-students-mit-report-finds/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "research"
-      ],
-      "publishedAt": "2026-10-06T00:08:31.000Z",
-      "clusterId": "mit-ai-education-report"
+      "publishedAt": "2026-10-06T16:30:56.000Z",
+      "clusterId": "wikimedia-openai-rogue-agents"
     }
   ],
   "rumors": [
     {
       "title": "Google DeepMind reached RSI (wildfire rumor)",
-      "summary": "UNCONFIRMED X chatter: @kimmonismus amplifies DeepMind RSI claims via leaker circles — treat as rumor only; not Top confirmed. oEmbed re-verified evening 6 Oct (HTTP 200).",
+      "summary": "UNCONFIRMED X chatter: @kimmonismus amplifies DeepMind RSI claims via leaker circles — treat as rumor only; not Top confirmed. oEmbed re-verified midday 7 Oct (HTTP 200).",
       "url": "https://x.com/kimmonismus/status/2098679143030206735",
       "via": "@kimmonismus",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-06T07:55:00.000Z",
+      "harvestedAt": "2026-10-07T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Nvidia to invest up to $10B in Anthropic IPO",
-      "summary": "UNCONFIRMED X chatter: @financialjuice cites source on Nvidia investing up to $10B in Anthropic IPO — still unverified. oEmbed re-verified evening 6 Oct (HTTP 200).",
+      "summary": "UNCONFIRMED X chatter: @financialjuice cites source on Nvidia investing up to $10B in Anthropic IPO — still unverified. oEmbed re-verified midday 7 Oct (HTTP 200).",
       "url": "https://x.com/financialjuice/status/2098546857920057371",
       "via": "@financialjuice",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-06T07:55:00.000Z",
+      "harvestedAt": "2026-10-07T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Thinking Machines talks $1B+ round at ~$40B",
-      "summary": "UNCONFIRMED X chatter: @wallstengine says Mira Murati's Thinking Machines in talks for $1B+ at ~$40B (Accel/Nvidia interest per TI) — rumor only. oEmbed re-verified evening 6 Oct (HTTP 200).",
+      "summary": "UNCONFIRMED X chatter: @wallstengine says Mira Murati's Thinking Machines in talks for $1B+ at ~$40B (Accel/Nvidia interest per TI) — rumor only. oEmbed re-verified midday 7 Oct (HTTP 200).",
       "url": "https://x.com/wallstengine/status/2095569301923324153",
       "via": "@wallstengine",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-06T07:55:00.000Z",
+      "harvestedAt": "2026-10-07T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "OpenAI Bel=AGI + Opus 5.5 race (pre-Sol thread refresh)",
-      "summary": "UNCONFIRMED X chatter: @imjustnewatai Oct 1 thread — Bel internally called AGI / helped Sol; Anthropic Opus 5.5 timing chatter + year-end realtime inference claim — Bel=AGI + Opus race still unverified rumor (HF ThinkingBox bench also lists Opus 5.5 / GPT-6 Astra as eval models, not confirmation). oEmbed re-verified evening 6 Oct (HTTP 200).",
+      "summary": "UNCONFIRMED X chatter: @imjustnewatai Oct 1 thread — Bel internally called AGI / helped Sol; Anthropic Opus 5.5 timing chatter + year-end realtime inference claim — Bel=AGI + Opus race still unverified rumor (HF ThinkingBox bench also lists Opus 5.5 / GPT-6 Astra as eval models, not confirmation). oEmbed re-verified midday 7 Oct (HTTP 200).",
       "url": "https://x.com/imjustnewatai/status/2101791658815914351",
       "via": "@imjustnewatai",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-06T07:55:00.000Z",
+      "harvestedAt": "2026-10-07T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
