@@ -1,5 +1,5 @@
 {
-  "harvestedAt": "2026-10-08T01:55:00.000Z",
+  "harvestedAt": "2026-10-08T07:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
@@ -39,19 +39,6 @@
         "model-releases"
       ],
       "publishedAt": "2026-10-07T19:10:42.000Z",
-      "clusterId": "gpt6-intelligent-ui"
-    },
-    {
-      "title": "ChatGPT with GPT-6 ditches mostly text output for interactive UI with charts, buttons, and mini apps",
-      "summary": "GPT-6's Intelligent UI turns answers into interactive interfaces; the model can respond while still thinking, cutting wait times by 44 percent. Paying users get GPT-6 Sol, free users GPT-6 Luna.",
-      "url": "https://the-decoder.com/chatgpt-with-gpt-6-ditches-mostly-text-output-for-interactive-ui-with-charts-buttons-and-mini-apps/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-07T19:06:40.000Z",
       "clusterId": "gpt6-intelligent-ui"
     },
     {
@@ -120,19 +107,6 @@
       "clusterId": "microsoft-copilot-windows"
     },
     {
-      "title": "NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents",
-      "summary": "At Microsoft's San Francisco event, Jensen Huang and Satya Nadella outlined how NVIDIA and Microsoft are co-engineering RTX Spark hardware and software so AI agents run locally on Windows PCs.",
-      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
-      "sourceName": "NVIDIA Generative AI Blog",
-      "sourceId": "nvidia",
-      "sourceHome": "https://blogs.nvidia.com/blog/category/generative-ai/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-07T18:45:28.000Z",
-      "clusterId": "microsoft-copilot-windows"
-    },
-    {
       "title": "Microsoft is giving Copilot more control over Windows and your files",
       "summary": "At its Windows and Surface event, Microsoft showed a Copilot upgrade that can access local files and take actions across the OS, part of a push it calls \"Hybrid Intelligence.\"",
       "url": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
@@ -144,6 +118,33 @@
       ],
       "publishedAt": "2026-10-07T18:01:20.000Z",
       "clusterId": "microsoft-copilot-windows"
+    },
+    {
+      "title": "3 Fired OpenAI Employees Write Plea for Chain of Thought Monitoring to Be Preserved",
+      "summary": "Three researchers OpenAI recently fired over handling sensitive information wrote to its board and safety committees, per the WSJ, urging labs not to ship models that reduce chain-of-thought monitorability; OpenAI says the firings weren't about safety and that it agrees with the recommendations.",
+      "url": "https://gizmodo.com/3-fired-openai-employees-write-plea-for-chain-of-thought-monitoring-to-be-preserved-2000823349",
+      "sourceName": "Gizmodo AI",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "policy",
+        "research"
+      ],
+      "publishedAt": "2026-10-08T02:19:48.000Z",
+      "clusterId": "openai-cot-monitoring-letter"
+    },
+    {
+      "title": "US venture deal value reaches record $515.8B as exits fail to keep pace",
+      "summary": "Giant AI rounds pushed US venture deal value about 44% past its previous annual record with a quarter still to go, according to the PitchBook-NVCA Venture Monitor, but exits to return that money haven't kept pace.",
+      "url": "https://siliconangle.com/2026/10/08/us-venture-deal-value-reaches-record-515-8b-as-exits-fail-to-keep-pace/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/category/ai/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-08T04:01:51.000Z",
+      "clusterId": "us-vc-record-ai"
     },
     {
       "title": "Nvidia, Samsung back $90M round for AI agent startup Nous Research",
@@ -174,6 +175,46 @@
       "clusterId": "nous-research-1-5b"
     },
     {
+      "title": "Google's new SynthID website can identify AI-generated media",
+      "summary": "Google launched a site that lets anyone check whether an image, video or audio clip was generated using AI.",
+      "url": "https://techcrunch.com/2026/10/07/googles-new-synthid-website-can-identify-ai-generated-media/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-07T14:00:00.000Z",
+      "clusterId": "google-synthid-detector"
+    },
+    {
+      "title": "Google debuts SynthID Detector tool for flagging AI-generated content, but it's far from perfect",
+      "summary": "Google's web-based SynthID Detector is now open to everyone and can flag images, video and audio made with watermarking models from Google, OpenAI, Nvidia and others, though SiliconANGLE notes it can't catch unwatermarked content.",
+      "url": "https://siliconangle.com/2026/10/07/google-debuts-synthid-detector-tool-for-flagging-ai-generated-content-but-its-far-from-perfect/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/category/ai/",
+      "tags": [
+        "policy",
+        "research"
+      ],
+      "publishedAt": "2026-10-08T02:49:25.000Z",
+      "clusterId": "google-synthid-detector"
+    },
+    {
+      "title": "CrowdStrike says China-based suspect used AI tools in South Korean bank hacks",
+      "summary": "Reuters reports CrowdStrike believes the suspect behind a string of South Korean bank hacks may be a 26-year-old based in China who used AI tools in the attacks.",
+      "url": "https://www.reuters.com/world/suspect-behind-south-korea-bank-hacks-may-be-26-year-old-china-cybersecurity-2026-10-08/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-08T00:04:00.000Z",
+      "clusterId": "sk-bank-hacks-ai"
+    },
+    {
       "title": "AI companies run virtual drug trials, aim to improve success of human studies",
       "summary": "Reuters reports AI companies are running simulated \"virtual\" drug trials to predict outcomes and improve the success rate of human clinical studies.",
       "url": "https://www.reuters.com/legal/litigation/ai-companies-run-virtual-drug-trials-aim-improve-success-human-studies-2026-10-07/",
@@ -185,20 +226,6 @@
       ],
       "publishedAt": "2026-10-07T21:01:00.000Z",
       "clusterId": "ai-virtual-drug-trials"
-    },
-    {
-      "title": "Life sciences firm Danaher to launch AI-powered autonomous research lab in 2027",
-      "summary": "Reuters reports Danaher plans to launch an AI-powered autonomous research lab in 2027.",
-      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/life-sciences-firm-danaher-launch-ai-powered-autonomous-research-lab-2027-2026-10-07/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "research",
-        "agents"
-      ],
-      "publishedAt": "2026-10-07T20:07:00.000Z",
-      "clusterId": "danaher-autonomous-lab"
     },
     {
       "title": "Zuckerberg's Biohub leads a $1.8 billion push to build AI models that predict cell behavior",
@@ -215,19 +242,6 @@
       "clusterId": "biohub-virtual-cell"
     },
     {
-      "title": "Google's new SynthID website can identify AI-generated media",
-      "summary": "Google launched a site that lets anyone check whether an image, video or audio clip was generated using AI.",
-      "url": "https://techcrunch.com/2026/10/07/googles-new-synthid-website-can-identify-ai-generated-media/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-07T14:00:00.000Z",
-      "clusterId": "google-synthid-detector"
-    },
-    {
       "title": "ChatGPT for Teens is an 'unacceptable risk,' says Common Sense Media",
       "summary": "Common Sense Media rated OpenAI's ChatGPT for Teens an \"unacceptable risk\" despite its teen guardrails, after parental alerts failed during self-harm conversations.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media",
@@ -241,73 +255,60 @@
       "clusterId": "chatgpt-teens-risk"
     },
     {
-      "title": "OpenAI launches Decisions API that reduces complex evaluations to yes, no, or pick one",
-      "summary": "OpenAI's Decisions API classifies text and images about ten times faster than the Responses API, returning yes/no probabilities, category picks or scale ratings for $0.10 per million input tokens; paid API tiers drop from five to three.",
-      "url": "https://the-decoder.com/openai-launches-decisions-api-that-reduces-complex-evaluations-to-yes-no-or-pick-one/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-07T15:36:39.000Z",
-      "clusterId": "openai-decisions-api"
-    },
-    {
-      "title": "Finland Orders Google to Suspend New Data Centers After Contractors Pave Over Protected Forests",
-      "summary": "Finnish authorities ordered Google to suspend new data center work after contractors paved over protected forest; a company spokesperson admitted it had \"fallen short.\"",
-      "url": "https://futurism.com/artificial-intelligence/finland-google-data-centers-forests-environment",
+      "title": "ChatGPT Caught Putting Signatures of Real Cartoonists on AI-Generated Comics",
+      "summary": "Futurism reports ChatGPT has been adding the signatures of real, working cartoonists to AI-generated comics, with one artist calling it \"a violation of my personhood.\"",
+      "url": "https://futurism.com/artificial-intelligence/chatgpt-caught-putting-signatures-of-real-cartoonists-on-ai-generated-comics",
       "sourceName": "Futurism",
       "sourceId": "futurism",
       "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
       "tags": [
         "policy"
       ],
-      "publishedAt": "2026-10-07T19:58:01.000Z",
-      "clusterId": "finland-google-datacenters"
+      "publishedAt": "2026-10-07T18:04:17.000Z",
+      "clusterId": "chatgpt-cartoonist-signatures"
     }
   ],
   "rumors": [
     {
-      "title": "OpenAI's 722 math manuscripts only 'batch 1/3' (rumor)",
-      "summary": "UNCONFIRMED X chatter: @kimmonismus cites 'trusted sources' that OpenAI's 722-manuscript math release is just batch 1 of 3 and claims another Millennium Prize Problem has been solved — no OpenAI confirmation; treat as rumor only. oEmbed verified midday 8 Oct (HTTP 200).",
-      "url": "https://x.com/kimmonismus/status/2107865157137318198",
-      "via": "@kimmonismus",
+      "title": "Isomorphic Labs reportedly in talks at $40B+ valuation",
+      "summary": "UNCONFIRMED X chatter: @SpectreDevAI relays a Bloomberg-attributed report that DeepMind spinout Isomorphic Labs is in early talks to raise at a valuation of at least $40B — no company confirmation; treat as rumor only. oEmbed verified evening 8 Oct (HTTP 200).",
+      "url": "https://x.com/SpectreDevAI/status/2108078804367528237",
+      "via": "@SpectreDevAI",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-08T01:55:00.000Z",
+      "harvestedAt": "2026-10-08T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "Wall Street lining up $110B+ for OpenAI and Anthropic chips",
-      "summary": "UNCONFIRMED X chatter: @coinbureau relays a WSJ-sourced report that Broadcom is arranging $50B+ financing for OpenAI's custom chips (Apollo, Blackstone in early talks) plus ~$60B for Anthropic chips — still 'reportedly', not confirmed by the companies. oEmbed verified midday 8 Oct (HTTP 200).",
-      "url": "https://x.com/coinbureau/status/2107982303636926891",
-      "via": "@coinbureau",
+      "title": "Microsoft reportedly slashes staff AI spending caps to ~$10K/month",
+      "summary": "UNCONFIRMED X chatter: @ju1fy says Microsoft cut monthly AI spending ceilings for most cloud and AI staff from $100,000 to about $10,000 and is steering them toward GitHub Copilot and OpenAI tools — 'reportedly', not confirmed by Microsoft. oEmbed verified evening 8 Oct (HTTP 200).",
+      "url": "https://x.com/ju1fy/status/2108058333991039205",
+      "via": "@ju1fy",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-08T01:55:00.000Z",
+      "harvestedAt": "2026-10-08T07:55:00.000Z",
+      "tags": [
+        "rumor"
+      ]
+    },
+    {
+      "title": "Meta reportedly halves Claude Code users but still spent $105M in 28 days",
+      "summary": "UNCONFIRMED X chatter: @The_Tradesman1 cites The Information that Claude Code users at Meta fell from ~60,000 to ~30,000 while Meta still spent over $105M on the tool in one 28-day stretch — secondhand, unverified. oEmbed verified evening 8 Oct (HTTP 200).",
+      "url": "https://x.com/The_Tradesman1/status/2108071966968299573",
+      "via": "@The_Tradesman1",
+      "sourceKind": "x",
+      "harvestedAt": "2026-10-08T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Anthropic 'Fable 5.5' reportedly next after Haiku 5.5",
-      "summary": "UNCONFIRMED X chatter: @buildwithrajath claims Anthropic has a 'Fable 5.5' model reportedly scheduled after the Opus/Sonnet/Haiku 5.5 trio — no Anthropic announcement; rumor only. oEmbed verified midday 8 Oct (HTTP 200).",
+      "summary": "UNCONFIRMED X chatter: @buildwithrajath claims Anthropic has a 'Fable 5.5' model reportedly scheduled after the Opus/Sonnet/Haiku 5.5 trio — no Anthropic announcement; rumor only. oEmbed re-verified evening 8 Oct (HTTP 200).",
       "url": "https://x.com/buildwithrajath/status/2107903798027133170",
       "via": "@buildwithrajath",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-08T01:55:00.000Z",
-      "tags": [
-        "rumor"
-      ]
-    },
-    {
-      "title": "Nvidia to invest up to $10B in Anthropic IPO",
-      "summary": "UNCONFIRMED X chatter: @financialjuice cites source on Nvidia investing up to $10B in Anthropic IPO — still unverified. oEmbed re-verified midday 8 Oct (HTTP 200).",
-      "url": "https://x.com/financialjuice/status/2098546857920057371",
-      "via": "@financialjuice",
-      "sourceKind": "x",
-      "harvestedAt": "2026-10-08T01:55:00.000Z",
+      "harvestedAt": "2026-10-08T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
