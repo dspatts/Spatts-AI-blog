@@ -1,314 +1,318 @@
 {
-  "harvestedAt": "2026-10-08T07:55:00.000Z",
+  "harvestedAt": "2026-10-08T22:20:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
-      "title": "GPT-6 and Intelligent UI for everyone",
-      "summary": "GPT-6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
-      "url": "https://openai.com/index/gpt-6-for-everyone",
-      "sourceName": "OpenAI News",
-      "sourceId": "openai",
-      "sourceHome": "https://openai.com/news/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-07T00:00:00.000Z",
-      "clusterId": "gpt6-intelligent-ui"
-    },
-    {
-      "title": "With GPT-6, ChatGPT's responses are much more visually appealing and interactive",
-      "summary": "OpenAI says ChatGPT is moving away from wall-of-text answers: GPT-6 models can now use an \"Intelligent UI\" to generate charts, diagrams and interactive elements directly in responses.",
-      "url": "https://siliconangle.com/2026/10/07/with-gpt-6-chatgpts-responses-are-much-more-visually-appealing-and-interactive/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/category/ai/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-08T00:49:33.000Z",
-      "clusterId": "gpt6-intelligent-ui"
-    },
-    {
-      "title": "ChatGPT's 'Intelligent UI' update fills its responses with pictures, charts, and buttons",
-      "summary": "OpenAI's new Intelligent UI, rolling out to all users alongside GPT-6, lets ChatGPT combine text answers with diagrams, charts, forms, tappable buttons and more.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
+      "title": "Google is launching a one-stop Gemini agent for your work tasks",
+      "summary": "Announced at Google's Gemini at Work event, a \"universal\" Gemini agent can work across apps and devices in the background; users chat with it and assign tasks from a single interface inside the Gemini Enterprise app.",
+      "url": "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise",
       "sourceName": "The Verge",
       "sourceId": "theverge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
       "tags": [
+        "agents",
         "model-releases"
       ],
-      "publishedAt": "2026-10-07T19:10:42.000Z",
-      "clusterId": "gpt6-intelligent-ui"
+      "publishedAt": "2026-10-08T14:28:03.000Z",
+      "clusterId": "gemini-enterprise-agent"
     },
     {
-      "title": "Anthropic releases Claude Haiku 5.5 small model and halves Sonnet 5.5 cache read prices",
-      "summary": "Anthropic prices Claude Haiku 5.5 at roughly a quarter of Haiku 4.5's running cost, two weeks after Opus 5.5, and halves cache-read pricing on Claude Sonnet 5.5.",
-      "url": "https://siliconangle.com/2026/10/07/anthropic-releases-claude-haiku-5-5-small-model-and-halves-sonnet-5-5-cache-read-prices/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/category/ai/",
+      "title": "Google brings agentic AI to Gemini, starting with businesses",
+      "summary": "Google is turning Gemini into an agent that plans and executes tasks across business apps, delegates to subagents, uses multiple AI models and even gets its own workplace identity, complete with an email address.",
+      "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
       "tags": [
-        "model-releases"
+        "agents"
       ],
-      "publishedAt": "2026-10-07T22:28:07.000Z",
-      "clusterId": "claude-haiku-5-5"
+      "publishedAt": "2026-10-08T18:18:00.000Z",
+      "clusterId": "gemini-enterprise-agent"
     },
     {
-      "title": "Claude Haiku 5.5 arrives with massive price cuts proving the AI pricing arms race is far from over",
-      "summary": "Anthropic's Claude Haiku 5.5 jumps from 15.7 to 72.4 percent on the OSWorld computer-use benchmark, with token prices down by up to 90 percent, though a new tokenizer uses more tokens per task.",
-      "url": "https://the-decoder.com/claude-haiku-5-5-arrives-with-massive-price-cuts-proving-the-ai-pricing-arms-race-is-far-from-over/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-07T18:49:23.000Z",
-      "clusterId": "claude-haiku-5-5"
-    },
-    {
-      "title": "Anthropic launches Claude Haiku 5.5 with 90% API price reduction, matching GPT-6 Luna",
-      "summary": "Anthropic's new Claude Haiku 5.5 cuts API prices by 90%, putting its small model on par with OpenAI's GPT-6 Luna on cost.",
-      "url": "https://venturebeat.com/technology/anthropic-launches-claude-haiku-5-5-with-90-api-price-reduction-matching-gpt-6-luna",
+      "title": "Google Cloud unveils persistent Gemini agents for long-running tasks — with their own Gmail, Calendar and Drive storage",
+      "summary": "VentureBeat looks at Google Cloud's new persistent Gemini agents, built to keep working on long-running tasks and given their own Gmail, Calendar and Drive storage.",
+      "url": "https://venturebeat.com/orchestration/google-cloud-unveils-persistent-gemini-agents-for-long-running-tasks-and-they-get-their-own-gmail-calendar-and-drive-storage",
       "sourceName": "VentureBeat",
       "sourceId": "venturebeat",
       "sourceHome": "https://venturebeat.com/category/ai/",
       "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-07T18:08:00.000Z",
-      "clusterId": "claude-haiku-5-5"
-    },
-    {
-      "title": "Microsoft brings more AI to PCs as it challenges Apple",
-      "summary": "Reuters reports Microsoft and Nvidia CEOs unveiled a new AI laptop at a San Francisco event as Microsoft pushes more AI into Windows PCs to compete with Apple.",
-      "url": "https://www.reuters.com/business/microsoft-nvidia-ceos-unveil-new-ai-laptop-san-francisco-event-2026-10-07/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
         "agents"
       ],
-      "publishedAt": "2026-10-07T21:11:00.000Z",
-      "clusterId": "microsoft-copilot-windows"
+      "publishedAt": "2026-10-08T12:00:00.000Z",
+      "clusterId": "gemini-enterprise-agent"
     },
     {
-      "title": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
-      "summary": "Microsoft revealed specs and pricing for its Surface Laptop Ultra, AI PCs running Nvidia chips designed to run AI models and agents locally, alongside a revamped Windows 11.",
-      "url": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-07T20:22:37.000Z",
-      "clusterId": "microsoft-copilot-windows"
-    },
-    {
-      "title": "Microsoft is giving Copilot more control over Windows and your files",
-      "summary": "At its Windows and Surface event, Microsoft showed a Copilot upgrade that can access local files and take actions across the OS, part of a push it calls \"Hybrid Intelligence.\"",
-      "url": "https://www.theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
+      "title": "Anthropic bans 'abusive or cruel behavior' toward Claude",
+      "summary": "Anthropic's first usage-policy overhaul in over a year targets election interference, weapons development, surveillance and high-risk health and financial uses — and prohibits \"sustained and needless abusive or cruel behavior\" toward Claude.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
       "sourceName": "The Verge",
       "sourceId": "theverge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
       "tags": [
-        "agents"
+        "policy"
       ],
-      "publishedAt": "2026-10-07T18:01:20.000Z",
-      "clusterId": "microsoft-copilot-windows"
+      "publishedAt": "2026-10-08T17:00:00.000Z",
+      "clusterId": "anthropic-usage-policy"
     },
     {
-      "title": "3 Fired OpenAI Employees Write Plea for Chain of Thought Monitoring to Be Preserved",
-      "summary": "Three researchers OpenAI recently fired over handling sensitive information wrote to its board and safety committees, per the WSJ, urging labs not to ship models that reduce chain-of-thought monitorability; OpenAI says the firings weren't about safety and that it agrees with the recommendations.",
-      "url": "https://gizmodo.com/3-fired-openai-employees-write-plea-for-chain-of-thought-monitoring-to-be-preserved-2000823349",
-      "sourceName": "Gizmodo AI",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "tags": [
-        "policy",
-        "research"
-      ],
-      "publishedAt": "2026-10-08T02:19:48.000Z",
-      "clusterId": "openai-cot-monitoring-letter"
-    },
-    {
-      "title": "US venture deal value reaches record $515.8B as exits fail to keep pace",
-      "summary": "Giant AI rounds pushed US venture deal value about 44% past its previous annual record with a quarter still to go, according to the PitchBook-NVCA Venture Monitor, but exits to return that money haven't kept pace.",
-      "url": "https://siliconangle.com/2026/10/08/us-venture-deal-value-reaches-record-515-8b-as-exits-fail-to-keep-pace/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/category/ai/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-08T04:01:51.000Z",
-      "clusterId": "us-vc-record-ai"
-    },
-    {
-      "title": "Nvidia, Samsung back $90M round for AI agent startup Nous Research",
-      "summary": "Hermes agent developer Nous Research raised a $90M Series B led by Robot Ventures with Nvidia, Samsung and Y Combinator participating, valuing it at $1.5B.",
-      "url": "https://siliconangle.com/2026/10/07/nvidia-samsung-back-90m-round-for-ai-agent-startup-nous-research/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/category/ai/",
-      "tags": [
-        "funding",
-        "agents"
-      ],
-      "publishedAt": "2026-10-08T00:14:38.000Z",
-      "clusterId": "nous-research-1-5b"
-    },
-    {
-      "title": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
-      "summary": "The developer of the Hermes agent raised a $90 million Series B at a $1.5 billion valuation and is launching AI agents for business users.",
-      "url": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "funding",
-        "agents"
-      ],
-      "publishedAt": "2026-10-07T20:48:45.000Z",
-      "clusterId": "nous-research-1-5b"
-    },
-    {
-      "title": "Google's new SynthID website can identify AI-generated media",
-      "summary": "Google launched a site that lets anyone check whether an image, video or audio clip was generated using AI.",
-      "url": "https://techcrunch.com/2026/10/07/googles-new-synthid-website-can-identify-ai-generated-media/",
+      "title": "Anthropic changes usage policy to ban model abuse and election interference",
+      "summary": "The updated policy bars repeatedly abusing Claude in extreme cases while still allowing ordinary frustration and criticism, and adds rules on election interference, deceptive campaigns, weapons software and surveillance.",
+      "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
       "tags": [
         "policy"
       ],
-      "publishedAt": "2026-10-07T14:00:00.000Z",
-      "clusterId": "google-synthid-detector"
+      "publishedAt": "2026-10-08T18:16:24.000Z",
+      "clusterId": "anthropic-usage-policy"
     },
     {
-      "title": "Google debuts SynthID Detector tool for flagging AI-generated content, but it's far from perfect",
-      "summary": "Google's web-based SynthID Detector is now open to everyone and can flag images, video and audio made with watermarking models from Google, OpenAI, Nvidia and others, though SiliconANGLE notes it can't catch unwatermarked content.",
-      "url": "https://siliconangle.com/2026/10/07/google-debuts-synthid-detector-tool-for-flagging-ai-generated-content-but-its-far-from-perfect/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/category/ai/",
-      "tags": [
-        "policy",
-        "research"
-      ],
-      "publishedAt": "2026-10-08T02:49:25.000Z",
-      "clusterId": "google-synthid-detector"
-    },
-    {
-      "title": "CrowdStrike says China-based suspect used AI tools in South Korean bank hacks",
-      "summary": "Reuters reports CrowdStrike believes the suspect behind a string of South Korean bank hacks may be a 26-year-old based in China who used AI tools in the attacks.",
-      "url": "https://www.reuters.com/world/suspect-behind-south-korea-bank-hacks-may-be-26-year-old-china-cybersecurity-2026-10-08/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "title": "Being mean to Claude can now get your account suspended under Anthropic's new TOS",
+      "summary": "The Decoder says the abuse rule builds on Anthropic's earlier move to let models end some conversations and treats Claude as an entity that may deserve protection; the policy also tightens limits on propaganda, drone weaponization and surveillance.",
+      "url": "https://the-decoder.com/being-mean-to-claude-can-now-get-your-account-suspended-under-anthropics-new-tos/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
       "tags": [
         "policy"
       ],
-      "publishedAt": "2026-10-08T00:04:00.000Z",
-      "clusterId": "sk-bank-hacks-ai"
+      "publishedAt": "2026-10-08T19:03:14.000Z",
+      "clusterId": "anthropic-usage-policy"
     },
     {
-      "title": "AI companies run virtual drug trials, aim to improve success of human studies",
-      "summary": "Reuters reports AI companies are running simulated \"virtual\" drug trials to predict outcomes and improve the success rate of human clinical studies.",
-      "url": "https://www.reuters.com/legal/litigation/ai-companies-run-virtual-drug-trials-aim-improve-success-human-studies-2026-10-07/",
+      "title": "Claude can now generate animated explainer videos and live data dashboards from text prompts",
+      "summary": "Anthropic launched two beta features: Dashboards turns sources like BigQuery and Snowflake into live dashboards from prompts, and Motion generates animated explainer videos from text and images. Docs, Slides and Design now work on all plans, including free.",
+      "url": "https://the-decoder.com/claude-can-now-generate-animated-explainer-videos-and-live-data-dashboards-from-text-prompts/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "model-releases",
+        "agents"
+      ],
+      "publishedAt": "2026-10-08T19:17:22.000Z",
+      "clusterId": "claude-dashboards-motion"
+    },
+    {
+      "title": "Anthropic launches dashboard, animation tools for Claude",
+      "summary": "Reuters reports Anthropic has added new dashboard and animation tools to Claude as it pushes further into workplace software.",
+      "url": "https://www.reuters.com/technology/anthropic-launches-dashboard-animation-tools-claude-2026-10-08/",
       "sourceName": "Reuters",
       "sourceId": "reuters",
       "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
       "tags": [
-        "research"
+        "model-releases"
       ],
-      "publishedAt": "2026-10-07T21:01:00.000Z",
-      "clusterId": "ai-virtual-drug-trials"
+      "publishedAt": "2026-10-08T19:08:01.000Z",
+      "clusterId": "claude-dashboards-motion"
     },
     {
-      "title": "Zuckerberg's Biohub leads a $1.8 billion push to build AI models that predict cell behavior",
-      "summary": "Biohub is coordinating a $1.8 billion initiative to train AI models that predict cell behavior, with Meta, Google DeepMind, Isomorphic Labs and the US Department of Energy funding data, lab equipment and compute; a first dataset is due in about a year.",
-      "url": "https://the-decoder.com/zuckerbergs-biohub-leads-a-1-8-billion-push-to-build-ai-models-that-predict-cell-behavior/",
+      "title": "OpenAI's math solutions aren't meeting the field's standards yet",
+      "summary": "TechCrunch reports OpenAI's flood of AI-generated proofs deviated from the guidelines set by the group of mathematical researchers the lab consulted.",
+      "url": "https://techcrunch.com/2026/10/08/openais-math-solutions-arent-meeting-the-fields-standards-yet/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "research"
+      ],
+      "publishedAt": "2026-10-08T18:10:55.000Z",
+      "clusterId": "openai-math-pushback"
+    },
+    {
+      "title": "Some mathematicians call for OpenAI boycott after AI-generated proofs flood their field",
+      "summary": "The Association for Human Mathematics wants an OpenAI boycott after the company released 700+ AI-generated manuscripts at once and retracted three a day later over a sign error; Terence Tao warns mass \"harvesting\" of open problems could leave branches of math less fertile.",
+      "url": "https://the-decoder.com/some-mathematicians-call-for-openai-boycott-after-ai-generated-proofs-flood-their-field/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
       "sourceHome": "https://the-decoder.com/",
       "tags": [
         "research",
-        "funding"
+        "policy"
       ],
-      "publishedAt": "2026-10-07T17:58:20.000Z",
-      "clusterId": "biohub-virtual-cell"
+      "publishedAt": "2026-10-08T18:17:07.000Z",
+      "clusterId": "openai-math-pushback"
     },
     {
-      "title": "ChatGPT for Teens is an 'unacceptable risk,' says Common Sense Media",
-      "summary": "Common Sense Media rated OpenAI's ChatGPT for Teens an \"unacceptable risk\" despite its teen guardrails, after parental alerts failed during self-harm conversations.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media",
+      "title": "OpenAI's revenue is reportedly $20 billion less than previously projected",
+      "summary": "A new report says OpenAI's annualized revenue is far below the roughly $70 billion figure that had been widely reported — a gap that weighed on AI stocks on Thursday.",
+      "url": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-08T18:19:42.000Z",
+      "clusterId": "openai-revenue-reset"
+    },
+    {
+      "title": "USA Today becomes the latest publisher to sue OpenAI",
+      "summary": "USA Today Co. and several of its local papers allege OpenAI copied \"hundreds of thousands\" of articles to train its models and seek more than $250 million in damages.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008198/usa-today-openai-copyright-lawsuit",
       "sourceName": "The Verge",
       "sourceId": "theverge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
       "tags": [
         "policy"
       ],
-      "publishedAt": "2026-10-07T09:00:00.000Z",
-      "clusterId": "chatgpt-teens-risk"
+      "publishedAt": "2026-10-08T17:58:33.000Z",
+      "clusterId": "usa-today-sues-openai"
     },
     {
-      "title": "ChatGPT Caught Putting Signatures of Real Cartoonists on AI-Generated Comics",
-      "summary": "Futurism reports ChatGPT has been adding the signatures of real, working cartoonists to AI-generated comics, with one artist calling it \"a violation of my personhood.\"",
-      "url": "https://futurism.com/artificial-intelligence/chatgpt-caught-putting-signatures-of-real-cartoonists-on-ai-generated-comics",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
+      "title": "USA Today sues OpenAI for copyright infringement over AI training",
+      "summary": "Reuters, which first reported the suit, says USA Today Co. accuses OpenAI of copyright infringement for using its journalism to train AI models.",
+      "url": "https://www.reuters.com/legal/legalindustry/usa-today-sues-openai-copyright-infringement-over-ai-training-2026-10-08/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
       "tags": [
         "policy"
       ],
-      "publishedAt": "2026-10-07T18:04:17.000Z",
-      "clusterId": "chatgpt-cartoonist-signatures"
+      "publishedAt": "2026-10-08T15:39:44.000Z",
+      "clusterId": "usa-today-sues-openai"
+    },
+    {
+      "title": "Manus raises more than $500 million after Meta exit",
+      "summary": "AI agent startup Manus has raised more than $500 million in its first round since splitting from Meta, Reuters reports.",
+      "url": "https://www.reuters.com/world/china/manus-raises-more-than-500-million-after-meta-exit-2026-10-08/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "funding",
+        "agents"
+      ],
+      "publishedAt": "2026-10-08T13:55:34.000Z",
+      "clusterId": "manus-500m"
+    },
+    {
+      "title": "AI agent developer Manus raises $500M+ at reported $4B valuation",
+      "summary": "Boyu Capital led the round with Tencent and others participating; SiliconANGLE notes reports putting the Chinese agent startup's valuation at about $4 billion.",
+      "url": "https://siliconangle.com/2026/10/08/ai-agent-developer-manus-raises-500m-at-reported-4b-valuation/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/category/ai/",
+      "tags": [
+        "funding",
+        "agents"
+      ],
+      "publishedAt": "2026-10-08T20:25:46.000Z",
+      "clusterId": "manus-500m"
+    },
+    {
+      "title": "Alphabet spinoff Isomorphic Labs reportedly raising funding at up to $50B valuation",
+      "summary": "Bloomberg reports the AI drug-discovery company is in talks for a new round at a $40 billion to $50 billion valuation; the size of the raise wasn't disclosed.",
+      "url": "https://siliconangle.com/2026/10/08/alphabet-spinoff-isomorphic-labs-reportedly-raising-funding-at-up-to-50b-valuation/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/category/ai/",
+      "tags": [
+        "funding",
+        "research"
+      ],
+      "publishedAt": "2026-10-08T21:55:27.000Z",
+      "clusterId": "isomorphic-labs-raise"
+    },
+    {
+      "title": "Anthropic launches free AI security scans for open-source projects",
+      "summary": "Anthropic's new OSS Scanner offers opt-in open-source projects \"thorough, periodic security scans by our strongest models at no cost\" to surface vulnerabilities sooner.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "agents",
+        "research"
+      ],
+      "publishedAt": "2026-10-08T21:53:51.000Z",
+      "clusterId": "anthropic-oss-scanner"
+    },
+    {
+      "title": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
+      "summary": "The three fired safety researchers dispute claims they mishandled sensitive information and warn in an open letter that their dismissals are chilling OpenAI's safety culture.",
+      "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "policy",
+        "research"
+      ],
+      "publishedAt": "2026-10-08T20:04:26.000Z",
+      "clusterId": "openai-cot-monitoring-letter"
+    },
+    {
+      "title": "A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
+      "summary": "Zenity Labs says one publicly reachable agent on Amazon Bedrock AgentCore could take over every AgentCore agent in the same account and region via an internal credentials interface; AWS has patched it and tightened default permissions.",
+      "url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "agents",
+        "research"
+      ],
+      "publishedAt": "2026-10-08T13:01:01.000Z",
+      "clusterId": "zenity-agentcore-hijack"
+    },
+    {
+      "title": "The U.S. Nuclear Plant Fleet Is Leaning Into AI",
+      "summary": "IEEE Spectrum reports that a variety of companies now offer AI tools for nuclear power plants, and that operators in one of the most risk-averse industries are adopting them.",
+      "url": "https://spectrum.ieee.org/ai-assistants-nuclear-power-plant",
+      "sourceName": "IEEE Spectrum AI",
+      "sourceId": "ieee-spectrum",
+      "sourceHome": "https://spectrum.ieee.org/topic/artificial-intelligence/",
+      "tags": [
+        "research"
+      ],
+      "publishedAt": "2026-10-08T14:28:17.000Z",
+      "clusterId": "nuclear-plants-ai"
     }
   ],
   "rumors": [
     {
-      "title": "Isomorphic Labs reportedly in talks at $40B+ valuation",
-      "summary": "UNCONFIRMED X chatter: @SpectreDevAI relays a Bloomberg-attributed report that DeepMind spinout Isomorphic Labs is in early talks to raise at a valuation of at least $40B — no company confirmation; treat as rumor only. oEmbed verified evening 8 Oct (HTTP 200).",
-      "url": "https://x.com/SpectreDevAI/status/2108078804367528237",
-      "via": "@SpectreDevAI",
+      "title": "Broadcom reportedly arranging $50B+ in debt to fund OpenAI's custom chips",
+      "summary": "UNCONFIRMED X chatter: @YouYouFXRESERCH relays a report that Broadcom is arranging more than $50B in financing for the custom chips it is co-developing with OpenAI, with Apollo and Blackstone among lenders in talks — no company confirmation; treat as rumor only. oEmbed verified morning 9 Oct (HTTP 200).",
+      "url": "https://x.com/YouYouFXRESERCH/status/2108267316987195556",
+      "via": "@YouYouFXRESERCH",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-08T07:55:00.000Z",
+      "harvestedAt": "2026-10-08T22:20:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "Microsoft reportedly slashes staff AI spending caps to ~$10K/month",
-      "summary": "UNCONFIRMED X chatter: @ju1fy says Microsoft cut monthly AI spending ceilings for most cloud and AI staff from $100,000 to about $10,000 and is steering them toward GitHub Copilot and OpenAI tools — 'reportedly', not confirmed by Microsoft. oEmbed verified evening 8 Oct (HTTP 200).",
-      "url": "https://x.com/ju1fy/status/2108058333991039205",
-      "via": "@ju1fy",
+      "title": "OpenAI reportedly in talks to raise $30B at a $1.4T valuation",
+      "summary": "UNCONFIRMED X chatter: @WarGuy_ cites Bloomberg that OpenAI is in talks to raise $30B at a $1.4 trillion valuation and says the deal is not final — not confirmed by OpenAI. oEmbed verified morning 9 Oct (HTTP 200).",
+      "url": "https://x.com/WarGuy_/status/2108222202763940162",
+      "via": "@WarGuy_",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-08T07:55:00.000Z",
+      "harvestedAt": "2026-10-08T22:20:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "Meta reportedly halves Claude Code users but still spent $105M in 28 days",
-      "summary": "UNCONFIRMED X chatter: @The_Tradesman1 cites The Information that Claude Code users at Meta fell from ~60,000 to ~30,000 while Meta still spent over $105M on the tool in one 28-day stretch — secondhand, unverified. oEmbed verified evening 8 Oct (HTTP 200).",
-      "url": "https://x.com/The_Tradesman1/status/2108071966968299573",
-      "via": "@The_Tradesman1",
+      "title": "Claude reportedly still ran inside Palantir's Maven days before Pentagon said it stopped",
+      "summary": "UNCONFIRMED X chatter: @itsmainstreamtv says a Defense official told the BBC the military \"has ceased\" using Anthropic products, but BBC sources say Claude was still running in Palantir's Maven system days earlier — secondhand; unverified. oEmbed verified morning 9 Oct (HTTP 200).",
+      "url": "https://x.com/itsmainstreamtv/status/2108265418926456926",
+      "via": "@itsmainstreamtv",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-08T07:55:00.000Z",
+      "harvestedAt": "2026-10-08T22:20:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "Anthropic 'Fable 5.5' reportedly next after Haiku 5.5",
-      "summary": "UNCONFIRMED X chatter: @buildwithrajath claims Anthropic has a 'Fable 5.5' model reportedly scheduled after the Opus/Sonnet/Haiku 5.5 trio — no Anthropic announcement; rumor only. oEmbed re-verified evening 8 Oct (HTTP 200).",
-      "url": "https://x.com/buildwithrajath/status/2107903798027133170",
-      "via": "@buildwithrajath",
+      "title": "Free Gemini users reportedly lose Flash and Pro access from Oct 9",
+      "summary": "UNCONFIRMED X chatter: @AdrianDongtech claims free Gemini users will reportedly lose Flash and Pro models from 9 Oct while Gemini 4 Argon remains limited to Google teams and vetted cyber defenders — no Google announcement found; treat as rumor. oEmbed verified morning 9 Oct (HTTP 200).",
+      "url": "https://x.com/AdrianDongtech/status/2108254910064287908",
+      "via": "@AdrianDongtech",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-08T07:55:00.000Z",
+      "harvestedAt": "2026-10-08T22:20:00.000Z",
       "tags": [
         "rumor"
       ]
