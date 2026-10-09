@@ -1,5 +1,5 @@
 {
-  "harvestedAt": "2026-10-08T22:20:00.000Z",
+  "harvestedAt": "2026-10-09T03:00:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
@@ -30,19 +30,6 @@
       "clusterId": "gemini-enterprise-agent"
     },
     {
-      "title": "Google Cloud unveils persistent Gemini agents for long-running tasks — with their own Gmail, Calendar and Drive storage",
-      "summary": "VentureBeat looks at Google Cloud's new persistent Gemini agents, built to keep working on long-running tasks and given their own Gmail, Calendar and Drive storage.",
-      "url": "https://venturebeat.com/orchestration/google-cloud-unveils-persistent-gemini-agents-for-long-running-tasks-and-they-get-their-own-gmail-calendar-and-drive-storage",
-      "sourceName": "VentureBeat",
-      "sourceId": "venturebeat",
-      "sourceHome": "https://venturebeat.com/category/ai/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-08T12:00:00.000Z",
-      "clusterId": "gemini-enterprise-agent"
-    },
-    {
       "title": "Anthropic bans 'abusive or cruel behavior' toward Claude",
       "summary": "Anthropic's first usage-policy overhaul in over a year targets election interference, weapons development, surveillance and high-risk health and financial uses — and prohibits \"sustained and needless abusive or cruel behavior\" toward Claude.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
@@ -66,19 +53,6 @@
         "policy"
       ],
       "publishedAt": "2026-10-08T18:16:24.000Z",
-      "clusterId": "anthropic-usage-policy"
-    },
-    {
-      "title": "Being mean to Claude can now get your account suspended under Anthropic's new TOS",
-      "summary": "The Decoder says the abuse rule builds on Anthropic's earlier move to let models end some conversations and treats Claude as an entity that may deserve protection; the policy also tightens limits on propaganda, drone weaponization and surveillance.",
-      "url": "https://the-decoder.com/being-mean-to-claude-can-now-get-your-account-suspended-under-anthropics-new-tos/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-08T19:03:14.000Z",
       "clusterId": "anthropic-usage-policy"
     },
     {
@@ -146,6 +120,19 @@
         "funding"
       ],
       "publishedAt": "2026-10-08T18:19:42.000Z",
+      "clusterId": "openai-revenue-reset"
+    },
+    {
+      "title": "AI stocks crumble on report that OpenAI’s annualized revenue is much lower than believed",
+      "summary": "SiliconANGLE covers the market selloff after a Financial Times report that OpenAI's annualized revenue is about $20 billion below previously circulated figures, sending shockwaves through AI-linked stocks.",
+      "url": "https://siliconangle.com/2026/10/08/ai-stocks-crumble-on-report-that-openais-annualized-revenue-is-much-lower-than-previously-believed/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/category/ai/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-09T00:44:27.000Z",
       "clusterId": "openai-revenue-reset"
     },
     {
@@ -245,74 +232,88 @@
       "clusterId": "openai-cot-monitoring-letter"
     },
     {
-      "title": "A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
-      "summary": "Zenity Labs says one publicly reachable agent on Amazon Bedrock AgentCore could take over every AgentCore agent in the same account and region via an internal credentials interface; AWS has patched it and tightened default permissions.",
-      "url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
+      "title": "Gallatin AI raises $50M in funding for its military logistics platform",
+      "summary": "Gallatin AI raised a $50 million Series A from 8VC, Silent Ventures and others for its military logistics software, following a $15 million seed in 2024.",
+      "url": "https://siliconangle.com/2026/10/08/gallatin-ai-raises-50m-in-funding-for-its-military-logistics-platform/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/category/ai/",
       "tags": [
-        "agents",
-        "research"
+        "funding",
+        "agents"
       ],
-      "publishedAt": "2026-10-08T13:01:01.000Z",
-      "clusterId": "zenity-agentcore-hijack"
+      "publishedAt": "2026-10-09T00:12:16.000Z",
+      "clusterId": "gallatin-ai-50m"
     },
     {
-      "title": "The U.S. Nuclear Plant Fleet Is Leaning Into AI",
-      "summary": "IEEE Spectrum reports that a variety of companies now offer AI tools for nuclear power plants, and that operators in one of the most risk-averse industries are adopting them.",
-      "url": "https://spectrum.ieee.org/ai-assistants-nuclear-power-plant",
-      "sourceName": "IEEE Spectrum AI",
-      "sourceId": "ieee-spectrum",
-      "sourceHome": "https://spectrum.ieee.org/topic/artificial-intelligence/",
+      "title": "AI surveillance startup Flock Safety to cut several hundred jobs amid backlash, sources say",
+      "summary": "Reuters exclusive: Flock Safety, the AI surveillance startup, plans to cut several hundred jobs amid public backlash, according to sources familiar with the matter.",
+      "url": "https://www.reuters.com/business/ai-surveillance-startup-flock-safety-cut-several-hundred-jobs-amid-backlash-2026-10-09/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
       "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-09T00:05:00.000Z",
+      "clusterId": "flock-safety-layoffs"
+    },
+    {
+      "title": "Popular AI leaderboard Arena nearly doubles valuation to $3.1B valuation in 10 months",
+      "summary": "The company behind the popular LMArena leaderboard has raised $200 million led by Lightspeed and Khosla, nearly doubling its valuation to $3.1 billion, and is expanding into measuring AI model alignment issues such as lying.",
+      "url": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "funding",
         "research"
       ],
-      "publishedAt": "2026-10-08T14:28:17.000Z",
-      "clusterId": "nuclear-plants-ai"
+      "publishedAt": "2026-10-08T18:19:45.000Z",
+      "clusterId": "arena-3-1b"
     }
   ],
   "rumors": [
     {
+      "title": "OpenAI reportedly still targeting $70B ARR by YE while raising at $1.4T on ~$50B Sept run-rate",
+      "summary": "UNCONFIRMED X chatter: @MelvinInvests cites Bloomberg that OpenAI still expects to reach ~$70B annualized revenue by end-2026 from roughly $50B at end-September, amid confusion after FT's lower figure and ongoing $30B / $1.4T fundraising talks — not confirmed by OpenAI; treat as rumor. oEmbed verified midday 9 Oct (HTTP 200).",
+      "url": "https://x.com/MelvinInvests/status/2108391853544374698",
+      "via": "@MelvinInvests",
+      "sourceKind": "x",
+      "harvestedAt": "2026-10-09T03:00:00.000Z",
+      "tags": [
+        "rumor"
+      ]
+    },
+    {
+      "title": "Anthropic pre-IPO shares reportedly pitched near a $965B Series H valuation",
+      "summary": "UNCONFIRMED X chatter: @loudchirper says a venture fund is offering pre-IPO Anthropic shares on a Series H valuation basis of about ±$965 billion, and flags lockup terms — secondhand marketing pitch, not a company announcement; treat as rumor. oEmbed verified midday 9 Oct (HTTP 200).",
+      "url": "https://x.com/loudchirper/status/2108392227034509515",
+      "via": "@loudchirper",
+      "sourceKind": "x",
+      "harvestedAt": "2026-10-09T03:00:00.000Z",
+      "tags": [
+        "rumor"
+      ]
+    },
+    {
       "title": "Broadcom reportedly arranging $50B+ in debt to fund OpenAI's custom chips",
-      "summary": "UNCONFIRMED X chatter: @YouYouFXRESERCH relays a report that Broadcom is arranging more than $50B in financing for the custom chips it is co-developing with OpenAI, with Apollo and Blackstone among lenders in talks — no company confirmation; treat as rumor only. oEmbed verified morning 9 Oct (HTTP 200).",
+      "summary": "UNCONFIRMED X chatter: @YouYouFXRESERCH relays a report that Broadcom is arranging more than $50B in financing for the custom chips it is co-developing with OpenAI, with Apollo and Blackstone among lenders in talks — no company confirmation; treat as rumor only. oEmbed re-verified midday 9 Oct (HTTP 200).",
       "url": "https://x.com/YouYouFXRESERCH/status/2108267316987195556",
       "via": "@YouYouFXRESERCH",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-08T22:20:00.000Z",
+      "harvestedAt": "2026-10-09T03:00:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "OpenAI reportedly in talks to raise $30B at a $1.4T valuation",
-      "summary": "UNCONFIRMED X chatter: @WarGuy_ cites Bloomberg that OpenAI is in talks to raise $30B at a $1.4 trillion valuation and says the deal is not final — not confirmed by OpenAI. oEmbed verified morning 9 Oct (HTTP 200).",
-      "url": "https://x.com/WarGuy_/status/2108222202763940162",
-      "via": "@WarGuy_",
+      "title": "Anthropic ARR reportedly near $95B in some investor chatter vs OpenAI's ~$50B",
+      "summary": "UNCONFIRMED X chatter: @ThematicTrader contrasts Bloomberg-aligned OpenAI ~$50B ARR with investor chatter putting Anthropic near $95B ARR — no primary filing cited; treat as rumor only. oEmbed verified midday 9 Oct (HTTP 200).",
+      "url": "https://x.com/ThematicTrader/status/2108387517368021157",
+      "via": "@ThematicTrader",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-08T22:20:00.000Z",
-      "tags": [
-        "rumor"
-      ]
-    },
-    {
-      "title": "Claude reportedly still ran inside Palantir's Maven days before Pentagon said it stopped",
-      "summary": "UNCONFIRMED X chatter: @itsmainstreamtv says a Defense official told the BBC the military \"has ceased\" using Anthropic products, but BBC sources say Claude was still running in Palantir's Maven system days earlier — secondhand; unverified. oEmbed verified morning 9 Oct (HTTP 200).",
-      "url": "https://x.com/itsmainstreamtv/status/2108265418926456926",
-      "via": "@itsmainstreamtv",
-      "sourceKind": "x",
-      "harvestedAt": "2026-10-08T22:20:00.000Z",
-      "tags": [
-        "rumor"
-      ]
-    },
-    {
-      "title": "Free Gemini users reportedly lose Flash and Pro access from Oct 9",
-      "summary": "UNCONFIRMED X chatter: @AdrianDongtech claims free Gemini users will reportedly lose Flash and Pro models from 9 Oct while Gemini 4 Argon remains limited to Google teams and vetted cyber defenders — no Google announcement found; treat as rumor. oEmbed verified morning 9 Oct (HTTP 200).",
-      "url": "https://x.com/AdrianDongtech/status/2108254910064287908",
-      "via": "@AdrianDongtech",
-      "sourceKind": "x",
-      "harvestedAt": "2026-10-08T22:20:00.000Z",
+      "harvestedAt": "2026-10-09T03:00:00.000Z",
       "tags": [
         "rumor"
       ]
