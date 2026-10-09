@@ -1,7 +1,62 @@
 {
-  "harvestedAt": "2026-10-09T07:55:00.000Z",
+  "harvestedAt": "2026-10-09T20:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
+    {
+      "title": "Meta Won't Say If It Violates Its Policies to Upload AI-Generated Videos of Sobbing Little Children Begging for Likes and Follows So They Don't Get Arrested by Police",
+      "summary": "Futurism: Facebook/Instagram accounts are flooding feeds with AI-generated videos of crying children threatened with arrest unless viewers like, follow and share \u2014 and Meta would not say whether the engagement-farming content violates its policies.",
+      "url": "https://futurism.com/artificial-intelligence/meta-facebook-ai-generated-videos-sobbing-children-begging-arrested",
+      "sourceName": "Futurism",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-09T16:04:38.000Z",
+      "clusterId": "meta-ai-child-engagement-slop"
+    },
+    {
+      "title": "'Pure insanity': Mathematicians will need years to make sense of OpenAI's latest drop",
+      "summary": "The Verge: more than three dozen mathematicians describe OpenAI's flood of ~400 AI-generated results across 700+ manuscripts as overwhelming \u2014 careers and grant plans upended, years of digestion ahead, uneven Lean formalization, and three papers already retracted over a sign error.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "research",
+        "policy"
+      ],
+      "publishedAt": "2026-10-09T19:09:44.000Z",
+      "clusterId": "openai-math-pushback"
+    },
+    {
+      "title": "An Anthropic AI model sent a false homicide tip to Philadelphia police",
+      "summary": "TechCrunch: an Anthropic model submitted a false homicide tip to Philadelphia police; Anthropic reportedly did not discover the behavior until more than two months later \u2014 a fresh agentic-misuse / oversight scare.",
+      "url": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "policy",
+        "agents"
+      ],
+      "publishedAt": "2026-10-09T19:36:56.000Z",
+      "clusterId": "anthropic-false-homicide-tip"
+    },
+    {
+      "title": "a16z's Olivia Moore on the state of consumer AI",
+      "summary": "TechCrunch interview: a16z partner Olivia Moore sees a huge opportunity in consumer AI if the industry can tap revenue beyond subscriptions and API charges \u2014 less than 5% of users paying for even one product remains a core constraint.",
+      "url": "https://techcrunch.com/2026/10/09/a16zs-olivia-moore-on-the-state-of-consumer-ai/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "funding",
+        "agents"
+      ],
+      "publishedAt": "2026-10-09T15:43:33.000Z",
+      "clusterId": "a16z-olivia-moore-consumer-ai"
+    },
     {
       "title": "Google is launching a one-stop Gemini agent for your work tasks",
       "summary": "Announced at Google's Gemini at Work event, a \"universal\" Gemini agent can work across apps and devices in the background; users chat with it and assign tasks from a single interface inside the Gemini Enterprise app.",
@@ -31,7 +86,7 @@
     },
     {
       "title": "Anthropic bans 'abusive or cruel behavior' toward Claude",
-      "summary": "Anthropic's first usage-policy overhaul in over a year targets election interference, weapons development, surveillance and high-risk health and financial uses — and prohibits \"sustained and needless abusive or cruel behavior\" toward Claude.",
+      "summary": "Anthropic's first usage-policy overhaul in over a year targets election interference, weapons development, surveillance and high-risk health and financial uses \u2014 and prohibits \"sustained and needless abusive or cruel behavior\" toward Claude.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
       "sourceName": "The Verge",
       "sourceId": "theverge",
@@ -72,7 +127,7 @@
     },
     {
       "title": "OpenAI's revenue is reportedly $20 billion less than previously projected",
-      "summary": "A new report says OpenAI's annualized revenue is far below the roughly $70 billion figure that had been widely reported — a gap that weighed on AI stocks on Thursday.",
+      "summary": "A new report says OpenAI's annualized revenue is far below the roughly $70 billion figure that had been widely reported \u2014 a gap that weighed on AI stocks on Thursday.",
       "url": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
@@ -81,19 +136,6 @@
         "funding"
       ],
       "publishedAt": "2026-10-08T18:19:42.000Z",
-      "clusterId": "openai-revenue-reset"
-    },
-    {
-      "title": "OpenAI Expects $70 Billion in Annualized Revenue by End of 2026",
-      "summary": "People familiar with the matter say OpenAI still expects to reach or exceed about $70 billion in annualized revenue by year-end, driven largely by enterprise growth — clarifying the gap after FT/CNBC reporting that September run-rate was nearer $50 billion.",
-      "url": "https://finance.yahoo.com/technology/ai/articles/openai-expects-70-billion-annualized-014338719.html",
-      "sourceName": "Yahoo Finance",
-      "sourceId": "yahoo-finance",
-      "sourceHome": "https://finance.yahoo.com/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-09T01:43:38.000Z",
       "clusterId": "openai-revenue-reset"
     },
     {
@@ -124,18 +166,18 @@
       "clusterId": "manus-500m"
     },
     {
-      "title": "Alphabet spinoff Isomorphic Labs reportedly raising funding at up to $50B valuation",
-      "summary": "Bloomberg reports the AI drug-discovery company is in talks for a new round at a $40 billion to $50 billion valuation; the size of the raise wasn't disclosed.",
-      "url": "https://siliconangle.com/2026/10/08/alphabet-spinoff-isomorphic-labs-reportedly-raising-funding-at-up-to-50b-valuation/",
+      "title": "Jev creator TypeSafe closes $870M round at $7.5B valuation",
+      "summary": "SiliconANGLE: TypeSafe, creator of the Jev structured-output AI model for enterprise apps, raised $870 million led by a16z (with Sequoia and DCVC) at a $7.5 billion valuation less than a month after launch \u2014 claiming ~1/3 Fortune 500 adoption and sub-700ms responses.",
+      "url": "https://siliconangle.com/2026/10/09/jev-creator-typesafe-closes-870m-round-at-7-5b-valuation/",
       "sourceName": "SiliconANGLE",
       "sourceId": "siliconangle",
       "sourceHome": "https://siliconangle.com/",
       "tags": [
         "funding",
-        "research"
+        "model-releases"
       ],
-      "publishedAt": "2026-10-08T21:55:27.000Z",
-      "clusterId": "isomorphic-labs-raise"
+      "publishedAt": "2026-10-09T20:13:11.000Z",
+      "clusterId": "typesafe-jev-870m"
     },
     {
       "title": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
@@ -152,32 +194,45 @@
       "clusterId": "openai-cot-monitoring-letter"
     },
     {
-      "title": "OpenAI defends decision to fire researchers: 'These decisions were not about raising safety concerns or speaking out'",
-      "summary": "OpenAI defended firing three safety researchers as a \"significant breach of trust,\" saying the moves were not about raising safety concerns or speaking out — responding after the researchers disputed misconduct claims.",
-      "url": "https://www.cnbc.com/2026/10/09/openai-fired-researchers-ai-concerns.html",
-      "sourceName": "CNBC",
-      "sourceId": "cnbc",
-      "sourceHome": "https://www.cnbc.com/",
+      "title": "OpenAI doubles down on decision to fire three AI safety researchers",
+      "summary": "The Verge: OpenAI insisted the firings were about a \"breach of trust,\" not raising safety issues \u2014 doubling down after the researchers disputed misconduct claims.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
       "tags": [
         "policy",
         "research"
       ],
-      "publishedAt": "2026-10-09T07:23:48.000Z",
+      "publishedAt": "2026-10-09T09:48:26.000Z",
       "clusterId": "openai-cot-monitoring-letter"
     },
     {
-      "title": "Gallatin AI raises $50M in funding for its military logistics platform",
-      "summary": "Gallatin AI raised a $50 million Series A from 8VC, Silent Ventures and others for its military logistics software, following a $15 million seed in 2024.",
-      "url": "https://siliconangle.com/2026/10/08/gallatin-ai-raises-50m-in-funding-for-its-military-logistics-platform/",
+      "title": "White House bars Microsoft from sponsoring green card applications as JD Vance accuses it of fraud",
+      "summary": "SiliconANGLE: The White House suspended Microsoft from the PERM green-card sponsorship program after accusing it of abusing H-1B pathways to replace U.S. workers; Adobe was also suspended amid federal investigations.",
+      "url": "https://siliconangle.com/2026/10/08/white-house-bars-microsoft-from-sponsoring-green-card-applications-as-jd-vance-accuses-it-of-fraud/",
       "sourceName": "SiliconANGLE",
       "sourceId": "siliconangle",
       "sourceHome": "https://siliconangle.com/",
       "tags": [
-        "funding",
+        "policy"
+      ],
+      "publishedAt": "2026-10-09T01:35:24.000Z",
+      "clusterId": "microsoft-perm-green-card"
+    },
+    {
+      "title": "AI coding agents generate more code, but not more software",
+      "summary": "Ars Technica on a Harvard/Jellyfish study across 700+ firms: AI coding agents boost lines of code ~30% and PRs ~23%, but issue resolution doesn't rise \u2014 review time balloons ~49% as human review absorbs the gains.",
+      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+      "sourceName": "Ars Technica",
+      "sourceId": "arstechnica",
+      "sourceHome": "https://arstechnica.com/tag/artificial-intelligence/",
+      "tags": [
+        "research",
         "agents"
       ],
-      "publishedAt": "2026-10-09T00:12:16.000Z",
-      "clusterId": "gallatin-ai-50m"
+      "publishedAt": "2026-10-09T19:43:50.000Z",
+      "clusterId": "ai-coding-agents-review-bottleneck"
     },
     {
       "title": "AI surveillance startup Flock Safety to cut several hundred jobs amid backlash, sources say",
@@ -207,20 +262,6 @@
       "clusterId": "arena-3-1b"
     },
     {
-      "title": "Nvidia-backed Firmus scraps $5 billion Australian IPO as investors step up AI scrutiny",
-      "summary": "Reuters: Nvidia-backed Australian AI data-centre operator Firmus has shelved its planned roughly $5 billion IPO amid market volatility and heightened investor scrutiny of AI infrastructure deals, pivoting toward a private raise instead.",
-      "url": "https://www.reuters.com/world/asia-pacific/australian-nvidia-backed-ai-data-centre-operator-firmus-shelves-ipo-2026-10-08/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "funding",
-        "policy"
-      ],
-      "publishedAt": "2026-10-08T22:12:00.000Z",
-      "clusterId": "firmus-ipo-scrapped"
-    },
-    {
       "title": "Character.AI chatbots encouraged users to cut and starve themselves, Kentucky alleges",
       "summary": "Reuters: Kentucky alleges Character.AI chatbots encouraged users to cut and starve themselves, escalating safety and liability pressure on companion chatbot makers.",
       "url": "https://www.reuters.com/legal/litigation/characterai-chatbots-encouraged-users-cut-starve-themselves-kentucky-alleges-2026-10-08/",
@@ -232,90 +273,49 @@
       ],
       "publishedAt": "2026-10-08T23:19:32.000Z",
       "clusterId": "character-ai-kentucky"
-    },
-    {
-      "title": "Lawmakers raise alarm at Google plan to acquire Spirit Airlines data for AI models",
-      "summary": "Reuters: U.S. lawmakers are raising alarm over a reported Google plan to acquire Spirit Airlines passenger data for AI model training, adding privacy scrutiny to big-tech data deals.",
-      "url": "https://www.reuters.com/world/lawmakers-raise-alarm-google-plan-acquire-spirit-airlines-data-ai-models-2026-10-08/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-08T22:13:51.000Z",
-      "clusterId": "google-spirit-airlines-data"
-    },
-    {
-      "title": "South Korea, Japan buffeted by hacks as AI lowers bar for cybercriminals",
-      "summary": "Reuters: South Korea and Japan are facing a wave of cyberattacks as AI tools lower the bar for cybercriminals, underscoring how generative AI is reshaping regional cyber risk.",
-      "url": "https://www.reuters.com/legal/litigation/south-korea-japan-buffeted-by-hacks-ai-lowers-bar-cybercriminals-2026-10-09/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "policy",
-        "agents"
-      ],
-      "publishedAt": "2026-10-09T04:24:00.000Z",
-      "clusterId": "sk-jp-ai-cyber"
-    },
-    {
-      "title": "CoreWeave targets AI inference bottlenecks with full-stack optimization",
-      "summary": "SiliconANGLE: CoreWeave is pushing full-stack inference optimization and Forge tooling as serving models — not just training — becomes the economic bottleneck of the AI boom.",
-      "url": "https://siliconangle.com/2026/10/08/ai-inference-gets-full-stack-coreweave-launches-forge-fullyconnected/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "agents",
-        "research"
-      ],
-      "publishedAt": "2026-10-09T02:30:18.000Z",
-      "clusterId": "coreweave-forge"
     }
   ],
   "rumors": [
     {
       "title": "Anthropic reportedly aiming near a $2T Nasdaq IPO valuation; New Constructs calls it \"most ridiculous IPO of 2026\"",
-      "summary": "UNCONFIRMED X chatter: @SokoAnalyst says Anthropic is reportedly aiming near a $2 trillion valuation for a Nasdaq listing, while research firm New Constructs labels it the \"most ridiculous IPO of 2026\" and argues for a far lower figure — no company confirmation; treat as rumor. oEmbed verified evening 9 Oct (HTTP 200).",
+      "summary": "UNCONFIRMED X chatter: @SokoAnalyst says Anthropic is reportedly aiming near a $2 trillion valuation for a Nasdaq listing, while research firm New Constructs labels it the \"most ridiculous IPO of 2026\" and argues for a far lower figure \u2014 no company confirmation; treat as rumor. oEmbed re-verified morning 10 Oct (HTTP 200).",
       "url": "https://x.com/SokoAnalyst/status/2108452263593492570",
       "via": "@SokoAnalyst",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-09T07:55:00.000Z",
+      "harvestedAt": "2026-10-09T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Anthropic pre-IPO shares reportedly pitched near a $965B Series H valuation",
-      "summary": "UNCONFIRMED X chatter: @loudchirper says a venture fund is offering pre-IPO Anthropic shares on a Series H valuation basis of about ±$965 billion, and flags lockup terms — secondhand marketing pitch, not a company announcement; treat as rumor. oEmbed re-verified evening 9 Oct (HTTP 200).",
+      "summary": "UNCONFIRMED X chatter: @loudchirper says a venture fund is offering pre-IPO Anthropic shares on a Series H valuation basis of about \u00b1$965 billion, and flags lockup terms \u2014 secondhand marketing pitch, not a company announcement; treat as rumor. oEmbed re-verified morning 10 Oct (HTTP 200).",
       "url": "https://x.com/loudchirper/status/2108392227034509515",
       "via": "@loudchirper",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-09T07:55:00.000Z",
+      "harvestedAt": "2026-10-09T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Broadcom reportedly arranging $50B+ in debt to fund OpenAI's custom chips",
-      "summary": "UNCONFIRMED X chatter: @YouYouFXRESERCH relays a report that Broadcom is arranging more than $50B in financing for the custom chips it is co-developing with OpenAI, with Apollo and Blackstone among lenders in talks — no company confirmation; treat as rumor only. oEmbed re-verified evening 9 Oct (HTTP 200).",
+      "summary": "UNCONFIRMED X chatter: @YouYouFXRESERCH relays a report that Broadcom is arranging more than $50B in financing for the custom chips it is co-developing with OpenAI, with Apollo and Blackstone among lenders in talks \u2014 no company confirmation; treat as rumor only. oEmbed re-verified morning 10 Oct (HTTP 200).",
       "url": "https://x.com/YouYouFXRESERCH/status/2108267316987195556",
       "via": "@YouYouFXRESERCH",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-09T07:55:00.000Z",
+      "harvestedAt": "2026-10-09T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Anthropic ARR reportedly near $95B in some investor chatter vs OpenAI's ~$50B",
-      "summary": "UNCONFIRMED X chatter: @ThematicTrader contrasts Bloomberg-aligned OpenAI ~$50B ARR with investor chatter putting Anthropic near $95B ARR — no primary filing cited; treat as rumor only. oEmbed re-verified evening 9 Oct (HTTP 200).",
+      "summary": "UNCONFIRMED X chatter: @ThematicTrader contrasts Bloomberg-aligned OpenAI ~$50B ARR with investor chatter putting Anthropic near $95B ARR \u2014 no primary filing cited; treat as rumor only. oEmbed re-verified morning 10 Oct (HTTP 200).",
       "url": "https://x.com/ThematicTrader/status/2108387517368021157",
       "via": "@ThematicTrader",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-09T07:55:00.000Z",
+      "harvestedAt": "2026-10-09T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
