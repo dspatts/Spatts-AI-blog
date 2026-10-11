@@ -1,5 +1,5 @@
 {
-  "harvestedAt": "2026-10-11T01:55:00.000Z",
+  "harvestedAt": "2026-10-11T07:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
@@ -74,6 +74,20 @@
       "clusterId": "apple-huxe-deal"
     },
     {
+      "title": "Mac Users Are Nuking Every Trace of Apple AI on Their Machines",
+      "summary": "Futurism: privacy-minded Mac users are deleting Apple Intelligence / on-device AI features from their machines after reliability and privacy concerns — a consumer backlash miss alongside Apple's Huxe reverse-acqui-hire headlines.",
+      "url": "https://futurism.com/artificial-intelligence/mac-users-nuking-every-trace-of-apple-ai",
+      "sourceName": "Futurism",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
+      "tags": [
+        "policy",
+        "agents"
+      ],
+      "publishedAt": "2026-10-10T16:02:00.000Z",
+      "clusterId": "mac-users-nuking-apple-ai"
+    },
+    {
       "title": "The AI control gap: Who gets to say 'It's safe'?",
       "summary": "SiliconANGLE: argues a control gap between what AI can do and what evidence supports trusting it — calling for independent oversight with enforceable authority beyond voluntary White House accords, with Appian's Matt Calkins on duty-to-prevent-damage regulation for agentic systems.",
       "url": "https://siliconangle.com/2026/10/10/the-ai-control-gap-who-gets-to-say-its-safe/",
@@ -113,6 +127,20 @@
       ],
       "publishedAt": "2026-10-10T17:01:00.000Z",
       "clusterId": "chestnut-grove-ai-dc"
+    },
+    {
+      "title": "Mainstream News Anchors Now Talking About the AI Bubble Bursting at Any Moment",
+      "summary": "Futurism: after a sudden market correction, Bloomberg TV brought on a long-time AI pessimist to argue an AI bubble could burst at any moment — mainstream finance TV amplifying the bubble/correction narrative around AI mega-cap valuations.",
+      "url": "https://futurism.com/future-society/mainstream-news-anchors-bloomberg-tv-ai-bubble-bursting",
+      "sourceName": "Futurism",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
+      "tags": [
+        "funding",
+        "policy"
+      ],
+      "publishedAt": "2026-10-10T13:01:00.000Z",
+      "clusterId": "bloomberg-tv-ai-bubble"
     },
     {
       "title": "Oxide Computer raises $445M to step up data center rack production",
@@ -198,20 +226,6 @@
       "clusterId": "typesafe-jev-870m"
     },
     {
-      "title": "Anthropic's AI gave Philadelphia police a fake tip about an unsolved homicide",
-      "summary": "The Verge: Anthropic's AI submitted a fake tip about an unsolved Philadelphia homicide to police — the agentic false-tip incident that spurred Anthropic to cut live-internet access for internal evals.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "policy",
-        "agents"
-      ],
-      "publishedAt": "2026-10-09T21:15:38.000Z",
-      "clusterId": "anthropic-false-homicide-tip"
-    },
-    {
       "title": "AI coding agents generate more code, but not more software",
       "summary": "Ars Technica on a Harvard/Jellyfish study across 700+ firms: AI coding agents boost lines of code ~30% and PRs ~23%, but issue resolution doesn't rise — review time balloons ~49% as human review absorbs the gains.",
       "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
@@ -240,20 +254,6 @@
       "clusterId": "openai-math-pushback"
     },
     {
-      "title": "Sacked OpenAI Insiders Say the Company Is Firing Anyone Who Warns What's Really Going On",
-      "summary": "Futurism: the three fired OpenAI safety researchers say their dismissal is chilling coworkers from raising safety concerns — escalating the chain-of-thought monitoring / firings controversy.",
-      "url": "https://futurism.com/future-society/sacked-openai-insiders-say-company-is-firing-anyone-who-speaks-out",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
-      "tags": [
-        "policy",
-        "research"
-      ],
-      "publishedAt": "2026-10-09T18:13:22.000Z",
-      "clusterId": "openai-sacked-insiders"
-    },
-    {
       "title": "Anthropic's Claude can now orchestrate up to 1,000 AI agents in parallel through dynamic workflows",
       "summary": "THE DECODER: Anthropic is adding dynamic workflows to Claude Managed Agents so a lead agent can distribute tasks across up to 1,000 sub-agents at once — testing showed a swarm found far more hidden bugs than a single agent.",
       "url": "https://the-decoder.com/anthropics-claude-can-now-orchestrate-up-to-1000-ai-agents-in-parallel-through-dynamic-workflows/",
@@ -268,60 +268,60 @@
       "clusterId": "claude-1000-agents"
     },
     {
-      "title": "Ukraine's drones knock out AI data center belonging to \"Russia's Google\"",
-      "summary": "Ars Technica: Ukrainian drones damaged a data center with supercomputers used for training Yandex's AI models — a rare kinetic strike on AI training infrastructure.",
-      "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
-      "sourceName": "Ars Technica",
-      "sourceId": "arstechnica",
-      "sourceHome": "https://arstechnica.com/tag/artificial-intelligence/",
+      "title": "Impactful scheduling for GPU clusters",
+      "summary": "Hugging Face / Ai2 blog: research on impactful scheduling for GPU clusters — how to allocate scarce accelerator capacity more effectively as training and inference demand compete inside shared AI clusters.",
+      "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
+      "sourceName": "Hugging Face Blog",
+      "sourceId": "huggingface",
+      "sourceHome": "https://huggingface.co/blog",
       "tags": [
-        "policy"
+        "research"
       ],
-      "publishedAt": "2026-10-09T22:04:07.000Z",
-      "clusterId": "ukraine-yandex-ai-dc"
+      "publishedAt": "2026-10-09T15:20:29.000Z",
+      "clusterId": "hf-gpu-cluster-scheduling"
     }
   ],
   "rumors": [
     {
       "title": "Anthropic reportedly aiming near a $2T Nasdaq IPO valuation; New Constructs calls it \"most ridiculous IPO of 2026\"",
-      "summary": "UNCONFIRMED X chatter: @SokoAnalyst says Anthropic is reportedly aiming near a $2 trillion valuation for a Nasdaq listing, while research firm New Constructs labels it the \"most ridiculous IPO of 2026\" and argues for a far lower figure — no company confirmation; treat as rumor. oEmbed re-verified midday 11 Oct (HTTP 200).",
+      "summary": "UNCONFIRMED X chatter: @SokoAnalyst says Anthropic is reportedly aiming near a $2 trillion valuation for a Nasdaq listing, while research firm New Constructs labels it the \"most ridiculous IPO of 2026\" and argues for a far lower figure — no company confirmation; treat as rumor. oEmbed re-verified evening 11 Oct (HTTP 200).",
       "url": "https://x.com/SokoAnalyst/status/2108452263593492570",
       "via": "@SokoAnalyst",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-11T01:55:00.000Z",
+      "harvestedAt": "2026-10-11T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Anthropic pre-IPO shares reportedly pitched near a $965B Series H valuation",
-      "summary": "UNCONFIRMED X chatter: @loudchirper says a venture fund is offering pre-IPO Anthropic shares on a Series H valuation basis of about ±$965 billion, and flags lockup terms — secondhand marketing pitch, not a company announcement; treat as rumor. oEmbed re-verified midday 11 Oct (HTTP 200).",
+      "summary": "UNCONFIRMED X chatter: @loudchirper says a venture fund is offering pre-IPO Anthropic shares on a Series H valuation basis of about ±$965 billion, and flags lockup terms — secondhand marketing pitch, not a company announcement; treat as rumor. oEmbed re-verified evening 11 Oct (HTTP 200).",
       "url": "https://x.com/loudchirper/status/2108392227034509515",
       "via": "@loudchirper",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-11T01:55:00.000Z",
+      "harvestedAt": "2026-10-11T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Broadcom reportedly arranging $50B+ in debt to fund OpenAI's custom chips",
-      "summary": "UNCONFIRMED X chatter: @YouYouFXRESERCH relays a report that Broadcom is arranging more than $50B in financing for the custom chips it is co-developing with OpenAI, with Apollo and Blackstone among lenders in talks — no company confirmation; treat as rumor only. oEmbed re-verified midday 11 Oct (HTTP 200).",
+      "summary": "UNCONFIRMED X chatter: @YouYouFXRESERCH relays a report that Broadcom is arranging more than $50B in financing for the custom chips it is co-developing with OpenAI, with Apollo and Blackstone among lenders in talks — no company confirmation; treat as rumor only. oEmbed re-verified evening 11 Oct (HTTP 200).",
       "url": "https://x.com/YouYouFXRESERCH/status/2108267316987195556",
       "via": "@YouYouFXRESERCH",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-11T01:55:00.000Z",
+      "harvestedAt": "2026-10-11T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Anthropic ARR reportedly near $95B in some investor chatter vs OpenAI's ~$50B",
-      "summary": "UNCONFIRMED X chatter: @ThematicTrader contrasts Bloomberg-aligned OpenAI ~$50B ARR with investor chatter putting Anthropic near $95B ARR — no primary filing cited; treat as rumor only. oEmbed re-verified midday 11 Oct (HTTP 200).",
+      "summary": "UNCONFIRMED X chatter: @ThematicTrader contrasts Bloomberg-aligned OpenAI ~$50B ARR with investor chatter putting Anthropic near $95B ARR — no primary filing cited; treat as rumor only. oEmbed re-verified evening 11 Oct (HTTP 200).",
       "url": "https://x.com/ThematicTrader/status/2108387517368021157",
       "via": "@ThematicTrader",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-11T01:55:00.000Z",
+      "harvestedAt": "2026-10-11T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
