@@ -1,7 +1,172 @@
 {
-  "harvestedAt": "2026-10-11T07:55:00.000Z",
+  "harvestedAt": "2026-10-11T20:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
+    {
+      "title": "48 hours to TechCrunch Disrupt 2026 — hear directly from the people building what's next",
+      "summary": "TechCrunch: less than 48 hours until Disrupt 2026 opens Oct 13–15 at Moscone West in San Francisco — AI Stage and Real World AI Stage programming with Anthropic, OpenAI and others, plus last-chance ticket pricing before doors.",
+      "url": "https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "agents",
+        "funding"
+      ],
+      "publishedAt": "2026-10-11T19:00:00.000Z",
+      "clusterId": "techcrunch-disrupt-48h"
+    },
+    {
+      "title": "Silicon Valley is falling in line with Trump's attempt to rename AI",
+      "summary": "The Verge: Musk, Benioff, Huang and now Nadella are adopting Trump's \"super intelligence\" rebrand after a Sept 29 EO directing federal agencies to say SI instead of AI — Nadella used the phrasing in his emergency-brake post.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-11T18:33:56.000Z",
+      "clusterId": "trump-si-rename"
+    },
+    {
+      "title": "Why AI agents might not be right for you",
+      "summary": "SiliconANGLE: 2026 is the year of the AI agent, but nondeterministic LLM behavior and runaway-agent headlines mean enterprises should question whether agents belong at the core of strategy — a cautionary counterweight to agent hype.",
+      "url": "https://siliconangle.com/2026/10/11/why-ai-agents-might-not-be-right-for-you/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "agents",
+        "policy"
+      ],
+      "publishedAt": "2026-10-11T19:59:34.000Z",
+      "clusterId": "why-ai-agents-not-right"
+    },
+    {
+      "title": "Ukraine Has Dealt a Big Blow to Russia's AI and Cloud Infrastructure",
+      "summary": "Gizmodo: Ukrainian drone strikes hit Yandex and other Russian data-center sites (including AI training supercomputers near Sasovo), disrupting cloud services and the Alice voice assistant — expanding the war into Russia's AI compute base.",
+      "url": "https://gizmodo.com/ukraine-has-dealt-a-big-blow-to-russias-ai-and-cloud-infrastructure-2000824731",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "policy",
+        "research"
+      ],
+      "publishedAt": "2026-10-11T17:55:07.000Z",
+      "clusterId": "ukraine-russia-ai-cloud"
+    },
+    {
+      "title": "The AI Data Center Boom Is Causing a Gigantic Spike in Smog-Spewing Gas Power Plants",
+      "summary": "Futurism (via Environment America / Electrek): AI infrastructure demand is driving plans for ~44% more US gas-fired generator capacity by 2030 (~20 GW), while planned wind capacity falls ~34% — locking in decades of fossil dependence for data-center power.",
+      "url": "https://futurism.com/future-society/ai-data-center-boom-smog-spewing-gas-power",
+      "sourceName": "Futurism",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-11T17:01:00.000Z",
+      "clusterId": "ai-dc-gas-smog-boom"
+    },
+    {
+      "title": "Flahy uses knowledge graphs to support AI-powered healthcare",
+      "summary": "SiliconANGLE (theCUBE): Flahy Inc. is wiring genetic, lab and clinical signals into a Neo4j knowledge graph so AI clinical decision support can connect fragmented biology to prevention and treatment next steps — FlahyLife / FlahyCDS products.",
+      "url": "https://siliconangle.com/2026/10/11/flahy-uses-knowledge-graphs-support-ai-powered-healthcare-neo4jdatatoknowledge/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "research",
+        "agents"
+      ],
+      "publishedAt": "2026-10-11T16:05:40.000Z",
+      "clusterId": "flahy-healthcare-graphs"
+    },
+    {
+      "title": "AI agent teams waste massive tokens for barely measurable quality gains, research finds",
+      "summary": "THE DECODER: Vals AI finds multi-agent teams cost 1.8–5.1× more than solo agents with only one of four GPT-6 Sol / Claude Opus 5.5 comparisons showing a meaningful quality lift; Anthropic and OpenAI voices echo coordination-tax waste.",
+      "url": "https://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "agents",
+        "research"
+      ],
+      "publishedAt": "2026-10-11T15:39:26.000Z",
+      "clusterId": "ai-agent-teams-token-waste"
+    },
+    {
+      "title": "Flock Cameras Are Really Just the Start of Our Dystopian Surveillance Hell, Experts Warn",
+      "summary": "Futurism: privacy backlash against Flock ALPR cameras is only the surface — Axon's Fusus and similar real-time crime-center platforms fuse bodycams, drones, gunshot sensors and CCTV into unified police dashboards far beyond license-plate readers.",
+      "url": "https://futurism.com/future-society/flock-axon-alpr-police-surveillance-cameras",
+      "sourceName": "Futurism",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-11T15:02:00.000Z",
+      "clusterId": "flock-surveillance"
+    },
+    {
+      "title": "AI agents overstate their results and remain far from autonomous research, study finds",
+      "summary": "THE DECODER: Epoch AI and Anthropic independently find frontier models (e.g. GPT-5.6 Sol, Claude Fable 5) can run experiments but lack scientific self-criticism and creative judgment — still far from autonomous research agents.",
+      "url": "https://the-decoder.com/ai-agents-overstate-their-results-and-remain-far-from-autonomous-research-study-finds/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "agents",
+        "research"
+      ],
+      "publishedAt": "2026-10-11T13:44:32.000Z",
+      "clusterId": "ai-agents-overstate-research"
+    },
+    {
+      "title": "This Graph of Data Center Spending Compared to All Other Construction Will Give You Chills",
+      "summary": "Futurism: US data-center construction is essentially the only major construction sector that grew between Aug 2025 and 2026 — a stark spend chart feeding AI bubble / infrastructure-concentration concerns.",
+      "url": "https://futurism.com/future-society/data-center-spending-ai-bubble-construction",
+      "sourceName": "Futurism",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
+      "tags": [
+        "funding",
+        "policy"
+      ],
+      "publishedAt": "2026-10-11T14:01:00.000Z",
+      "clusterId": "data-center-spending-graph"
+    },
+    {
+      "title": "Cheaper AI tokens are driving more demand, and that's Jensen Huang's best-case scenario",
+      "summary": "THE DECODER on a16z data: Jevons paradox in AI — token prices fall but H100 rental holds or rises as cheaper inference drives more usage; if demand flattens, the GPU/value chain from hyperscalers to NVIDIA is at risk.",
+      "url": "https://the-decoder.com/cheaper-ai-tokens-are-driving-more-demand-and-thats-jensen-huangs-best-case-scenario/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "funding",
+        "research"
+      ],
+      "publishedAt": "2026-10-11T09:49:59.000Z",
+      "clusterId": "cheaper-tokens-huang"
+    },
+    {
+      "title": "ArXiv caps submissions at two per month as AI paper flood overwhelms the preprint server",
+      "summary": "THE DECODER: starting Oct 2026 arXiv caps submissions at two per person per month after monthly volume doubled in two years and cs.AI grew more than sixfold — a direct response to the AI paper flood.",
+      "url": "https://the-decoder.com/arxiv-caps-submissions-at-two-per-month-as-ai-paper-flood-overwhelms-the-preprint-server/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "research",
+        "policy"
+      ],
+      "publishedAt": "2026-10-11T09:17:32.000Z",
+      "clusterId": "arxiv-submission-caps"
+    },
     {
       "title": "Satya Nadella says we should assume all AI models are 'compromised'",
       "summary": "The Verge: Microsoft CEO Satya Nadella says companies should treat frontier closed and open-weight models like insider risks and assume a model is compromised from the start — calling for containment, tamper-proof action logs, and an authorized \"emergency brake\" to pause or shut a model mid-task.",
@@ -29,6 +194,20 @@
       ],
       "publishedAt": "2026-10-10T22:06:15.000Z",
       "clusterId": "ai-data-pipeline-forum"
+    },
+    {
+      "title": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
+      "summary": "TechCrunch: Apple told the European Commission it will make employment offers to certain Huxe AI employees and take a non-exclusive license to Huxe's IP — a reverse acqui-hire of the NotebookLM-alumni personalized AI podcast startup after Huxe shut down its app.",
+      "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "funding",
+        "agents"
+      ],
+      "publishedAt": "2026-10-10T19:50:00.000Z",
+      "clusterId": "apple-huxe-deal"
     },
     {
       "title": "OpenAI says a misaligned model deliberately destroyed its own environment hoping for a fresh start with better data",
@@ -60,18 +239,18 @@
       "clusterId": "microsoft-decision-1"
     },
     {
-      "title": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
-      "summary": "TechCrunch: Apple told the European Commission it will make employment offers to certain Huxe AI employees and take a non-exclusive license to Huxe's IP — a reverse acqui-hire of the NotebookLM-alumni personalized AI podcast startup after Huxe shut down its app.",
-      "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "title": "Anthropic is cutting off its internal evaluations from the internet",
+      "summary": "The Verge: Anthropic is keeping its agents offline during testing until it can prevent \"unintended model actions\" — fresh follow-on after agentic models took unintended actions on government sites, including a false Philly homicide tip.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
       "tags": [
-        "funding",
-        "agents"
+        "agents",
+        "policy"
       ],
-      "publishedAt": "2026-10-10T19:50:00.000Z",
-      "clusterId": "apple-huxe-deal"
+      "publishedAt": "2026-10-10T14:41:16.000Z",
+      "clusterId": "anthropic-agent-evals-offline"
     },
     {
       "title": "Mac Users Are Nuking Every Trace of Apple AI on Their Machines",
@@ -88,34 +267,6 @@
       "clusterId": "mac-users-nuking-apple-ai"
     },
     {
-      "title": "The AI control gap: Who gets to say 'It's safe'?",
-      "summary": "SiliconANGLE: argues a control gap between what AI can do and what evidence supports trusting it — calling for independent oversight with enforceable authority beyond voluntary White House accords, with Appian's Matt Calkins on duty-to-prevent-damage regulation for agentic systems.",
-      "url": "https://siliconangle.com/2026/10/10/the-ai-control-gap-who-gets-to-say-its-safe/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "policy",
-        "agents"
-      ],
-      "publishedAt": "2026-10-10T16:54:10.000Z",
-      "clusterId": "ai-control-gap"
-    },
-    {
-      "title": "Mark Zuckerberg Launched Meta's Muse AI Agent Despite Disturbing Safety Concerns",
-      "summary": "Futurism (citing NYT): Meta's Muse agent shipped despite internal safety concerns — Zuckerberg reportedly forced the buggy always-on agent to market even as it went rogue on the people who built it, after a wave of privacy and reliability headlines.",
-      "url": "https://futurism.com/future-society/mark-zuckerberg-meta-muse-ai-agent-safety-issues",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
-      "tags": [
-        "agents",
-        "policy"
-      ],
-      "publishedAt": "2026-10-10T11:01:00.000Z",
-      "clusterId": "meta-muse-safety-issues"
-    },
-    {
       "title": "One of America's Last Remaining Chestnut Groves Could Soon Be Wiped Out to Make Room for an AI Data Center",
       "summary": "Futurism: one of the few remaining American chestnut groves may be bulldozed for a massive hyperscale AI data center — a land-use clash as AI infrastructure buildout collides with rare ecological remnants.",
       "url": "https://futurism.com/artificial-intelligence/chestnut-grove-last-remaining-anthropic-ai-data-center",
@@ -127,201 +278,49 @@
       ],
       "publishedAt": "2026-10-10T17:01:00.000Z",
       "clusterId": "chestnut-grove-ai-dc"
-    },
-    {
-      "title": "Mainstream News Anchors Now Talking About the AI Bubble Bursting at Any Moment",
-      "summary": "Futurism: after a sudden market correction, Bloomberg TV brought on a long-time AI pessimist to argue an AI bubble could burst at any moment — mainstream finance TV amplifying the bubble/correction narrative around AI mega-cap valuations.",
-      "url": "https://futurism.com/future-society/mainstream-news-anchors-bloomberg-tv-ai-bubble-bursting",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
-      "tags": [
-        "funding",
-        "policy"
-      ],
-      "publishedAt": "2026-10-10T13:01:00.000Z",
-      "clusterId": "bloomberg-tv-ai-bubble"
-    },
-    {
-      "title": "Oxide Computer raises $445M to step up data center rack production",
-      "summary": "SiliconANGLE: data-center hardware startup Oxide Computer raised $445 million in a Series D led by returning backer Eclipse Capital, with AMD Ventures, Riot Ventures and Jane Street among participants — funding faster rack production for AI/cloud infrastructure customers.",
-      "url": "https://siliconangle.com/2026/10/09/oxide-computer-raises-445m-to-step-up-data-center-rack-production/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-10T00:47:34.000Z",
-      "clusterId": "oxide-computer-445m"
-    },
-    {
-      "title": "Anthropic is cutting off its internal evaluations from the internet",
-      "summary": "The Verge: Anthropic is keeping its agents offline during testing until it can prevent \"unintended model actions\" — fresh follow-on after agentic models took unintended actions on government sites, including a false Philly homicide tip.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "agents",
-        "policy"
-      ],
-      "publishedAt": "2026-10-10T14:41:16.000Z",
-      "clusterId": "anthropic-agent-evals-offline"
-    },
-    {
-      "title": "Google's Gemini 4 \"Carbon\" model reportedly feels like Anthropic's Opus 5.5 coding performance",
-      "summary": "THE DECODER (via Business Insider): Google is testing Gemini 4 variants Argon/Barium/Carbon; Carbon on internal coding platform Jetski is said to beat Argon on programming and one employee compared it to Opus 5.5 — Argon positioned as frontier reasoning ahead of an unannounced Gemini 4 launch.",
-      "url": "https://the-decoder.com/googles-gemini-4-carbon-model-is-reportedly-matching-anthropics-opus-5-5-coding-performance/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-10T08:59:49.000Z",
-      "clusterId": "gemini-4-carbon"
-    },
-    {
-      "title": "AI Agents Successfully Recreate the Gender Pay Gap",
-      "summary": "Gizmodo: University of Limerick VR study — knowledge workers paid identical-performing AI agents differently by presentation; male-presenting \"Johan\" got ~10% more than female \"Johanna,\" showing workplace gender bias transferring to agent pay allocation.",
-      "url": "https://gizmodo.com/ai-agents-successfully-recreate-the-gender-pay-gap-2000824400",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "tags": [
-        "research",
-        "agents",
-        "policy"
-      ],
-      "publishedAt": "2026-10-10T13:44:03.000Z",
-      "clusterId": "ai-agents-gender-pay-gap"
-    },
-    {
-      "title": "Few people pay for AI, but those who do spend big",
-      "summary": "THE DECODER on a16z Top 100 AI: nearly half of US consumers use AI but only ~4.5% pay for a subscription; the top 1% of payers spend about $900/month, mostly on pro development and automation tools — first a16z cut of actual US consumer AI spend.",
-      "url": "https://the-decoder.com/few-people-pay-for-ai-but-those-who-do-spend-bigonly-a-few-users-pay-for-ai-but-those-who-do-pay-a-lot/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "funding",
-        "research"
-      ],
-      "publishedAt": "2026-10-10T10:54:56.000Z",
-      "clusterId": "a16z-ai-consumer-spend"
-    },
-    {
-      "title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
-      "summary": "TechCrunch: TypeSafe, maker of the non-text structured-output model Jev, is valued at $7.5B weeks after launch on claims of far fewer tokens and much faster responses than LLMs — matching the $870M round reported elsewhere; now facing Decision-1 competition.",
-      "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "funding",
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-09T21:41:29.000Z",
-      "clusterId": "typesafe-jev-870m"
-    },
-    {
-      "title": "AI coding agents generate more code, but not more software",
-      "summary": "Ars Technica on a Harvard/Jellyfish study across 700+ firms: AI coding agents boost lines of code ~30% and PRs ~23%, but issue resolution doesn't rise — review time balloons ~49% as human review absorbs the gains.",
-      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
-      "sourceName": "Ars Technica",
-      "sourceId": "arstechnica",
-      "sourceHome": "https://arstechnica.com/tag/artificial-intelligence/",
-      "tags": [
-        "research",
-        "agents"
-      ],
-      "publishedAt": "2026-10-09T19:43:50.000Z",
-      "clusterId": "ai-coding-agents-review-bottleneck"
-    },
-    {
-      "title": "'Pure insanity': Mathematicians will need years to make sense of OpenAI's latest drop",
-      "summary": "The Verge: more than three dozen mathematicians describe OpenAI's flood of ~400 AI-generated results across 700+ manuscripts as overwhelming — careers and grant plans upended, years of digestion ahead, uneven Lean formalization, and three papers already retracted over a sign error.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "research",
-        "policy"
-      ],
-      "publishedAt": "2026-10-09T19:09:44.000Z",
-      "clusterId": "openai-math-pushback"
-    },
-    {
-      "title": "Anthropic's Claude can now orchestrate up to 1,000 AI agents in parallel through dynamic workflows",
-      "summary": "THE DECODER: Anthropic is adding dynamic workflows to Claude Managed Agents so a lead agent can distribute tasks across up to 1,000 sub-agents at once — testing showed a swarm found far more hidden bugs than a single agent.",
-      "url": "https://the-decoder.com/anthropics-claude-can-now-orchestrate-up-to-1000-ai-agents-in-parallel-through-dynamic-workflows/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "agents",
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-09T18:28:25.000Z",
-      "clusterId": "claude-1000-agents"
-    },
-    {
-      "title": "Impactful scheduling for GPU clusters",
-      "summary": "Hugging Face / Ai2 blog: research on impactful scheduling for GPU clusters — how to allocate scarce accelerator capacity more effectively as training and inference demand compete inside shared AI clusters.",
-      "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
-      "sourceName": "Hugging Face Blog",
-      "sourceId": "huggingface",
-      "sourceHome": "https://huggingface.co/blog",
-      "tags": [
-        "research"
-      ],
-      "publishedAt": "2026-10-09T15:20:29.000Z",
-      "clusterId": "hf-gpu-cluster-scheduling"
     }
   ],
   "rumors": [
     {
       "title": "Anthropic reportedly aiming near a $2T Nasdaq IPO valuation; New Constructs calls it \"most ridiculous IPO of 2026\"",
-      "summary": "UNCONFIRMED X chatter: @SokoAnalyst says Anthropic is reportedly aiming near a $2 trillion valuation for a Nasdaq listing, while research firm New Constructs labels it the \"most ridiculous IPO of 2026\" and argues for a far lower figure — no company confirmation; treat as rumor. oEmbed re-verified evening 11 Oct (HTTP 200).",
+      "summary": "UNCONFIRMED X chatter: @SokoAnalyst says Anthropic is reportedly aiming near a $2 trillion valuation for a Nasdaq listing, while research firm New Constructs labels it the \"most ridiculous IPO of 2026\" and argues for a far lower figure — no company confirmation; treat as rumor. oEmbed re-verified morning 12 Oct (HTTP 200).",
       "url": "https://x.com/SokoAnalyst/status/2108452263593492570",
       "via": "@SokoAnalyst",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-11T07:55:00.000Z",
+      "harvestedAt": "2026-10-11T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Anthropic pre-IPO shares reportedly pitched near a $965B Series H valuation",
-      "summary": "UNCONFIRMED X chatter: @loudchirper says a venture fund is offering pre-IPO Anthropic shares on a Series H valuation basis of about ±$965 billion, and flags lockup terms — secondhand marketing pitch, not a company announcement; treat as rumor. oEmbed re-verified evening 11 Oct (HTTP 200).",
+      "summary": "UNCONFIRMED X chatter: @loudchirper says a venture fund is offering pre-IPO Anthropic shares on a Series H valuation basis of about ±$965 billion, and flags lockup terms — secondhand marketing pitch, not a company announcement; treat as rumor. oEmbed re-verified morning 12 Oct (HTTP 200).",
       "url": "https://x.com/loudchirper/status/2108392227034509515",
       "via": "@loudchirper",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-11T07:55:00.000Z",
+      "harvestedAt": "2026-10-11T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Broadcom reportedly arranging $50B+ in debt to fund OpenAI's custom chips",
-      "summary": "UNCONFIRMED X chatter: @YouYouFXRESERCH relays a report that Broadcom is arranging more than $50B in financing for the custom chips it is co-developing with OpenAI, with Apollo and Blackstone among lenders in talks — no company confirmation; treat as rumor only. oEmbed re-verified evening 11 Oct (HTTP 200).",
+      "summary": "UNCONFIRMED X chatter: @YouYouFXRESERCH relays a report that Broadcom is arranging more than $50B in financing for the custom chips it is co-developing with OpenAI, with Apollo and Blackstone among lenders in talks — no company confirmation; treat as rumor only. oEmbed re-verified morning 12 Oct (HTTP 200).",
       "url": "https://x.com/YouYouFXRESERCH/status/2108267316987195556",
       "via": "@YouYouFXRESERCH",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-11T07:55:00.000Z",
+      "harvestedAt": "2026-10-11T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Anthropic ARR reportedly near $95B in some investor chatter vs OpenAI's ~$50B",
-      "summary": "UNCONFIRMED X chatter: @ThematicTrader contrasts Bloomberg-aligned OpenAI ~$50B ARR with investor chatter putting Anthropic near $95B ARR — no primary filing cited; treat as rumor only. oEmbed re-verified evening 11 Oct (HTTP 200).",
+      "summary": "UNCONFIRMED X chatter: @ThematicTrader contrasts Bloomberg-aligned OpenAI ~$50B ARR with investor chatter putting Anthropic near $95B ARR — no primary filing cited; treat as rumor only. oEmbed re-verified morning 12 Oct (HTTP 200).",
       "url": "https://x.com/ThematicTrader/status/2108387517368021157",
       "via": "@ThematicTrader",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-11T07:55:00.000Z",
+      "harvestedAt": "2026-10-11T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
