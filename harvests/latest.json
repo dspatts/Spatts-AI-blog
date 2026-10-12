@@ -1,7 +1,60 @@
 {
-  "harvestedAt": "2026-10-12T07:55:00.000Z",
+  "harvestedAt": "2026-10-12T20:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
+    {
+      "title": "Meta releases its first frontier model, Muse Wonder",
+      "summary": "Meta Superintelligence Labs follows the lightweight Muse Spark with Muse Wonder and Muse Wonder Full — larger models Meta says post higher benchmark scores and stronger results on complex tasks like coding.",
+      "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-12T17:56:56.000Z",
+      "clusterId": "meta-muse-wonder"
+    },
+    {
+      "title": "Meta's new frontier model Muse Wonder Full breaks into the AI top tier",
+      "summary": "Muse Wonder models rank top three on six of ten benchmarks, with the biggest gains on agentic tasks — but cost per task has nearly tripled versus Meta's earlier models.",
+      "url": "https://the-decoder.com/metas-new-frontier-model-muse-wonder-full-breaks-into-the-ai-top-tier/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "model-releases",
+        "agents"
+      ],
+      "publishedAt": "2026-10-12T18:48:29.000Z",
+      "clusterId": "meta-muse-wonder"
+    },
+    {
+      "title": "Microsoft's new AI chip makes it less reliant on Nvidia's GPUs",
+      "summary": "Microsoft unveils Maia 300, its third-generation in-house AI chip, built to be the primary inference system for its products and better suited to reasoning models and agentic workloads.",
+      "url": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-12T13:00:00.000Z",
+      "clusterId": "microsoft-maia-300"
+    },
+    {
+      "title": "Microsoft debuts multichiplet Maia 300 inference accelerator",
+      "summary": "Microsoft says Maia 300 processes 40% more tokens per megawatt than leading GPU systems; the Maia line becomes Azure's main inference platform from 2027 at multi-gigawatt scale.",
+      "url": "https://siliconangle.com/2026/10/12/microsoft-debuts-multichiplet-maia-300-inference-accelerator/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-12T20:11:12.000Z",
+      "clusterId": "microsoft-maia-300"
+    },
     {
       "title": "Nvidia reportedly in early talks to buy, acquihire or invest more in Reflection AI",
       "summary": "SiliconANGLE / FT: Nvidia is in early talks to acquire open-weight model developer Reflection AI or deepen its stake (already ~$800M invested) — options include full buy, more equity, compute deal, or acqui-hire; agreement possible within weeks but talks could still collapse. Reflection just launched Beam.",
@@ -31,60 +84,149 @@
       "clusterId": "amazon-decart-7b"
     },
     {
-      "title": "Will the HomeView be Apple's first smart home success?",
-      "summary": "TechCrunch: Apple's upcoming Siri-powered smart-home hub is reportedly named HomeView (Bloomberg/Gurman) — display + A18 chip, countertop and wall models, unveiling Oct 13 at \"Welcome home\" with mid-November ship; alongside refreshed HomePod mini and Apple TV 4K.",
-      "url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "title": "White House reverses course and restores UK AI Safety Institute's access to frontier models",
+      "summary": "After telling Anthropic, Google DeepMind and OpenAI in September to stop sharing models with the UK agency, the Trump administration restored the AISI's early access following diplomatic pressure from UK AI minister Kanishka Narayan.",
+      "url": "https://the-decoder.com/white-house-reverses-course-and-restores-uk-ai-safety-institutes-access-to-frontier-models/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
       "tags": [
-        "agents",
-        "model-releases"
+        "policy"
       ],
-      "publishedAt": "2026-10-11T21:14:40.000Z",
-      "clusterId": "apple-homeview"
+      "publishedAt": "2026-10-12T13:14:54.000Z",
+      "clusterId": "uk-aisi-access-restored"
     },
     {
-      "title": "48 hours to TechCrunch Disrupt 2026 — hear directly from the people building what's next",
-      "summary": "TechCrunch: less than 48 hours until Disrupt 2026 opens Oct 13–15 at Moscone West in San Francisco — AI Stage and Real World AI Stage programming with Anthropic, OpenAI and others, plus last-chance ticket pricing before doors.",
-      "url": "https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "title": "Microsoft President Says Milk and Washing Machines Face More Safety Regulations Than AI",
+      "summary": "Brad Smith calls for stronger global AI safety rules as systems grow more powerful, arguing everyday products face tougher oversight than AI companies.",
+      "url": "https://gizmodo.com/microsoft-president-says-milk-and-washing-machines-face-more-safety-regulations-than-ai-2000824962",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/",
       "tags": [
-        "agents",
-        "funding"
+        "policy"
       ],
-      "publishedAt": "2026-10-11T19:00:00.000Z",
-      "clusterId": "techcrunch-disrupt-48h"
+      "publishedAt": "2026-10-12T15:42:08.000Z",
+      "clusterId": "brad-smith-ai-regulation"
     },
     {
-      "title": "BotMan AI uses knowledge graphs for legacy modernization",
-      "summary": "SiliconANGLE (theCUBE): BotMan AI maps application dependencies, business logic and data models into a knowledge graph so AI agents can interpret legacy systems before rebuilding them — an AI-powered migration pipeline for enterprise modernization.",
-      "url": "https://siliconangle.com/2026/10/11/botman-ai-uses-knowledge-graphs-for-legacy-modernization-neo4jdatatoknowledge/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
+      "title": "Microsoft president says UK is best placed to drive AI regulation",
+      "summary": "Brad Smith urges urgent AI regulation and says the UK is well positioned to lead it, repeating that milk and washing machines get more oversight than AI.",
+      "url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/",
       "tags": [
-        "agents",
+        "policy"
+      ],
+      "publishedAt": "2026-10-12T15:31:19.000Z",
+      "clusterId": "brad-smith-ai-regulation"
+    },
+    {
+      "title": "Google DeepMind's AlphaProof Nexus solved dozens of open math problems and actually got peer reviewed",
+      "summary": "Per a study in Science, AlphaProof Nexus solved dozens of open problems including nine Erdős problems — two unsolved for 56 years — with results peer reviewed before publication.",
+      "url": "https://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
         "research"
       ],
-      "publishedAt": "2026-10-12T01:46:26.000Z",
-      "clusterId": "botman-ai-legacy-kg"
+      "publishedAt": "2026-10-12T09:35:54.000Z",
+      "clusterId": "alphaproof-nexus"
     },
     {
-      "title": "What to expect during SEMICON West: Join theCUBE Oct. 14",
-      "summary": "SiliconANGLE: SEMICON West 2026 (Oct 13–15, Moscone) spotlight — AI-powered engineering, physics intelligence and new chip architectures reshaping semiconductor design as power/thermal constraints tighten; theCUBE coverage Oct 14.",
-      "url": "https://siliconangle.com/2026/10/11/ai-powered-engineering-semiconwest/",
+      "title": "Mistlabs takes its Ambi AI system out of beta on Apple devices with $26M in funding",
+      "summary": "Ambient-intelligence startup Mistlabs, led by former Plaud exec Peter Mo, launches Ambi — an always-listening assistant designed to act without being asked — backed by $26M in new funding.",
+      "url": "https://siliconangle.com/2026/10/12/mistlabs-takes-its-ambi-ai-system-out-of-beta-on-apple-devices-with-26m-in-funding/",
       "sourceName": "SiliconANGLE",
       "sourceId": "siliconangle",
       "sourceHome": "https://siliconangle.com/",
       "tags": [
-        "research",
-        "funding"
+        "funding",
+        "agents"
       ],
-      "publishedAt": "2026-10-11T20:39:00.000Z",
-      "clusterId": "semicon-west-2026"
+      "publishedAt": "2026-10-12T13:00:06.000Z",
+      "clusterId": "mistlabs-ambi-26m"
+    },
+    {
+      "title": "Nvidia tackles AI factory scaling bottlenecks with open rack designs and networking advances",
+      "summary": "At the Open Compute Project Global Summit, Nvidia contributed Vera Rubin rack and compute-tray designs plus networking advances aimed at agentic AI infrastructure.",
+      "url": "https://siliconangle.com/2026/10/12/nvidia-tackles-ai-factory-scaling-bottlenecks-with-open-rack-designs-and-networking-advances/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "research"
+      ],
+      "publishedAt": "2026-10-12T15:00:53.000Z",
+      "clusterId": "nvidia-ocp-vera-rubin"
+    },
+    {
+      "title": "Anthropic's Andrej Karpathy says \"the external world has seen the preview\" of what AI can actually do",
+      "summary": "Karpathy, now at Anthropic, describes a widening gap: about 75% of people have barely touched LLMs while roughly 5,000 insiders use frontier agent swarms doing years of expert work.",
+      "url": "https://the-decoder.com/anthropics-andrej-karpathy-says-the-external-world-has-seen-the-preview-of-what-ai-can-actually-do/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-10-12T12:51:21.000Z",
+      "clusterId": "karpathy-preview"
+    },
+    {
+      "title": "Sakana AI's self-improving model gets better at solving and judging, but can't catch its own blind spots",
+      "summary": "Sakana's MASS method has one model solve, judge and refine its own workflows, hitting a ~70% win rate over the base model after two rounds — but shared blind spots get reinforced as false progress.",
+      "url": "https://the-decoder.com/sakana-ais-self-improving-model-gets-better-at-solving-and-judging-but-cant-catch-its-own-blind-spots/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "research"
+      ],
+      "publishedAt": "2026-10-12T17:58:54.000Z",
+      "clusterId": "sakana-mass-self-improve"
+    },
+    {
+      "title": "Clearing chat history helps AI agents find better solutions",
+      "summary": "Microsoft researchers find agents get stuck in \"idea basins\" as context grows; their Fork-and-Flush method wipes chat history but keeps the workspace, improving results up to 66% on the same compute.",
+      "url": "https://the-decoder.com/clearing-chat-history-helps-ai-agents-find-better-solutions/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "research",
+        "agents"
+      ],
+      "publishedAt": "2026-10-12T16:10:00.000Z",
+      "clusterId": "fork-and-flush-agents"
+    },
+    {
+      "title": "Meet the Anthropic Engineer Keeping Its AI Agent Trustworthy",
+      "summary": "IEEE Spectrum profiles Anthropic's Gurmeet Saran, who builds infrastructure to understand how Claude's agent retrieves information and to make its outputs reliable.",
+      "url": "https://spectrum.ieee.org/anthropic-engineer-ai-agent",
+      "sourceName": "IEEE Spectrum",
+      "sourceId": "ieee-spectrum",
+      "sourceHome": "https://spectrum.ieee.org/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-10-12T18:00:02.000Z",
+      "clusterId": "ieee-anthropic-agent-trust"
+    },
+    {
+      "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
+      "summary": "Jack Clark's weekly newsletter on AI creativity and recursive self-improvement, open-weight models lagging Chinese releases, and AI heading to space.",
+      "url": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
+      "sourceName": "Import AI",
+      "sourceId": "import-ai",
+      "sourceHome": "https://importai.substack.com/",
+      "tags": [
+        "research"
+      ],
+      "publishedAt": "2026-10-12T12:30:39.000Z",
+      "clusterId": "import-ai-476"
     },
     {
       "title": "Silicon Valley is falling in line with Trump's attempt to rename AI",
@@ -98,62 +240,6 @@
       ],
       "publishedAt": "2026-10-11T18:33:56.000Z",
       "clusterId": "trump-si-rename"
-    },
-    {
-      "title": "Why AI agents might not be right for you",
-      "summary": "SiliconANGLE: 2026 is the year of the AI agent, but nondeterministic LLM behavior and runaway-agent headlines mean enterprises should question whether agents belong at the core of strategy — a cautionary counterweight to agent hype.",
-      "url": "https://siliconangle.com/2026/10/11/why-ai-agents-might-not-be-right-for-you/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "agents",
-        "policy"
-      ],
-      "publishedAt": "2026-10-11T19:59:34.000Z",
-      "clusterId": "why-ai-agents-not-right"
-    },
-    {
-      "title": "Agentic workloads break assumptions about software testing. Here's how to cope",
-      "summary": "SiliconANGLE: traditional enterprise systems assume jobs finish quickly, retries are free, and inputs are deterministic — agentic workloads break all three, so pilots that look fine turn into operational problems once they run unattended; the fix is infrastructure and management, not just the model.",
-      "url": "https://siliconangle.com/2026/10/11/agentic-workloads-break-assumptions-about-software-testing-heres-how-to-cope/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "agents",
-        "research"
-      ],
-      "publishedAt": "2026-10-11T13:00:56.000Z",
-      "clusterId": "agentic-workloads-testing"
-    },
-    {
-      "title": "The hidden tax on enterprise AI: Why data architecture is the ROI problem nobody budgeted for",
-      "summary": "SiliconANGLE: boards funded AI infra and models, but MIT NANDA found 95% of enterprise genAI pilots produced little P&L impact — a quiet \"data gravity\" drag of unplanned headcount and slipping timelines as data architecture becomes the real ROI bottleneck.",
-      "url": "https://siliconangle.com/2026/10/11/the-hidden-tax-on-enterprise-ai-why-data-architecture-is-the-roi-problem-nobody-budgeted-for/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "research",
-        "funding"
-      ],
-      "publishedAt": "2026-10-11T13:00:37.000Z",
-      "clusterId": "enterprise-ai-hidden-tax"
-    },
-    {
-      "title": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
-      "summary": "TechCrunch Equity: as data-center moratoriums spread, hosts debate whether the AI industry's communication/NDA habit is fueling local opposition — and whether ditching secrecy could rebuild trust with communities fighting new AI compute buildouts.",
-      "url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "policy",
-        "funding"
-      ],
-      "publishedAt": "2026-10-11T16:52:33.000Z",
-      "clusterId": "ai-dc-ndas"
     },
     {
       "title": "Ukraine Has Dealt a Big Blow to Russia's AI and Cloud Infrastructure",
@@ -181,146 +267,49 @@
       ],
       "publishedAt": "2026-10-11T17:01:00.000Z",
       "clusterId": "ai-dc-gas-smog-boom"
-    },
-    {
-      "title": "Learning to use local AI is exciting, overwhelming, and frustrating",
-      "summary": "The Verge: a hands-on diary of running Hermes Agent and Qwen local models on Mac Studio and Windows hardware — local AI is powerful and private but still messy, fragile, and far from plug-and-play for non-experts.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "model-releases",
-        "agents"
-      ],
-      "publishedAt": "2026-10-11T11:00:00.000Z",
-      "clusterId": "local-ai-learning"
-    },
-    {
-      "title": "Odyssey-3 is a new generative world model that you can try for free",
-      "summary": "THE DECODER: Odyssey opens Odyssey-3 (14B-param world model) as a public research preview — generates interactive environments from text in real time, claims top physics-benchmark scores, and can reportedly control robots, drones, and even GTA V (methodology caveats noted).",
-      "url": "https://the-decoder.com/odyssey-3-is-a-new-generative-world-model-that-you-can-try-for-free/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "model-releases",
-        "research"
-      ],
-      "publishedAt": "2026-10-11T07:48:01.000Z",
-      "clusterId": "odyssey-3-world-model"
-    },
-    {
-      "title": "These execs think voice AI hasn't reached its ChatGPT moment yet",
-      "summary": "TechCrunch: voice-AI founders and execs argue the category still lacks a ChatGPT-scale breakthrough — context-layer failures break pipelines, and production voice agents remain far from the reliability bar enterprises expect.",
-      "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "agents",
-        "research"
-      ],
-      "publishedAt": "2026-10-11T14:00:00.000Z",
-      "clusterId": "voice-ai-chatgpt-moment"
-    },
-    {
-      "title": "Few people pay for AI, but those who do spend big",
-      "summary": "THE DECODER on a16z Top 100 AI: nearly half of US consumers use AI but only ~4.5% pay for a subscription; the top 1% of payers spend about $900/month mostly on pro developer/automation tools — a16z's first card-spend view of consumer AI monetization.",
-      "url": "https://the-decoder.com/few-people-pay-for-ai-but-those-who-do-spend-bigonly-a-few-users-pay-for-ai-but-those-who-do-pay-a-lot/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "funding",
-        "research"
-      ],
-      "publishedAt": "2026-10-10T10:54:56.000Z",
-      "clusterId": "few-pay-ai-spend-big"
-    },
-    {
-      "title": "Crypto Gurus Concerned AI Is Poised to Crack Blockchain Math, Allowing Hackers to Steal Funds With Impunity",
-      "summary": "Futurism: as frontier models claim progress on long-standing math problems, crypto communities worry AI could eventually break the cryptographic assumptions behind wallet keys — raising theft and protocol-security fears (still speculative; no break demonstrated).",
-      "url": "https://futurism.com/future-society/crypto-gurus-concerned-ai-crack-wallets",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
-      "tags": [
-        "research",
-        "policy"
-      ],
-      "publishedAt": "2026-10-11T13:01:00.000Z",
-      "clusterId": "ai-blockchain-crack"
-    },
-    {
-      "title": "AI agent teams waste massive tokens for barely measurable quality gains, research finds",
-      "summary": "THE DECODER: Vals AI finds multi-agent teams cost 1.8–5.1× more than solo agents with only one of four GPT-6 Sol / Claude Opus 5.5 comparisons showing a meaningful quality lift; Anthropic and OpenAI voices echo coordination-tax waste.",
-      "url": "https://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "agents",
-        "research"
-      ],
-      "publishedAt": "2026-10-11T15:39:26.000Z",
-      "clusterId": "ai-agent-teams-token-waste"
-    },
-    {
-      "title": "Flock Cameras Are Really Just the Start of Our Dystopian Surveillance Hell, Experts Warn",
-      "summary": "Futurism: privacy backlash against Flock ALPR cameras is only the surface — Axon's Fusus and similar real-time crime-center platforms fuse bodycams, drones, gunshot sensors and CCTV into unified police dashboards far beyond license-plate readers.",
-      "url": "https://futurism.com/future-society/flock-axon-alpr-police-surveillance-cameras",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-11T15:02:00.000Z",
-      "clusterId": "flock-surveillance"
     }
   ],
   "rumors": [
     {
-      "title": "Anthropic reportedly aiming near a $2T Nasdaq IPO valuation; New Constructs calls it \"most ridiculous IPO of 2026\"",
-      "summary": "UNCONFIRMED X chatter: @SokoAnalyst says Anthropic is reportedly aiming near a $2 trillion valuation for a Nasdaq listing, while research firm New Constructs labels it the \"most ridiculous IPO of 2026\" and argues for a far lower figure — no company confirmation; treat as rumor. oEmbed re-verified evening 12 Oct (HTTP 200).",
-      "url": "https://x.com/SokoAnalyst/status/2108452263593492570",
-      "via": "@SokoAnalyst",
+      "title": "OpenAI reportedly in talks with Katzenberg-backed startup to revive Sora",
+      "summary": "UNCONFIRMED X chatter: @aseatrades says OpenAI is reportedly in talks with an undisclosed AI video startup founded by Jeffrey Katzenberg, ex-Sora lead Bill Peebles and ex-Dropbox CFO Sujay Jaswa to bring Sora back, with OpenAI possibly taking equity — no deal announced; treat as rumor. oEmbed verified morning 13 Oct (HTTP 200).",
+      "url": "https://x.com/aseatrades/status/2109723774069453084",
+      "via": "@aseatrades",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-12T07:55:00.000Z",
+      "harvestedAt": "2026-10-12T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "Anthropic pre-IPO shares reportedly pitched near a $965B Series H valuation",
-      "summary": "UNCONFIRMED X chatter: @loudchirper says a venture fund is offering pre-IPO Anthropic shares on a Series H valuation basis of about ±$965 billion, and flags lockup terms — secondhand marketing pitch, not a company announcement; treat as rumor. oEmbed re-verified evening 12 Oct (HTTP 200).",
-      "url": "https://x.com/loudchirper/status/2108392227034509515",
-      "via": "@loudchirper",
+      "title": "DeepSeek reportedly leading robotics startup Winverse AI's seed round at $400M valuation",
+      "summary": "UNCONFIRMED X chatter: @webulite's headline roundup cites sources saying DeepSeek agreed to lead a seed round of tens of millions of dollars for robotic AI startup Winverse AI at a $400M post-money valuation — no company confirmation; treat as rumor. oEmbed verified morning 13 Oct (HTTP 200).",
+      "url": "https://x.com/webulite/status/2109640746999464328",
+      "via": "@webulite",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-12T07:55:00.000Z",
-      "tags": [
-        "rumor"
-      ]
-    },
-    {
-      "title": "Broadcom reportedly arranging $50B+ in debt to fund OpenAI's custom chips",
-      "summary": "UNCONFIRMED X chatter: @YouYouFXRESERCH relays a report that Broadcom is arranging more than $50B in financing for the custom chips it is co-developing with OpenAI, with Apollo and Blackstone among lenders in talks — no company confirmation; treat as rumor only. oEmbed re-verified evening 12 Oct (HTTP 200).",
-      "url": "https://x.com/YouYouFXRESERCH/status/2108267316987195556",
-      "via": "@YouYouFXRESERCH",
-      "sourceKind": "x",
-      "harvestedAt": "2026-10-12T07:55:00.000Z",
+      "harvestedAt": "2026-10-12T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Anthropic reportedly signed a multiyear AI cloud deal with IREN (The Information)",
-      "summary": "UNCONFIRMED X chatter: @wallstengine says The Information reports Anthropic signed a multiyear cloud deal with $IREN; IREN's Aug filing disclosed a multi-year contract with an unnamed \"leading frontier AI lab\" — neither company has confirmed the Anthropic link; treat as rumor. oEmbed verified evening 12 Oct (HTTP 200).",
+      "summary": "UNCONFIRMED X chatter: @wallstengine says The Information reports Anthropic signed a multiyear cloud deal with $IREN; IREN's Aug filing disclosed a multi-year contract with an unnamed \"leading frontier AI lab\" — neither company has confirmed the Anthropic link; treat as rumor. oEmbed re-verified morning 13 Oct (HTTP 200).",
       "url": "https://x.com/wallstengine/status/2109550760635871349",
       "via": "@wallstengine",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-12T07:55:00.000Z",
+      "harvestedAt": "2026-10-12T20:55:00.000Z",
+      "tags": [
+        "rumor"
+      ]
+    },
+    {
+      "title": "Broadcom reportedly arranging $50B+ in debt to fund OpenAI's custom chips",
+      "summary": "UNCONFIRMED X chatter: @YouYouFXRESERCH relays a report that Broadcom is arranging more than $50B in financing for the custom chips it is co-developing with OpenAI, with Apollo and Blackstone among lenders in talks — no company confirmation; treat as rumor only. oEmbed re-verified morning 13 Oct (HTTP 200).",
+      "url": "https://x.com/YouYouFXRESERCH/status/2108267316987195556",
+      "via": "@YouYouFXRESERCH",
+      "sourceKind": "x",
+      "harvestedAt": "2026-10-12T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
