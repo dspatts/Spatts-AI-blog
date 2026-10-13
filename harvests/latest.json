@@ -1,5 +1,5 @@
 {
-  "harvestedAt": "2026-10-12T20:55:00.000Z",
+  "harvestedAt": "2026-10-13T01:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
@@ -30,6 +30,47 @@
       "clusterId": "meta-muse-wonder"
     },
     {
+      "title": "Meta releases Muse Wonder AI models built to run personal and professional agents",
+      "summary": "SiliconANGLE: Meta ships Muse Wonder and Muse Wonder Full for longer multistep personal and professional agent jobs — Active Memory and Active Focus; Wonder via Meta Model API, Full for Muse Code subscribers.",
+      "url": "https://siliconangle.com/2026/10/12/meta-releases-muse-wonder-ai-models-built-to-run-personal-and-professional-agents/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "model-releases",
+        "agents"
+      ],
+      "publishedAt": "2026-10-12T22:36:05.000Z",
+      "clusterId": "meta-muse-wonder"
+    },
+    {
+      "title": "Mark Zuckerberg: Meta Is on the Frontier Now",
+      "summary": "Gizmodo / FT: Zuckerberg says Muse Wonder enables frontier-level agent behaviors after heavy compute investment; Muse already #1 in agent traffic sources while Meta rejects slowing AI development.",
+      "url": "https://gizmodo.com/mark-zuckerberg-meta-is-on-the-frontier-now-2000825035",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-13T00:36:42.000Z",
+      "clusterId": "meta-muse-wonder"
+    },
+    {
+      "title": "Meta's new Muse Wonder and Muse Wonder Full models achieve frontier performance, but only the weaker one is available via API",
+      "summary": "VentureBeat: Artificial Analysis scores Wonder Full 56 (tied Sonnet 5.5); Wonder API at $4/$20 per M tokens while Wonder Full stays Muse Code–only ($50–$200/mo) — enterprise buyers face access and data-mode caveats.",
+      "url": "https://venturebeat.com/technology/metas-new-muse-wonder-and-muse-wonder-full-models-achieve-frontier-performance-but-only-the-weaker-one-is-available-via-api",
+      "sourceName": "VentureBeat",
+      "sourceId": "venturebeat",
+      "sourceHome": "https://venturebeat.com/",
+      "tags": [
+        "model-releases",
+        "agents"
+      ],
+      "publishedAt": "2026-10-12T20:04:04.000Z",
+      "clusterId": "meta-muse-wonder"
+    },
+    {
       "title": "Microsoft's new AI chip makes it less reliant on Nvidia's GPUs",
       "summary": "Microsoft unveils Maia 300, its third-generation in-house AI chip, built to be the primary inference system for its products and better suited to reasoning models and agentic workloads.",
       "url": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
@@ -54,6 +95,34 @@
       ],
       "publishedAt": "2026-10-12T20:11:12.000Z",
       "clusterId": "microsoft-maia-300"
+    },
+    {
+      "title": "Intel, Broadcom CEOs flag AI industry challenges at financial event",
+      "summary": "SiliconANGLE: Intel's Lip-Bu Tan and Broadcom's Hock Tan warn capital access is a potential headwind for the AI sector while speaking at a Singapore financial conference — both firms are key AI chip suppliers.",
+      "url": "https://siliconangle.com/2026/10/12/intel-broadcom-ceos-flag-ai-industry-challenges-trends-at-financial-event/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "funding",
+        "policy"
+      ],
+      "publishedAt": "2026-10-13T00:11:17.000Z",
+      "clusterId": "intel-broadcom-ai-challenges"
+    },
+    {
+      "title": "Dell and Intel weigh the costs of enterprise AI scalability",
+      "summary": "SiliconANGLE (Dell AI Leadership Symposium): agentic cloud token bills are blowing through budgets, pushing enterprises to rethink on-prem inference and open-weight models alongside public cloud.",
+      "url": "https://siliconangle.com/2026/10/12/dell-intel-weigh-costs-enterprise-ai-scalability-dellaileadershipsymposium/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "agents",
+        "funding"
+      ],
+      "publishedAt": "2026-10-12T21:24:56.000Z",
+      "clusterId": "dell-intel-enterprise-ai-cost"
     },
     {
       "title": "Nvidia reportedly in early talks to buy, acquihire or invest more in Reflection AI",
@@ -201,115 +270,49 @@
       ],
       "publishedAt": "2026-10-12T16:10:00.000Z",
       "clusterId": "fork-and-flush-agents"
-    },
-    {
-      "title": "Meet the Anthropic Engineer Keeping Its AI Agent Trustworthy",
-      "summary": "IEEE Spectrum profiles Anthropic's Gurmeet Saran, who builds infrastructure to understand how Claude's agent retrieves information and to make its outputs reliable.",
-      "url": "https://spectrum.ieee.org/anthropic-engineer-ai-agent",
-      "sourceName": "IEEE Spectrum",
-      "sourceId": "ieee-spectrum",
-      "sourceHome": "https://spectrum.ieee.org/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-12T18:00:02.000Z",
-      "clusterId": "ieee-anthropic-agent-trust"
-    },
-    {
-      "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
-      "summary": "Jack Clark's weekly newsletter on AI creativity and recursive self-improvement, open-weight models lagging Chinese releases, and AI heading to space.",
-      "url": "https://importai.substack.com/p/import-ai-476-creativity-and-rsi",
-      "sourceName": "Import AI",
-      "sourceId": "import-ai",
-      "sourceHome": "https://importai.substack.com/",
-      "tags": [
-        "research"
-      ],
-      "publishedAt": "2026-10-12T12:30:39.000Z",
-      "clusterId": "import-ai-476"
-    },
-    {
-      "title": "Silicon Valley is falling in line with Trump's attempt to rename AI",
-      "summary": "The Verge: Musk, Benioff, Huang and now Nadella are adopting Trump's \"super intelligence\" rebrand after a Sept 29 EO directing federal agencies to say SI instead of AI — Nadella used the phrasing in his emergency-brake post.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-11T18:33:56.000Z",
-      "clusterId": "trump-si-rename"
-    },
-    {
-      "title": "Ukraine Has Dealt a Big Blow to Russia's AI and Cloud Infrastructure",
-      "summary": "Gizmodo: Ukrainian drone strikes hit Yandex and other Russian data-center sites (including AI training supercomputers near Sasovo), disrupting cloud services and the Alice voice assistant — expanding the war into Russia's AI compute base.",
-      "url": "https://gizmodo.com/ukraine-has-dealt-a-big-blow-to-russias-ai-and-cloud-infrastructure-2000824731",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "tags": [
-        "policy",
-        "research"
-      ],
-      "publishedAt": "2026-10-11T17:55:07.000Z",
-      "clusterId": "ukraine-russia-ai-cloud"
-    },
-    {
-      "title": "The AI Data Center Boom Is Causing a Gigantic Spike in Smog-Spewing Gas Power Plants",
-      "summary": "Futurism (via Environment America / Electrek): AI infrastructure demand is driving plans for ~44% more US gas-fired generator capacity by 2030 (~20 GW), while planned wind capacity falls ~34% — locking in decades of fossil dependence for data-center power.",
-      "url": "https://futurism.com/future-society/ai-data-center-boom-smog-spewing-gas-power",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-11T17:01:00.000Z",
-      "clusterId": "ai-dc-gas-smog-boom"
     }
   ],
   "rumors": [
     {
       "title": "OpenAI reportedly in talks with Katzenberg-backed startup to revive Sora",
-      "summary": "UNCONFIRMED X chatter: @aseatrades says OpenAI is reportedly in talks with an undisclosed AI video startup founded by Jeffrey Katzenberg, ex-Sora lead Bill Peebles and ex-Dropbox CFO Sujay Jaswa to bring Sora back, with OpenAI possibly taking equity — no deal announced; treat as rumor. oEmbed verified morning 13 Oct (HTTP 200).",
+      "summary": "UNCONFIRMED X chatter: @aseatrades says OpenAI is reportedly in talks with an undisclosed AI video startup founded by Jeffrey Katzenberg, ex-Sora lead Bill Peebles and ex-Dropbox CFO Sujay Jaswa to bring Sora back, with OpenAI possibly taking equity — no deal announced; treat as rumor. oEmbed re-verified midday 13 Oct (HTTP 200).",
       "url": "https://x.com/aseatrades/status/2109723774069453084",
       "via": "@aseatrades",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-12T20:55:00.000Z",
+      "harvestedAt": "2026-10-13T01:55:00.000Z",
+      "tags": [
+        "rumor"
+      ]
+    },
+    {
+      "title": "DeepSeek reportedly set to complete ~100 billion yuan funding round",
+      "summary": "UNCONFIRMED X chatter: @AIStockSavvy relays sources saying DeepSeek will complete a new financing round of about 100 billion yuan (~$14B), doubled from an earlier 50 billion yuan plan — Caijing-linked reporting also circulating; no company confirmation; treat as rumor. oEmbed verified midday 13 Oct (HTTP 200).",
+      "url": "https://x.com/AIStockSavvy/status/2109820980755370322",
+      "via": "@AIStockSavvy",
+      "sourceKind": "x",
+      "harvestedAt": "2026-10-13T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "DeepSeek reportedly leading robotics startup Winverse AI's seed round at $400M valuation",
-      "summary": "UNCONFIRMED X chatter: @webulite's headline roundup cites sources saying DeepSeek agreed to lead a seed round of tens of millions of dollars for robotic AI startup Winverse AI at a $400M post-money valuation — no company confirmation; treat as rumor. oEmbed verified morning 13 Oct (HTTP 200).",
+      "summary": "UNCONFIRMED X chatter: @webulite's headline roundup cites sources saying DeepSeek agreed to lead a seed round of tens of millions of dollars for robotic AI startup Winverse AI at a $400M post-money valuation — no company confirmation; treat as rumor. oEmbed re-verified midday 13 Oct (HTTP 200).",
       "url": "https://x.com/webulite/status/2109640746999464328",
       "via": "@webulite",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-12T20:55:00.000Z",
+      "harvestedAt": "2026-10-13T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "Anthropic reportedly signed a multiyear AI cloud deal with IREN (The Information)",
-      "summary": "UNCONFIRMED X chatter: @wallstengine says The Information reports Anthropic signed a multiyear cloud deal with $IREN; IREN's Aug filing disclosed a multi-year contract with an unnamed \"leading frontier AI lab\" — neither company has confirmed the Anthropic link; treat as rumor. oEmbed re-verified morning 13 Oct (HTTP 200).",
+      "summary": "UNCONFIRMED X chatter: @wallstengine says The Information reports Anthropic signed a multiyear cloud deal with $IREN; IREN's Aug filing disclosed a multi-year contract with an unnamed \"leading frontier AI lab\" — neither company has confirmed the Anthropic link; treat as rumor. oEmbed re-verified midday 13 Oct (HTTP 200).",
       "url": "https://x.com/wallstengine/status/2109550760635871349",
       "via": "@wallstengine",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-12T20:55:00.000Z",
-      "tags": [
-        "rumor"
-      ]
-    },
-    {
-      "title": "Broadcom reportedly arranging $50B+ in debt to fund OpenAI's custom chips",
-      "summary": "UNCONFIRMED X chatter: @YouYouFXRESERCH relays a report that Broadcom is arranging more than $50B in financing for the custom chips it is co-developing with OpenAI, with Apollo and Blackstone among lenders in talks — no company confirmation; treat as rumor only. oEmbed re-verified morning 13 Oct (HTTP 200).",
-      "url": "https://x.com/YouYouFXRESERCH/status/2108267316987195556",
-      "via": "@YouYouFXRESERCH",
-      "sourceKind": "x",
-      "harvestedAt": "2026-10-12T20:55:00.000Z",
+      "harvestedAt": "2026-10-13T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
