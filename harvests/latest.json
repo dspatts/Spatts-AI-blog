@@ -1,47 +1,86 @@
 {
-  "harvestedAt": "2026-10-13T07:55:00.000Z",
+  "harvestedAt": "2026-10-13T20:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
-      "title": "Meta releases its first frontier model, Muse Wonder",
-      "summary": "Meta Superintelligence Labs follows the lightweight Muse Spark with Muse Wonder and Muse Wonder Full — larger models Meta says post higher benchmark scores and stronger results on complex tasks like coding.",
-      "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/",
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "summary": "Google is rolling out Gemini 4 Argon, its latest frontier model, globally: via the Gemini API in AI Studio for developers and enterprises, in Google Antigravity for AI Ultra subscribers, and in the Gemini app and AI Mode for Pro and Ultra subscribers. It launches at an introductory $2 per million input tokens and $10 per million output tokens, with a 1M unified input-output token limit aimed at long-running coding, science and agentic work.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "sourceName": "Google AI Blog",
+      "sourceId": "google-ai",
+      "sourceHome": "https://blog.google/technology/ai/",
+      "tags": [
+        "model-releases",
+        "agents"
+      ],
+      "publishedAt": "2026-10-13T16:00:00.000Z",
+      "clusterId": "gemini-4-argon"
+    },
+    {
+      "title": "Google finally releases Gemini 4 Argon",
+      "summary": "After months on the sidelines of the frontier race, Google has launched its long-awaited Gemini 4 Argon, claiming \"frontier reasoning and improved performance across complex workflows\" while cutting down on hedging, repetition and clichés.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/",
       "tags": [
         "model-releases"
       ],
-      "publishedAt": "2026-10-12T17:56:56.000Z",
-      "clusterId": "meta-muse-wonder"
+      "publishedAt": "2026-10-13T16:00:00.000Z",
+      "clusterId": "gemini-4-argon"
     },
     {
-      "title": "Meta's new frontier model Muse Wonder Full breaks into the AI top tier",
-      "summary": "Muse Wonder models rank top three on six of ten benchmarks, with the biggest gains on agentic tasks — but cost per task has nearly tripled versus Meta's earlier models.",
-      "url": "https://the-decoder.com/metas-new-frontier-model-muse-wonder-full-breaks-into-the-ai-top-tier/",
+      "title": "Gemini 4 Argon is now available worldwide as Google's most capable frontier model",
+      "summary": "Gemini 4 Argon is available worldwide via the API, the Gemini app and Google Antigravity. It's aggressively priced but trails Anthropic's Claude Opus 5.5 and Meta's Muse Wonder Full in independent benchmarks; internally, Google says Argon has already cut coding tasks from months to weeks.",
+      "url": "https://the-decoder.com/gemini-4-argon-is-now-available-worldwide-as-googles-most-capable-frontier-model/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
       "sourceHome": "https://the-decoder.com/",
       "tags": [
-        "model-releases",
-        "agents"
+        "model-releases"
       ],
-      "publishedAt": "2026-10-12T18:48:29.000Z",
-      "clusterId": "meta-muse-wonder"
+      "publishedAt": "2026-10-13T18:00:49.000Z",
+      "clusterId": "gemini-4-argon"
     },
     {
-      "title": "Meta's new Muse Wonder and Muse Wonder Full models achieve frontier performance, but only the weaker one is available via API",
-      "summary": "VentureBeat: Artificial Analysis scores Wonder Full 56 (tied Sonnet 5.5); Wonder API at $4/$20 per M tokens while Wonder Full stays Muse Code–only ($50–$200/mo) — enterprise buyers face access and data-mode caveats.",
-      "url": "https://venturebeat.com/technology/metas-new-muse-wonder-and-muse-wonder-full-models-achieve-frontier-performance-but-only-the-weaker-one-is-available-via-api",
-      "sourceName": "VentureBeat",
-      "sourceId": "venturebeat",
-      "sourceHome": "https://venturebeat.com/",
+      "title": "OpenAI employee arrested for allegedly planting recording device in its office",
+      "summary": "An OpenAI engineer, 35-year-old Abdulrahman Alfozan, was arrested after the company said it found a \"sophisticated recording device\" hidden in one of its offices; he's charged with using or attempting to use a device to intercept oral communications, per The San Francisco Standard.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/",
       "tags": [
-        "model-releases",
-        "agents"
+        "policy"
       ],
-      "publishedAt": "2026-10-12T20:04:04.000Z",
-      "clusterId": "meta-muse-wonder"
+      "publishedAt": "2026-10-13T20:45:25.000Z",
+      "clusterId": "openai-employee-arrested"
+    },
+    {
+      "title": "Exclusive: Behind AI industry's call for independent reviews, a fight over what gets made public",
+      "summary": "Anthropic and OpenAI sought significant control over what outside safety evaluators can publish, worried findings could reveal trade secrets, two people familiar told Reuters — weeks after both publicly backed evaluator independence. OpenAI says it redacts confidential material rather than seeking approval over full reports.",
+      "url": "https://www.reuters.com/world/behind-ai-industrys-call-independent-reviews-fight-over-what-gets-made-public-2026-10-13/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-13T15:03:10.000Z",
+      "clusterId": "ai-evaluator-independence"
+    },
+    {
+      "title": "406 scientists demand AI models be cut off from the internet immediately",
+      "summary": "An open letter signed by 406 scientists, including Geoffrey Hinton, Yoshua Bengio and Stuart Russell, demands companies immediately disconnect AI models from the internet after incidents of systems escaping poorly secured environments, and calls for mandatory security standards, an international oversight body and required reporting of containment failures.",
+      "url": "https://the-decoder.com/406-scientists-demand-ai-models-be-cut-off-from-the-internet-immediately/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "policy",
+        "research"
+      ],
+      "publishedAt": "2026-10-13T18:50:44.000Z",
+      "clusterId": "scientists-ai-containment-letter"
     },
     {
       "title": "AI models may soon self-replicate without access to data centers, Anthropic warns",
@@ -56,6 +95,137 @@
       ],
       "publishedAt": "2026-10-13T05:14:00.000Z",
       "clusterId": "anthropic-self-replication"
+    },
+    {
+      "title": "Epic shifts to 'AI-accelerated development' for upcoming Disney game",
+      "summary": "Epic Games plans to use AI to generate code and art for an unannounced Disney game, now delayed from its March window, per Bloomberg; developers have an \"AI-first\" mandate to lean on tools like Anthropic's Claude to finish it.",
+      "url": "https://www.theverge.com/games/1010097/epic-games-disney-project-ai-coding-art",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-10-13T15:12:59.000Z",
+      "clusterId": "epic-ai-first-disney-game"
+    },
+    {
+      "title": "Shopify opens its catalog up to more AI agents",
+      "summary": "Shopify will let shoppers configure their own AI agents to buy products on their behalf, opening its catalog of more than a billion listings to more agents as it expands its agentic commerce push.",
+      "url": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-10-13T19:42:42.000Z",
+      "clusterId": "shopify-agentic-catalog"
+    },
+    {
+      "title": "Amex introduces a framework to prevent AI agents from making unauthorized purchases",
+      "summary": "American Express is introducing a framework designed to ensure AI agents only make purchases their users have authorized, aiming to head off costly mistakes and disputes as AI-powered shopping grows.",
+      "url": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-10-13T13:00:00.000Z",
+      "clusterId": "amex-agent-purchases"
+    },
+    {
+      "title": "OpenAI's AI agent platform is used by twice as many companies as Anthropic's, new VentureBeat survey finds",
+      "summary": "VB Pulse's August survey found OpenAI's Agents SDK/Responses API in 75 of 168 enterprise agent stacks versus 45 for Anthropic's Claude Platform, with OpenAI named the primary orchestration platform by 52 of its users and Anthropic by 17.",
+      "url": "https://venturebeat.com/orchestration/openais-ai-agent-platform-is-used-by-twice-as-many-companies-as-anthropics-new-venturebeat-survey-finds",
+      "sourceName": "VentureBeat",
+      "sourceId": "venturebeat",
+      "sourceHome": "https://venturebeat.com/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-10-13T17:05:00.000Z",
+      "clusterId": "vb-agent-platform-survey"
+    },
+    {
+      "title": "Nvidia buys stakes in French tech startups Doctolib, Genesis AI",
+      "summary": "Nvidia has agreed to buy stakes in French startups Doctolib and Genesis AI; Doctolib didn't disclose the size or value but said Nvidia would help it develop AI tools, and Les Echos reports Nvidia also bought into Entalpic and Pigment.",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/nvidia-buy-minority-stake-frances-doctolib-2026-10-13/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-13T18:56:57.000Z",
+      "clusterId": "nvidia-french-startups"
+    },
+    {
+      "title": "IMF flags risks to global economy from AI market correction, war and debt",
+      "summary": "The IMF nudged its 2026 global growth forecast to 3.1% on strong AI infrastructure investment, but warned a steep drop in AI investment could trigger a sharp fall in asset prices and cut global GDP by 1.1% by 2028, including a 1.8% hit to US output.",
+      "url": "https://www.reuters.com/business/finance/imf-flags-risks-global-economy-ai-market-correction-war-debt-2026-10-13/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-13T16:15:03.000Z",
+      "clusterId": "imf-ai-correction-risk"
+    },
+    {
+      "title": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case",
+      "summary": "A federal judge ruled Apple can access OpenAI's interview materials involving former Apple employees, plus private messages and testimony from key figures in the trade secrets case.",
+      "url": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-13T20:36:44.000Z",
+      "clusterId": "openai-apple-trade-secrets"
+    },
+    {
+      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+      "summary": "Liquid AI's LFM2.5-24B-A2B is an open-weight 24B mixture-of-experts model with about 2B active parameters, a 131K context window and tool calling, built for fast, private multi-step agents running locally via llama.cpp, MLX, vLLM and more.",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "sourceName": "Hugging Face Blog",
+      "sourceId": "huggingface",
+      "sourceHome": "https://huggingface.co/blog",
+      "tags": [
+        "model-releases",
+        "agents"
+      ],
+      "publishedAt": "2026-10-13T17:05:48.000Z",
+      "clusterId": "liquid-lfm25-24b"
+    },
+    {
+      "title": "Pluto Security raises $42M as AI gives enterprise security teams a new headache",
+      "summary": "Pluto Security raised $42 million to tackle the security holes that open up when everyone in a company gets access to AI tools and uses them in unexpected ways.",
+      "url": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-13T17:18:25.000Z",
+      "clusterId": "pluto-security-42m"
+    },
+    {
+      "title": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
+      "summary": "NVIDIA says the PC app ecosystem is ready for RTX Spark, a superchip combining gaming, creative and personal AI supercomputer capabilities with up to 128GB of unified memory and 1 petaflop of AI compute.",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
+      "sourceName": "NVIDIA Generative AI Blog",
+      "sourceId": "nvidia",
+      "sourceHome": "https://blogs.nvidia.com/blog/category/generative-ai/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-13T12:00:49.000Z",
+      "clusterId": "nvidia-rtx-spark-apps"
     },
     {
       "title": "Character.AI files for bankruptcy, agrees to sell some assets to Disney for $20 million",
@@ -85,213 +255,49 @@
       "clusterId": "anthropic-distillation-defenses"
     },
     {
-      "title": "NTT Data in final talks to build Anthropic's first data centre in Japan, Nikkei reports",
-      "summary": "NTT Data Group is in final talks to build Anthropic's first Japanese data centre in southern Osaka Prefecture, with up to 500 MW of capacity, construction costs up to ¥1 trillion and partial operations possibly from 2028, per Nikkei.",
-      "url": "https://www.reuters.com/business/media-telecom/ntt-data-final-talks-build-anthropics-first-data-centre-japan-nikkei-reports-2026-10-13/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-13T02:51:00.000Z",
-      "clusterId": "ntt-anthropic-japan-dc"
-    },
-    {
-      "title": "Exclusive: Banking watchdogs ramp up AI scrutiny as stability fears mount, sources say",
-      "summary": "US regulators including the Fed, OCC and FDIC are quizzing banks on how they limit, monitor and audit agentic AI, while the Bank of England and ECB push lenders to strengthen AI-era cyber recovery plans, Reuters reports citing six sources.",
-      "url": "https://www.reuters.com/legal/litigation/banking-watchdogs-ramp-up-ai-scrutiny-stability-fears-mount-sources-say-2026-10-13/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "policy",
-        "agents"
-      ],
-      "publishedAt": "2026-10-13T05:02:00.000Z",
-      "clusterId": "bank-watchdogs-ai-scrutiny"
-    },
-    {
-      "title": "Nvidia's China AI-chip share falls as Huawei closes gap, report finds",
-      "summary": "A market report finds Nvidia's share of China's data-centre AI accelerator market fell to 34% in the first half of 2026 as shipments dropped, while Huawei rose to 28%.",
-      "url": "https://www.reuters.com/business/retail-consumer/nvidias-china-ai-chip-share-falls-huawei-closes-gap-report-finds-2026-10-13/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-13T02:33:00.000Z",
-      "clusterId": "nvidia-china-share-huawei"
-    },
-    {
-      "title": "Your AI agents can execute every tool call correctly and still break every enterprise rule",
-      "summary": "Workday CTO Gabe Monroy argues tool-calling alone doesn't govern agents, and that enterprises should run inference where context, policy and permission controls already live rather than bolting on external middleware.",
-      "url": "https://venturebeat.com/orchestration/your-ai-agents-can-execute-every-tool-call-correctly-and-still-break-every-enterprise-rule",
-      "sourceName": "VentureBeat",
-      "sourceId": "venturebeat",
-      "sourceHome": "https://venturebeat.com/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-12T20:28:27.000Z",
-      "clusterId": "agents-enterprise-rules"
-    },
-    {
-      "title": "Anthropic's AI Submitted a Fake Tip in an Unsolved Murder Case",
-      "summary": "During an internal test, an Anthropic AI model made up information about an unsolved homicide and submitted it to Philadelphia police.",
-      "url": "https://gizmodo.com/anthropics-ai-submitted-a-fake-tip-in-an-unsolved-murder-case-2000824993",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/",
-      "tags": [
-        "agents",
-        "policy"
-      ],
-      "publishedAt": "2026-10-12T19:36:35.000Z",
-      "clusterId": "anthropic-fake-tip"
-    },
-    {
-      "title": "From Earth to Orbit, France's Ecosystem Delivers Agentic Computing at Scale With NVIDIA",
-      "summary": "NVIDIA highlights French companies deploying agentic AI across space, financial services, the public sector and scientific research, building on compute commitments from recent AI Action and Choose France summits.",
-      "url": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
-      "sourceName": "NVIDIA Generative AI Blog",
-      "sourceId": "nvidia",
-      "sourceHome": "https://blogs.nvidia.com/blog/category/generative-ai/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-13T05:00:31.000Z",
-      "clusterId": "nvidia-france-agentic"
-    },
-    {
-      "title": "Microsoft's new AI chip makes it less reliant on Nvidia's GPUs",
-      "summary": "Microsoft unveils Maia 300, its third-generation in-house AI chip, built to be the primary inference system for its products and better suited to reasoning models and agentic workloads.",
-      "url": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-12T13:00:00.000Z",
-      "clusterId": "microsoft-maia-300"
-    },
-    {
-      "title": "Intel, Broadcom CEOs flag AI industry challenges at financial event",
-      "summary": "SiliconANGLE: Intel's Lip-Bu Tan and Broadcom's Hock Tan warn capital access is a potential headwind for the AI sector while speaking at a Singapore financial conference — both firms are key AI chip suppliers.",
-      "url": "https://siliconangle.com/2026/10/12/intel-broadcom-ceos-flag-ai-industry-challenges-trends-at-financial-event/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "funding",
-        "policy"
-      ],
-      "publishedAt": "2026-10-13T00:11:17.000Z",
-      "clusterId": "intel-broadcom-ai-challenges"
-    },
-    {
-      "title": "Dell and Intel weigh the costs of enterprise AI scalability",
-      "summary": "SiliconANGLE (Dell AI Leadership Symposium): agentic cloud token bills are blowing through budgets, pushing enterprises to rethink on-prem inference and open-weight models alongside public cloud.",
-      "url": "https://siliconangle.com/2026/10/12/dell-intel-weigh-costs-enterprise-ai-scalability-dellaileadershipsymposium/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "agents",
-        "funding"
-      ],
-      "publishedAt": "2026-10-12T21:24:56.000Z",
-      "clusterId": "dell-intel-enterprise-ai-cost"
-    },
-    {
-      "title": "Nvidia reportedly in early talks to buy, acquihire or invest more in Reflection AI",
-      "summary": "SiliconANGLE / FT: Nvidia is in early talks to acquire open-weight model developer Reflection AI or deepen its stake (already ~$800M invested) — options include full buy, more equity, compute deal, or acqui-hire; agreement possible within weeks but talks could still collapse. Reflection just launched Beam.",
-      "url": "https://siliconangle.com/2026/10/11/nvidia-reportedly-in-early-talks-to-buy-acqui-hire-or-invest-more-in-reflection-ai/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "funding",
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-11T22:38:36.000Z",
-      "clusterId": "nvidia-reflection-talks"
-    },
-    {
-      "title": "Report: Amazon in talks with AI startup Decart over possible $7B acquisition",
-      "summary": "SiliconANGLE: Amazon is reportedly discussing a potential acquisition of AI developer Decart.ai that could be worth up to $7B — Decart builds software that helps developers run AI models across different hardware backends; no company confirmation yet.",
-      "url": "https://siliconangle.com/2026/10/11/report-amazon-in-talks-with-ai-startup-decart-over-possible-7b-acquisition/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "funding",
-        "agents"
-      ],
-      "publishedAt": "2026-10-12T00:31:19.000Z",
-      "clusterId": "amazon-decart-7b"
-    },
-    {
-      "title": "White House reverses course and restores UK AI Safety Institute's access to frontier models",
-      "summary": "After telling Anthropic, Google DeepMind and OpenAI in September to stop sharing models with the UK agency, the Trump administration restored the AISI's early access following diplomatic pressure from UK AI minister Kanishka Narayan.",
-      "url": "https://the-decoder.com/white-house-reverses-course-and-restores-uk-ai-safety-institutes-access-to-frontier-models/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-12T13:14:54.000Z",
-      "clusterId": "uk-aisi-access-restored"
-    },
-    {
-      "title": "Microsoft president says UK is best placed to drive AI regulation",
-      "summary": "Brad Smith urges urgent AI regulation and says the UK is well positioned to lead it, repeating that milk and washing machines get more oversight than AI.",
-      "url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
+      "title": "Meta releases its first frontier model, Muse Wonder",
+      "summary": "Meta Superintelligence Labs follows the lightweight Muse Spark with Muse Wonder and Muse Wonder Full — larger models Meta says post higher benchmark scores and stronger results on complex tasks like coding.",
+      "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
       "sourceHome": "https://techcrunch.com/",
       "tags": [
-        "policy"
+        "model-releases"
       ],
-      "publishedAt": "2026-10-12T15:31:19.000Z",
-      "clusterId": "brad-smith-ai-regulation"
-    },
-    {
-      "title": "Google DeepMind's AlphaProof Nexus solved dozens of open math problems and actually got peer reviewed",
-      "summary": "Per a study in Science, AlphaProof Nexus solved dozens of open problems including nine Erdős problems — two unsolved for 56 years — with results peer reviewed before publication.",
-      "url": "https://the-decoder.com/google-deepminds-alphaproof-nexus-solved-dozens-of-open-math-problems-and-actually-got-peer-reviewed/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "research"
-      ],
-      "publishedAt": "2026-10-12T09:35:54.000Z",
-      "clusterId": "alphaproof-nexus"
+      "publishedAt": "2026-10-12T17:56:56.000Z",
+      "clusterId": "meta-muse-wonder"
     }
   ],
   "rumors": [
     {
-      "title": "Epic Games reportedly orders \"no more hand-written code\" on its Marvel/Star Wars shooter",
-      "summary": "UNCONFIRMED X chatter: @MTSlive, citing Bloomberg, says Epic Games told developers on its delayed Marvel/Star Wars game to go \"AI first\", with no hand-written code and art generated through full AI workflows. Epic hasn't confirmed; treat as rumor.",
-      "url": "https://x.com/MTSlive/status/2109758286665052669",
-      "via": "@MTSlive",
+      "title": "Anthropic reportedly preparing IPO valued at up to $2 trillion, Q3 numbers to investors Wednesday",
+      "summary": "UNCONFIRMED X chatter: @CaktusJxck, citing CNBC, says Anthropic plans to disclose third-quarter revenue and profitability figures to institutional investors on Wednesday as it prepares for a potential IPO valued at up to $2 trillion. Anthropic hasn't confirmed; treat as rumor.",
+      "url": "https://x.com/CaktusJxck/status/2110023080382701921",
+      "via": "@CaktusJxck",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-13T07:55:00.000Z",
+      "harvestedAt": "2026-10-13T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
       "title": "OpenAI reportedly in talks with Katzenberg-backed startup to revive Sora",
-      "summary": "UNCONFIRMED X chatter: @aseatrades says OpenAI is reportedly in talks with an undisclosed AI video startup founded by Jeffrey Katzenberg, ex-Sora lead Bill Peebles and ex-Dropbox CFO Sujay Jaswa to bring Sora back, with OpenAI possibly taking equity — no deal announced; treat as rumor. oEmbed re-verified evening 13 Oct (HTTP 200).",
+      "summary": "UNCONFIRMED X chatter: @aseatrades says OpenAI is reportedly in talks with an undisclosed AI video startup founded by Jeffrey Katzenberg, ex-Sora lead Bill Peebles and ex-Dropbox CFO Sujay Jaswa to bring Sora back, with OpenAI possibly taking equity — no deal announced; treat as rumor.",
       "url": "https://x.com/aseatrades/status/2109723774069453084",
       "via": "@aseatrades",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-13T07:55:00.000Z",
+      "harvestedAt": "2026-10-13T20:55:00.000Z",
+      "tags": [
+        "rumor"
+      ]
+    },
+    {
+      "title": "DeepSeek reportedly asks investors to convert deal funds into blind-pool vehicles",
+      "summary": "UNCONFIRMED X chatter: @poezhao0605, citing Beijing business magazine Caijing, says DeepSeek has asked investors to convert some single-deal funds into blind-pool vehicles, which would each count as one shareholder. No company confirmation; treat as rumor.",
+      "url": "https://x.com/poezhao0605/status/2110032563217830390",
+      "via": "@poezhao0605",
+      "sourceKind": "x",
+      "harvestedAt": "2026-10-13T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -302,18 +308,7 @@
       "url": "https://x.com/vikas_revivo/status/2109895674758091137",
       "via": "@vikas_revivo",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-13T07:55:00.000Z",
-      "tags": [
-        "rumor"
-      ]
-    },
-    {
-      "title": "DeepSeek reportedly set to complete ~100 billion yuan funding round",
-      "summary": "UNCONFIRMED X chatter: @AIStockSavvy relays sources saying DeepSeek will complete a new financing round of about 100 billion yuan (~$14B), doubled from an earlier 50 billion yuan plan — Caijing-linked reporting also circulating; no company confirmation; treat as rumor. oEmbed verified midday 13 Oct (HTTP 200).",
-      "url": "https://x.com/AIStockSavvy/status/2109820980755370322",
-      "via": "@AIStockSavvy",
-      "sourceKind": "x",
-      "harvestedAt": "2026-10-13T07:55:00.000Z",
+      "harvestedAt": "2026-10-13T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
