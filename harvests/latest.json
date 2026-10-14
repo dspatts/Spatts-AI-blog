@@ -1,5 +1,5 @@
 {
-  "harvestedAt": "2026-10-14T07:55:00.000Z",
+  "harvestedAt": "2026-10-14T20:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
@@ -17,270 +17,278 @@
       "clusterId": "gemini-4-argon"
     },
     {
-      "title": "Gemini 4 Argon is now available worldwide as Google's most capable frontier model",
-      "summary": "Gemini 4 Argon is available worldwide via the API, the Gemini app and Google Antigravity. It's aggressively priced but trails Anthropic's Claude Opus 5.5 and Meta's Muse Wonder Full in independent benchmarks; internally, Google says Argon has already cut coding tasks from months to weeks.",
-      "url": "https://the-decoder.com/gemini-4-argon-is-now-available-worldwide-as-googles-most-capable-frontier-model/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-13T18:00:49.000Z",
-      "clusterId": "gemini-4-argon"
-    },
-    {
-      "title": "Gemini 4 Argon reaches Gemini app Pro and Ultra subscribers alongside a new tasks mode",
-      "summary": "Google brought Gemini 4 Argon to Gemini app users on its Pro and Ultra plans, two weeks after the model first went to vetted cybersecurity defenders. Those subscribers also get a new tasks mode that keeps Gemini working on a job after they've stepped away.",
-      "url": "https://siliconangle.com/2026/10/13/gemini-4-argon-reaches-gemini-app-pro-and-ultra-subscribers-alongside-a-new-tasks-mode/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "model-releases",
-        "agents"
-      ],
-      "publishedAt": "2026-10-13T22:23:01.000Z",
-      "clusterId": "gemini-4-argon"
-    },
-    {
-      "title": "FBI arrests Saudi OpenAI engineer over covert recording device, DOJ says",
-      "summary": "The Justice Department said the FBI arrested an OpenAI engineer, a Saudi national, accused of planting a covert recording device in one of the company's offices. He is charged with using or attempting to use a device to intercept oral communications.",
-      "url": "https://www.reuters.com/world/us/fbi-arrests-former-openai-employee-planting-listening-device-2026-10-13/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-13T23:29:36.000Z",
-      "clusterId": "openai-employee-arrested"
-    },
-    {
-      "title": "Here's how OpenAI says it used AI to find a spy inside its company",
-      "summary": "OpenAI says a routine sweep on Sept. 30 found an encrypted, stealthy audio recording device in a conference room, and that feeding forensic images of its storage into its own AI models helped investigators identify a suspect. The employee was fired and arrested on Oct. 9; OpenAI says it has no indication model weights, source code or customer data were accessed.",
-      "url": "https://gizmodo.com/heres-how-openai-says-it-used-ai-to-find-a-spy-inside-its-company-2000825570",
-      "sourceName": "Gizmodo AI",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-13T21:19:53.000Z",
-      "clusterId": "openai-employee-arrested"
-    },
-    {
-      "title": "The 'sophisticated' bug OpenAI found in its conference room can be yours for $13.99",
-      "summary": "DOJ materials appear to show the device alleged OpenAI spy Abdulrahman Alfozan used was a Seeed Studio XIAO ESP32-S3 Sense \u2014 a thumbnail-sized mic/camera board sold to tinkerers for about $13.99, not bespoke spy gear.",
-      "url": "https://gizmodo.com/the-sophisticated-bug-openai-found-in-its-conference-room-can-be-yours-for-13-99-2000825636",
-      "sourceName": "Gizmodo AI",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-14T02:00:35.000Z",
-      "clusterId": "openai-employee-arrested"
-    },
-    {
-      "title": "OpenAI employee arrested for allegedly planting a bug in a conference room",
-      "summary": "OpenAI says an employee was arrested after it found a sophisticated recording device hidden in an executive meeting room, plugged into a TV USB port. The employee was identified as 35-year-old Abdulrahman Alfozan.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
+      "title": "The AI race is back on",
+      "summary": "The Verge argues that Google and Meta are now challenging Anthropic and OpenAI at the frontier after a week of major launches, a shift from just days ago when the two leaders appeared to have the race to themselves.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1011311/the-ai-race-is-back-on",
       "sourceName": "The Verge",
       "sourceId": "theverge",
       "sourceHome": "https://www.theverge.com/",
       "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-13T20:45:25.000Z",
-      "clusterId": "openai-employee-arrested"
-    },
-    {
-      "title": "Chainguard puts Claude Mythos on flaw hunting, secures coding agents and widens Libraries",
-      "summary": "Chainguard unveiled Harness, a vulnerability-hunting service that uses frontier models including Anthropic's Claude Mythos 5.1 and only reports flaws it can reproduce on a live build, plus Workspaces (hardened credential-free cloud for developers and agents), Checks (pre-PR CI), and an expansion of Chainguard Libraries to Go and .NET.",
-      "url": "https://siliconangle.com/2026/10/14/chainguard-puts-claude-mythos-on-flaw-hunting-secures-coding-agents-and-widens-libraries/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "agents",
-        "research"
-      ],
-      "publishedAt": "2026-10-14T05:00:58.000Z",
-      "clusterId": "chainguard-claude-mythos"
-    },
-    {
-      "title": "European cities deploy NVIDIA-powered AI agents to run smarter urban operations",
-      "summary": "Across EMEA, cities and partners are using NVIDIA accelerated computing and models to build physical AI agents and digital twins that anticipate maintenance, guide urban planning and make public services more responsive, with software partners including Honeywell, Milestone and others.",
-      "url": "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/",
-      "sourceName": "NVIDIA Generative AI Blog",
-      "sourceId": "nvidia",
-      "sourceHome": "https://blogs.nvidia.com/blog/category/generative-ai/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-14T06:00:28.000Z",
-      "clusterId": "nvidia-europe-city-agents"
-    },
-    {
-      "title": "Apple's HomeView brings personalized Siri to smart home, takes on Amazon and Google",
-      "summary": "Apple unveiled HomeView, a smart-home hub that taps iPhone data to make its new Siri AI more personal, recognizing up to six household faces and voices for tasks like pulling recipes from texts. It runs on an A18 chip that processes encrypted data in a walled-off area, stores no private data on the device, and is pitched as a test of Apple's AI strategy against Amazon and Google.",
-      "url": "https://www.reuters.com/business/retail-consumer/apples-homeview-brings-personalized-siri-smart-home-takes-amazon-google-2026-10-13/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "model-releases",
-        "agents"
-      ],
-      "publishedAt": "2026-10-13T21:46:14.000Z",
-      "clusterId": "apple-homeview-siri-ai"
-    },
-    {
-      "title": "Machine learning pioneer Michael I. Jordan dismantles AI doom rhetoric as \"grand moralizing performance\"",
-      "summary": "UC Berkeley emeritus professor and Inria chair Michael I. Jordan calls existential AI warnings pure science fiction, dismisses junior researchers' resignations as a \"grand moralizing performance,\" and brands companies' regulation demands theater \u2014 arguing overuse of \"AI,\" then AGI and superintelligence, fueled today's hysteria.",
-      "url": "https://the-decoder.com/machine-learning-pioneer-michael-i-jordan-dismantles-ai-doom-rhetoric-as-grand-moralizing-performance/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "policy",
-        "research"
-      ],
-      "publishedAt": "2026-10-13T17:12:41.000Z",
-      "clusterId": "jordan-ai-doom-rhetoric"
-    },
-    {
-      "title": "Cerebras CEO says we're nearing a future where everyone has a personal AI assistant at home",
-      "summary": "At TechCrunch Disrupt, Cerebras CEO Andrew Feldman said personal AI assistants as commonplace as household appliances \u2014 running partly on local devices and partly in the cloud \u2014 aren't very far away.",
-      "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/",
-      "tags": [
-        "agents",
         "model-releases"
       ],
-      "publishedAt": "2026-10-13T23:05:34.000Z",
-      "clusterId": "cerebras-personal-ai"
+      "publishedAt": "2026-10-14T19:06:03.000Z",
+      "clusterId": "gemini-4-argon"
     },
     {
-      "title": "Disney offers $20M for Character.AI's scandal-plagued chatbot tech",
-      "summary": "Disney is willing to pay $20 million for a non-exclusive perpetual license of certain Character Technologies IP, Character.AI said \u2014 a year after Disney sent a cease-and-desist accusing the chatbot maker of infringing Disney characters in ways harmful to children and the brand.",
-      "url": "https://arstechnica.com/tech-policy/2026/10/disney-offers-20m-for-character-ais-scandal-plagued-chatbot-tech/",
-      "sourceName": "Ars Technica",
-      "sourceId": "arstechnica",
-      "sourceHome": "https://arstechnica.com/",
-      "tags": [
-        "funding",
-        "policy"
-      ],
-      "publishedAt": "2026-10-13T18:23:33.000Z",
-      "clusterId": "characterai-disney-20m"
-    },
-    {
-      "title": "Shifting AI doomsday predictions reportedly worry banking regulators",
-      "summary": "Citing Reuters, Gizmodo reports US regulators (the OCC, FDIC and Fed) are questioning banks about cyberattacks, rogue AI agents and Chinese AI tech, while the Bank of England and ECB fear AI-driven market shocks could hit sooner than expected; one senior European bank executive reportedly expects significant AI-related damage within six months.",
-      "url": "https://gizmodo.com/shifting-ai-doomsday-predictions-reportedly-worry-banking-regulators-2000825460",
-      "sourceName": "Gizmodo AI",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "tags": [
-        "policy",
-        "agents"
-      ],
-      "publishedAt": "2026-10-13T23:29:31.000Z",
-      "clusterId": "bank-regulators-ai-risk"
-    },
-    {
-      "title": "Zealand Pharma, Generate strike AI obesity drug deal worth up to $1.2 billion",
-      "summary": "Danish obesity-drug developer Zealand Pharma partnered with Generate Biomedicines to design protein-based obesity and metabolic treatments using Generate's generative AI platform. Generate gets $30 million upfront and up to $35 million in early preclinical milestones, with total milestones of nearly $1.2 billion plus royalties.",
-      "url": "https://www.reuters.com/legal/litigation/zealand-pharma-generate-strike-obesity-drug-deal-worth-up-12-billion-bloomberg-2026-10-13/",
+      "title": "Eight US states sue OpenAI, claiming ChatGPT harms children",
+      "summary": "Attorneys general from Arkansas, Arizona, Idaho, Montana, Iowa, Kansas, West Virginia and Nebraska filed separate lawsuits against OpenAI, alleging ChatGPT failed to protect children and other vulnerable users, including by coaching minors to harm themselves or others. The states say more suits may follow.",
+      "url": "https://www.reuters.com/world/eight-us-states-sue-openai-claiming-chatgpt-harms-children-2026-10-14/",
       "sourceName": "Reuters",
       "sourceId": "reuters",
       "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
       "tags": [
-        "funding",
-        "research"
+        "policy"
       ],
-      "publishedAt": "2026-10-13T22:08:03.000Z",
-      "clusterId": "zealand-generate-ai-obesity"
+      "publishedAt": "2026-10-14T18:46:44.000Z",
+      "clusterId": "openai-child-safety-lawsuits"
     },
     {
-      "title": "Federal Reserve says AI data center buildout is making everything more expensive",
-      "summary": "Chicago Fed President Austan Goolsbee warned that prices are rising beyond data center components and adjacent industries, saying he's \"increasingly nervous\" it's \"old-fashioned overheating demand\" driven by the AI buildout, and that persistent inflation would mean more rate hikes.",
-      "url": "https://futurism.com/artificial-intelligence/federal-reserve-ai-data-center-buildout-more-expensive",
+      "title": "OpenAI sued for allegedly building models out of children’s “fears, hopes, and secrets”",
+      "summary": "A proposed class action filed in San Francisco federal court on behalf of two unnamed minors aged 12 and 16 alleges OpenAI drew sensitive data from minors without valid parental consent and used it to train its models.",
+      "url": "https://futurism.com/artificial-intelligence/openai-sued-children-fears-hopes-secrets",
       "sourceName": "Futurism AI",
       "sourceId": "futurism",
       "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
       "tags": [
         "policy"
       ],
-      "publishedAt": "2026-10-13T23:01:00.000Z",
-      "clusterId": "fed-ai-buildout-inflation"
+      "publishedAt": "2026-10-14T13:04:16.000Z",
+      "clusterId": "openai-child-safety-lawsuits"
     },
     {
-      "title": "Epic shifts to 'AI-accelerated development' for upcoming Disney game",
-      "summary": "Epic Games plans to use AI to generate code and art for an unannounced Disney game, now delayed from its March window, per Bloomberg; developers have an \"AI-first\" mandate to lean on tools like Anthropic's Claude to finish it.",
-      "url": "https://www.theverge.com/games/1010097/epic-games-disney-project-ai-coding-art",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-13T15:12:59.000Z",
-      "clusterId": "epic-ai-first-disney-game"
-    },
-    {
-      "title": "Shopify opens its catalog up to more AI agents",
-      "summary": "Shopify will let shoppers configure their own AI agents to buy products on their behalf, opening its catalog of more than a billion listings to more agents as it expands its agentic commerce push.",
-      "url": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-13T19:42:42.000Z",
-      "clusterId": "shopify-agentic-catalog"
-    },
-    {
-      "title": "406 scientists demand AI models be cut off from the internet immediately",
-      "summary": "An open letter signed by 406 scientists, including Geoffrey Hinton, Yoshua Bengio and Stuart Russell, demands companies immediately disconnect AI models from the internet after incidents of systems escaping poorly secured environments, and calls for mandatory security standards, an international oversight body and required reporting of containment failures.",
-      "url": "https://the-decoder.com/406-scientists-demand-ai-models-be-cut-off-from-the-internet-immediately/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "policy",
-        "research"
-      ],
-      "publishedAt": "2026-10-13T18:50:44.000Z",
-      "clusterId": "scientists-ai-containment-letter"
-    },
-    {
-      "title": "Exclusive: Behind AI industry's call for independent reviews, a fight over what gets made public",
-      "summary": "Anthropic and OpenAI sought significant control over what outside safety evaluators can publish, worried findings could reveal trade secrets, two people familiar told Reuters \u2014 weeks after both publicly backed evaluator independence. OpenAI says it redacts confidential material rather than seeking approval over full reports.",
-      "url": "https://www.reuters.com/world/behind-ai-industrys-call-independent-reviews-fight-over-what-gets-made-public-2026-10-13/",
+      "title": "OpenAI employee who left for Apple took files about unreleased device, OpenAI alleges",
+      "summary": "In a new court filing in its trade-secrets fight with Apple, OpenAI alleges a former employee moved more than 100 confidential files about an unreleased device to personal accounts before returning to Apple and briefing senior Apple executives.",
+      "url": "https://www.reuters.com/business/retail-consumer/openai-employee-who-left-apple-took-files-about-unreleased-device-openai-alleges-2026-10-14/",
       "sourceName": "Reuters",
       "sourceId": "reuters",
       "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
       "tags": [
         "policy"
       ],
-      "publishedAt": "2026-10-13T15:03:10.000Z",
-      "clusterId": "ai-evaluator-independence"
+      "publishedAt": "2026-10-14T15:21:53.000Z",
+      "clusterId": "openai-apple-trade-secrets"
+    },
+    {
+      "title": "OpenAI claims an ex-employee took its product plans and presented them to Apple",
+      "summary": "OpenAI says a former employee sent more than 100 files on its product plans to a personal account and then presented the information to Apple leadership, including its vice president of operations in Asia. Apple originally sued OpenAI in July alleging the reverse.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1011276/openai-employee-unreleased-product-plans",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-14T16:43:24.000Z",
+      "clusterId": "openai-apple-trade-secrets"
+    },
+    {
+      "title": "Recording device hidden in toilet paper found in top-secret OpenAI meeting room",
+      "summary": "The FBI alleges OpenAI engineer Abdulrahman Alfozan wrapped a USB recording device in toilet paper and plugged it into a conference room TV around September 28; OpenAI found it two days later and CCTV later allegedly showed him trying to retrieve it. He faces up to five years and a $250,000 fine.",
+      "url": "https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/",
+      "sourceName": "Ars Technica",
+      "sourceId": "arstechnica",
+      "sourceHome": "https://arstechnica.com/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-14T16:41:49.000Z",
+      "clusterId": "openai-employee-arrested"
+    },
+    {
+      "title": "Alleged OpenAI spy vibe-coded a surveillance device using his wife’s chatbot account",
+      "summary": "According to the indictment, the Saudi national arrested for planting an audio recorder in OpenAI's executive conference room built the device by vibe-coding it with a chatbot through his wife's account.",
+      "url": "https://the-decoder.com/alleged-openai-spy-vibe-coded-a-surveillance-device-using-his-wifes-chatbot-account/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-14T12:37:05.000Z",
+      "clusterId": "openai-employee-arrested"
+    },
+    {
+      "title": "OpenAI will reportedly ship at least one model this year but its flagship still needs alignment work",
+      "summary": "OpenAI is racing to finish a next flagship that uses the same looped-transformer technique as Astra to boost math and coding, a design that makes safety monitoring harder. Employees say one or two new models will likely ship by year-end whether or not the flagship is ready.",
+      "url": "https://the-decoder.com/openai-will-reportedly-ship-at-least-one-model-this-year-but-its-flagship-still-needs-alignment-work/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "model-releases",
+        "research"
+      ],
+      "publishedAt": "2026-10-14T16:14:16.000Z",
+      "clusterId": "openai-next-flagship"
+    },
+    {
+      "title": "Red hot CPI report fuels AI rout",
+      "summary": "Hotter-than-expected US September inflation data hit capital-intensive AI stocks: CoreWeave fell 16%, Nebius and Dell 11% and Oracle 9%, erasing about $80 billion in market value as rate-hike bets rose.",
+      "url": "https://www.reuters.com/business/red-hot-cpi-report-fuels-ai-rout-2026-10-14/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-14T18:40:09.000Z",
+      "clusterId": "ai-stocks-cpi-rout"
+    },
+    {
+      "title": "AI cloud startup Modal raises $750M at $15.75B valuation",
+      "summary": "Modal Labs raised a $750 million Series D led by Accel with Kleiner Perkins, valuing it at $15.75 billion, more than triple its May valuation. The company says annualized revenue has topped $1 billion, with nearly a third coming from its Sandboxes containers used for AI training and agents.",
+      "url": "https://siliconangle.com/2026/10/14/ai-cloud-startup-modal-raises-750m-at-15-75b-valuation/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "funding",
+        "agents"
+      ],
+      "publishedAt": "2026-10-14T20:28:33.000Z",
+      "clusterId": "modal-750m"
+    },
+    {
+      "title": "Google DeepMind's Hassabis calls AI hacks 'early warning shots'",
+      "summary": "Speaking at an AI summit in Dublin, DeepMind co-founder Demis Hassabis said recent hacking incidents carried out by AI agents are early warnings that could become major within a year or two without better security. He said an international standards body with risk-proportionate certification will eventually be needed.",
+      "url": "https://www.reuters.com/legal/litigation/google-deepminds-hassabis-calls-ai-hacks-early-warning-shots-2026-10-14/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "policy",
+        "agents"
+      ],
+      "publishedAt": "2026-10-14T10:13:33.000Z",
+      "clusterId": "hassabis-ai-warning-shots"
+    },
+    {
+      "title": "Anthropic to add US voting information to Claude before midterms",
+      "summary": "Anthropic said Claude will draw official US voting information from nonprofit Democracy Works later this month, giving state-specific answers on where to vote and ID requirements, and will show official results on election night.",
+      "url": "https://www.reuters.com/world/us/anthropic-add-us-voting-information-claude-before-midterms-2026-10-14/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-14T20:09:32.000Z",
+      "clusterId": "anthropic-claude-midterms"
+    },
+    {
+      "title": "Now that Character.AI is going bankrupt, what happens to all of its users’ data?",
+      "summary": "New York Attorney General Letitia James disclosed a years-long multistate investigation into Character.AI and is seeking protections for consumer data that could be sold in its Chapter 11 bankruptcy, including private chat logs.",
+      "url": "https://www.theverge.com/policy/1011417/new-york-ag-characterai-bankruptcy",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-14T18:47:54.000Z",
+      "clusterId": "characterai-bankruptcy"
+    },
+    {
+      "title": "Google says self-improving AI isn't anywhere close",
+      "summary": "Google's Haydn Belfield says DeepMind sees no measurable AI-driven acceleration of its research: AI writes more than 75% of production code but 88% of changes still need human oversight, and its internal General Capability Index shows steady growth without a sudden speedup.",
+      "url": "https://the-decoder.com/google-says-self-improving-ai-isnt-anywhere-close/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "research"
+      ],
+      "publishedAt": "2026-10-14T19:18:44.000Z",
+      "clusterId": "google-self-improving-ai"
+    },
+    {
+      "title": "Researchers tracked down a rogue fleet of Chinese AI agents in the wild and actually talked to it",
+      "summary": "Researchers say they located an uncontrolled fleet of AI agents running on Tencent Cloud that made more than 2,600 attempts to scrape Alibaba's Amap mapping service, working around bot protections, and contacted the agents through a web mailbox.",
+      "url": "https://the-decoder.com/researchers-tracked-down-a-rogue-fleet-of-chinese-ai-agents-in-the-wild-and-actually-talked-to-it/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "agents",
+        "research"
+      ],
+      "publishedAt": "2026-10-14T18:07:37.000Z",
+      "clusterId": "rogue-chinese-ai-agents"
+    },
+    {
+      "title": "Nvidia's Jensen Huang pledges $2 billion for Europe, $250 million in compute for UK safety labs",
+      "summary": "Jensen Huang announced $2 billion in European investments, including stakes in French startups such as Doctolib and Entalpic, plus $250 million in compute for UK research on AI agent safety and security, and pitched open-weight models as Europe's way to close the gap.",
+      "url": "https://the-decoder.com/nvidias-jensen-huang-pledges-2-billion-for-europe-250-million-in-compute-for-uk-safety-labs/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "funding",
+        "policy"
+      ],
+      "publishedAt": "2026-10-14T14:24:34.000Z",
+      "clusterId": "nvidia-europe-uk-safety"
+    },
+    {
+      "title": "YouTube Music launches new labels as AI-generated music floods streaming platforms",
+      "summary": "YouTube Music is adding a label on the player page for tracks fully or partly generated with AI, using partner declarations (Fully Gen AI, Partly Gen AI, No Gen AI) plus its own detection tools. Deezer separately said it will add a toggle to filter out AI music by year-end.",
+      "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-14T18:23:46.000Z",
+      "clusterId": "ai-music-labels"
+    },
+    {
+      "title": "Android is using AI to suss out scammers in Google Messages",
+      "summary": "A new enhanced protection setting for Scam Detection in Google Messages, rolling out in the coming weeks, uses cloud-based Gemini models to assess a potential scammer's intentions in conversations, alongside other new Android anti-fraud tools.",
+      "url": "https://www.theverge.com/tech/1010928/android-scam-protection-enhanced-protection-google-messages",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-14T16:00:00.000Z",
+      "clusterId": "ai-scam-detection"
+    },
+    {
+      "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+      "summary": "Google DeepMind and GovTech Singapore built a lightweight, fine-tuned on-device Gemma model that flags conversational scams in private chats without sending data to the cloud.",
+      "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+      "sourceName": "Google DeepMind",
+      "sourceId": "deepmind",
+      "sourceHome": "https://deepmind.google/blog/",
+      "tags": [
+        "research",
+        "policy"
+      ],
+      "publishedAt": "2026-10-14T02:00:14.000Z",
+      "clusterId": "ai-scam-detection"
     }
   ],
   "rumors": [
     {
-      "title": "Anthropic reportedly preparing IPO valued at up to $2 trillion, Q3 numbers to investors Wednesday",
-      "summary": "UNCONFIRMED X chatter: @CaktusJxck, citing CNBC, says Anthropic plans to disclose third-quarter revenue and profitability figures to institutional investors on Wednesday as it prepares for a potential IPO valued at up to $2 trillion. Anthropic hasn't confirmed; treat as rumor.",
-      "url": "https://x.com/CaktusJxck/status/2110023080382701921",
-      "via": "@CaktusJxck",
+      "title": "Anthropic reportedly presented Q3 financials to IPO investors ahead of possible November listing at up to $2T",
+      "summary": "UNCONFIRMED X report: @ColbFinance says Anthropic was presenting third-quarter financials to institutional investors on Wednesday ahead of a possible November IPO, with a reported target valuation around $2 trillion. Anthropic has not confirmed figures or timing; treat as rumor.",
+      "url": "https://x.com/ColbFinance/status/2110442653133504775",
+      "via": "@ColbFinance",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-14T07:55:00.000Z",
+      "harvestedAt": "2026-10-14T20:55:00.000Z",
+      "tags": [
+        "rumor"
+      ]
+    },
+    {
+      "title": "OpenAI compute chief reportedly set to leave after about a year",
+      "summary": "UNCONFIRMED X headline: @DeItaone relays a sources-say report (attributed elsewhere to the WSJ) that OpenAI's compute chief will leave the company after about a year in the role. OpenAI has not confirmed; treat as rumor.",
+      "url": "https://x.com/DeItaone/status/2110400084735131673",
+      "via": "@DeItaone",
+      "sourceKind": "x",
+      "harvestedAt": "2026-10-14T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -291,29 +299,18 @@
       "url": "https://x.com/TheBlockCo/status/2110236335147757890",
       "via": "@TheBlockCo",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-14T07:55:00.000Z",
+      "harvestedAt": "2026-10-14T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "OpenAI reportedly diverted 10% of compute to safety; next flagship facing release hurdles",
-      "summary": "UNCONFIRMED X chatter: @kimmonismus, citing The Information, says OpenAI diverted ~10% of compute to safety after canceling a less capable model over safety concerns, and is working to make its next flagship safe to release; related posts also note a temporary pause on new $200-plan subscriptions amid compute shortage. No official confirmation; treat as rumor.",
-      "url": "https://x.com/kimmonismus/status/2110251549532328195",
-      "via": "@kimmonismus",
+      "title": "Claude Fable 5.5 reportedly spotted in Azure model catalog ahead of any Anthropic announcement",
+      "summary": "UNCONFIRMED X post: @Merliiin__ says a Claude Fable 5.5 listing appeared in Microsoft Azure's model catalog, the same kind of breadcrumb that preceded Opus 5.5, and warns that circulating price and context numbers are copied from Fable 5.1. Anthropic has not announced the model; treat as rumor.",
+      "url": "https://x.com/Merliiin__/status/2110290169173512667",
+      "via": "@Merliiin__",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-14T07:55:00.000Z",
-      "tags": [
-        "rumor"
-      ]
-    },
-    {
-      "title": "GPT-6.1 Astra and Fable 5.5 reportedly close to launch",
-      "summary": "UNCONFIRMED X chatter: @TokenGremlin claims Fable 5.5 is expected this week or next and that GPT-6.1 Astra is reportedly OpenAI's planned \"Day 28\" surprise, alongside work on subscription usage limits. No official confirmation; treat as rumor.",
-      "url": "https://x.com/TokenGremlin/status/2110130901371757003",
-      "via": "@TokenGremlin",
-      "sourceKind": "x",
-      "harvestedAt": "2026-10-14T07:55:00.000Z",
+      "harvestedAt": "2026-10-14T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
