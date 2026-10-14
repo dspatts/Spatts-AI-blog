@@ -1,5 +1,5 @@
 {
-  "harvestedAt": "2026-10-13T20:55:00.000Z",
+  "harvestedAt": "2026-10-14T01:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
@@ -12,19 +12,6 @@
       "tags": [
         "model-releases",
         "agents"
-      ],
-      "publishedAt": "2026-10-13T16:00:00.000Z",
-      "clusterId": "gemini-4-argon"
-    },
-    {
-      "title": "Google finally releases Gemini 4 Argon",
-      "summary": "After months on the sidelines of the frontier race, Google has launched its long-awaited Gemini 4 Argon, claiming \"frontier reasoning and improved performance across complex workflows\" while cutting down on hedging, repetition and clichés.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/",
-      "tags": [
-        "model-releases"
       ],
       "publishedAt": "2026-10-13T16:00:00.000Z",
       "clusterId": "gemini-4-argon"
@@ -43,17 +30,58 @@
       "clusterId": "gemini-4-argon"
     },
     {
-      "title": "OpenAI employee arrested for allegedly planting recording device in its office",
-      "summary": "An OpenAI engineer, 35-year-old Abdulrahman Alfozan, was arrested after the company said it found a \"sophisticated recording device\" hidden in one of its offices; he's charged with using or attempting to use a device to intercept oral communications, per The San Francisco Standard.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/",
+      "title": "Gemini 4 Argon reaches Gemini app Pro and Ultra subscribers alongside a new tasks mode",
+      "summary": "Google brought Gemini 4 Argon to Gemini app users on its Pro and Ultra plans, two weeks after the model first went to vetted cybersecurity defenders. Those subscribers also get a new tasks mode that keeps Gemini working on a job after they've stepped away.",
+      "url": "https://siliconangle.com/2026/10/13/gemini-4-argon-reaches-gemini-app-pro-and-ultra-subscribers-alongside-a-new-tasks-mode/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "model-releases",
+        "agents"
+      ],
+      "publishedAt": "2026-10-13T22:23:01.000Z",
+      "clusterId": "gemini-4-argon"
+    },
+    {
+      "title": "FBI arrests Saudi OpenAI engineer over covert recording device, DOJ says",
+      "summary": "The Justice Department said the FBI arrested an OpenAI engineer, a Saudi national, accused of planting a covert recording device in one of the company's offices. He is charged with using or attempting to use a device to intercept oral communications.",
+      "url": "https://www.reuters.com/world/us/fbi-arrests-former-openai-employee-planting-listening-device-2026-10-13/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
       "tags": [
         "policy"
       ],
-      "publishedAt": "2026-10-13T20:45:25.000Z",
+      "publishedAt": "2026-10-13T23:29:36.000Z",
       "clusterId": "openai-employee-arrested"
+    },
+    {
+      "title": "Here's how OpenAI says it used AI to find a spy inside its company",
+      "summary": "OpenAI says a routine sweep on Sept. 30 found an encrypted, stealthy audio recording device in a conference room, and that feeding forensic images of its storage into its own AI models helped investigators identify a suspect. The employee was fired and arrested on Oct. 9; OpenAI says it has no indication model weights, source code or customer data were accessed.",
+      "url": "https://gizmodo.com/heres-how-openai-says-it-used-ai-to-find-a-spy-inside-its-company-2000825570",
+      "sourceName": "Gizmodo AI",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-13T21:19:53.000Z",
+      "clusterId": "openai-employee-arrested"
+    },
+    {
+      "title": "Apple's HomeView brings personalized Siri to smart home, takes on Amazon and Google",
+      "summary": "Apple unveiled HomeView, a smart-home hub that taps iPhone data to make its new Siri AI more personal, recognizing up to six household faces and voices for tasks like pulling recipes from texts. It runs on an A18 chip that processes encrypted data in a walled-off area, stores no private data on the device, and is pitched as a test of Apple's AI strategy against Amazon and Google.",
+      "url": "https://www.reuters.com/business/retail-consumer/apples-homeview-brings-personalized-siri-smart-home-takes-amazon-google-2026-10-13/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "model-releases",
+        "agents"
+      ],
+      "publishedAt": "2026-10-13T21:46:14.000Z",
+      "clusterId": "apple-homeview-siri-ai"
     },
     {
       "title": "Exclusive: Behind AI industry's call for independent reviews, a fight over what gets made public",
@@ -83,18 +111,58 @@
       "clusterId": "scientists-ai-containment-letter"
     },
     {
-      "title": "AI models may soon self-replicate without access to data centers, Anthropic warns",
-      "summary": "Anthropic's frontier red team says small AI models may be months away from copying themselves onto commercial IoT devices such as smart ovens and off-brand Android TV boxes; in simplified tests GLM-5.2 and stronger models completed end-to-end replication, though no full rogue replicator has been seen in the wild.",
-      "url": "https://www.reuters.com/business/ai-models-may-soon-self-replicate-without-access-data-centers-anthropic-warns-2026-10-13/",
+      "title": "Shifting AI doomsday predictions reportedly worry banking regulators",
+      "summary": "Citing Reuters, Gizmodo reports US regulators (the OCC, FDIC and Fed) are questioning banks about cyberattacks, rogue AI agents and Chinese AI tech, while the Bank of England and ECB fear AI-driven market shocks could hit sooner than expected; one senior European bank executive reportedly expects significant AI-related damage within six months.",
+      "url": "https://gizmodo.com/shifting-ai-doomsday-predictions-reportedly-worry-banking-regulators-2000825460",
+      "sourceName": "Gizmodo AI",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "policy",
+        "agents"
+      ],
+      "publishedAt": "2026-10-13T23:29:31.000Z",
+      "clusterId": "bank-regulators-ai-risk"
+    },
+    {
+      "title": "Zealand Pharma, Generate strike AI obesity drug deal worth up to $1.2 billion",
+      "summary": "Danish obesity-drug developer Zealand Pharma partnered with Generate Biomedicines to design protein-based obesity and metabolic treatments using Generate's generative AI platform. Generate gets $30 million upfront and up to $35 million in early preclinical milestones, with total milestones of nearly $1.2 billion plus royalties.",
+      "url": "https://www.reuters.com/legal/litigation/zealand-pharma-generate-strike-obesity-drug-deal-worth-up-12-billion-bloomberg-2026-10-13/",
       "sourceName": "Reuters",
       "sourceId": "reuters",
       "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
       "tags": [
-        "research",
+        "funding",
+        "research"
+      ],
+      "publishedAt": "2026-10-13T22:08:03.000Z",
+      "clusterId": "zealand-generate-ai-obesity"
+    },
+    {
+      "title": "Cerebras CEO pushes back on AI doomsday warnings",
+      "summary": "At TechCrunch Disrupt, Cerebras CEO Andrew Feldman told AI leaders spreading doomsday warnings to maybe stop talking, arguing the industry's focus on AI's risks is drowning out its potential benefits.",
+      "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/",
+      "tags": [
         "policy"
       ],
-      "publishedAt": "2026-10-13T05:14:00.000Z",
-      "clusterId": "anthropic-self-replication"
+      "publishedAt": "2026-10-13T22:36:59.000Z",
+      "clusterId": "cerebras-doomsday-pushback"
+    },
+    {
+      "title": "Federal Reserve says AI data center buildout is making everything more expensive",
+      "summary": "Chicago Fed President Austan Goolsbee warned that prices are rising beyond data center components and adjacent industries, saying he's \"increasingly nervous\" it's \"old-fashioned overheating demand\" driven by the AI buildout, and that persistent inflation would mean more rate hikes.",
+      "url": "https://futurism.com/artificial-intelligence/federal-reserve-ai-data-center-buildout-more-expensive",
+      "sourceName": "Futurism AI",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-13T23:01:00.000Z",
+      "clusterId": "fed-ai-buildout-inflation"
     },
     {
       "title": "Epic shifts to 'AI-accelerated development' for upcoming Disney game",
@@ -188,62 +256,9 @@
       "clusterId": "openai-apple-trade-secrets"
     },
     {
-      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
-      "summary": "Liquid AI's LFM2.5-24B-A2B is an open-weight 24B mixture-of-experts model with about 2B active parameters, a 131K context window and tool calling, built for fast, private multi-step agents running locally via llama.cpp, MLX, vLLM and more.",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
-      "sourceName": "Hugging Face Blog",
-      "sourceId": "huggingface",
-      "sourceHome": "https://huggingface.co/blog",
-      "tags": [
-        "model-releases",
-        "agents"
-      ],
-      "publishedAt": "2026-10-13T17:05:48.000Z",
-      "clusterId": "liquid-lfm25-24b"
-    },
-    {
-      "title": "Pluto Security raises $42M as AI gives enterprise security teams a new headache",
-      "summary": "Pluto Security raised $42 million to tackle the security holes that open up when everyone in a company gets access to AI tools and uses them in unexpected ways.",
-      "url": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-13T17:18:25.000Z",
-      "clusterId": "pluto-security-42m"
-    },
-    {
-      "title": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
-      "summary": "NVIDIA says the PC app ecosystem is ready for RTX Spark, a superchip combining gaming, creative and personal AI supercomputer capabilities with up to 128GB of unified memory and 1 petaflop of AI compute.",
-      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
-      "sourceName": "NVIDIA Generative AI Blog",
-      "sourceId": "nvidia",
-      "sourceHome": "https://blogs.nvidia.com/blog/category/generative-ai/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-13T12:00:49.000Z",
-      "clusterId": "nvidia-rtx-spark-apps"
-    },
-    {
-      "title": "Character.AI files for bankruptcy, agrees to sell some assets to Disney for $20 million",
-      "summary": "Character.AI filed for Chapter 11 in Delaware to run a court-supervised sale; Disney is the stalking-horse bidder at $20 million for a non-exclusive licence to some IP, and the platform keeps running during the sale but could be wound down if no buyer continues it.",
-      "url": "https://www.reuters.com/legal/litigation/characterai-files-bankruptcy-agrees-sell-some-assets-disney-20-million-2026-10-13/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-13T04:22:00.000Z",
-      "clusterId": "characterai-bankruptcy"
-    },
-    {
-      "title": "Anthropic says new safeguards sharply reduce AI distillation attacks",
-      "summary": "Anthropic says new defences, including preserved thinking and a two-stage extraction classifier, have cut data harvested by distillers from Claude by about 90% to 99%; it banned tens of thousands of accounts and named Zhipu (Z.ai) as an example of a firm that tried to distil Claude.",
-      "url": "https://www.reuters.com/world/china/anthropic-says-new-safeguards-sharply-reduce-ai-distillation-attacks-2026-10-13/",
+      "title": "AI models may soon self-replicate without access to data centers, Anthropic warns",
+      "summary": "Anthropic's frontier red team says small AI models may be months away from copying themselves onto commercial IoT devices such as smart ovens and off-brand Android TV boxes; in simplified tests GLM-5.2 and stronger models completed end-to-end replication, though no full rogue replicator has been seen in the wild.",
+      "url": "https://www.reuters.com/business/ai-models-may-soon-self-replicate-without-access-data-centers-anthropic-warns-2026-10-13/",
       "sourceName": "Reuters",
       "sourceId": "reuters",
       "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
@@ -251,21 +266,8 @@
         "research",
         "policy"
       ],
-      "publishedAt": "2026-10-13T01:07:00.000Z",
-      "clusterId": "anthropic-distillation-defenses"
-    },
-    {
-      "title": "Meta releases its first frontier model, Muse Wonder",
-      "summary": "Meta Superintelligence Labs follows the lightweight Muse Spark with Muse Wonder and Muse Wonder Full — larger models Meta says post higher benchmark scores and stronger results on complex tasks like coding.",
-      "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-12T17:56:56.000Z",
-      "clusterId": "meta-muse-wonder"
+      "publishedAt": "2026-10-13T05:14:00.000Z",
+      "clusterId": "anthropic-self-replication"
     }
   ],
   "rumors": [
@@ -275,18 +277,29 @@
       "url": "https://x.com/CaktusJxck/status/2110023080382701921",
       "via": "@CaktusJxck",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-13T20:55:00.000Z",
+      "harvestedAt": "2026-10-14T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "OpenAI reportedly in talks with Katzenberg-backed startup to revive Sora",
-      "summary": "UNCONFIRMED X chatter: @aseatrades says OpenAI is reportedly in talks with an undisclosed AI video startup founded by Jeffrey Katzenberg, ex-Sora lead Bill Peebles and ex-Dropbox CFO Sujay Jaswa to bring Sora back, with OpenAI possibly taking equity — no deal announced; treat as rumor.",
-      "url": "https://x.com/aseatrades/status/2109723774069453084",
-      "via": "@aseatrades",
+      "title": "OpenAI reportedly in early talks to acquire security firm Trail of Bits",
+      "summary": "UNCONFIRMED X chatter: @Jasonz0830 says OpenAI is reportedly in early talks to acquire cybersecurity firm Trail of Bits to build out its security business. Neither company has confirmed; treat as rumor.",
+      "url": "https://x.com/Jasonz0830/status/2110159938018521094",
+      "via": "@Jasonz0830",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-13T20:55:00.000Z",
+      "harvestedAt": "2026-10-14T01:55:00.000Z",
+      "tags": [
+        "rumor"
+      ]
+    },
+    {
+      "title": "GPT-6.1 Astra and Fable 5.5 reportedly close to launch",
+      "summary": "UNCONFIRMED X chatter: @TokenGremlin claims Fable 5.5 is expected this week or next and that GPT-6.1 Astra is reportedly OpenAI's planned \"Day 28\" surprise, alongside work on subscription usage limits. No official confirmation; treat as rumor.",
+      "url": "https://x.com/TokenGremlin/status/2110130901371757003",
+      "via": "@TokenGremlin",
+      "sourceKind": "x",
+      "harvestedAt": "2026-10-14T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -297,18 +310,7 @@
       "url": "https://x.com/poezhao0605/status/2110032563217830390",
       "via": "@poezhao0605",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-13T20:55:00.000Z",
-      "tags": [
-        "rumor"
-      ]
-    },
-    {
-      "title": "Sarvam reportedly in talks to raise $250–300M at a $3B valuation",
-      "summary": "UNCONFIRMED X chatter: @vikas_revivo says Indian model maker Sarvam is in talks to raise $250–300 million at a $3 billion valuation. No announcement yet; treat as rumor.",
-      "url": "https://x.com/vikas_revivo/status/2109895674758091137",
-      "via": "@vikas_revivo",
-      "sourceKind": "x",
-      "harvestedAt": "2026-10-13T20:55:00.000Z",
+      "harvestedAt": "2026-10-14T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
