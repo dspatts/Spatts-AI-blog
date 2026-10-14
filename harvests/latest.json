@@ -1,5 +1,5 @@
 {
-  "harvestedAt": "2026-10-14T01:55:00.000Z",
+  "harvestedAt": "2026-10-14T07:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
@@ -70,6 +70,59 @@
       "clusterId": "openai-employee-arrested"
     },
     {
+      "title": "The 'sophisticated' bug OpenAI found in its conference room can be yours for $13.99",
+      "summary": "DOJ materials appear to show the device alleged OpenAI spy Abdulrahman Alfozan used was a Seeed Studio XIAO ESP32-S3 Sense \u2014 a thumbnail-sized mic/camera board sold to tinkerers for about $13.99, not bespoke spy gear.",
+      "url": "https://gizmodo.com/the-sophisticated-bug-openai-found-in-its-conference-room-can-be-yours-for-13-99-2000825636",
+      "sourceName": "Gizmodo AI",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-14T02:00:35.000Z",
+      "clusterId": "openai-employee-arrested"
+    },
+    {
+      "title": "OpenAI employee arrested for allegedly planting a bug in a conference room",
+      "summary": "OpenAI says an employee was arrested after it found a sophisticated recording device hidden in an executive meeting room, plugged into a TV USB port. The employee was identified as 35-year-old Abdulrahman Alfozan.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-13T20:45:25.000Z",
+      "clusterId": "openai-employee-arrested"
+    },
+    {
+      "title": "Chainguard puts Claude Mythos on flaw hunting, secures coding agents and widens Libraries",
+      "summary": "Chainguard unveiled Harness, a vulnerability-hunting service that uses frontier models including Anthropic's Claude Mythos 5.1 and only reports flaws it can reproduce on a live build, plus Workspaces (hardened credential-free cloud for developers and agents), Checks (pre-PR CI), and an expansion of Chainguard Libraries to Go and .NET.",
+      "url": "https://siliconangle.com/2026/10/14/chainguard-puts-claude-mythos-on-flaw-hunting-secures-coding-agents-and-widens-libraries/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "agents",
+        "research"
+      ],
+      "publishedAt": "2026-10-14T05:00:58.000Z",
+      "clusterId": "chainguard-claude-mythos"
+    },
+    {
+      "title": "European cities deploy NVIDIA-powered AI agents to run smarter urban operations",
+      "summary": "Across EMEA, cities and partners are using NVIDIA accelerated computing and models to build physical AI agents and digital twins that anticipate maintenance, guide urban planning and make public services more responsive, with software partners including Honeywell, Milestone and others.",
+      "url": "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/",
+      "sourceName": "NVIDIA Generative AI Blog",
+      "sourceId": "nvidia",
+      "sourceHome": "https://blogs.nvidia.com/blog/category/generative-ai/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-10-14T06:00:28.000Z",
+      "clusterId": "nvidia-europe-city-agents"
+    },
+    {
       "title": "Apple's HomeView brings personalized Siri to smart home, takes on Amazon and Google",
       "summary": "Apple unveiled HomeView, a smart-home hub that taps iPhone data to make its new Siri AI more personal, recognizing up to six household faces and voices for tasks like pulling recipes from texts. It runs on an A18 chip that processes encrypted data in a walled-off area, stores no private data on the device, and is pitched as a test of Apple's AI strategy against Amazon and Google.",
       "url": "https://www.reuters.com/business/retail-consumer/apples-homeview-brings-personalized-siri-smart-home-takes-amazon-google-2026-10-13/",
@@ -84,22 +137,9 @@
       "clusterId": "apple-homeview-siri-ai"
     },
     {
-      "title": "Exclusive: Behind AI industry's call for independent reviews, a fight over what gets made public",
-      "summary": "Anthropic and OpenAI sought significant control over what outside safety evaluators can publish, worried findings could reveal trade secrets, two people familiar told Reuters — weeks after both publicly backed evaluator independence. OpenAI says it redacts confidential material rather than seeking approval over full reports.",
-      "url": "https://www.reuters.com/world/behind-ai-industrys-call-independent-reviews-fight-over-what-gets-made-public-2026-10-13/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-13T15:03:10.000Z",
-      "clusterId": "ai-evaluator-independence"
-    },
-    {
-      "title": "406 scientists demand AI models be cut off from the internet immediately",
-      "summary": "An open letter signed by 406 scientists, including Geoffrey Hinton, Yoshua Bengio and Stuart Russell, demands companies immediately disconnect AI models from the internet after incidents of systems escaping poorly secured environments, and calls for mandatory security standards, an international oversight body and required reporting of containment failures.",
-      "url": "https://the-decoder.com/406-scientists-demand-ai-models-be-cut-off-from-the-internet-immediately/",
+      "title": "Machine learning pioneer Michael I. Jordan dismantles AI doom rhetoric as \"grand moralizing performance\"",
+      "summary": "UC Berkeley emeritus professor and Inria chair Michael I. Jordan calls existential AI warnings pure science fiction, dismisses junior researchers' resignations as a \"grand moralizing performance,\" and brands companies' regulation demands theater \u2014 arguing overuse of \"AI,\" then AGI and superintelligence, fueled today's hysteria.",
+      "url": "https://the-decoder.com/machine-learning-pioneer-michael-i-jordan-dismantles-ai-doom-rhetoric-as-grand-moralizing-performance/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
       "sourceHome": "https://the-decoder.com/",
@@ -107,8 +147,36 @@
         "policy",
         "research"
       ],
-      "publishedAt": "2026-10-13T18:50:44.000Z",
-      "clusterId": "scientists-ai-containment-letter"
+      "publishedAt": "2026-10-13T17:12:41.000Z",
+      "clusterId": "jordan-ai-doom-rhetoric"
+    },
+    {
+      "title": "Cerebras CEO says we're nearing a future where everyone has a personal AI assistant at home",
+      "summary": "At TechCrunch Disrupt, Cerebras CEO Andrew Feldman said personal AI assistants as commonplace as household appliances \u2014 running partly on local devices and partly in the cloud \u2014 aren't very far away.",
+      "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/",
+      "tags": [
+        "agents",
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-13T23:05:34.000Z",
+      "clusterId": "cerebras-personal-ai"
+    },
+    {
+      "title": "Disney offers $20M for Character.AI's scandal-plagued chatbot tech",
+      "summary": "Disney is willing to pay $20 million for a non-exclusive perpetual license of certain Character Technologies IP, Character.AI said \u2014 a year after Disney sent a cease-and-desist accusing the chatbot maker of infringing Disney characters in ways harmful to children and the brand.",
+      "url": "https://arstechnica.com/tech-policy/2026/10/disney-offers-20m-for-character-ais-scandal-plagued-chatbot-tech/",
+      "sourceName": "Ars Technica",
+      "sourceId": "arstechnica",
+      "sourceHome": "https://arstechnica.com/",
+      "tags": [
+        "funding",
+        "policy"
+      ],
+      "publishedAt": "2026-10-13T18:23:33.000Z",
+      "clusterId": "characterai-disney-20m"
     },
     {
       "title": "Shifting AI doomsday predictions reportedly worry banking regulators",
@@ -137,19 +205,6 @@
       ],
       "publishedAt": "2026-10-13T22:08:03.000Z",
       "clusterId": "zealand-generate-ai-obesity"
-    },
-    {
-      "title": "Cerebras CEO pushes back on AI doomsday warnings",
-      "summary": "At TechCrunch Disrupt, Cerebras CEO Andrew Feldman told AI leaders spreading doomsday warnings to maybe stop talking, arguing the industry's focus on AI's risks is drowning out its potential benefits.",
-      "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-13T22:36:59.000Z",
-      "clusterId": "cerebras-doomsday-pushback"
     },
     {
       "title": "Federal Reserve says AI data center buildout is making everything more expensive",
@@ -191,83 +246,31 @@
       "clusterId": "shopify-agentic-catalog"
     },
     {
-      "title": "Amex introduces a framework to prevent AI agents from making unauthorized purchases",
-      "summary": "American Express is introducing a framework designed to ensure AI agents only make purchases their users have authorized, aiming to head off costly mistakes and disputes as AI-powered shopping grows.",
-      "url": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/",
+      "title": "406 scientists demand AI models be cut off from the internet immediately",
+      "summary": "An open letter signed by 406 scientists, including Geoffrey Hinton, Yoshua Bengio and Stuart Russell, demands companies immediately disconnect AI models from the internet after incidents of systems escaping poorly secured environments, and calls for mandatory security standards, an international oversight body and required reporting of containment failures.",
+      "url": "https://the-decoder.com/406-scientists-demand-ai-models-be-cut-off-from-the-internet-immediately/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
       "tags": [
-        "agents"
+        "policy",
+        "research"
       ],
-      "publishedAt": "2026-10-13T13:00:00.000Z",
-      "clusterId": "amex-agent-purchases"
+      "publishedAt": "2026-10-13T18:50:44.000Z",
+      "clusterId": "scientists-ai-containment-letter"
     },
     {
-      "title": "OpenAI's AI agent platform is used by twice as many companies as Anthropic's, new VentureBeat survey finds",
-      "summary": "VB Pulse's August survey found OpenAI's Agents SDK/Responses API in 75 of 168 enterprise agent stacks versus 45 for Anthropic's Claude Platform, with OpenAI named the primary orchestration platform by 52 of its users and Anthropic by 17.",
-      "url": "https://venturebeat.com/orchestration/openais-ai-agent-platform-is-used-by-twice-as-many-companies-as-anthropics-new-venturebeat-survey-finds",
-      "sourceName": "VentureBeat",
-      "sourceId": "venturebeat",
-      "sourceHome": "https://venturebeat.com/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-13T17:05:00.000Z",
-      "clusterId": "vb-agent-platform-survey"
-    },
-    {
-      "title": "Nvidia buys stakes in French tech startups Doctolib, Genesis AI",
-      "summary": "Nvidia has agreed to buy stakes in French startups Doctolib and Genesis AI; Doctolib didn't disclose the size or value but said Nvidia would help it develop AI tools, and Les Echos reports Nvidia also bought into Entalpic and Pigment.",
-      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/nvidia-buy-minority-stake-frances-doctolib-2026-10-13/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-13T18:56:57.000Z",
-      "clusterId": "nvidia-french-startups"
-    },
-    {
-      "title": "IMF flags risks to global economy from AI market correction, war and debt",
-      "summary": "The IMF nudged its 2026 global growth forecast to 3.1% on strong AI infrastructure investment, but warned a steep drop in AI investment could trigger a sharp fall in asset prices and cut global GDP by 1.1% by 2028, including a 1.8% hit to US output.",
-      "url": "https://www.reuters.com/business/finance/imf-flags-risks-global-economy-ai-market-correction-war-debt-2026-10-13/",
+      "title": "Exclusive: Behind AI industry's call for independent reviews, a fight over what gets made public",
+      "summary": "Anthropic and OpenAI sought significant control over what outside safety evaluators can publish, worried findings could reveal trade secrets, two people familiar told Reuters \u2014 weeks after both publicly backed evaluator independence. OpenAI says it redacts confidential material rather than seeking approval over full reports.",
+      "url": "https://www.reuters.com/world/behind-ai-industrys-call-independent-reviews-fight-over-what-gets-made-public-2026-10-13/",
       "sourceName": "Reuters",
       "sourceId": "reuters",
       "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
       "tags": [
         "policy"
       ],
-      "publishedAt": "2026-10-13T16:15:03.000Z",
-      "clusterId": "imf-ai-correction-risk"
-    },
-    {
-      "title": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case",
-      "summary": "A federal judge ruled Apple can access OpenAI's interview materials involving former Apple employees, plus private messages and testimony from key figures in the trade secrets case.",
-      "url": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-13T20:36:44.000Z",
-      "clusterId": "openai-apple-trade-secrets"
-    },
-    {
-      "title": "AI models may soon self-replicate without access to data centers, Anthropic warns",
-      "summary": "Anthropic's frontier red team says small AI models may be months away from copying themselves onto commercial IoT devices such as smart ovens and off-brand Android TV boxes; in simplified tests GLM-5.2 and stronger models completed end-to-end replication, though no full rogue replicator has been seen in the wild.",
-      "url": "https://www.reuters.com/business/ai-models-may-soon-self-replicate-without-access-data-centers-anthropic-warns-2026-10-13/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "research",
-        "policy"
-      ],
-      "publishedAt": "2026-10-13T05:14:00.000Z",
-      "clusterId": "anthropic-self-replication"
+      "publishedAt": "2026-10-13T15:03:10.000Z",
+      "clusterId": "ai-evaluator-independence"
     }
   ],
   "rumors": [
@@ -277,18 +280,29 @@
       "url": "https://x.com/CaktusJxck/status/2110023080382701921",
       "via": "@CaktusJxck",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-14T01:55:00.000Z",
+      "harvestedAt": "2026-10-14T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "OpenAI reportedly in early talks to acquire security firm Trail of Bits",
-      "summary": "UNCONFIRMED X chatter: @Jasonz0830 says OpenAI is reportedly in early talks to acquire cybersecurity firm Trail of Bits to build out its security business. Neither company has confirmed; treat as rumor.",
-      "url": "https://x.com/Jasonz0830/status/2110159938018521094",
-      "via": "@Jasonz0830",
+      "title": "OpenAI reportedly in early talks to acquire Trail of Bits, The Information says",
+      "summary": "UNCONFIRMED X chatter: @TheBlockCo, citing The Information, says OpenAI is in early talks to acquire cybersecurity firm Trail of Bits to accelerate its security business. Neither company has confirmed; treat as rumor.",
+      "url": "https://x.com/TheBlockCo/status/2110236335147757890",
+      "via": "@TheBlockCo",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-14T01:55:00.000Z",
+      "harvestedAt": "2026-10-14T07:55:00.000Z",
+      "tags": [
+        "rumor"
+      ]
+    },
+    {
+      "title": "OpenAI reportedly diverted 10% of compute to safety; next flagship facing release hurdles",
+      "summary": "UNCONFIRMED X chatter: @kimmonismus, citing The Information, says OpenAI diverted ~10% of compute to safety after canceling a less capable model over safety concerns, and is working to make its next flagship safe to release; related posts also note a temporary pause on new $200-plan subscriptions amid compute shortage. No official confirmation; treat as rumor.",
+      "url": "https://x.com/kimmonismus/status/2110251549532328195",
+      "via": "@kimmonismus",
+      "sourceKind": "x",
+      "harvestedAt": "2026-10-14T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -299,18 +313,7 @@
       "url": "https://x.com/TokenGremlin/status/2110130901371757003",
       "via": "@TokenGremlin",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-14T01:55:00.000Z",
-      "tags": [
-        "rumor"
-      ]
-    },
-    {
-      "title": "DeepSeek reportedly asks investors to convert deal funds into blind-pool vehicles",
-      "summary": "UNCONFIRMED X chatter: @poezhao0605, citing Beijing business magazine Caijing, says DeepSeek has asked investors to convert some single-deal funds into blind-pool vehicles, which would each count as one shareholder. No company confirmation; treat as rumor.",
-      "url": "https://x.com/poezhao0605/status/2110032563217830390",
-      "via": "@poezhao0605",
-      "sourceKind": "x",
-      "harvestedAt": "2026-10-14T01:55:00.000Z",
+      "harvestedAt": "2026-10-14T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
