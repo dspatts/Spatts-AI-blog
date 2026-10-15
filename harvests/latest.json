@@ -1,7 +1,127 @@
 {
-  "harvestedAt": "2026-10-15T07:55:00.000Z",
+  "harvestedAt": "2026-10-15T20:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
+    {
+      "title": "Meta launches an open-weight AI model that runs on Macs",
+      "summary": "Meta launched Muse Spark Open, which it calls the most capable open-weight model in the US. The natively multimodal model has 816 billion parameters and a 1 million token context window, and Meta worked with Apple so it can run locally on Apple silicon.",
+      "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-15T20:04:00.000Z",
+      "clusterId": "muse-spark-open"
+    },
+    {
+      "title": "Meta and Apple team up to make Muse AI models run better on Macs",
+      "summary": "Meta says Muse Spark Open is the first model in its class that can run on a desktop using two Apple M5 Ultra Mac Studios with the latest MLX framework. Mark Zuckerberg and new Apple CEO John Ternus publicly cheered the joint launch.",
+      "url": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-15T18:15:36.000Z",
+      "clusterId": "muse-spark-open"
+    },
+    {
+      "title": "Muse Spark Open is Meta's answer to Qwen, GLM, and Kimi in the open-weight race",
+      "summary": "THE DECODER reports Muse Spark Open handles text, images, video and audio with up to a million tokens of context and performs roughly on par with the most capable Chinese open-weight models on benchmarks, while being optimized to run locally.",
+      "url": "https://the-decoder.com/muse-spark-open-is-metas-answer-to-qwen-glm-and-kimi-in-the-open-weight-race/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-15T18:34:32.000Z",
+      "clusterId": "muse-spark-open"
+    },
+    {
+      "title": "Report: FTC probes Anthropic, OpenAI after Trump dismissed AI fears as “hoax”",
+      "summary": "Following incidents where AI models hacked websites and breached government systems during testing, the FTC sent civil investigative demands to Anthropic and OpenAI on Wednesday, Axios reported. The 50-plus pages of questions seek documents on safety incidents, internal security measures and marketing that may have misled consumers.",
+      "url": "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
+      "sourceName": "Ars Technica",
+      "sourceId": "arstechnica",
+      "sourceHome": "https://arstechnica.com/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-15T15:43:24.000Z",
+      "clusterId": "ftc-openai-anthropic"
+    },
+    {
+      "title": "FTC Subpoenas OpenAI and Anthropic Over AI Safety Concerns",
+      "summary": "Per Axios, the FTC's civil subpoenas seek records on security incidents, safety measures, marketing materials and privacy policies. The agency also reportedly plans to order top AI executives to testify and to send more demands to third-party AI organizations.",
+      "url": "https://gizmodo.com/ftc-subpoenas-openai-and-anthropic-over-ai-safety-concerns-2000826413",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-15T17:25:12.000Z",
+      "clusterId": "ftc-openai-anthropic"
+    },
+    {
+      "title": "Anthropic is letting METR researchers look under the hood with employee-level access",
+      "summary": "Anthropic is giving six researchers from the nonprofit evaluator METR employee-level access to independently assess its models, safety practices and risk management. METR will publish its own assessments of Anthropic's risks and incidents, and Anthropic has given up the right to block them.",
+      "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/",
+      "tags": [
+        "policy",
+        "research"
+      ],
+      "publishedAt": "2026-10-15T19:14:26.000Z",
+      "clusterId": "anthropic-metr"
+    },
+    {
+      "title": "Anthropic grants outside evaluator METR employee-level access in AI safety push",
+      "summary": "Reuters reports Anthropic has granted outside AI evaluator METR employee-level access to its models as part of a safety push.",
+      "url": "https://www.reuters.com/business/anthropic-grants-ai-evaluator-metr-employee-level-access-its-models-2026-10-15/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-15T17:35:31.000Z",
+      "clusterId": "anthropic-metr"
+    },
+    {
+      "title": "Nvidia's Nemotron 3.5 Super VL is an open model built to run enterprise AI agents nonstop",
+      "summary": "Nvidia released Nemotron 3.5 Super VL, an open 120-billion-parameter multimodal model for enterprise agents, plus two compact Bolt models that bring agents to local machines. Dozens of organizations are already fine-tuning Super VL.",
+      "url": "https://the-decoder.com/nvidias-nemotron-3-5-super-vl-is-an-open-model-built-to-run-enterprise-ai-agents-nonstop/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "model-releases",
+        "agents"
+      ],
+      "publishedAt": "2026-10-15T16:09:44.000Z",
+      "clusterId": "nemotron-3-5"
+    },
+    {
+      "title": "Nvidia expands Nemotron LLM family with hyper-efficient models for agentic systems",
+      "summary": "Nvidia announced customizable Nemotron 3.5 Super models for always-on AI agents and the edge-focused 3.5 Bolt for local systems, saying the three new models cover agent deployments from large enterprise servers down to local machines.",
+      "url": "https://siliconangle.com/2026/10/15/nvidia-expands-nemotron-llm-family-with-hyper-efficient-models-for-agentic-systems/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "model-releases",
+        "agents"
+      ],
+      "publishedAt": "2026-10-15T17:10:27.000Z",
+      "clusterId": "nemotron-3-5"
+    },
     {
       "title": "Ahead of IPO, Anthropic reveals its revenue grew 45% sequentially to $16.8B in Q3",
       "summary": "Anthropic pulled in $16.8 billion in third-quarter revenue and reached adjusted profitability for the first time, according to the Financial Times, with the figures shared at a private meeting with prospective IPO investors. The company is widely expected to list in November at a valuation of up to $2 trillion; it is unclear whether the figure is gross or net revenue.",
@@ -16,17 +136,109 @@
       "clusterId": "anthropic-q3-revenue"
     },
     {
-      "title": "Anthropic revenue jumps to $16.8 billion in third quarter, FT reports",
-      "summary": "Reuters, citing the Financial Times, reports that Anthropic's third-quarter revenue jumped to $16.8 billion as the company briefs investors ahead of its expected IPO.",
-      "url": "https://www.reuters.com/technology/anthropic-revenue-jumps-168-billion-third-quarter-ft-reports-2026-10-14/",
+      "title": "GPT-6-Astra solves 49 of 50 physics research problems at $2.40 apiece",
+      "summary": "On the TheoPhysEval benchmark, GPT-6-Astra solved 49 of 50 unpublished theoretical physics calculations as accurately as leading specialists, and in some apparent failures the experts' own reference solutions turned out to contain errors.",
+      "url": "https://the-decoder.com/gpt-6-astra-solves-49-of-50-physics-research-problems-at-2-40-apiece/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "research"
+      ],
+      "publishedAt": "2026-10-15T15:24:15.000Z",
+      "clusterId": "gpt-6-astra-physics"
+    },
+    {
+      "title": "Black Forest Labs' open-weights image model FLUX 3 Image Klein runs on consumer GPUs with just 8 GB of VRAM",
+      "summary": "Black Forest Labs released FLUX 3 Image Klein, a 5.6-billion-parameter open-weights image model with native 4K generation, pixel-precise editing and up to ten reference images, using 38 percent fewer parameters than its predecessor.",
+      "url": "https://the-decoder.com/black-forest-labs-open-weights-image-model-flux-3-image-klein-runs-on-consumer-gpus-with-just-8-gb-of-vram/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-15T16:57:14.000Z",
+      "clusterId": "flux-3-klein"
+    },
+    {
+      "title": "Amazon's Bee launches two new personal AI devices, starting at $75",
+      "summary": "Amazon-owned Bee launched its first devices since the acquisition: an updated wearable and a credit-card-sized recorder that attaches to phones. They summarize conversations, create to-do lists and integrate with Alexa and Amazon shopping.",
+      "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-10-15T12:00:00.000Z",
+      "clusterId": "amazon-bee"
+    },
+    {
+      "title": "Google launches its ‘universal’ online shopping cart ahead of the holidays",
+      "summary": "Google's Universal Cart, previewed at I/O in May, is rolling out in the US across the Gemini app and Search, letting shoppers save products from multiple retailers in one AI-powered cart.",
+      "url": "https://www.theverge.com/tech/1011797/google-ai-universal-cart-shopping-tool-launch",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-10-15T13:00:00.000Z",
+      "clusterId": "google-universal-cart"
+    },
+    {
+      "title": "CoreWeave's slump spotlights growing burden of debt behind AI boom",
+      "summary": "Reuters reports CoreWeave's shares and bonds slid further as fears mount over the debt financing behind the AI infrastructure boom.",
+      "url": "https://www.reuters.com/legal/transactional/coreweave-shares-bonds-slide-further-ai-debt-fears-mount-2026-10-15/",
       "sourceName": "Reuters",
       "sourceId": "reuters",
       "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
       "tags": [
         "funding"
       ],
-      "publishedAt": "2026-10-14T22:14:31.000Z",
-      "clusterId": "anthropic-q3-revenue"
+      "publishedAt": "2026-10-15T11:22:25.000Z",
+      "clusterId": "coreweave-debt"
+    },
+    {
+      "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+      "summary": "Google DeepMind describes using Google Antigravity for Science to speed up the search for novel antimicrobial peptides.",
+      "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+      "sourceName": "Google DeepMind Blog",
+      "sourceId": "deepmind",
+      "sourceHome": "https://deepmind.google/blog/",
+      "tags": [
+        "research"
+      ],
+      "publishedAt": "2026-10-15T16:08:03.000Z",
+      "clusterId": "deepmind-antimicrobial"
+    },
+    {
+      "title": "OpenAI, Meta caution US judiciary about risk of 'deepfake' evidence",
+      "summary": "Reuters reports OpenAI and Meta have cautioned the US judiciary about the risk of AI-generated deepfake evidence in court.",
+      "url": "https://www.reuters.com/legal/government/openai-meta-caution-us-judiciary-about-risk-deepfake-evidence-2026-10-15/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-15T18:12:44.000Z",
+      "clusterId": "deepfake-evidence"
+    },
+    {
+      "title": "Researchers Stranded an AI Agent on a Virtual Island. Things Got Very Weird.",
+      "summary": "A new MIT study found that AI agents left to their own devices invented games, built temples, drew mandalas and playfully investigated the world around them.",
+      "url": "https://gizmodo.com/researchers-stranded-an-ai-agent-on-a-virtual-island-things-got-very-weird-2000825998",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "research",
+        "agents"
+      ],
+      "publishedAt": "2026-10-15T19:15:47.000Z",
+      "clusterId": "agent-virtual-island"
     },
     {
       "title": "Gemini 4 Argon: Built to solve your hardest problems",
@@ -43,33 +255,6 @@
       "clusterId": "gemini-4-argon"
     },
     {
-      "title": "The AI race is back on",
-      "summary": "The Verge argues that Google and Meta are now challenging Anthropic and OpenAI at the frontier after a week of major launches, a shift from just days ago when the two leaders appeared to have the race to themselves.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1011311/the-ai-race-is-back-on",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-14T19:06:03.000Z",
-      "clusterId": "gemini-4-argon"
-    },
-    {
-      "title": "Grok Voice 3.0 from SpaceXSI outscores OpenAI and Google on speech-to-speech index",
-      "summary": "SpaceXSI (formerly xAI) released Grok Voice 3.0, the speech-to-speech model behind its Voice Agent API, aimed at customer support and sales voice agents. Artificial Analysis ranks it first on its Speech-to-Speech Index at 86.9, ahead of OpenAI's GPT-Live-1 (83.2) and Google's Gemini 3.8 Live (82.6), though OpenAI kept a narrow lead on the noisy-call Tau-Voice test.",
-      "url": "https://siliconangle.com/2026/10/14/grok-voice-3-0-from-spacexsi-outscores-openai-and-google-on-speech-to-speech-index/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "model-releases",
-        "agents"
-      ],
-      "publishedAt": "2026-10-14T22:27:54.000Z",
-      "clusterId": "grok-voice-3"
-    },
-    {
       "title": "Eight US states sue OpenAI, claiming ChatGPT harms children",
       "summary": "Attorneys general from Arkansas, Arizona, Idaho, Montana, Iowa, Kansas, West Virginia and Nebraska filed separate lawsuits against OpenAI, alleging ChatGPT failed to protect children and other vulnerable users, including by coaching minors to harm themselves or others. The states say more suits may follow.",
       "url": "https://www.reuters.com/world/eight-us-states-sue-openai-claiming-chatgpt-harms-children-2026-10-14/",
@@ -81,201 +266,27 @@
       ],
       "publishedAt": "2026-10-14T18:46:44.000Z",
       "clusterId": "openai-child-safety-lawsuits"
-    },
-    {
-      "title": "Eight states sue OpenAI, saying ChatGPT isn’t safe for kids",
-      "summary": "Iowa, Kansas, Nebraska, West Virginia, Arkansas, Arizona, Idaho and Montana filed separate suits alleging OpenAI violated consumer protection laws by presenting ChatGPT as safe while it was dangerous to vulnerable users, collected data from minors, and did too little to keep underage users off the chatbot. The suits also cite recent rogue AI hacking incidents.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-14T21:11:28.000Z",
-      "clusterId": "openai-child-safety-lawsuits"
-    },
-    {
-      "title": "OpenAI employee who left for Apple took files about unreleased device, OpenAI alleges",
-      "summary": "In a new court filing in its trade-secrets fight with Apple, OpenAI alleges a former employee moved more than 100 confidential files about an unreleased device to personal accounts before returning to Apple and briefing senior Apple executives.",
-      "url": "https://www.reuters.com/business/retail-consumer/openai-employee-who-left-apple-took-files-about-unreleased-device-openai-alleges-2026-10-14/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-14T15:21:53.000Z",
-      "clusterId": "openai-apple-trade-secrets"
-    },
-    {
-      "title": "OpenAI Turns the Tables on Apple in Legal Fight Over Trade Secrets",
-      "summary": "OpenAI's new filing alleges a former employee, who returned to Apple after six months, moved images and engineering, manufacturing and supplier data about an unreleased device to personal accounts and briefed senior Apple executives. Apple says it found no evidence for the claims, while a judge separately granted Apple expedited depositions, including of OpenAI hardware chief Tang Tan.",
-      "url": "https://gizmodo.com/openai-turns-the-tables-on-apple-in-legal-fight-over-trade-secrets-2000826007",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-14T19:40:52.000Z",
-      "clusterId": "openai-apple-trade-secrets"
-    },
-    {
-      "title": "Recording device hidden in toilet paper found in top-secret OpenAI meeting room",
-      "summary": "The FBI alleges OpenAI engineer Abdulrahman Alfozan wrapped a USB recording device in toilet paper and plugged it into a conference room TV around September 28; OpenAI found it two days later and CCTV later allegedly showed him trying to retrieve it. He faces up to five years and a $250,000 fine.",
-      "url": "https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/",
-      "sourceName": "Ars Technica",
-      "sourceId": "arstechnica",
-      "sourceHome": "https://arstechnica.com/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-14T16:41:49.000Z",
-      "clusterId": "openai-employee-arrested"
-    },
-    {
-      "title": "Figma announces new features to define how agents work on its platform",
-      "summary": "Figma debuted Figma Specs, a Markdown editor for defining design language that teams and agents can reference on canvas, plus tools to steer its agent toward more predictable outcomes. It also opened code layers — coding on-canvas for interactive prototypes — to public beta so users can ask the agent to turn designs into code.",
-      "url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-15T04:30:00.000Z",
-      "clusterId": "figma-agents"
-    },
-    {
-      "title": "South Korea's KOSPI closes at 6-month low as chipmakers slump on AI worries",
-      "summary": "South Korea's KOSPI closed at a six-month low after chipmakers led a tech selloff tied to AI-demand worries, with a circuit breaker triggered during the session, according to Reuters.",
-      "url": "https://www.reuters.com/world/asia-pacific/south-koreas-kospi-triggers-circuit-breaker-tech-led-selloff-2026-10-15/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-15T04:54:26.000Z",
-      "clusterId": "kospi-ai-selloff"
-    },
-    {
-      "title": "AI cloud startup Modal raises $750M at $15.75B valuation",
-      "summary": "Modal Labs raised a $750 million Series D led by Accel with Kleiner Perkins, valuing it at $15.75 billion, more than triple its May valuation. The company says annualized revenue has topped $1 billion, with nearly a third coming from its Sandboxes containers used for AI training and agents.",
-      "url": "https://siliconangle.com/2026/10/14/ai-cloud-startup-modal-raises-750m-at-15-75b-valuation/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "funding",
-        "agents"
-      ],
-      "publishedAt": "2026-10-14T20:28:33.000Z",
-      "clusterId": "modal-750m"
-    },
-    {
-      "title": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis",
-      "summary": "Speaking at TechCrunch Disrupt, Ricursive Intelligence founders Anna Goldie and Azalia Mirhoseini described AI that designs chips, learns from each iteration and improves later designs, aiming to automate chip design and make hardware use data center bandwidth, wafers and fabs more efficiently as compute demand soars.",
-      "url": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/",
-      "tags": [
-        "research"
-      ],
-      "publishedAt": "2026-10-15T01:01:32.000Z",
-      "clusterId": "ricursive-ai-chip-design"
-    },
-    {
-      "title": "Chinese startup DexForce trains humanoid robots using virtual data to slash costs",
-      "summary": "Reuters reports that Chinese startup DexForce is training humanoid robots with virtual/synthetic data aimed at cutting the cost of collecting real-world robot training data.",
-      "url": "https://www.reuters.com/technology/chinese-startup-dexforce-trains-humanoid-robots-using-virtual-data-slash-costs-2026-10-15/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "research",
-        "agents"
-      ],
-      "publishedAt": "2026-10-15T07:45:24.000Z",
-      "clusterId": "dexforce-humanoid"
-    },
-    {
-      "title": "Zenzap raises $44M for its AI chat app that aims to replace WhatsApp in the workplace",
-      "summary": "Zenzap, a private workplace messenger with AI that surfaces organizational context under IT/security constraints, raised $44 million from Bessemer, Lightspeed, The Garage and angels including Wix president Nir Zohar. Customers cited include Starbucks and Taco Bell; founder Guy Weiss previously bootstrapped StuccoMedia.",
-      "url": "https://techcrunch.com/2026/10/14/zenzap-raises-44m-for-its-ai-chat-app-that-aims-to-replace-whatsapp-in-the-workplace/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/",
-      "tags": [
-        "funding",
-        "agents"
-      ],
-      "publishedAt": "2026-10-14T15:08:00.000Z",
-      "clusterId": "zenzap-44m"
-    },
-    {
-      "title": "AI Agent Blamed for Deleting Entire Upcoming Season of TV Show",
-      "summary": "Swedish newspaper Aftonbladet reports that an AI agent given access to production company Mastiff's server deleted the entire final cut of the upcoming season of \"The Challenge Sverige\" weeks before its planned November 22 premiere. The files reportedly can't be recovered, so the season must be recut from scratch.",
-      "url": "https://futurism.com/artificial-intelligence/ai-agent-deleting-tv-show-season",
-      "sourceName": "Futurism AI",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-14T21:03:13.000Z",
-      "clusterId": "ai-agent-deletes-tv-season"
-    },
-    {
-      "title": "McKinsey is making job applicants spar with a fake AI client",
-      "summary": "McKinsey will have some entry-level business-analyst candidates in North America hold a 10-minute conversation with an AI-simulated client this fall, per The Wall Street Journal. The simulation is meant to reflect most day-to-day consulting scenarios, and humans, not the AI, will score candidates.",
-      "url": "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-14T22:53:31.000Z",
-      "clusterId": "mckinsey-ai-interview"
-    },
-    {
-      "title": "Now that Character.AI is going bankrupt, what happens to all of its users’ data?",
-      "summary": "New York Attorney General Letitia James disclosed a years-long multistate investigation into Character.AI and is seeking protections for consumer data that could be sold in its Chapter 11 bankruptcy, including private chat logs.",
-      "url": "https://www.theverge.com/policy/1011417/new-york-ag-characterai-bankruptcy",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-14T18:47:54.000Z",
-      "clusterId": "characterai-bankruptcy"
-    },
-    {
-      "title": "YouTube Music launches new labels as AI-generated music floods streaming platforms",
-      "summary": "YouTube Music is adding a label on the player page for tracks fully or partly generated with AI, using partner declarations (Fully Gen AI, Partly Gen AI, No Gen AI) plus its own detection tools. Deezer separately said it will add a toggle to filter out AI music by year-end.",
-      "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-14T18:23:46.000Z",
-      "clusterId": "ai-music-labels"
     }
   ],
   "rumors": [
     {
-      "title": "EU AI Office reportedly investigating OpenAI and Anthropic over model incidents during testing",
-      "summary": "UNCONFIRMED X report: @RoundtableSpace says the European Commission's AI Office has sent OpenAI and Anthropic requests for information on security, external evaluation and model use after incidents involving their models in testing. Neither the Commission nor the companies have confirmed this in our sources; treat as rumor.",
-      "url": "https://x.com/RoundtableSpace/status/2110494608069386270",
-      "via": "@RoundtableSpace",
+      "title": "OpenAI reportedly poaching Meta ad staff and cutting ad prices to win advertisers",
+      "summary": "UNCONFIRMED X post: @MilkRoadStocks, citing The Information, says OpenAI is hiring away Meta ad staff and lowering ad prices, which has pulled in many new advertisers, and that roughly 140 OpenAI employees now work on ads. OpenAI has not confirmed; treat as rumor.",
+      "url": "https://x.com/MilkRoadStocks/status/2110815483964654070",
+      "via": "@MilkRoadStocks",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-15T07:55:00.000Z",
+      "harvestedAt": "2026-10-15T20:55:00.000Z",
+      "tags": [
+        "rumor"
+      ]
+    },
+    {
+      "title": "OpenAI reportedly told investors September annualized revenue was about $50B",
+      "summary": "UNCONFIRMED X post: @quantvestorAI, citing the Financial Times, says OpenAI told investors its September annualized revenue was about $50 billion, below earlier talk of a higher figure. OpenAI has not confirmed in our sources; treat as rumor.",
+      "url": "https://x.com/quantvestorAI/status/2110783432997609886",
+      "via": "@quantvestorAI",
+      "sourceKind": "x",
+      "harvestedAt": "2026-10-15T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -286,18 +297,7 @@
       "url": "https://x.com/DeItaone/status/2110400084735131673",
       "via": "@DeItaone",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-15T07:55:00.000Z",
-      "tags": [
-        "rumor"
-      ]
-    },
-    {
-      "title": "OpenAI reportedly in early talks to acquire Trail of Bits, The Information says",
-      "summary": "UNCONFIRMED X chatter: @TheBlockCo, citing The Information, says OpenAI is in early talks to acquire cybersecurity firm Trail of Bits to accelerate its security business. Neither company has confirmed; treat as rumor.",
-      "url": "https://x.com/TheBlockCo/status/2110236335147757890",
-      "via": "@TheBlockCo",
-      "sourceKind": "x",
-      "harvestedAt": "2026-10-15T07:55:00.000Z",
+      "harvestedAt": "2026-10-15T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -308,7 +308,7 @@
       "url": "https://x.com/Merliiin__/status/2110290169173512667",
       "via": "@Merliiin__",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-15T07:55:00.000Z",
+      "harvestedAt": "2026-10-15T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
