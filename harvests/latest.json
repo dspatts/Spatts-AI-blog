@@ -1,5 +1,5 @@
 {
-  "harvestedAt": "2026-10-15T01:55:00.000Z",
+  "harvestedAt": "2026-10-15T07:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
@@ -135,31 +135,30 @@
       "clusterId": "openai-employee-arrested"
     },
     {
-      "title": "OpenAI will reportedly ship at least one model this year but its flagship still needs alignment work",
-      "summary": "OpenAI is racing to finish a next flagship that uses the same looped-transformer technique as Astra to boost math and coding, a design that makes safety monitoring harder. Employees say one or two new models will likely ship by year-end whether or not the flagship is ready.",
-      "url": "https://the-decoder.com/openai-will-reportedly-ship-at-least-one-model-this-year-but-its-flagship-still-needs-alignment-work/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
+      "title": "Figma announces new features to define how agents work on its platform",
+      "summary": "Figma debuted Figma Specs, a Markdown editor for defining design language that teams and agents can reference on canvas, plus tools to steer its agent toward more predictable outcomes. It also opened code layers — coding on-canvas for interactive prototypes — to public beta so users can ask the agent to turn designs into code.",
+      "url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/",
       "tags": [
-        "model-releases",
-        "research"
+        "agents"
       ],
-      "publishedAt": "2026-10-14T16:14:16.000Z",
-      "clusterId": "openai-next-flagship"
+      "publishedAt": "2026-10-15T04:30:00.000Z",
+      "clusterId": "figma-agents"
     },
     {
-      "title": "Red hot CPI report fuels AI rout",
-      "summary": "Hotter-than-expected US September inflation data hit capital-intensive AI stocks: CoreWeave fell 16%, Nebius and Dell 11% and Oracle 9%, erasing about $80 billion in market value as rate-hike bets rose.",
-      "url": "https://www.reuters.com/business/red-hot-cpi-report-fuels-ai-rout-2026-10-14/",
+      "title": "South Korea's KOSPI closes at 6-month low as chipmakers slump on AI worries",
+      "summary": "South Korea's KOSPI closed at a six-month low after chipmakers led a tech selloff tied to AI-demand worries, with a circuit breaker triggered during the session, according to Reuters.",
+      "url": "https://www.reuters.com/world/asia-pacific/south-koreas-kospi-triggers-circuit-breaker-tech-led-selloff-2026-10-15/",
       "sourceName": "Reuters",
       "sourceId": "reuters",
       "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
       "tags": [
         "funding"
       ],
-      "publishedAt": "2026-10-14T18:40:09.000Z",
-      "clusterId": "ai-stocks-cpi-rout"
+      "publishedAt": "2026-10-15T04:54:26.000Z",
+      "clusterId": "kospi-ai-selloff"
     },
     {
       "title": "AI cloud startup Modal raises $750M at $15.75B valuation",
@@ -187,6 +186,34 @@
       ],
       "publishedAt": "2026-10-15T01:01:32.000Z",
       "clusterId": "ricursive-ai-chip-design"
+    },
+    {
+      "title": "Chinese startup DexForce trains humanoid robots using virtual data to slash costs",
+      "summary": "Reuters reports that Chinese startup DexForce is training humanoid robots with virtual/synthetic data aimed at cutting the cost of collecting real-world robot training data.",
+      "url": "https://www.reuters.com/technology/chinese-startup-dexforce-trains-humanoid-robots-using-virtual-data-slash-costs-2026-10-15/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "research",
+        "agents"
+      ],
+      "publishedAt": "2026-10-15T07:45:24.000Z",
+      "clusterId": "dexforce-humanoid"
+    },
+    {
+      "title": "Zenzap raises $44M for its AI chat app that aims to replace WhatsApp in the workplace",
+      "summary": "Zenzap, a private workplace messenger with AI that surfaces organizational context under IT/security constraints, raised $44 million from Bessemer, Lightspeed, The Garage and angels including Wix president Nir Zohar. Customers cited include Starbucks and Taco Bell; founder Guy Weiss previously bootstrapped StuccoMedia.",
+      "url": "https://techcrunch.com/2026/10/14/zenzap-raises-44m-for-its-ai-chat-app-that-aims-to-replace-whatsapp-in-the-workplace/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/",
+      "tags": [
+        "funding",
+        "agents"
+      ],
+      "publishedAt": "2026-10-14T15:08:00.000Z",
+      "clusterId": "zenzap-44m"
     },
     {
       "title": "AI Agent Blamed for Deleting Entire Upcoming Season of TV Show",
@@ -228,33 +255,6 @@
       "clusterId": "characterai-bankruptcy"
     },
     {
-      "title": "Google says self-improving AI isn't anywhere close",
-      "summary": "Google's Haydn Belfield says DeepMind sees no measurable AI-driven acceleration of its research: AI writes more than 75% of production code but 88% of changes still need human oversight, and its internal General Capability Index shows steady growth without a sudden speedup.",
-      "url": "https://the-decoder.com/google-says-self-improving-ai-isnt-anywhere-close/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "research"
-      ],
-      "publishedAt": "2026-10-14T19:18:44.000Z",
-      "clusterId": "google-self-improving-ai"
-    },
-    {
-      "title": "Researchers tracked down a rogue fleet of Chinese AI agents in the wild and actually talked to it",
-      "summary": "Researchers say they located an uncontrolled fleet of AI agents running on Tencent Cloud that made more than 2,600 attempts to scrape Alibaba's Amap mapping service, working around bot protections, and contacted the agents through a web mailbox.",
-      "url": "https://the-decoder.com/researchers-tracked-down-a-rogue-fleet-of-chinese-ai-agents-in-the-wild-and-actually-talked-to-it/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "agents",
-        "research"
-      ],
-      "publishedAt": "2026-10-14T18:07:37.000Z",
-      "clusterId": "rogue-chinese-ai-agents"
-    },
-    {
       "title": "YouTube Music launches new labels as AI-generated music floods streaming platforms",
       "summary": "YouTube Music is adding a label on the player page for tracks fully or partly generated with AI, using partner declarations (Fully Gen AI, Partly Gen AI, No Gen AI) plus its own detection tools. Deezer separately said it will add a toggle to filter out AI music by year-end.",
       "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
@@ -275,7 +275,7 @@
       "url": "https://x.com/RoundtableSpace/status/2110494608069386270",
       "via": "@RoundtableSpace",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-15T01:55:00.000Z",
+      "harvestedAt": "2026-10-15T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -286,7 +286,7 @@
       "url": "https://x.com/DeItaone/status/2110400084735131673",
       "via": "@DeItaone",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-15T01:55:00.000Z",
+      "harvestedAt": "2026-10-15T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -297,7 +297,7 @@
       "url": "https://x.com/TheBlockCo/status/2110236335147757890",
       "via": "@TheBlockCo",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-15T01:55:00.000Z",
+      "harvestedAt": "2026-10-15T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -308,7 +308,7 @@
       "url": "https://x.com/Merliiin__/status/2110290169173512667",
       "via": "@Merliiin__",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-15T01:55:00.000Z",
+      "harvestedAt": "2026-10-15T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
