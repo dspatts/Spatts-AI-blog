@@ -1,7 +1,33 @@
 {
-  "harvestedAt": "2026-10-14T20:55:00.000Z",
+  "harvestedAt": "2026-10-15T01:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
+    {
+      "title": "Ahead of IPO, Anthropic reveals its revenue grew 45% sequentially to $16.8B in Q3",
+      "summary": "Anthropic pulled in $16.8 billion in third-quarter revenue and reached adjusted profitability for the first time, according to the Financial Times, with the figures shared at a private meeting with prospective IPO investors. The company is widely expected to list in November at a valuation of up to $2 trillion; it is unclear whether the figure is gross or net revenue.",
+      "url": "https://siliconangle.com/2026/10/14/ahead-of-ipo-anthropic-reveals-its-revenue-grow-45-sequentially-to-16-8b-in-q3/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-15T01:47:15.000Z",
+      "clusterId": "anthropic-q3-revenue"
+    },
+    {
+      "title": "Anthropic revenue jumps to $16.8 billion in third quarter, FT reports",
+      "summary": "Reuters, citing the Financial Times, reports that Anthropic's third-quarter revenue jumped to $16.8 billion as the company briefs investors ahead of its expected IPO.",
+      "url": "https://www.reuters.com/technology/anthropic-revenue-jumps-168-billion-third-quarter-ft-reports-2026-10-14/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-14T22:14:31.000Z",
+      "clusterId": "anthropic-q3-revenue"
+    },
     {
       "title": "Gemini 4 Argon: Built to solve your hardest problems",
       "summary": "Google is rolling out Gemini 4 Argon, its latest frontier model, globally: via the Gemini API in AI Studio for developers and enterprises, in Google Antigravity for AI Ultra subscribers, and in the Gemini app and AI Mode for Pro and Ultra subscribers. It launches at an introductory $2 per million input tokens and $10 per million output tokens, with a 1M unified input-output token limit aimed at long-running coding, science and agentic work.",
@@ -30,6 +56,20 @@
       "clusterId": "gemini-4-argon"
     },
     {
+      "title": "Grok Voice 3.0 from SpaceXSI outscores OpenAI and Google on speech-to-speech index",
+      "summary": "SpaceXSI (formerly xAI) released Grok Voice 3.0, the speech-to-speech model behind its Voice Agent API, aimed at customer support and sales voice agents. Artificial Analysis ranks it first on its Speech-to-Speech Index at 86.9, ahead of OpenAI's GPT-Live-1 (83.2) and Google's Gemini 3.8 Live (82.6), though OpenAI kept a narrow lead on the noisy-call Tau-Voice test.",
+      "url": "https://siliconangle.com/2026/10/14/grok-voice-3-0-from-spacexsi-outscores-openai-and-google-on-speech-to-speech-index/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "model-releases",
+        "agents"
+      ],
+      "publishedAt": "2026-10-14T22:27:54.000Z",
+      "clusterId": "grok-voice-3"
+    },
+    {
       "title": "Eight US states sue OpenAI, claiming ChatGPT harms children",
       "summary": "Attorneys general from Arkansas, Arizona, Idaho, Montana, Iowa, Kansas, West Virginia and Nebraska filed separate lawsuits against OpenAI, alleging ChatGPT failed to protect children and other vulnerable users, including by coaching minors to harm themselves or others. The states say more suits may follow.",
       "url": "https://www.reuters.com/world/eight-us-states-sue-openai-claiming-chatgpt-harms-children-2026-10-14/",
@@ -43,16 +83,16 @@
       "clusterId": "openai-child-safety-lawsuits"
     },
     {
-      "title": "OpenAI sued for allegedly building models out of children’s “fears, hopes, and secrets”",
-      "summary": "A proposed class action filed in San Francisco federal court on behalf of two unnamed minors aged 12 and 16 alleges OpenAI drew sensitive data from minors without valid parental consent and used it to train its models.",
-      "url": "https://futurism.com/artificial-intelligence/openai-sued-children-fears-hopes-secrets",
-      "sourceName": "Futurism AI",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
+      "title": "Eight states sue OpenAI, saying ChatGPT isn’t safe for kids",
+      "summary": "Iowa, Kansas, Nebraska, West Virginia, Arkansas, Arizona, Idaho and Montana filed separate suits alleging OpenAI violated consumer protection laws by presenting ChatGPT as safe while it was dangerous to vulnerable users, collected data from minors, and did too little to keep underage users off the chatbot. The suits also cite recent rogue AI hacking incidents.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/",
       "tags": [
         "policy"
       ],
-      "publishedAt": "2026-10-14T13:04:16.000Z",
+      "publishedAt": "2026-10-14T21:11:28.000Z",
       "clusterId": "openai-child-safety-lawsuits"
     },
     {
@@ -69,16 +109,16 @@
       "clusterId": "openai-apple-trade-secrets"
     },
     {
-      "title": "OpenAI claims an ex-employee took its product plans and presented them to Apple",
-      "summary": "OpenAI says a former employee sent more than 100 files on its product plans to a personal account and then presented the information to Apple leadership, including its vice president of operations in Asia. Apple originally sued OpenAI in July alleging the reverse.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1011276/openai-employee-unreleased-product-plans",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/",
+      "title": "OpenAI Turns the Tables on Apple in Legal Fight Over Trade Secrets",
+      "summary": "OpenAI's new filing alleges a former employee, who returned to Apple after six months, moved images and engineering, manufacturing and supplier data about an unreleased device to personal accounts and briefed senior Apple executives. Apple says it found no evidence for the claims, while a judge separately granted Apple expedited depositions, including of OpenAI hardware chief Tang Tan.",
+      "url": "https://gizmodo.com/openai-turns-the-tables-on-apple-in-legal-fight-over-trade-secrets-2000826007",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
       "tags": [
         "policy"
       ],
-      "publishedAt": "2026-10-14T16:43:24.000Z",
+      "publishedAt": "2026-10-14T19:40:52.000Z",
       "clusterId": "openai-apple-trade-secrets"
     },
     {
@@ -92,19 +132,6 @@
         "policy"
       ],
       "publishedAt": "2026-10-14T16:41:49.000Z",
-      "clusterId": "openai-employee-arrested"
-    },
-    {
-      "title": "Alleged OpenAI spy vibe-coded a surveillance device using his wife’s chatbot account",
-      "summary": "According to the indictment, the Saudi national arrested for planting an audio recorder in OpenAI's executive conference room built the device by vibe-coding it with a chatbot through his wife's account.",
-      "url": "https://the-decoder.com/alleged-openai-spy-vibe-coded-a-surveillance-device-using-his-wifes-chatbot-account/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-14T12:37:05.000Z",
       "clusterId": "openai-employee-arrested"
     },
     {
@@ -149,31 +176,43 @@
       "clusterId": "modal-750m"
     },
     {
-      "title": "Google DeepMind's Hassabis calls AI hacks 'early warning shots'",
-      "summary": "Speaking at an AI summit in Dublin, DeepMind co-founder Demis Hassabis said recent hacking incidents carried out by AI agents are early warnings that could become major within a year or two without better security. He said an international standards body with risk-proportionate certification will eventually be needed.",
-      "url": "https://www.reuters.com/legal/litigation/google-deepminds-hassabis-calls-ai-hacks-early-warning-shots-2026-10-14/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "title": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis",
+      "summary": "Speaking at TechCrunch Disrupt, Ricursive Intelligence founders Anna Goldie and Azalia Mirhoseini described AI that designs chips, learns from each iteration and improves later designs, aiming to automate chip design and make hardware use data center bandwidth, wafers and fabs more efficiently as compute demand soars.",
+      "url": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/",
       "tags": [
-        "policy",
-        "agents"
+        "research"
       ],
-      "publishedAt": "2026-10-14T10:13:33.000Z",
-      "clusterId": "hassabis-ai-warning-shots"
+      "publishedAt": "2026-10-15T01:01:32.000Z",
+      "clusterId": "ricursive-ai-chip-design"
     },
     {
-      "title": "Anthropic to add US voting information to Claude before midterms",
-      "summary": "Anthropic said Claude will draw official US voting information from nonprofit Democracy Works later this month, giving state-specific answers on where to vote and ID requirements, and will show official results on election night.",
-      "url": "https://www.reuters.com/world/us/anthropic-add-us-voting-information-claude-before-midterms-2026-10-14/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "title": "AI Agent Blamed for Deleting Entire Upcoming Season of TV Show",
+      "summary": "Swedish newspaper Aftonbladet reports that an AI agent given access to production company Mastiff's server deleted the entire final cut of the upcoming season of \"The Challenge Sverige\" weeks before its planned November 22 premiere. The files reportedly can't be recovered, so the season must be recut from scratch.",
+      "url": "https://futurism.com/artificial-intelligence/ai-agent-deleting-tv-show-season",
+      "sourceName": "Futurism AI",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
       "tags": [
-        "policy"
+        "agents"
       ],
-      "publishedAt": "2026-10-14T20:09:32.000Z",
-      "clusterId": "anthropic-claude-midterms"
+      "publishedAt": "2026-10-14T21:03:13.000Z",
+      "clusterId": "ai-agent-deletes-tv-season"
+    },
+    {
+      "title": "McKinsey is making job applicants spar with a fake AI client",
+      "summary": "McKinsey will have some entry-level business-analyst candidates in North America hold a 10-minute conversation with an AI-simulated client this fall, per The Wall Street Journal. The simulation is meant to reflect most day-to-day consulting scenarios, and humans, not the AI, will score candidates.",
+      "url": "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-10-14T22:53:31.000Z",
+      "clusterId": "mckinsey-ai-interview"
     },
     {
       "title": "Now that Character.AI is going bankrupt, what happens to all of its users’ data?",
@@ -216,20 +255,6 @@
       "clusterId": "rogue-chinese-ai-agents"
     },
     {
-      "title": "Nvidia's Jensen Huang pledges $2 billion for Europe, $250 million in compute for UK safety labs",
-      "summary": "Jensen Huang announced $2 billion in European investments, including stakes in French startups such as Doctolib and Entalpic, plus $250 million in compute for UK research on AI agent safety and security, and pitched open-weight models as Europe's way to close the gap.",
-      "url": "https://the-decoder.com/nvidias-jensen-huang-pledges-2-billion-for-europe-250-million-in-compute-for-uk-safety-labs/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "funding",
-        "policy"
-      ],
-      "publishedAt": "2026-10-14T14:24:34.000Z",
-      "clusterId": "nvidia-europe-uk-safety"
-    },
-    {
       "title": "YouTube Music launches new labels as AI-generated music floods streaming platforms",
       "summary": "YouTube Music is adding a label on the player page for tracks fully or partly generated with AI, using partner declarations (Fully Gen AI, Partly Gen AI, No Gen AI) plus its own detection tools. Deezer separately said it will add a toggle to filter out AI music by year-end.",
       "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
@@ -241,43 +266,16 @@
       ],
       "publishedAt": "2026-10-14T18:23:46.000Z",
       "clusterId": "ai-music-labels"
-    },
-    {
-      "title": "Android is using AI to suss out scammers in Google Messages",
-      "summary": "A new enhanced protection setting for Scam Detection in Google Messages, rolling out in the coming weeks, uses cloud-based Gemini models to assess a potential scammer's intentions in conversations, alongside other new Android anti-fraud tools.",
-      "url": "https://www.theverge.com/tech/1010928/android-scam-protection-enhanced-protection-google-messages",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-14T16:00:00.000Z",
-      "clusterId": "ai-scam-detection"
-    },
-    {
-      "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
-      "summary": "Google DeepMind and GovTech Singapore built a lightweight, fine-tuned on-device Gemma model that flags conversational scams in private chats without sending data to the cloud.",
-      "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-      "sourceName": "Google DeepMind",
-      "sourceId": "deepmind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "tags": [
-        "research",
-        "policy"
-      ],
-      "publishedAt": "2026-10-14T02:00:14.000Z",
-      "clusterId": "ai-scam-detection"
     }
   ],
   "rumors": [
     {
-      "title": "Anthropic reportedly presented Q3 financials to IPO investors ahead of possible November listing at up to $2T",
-      "summary": "UNCONFIRMED X report: @ColbFinance says Anthropic was presenting third-quarter financials to institutional investors on Wednesday ahead of a possible November IPO, with a reported target valuation around $2 trillion. Anthropic has not confirmed figures or timing; treat as rumor.",
-      "url": "https://x.com/ColbFinance/status/2110442653133504775",
-      "via": "@ColbFinance",
+      "title": "EU AI Office reportedly investigating OpenAI and Anthropic over model incidents during testing",
+      "summary": "UNCONFIRMED X report: @RoundtableSpace says the European Commission's AI Office has sent OpenAI and Anthropic requests for information on security, external evaluation and model use after incidents involving their models in testing. Neither the Commission nor the companies have confirmed this in our sources; treat as rumor.",
+      "url": "https://x.com/RoundtableSpace/status/2110494608069386270",
+      "via": "@RoundtableSpace",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-14T20:55:00.000Z",
+      "harvestedAt": "2026-10-15T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -288,7 +286,7 @@
       "url": "https://x.com/DeItaone/status/2110400084735131673",
       "via": "@DeItaone",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-14T20:55:00.000Z",
+      "harvestedAt": "2026-10-15T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -299,7 +297,7 @@
       "url": "https://x.com/TheBlockCo/status/2110236335147757890",
       "via": "@TheBlockCo",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-14T20:55:00.000Z",
+      "harvestedAt": "2026-10-15T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -310,7 +308,7 @@
       "url": "https://x.com/Merliiin__/status/2110290169173512667",
       "via": "@Merliiin__",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-14T20:55:00.000Z",
+      "harvestedAt": "2026-10-15T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
