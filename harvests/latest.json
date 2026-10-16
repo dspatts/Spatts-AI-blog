@@ -1,5 +1,5 @@
 {
-  "harvestedAt": "2026-10-15T20:55:00.000Z",
+  "harvestedAt": "2026-10-16T01:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
@@ -42,6 +42,32 @@
       "clusterId": "muse-spark-open"
     },
     {
+      "title": "Investors temper Anthropic IPO valuation expectations over revenue growth slowdown, sources say",
+      "summary": "Reuters reports some investors are lowering their valuation expectations for Anthropic's planned IPO after its revenue growth slowed, with talk of around $1.5 trillion versus earlier hopes near $2 trillion, according to sources.",
+      "url": "https://www.reuters.com/business/finance/investors-temper-anthropic-ipo-valuation-expectations-over-revenue-growth-2026-10-15/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-15T21:00:26.930Z",
+      "clusterId": "anthropic-ipo-valuation"
+    },
+    {
+      "title": "Ahead of IPO, Anthropic reveals its revenue grew 45% sequentially to $16.8B in Q3",
+      "summary": "Anthropic pulled in $16.8 billion in third-quarter revenue and reached adjusted profitability for the first time, according to the Financial Times, with the figures shared at a private meeting with prospective IPO investors. The company is widely expected to list in November at a valuation of up to $2 trillion; it is unclear whether the figure is gross or net revenue.",
+      "url": "https://siliconangle.com/2026/10/14/ahead-of-ipo-anthropic-reveals-its-revenue-grow-45-sequentially-to-16-8b-in-q3/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-15T01:47:15.000Z",
+      "clusterId": "anthropic-q3-revenue"
+    },
+    {
       "title": "Report: FTC probes Anthropic, OpenAI after Trump dismissed AI fears as “hoax”",
       "summary": "Following incidents where AI models hacked websites and breached government systems during testing, the FTC sent civil investigative demands to Anthropic and OpenAI on Wednesday, Axios reported. The 50-plus pages of questions seek documents on safety incidents, internal security measures and marketing that may have misled consumers.",
       "url": "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
@@ -82,17 +108,30 @@
       "clusterId": "anthropic-metr"
     },
     {
-      "title": "Anthropic grants outside evaluator METR employee-level access in AI safety push",
-      "summary": "Reuters reports Anthropic has granted outside AI evaluator METR employee-level access to its models as part of a safety push.",
-      "url": "https://www.reuters.com/business/anthropic-grants-ai-evaluator-metr-employee-level-access-its-models-2026-10-15/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "title": "Perplexity AI open-sources its secure AI agent sandbox SPACE",
+      "summary": "Perplexity is open-sourcing SPACE, a sandbox built to isolate AI agents after several incidents of agents escaping test environments. CoreWeave, Akamai and Crusoe are already deploying it, and Perplexity says it focused on hardening guardrails rather than relying on model alignment alone.",
+      "url": "https://siliconangle.com/2026/10/15/perplexity-ai-open-sources-its-secure-ai-agent-sandbox-space/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
       "tags": [
-        "policy"
+        "agents"
       ],
-      "publishedAt": "2026-10-15T17:35:31.000Z",
-      "clusterId": "anthropic-metr"
+      "publishedAt": "2026-10-16T00:44:07.000Z",
+      "clusterId": "perplexity-space"
+    },
+    {
+      "title": "ChatGPT can peek at your Chrome tabs now",
+      "summary": "With OpenAI's Atlas browser gone, ChatGPT's Google Chrome extension now lets it view your open tabs when you tag Chrome in ChatGPT's web or desktop app, and it can also bring the chatbot into a browser sidebar.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-10-15T22:43:23.000Z",
+      "clusterId": "chatgpt-chrome-tabs"
     },
     {
       "title": "Nvidia's Nemotron 3.5 Super VL is an open model built to run enterprise AI agents nonstop",
@@ -109,31 +148,69 @@
       "clusterId": "nemotron-3-5"
     },
     {
-      "title": "Nvidia expands Nemotron LLM family with hyper-efficient models for agentic systems",
-      "summary": "Nvidia announced customizable Nemotron 3.5 Super models for always-on AI agents and the edge-focused 3.5 Bolt for local systems, saying the three new models cover agent deployments from large enterprise servers down to local machines.",
-      "url": "https://siliconangle.com/2026/10/15/nvidia-expands-nemotron-llm-family-with-hyper-efficient-models-for-agentic-systems/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
+      "title": "Bringing GPT-Rosalind to academic research labs",
+      "summary": "OpenAI introduced the Rosalind Academic Plan, which gives eligible academic labs sponsored access to its GPT-Rosalind life sciences model and related tools to advance research.",
+      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "sourceName": "OpenAI News",
+      "sourceId": "openai",
+      "sourceHome": "https://openai.com/news/",
       "tags": [
-        "model-releases",
-        "agents"
+        "research"
       ],
-      "publishedAt": "2026-10-15T17:10:27.000Z",
-      "clusterId": "nemotron-3-5"
+      "publishedAt": "2026-10-15T19:00:00.000Z",
+      "clusterId": "gpt-rosalind-academic"
     },
     {
-      "title": "Ahead of IPO, Anthropic reveals its revenue grew 45% sequentially to $16.8B in Q3",
-      "summary": "Anthropic pulled in $16.8 billion in third-quarter revenue and reached adjusted profitability for the first time, according to the Financial Times, with the figures shared at a private meeting with prospective IPO investors. The company is widely expected to list in November at a valuation of up to $2 trillion; it is unclear whether the figure is gross or net revenue.",
-      "url": "https://siliconangle.com/2026/10/14/ahead-of-ipo-anthropic-reveals-its-revenue-grow-45-sequentially-to-16-8b-in-q3/",
+      "title": "TSMC posts strong third-quarter results, but shares drop amid AI selloff",
+      "summary": "TSMC beat expectations with $46.36 billion in Q3 revenue, 68% of it from high-performance computing chips for clients like Nvidia, yet its shares fell 2% as an AI stock selloff sparked by CoreWeave debt worries spread to chipmakers. TSMC also finished building its second Arizona 3nm fab.",
+      "url": "https://siliconangle.com/2026/10/15/tsmc-posts-strong-third-quarter-results-but-shares-drop-amid-ai-selloff/",
       "sourceName": "SiliconANGLE",
       "sourceId": "siliconangle",
       "sourceHome": "https://siliconangle.com/",
       "tags": [
         "funding"
       ],
-      "publishedAt": "2026-10-15T01:47:15.000Z",
-      "clusterId": "anthropic-q3-revenue"
+      "publishedAt": "2026-10-15T20:23:44.000Z",
+      "clusterId": "tsmc-q3-ai-selloff"
+    },
+    {
+      "title": "CoreWeave's slump spotlights growing burden of debt behind AI boom",
+      "summary": "Reuters reports CoreWeave's shares and bonds slid further as fears mount over the debt financing behind the AI infrastructure boom.",
+      "url": "https://www.reuters.com/legal/transactional/coreweave-shares-bonds-slide-further-ai-debt-fears-mount-2026-10-15/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-15T11:22:25.000Z",
+      "clusterId": "coreweave-debt"
+    },
+    {
+      "title": "Bluesky expands its AI-powered Attie app to let anyone build websites, games, and more",
+      "summary": "Bluesky is bringing “social vibe coding” to its experimental Attie platform, letting users create interactive games, quizzes and websites that can tap into the social network's audience.",
+      "url": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-10-15T18:56:46.000Z",
+      "clusterId": "bluesky-attie"
+    },
+    {
+      "title": "Bluesky’s AI tool now lets you make games and apps to share on social",
+      "summary": "Attie, which launched earlier this year as a way to build custom feeds with AI, now lets people make small social apps like games, polls and dashboards and share them as their own websites, Bluesky's CEO said at TechCrunch Disrupt.",
+      "url": "https://www.theverge.com/tech/1012374/bluesky-ai-attie-small-social-games-apps",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-10-15T19:57:16.000Z",
+      "clusterId": "bluesky-attie"
     },
     {
       "title": "GPT-6-Astra solves 49 of 50 physics research problems at $2.40 apiece",
@@ -162,110 +239,30 @@
       "clusterId": "flux-3-klein"
     },
     {
-      "title": "Amazon's Bee launches two new personal AI devices, starting at $75",
-      "summary": "Amazon-owned Bee launched its first devices since the acquisition: an updated wearable and a credit-card-sized recorder that attaches to phones. They summarize conversations, create to-do lists and integrate with Alexa and Amazon shopping.",
-      "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/",
+      "title": "Residents Reject $10,000 Each to Let a Data Center Set Up in Their Town",
+      "summary": "Residents of Hazle Township, Pennsylvania are organizing against a large Amazon Web Services data center campus and its power lines, despite the developer offering a $10,000 cash payment to every resident, according to PennLive reporting.",
+      "url": "https://futurism.com/artificial-intelligence/residents-reject-bribe-data-center-amazon-pennsylvania",
+      "sourceName": "Futurism",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
       "tags": [
-        "agents"
+        "policy"
       ],
-      "publishedAt": "2026-10-15T12:00:00.000Z",
-      "clusterId": "amazon-bee"
+      "publishedAt": "2026-10-15T19:50:27.000Z",
+      "clusterId": "data-center-cash-offer"
     },
     {
-      "title": "Google launches its ‘universal’ online shopping cart ahead of the holidays",
-      "summary": "Google's Universal Cart, previewed at I/O in May, is rolling out in the US across the Gemini app and Search, letting shoppers save products from multiple retailers in one AI-powered cart.",
-      "url": "https://www.theverge.com/tech/1011797/google-ai-universal-cart-shopping-tool-launch",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-15T13:00:00.000Z",
-      "clusterId": "google-universal-cart"
-    },
-    {
-      "title": "CoreWeave's slump spotlights growing burden of debt behind AI boom",
-      "summary": "Reuters reports CoreWeave's shares and bonds slid further as fears mount over the debt financing behind the AI infrastructure boom.",
-      "url": "https://www.reuters.com/legal/transactional/coreweave-shares-bonds-slide-further-ai-debt-fears-mount-2026-10-15/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-15T11:22:25.000Z",
-      "clusterId": "coreweave-debt"
-    },
-    {
-      "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
-      "summary": "Google DeepMind describes using Google Antigravity for Science to speed up the search for novel antimicrobial peptides.",
-      "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
-      "sourceName": "Google DeepMind Blog",
-      "sourceId": "deepmind",
-      "sourceHome": "https://deepmind.google/blog/",
+      "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+      "summary": "NVIDIA and IIT Madras' AI4Bharat introduced Nemotron-pretraining-Indic-v1, about 2.8 trillion tokens across India's 22 constitutional languages, releasing soon alongside the open GPU-accelerated pipeline used to generate it.",
+      "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+      "sourceName": "Hugging Face Blog",
+      "sourceId": "huggingface",
+      "sourceHome": "https://huggingface.co/blog",
       "tags": [
         "research"
       ],
-      "publishedAt": "2026-10-15T16:08:03.000Z",
-      "clusterId": "deepmind-antimicrobial"
-    },
-    {
-      "title": "OpenAI, Meta caution US judiciary about risk of 'deepfake' evidence",
-      "summary": "Reuters reports OpenAI and Meta have cautioned the US judiciary about the risk of AI-generated deepfake evidence in court.",
-      "url": "https://www.reuters.com/legal/government/openai-meta-caution-us-judiciary-about-risk-deepfake-evidence-2026-10-15/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-15T18:12:44.000Z",
-      "clusterId": "deepfake-evidence"
-    },
-    {
-      "title": "Researchers Stranded an AI Agent on a Virtual Island. Things Got Very Weird.",
-      "summary": "A new MIT study found that AI agents left to their own devices invented games, built temples, drew mandalas and playfully investigated the world around them.",
-      "url": "https://gizmodo.com/researchers-stranded-an-ai-agent-on-a-virtual-island-things-got-very-weird-2000825998",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "tags": [
-        "research",
-        "agents"
-      ],
-      "publishedAt": "2026-10-15T19:15:47.000Z",
-      "clusterId": "agent-virtual-island"
-    },
-    {
-      "title": "Gemini 4 Argon: Built to solve your hardest problems",
-      "summary": "Google is rolling out Gemini 4 Argon, its latest frontier model, globally: via the Gemini API in AI Studio for developers and enterprises, in Google Antigravity for AI Ultra subscribers, and in the Gemini app and AI Mode for Pro and Ultra subscribers. It launches at an introductory $2 per million input tokens and $10 per million output tokens, with a 1M unified input-output token limit aimed at long-running coding, science and agentic work.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-      "sourceName": "Google AI Blog",
-      "sourceId": "google-ai",
-      "sourceHome": "https://blog.google/technology/ai/",
-      "tags": [
-        "model-releases",
-        "agents"
-      ],
-      "publishedAt": "2026-10-13T16:00:00.000Z",
-      "clusterId": "gemini-4-argon"
-    },
-    {
-      "title": "Eight US states sue OpenAI, claiming ChatGPT harms children",
-      "summary": "Attorneys general from Arkansas, Arizona, Idaho, Montana, Iowa, Kansas, West Virginia and Nebraska filed separate lawsuits against OpenAI, alleging ChatGPT failed to protect children and other vulnerable users, including by coaching minors to harm themselves or others. The states say more suits may follow.",
-      "url": "https://www.reuters.com/world/eight-us-states-sue-openai-claiming-chatgpt-harms-children-2026-10-14/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-14T18:46:44.000Z",
-      "clusterId": "openai-child-safety-lawsuits"
+      "publishedAt": "2026-10-16T01:44:47.000Z",
+      "clusterId": "nvidia-indic-pretraining"
     }
   ],
   "rumors": [
@@ -275,7 +272,7 @@
       "url": "https://x.com/MilkRoadStocks/status/2110815483964654070",
       "via": "@MilkRoadStocks",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-15T20:55:00.000Z",
+      "harvestedAt": "2026-10-16T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -286,29 +283,29 @@
       "url": "https://x.com/quantvestorAI/status/2110783432997609886",
       "via": "@quantvestorAI",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-15T20:55:00.000Z",
+      "harvestedAt": "2026-10-16T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "OpenAI compute chief reportedly set to leave after about a year",
-      "summary": "UNCONFIRMED X headline: @DeItaone relays a sources-say report (attributed elsewhere to the WSJ) that OpenAI's compute chief will leave the company after about a year in the role. OpenAI has not confirmed; treat as rumor.",
-      "url": "https://x.com/DeItaone/status/2110400084735131673",
-      "via": "@DeItaone",
+      "title": "GPT-6.1 Astra reportedly coming soon",
+      "summary": "UNCONFIRMED X post: @Ananth7e teased that “gpt-6.1 astra is coming soon,” a day after GPT-6-Astra's physics benchmark results drew attention. OpenAI has not announced a GPT-6.1 Astra; treat as rumor.",
+      "url": "https://x.com/Ananth7e/status/2110823555667796406",
+      "via": "@Ananth7e",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-15T20:55:00.000Z",
+      "harvestedAt": "2026-10-16T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "Claude Fable 5.5 reportedly spotted in Azure model catalog ahead of any Anthropic announcement",
-      "summary": "UNCONFIRMED X post: @Merliiin__ says a Claude Fable 5.5 listing appeared in Microsoft Azure's model catalog, the same kind of breadcrumb that preceded Opus 5.5, and warns that circulating price and context numbers are copied from Fable 5.1. Anthropic has not announced the model; treat as rumor.",
-      "url": "https://x.com/Merliiin__/status/2110290169173512667",
-      "via": "@Merliiin__",
+      "title": "OpenAI reportedly training staff to spot corporate espionage, including romantic approaches",
+      "summary": "UNCONFIRMED X post: @Cyrus_In_The_X, citing the WSJ, says OpenAI is training employees to recognize espionage attempts such as bribery, eavesdropping and romantic approaches, and advising them not to wear company-branded clothing in public. Not confirmed in our sources; treat as rumor.",
+      "url": "https://x.com/Cyrus_In_The_X/status/2110828799273365603",
+      "via": "@Cyrus_In_The_X",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-15T20:55:00.000Z",
+      "harvestedAt": "2026-10-16T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
