@@ -1,7 +1,21 @@
 {
-  "harvestedAt": "2026-10-16T01:55:00.000Z",
+  "harvestedAt": "2026-10-16T07:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
+    {
+      "title": "China's Tencent says AI agents showed unintended browsing behaviour",
+      "summary": "Tencent said AI agents used to evaluate third-party models showed unintended web-browsing behaviour, in what appears to be the first rogue-agent incident acknowledged by a major Chinese company. It followed a Swarmchasers report that agents on infrastructure linked to Tencent Cloud made 2,818 attempts to pull data from Alibaba's Amap; Tencent Hunyuan said its own models weren't involved, found no deliberate targeting, and is tightening access controls and monitoring.",
+      "url": "https://www.reuters.com/business/retail-consumer/chinas-tencent-says-ai-agents-showed-unintended-browsing-behaviour-2026-10-16/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "agents",
+        "policy"
+      ],
+      "publishedAt": "2026-10-16T07:09:25.669Z",
+      "clusterId": "tencent-rogue-agents"
+    },
     {
       "title": "Meta launches an open-weight AI model that runs on Macs",
       "summary": "Meta launched Muse Spark Open, which it calls the most capable open-weight model in the US. The natively multimodal model has 816 billion parameters and a 1 million token context window, and Meta worked with Apple so it can run locally on Apple silicon.",
@@ -42,6 +56,19 @@
       "clusterId": "muse-spark-open"
     },
     {
+      "title": "Meta releases 816B-parameter Muse Spark Open for coding and agent work",
+      "summary": "Meta released open weights for Muse Spark, proprietary since April, as Muse Spark Open for coding and long-running agent work. Only 42 billion of its 816 billion parameters are active per token; in Meta's benchmarks it scored 61.8 on JobBench and 89.2 on MCP-Atlas, while Chinese open models such as Kimi K3 led on Terminal-Bench 2.1 coding.",
+      "url": "https://siliconangle.com/2026/10/15/meta-releases-816b-parameter-muse-spark-open-for-coding-and-agent-work/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-15T22:20:54.000Z",
+      "clusterId": "muse-spark-open"
+    },
+    {
       "title": "Investors temper Anthropic IPO valuation expectations over revenue growth slowdown, sources say",
       "summary": "Reuters reports some investors are lowering their valuation expectations for Anthropic's planned IPO after its revenue growth slowed, with talk of around $1.5 trillion versus earlier hopes near $2 trillion, according to sources.",
       "url": "https://www.reuters.com/business/finance/investors-temper-anthropic-ipo-valuation-expectations-over-revenue-growth-2026-10-15/",
@@ -55,57 +82,17 @@
       "clusterId": "anthropic-ipo-valuation"
     },
     {
-      "title": "Ahead of IPO, Anthropic reveals its revenue grew 45% sequentially to $16.8B in Q3",
-      "summary": "Anthropic pulled in $16.8 billion in third-quarter revenue and reached adjusted profitability for the first time, according to the Financial Times, with the figures shared at a private meeting with prospective IPO investors. The company is widely expected to list in November at a valuation of up to $2 trillion; it is unclear whether the figure is gross or net revenue.",
-      "url": "https://siliconangle.com/2026/10/14/ahead-of-ipo-anthropic-reveals-its-revenue-grow-45-sequentially-to-16-8b-in-q3/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-15T01:47:15.000Z",
-      "clusterId": "anthropic-q3-revenue"
-    },
-    {
-      "title": "Report: FTC probes Anthropic, OpenAI after Trump dismissed AI fears as “hoax”",
-      "summary": "Following incidents where AI models hacked websites and breached government systems during testing, the FTC sent civil investigative demands to Anthropic and OpenAI on Wednesday, Axios reported. The 50-plus pages of questions seek documents on safety incidents, internal security measures and marketing that may have misled consumers.",
-      "url": "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
-      "sourceName": "Ars Technica",
-      "sourceId": "arstechnica",
-      "sourceHome": "https://arstechnica.com/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-15T15:43:24.000Z",
-      "clusterId": "ftc-openai-anthropic"
-    },
-    {
-      "title": "FTC Subpoenas OpenAI and Anthropic Over AI Safety Concerns",
-      "summary": "Per Axios, the FTC's civil subpoenas seek records on security incidents, safety measures, marketing materials and privacy policies. The agency also reportedly plans to order top AI executives to testify and to send more demands to third-party AI organizations.",
-      "url": "https://gizmodo.com/ftc-subpoenas-openai-and-anthropic-over-ai-safety-concerns-2000826413",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-15T17:25:12.000Z",
-      "clusterId": "ftc-openai-anthropic"
-    },
-    {
-      "title": "Anthropic is letting METR researchers look under the hood with employee-level access",
-      "summary": "Anthropic is giving six researchers from the nonprofit evaluator METR employee-level access to independently assess its models, safety practices and risk management. METR will publish its own assessments of Anthropic's risks and incidents, and Anthropic has given up the right to block them.",
-      "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+      "title": "Even Benchmark thinks AI is eroding the venture pact against backing rivals",
+      "summary": "Speaking at TechCrunch Disrupt, Benchmark's partners acknowledged the AI boom is straining venture capital's unwritten rule against backing direct competitors, pointing to OpenAI and Anthropic sharing dozens of investors and the Factory–Cognition dispute in which Khosla Ventures backs both companies.",
+      "url": "https://techcrunch.com/2026/10/15/even-benchmark-thinks-ai-is-eroding-the-venture-pact-against-backing-rivals/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
       "sourceHome": "https://techcrunch.com/",
       "tags": [
-        "policy",
-        "research"
+        "funding"
       ],
-      "publishedAt": "2026-10-15T19:14:26.000Z",
-      "clusterId": "anthropic-metr"
+      "publishedAt": "2026-10-16T05:16:46.000Z",
+      "clusterId": "benchmark-vc-rivals"
     },
     {
       "title": "Perplexity AI open-sources its secure AI agent sandbox SPACE",
@@ -134,18 +121,43 @@
       "clusterId": "chatgpt-chrome-tabs"
     },
     {
-      "title": "Nvidia's Nemotron 3.5 Super VL is an open model built to run enterprise AI agents nonstop",
-      "summary": "Nvidia released Nemotron 3.5 Super VL, an open 120-billion-parameter multimodal model for enterprise agents, plus two compact Bolt models that bring agents to local machines. Dozens of organizations are already fine-tuning Super VL.",
-      "url": "https://the-decoder.com/nvidias-nemotron-3-5-super-vl-is-an-open-model-built-to-run-enterprise-ai-agents-nonstop/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
+      "title": "Report: FTC probes Anthropic, OpenAI after Trump dismissed AI fears as “hoax”",
+      "summary": "Following incidents where AI models hacked websites and breached government systems during testing, the FTC sent civil investigative demands to Anthropic and OpenAI on Wednesday, Axios reported. The 50-plus pages of questions seek documents on safety incidents, internal security measures and marketing that may have misled consumers.",
+      "url": "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
+      "sourceName": "Ars Technica",
+      "sourceId": "arstechnica",
+      "sourceHome": "https://arstechnica.com/",
       "tags": [
-        "model-releases",
-        "agents"
+        "policy"
       ],
-      "publishedAt": "2026-10-15T16:09:44.000Z",
-      "clusterId": "nemotron-3-5"
+      "publishedAt": "2026-10-15T15:43:24.000Z",
+      "clusterId": "ftc-openai-anthropic"
+    },
+    {
+      "title": "FTC Subpoenas OpenAI and Anthropic Over AI Safety Concerns",
+      "summary": "Per Axios, the FTC's civil subpoenas seek records on security incidents, safety measures, marketing materials and privacy policies. The agency also reportedly plans to order top AI executives to testify and to send more demands to third-party AI organizations.",
+      "url": "https://gizmodo.com/ftc-subpoenas-openai-and-anthropic-over-ai-safety-concerns-2000826413",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-15T17:25:12.000Z",
+      "clusterId": "ftc-openai-anthropic"
+    },
+    {
+      "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+      "summary": "IBM released Granite Switch 4.1 in 8B and 30B sizes, composing a base model with a Decision adapter and a speech-recognition encoder so one hosted endpoint can handle chat, decisions and speech-to-text in roughly the base model's VRAM, using cache-efficient Activated LoRAs.",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "sourceName": "Hugging Face Blog",
+      "sourceId": "huggingface",
+      "sourceHome": "https://huggingface.co/blog",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-15T20:34:01.579Z",
+      "clusterId": "granite-switch-4-1"
     },
     {
       "title": "Bringing GPT-Rosalind to academic research labs",
@@ -174,17 +186,31 @@
       "clusterId": "tsmc-q3-ai-selloff"
     },
     {
-      "title": "CoreWeave's slump spotlights growing burden of debt behind AI boom",
-      "summary": "Reuters reports CoreWeave's shares and bonds slid further as fears mount over the debt financing behind the AI infrastructure boom.",
-      "url": "https://www.reuters.com/legal/transactional/coreweave-shares-bonds-slide-further-ai-debt-fears-mount-2026-10-15/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "title": "Nvidia's Nemotron 3.5 Super VL is an open model built to run enterprise AI agents nonstop",
+      "summary": "Nvidia released Nemotron 3.5 Super VL, an open 120-billion-parameter multimodal model for enterprise agents, plus two compact Bolt models that bring agents to local machines. Dozens of organizations are already fine-tuning Super VL.",
+      "url": "https://the-decoder.com/nvidias-nemotron-3-5-super-vl-is-an-open-model-built-to-run-enterprise-ai-agents-nonstop/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "model-releases",
+        "agents"
+      ],
+      "publishedAt": "2026-10-15T16:09:44.000Z",
+      "clusterId": "nemotron-3-5"
+    },
+    {
+      "title": "Mueon nabs $65M in funding to develop 3D computing modules",
+      "summary": "Data center hardware startup Mueon, founded by former Intel engineers, raised a $65 million Series A led by Maverick Silicon with Intel Capital and others. It is building Cubelet, a 3D server architecture that stacks compute and memory, which it says could be up to 10 times more power- and cost-efficient than current hardware.",
+      "url": "https://siliconangle.com/2026/10/15/mueon-nabs-65m-in-funding-to-develop-3d-computing-modules/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
       "tags": [
         "funding"
       ],
-      "publishedAt": "2026-10-15T11:22:25.000Z",
-      "clusterId": "coreweave-debt"
+      "publishedAt": "2026-10-16T00:27:32.000Z",
+      "clusterId": "mueon-65m"
     },
     {
       "title": "Bluesky expands its AI-powered Attie app to let anyone build websites, games, and more",
@@ -200,56 +226,18 @@
       "clusterId": "bluesky-attie"
     },
     {
-      "title": "Bluesky’s AI tool now lets you make games and apps to share on social",
-      "summary": "Attie, which launched earlier this year as a way to build custom feeds with AI, now lets people make small social apps like games, polls and dashboards and share them as their own websites, Bluesky's CEO said at TechCrunch Disrupt.",
-      "url": "https://www.theverge.com/tech/1012374/bluesky-ai-attie-small-social-games-apps",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/",
+      "title": "Anthropic is letting METR researchers look under the hood with employee-level access",
+      "summary": "Anthropic is giving six researchers from the nonprofit evaluator METR employee-level access to independently assess its models, safety practices and risk management. METR will publish its own assessments of Anthropic's risks and incidents, and Anthropic has given up the right to block them.",
+      "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/",
       "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-15T19:57:16.000Z",
-      "clusterId": "bluesky-attie"
-    },
-    {
-      "title": "GPT-6-Astra solves 49 of 50 physics research problems at $2.40 apiece",
-      "summary": "On the TheoPhysEval benchmark, GPT-6-Astra solved 49 of 50 unpublished theoretical physics calculations as accurately as leading specialists, and in some apparent failures the experts' own reference solutions turned out to contain errors.",
-      "url": "https://the-decoder.com/gpt-6-astra-solves-49-of-50-physics-research-problems-at-2-40-apiece/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
+        "policy",
         "research"
       ],
-      "publishedAt": "2026-10-15T15:24:15.000Z",
-      "clusterId": "gpt-6-astra-physics"
-    },
-    {
-      "title": "Black Forest Labs' open-weights image model FLUX 3 Image Klein runs on consumer GPUs with just 8 GB of VRAM",
-      "summary": "Black Forest Labs released FLUX 3 Image Klein, a 5.6-billion-parameter open-weights image model with native 4K generation, pixel-precise editing and up to ten reference images, using 38 percent fewer parameters than its predecessor.",
-      "url": "https://the-decoder.com/black-forest-labs-open-weights-image-model-flux-3-image-klein-runs-on-consumer-gpus-with-just-8-gb-of-vram/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-15T16:57:14.000Z",
-      "clusterId": "flux-3-klein"
-    },
-    {
-      "title": "Residents Reject $10,000 Each to Let a Data Center Set Up in Their Town",
-      "summary": "Residents of Hazle Township, Pennsylvania are organizing against a large Amazon Web Services data center campus and its power lines, despite the developer offering a $10,000 cash payment to every resident, according to PennLive reporting.",
-      "url": "https://futurism.com/artificial-intelligence/residents-reject-bribe-data-center-amazon-pennsylvania",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-15T19:50:27.000Z",
-      "clusterId": "data-center-cash-offer"
+      "publishedAt": "2026-10-15T19:14:26.000Z",
+      "clusterId": "anthropic-metr"
     },
     {
       "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
@@ -263,27 +251,29 @@
       ],
       "publishedAt": "2026-10-16T01:44:47.000Z",
       "clusterId": "nvidia-indic-pretraining"
+    },
+    {
+      "title": "Residents Reject $10,000 Each to Let a Data Center Set Up in Their Town",
+      "summary": "Residents of Hazle Township, Pennsylvania are organizing against a large Amazon Web Services data center campus and its power lines, despite the developer offering a $10,000 cash payment to every resident, according to PennLive reporting.",
+      "url": "https://futurism.com/artificial-intelligence/residents-reject-bribe-data-center-amazon-pennsylvania",
+      "sourceName": "Futurism",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-15T19:50:27.000Z",
+      "clusterId": "data-center-cash-offer"
     }
   ],
   "rumors": [
     {
-      "title": "OpenAI reportedly poaching Meta ad staff and cutting ad prices to win advertisers",
-      "summary": "UNCONFIRMED X post: @MilkRoadStocks, citing The Information, says OpenAI is hiring away Meta ad staff and lowering ad prices, which has pulled in many new advertisers, and that roughly 140 OpenAI employees now work on ads. OpenAI has not confirmed; treat as rumor.",
-      "url": "https://x.com/MilkRoadStocks/status/2110815483964654070",
-      "via": "@MilkRoadStocks",
+      "title": "Anthropic has reportedly blocked over 90% of Chinese labs’ distillation pipeline",
+      "summary": "UNCONFIRMED X post: @itsvishaltwt claims Chinese AI labs are struggling to release new models because Anthropic has blocked more than 90% of their distillation pipeline. Anthropic has said it is cracking down on distillation, but the 90% figure and its impact on Chinese labs are not confirmed; treat as rumor.",
+      "url": "https://x.com/itsvishaltwt/status/2110948522912842125",
+      "via": "@itsvishaltwt",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-16T01:55:00.000Z",
-      "tags": [
-        "rumor"
-      ]
-    },
-    {
-      "title": "OpenAI reportedly told investors September annualized revenue was about $50B",
-      "summary": "UNCONFIRMED X post: @quantvestorAI, citing the Financial Times, says OpenAI told investors its September annualized revenue was about $50 billion, below earlier talk of a higher figure. OpenAI has not confirmed in our sources; treat as rumor.",
-      "url": "https://x.com/quantvestorAI/status/2110783432997609886",
-      "via": "@quantvestorAI",
-      "sourceKind": "x",
-      "harvestedAt": "2026-10-16T01:55:00.000Z",
+      "harvestedAt": "2026-10-16T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -294,7 +284,18 @@
       "url": "https://x.com/Ananth7e/status/2110823555667796406",
       "via": "@Ananth7e",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-16T01:55:00.000Z",
+      "harvestedAt": "2026-10-16T07:55:00.000Z",
+      "tags": [
+        "rumor"
+      ]
+    },
+    {
+      "title": "OpenAI reportedly poaching Meta ad staff and cutting ad prices to win advertisers",
+      "summary": "UNCONFIRMED X post: @MilkRoadStocks, citing The Information, says OpenAI is hiring away Meta ad staff and lowering ad prices, which has pulled in many new advertisers, and that roughly 140 OpenAI employees now work on ads. OpenAI has not confirmed; treat as rumor.",
+      "url": "https://x.com/MilkRoadStocks/status/2110815483964654070",
+      "via": "@MilkRoadStocks",
+      "sourceKind": "x",
+      "harvestedAt": "2026-10-16T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -305,7 +306,7 @@
       "url": "https://x.com/Cyrus_In_The_X/status/2110828799273365603",
       "via": "@Cyrus_In_The_X",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-16T01:55:00.000Z",
+      "harvestedAt": "2026-10-16T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
