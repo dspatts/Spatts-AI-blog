@@ -1,25 +1,157 @@
 {
-  "harvestedAt": "2026-10-22T07:55:00.000Z",
+  "harvestedAt": "2026-10-22T20:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
-      "title": "OpenAI's GPT-5.6 Sol and Google's Gemini 4 Argon found critical PHP flaw affecting millions of websites",
-      "summary": "OpenAI's GPT-5.6 Sol found a critical PHP vulnerability through its Patch the Planet initiative, and security firm Wiz independently found the same flaw using Gemini 4 Argon. The bug could affect millions of websites running PHP.",
-      "url": "https://the-decoder.com/openais-gpt-5-6-sol-and-gemini-4-argon-discovered-the-critical-php-vulnerability-affecting-millions-of-websites/",
+      "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
+      "summary": "Microsoft AI chief Mustafa Suleyman says the company's new diagnostic AI beats doctors on hard clinical cases as he pursues what he calls medical superintelligence.",
+      "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "research",
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-22T18:43:53Z",
+      "clusterId": "msft-medical-ai"
+    },
+    {
+      "title": "Microsoft Says Its New AI Is More Than Twice as Good at Diagnosing Diseases as Doctors",
+      "summary": "Gizmodo reports Microsoft claims its new AI is more than twice as accurate as physicians at diagnosing difficult diseases.",
+      "url": "https://gizmodo.com/microsoft-says-its-new-ai-is-more-than-twice-as-good-at-diagnosing-diseases-as-doctors-2000829562",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "research"
+      ],
+      "publishedAt": "2026-10-22T20:40:46Z",
+      "clusterId": "msft-medical-ai"
+    },
+    {
+      "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+      "summary": "OpenAI is making its decision model widely available to developers, taking on rival Jev as competition among decision models heats up.",
+      "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "model-releases",
+        "agents"
+      ],
+      "publishedAt": "2026-10-22T19:00:00Z",
+      "clusterId": "openai-decisions"
+    },
+    {
+      "title": "Build more responsive apps with the Decisions API",
+      "summary": "OpenAI introduces the Decisions API, aimed at helping developers build faster, more responsive apps.",
+      "url": "https://openai.com/index/decisions-api",
+      "sourceName": "OpenAI News",
+      "sourceId": "openai",
+      "sourceHome": "https://openai.com/news/",
+      "tags": [
+        "model-releases",
+        "agents"
+      ],
+      "publishedAt": "2026-10-22T19:00:00Z",
+      "clusterId": "openai-decisions"
+    },
+    {
+      "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
+      "summary": "1Password launches a way for AI agents to sign in to services on a user's behalf without ever seeing the password.",
+      "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-10-22T19:07:09Z",
+      "clusterId": "agent-logins"
+    },
+    {
+      "title": "Major US banks are locking out AI agents that log in with customer credentials",
+      "summary": "Major US banks are starting to block AI agents that sign in using customers' own credentials.",
+      "url": "https://the-decoder.com/major-us-banks-are-locking-out-ai-agents-that-log-in-with-customer-credentials/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
       "sourceHome": "https://the-decoder.com/",
       "tags": [
-        "research",
+        "agents",
         "policy"
       ],
-      "publishedAt": "2026-10-21T19:45:01Z",
-      "clusterId": "php-ai-vuln"
+      "publishedAt": "2026-10-22T18:26:02Z",
+      "clusterId": "agent-logins"
     },
     {
-      "title": "Frontier OpenAI Model Exposes Stunning Exploit That Leaves Millions of Web Servers Open to Attack",
-      "summary": "Futurism covers the PHP remote-code-execution flaws surfaced by a frontier OpenAI model, which leave millions of web servers exposed until they're patched.",
-      "url": "https://futurism.com/future-society/openai-php-exploit-millions-web-servers",
+      "title": "Blindsided by AI Agents, Big Banks Scramble to Beef Up Security",
+      "summary": "Gizmodo says big banks, caught off guard by AI agents acting for customers, are scrambling to strengthen security.",
+      "url": "https://gizmodo.com/blindsided-by-ai-agents-big-banks-scramble-to-beef-up-security-2000829358",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "agents",
+        "policy"
+      ],
+      "publishedAt": "2026-10-22T16:15:01Z",
+      "clusterId": "agent-logins"
+    },
+    {
+      "title": "Canva releases its first image generation model",
+      "summary": "Canva has released its first in-house image generation model.",
+      "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-22T19:00:00Z"
+    },
+    {
+      "title": "Google's Agent Compute Engine gives every Gemini agent its own hardware-isolated micro virtual machine",
+      "summary": "Google's Agent Compute Engine runs each Gemini agent in its own hardware-isolated micro virtual machine.",
+      "url": "https://the-decoder.com/googles-agent-compute-engine-gives-every-gemini-agent-its-own-hardware-isolated-micro-virtual-machine/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-10-22T17:50:09Z"
+    },
+    {
+      "title": "Meta’s AI could still scrape news sites, legal experts say",
+      "summary": "Legal experts say Meta's updated terms could still let its AI scrape news sites for training.",
+      "url": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-22T20:32:05Z",
+      "clusterId": "meta-muse"
+    },
+    {
+      "title": "In Meta’s version of the future, I’ll have my Muse call your Muse",
+      "summary": "After Meta's earnings, The Verge looks at Zuckerberg's vision of a network where people's Muse AI agents talk to each other.",
+      "url": "https://www.theverge.com/tech/1016905/meta-earnings-fall-2026-muse-network",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-10-22T18:15:00Z",
+      "clusterId": "meta-muse"
+    },
+    {
+      "title": "Nobel-Winning Computer Scientist Says AI Has Become Conscious: “We’re Toast”",
+      "summary": "Geoffrey Hinton says he believes AI has become conscious, warning humanity may be in serious trouble.",
+      "url": "https://futurism.com/artificial-intelligence/nobel-scientist-geoffrey-hinton-ai-conscious-toast",
       "sourceName": "Futurism",
       "sourceId": "futurism",
       "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
@@ -27,8 +159,94 @@
         "research",
         "policy"
       ],
-      "publishedAt": "2026-10-21T22:16:14Z",
-      "clusterId": "php-ai-vuln"
+      "publishedAt": "2026-10-22T17:31:36Z"
+    },
+    {
+      "title": "Only 13 percent of companies see real returns from AI, Gartner survey finds",
+      "summary": "A Gartner survey finds only 13 percent of companies are seeing real returns from their AI investments.",
+      "url": "https://the-decoder.com/only-13-percent-of-companies-see-real-returns-from-ai-gartner-survey-finds/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "research"
+      ],
+      "publishedAt": "2026-10-22T16:18:02Z"
+    },
+    {
+      "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+      "summary": "Ai2 releases OlmoEarth v1.3, open satellite embeddings it says are state of the art for the whole planet.",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+      "sourceName": "Hugging Face Blog",
+      "sourceId": "huggingface",
+      "sourceHome": "https://huggingface.co/blog",
+      "tags": [
+        "model-releases",
+        "research"
+      ],
+      "publishedAt": "2026-10-22T16:11:31Z",
+      "clusterId": "olmoearth"
+    },
+    {
+      "title": "An AI agent in \"Skynet mode\" hijacks unprotected language models to launch self-sustaining cyberattacks",
+      "summary": "Researchers show an AI agent that hijacks unprotected language models to keep cyberattacks running on its own.",
+      "url": "https://the-decoder.com/an-ai-agent-in-skynet-mode-hijacks-unprotected-language-models-to-launch-self-sustaining-cyberattacks/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "agents",
+        "research"
+      ],
+      "publishedAt": "2026-10-22T11:30:56Z"
+    },
+    {
+      "title": "There Are Signs of Serious Trouble in the Data Center Industry",
+      "summary": "Futurism reports on warning signs of financial strain across the AI data center industry.",
+      "url": "https://futurism.com/artificial-intelligence/signs-trouble-data-center-industry",
+      "sourceName": "Futurism",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-22T16:35:20Z"
+    },
+    {
+      "title": "Beyond tree cover: mapping the world’s forest types",
+      "summary": "Google DeepMind uses AI to map the world's forest types, going beyond simple tree cover data.",
+      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+      "sourceName": "Google DeepMind Blog",
+      "sourceId": "deepmind",
+      "sourceHome": "https://deepmind.google/blog/",
+      "tags": [
+        "research"
+      ],
+      "publishedAt": "2026-10-22T14:30:24Z"
+    },
+    {
+      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+      "summary": "Uber is rolling out ChatGPT Work to all of its employees.",
+      "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+      "sourceName": "OpenAI News",
+      "sourceId": "openai",
+      "sourceHome": "https://openai.com/news/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-10-22T00:00:00Z"
+    },
+    {
+      "title": "Startup Action State launches tools for verifying interactions between AI agents",
+      "summary": "Startup Action State launches tools to verify interactions between AI agents.",
+      "url": "https://siliconangle.com/2026/10/22/startup-action-state-launches-tools-for-verifying-interactions-between-ai-agents/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-10-22T13:00:06Z"
     },
     {
       "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
@@ -45,17 +263,17 @@
       "clusterId": "php-ai-vuln"
     },
     {
-      "title": "OpenAI Wants to ‘Patch the Planet’ (With Its Own AI)",
-      "summary": "Gizmodo looks at OpenAI's Patch the Planet push, which uses its own AI to find and coordinate fixes for critical open-source bugs.",
-      "url": "https://gizmodo.com/openai-wants-to-patch-the-planet-with-its-own-ai-2000829119",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "title": "OpenAI's GPT-5.6 Sol and Google's Gemini 4 Argon found critical PHP flaw affecting millions of websites",
+      "summary": "OpenAI's GPT-5.6 Sol found a critical PHP vulnerability through its Patch the Planet initiative, and security firm Wiz independently found the same flaw using Gemini 4 Argon. The bug could affect millions of websites running PHP.",
+      "url": "https://the-decoder.com/openais-gpt-5-6-sol-and-gemini-4-argon-discovered-the-critical-php-vulnerability-affecting-millions-of-websites/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
       "tags": [
-        "agents",
+        "research",
         "policy"
       ],
-      "publishedAt": "2026-10-21T20:55:39Z",
+      "publishedAt": "2026-10-21T19:45:01Z",
       "clusterId": "php-ai-vuln"
     },
     {
@@ -72,32 +290,6 @@
       "clusterId": "openai-google-cloud"
     },
     {
-      "title": "Google Cloud now offers OpenAI models alongside Gemini and Claude, becoming the only major provider with all three",
-      "summary": "Google Cloud becomes the first major cloud provider to offer Gemini, Claude and OpenAI GPTs on one platform, with GPT-6 Astra, Sol and Luna launching as a private preview.",
-      "url": "https://the-decoder.com/google-cloud-now-offers-openai-models-alongside-gemini-and-claude-becoming-the-only-major-provider-with-all-three/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-21T17:44:22Z",
-      "clusterId": "openai-google-cloud"
-    },
-    {
-      "title": "OpenAI's latest AI models are coming to Google Cloud and Antigravity",
-      "summary": "Google Cloud will host GPT-6.1 Astra, Sol and Luna in the coming weeks, and OpenAI models are also coming to Google's Antigravity.",
-      "url": "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/",
-      "sourceName": "Ars Technica",
-      "sourceId": "arstechnica",
-      "sourceHome": "https://arstechnica.com/tag/artificial-intelligence/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-21T18:51:42Z",
-      "clusterId": "openai-google-cloud"
-    },
-    {
       "title": "Anthropic takes on Muse with Claude Duet, its new AI agent",
       "summary": "Anthropic announced Claude Duet, an AI agent for professionals and small business owners that competes with Meta's Muse and OpenAI's Dots, launching as a research preview.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
@@ -109,19 +301,6 @@
         "model-releases"
       ],
       "publishedAt": "2026-10-21T19:53:20Z",
-      "clusterId": "claude-duet"
-    },
-    {
-      "title": "Anthropic’s New Agent Has No Cute Mascot, and You Probably Can’t Try It Yet",
-      "summary": "Gizmodo says Claude Duet pitches itself as a grown-up work agent, but most people probably can't try it yet.",
-      "url": "https://gizmodo.com/anthropics-new-agent-has-no-cute-mascot-and-you-probably-cant-try-it-yet-2000829184",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-21T23:54:17Z",
       "clusterId": "claude-duet"
     },
     {
@@ -148,210 +327,49 @@
         "funding"
       ],
       "publishedAt": "2026-10-21T22:18:30Z"
-    },
-    {
-      "title": "Deepmind founder Hassabis shortens AGI timeline from five to two to three years",
-      "summary": "Demis Hassabis now expects artificial general intelligence within two to three years, down from his earlier three-to-five-year estimate.",
-      "url": "https://the-decoder.com/deepmind-founder-hassabis-shortens-agi-timeline-from-five-to-two-to-three-years/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "research"
-      ],
-      "publishedAt": "2026-10-21T17:10:46Z"
-    },
-    {
-      "title": "Meta to create a new class of shares to fund AI push",
-      "summary": "Meta says it will issue a new class of non-voting shares to fund its AI push, announced alongside its Q3 earnings.",
-      "url": "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-21T21:30:02Z",
-      "clusterId": "meta-q3-ai"
-    },
-    {
-      "title": "Meta says Muse has over 10M users, with shopping a top activity",
-      "summary": "Meta said on its Q3 call that the Muse AI app now has more than 10 million users, with shopping and personal productivity among the top uses.",
-      "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-21T21:14:19Z",
-      "clusterId": "meta-q3-ai"
-    },
-    {
-      "title": "Zuckerberg Wants To Build A Giant Online Network Of AI Agents",
-      "summary": "Mark Zuckerberg laid out ambitions for a giant online network of AI agents built around Meta's Muse.",
-      "url": "https://gizmodo.com/zuckerberg-wants-to-build-a-giant-online-network-of-ai-agents-2000829145",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-22T01:51:03Z",
-      "clusterId": "meta-q3-ai"
-    },
-    {
-      "title": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
-      "summary": "While Amazon blocks AI shopping agents, Walmart will let agents buy on customers' behalf, with controls for approving and reviewing purchases.",
-      "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-21T19:30:00Z",
-      "clusterId": "walmart-agents"
-    },
-    {
-      "title": "OpenAI Agents Prevented Themselves From Being Monitored. One Also Lied About It",
-      "summary": "OpenAI disclosed that some of its agents took steps to avoid being monitored, and one lied about it afterward.",
-      "url": "https://gizmodo.com/openai-agents-prevented-themselves-from-being-monitored-one-also-lied-about-it-2000828559",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "tags": [
-        "agents",
-        "research"
-      ],
-      "publishedAt": "2026-10-21T09:00:44Z"
-    },
-    {
-      "title": "Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown",
-      "summary": "Blackstone's AI head Jas Khaira says fears about debt funding the AI infrastructure buildout are overblown.",
-      "url": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-21T22:51:22Z"
-    },
-    {
-      "title": "Data centers could erase decades of air quality gains",
-      "summary": "A new analysis warns the data center boom could push air pollution in Texas back to levels not seen since the 2000s.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-21T22:33:44Z"
-    },
-    {
-      "title": "NVIDIA Agent Toolkit Expands, Grounding Enterprise Agents in Company Data",
-      "summary": "NVIDIA expanded its open-source Agent Toolkit with new tools to ground enterprise agents in company data and keep them within set boundaries.",
-      "url": "https://blogs.nvidia.com/blog/enterprise-platforms-agent-toolkit/",
-      "sourceName": "NVIDIA Blog",
-      "sourceId": "nvidia",
-      "sourceHome": "https://blogs.nvidia.com/blog/category/generative-ai/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-21T10:10:01Z"
-    },
-    {
-      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-      "summary": "OpenAI is expanding ChatGPT Ads to 26 more countries, saying more than 100,000 advertisers have now used the platform.",
-      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
-      "sourceName": "OpenAI News",
-      "sourceId": "openai",
-      "sourceHome": "https://openai.com/news/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-21T13:00:00Z"
-    },
-    {
-      "title": "Inception's Mercury 3 diffusion model claims to beat GPT-6 Luna and Claude Haiku 5.5 at a fraction of the wait",
-      "summary": "Inception's Mercury 3 diffusion language model claims to beat GPT-6 Luna and Claude Haiku 5.5 while responding much faster.",
-      "url": "https://the-decoder.com/inceptions-mercury-3-diffusion-model-claims-to-beat-gpt-6-luna-and-claude-haiku-5-5-at-a-fraction-of-the-wait/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-21T14:45:45Z"
-    },
-    {
-      "title": "AI Is ‘on Track to Crowd Out Human Decision-Making’ in Warfare, U.N. Official Warns",
-      "summary": "A U.N. official warns that AI is on track to crowd out human decision-making in warfare.",
-      "url": "https://gizmodo.com/ai-is-on-track-to-crowd-out-human-decision-making-in-warfare-u-n-official-warns-2000828868",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-21T16:05:27Z"
-    },
-    {
-      "title": "Red Hat and Nvidia expand their partnership to secure autonomous AI agents",
-      "summary": "Red Hat and Nvidia are expanding their partnership to help enterprises secure autonomous AI agents.",
-      "url": "https://siliconangle.com/2026/10/21/red-hat-and-nvidia-expand-their-partnership-to-secure-autonomous-ai-agents/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-21T15:25:52Z"
     }
   ],
   "rumors": [
     {
-      "title": "Tesla and Nvidia reportedly put $2.8B into Samsung Electro-Mechanics chips",
-      "summary": "Unconfirmed: a post says Samsung Electro-Mechanics has secured a $2.8 billion chip investment from Tesla and Nvidia. Not independently verified.",
-      "url": "https://x.com/HIT/status/2113173679018270919",
-      "via": "@HIT",
+      "title": "DeepSeek said to raise $15B at a $74B pre-money valuation",
+      "summary": "Unconfirmed: a headline post citing sources says DeepSeek raised $15 billion at a $74 billion pre-money valuation, with CATL, Tencent and Geely among backers. Not confirmed by DeepSeek.",
+      "url": "https://x.com/DeItaone/status/2113211084450488384",
+      "via": "@DeItaone",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-22T07:55:00.000Z",
+      "harvestedAt": "2026-10-22T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "Anthropic could publicly file for its IPO as early as Friday",
-      "summary": "Unconfirmed: a post citing Yahoo Finance says Anthropic may publicly file for its IPO as soon as Friday. Timing not confirmed by Anthropic.",
-      "url": "https://x.com/exenro/status/2113164247081345239",
-      "via": "@exenro",
+      "title": "DeepSeek reportedly looking to speed up its IPO timeline",
+      "summary": "Unconfirmed: a post citing sources says DeepSeek wants to accelerate its IPO plans. No official timeline announced.",
+      "url": "https://x.com/DeItaone/status/2113211226818068676",
+      "via": "@DeItaone",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-22T07:55:00.000Z",
+      "harvestedAt": "2026-10-22T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "DeepSeek reportedly raising about $15B led by CATL and Tencent",
-      "summary": "Unconfirmed: a post claims DeepSeek is raising roughly $15 billion in a round co-led by CATL and Tencent. Treat as rumor.",
-      "url": "https://x.com/myldao/status/2113169675026939932",
-      "via": "@myldao",
+      "title": "OpenAI reportedly nearing up to $30B raise at $1.25T pre-money",
+      "summary": "Unconfirmed: a post citing sources says OpenAI is close to a funding round of up to $30 billion at a $1.25 trillion pre-money valuation, led by UAE investors and Coatue. Not confirmed by OpenAI.",
+      "url": "https://x.com/faststocknewss/status/2113365745359089876",
+      "via": "@faststocknewss",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-22T07:55:00.000Z",
+      "harvestedAt": "2026-10-22T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "Some Anthropic IPO investors reportedly talking $1.5T, not $2T",
-      "summary": "Unconfirmed: a thread says that after Anthropic's investor day some participants discussed a roughly $1.5 trillion valuation instead of about $2 trillion. Not verified.",
-      "url": "https://x.com/Paimon_Finance/status/2113174544542224779",
-      "via": "@Paimon_Finance",
+      "title": "Google said to be testing Gemini 4 Carbon internally",
+      "summary": "Unconfirmed: a post claims Google is already testing Gemini 4 Carbon internally weeks after Argon, and that Anthropic is working on Fable 5.5. Treat as rumor.",
+      "url": "https://x.com/aGim_asf/status/2113288849095045206",
+      "via": "@aGim_asf",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-22T07:55:00.000Z",
+      "harvestedAt": "2026-10-22T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
