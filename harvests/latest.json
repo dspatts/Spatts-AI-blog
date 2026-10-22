@@ -1,5 +1,5 @@
 {
-  "harvestedAt": "2026-10-22T01:55:00.000Z",
+  "harvestedAt": "2026-10-22T07:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
@@ -42,6 +42,20 @@
         "policy"
       ],
       "publishedAt": "2026-10-21T07:00:00Z",
+      "clusterId": "php-ai-vuln"
+    },
+    {
+      "title": "OpenAI Wants to ‘Patch the Planet’ (With Its Own AI)",
+      "summary": "Gizmodo looks at OpenAI's Patch the Planet push, which uses its own AI to find and coordinate fixes for critical open-source bugs.",
+      "url": "https://gizmodo.com/openai-wants-to-patch-the-planet-with-its-own-ai-2000829119",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "agents",
+        "policy"
+      ],
+      "publishedAt": "2026-10-21T20:55:39Z",
       "clusterId": "php-ai-vuln"
     },
     {
@@ -249,59 +263,95 @@
       "publishedAt": "2026-10-21T10:10:01Z"
     },
     {
-      "title": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
-      "summary": "IBM released Granite Speech 5.0, a speech model that transcribes, translates and attributes speakers more accurately and faster.",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
-      "sourceName": "Hugging Face Blog",
-      "sourceId": "huggingface",
-      "sourceHome": "https://huggingface.co/blog",
+      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+      "summary": "OpenAI is expanding ChatGPT Ads to 26 more countries, saying more than 100,000 advertisers have now used the platform.",
+      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+      "sourceName": "OpenAI News",
+      "sourceId": "openai",
+      "sourceHome": "https://openai.com/news/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-21T13:00:00Z"
+    },
+    {
+      "title": "Inception's Mercury 3 diffusion model claims to beat GPT-6 Luna and Claude Haiku 5.5 at a fraction of the wait",
+      "summary": "Inception's Mercury 3 diffusion language model claims to beat GPT-6 Luna and Claude Haiku 5.5 while responding much faster.",
+      "url": "https://the-decoder.com/inceptions-mercury-3-diffusion-model-claims-to-beat-gpt-6-luna-and-claude-haiku-5-5-at-a-fraction-of-the-wait/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
       "tags": [
         "model-releases"
       ],
-      "publishedAt": "2026-10-21T14:58:18Z"
+      "publishedAt": "2026-10-21T14:45:45Z"
+    },
+    {
+      "title": "AI Is ‘on Track to Crowd Out Human Decision-Making’ in Warfare, U.N. Official Warns",
+      "summary": "A U.N. official warns that AI is on track to crowd out human decision-making in warfare.",
+      "url": "https://gizmodo.com/ai-is-on-track-to-crowd-out-human-decision-making-in-warfare-u-n-official-warns-2000828868",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-21T16:05:27Z"
+    },
+    {
+      "title": "Red Hat and Nvidia expand their partnership to secure autonomous AI agents",
+      "summary": "Red Hat and Nvidia are expanding their partnership to help enterprises secure autonomous AI agents.",
+      "url": "https://siliconangle.com/2026/10/21/red-hat-and-nvidia-expand-their-partnership-to-secure-autonomous-ai-agents/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-10-21T15:25:52Z"
     }
   ],
   "rumors": [
     {
-      "title": "GPT-6.1 Terra leak surfaces again",
-      "summary": "Unconfirmed: a podcast recap flags a reported GPT-6.1 Terra leak and says it is not confirmed yet. Treat as rumor.",
-      "url": "https://x.com/WeightsAndLeaks/status/2113074004504334845",
-      "via": "@WeightsAndLeaks",
+      "title": "Tesla and Nvidia reportedly put $2.8B into Samsung Electro-Mechanics chips",
+      "summary": "Unconfirmed: a post says Samsung Electro-Mechanics has secured a $2.8 billion chip investment from Tesla and Nvidia. Not independently verified.",
+      "url": "https://x.com/HIT/status/2113173679018270919",
+      "via": "@HIT",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-22T01:55:00.000Z",
+      "harvestedAt": "2026-10-22T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "Colossus 1 reportedly went to Anthropic",
-      "summary": "Unconfirmed: a post claims xAI's mixed-generation fleet fell to roughly 11% training efficiency and that Colossus 1 capacity went to Anthropic. Not verified.",
-      "url": "https://x.com/maggienanyonga/status/2113077784780423297",
-      "via": "@maggienanyonga",
+      "title": "Anthropic could publicly file for its IPO as early as Friday",
+      "summary": "Unconfirmed: a post citing Yahoo Finance says Anthropic may publicly file for its IPO as soon as Friday. Timing not confirmed by Anthropic.",
+      "url": "https://x.com/exenro/status/2113164247081345239",
+      "via": "@exenro",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-22T01:55:00.000Z",
+      "harvestedAt": "2026-10-22T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "Anthropic S-1 reportedly lists an AI 'time travel' risk",
-      "summary": "Unconfirmed: a post says page 32 of Anthropic's draft S-1, as shared on X, lists a risk of future AI sending information back in time. The filing text hasn't been verified.",
-      "url": "https://x.com/OmidMasoom/status/2113076146275278990",
-      "via": "@OmidMasoom",
+      "title": "DeepSeek reportedly raising about $15B led by CATL and Tencent",
+      "summary": "Unconfirmed: a post claims DeepSeek is raising roughly $15 billion in a round co-led by CATL and Tencent. Treat as rumor.",
+      "url": "https://x.com/myldao/status/2113169675026939932",
+      "via": "@myldao",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-22T01:55:00.000Z",
+      "harvestedAt": "2026-10-22T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "Nvidia reportedly backing up to $164.5B in data center guarantees",
-      "summary": "Unconfirmed: a post says Nvidia is backing up to $164.5 billion in AI data center guarantees and commitments. Figure not independently confirmed.",
-      "url": "https://x.com/dave_uncensored/status/2113077333607547000",
-      "via": "@dave_uncensored",
+      "title": "Some Anthropic IPO investors reportedly talking $1.5T, not $2T",
+      "summary": "Unconfirmed: a thread says that after Anthropic's investor day some participants discussed a roughly $1.5 trillion valuation instead of about $2 trillion. Not verified.",
+      "url": "https://x.com/Paimon_Finance/status/2113174544542224779",
+      "via": "@Paimon_Finance",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-22T01:55:00.000Z",
+      "harvestedAt": "2026-10-22T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
