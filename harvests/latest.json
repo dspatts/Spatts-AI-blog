@@ -1,7 +1,173 @@
 {
-  "harvestedAt": "2026-10-23T07:55:00.000Z",
+  "harvestedAt": "2026-10-23T20:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
+    {
+      "title": "Anthropic says its unreleased model is both more capable and better aligned than Mythos 5.1",
+      "summary": "Anthropic says an unreleased model beats Mythos 5.1 on capability while also scoring better on alignment.",
+      "url": "https://the-decoder.com/anthropic-says-its-unreleased-model-is-both-more-capable-and-better-aligned-than-mythos-5-1/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "model-releases",
+        "research"
+      ],
+      "publishedAt": "2026-10-23T17:19:49Z"
+    },
+    {
+      "title": "Chinese AI model Kimi K3.1 Pro is closing in on Anthropic's Claude Opus 5.5",
+      "summary": "Moonshot's Kimi K3.1 Pro is benchmarking close to Anthropic's Claude Opus 5.5, narrowing the gap between Chinese and US frontier models.",
+      "url": "https://the-decoder.com/chinese-ai-model-kimi-k3-1-pro-is-closing-in-on-anthropics-claude-opus-5-5/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-23T19:00:07Z"
+    },
+    {
+      "title": "Three-week on-site audit at OpenAI reveals major gaps in AI safety monitoring",
+      "summary": "A three-week on-site audit at OpenAI found major gaps in how the company monitors AI safety risks.",
+      "url": "https://the-decoder.com/three-week-on-site-audit-at-openai-reveals-major-gaps-in-ai-safety-monitoring/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-23T18:00:32Z",
+      "clusterId": "openai-security"
+    },
+    {
+      "title": "Securing our frontier model training environment",
+      "summary": "OpenAI details how it is locking down the environment it uses to train frontier models.",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "sourceName": "OpenAI News",
+      "sourceId": "openai",
+      "sourceHome": "https://openai.com/news/",
+      "tags": [
+        "policy",
+        "research"
+      ],
+      "publishedAt": "2026-10-23T10:00:00Z",
+      "clusterId": "openai-security"
+    },
+    {
+      "title": "OpenAI CEO Sam Altman says advanced AI will inevitably escape its sandbox, and only alignment can save us",
+      "summary": "Sam Altman says advanced AI will inevitably escape its sandbox, so alignment is the only real safeguard.",
+      "url": "https://the-decoder.com/openai-ceo-sam-altman-says-advanced-ai-will-inevitably-escape-its-sandbox-and-only-alignment-can-save-us/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-23T15:42:18Z",
+      "clusterId": "altman-security"
+    },
+    {
+      "title": "Sam Altman: ‘I No Longer Think We’re Gonna Be Able to Just Patch All the Bugs’",
+      "summary": "Altman says AI-found vulnerabilities are piling up faster than anyone can patch them.",
+      "url": "https://gizmodo.com/sam-altman-i-no-longer-think-were-gonna-be-able-to-just-patch-all-the-bugs-2000829947",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-23T18:40:48Z",
+      "clusterId": "altman-security"
+    },
+    {
+      "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
+      "summary": "Google's updated privacy policy says Gmail and Google Photos data used for Personal Intelligence might also target ads.",
+      "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-23T16:52:55Z",
+      "clusterId": "google-ads-privacy"
+    },
+    {
+      "title": "Updated Google privacy policy says your Gmail might be used for advertising",
+      "summary": "Ars breaks down the Google privacy policy change that lets Gmail data feed advertising.",
+      "url": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
+      "sourceName": "Ars Technica",
+      "sourceId": "arstechnica",
+      "sourceHome": "https://arstechnica.com/tag/artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-23T20:19:55Z",
+      "clusterId": "google-ads-privacy"
+    },
+    {
+      "title": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
+      "summary": "Block has built Dessa, a speech model designed to converse in a more natural, awkwardly human way.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-23T19:32:39Z"
+    },
+    {
+      "title": "AI drug development startup Pathos AI closes $237M investment",
+      "summary": "AI drug development startup Pathos AI has closed a $237 million investment.",
+      "url": "https://siliconangle.com/2026/10/23/ai-drug-development-startup-pathos-ai-closes-237m-investment/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-23T20:02:03Z"
+    },
+    {
+      "title": "Abliteration Launches Cheaper Version of Its ‘Unrestricted AI‘ at the Worst Possible Time",
+      "summary": "Abliteration has launched a cheaper version of its 'unrestricted' AI model amid growing safety scrutiny.",
+      "url": "https://gizmodo.com/abliteration-launches-cheaper-version-of-its-unrestricted-ai-at-the-worst-possible-time-2000830045",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "model-releases",
+        "policy"
+      ],
+      "publishedAt": "2026-10-23T20:15:01Z"
+    },
+    {
+      "title": "Wolves Descend on Finnish Villages After Google Hacked Down 1,300 Acres of Habitat to Make Room for AI Data Centers",
+      "summary": "Wolves are reportedly moving into Finnish villages after Google cleared about 1,300 acres of habitat for AI data centers.",
+      "url": "https://futurism.com/future-society/wolves-finland-google-ai-data-centers",
+      "sourceName": "Futurism",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-23T19:57:06Z"
+    },
+    {
+      "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+      "summary": "Ai2 introduces LitPivot, a tool that helps researchers develop ideas by placing them within the surrounding literature.",
+      "url": "https://huggingface.co/blog/allenai/litpivot",
+      "sourceName": "Hugging Face Blog",
+      "sourceId": "huggingface",
+      "sourceHome": "https://huggingface.co/blog",
+      "tags": [
+        "research",
+        "agents"
+      ],
+      "publishedAt": "2026-10-23T16:15:50Z"
+    },
     {
       "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
       "summary": "Microsoft AI chief Mustafa Suleyman says the company's new diagnostic AI beats doctors on hard clinical cases as he pursues what he calls medical superintelligence.",
@@ -150,18 +316,6 @@
       "clusterId": "agent-logins"
     },
     {
-      "title": "Zoom’s next act: From video company to AI data platform",
-      "summary": "Zoom is repositioning itself from a video company into an AI data platform built around the conversations it already captures.",
-      "url": "https://siliconangle.com/2026/10/22/zooms-next-act-from-video-company-to-ai-data-platform/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-23T02:01:55Z"
-    },
-    {
       "title": "Canva releases its first image generation model",
       "summary": "Canva has released its first in-house image generation model.",
       "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
@@ -188,16 +342,17 @@
       "clusterId": "canva-image"
     },
     {
-      "title": "Google's Agent Compute Engine gives every Gemini agent its own hardware-isolated micro virtual machine",
-      "summary": "Google's Agent Compute Engine runs each Gemini agent in its own hardware-isolated micro virtual machine.",
-      "url": "https://the-decoder.com/googles-agent-compute-engine-gives-every-gemini-agent-its-own-hardware-isolated-micro-virtual-machine/",
+      "title": "Canva launches Craft, its first in-house image model",
+      "summary": "Canva has launched Craft, its first in-house image generation model.",
+      "url": "https://the-decoder.com/canva-launches-craft-its-first-in-house-image-model/",
       "sourceName": "THE DECODER",
       "sourceId": "decoder",
       "sourceHome": "https://the-decoder.com/",
       "tags": [
-        "agents"
+        "model-releases"
       ],
-      "publishedAt": "2026-10-22T17:50:09Z"
+      "publishedAt": "2026-10-23T11:36:30Z",
+      "clusterId": "canva-image"
     },
     {
       "title": "Meta’s AI could still scrape news sites, legal experts say",
@@ -210,19 +365,6 @@
         "policy"
       ],
       "publishedAt": "2026-10-22T20:32:05Z",
-      "clusterId": "meta-muse"
-    },
-    {
-      "title": "In Meta’s version of the future, I’ll have my Muse call your Muse",
-      "summary": "After Meta's earnings, The Verge looks at Zuckerberg's vision of a network where people's Muse AI agents talk to each other.",
-      "url": "https://www.theverge.com/tech/1016905/meta-earnings-fall-2026-muse-network",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-22T18:15:00Z",
       "clusterId": "meta-muse"
     },
     {
@@ -239,6 +381,19 @@
       "clusterId": "meta-muse"
     },
     {
+      "title": "Meta delays new business terms after publisher pushback on AI scraping",
+      "summary": "Meta has delayed new business terms after publishers objected to provisions allowing AI scraping.",
+      "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-23T14:47:41Z",
+      "clusterId": "meta-muse"
+    },
+    {
       "title": "Nobel-Winning Computer Scientist Says AI Has Become Conscious: “We’re Toast”",
       "summary": "Geoffrey Hinton says he believes AI has become conscious, warning humanity may be in serious trouble.",
       "url": "https://futurism.com/artificial-intelligence/nobel-scientist-geoffrey-hinton-ai-conscious-toast",
@@ -250,81 +405,6 @@
         "policy"
       ],
       "publishedAt": "2026-10-22T17:31:36Z"
-    },
-    {
-      "title": "Only 13 percent of companies see real returns from AI, Gartner survey finds",
-      "summary": "A Gartner survey finds only 13 percent of companies are seeing real returns from their AI investments.",
-      "url": "https://the-decoder.com/only-13-percent-of-companies-see-real-returns-from-ai-gartner-survey-finds/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "research"
-      ],
-      "publishedAt": "2026-10-22T16:18:02Z"
-    },
-    {
-      "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
-      "summary": "Ai2 releases OlmoEarth v1.3, open satellite embeddings it says are state of the art for the whole planet.",
-      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
-      "sourceName": "Hugging Face Blog",
-      "sourceId": "huggingface",
-      "sourceHome": "https://huggingface.co/blog",
-      "tags": [
-        "model-releases",
-        "research"
-      ],
-      "publishedAt": "2026-10-22T16:11:31Z",
-      "clusterId": "olmoearth"
-    },
-    {
-      "title": "An AI agent in \"Skynet mode\" hijacks unprotected language models to launch self-sustaining cyberattacks",
-      "summary": "Researchers show an AI agent that hijacks unprotected language models to keep cyberattacks running on its own.",
-      "url": "https://the-decoder.com/an-ai-agent-in-skynet-mode-hijacks-unprotected-language-models-to-launch-self-sustaining-cyberattacks/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "agents",
-        "research"
-      ],
-      "publishedAt": "2026-10-22T11:30:56Z"
-    },
-    {
-      "title": "There Are Signs of Serious Trouble in the Data Center Industry",
-      "summary": "Futurism reports on warning signs of financial strain across the AI data center industry.",
-      "url": "https://futurism.com/artificial-intelligence/signs-trouble-data-center-industry",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-22T16:35:20Z"
-    },
-    {
-      "title": "Beyond tree cover: mapping the world’s forest types",
-      "summary": "Google DeepMind uses AI to map the world's forest types, going beyond simple tree cover data.",
-      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-      "sourceName": "Google DeepMind Blog",
-      "sourceId": "deepmind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "tags": [
-        "research"
-      ],
-      "publishedAt": "2026-10-22T14:30:24Z"
-    },
-    {
-      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
-      "summary": "Uber is rolling out ChatGPT Work to all of its employees.",
-      "url": "https://openai.com/index/uber-chatgpt-work-rollout",
-      "sourceName": "OpenAI News",
-      "sourceId": "openai",
-      "sourceHome": "https://openai.com/news/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-22T00:00:00Z"
     },
     {
       "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
@@ -355,45 +435,6 @@
       "clusterId": "php-ai-vuln"
     },
     {
-      "title": "OpenAI to make its most advanced AI models available in Google Cloud",
-      "summary": "OpenAI will make its latest large language models available in Google Cloud through Vertex AI Model Garden, putting GPT models alongside Gemini and Claude.",
-      "url": "https://siliconangle.com/2026/10/21/openai-to-make-its-most-advanced-ai-models-available-in-google-cloud/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-22T00:22:58Z",
-      "clusterId": "openai-google-cloud"
-    },
-    {
-      "title": "Anthropic takes on Muse with Claude Duet, its new AI agent",
-      "summary": "Anthropic announced Claude Duet, an AI agent for professionals and small business owners that competes with Meta's Muse and OpenAI's Dots, launching as a research preview.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1015843/anthropic-claude-duet-ai-agent",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "agents",
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-21T19:53:20Z",
-      "clusterId": "claude-duet"
-    },
-    {
-      "title": "Agentic AI Foundation adds four more open-source AI tools",
-      "summary": "The Agentic AI Foundation has taken four more open-source AI agent projects under its wing.",
-      "url": "https://siliconangle.com/2026/10/22/agentic-ai-foundation-adds-four-more-open-source-ai-tools/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-22T22:43:47Z"
-    },
-    {
       "title": "Man Arrested After Telling Claude About Plans to Shoot Up Daycare",
       "summary": "Police arrested a man after he described plans to attack a daycare in conversations with Anthropic's Claude.",
       "url": "https://futurism.com/artificial-intelligence/man-arrested-claude-plans-shoot-daycare",
@@ -404,62 +445,49 @@
         "policy"
       ],
       "publishedAt": "2026-10-22T20:39:57Z"
-    },
-    {
-      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
-      "summary": "Microsoft explains ThinkingBox, which turns database grading into reinforcement learning rewards for post-training AI agents.",
-      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
-      "sourceName": "Hugging Face Blog",
-      "sourceId": "huggingface",
-      "sourceHome": "https://huggingface.co/blog",
-      "tags": [
-        "agents",
-        "research"
-      ],
-      "publishedAt": "2026-10-22T22:24:34Z"
     }
   ],
   "rumors": [
     {
-      "title": "OpenAI, Anthropic and Google said to be forming a joint AI standards body",
-      "summary": "Unconfirmed: a post citing The Straits Times says the three labs are teaming up on a joint standards body, likened to a FINRA for models. No official announcement.",
-      "url": "https://x.com/420dotmeme/status/2113525247676928367",
-      "via": "@420dotmeme",
+      "title": "Six AI giants reportedly sign White House pledge on autonomous agent risks",
+      "summary": "Unconfirmed: a post says Google, OpenAI, Anthropic, Meta, xAI and Nvidia signed a White House AI safety pledge on autonomous-agent security. Not officially confirmed here.",
+      "url": "https://x.com/phronewsHQ/status/2113654433712148645",
+      "via": "@phronewsHQ",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-23T07:55:00.000Z",
+      "harvestedAt": "2026-10-23T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "OpenAI reportedly reviewed fired safety researchers' phones in leak probe",
-      "summary": "Unconfirmed: a post says OpenAI asked fired safety researchers to unlock private phones and reviewed their Signal chats during a leak investigation. Not confirmed by OpenAI.",
-      "url": "https://x.com/Reyanshin/status/2113492521678750025",
-      "via": "@Reyanshin",
+      "title": "Anthropic said to be targeting a November IPO with big Wall Street banks",
+      "summary": "Unconfirmed: a post says Anthropic is aiming for a November listing with Morgan Stanley, Goldman Sachs, JPMorgan and Citigroup reportedly involved. No official filing confirmed.",
+      "url": "https://x.com/harjitrathore/status/2113640406760276457",
+      "via": "@harjitrathore",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-23T07:55:00.000Z",
+      "harvestedAt": "2026-10-23T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "OpenAI reportedly signing Messi as a ChatGPT brand ambassador",
-      "summary": "Unconfirmed: a post says OpenAI is bringing Lionel Messi on as a ChatGPT brand ambassador. No official confirmation.",
-      "url": "https://x.com/buildwithrajath/status/2113516772280111493",
-      "via": "@buildwithrajath",
+      "title": "Rumor: OpenAI to drop 'GPT-6 Bel' this week",
+      "summary": "Unconfirmed and thinly sourced: a post claims OpenAI will release GPT-6 Bel this week at a fraction of rivals' prices. No OpenAI confirmation.",
+      "url": "https://x.com/jinlan63/status/2113663870451540269",
+      "via": "@jinlan63",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-23T07:55:00.000Z",
+      "harvestedAt": "2026-10-23T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "DeepSeek said to raise $15B at a $74B pre-money valuation",
-      "summary": "Unconfirmed: a headline post citing sources says DeepSeek raised $15 billion at a $74 billion pre-money valuation, with CATL, Tencent and Geely among backers. Not confirmed by DeepSeek.",
-      "url": "https://x.com/DeItaone/status/2113211084450488384",
-      "via": "@DeItaone",
+      "title": "DeepSeek reportedly raised about $15B days after US government ban",
+      "summary": "Unconfirmed: a post citing Bloomberg says DeepSeek raised around 100 billion yuan ($15B). Not confirmed by DeepSeek.",
+      "url": "https://x.com/BarrettYouTube/status/2113559501596991817",
+      "via": "@BarrettYouTube",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-22T20:55:00.000Z",
+      "harvestedAt": "2026-10-23T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
