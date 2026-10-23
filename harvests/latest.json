@@ -1,5 +1,5 @@
 {
-  "harvestedAt": "2026-10-22T20:55:00.000Z",
+  "harvestedAt": "2026-10-23T01:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
@@ -28,6 +28,45 @@
       ],
       "publishedAt": "2026-10-22T20:40:46Z",
       "clusterId": "msft-medical-ai"
+    },
+    {
+      "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
+      "summary": "OpenAI is reportedly working on a new $30 billion raise at a $1.25 trillion valuation ahead of its IPO, which would make it the most valuable private company ever.",
+      "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-22T22:08:24Z",
+      "clusterId": "openai-30b"
+    },
+    {
+      "title": "Report: OpenAI closing on $30B ‘bridge’ funding round to tide it over before IPO",
+      "summary": "SiliconANGLE says OpenAI may be closing a $30 billion bridge round to carry it until its planned IPO.",
+      "url": "https://siliconangle.com/2026/10/22/report-openai-closing-on-30b-bridge-funding-round-to-tide-it-over-before-ipo/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-23T00:47:28Z",
+      "clusterId": "openai-30b"
+    },
+    {
+      "title": "Left alone with nothing to do, AI agents started playing",
+      "summary": "MIT researchers left 13 AI agents on a virtual island with nothing to do, and they invented games, mourned a lost ring and got better at things over time.",
+      "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "agents",
+        "research"
+      ],
+      "publishedAt": "2026-10-23T00:45:37Z"
     },
     {
       "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
@@ -108,7 +147,21 @@
       "tags": [
         "model-releases"
       ],
-      "publishedAt": "2026-10-22T19:00:00Z"
+      "publishedAt": "2026-10-22T19:00:00Z",
+      "clusterId": "canva-image"
+    },
+    {
+      "title": "Canva’s first AI image model plans designs before generating them",
+      "summary": "Canva's first in-house image model plans a design before generating it, competing with models from OpenAI, Microsoft and Google.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-22T21:51:25Z",
+      "clusterId": "canva-image"
     },
     {
       "title": "Google's Agent Compute Engine gives every Gemini agent its own hardware-isolated micro virtual machine",
@@ -237,18 +290,6 @@
       "publishedAt": "2026-10-22T00:00:00Z"
     },
     {
-      "title": "Startup Action State launches tools for verifying interactions between AI agents",
-      "summary": "Startup Action State launches tools to verify interactions between AI agents.",
-      "url": "https://siliconangle.com/2026/10/22/startup-action-state-launches-tools-for-verifying-interactions-between-ai-agents/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-22T13:00:06Z"
-    },
-    {
       "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
       "summary": "OpenAI's Patch the Planet program connects security researchers, maintainers and incident responders to coordinate fixes as AI agents uncover critical open-source vulnerabilities.",
       "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
@@ -304,29 +345,16 @@
       "clusterId": "claude-duet"
     },
     {
-      "title": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
-      "summary": "Startup Recursive released Flint, a free laptop-sized coding model it says was largely built by its own AI research system, as an early test of self-improving AI.",
-      "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "model-releases",
-        "research"
-      ],
-      "publishedAt": "2026-10-21T20:27:41Z"
-    },
-    {
-      "title": "Year-old AI research lab Flapping Airplanes raises $1B at a reported $6B valuation",
-      "summary": "Year-old AI research lab Flapping Airplanes raised $1 billion at a reported $6 billion valuation.",
-      "url": "https://siliconangle.com/2026/10/21/year-old-ai-research-lab-flapping-airplanes-raises-1b-at-a-reported-6b-valuation/",
+      "title": "Agentic AI Foundation adds four more open-source AI tools",
+      "summary": "The Agentic AI Foundation has taken four more open-source AI agent projects under its wing.",
+      "url": "https://siliconangle.com/2026/10/22/agentic-ai-foundation-adds-four-more-open-source-ai-tools/",
       "sourceName": "SiliconANGLE",
       "sourceId": "siliconangle",
       "sourceHome": "https://siliconangle.com/",
       "tags": [
-        "funding"
+        "agents"
       ],
-      "publishedAt": "2026-10-21T22:18:30Z"
+      "publishedAt": "2026-10-22T22:43:47Z"
     }
   ],
   "rumors": [
