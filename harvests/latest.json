@@ -1,5 +1,5 @@
 {
-  "harvestedAt": "2026-10-23T01:55:00.000Z",
+  "harvestedAt": "2026-10-23T07:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
@@ -97,6 +97,18 @@
       "clusterId": "openai-decisions"
     },
     {
+      "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+      "summary": "OpenAI is partnering with Poland's national research institute NASK on AI safety, security and technical research to strengthen safeguards.",
+      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "sourceName": "OpenAI News",
+      "sourceId": "openai",
+      "sourceHome": "https://openai.com/news/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-23T00:00:00Z"
+    },
+    {
       "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
       "summary": "1Password launches a way for AI agents to sign in to services on a user's behalf without ever seeing the password.",
       "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
@@ -136,6 +148,18 @@
       ],
       "publishedAt": "2026-10-22T16:15:01Z",
       "clusterId": "agent-logins"
+    },
+    {
+      "title": "Zoom’s next act: From video company to AI data platform",
+      "summary": "Zoom is repositioning itself from a video company into an AI data platform built around the conversations it already captures.",
+      "url": "https://siliconangle.com/2026/10/22/zooms-next-act-from-video-company-to-ai-data-platform/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-10-23T02:01:55Z"
     },
     {
       "title": "Canva releases its first image generation model",
@@ -199,6 +223,19 @@
         "agents"
       ],
       "publishedAt": "2026-10-22T18:15:00Z",
+      "clusterId": "meta-muse"
+    },
+    {
+      "title": "Meta turns Muse sharing back on",
+      "summary": "Meta has re-enabled Muse sharing after researchers found public conversation links could be easy to discover.",
+      "url": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-22T20:24:04Z",
       "clusterId": "meta-muse"
     },
     {
@@ -355,47 +392,72 @@
         "agents"
       ],
       "publishedAt": "2026-10-22T22:43:47Z"
+    },
+    {
+      "title": "Man Arrested After Telling Claude About Plans to Shoot Up Daycare",
+      "summary": "Police arrested a man after he described plans to attack a daycare in conversations with Anthropic's Claude.",
+      "url": "https://futurism.com/artificial-intelligence/man-arrested-claude-plans-shoot-daycare",
+      "sourceName": "Futurism",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-22T20:39:57Z"
+    },
+    {
+      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+      "summary": "Microsoft explains ThinkingBox, which turns database grading into reinforcement learning rewards for post-training AI agents.",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "sourceName": "Hugging Face Blog",
+      "sourceId": "huggingface",
+      "sourceHome": "https://huggingface.co/blog",
+      "tags": [
+        "agents",
+        "research"
+      ],
+      "publishedAt": "2026-10-22T22:24:34Z"
     }
   ],
   "rumors": [
+    {
+      "title": "OpenAI, Anthropic and Google said to be forming a joint AI standards body",
+      "summary": "Unconfirmed: a post citing The Straits Times says the three labs are teaming up on a joint standards body, likened to a FINRA for models. No official announcement.",
+      "url": "https://x.com/420dotmeme/status/2113525247676928367",
+      "via": "@420dotmeme",
+      "sourceKind": "x",
+      "harvestedAt": "2026-10-23T07:55:00.000Z",
+      "tags": [
+        "rumor"
+      ]
+    },
+    {
+      "title": "OpenAI reportedly reviewed fired safety researchers' phones in leak probe",
+      "summary": "Unconfirmed: a post says OpenAI asked fired safety researchers to unlock private phones and reviewed their Signal chats during a leak investigation. Not confirmed by OpenAI.",
+      "url": "https://x.com/Reyanshin/status/2113492521678750025",
+      "via": "@Reyanshin",
+      "sourceKind": "x",
+      "harvestedAt": "2026-10-23T07:55:00.000Z",
+      "tags": [
+        "rumor"
+      ]
+    },
+    {
+      "title": "OpenAI reportedly signing Messi as a ChatGPT brand ambassador",
+      "summary": "Unconfirmed: a post says OpenAI is bringing Lionel Messi on as a ChatGPT brand ambassador. No official confirmation.",
+      "url": "https://x.com/buildwithrajath/status/2113516772280111493",
+      "via": "@buildwithrajath",
+      "sourceKind": "x",
+      "harvestedAt": "2026-10-23T07:55:00.000Z",
+      "tags": [
+        "rumor"
+      ]
+    },
     {
       "title": "DeepSeek said to raise $15B at a $74B pre-money valuation",
       "summary": "Unconfirmed: a headline post citing sources says DeepSeek raised $15 billion at a $74 billion pre-money valuation, with CATL, Tencent and Geely among backers. Not confirmed by DeepSeek.",
       "url": "https://x.com/DeItaone/status/2113211084450488384",
       "via": "@DeItaone",
-      "sourceKind": "x",
-      "harvestedAt": "2026-10-22T20:55:00.000Z",
-      "tags": [
-        "rumor"
-      ]
-    },
-    {
-      "title": "DeepSeek reportedly looking to speed up its IPO timeline",
-      "summary": "Unconfirmed: a post citing sources says DeepSeek wants to accelerate its IPO plans. No official timeline announced.",
-      "url": "https://x.com/DeItaone/status/2113211226818068676",
-      "via": "@DeItaone",
-      "sourceKind": "x",
-      "harvestedAt": "2026-10-22T20:55:00.000Z",
-      "tags": [
-        "rumor"
-      ]
-    },
-    {
-      "title": "OpenAI reportedly nearing up to $30B raise at $1.25T pre-money",
-      "summary": "Unconfirmed: a post citing sources says OpenAI is close to a funding round of up to $30 billion at a $1.25 trillion pre-money valuation, led by UAE investors and Coatue. Not confirmed by OpenAI.",
-      "url": "https://x.com/faststocknewss/status/2113365745359089876",
-      "via": "@faststocknewss",
-      "sourceKind": "x",
-      "harvestedAt": "2026-10-22T20:55:00.000Z",
-      "tags": [
-        "rumor"
-      ]
-    },
-    {
-      "title": "Google said to be testing Gemini 4 Carbon internally",
-      "summary": "Unconfirmed: a post claims Google is already testing Gemini 4 Carbon internally weeks after Argon, and that Anthropic is working on Fable 5.5. Treat as rumor.",
-      "url": "https://x.com/aGim_asf/status/2113288849095045206",
-      "via": "@aGim_asf",
       "sourceKind": "x",
       "harvestedAt": "2026-10-22T20:55:00.000Z",
       "tags": [
