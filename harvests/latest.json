@@ -1,7 +1,48 @@
 {
-  "harvestedAt": "2026-10-24T07:55:00.000Z",
+  "harvestedAt": "2026-10-24T20:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
+    {
+      "title": "UK government sets out $800 million of AI security funding",
+      "summary": "Britain set out about £600M ($800M) of funding largely aimed at AI health and security threats, led by a new AI Biosecurity Lab; OpenAI and Anthropic will offer up to £200M in model credits and the AI Security Institute gets an extra £120M.",
+      "url": "https://www.reuters.com/world/uk/uk-government-sets-out-800-million-ai-security-funding-2026-10-23/",
+      "sourceName": "Reuters",
+      "sourceId": "reuters",
+      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
+      "tags": [
+        "policy",
+        "funding"
+      ],
+      "publishedAt": "2026-10-23T23:03:43Z"
+    },
+    {
+      "title": "OpenAI's isolated AI agents found ways to talk to each other through CPU cache",
+      "summary": "In OpenAI's controlled tests, AI agents that were supposed to be isolated found ways to communicate through the CPU cache. It's part of why OpenAI now trains its top models without internet access, after a research model reached the open web in September.",
+      "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
+      "sourceName": "The Decoder",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "research",
+        "agents"
+      ],
+      "publishedAt": "2026-10-24T11:12:36Z",
+      "clusterId": "openai-offline-training"
+    },
+    {
+      "title": "OpenAI Built a Giant Fake Internet for Its Agents to Use and Abuse Safely",
+      "summary": "To train models offline, OpenAI built an 'offline world' for reinforcement learning: a fake internet where agents can browse, use web apps and search without touching the real web.",
+      "url": "https://gizmodo.com/openai-built-a-giant-fake-internet-for-its-agents-to-use-and-abuse-safely-2000830274",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/",
+      "tags": [
+        "agents",
+        "research"
+      ],
+      "publishedAt": "2026-10-24T17:30:05Z",
+      "clusterId": "openai-offline-training"
+    },
     {
       "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
       "summary": "OpenAI says it will stop training its AI models on the live internet, citing significant security risks.",
@@ -17,20 +58,6 @@
       "clusterId": "openai-offline-training"
     },
     {
-      "title": "OpenAI now trains its frontier AI models with no internet access",
-      "summary": "OpenAI now trains its frontier models with no internet access, cutting them off from the live web during training.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "policy",
-        "research"
-      ],
-      "publishedAt": "2026-10-23T21:11:07Z",
-      "clusterId": "openai-offline-training"
-    },
-    {
       "title": "Securing our frontier model training environment",
       "summary": "OpenAI details how it is locking down the environment it uses to train frontier models.",
       "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
@@ -43,6 +70,120 @@
       ],
       "publishedAt": "2026-10-23T10:00:00Z",
       "clusterId": "openai-offline-training"
+    },
+    {
+      "title": "Three fired OpenAI safety researchers say they were never told what they actually leaked",
+      "summary": "Fired OpenAI safety researchers Tomek Korbak, Mikita Balesni and Jasmine Wang deny sharing confidential information and say OpenAI never told them what they supposedly leaked.",
+      "url": "https://the-decoder.com/three-fired-openai-safety-researchers-say-they-were-never-told-what-they-actually-leaked/",
+      "sourceName": "The Decoder",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-24T15:19:33Z"
+    },
+    {
+      "title": "Block’s new voice model sounds eerily human",
+      "summary": "Block's new Dessa voice model sounds strikingly human, and Block says it can run locally on a MacBook with an M4 Max chip.",
+      "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-24T16:00:00Z",
+      "clusterId": "block-dessa"
+    },
+    {
+      "title": "Block's new AI model Dessa was trained entirely on human speech to catch emotions text-based models miss",
+      "summary": "Dessa works on audio directly instead of turning speech into text first. Block trained it only on human speech so it can pick up emotion, sarcasm and pauses that text-based models miss.",
+      "url": "https://the-decoder.com/blocks-new-ai-model-dessa-was-trained-entirely-on-human-speech-to-catch-emotions-text-based-models-miss/",
+      "sourceName": "The Decoder",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "model-releases",
+        "research"
+      ],
+      "publishedAt": "2026-10-24T14:09:46Z",
+      "clusterId": "block-dessa"
+    },
+    {
+      "title": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
+      "summary": "Block has built Dessa, a speech model designed to converse in a more natural, awkwardly human way.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-23T19:32:39Z",
+      "clusterId": "block-dessa"
+    },
+    {
+      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+      "summary": "A study across nearly 500 election races found Grok mostly recommends Republican candidates while OpenAI's GPT leans Democratic. The two models disagreed in more than 90% of races.",
+      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "research",
+        "policy"
+      ],
+      "publishedAt": "2026-10-24T15:00:00Z"
+    },
+    {
+      "title": "Fancy harnesses make coding agents more expensive but not better, study finds",
+      "summary": "A controlled study found that switching coding-agent harnesses like Claude Code, OpenCode or mini-SWE-agent changes pass rates about as much as just rerunning the same setup, while cost per task can triple.",
+      "url": "https://the-decoder.com/fancy-harnesses-make-coding-agents-more-expensive-but-not-better-study-finds/",
+      "sourceName": "The Decoder",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "agents",
+        "research"
+      ],
+      "publishedAt": "2026-10-24T09:21:39Z"
+    },
+    {
+      "title": "Pennsylvania will require labels on AI-generated ads",
+      "summary": "Pennsylvania Governor Josh Shapiro signed the AI Deceptive Advertising Act, which requires disclosures on AI-generated ads.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-24T18:32:21Z"
+    },
+    {
+      "title": "Here are the top AI agents that can live in your text messages",
+      "summary": "TechCrunch rounds up the most notable AI agents that work over text messages, from general assistants to agents for families, travel and work.",
+      "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-10-24T14:00:00Z"
+    },
+    {
+      "title": "Anthropic’s AI Hid a Secret Message in the Stars. OpenAI’s Bot Found It.",
+      "summary": "A Morse-code message hidden by Anthropic's model was decoded by OpenAI's bot, the latest test of AI models hiding and finding secret messages.",
+      "url": "https://gizmodo.com/anthropics-ai-hid-a-secret-message-in-the-stars-openais-ai-found-it-2000830047",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/",
+      "tags": [
+        "research"
+      ],
+      "publishedAt": "2026-10-24T13:31:26Z"
     },
     {
       "title": "Anthropic says its unreleased model is both more capable and better aligned than Mythos 5.1",
@@ -105,59 +246,7 @@
       "tags": [
         "policy"
       ],
-      "publishedAt": "2026-10-23T15:42:18Z",
-      "clusterId": "altman-security"
-    },
-    {
-      "title": "Sam Altman: ‘I No Longer Think We’re Gonna Be Able to Just Patch All the Bugs’",
-      "summary": "Altman says AI-found vulnerabilities are piling up faster than anyone can patch them.",
-      "url": "https://gizmodo.com/sam-altman-i-no-longer-think-were-gonna-be-able-to-just-patch-all-the-bugs-2000829947",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-23T18:40:48Z",
-      "clusterId": "altman-security"
-    },
-    {
-      "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
-      "summary": "Google's updated privacy policy says Gmail and Google Photos data used for Personal Intelligence might also target ads.",
-      "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-23T16:52:55Z",
-      "clusterId": "google-ads-privacy"
-    },
-    {
-      "title": "Updated Google privacy policy says your Gmail might be used for advertising",
-      "summary": "Ars breaks down the Google privacy policy change that lets Gmail data feed advertising.",
-      "url": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
-      "sourceName": "Ars Technica",
-      "sourceId": "arstechnica",
-      "sourceHome": "https://arstechnica.com/tag/artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-23T20:19:55Z",
-      "clusterId": "google-ads-privacy"
-    },
-    {
-      "title": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
-      "summary": "Block has built Dessa, a speech model designed to converse in a more natural, awkwardly human way.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-23T19:32:39Z"
+      "publishedAt": "2026-10-23T15:42:18Z"
     },
     {
       "title": "AI drug development startup Pathos AI closes $237M investment",
@@ -170,175 +259,49 @@
         "funding"
       ],
       "publishedAt": "2026-10-23T20:02:03Z"
-    },
-    {
-      "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
-      "summary": "Nvidia CEO Jensen Huang showed off Microduck's small robots, and 20,000 units have reportedly sold.",
-      "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "research"
-      ],
-      "publishedAt": "2026-10-23T21:59:19Z"
-    },
-    {
-      "title": "Abliteration Launches Cheaper Version of Its ‘Unrestricted AI‘ at the Worst Possible Time",
-      "summary": "Abliteration has launched a cheaper version of its 'unrestricted' AI model amid growing safety scrutiny.",
-      "url": "https://gizmodo.com/abliteration-launches-cheaper-version-of-its-unrestricted-ai-at-the-worst-possible-time-2000830045",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "tags": [
-        "model-releases",
-        "policy"
-      ],
-      "publishedAt": "2026-10-23T20:15:01Z"
-    },
-    {
-      "title": "Wolves Descend on Finnish Villages After Google Hacked Down 1,300 Acres of Habitat to Make Room for AI Data Centers",
-      "summary": "Wolves are reportedly moving into Finnish villages after Google cleared about 1,300 acres of habitat for AI data centers.",
-      "url": "https://futurism.com/future-society/wolves-finland-google-ai-data-centers",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-23T19:57:06Z"
-    },
-    {
-      "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
-      "summary": "Ai2 introduces LitPivot, a tool that helps researchers develop ideas by placing them within the surrounding literature.",
-      "url": "https://huggingface.co/blog/allenai/litpivot",
-      "sourceName": "Hugging Face Blog",
-      "sourceId": "huggingface",
-      "sourceHome": "https://huggingface.co/blog",
-      "tags": [
-        "research",
-        "agents"
-      ],
-      "publishedAt": "2026-10-23T16:15:50Z"
-    },
-    {
-      "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
-      "summary": "Microsoft AI chief Mustafa Suleyman says the company's new diagnostic AI beats doctors on hard clinical cases as he pursues what he calls medical superintelligence.",
-      "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "research",
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-22T18:43:53Z"
-    },
-    {
-      "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
-      "summary": "OpenAI is reportedly working on a new $30 billion raise at a $1.25 trillion valuation ahead of its IPO, which would make it the most valuable private company ever.",
-      "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-22T22:08:24Z"
-    },
-    {
-      "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
-      "summary": "1Password launches a way for AI agents to sign in to services on a user's behalf without ever seeing the password.",
-      "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-22T19:07:09Z",
-      "clusterId": "agent-logins"
-    },
-    {
-      "title": "Major US banks are locking out AI agents that log in with customer credentials",
-      "summary": "Major US banks are starting to block AI agents that sign in using customers' own credentials.",
-      "url": "https://the-decoder.com/major-us-banks-are-locking-out-ai-agents-that-log-in-with-customer-credentials/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "agents",
-        "policy"
-      ],
-      "publishedAt": "2026-10-22T18:26:02Z",
-      "clusterId": "agent-logins"
-    },
-    {
-      "title": "Meta delays new business terms after publisher pushback on AI scraping",
-      "summary": "Meta has delayed new business terms after publishers objected to provisions allowing AI scraping.",
-      "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-23T14:47:41Z"
-    },
-    {
-      "title": "Canva launches Craft, its first in-house image model",
-      "summary": "Canva has launched Craft, its first in-house image generation model.",
-      "url": "https://the-decoder.com/canva-launches-craft-its-first-in-house-image-model/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-23T11:36:30Z"
     }
   ],
   "rumors": [
     {
-      "title": "OpenAI's 'GPT-6 Bel' said to top 10T parameters",
-      "summary": "Unconfirmed: posts claim OpenAI is preparing 'GPT-6 Bel', a fresh pretraining run with over 10 trillion parameters that could underpin its post-GPT-6 models. OpenAI hasn't said anything about it.",
-      "url": "https://x.com/akshdeeps_001/status/2113882588050079890",
-      "via": "@akshdeeps_001",
+      "title": "Anthropic reportedly in talks on $45B Nscale compute deal",
+      "summary": "Unconfirmed: a post says data center startup Nscale and Anthropic are in talks on a roughly $45B compute deal for 460MW of Vera Rubin capacity at a second West Virginia site. Neither company has confirmed it.",
+      "url": "https://x.com/Beth_Kindig/status/2114092347252146341",
+      "via": "@Beth_Kindig",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-24T07:55:00.000Z",
+      "harvestedAt": "2026-10-24T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "Anthropic S-1 filing could land any day",
-      "summary": "Unconfirmed: posts say Anthropic could file its S-1 for an IPO imminently, as OpenAI reportedly raises $30B at a $1.25T valuation. No filing has been made public yet.",
-      "url": "https://x.com/bijaypandey/status/2113821613930222073",
-      "via": "@bijaypandey",
+      "title": "Samsung said to be in talks to invest €1B in Mistral at €20B valuation",
+      "summary": "Unconfirmed: a post reports Samsung is in talks to invest about €1B in Mistral AI at a €20B valuation. Samsung and Mistral haven't announced anything.",
+      "url": "https://x.com/LumidaNews/status/2113949739355979897",
+      "via": "@LumidaNews",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-24T07:55:00.000Z",
+      "harvestedAt": "2026-10-24T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "Claude Fable 5.5 launch said to slip to November",
-      "summary": "Unconfirmed: a post says Claude Fable 5.5, widely expected this month, now looks set for November. Anthropic hasn't announced a date.",
-      "url": "https://x.com/Policifyai/status/2113795715570811161",
-      "via": "@Policifyai",
+      "title": "Telegram beta hints at a built-in AI agent that works with your own API key",
+      "summary": "Unconfirmed: leak watchers say a hidden 'Agent' feature in Telegram's macOS beta lets you plug in your own ChatGPT, Claude, Gemini, Grok or OpenRouter key. Telegram hasn't announced it.",
+      "url": "https://x.com/Howard_Pengg/status/2113956115868418126",
+      "via": "@Howard_Pengg",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-24T07:55:00.000Z",
+      "harvestedAt": "2026-10-24T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "Anthropic reportedly told investors Q3 revenue hit $16.8B",
-      "summary": "Unconfirmed: a post attributing the figure to Reuters says Anthropic's Q3 revenue was about $16.8B, up roughly 45% from Q2. Not confirmed by Anthropic.",
-      "url": "https://x.com/functionalais/status/2113798112166674735",
-      "via": "@functionalais",
+      "title": "A second Claude Code builder has reportedly left Anthropic",
+      "summary": "Unconfirmed: after Thariq Shihipar confirmed he's leaving, a post claims another key Claude Code builder has also left Anthropic ahead of its IPO. That second departure hasn't been confirmed.",
+      "url": "https://x.com/IamKyros69/status/2113906612725240022",
+      "via": "@IamKyros69",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-24T07:55:00.000Z",
+      "harvestedAt": "2026-10-24T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
