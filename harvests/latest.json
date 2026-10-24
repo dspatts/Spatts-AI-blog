@@ -1,5 +1,5 @@
 {
-  "harvestedAt": "2026-10-24T01:55:00.000Z",
+  "harvestedAt": "2026-10-24T07:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
@@ -300,12 +300,23 @@
   ],
   "rumors": [
     {
-      "title": "Claude Code engineer Thariq Shihipar reportedly leaves Anthropic",
-      "summary": "Unconfirmed: a widely shared post claims Claude Code engineer Thariq Shihipar has left Anthropic. No announcement from him or Anthropic so far.",
-      "url": "https://x.com/ArfurGrok/status/2113781170253308276",
-      "via": "@ArfurGrok",
+      "title": "OpenAI's 'GPT-6 Bel' said to top 10T parameters",
+      "summary": "Unconfirmed: posts claim OpenAI is preparing 'GPT-6 Bel', a fresh pretraining run with over 10 trillion parameters that could underpin its post-GPT-6 models. OpenAI hasn't said anything about it.",
+      "url": "https://x.com/akshdeeps_001/status/2113882588050079890",
+      "via": "@akshdeeps_001",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-24T01:55:00.000Z",
+      "harvestedAt": "2026-10-24T07:55:00.000Z",
+      "tags": [
+        "rumor"
+      ]
+    },
+    {
+      "title": "Anthropic S-1 filing could land any day",
+      "summary": "Unconfirmed: posts say Anthropic could file its S-1 for an IPO imminently, as OpenAI reportedly raises $30B at a $1.25T valuation. No filing has been made public yet.",
+      "url": "https://x.com/bijaypandey/status/2113821613930222073",
+      "via": "@bijaypandey",
+      "sourceKind": "x",
+      "harvestedAt": "2026-10-24T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -316,7 +327,7 @@
       "url": "https://x.com/Policifyai/status/2113795715570811161",
       "via": "@Policifyai",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-24T01:55:00.000Z",
+      "harvestedAt": "2026-10-24T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -327,18 +338,7 @@
       "url": "https://x.com/functionalais/status/2113798112166674735",
       "via": "@functionalais",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-24T01:55:00.000Z",
-      "tags": [
-        "rumor"
-      ]
-    },
-    {
-      "title": "Wave of Chinese model releases expected: GLM-5.5 and Qwen 4 next",
-      "summary": "Speculation: after MiniMax M3.1 and Kimi K3.1 Pro, a post predicts GLM-5.5 and Qwen 4 will drop in the coming weeks. No official release dates.",
-      "url": "https://x.com/haider1/status/2113785039192207701",
-      "via": "@haider1",
-      "sourceKind": "x",
-      "harvestedAt": "2026-10-24T01:55:00.000Z",
+      "harvestedAt": "2026-10-24T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
