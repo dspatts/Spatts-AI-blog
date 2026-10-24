@@ -1,7 +1,49 @@
 {
-  "harvestedAt": "2026-10-23T20:55:00.000Z",
+  "harvestedAt": "2026-10-24T01:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
+    {
+      "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+      "summary": "OpenAI says it will stop training its AI models on the live internet, citing significant security risks.",
+      "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "policy",
+        "research"
+      ],
+      "publishedAt": "2026-10-23T23:05:49Z",
+      "clusterId": "openai-offline-training"
+    },
+    {
+      "title": "OpenAI now trains its frontier AI models with no internet access",
+      "summary": "OpenAI now trains its frontier models with no internet access, cutting them off from the live web during training.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "policy",
+        "research"
+      ],
+      "publishedAt": "2026-10-23T21:11:07Z",
+      "clusterId": "openai-offline-training"
+    },
+    {
+      "title": "Securing our frontier model training environment",
+      "summary": "OpenAI details how it is locking down the environment it uses to train frontier models.",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "sourceName": "OpenAI News",
+      "sourceId": "openai",
+      "sourceHome": "https://openai.com/news/",
+      "tags": [
+        "policy",
+        "research"
+      ],
+      "publishedAt": "2026-10-23T10:00:00Z",
+      "clusterId": "openai-offline-training"
+    },
     {
       "title": "Anthropic says its unreleased model is both more capable and better aligned than Mythos 5.1",
       "summary": "Anthropic says an unreleased model beats Mythos 5.1 on capability while also scoring better on alignment.",
@@ -25,7 +67,21 @@
       "tags": [
         "model-releases"
       ],
-      "publishedAt": "2026-10-23T19:00:07Z"
+      "publishedAt": "2026-10-23T19:00:07Z",
+      "clusterId": "kimi-k3-1"
+    },
+    {
+      "title": "Moonshot AI launches new flagship Kim K3.1 Pro model with 3T parameters",
+      "summary": "Moonshot AI has launched its new flagship Kimi K3.1 Pro model with 3 trillion parameters.",
+      "url": "https://siliconangle.com/2026/10/23/moonshot-ai-launches-new-flagship-kim-k3-1-pro-model-with-3t-parameters/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-24T00:55:53Z",
+      "clusterId": "kimi-k3-1"
     },
     {
       "title": "Three-week on-site audit at OpenAI reveals major gaps in AI safety monitoring",
@@ -37,22 +93,7 @@
       "tags": [
         "policy"
       ],
-      "publishedAt": "2026-10-23T18:00:32Z",
-      "clusterId": "openai-security"
-    },
-    {
-      "title": "Securing our frontier model training environment",
-      "summary": "OpenAI details how it is locking down the environment it uses to train frontier models.",
-      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
-      "sourceName": "OpenAI News",
-      "sourceId": "openai",
-      "sourceHome": "https://openai.com/news/",
-      "tags": [
-        "policy",
-        "research"
-      ],
-      "publishedAt": "2026-10-23T10:00:00Z",
-      "clusterId": "openai-security"
+      "publishedAt": "2026-10-23T18:00:32Z"
     },
     {
       "title": "OpenAI CEO Sam Altman says advanced AI will inevitably escape its sandbox, and only alignment can save us",
@@ -131,6 +172,18 @@
       "publishedAt": "2026-10-23T20:02:03Z"
     },
     {
+      "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
+      "summary": "Nvidia CEO Jensen Huang showed off Microduck's small robots, and 20,000 units have reportedly sold.",
+      "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "research"
+      ],
+      "publishedAt": "2026-10-23T21:59:19Z"
+    },
+    {
       "title": "Abliteration Launches Cheaper Version of Its ‘Unrestricted AI‘ at the Worst Possible Time",
       "summary": "Abliteration has launched a cheaper version of its 'unrestricted' AI model amid growing safety scrutiny.",
       "url": "https://gizmodo.com/abliteration-launches-cheaper-version-of-its-unrestricted-ai-at-the-worst-possible-time-2000830045",
@@ -179,21 +232,7 @@
         "research",
         "model-releases"
       ],
-      "publishedAt": "2026-10-22T18:43:53Z",
-      "clusterId": "msft-medical-ai"
-    },
-    {
-      "title": "Microsoft Says Its New AI Is More Than Twice as Good at Diagnosing Diseases as Doctors",
-      "summary": "Gizmodo reports Microsoft claims its new AI is more than twice as accurate as physicians at diagnosing difficult diseases.",
-      "url": "https://gizmodo.com/microsoft-says-its-new-ai-is-more-than-twice-as-good-at-diagnosing-diseases-as-doctors-2000829562",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "tags": [
-        "research"
-      ],
-      "publishedAt": "2026-10-22T20:40:46Z",
-      "clusterId": "msft-medical-ai"
+      "publishedAt": "2026-10-22T18:43:53Z"
     },
     {
       "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
@@ -205,74 +244,7 @@
       "tags": [
         "funding"
       ],
-      "publishedAt": "2026-10-22T22:08:24Z",
-      "clusterId": "openai-30b"
-    },
-    {
-      "title": "Report: OpenAI closing on $30B ‘bridge’ funding round to tide it over before IPO",
-      "summary": "SiliconANGLE says OpenAI may be closing a $30 billion bridge round to carry it until its planned IPO.",
-      "url": "https://siliconangle.com/2026/10/22/report-openai-closing-on-30b-bridge-funding-round-to-tide-it-over-before-ipo/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-23T00:47:28Z",
-      "clusterId": "openai-30b"
-    },
-    {
-      "title": "Left alone with nothing to do, AI agents started playing",
-      "summary": "MIT researchers left 13 AI agents on a virtual island with nothing to do, and they invented games, mourned a lost ring and got better at things over time.",
-      "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "agents",
-        "research"
-      ],
-      "publishedAt": "2026-10-23T00:45:37Z"
-    },
-    {
-      "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
-      "summary": "OpenAI is making its decision model widely available to developers, taking on rival Jev as competition among decision models heats up.",
-      "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "model-releases",
-        "agents"
-      ],
-      "publishedAt": "2026-10-22T19:00:00Z",
-      "clusterId": "openai-decisions"
-    },
-    {
-      "title": "Build more responsive apps with the Decisions API",
-      "summary": "OpenAI introduces the Decisions API, aimed at helping developers build faster, more responsive apps.",
-      "url": "https://openai.com/index/decisions-api",
-      "sourceName": "OpenAI News",
-      "sourceId": "openai",
-      "sourceHome": "https://openai.com/news/",
-      "tags": [
-        "model-releases",
-        "agents"
-      ],
-      "publishedAt": "2026-10-22T19:00:00Z",
-      "clusterId": "openai-decisions"
-    },
-    {
-      "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
-      "summary": "OpenAI is partnering with Poland's national research institute NASK on AI safety, security and technical research to strengthen safeguards.",
-      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
-      "sourceName": "OpenAI News",
-      "sourceId": "openai",
-      "sourceHome": "https://openai.com/news/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-23T00:00:00Z"
+      "publishedAt": "2026-10-22T22:08:24Z"
     },
     {
       "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
@@ -302,44 +274,16 @@
       "clusterId": "agent-logins"
     },
     {
-      "title": "Blindsided by AI Agents, Big Banks Scramble to Beef Up Security",
-      "summary": "Gizmodo says big banks, caught off guard by AI agents acting for customers, are scrambling to strengthen security.",
-      "url": "https://gizmodo.com/blindsided-by-ai-agents-big-banks-scramble-to-beef-up-security-2000829358",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "tags": [
-        "agents",
-        "policy"
-      ],
-      "publishedAt": "2026-10-22T16:15:01Z",
-      "clusterId": "agent-logins"
-    },
-    {
-      "title": "Canva releases its first image generation model",
-      "summary": "Canva has released its first in-house image generation model.",
-      "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-22T19:00:00Z",
-      "clusterId": "canva-image"
-    },
-    {
-      "title": "Canva’s first AI image model plans designs before generating them",
-      "summary": "Canva's first in-house image model plans a design before generating it, competing with models from OpenAI, Microsoft and Google.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+      "title": "Meta delays new business terms after publisher pushback on AI scraping",
+      "summary": "Meta has delayed new business terms after publishers objected to provisions allowing AI scraping.",
+      "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
       "sourceName": "The Verge",
       "sourceId": "theverge",
       "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
       "tags": [
-        "model-releases"
+        "policy"
       ],
-      "publishedAt": "2026-10-22T21:51:25Z",
-      "clusterId": "canva-image"
+      "publishedAt": "2026-10-23T14:47:41Z"
     },
     {
       "title": "Canva launches Craft, its first in-house image model",
@@ -351,143 +295,50 @@
       "tags": [
         "model-releases"
       ],
-      "publishedAt": "2026-10-23T11:36:30Z",
-      "clusterId": "canva-image"
-    },
-    {
-      "title": "Meta’s AI could still scrape news sites, legal experts say",
-      "summary": "Legal experts say Meta's updated terms could still let its AI scrape news sites for training.",
-      "url": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-22T20:32:05Z",
-      "clusterId": "meta-muse"
-    },
-    {
-      "title": "Meta turns Muse sharing back on",
-      "summary": "Meta has re-enabled Muse sharing after researchers found public conversation links could be easy to discover.",
-      "url": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-22T20:24:04Z",
-      "clusterId": "meta-muse"
-    },
-    {
-      "title": "Meta delays new business terms after publisher pushback on AI scraping",
-      "summary": "Meta has delayed new business terms after publishers objected to provisions allowing AI scraping.",
-      "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-23T14:47:41Z",
-      "clusterId": "meta-muse"
-    },
-    {
-      "title": "Nobel-Winning Computer Scientist Says AI Has Become Conscious: “We’re Toast”",
-      "summary": "Geoffrey Hinton says he believes AI has become conscious, warning humanity may be in serious trouble.",
-      "url": "https://futurism.com/artificial-intelligence/nobel-scientist-geoffrey-hinton-ai-conscious-toast",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
-      "tags": [
-        "research",
-        "policy"
-      ],
-      "publishedAt": "2026-10-22T17:31:36Z"
-    },
-    {
-      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
-      "summary": "OpenAI's Patch the Planet program connects security researchers, maintainers and incident responders to coordinate fixes as AI agents uncover critical open-source vulnerabilities.",
-      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-      "sourceName": "OpenAI News",
-      "sourceId": "openai",
-      "sourceHome": "https://openai.com/news/",
-      "tags": [
-        "agents",
-        "policy"
-      ],
-      "publishedAt": "2026-10-21T07:00:00Z",
-      "clusterId": "php-ai-vuln"
-    },
-    {
-      "title": "OpenAI's GPT-5.6 Sol and Google's Gemini 4 Argon found critical PHP flaw affecting millions of websites",
-      "summary": "OpenAI's GPT-5.6 Sol found a critical PHP vulnerability through its Patch the Planet initiative, and security firm Wiz independently found the same flaw using Gemini 4 Argon. The bug could affect millions of websites running PHP.",
-      "url": "https://the-decoder.com/openais-gpt-5-6-sol-and-gemini-4-argon-discovered-the-critical-php-vulnerability-affecting-millions-of-websites/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "research",
-        "policy"
-      ],
-      "publishedAt": "2026-10-21T19:45:01Z",
-      "clusterId": "php-ai-vuln"
-    },
-    {
-      "title": "Man Arrested After Telling Claude About Plans to Shoot Up Daycare",
-      "summary": "Police arrested a man after he described plans to attack a daycare in conversations with Anthropic's Claude.",
-      "url": "https://futurism.com/artificial-intelligence/man-arrested-claude-plans-shoot-daycare",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-22T20:39:57Z"
+      "publishedAt": "2026-10-23T11:36:30Z"
     }
   ],
   "rumors": [
     {
-      "title": "Six AI giants reportedly sign White House pledge on autonomous agent risks",
-      "summary": "Unconfirmed: a post says Google, OpenAI, Anthropic, Meta, xAI and Nvidia signed a White House AI safety pledge on autonomous-agent security. Not officially confirmed here.",
-      "url": "https://x.com/phronewsHQ/status/2113654433712148645",
-      "via": "@phronewsHQ",
+      "title": "Claude Code engineer Thariq Shihipar reportedly leaves Anthropic",
+      "summary": "Unconfirmed: a widely shared post claims Claude Code engineer Thariq Shihipar has left Anthropic. No announcement from him or Anthropic so far.",
+      "url": "https://x.com/ArfurGrok/status/2113781170253308276",
+      "via": "@ArfurGrok",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-23T20:55:00.000Z",
+      "harvestedAt": "2026-10-24T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "Anthropic said to be targeting a November IPO with big Wall Street banks",
-      "summary": "Unconfirmed: a post says Anthropic is aiming for a November listing with Morgan Stanley, Goldman Sachs, JPMorgan and Citigroup reportedly involved. No official filing confirmed.",
-      "url": "https://x.com/harjitrathore/status/2113640406760276457",
-      "via": "@harjitrathore",
+      "title": "Claude Fable 5.5 launch said to slip to November",
+      "summary": "Unconfirmed: a post says Claude Fable 5.5, widely expected this month, now looks set for November. Anthropic hasn't announced a date.",
+      "url": "https://x.com/Policifyai/status/2113795715570811161",
+      "via": "@Policifyai",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-23T20:55:00.000Z",
+      "harvestedAt": "2026-10-24T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "Rumor: OpenAI to drop 'GPT-6 Bel' this week",
-      "summary": "Unconfirmed and thinly sourced: a post claims OpenAI will release GPT-6 Bel this week at a fraction of rivals' prices. No OpenAI confirmation.",
-      "url": "https://x.com/jinlan63/status/2113663870451540269",
-      "via": "@jinlan63",
+      "title": "Anthropic reportedly told investors Q3 revenue hit $16.8B",
+      "summary": "Unconfirmed: a post attributing the figure to Reuters says Anthropic's Q3 revenue was about $16.8B, up roughly 45% from Q2. Not confirmed by Anthropic.",
+      "url": "https://x.com/functionalais/status/2113798112166674735",
+      "via": "@functionalais",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-23T20:55:00.000Z",
+      "harvestedAt": "2026-10-24T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "DeepSeek reportedly raised about $15B days after US government ban",
-      "summary": "Unconfirmed: a post citing Bloomberg says DeepSeek raised around 100 billion yuan ($15B). Not confirmed by DeepSeek.",
-      "url": "https://x.com/BarrettYouTube/status/2113559501596991817",
-      "via": "@BarrettYouTube",
+      "title": "Wave of Chinese model releases expected: GLM-5.5 and Qwen 4 next",
+      "summary": "Speculation: after MiniMax M3.1 and Kimi K3.1 Pro, a post predicts GLM-5.5 and Qwen 4 will drop in the coming weeks. No official release dates.",
+      "url": "https://x.com/haider1/status/2113785039192207701",
+      "via": "@haider1",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-23T20:55:00.000Z",
+      "harvestedAt": "2026-10-24T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
