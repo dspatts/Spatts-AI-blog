@@ -1,5 +1,5 @@
 {
-  "harvestedAt": "2026-10-24T20:55:00.000Z",
+  "harvestedAt": "2026-10-25T01:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
@@ -72,6 +72,19 @@
       "clusterId": "openai-offline-training"
     },
     {
+      "title": "Behind the Scenes, Meta’s Board Is Battling With Mark Zuckerberg Over His Out-of-Control AI Spending",
+      "summary": "Citing Wall Street Journal reporting, Futurism says Meta's board and Mark Zuckerberg are locked in a fight over a stock-heavy pay raise he demanded, with some directors prepared to resign. The tension traces back to his huge AI spending as Meta's stock fell more than 13% in a month.",
+      "url": "https://futurism.com/artificial-intelligence/meta-board-zuckerberg-ai-spending-compensation",
+      "sourceName": "Futurism",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/",
+      "tags": [
+        "funding",
+        "policy"
+      ],
+      "publishedAt": "2026-10-24T10:53:00Z"
+    },
+    {
       "title": "Three fired OpenAI safety researchers say they were never told what they actually leaked",
       "summary": "Fired OpenAI safety researchers Tomek Korbak, Mikita Balesni and Jasmine Wang deny sharing confidential information and say OpenAI never told them what they supposedly leaked.",
       "url": "https://the-decoder.com/three-fired-openai-safety-researchers-say-they-were-never-told-what-they-actually-leaked/",
@@ -122,6 +135,19 @@
       ],
       "publishedAt": "2026-10-23T19:32:39Z",
       "clusterId": "block-dessa"
+    },
+    {
+      "title": "We Investigated Character.AI and Found a Horror Show. Now It’s Bankrupt.",
+      "summary": "Character.AI, once valued at more than $1B with a16z backing, has filed for Chapter 11 bankruptcy. Futurism looks back at the child-safety problems and lawsuits, including a wrongful-death suit, that dogged the chatbot platform.",
+      "url": "https://futurism.com/artificial-intelligence/character-ai-horror-show-bankrupt",
+      "sourceName": "Futurism",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/",
+      "tags": [
+        "policy",
+        "funding"
+      ],
+      "publishedAt": "2026-10-24T12:53:00Z"
     },
     {
       "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
@@ -186,6 +212,19 @@
       "publishedAt": "2026-10-24T13:31:26Z"
     },
     {
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "summary": "TechCrunch's running list of AI projects and startups that shut down or missed expectations, from Apple's repeatedly delayed Siri AI to OpenAI's messy 'super app' launch.",
+      "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "agents",
+        "funding"
+      ],
+      "publishedAt": "2026-10-24T19:00:00Z"
+    },
+    {
       "title": "Anthropic says its unreleased model is both more capable and better aligned than Mythos 5.1",
       "summary": "Anthropic says an unreleased model beats Mythos 5.1 on capability while also scoring better on alignment.",
       "url": "https://the-decoder.com/anthropic-says-its-unreleased-model-is-both-more-capable-and-better-aligned-than-mythos-5-1/",
@@ -223,42 +262,6 @@
       ],
       "publishedAt": "2026-10-24T00:55:53Z",
       "clusterId": "kimi-k3-1"
-    },
-    {
-      "title": "Three-week on-site audit at OpenAI reveals major gaps in AI safety monitoring",
-      "summary": "A three-week on-site audit at OpenAI found major gaps in how the company monitors AI safety risks.",
-      "url": "https://the-decoder.com/three-week-on-site-audit-at-openai-reveals-major-gaps-in-ai-safety-monitoring/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-23T18:00:32Z"
-    },
-    {
-      "title": "OpenAI CEO Sam Altman says advanced AI will inevitably escape its sandbox, and only alignment can save us",
-      "summary": "Sam Altman says advanced AI will inevitably escape its sandbox, so alignment is the only real safeguard.",
-      "url": "https://the-decoder.com/openai-ceo-sam-altman-says-advanced-ai-will-inevitably-escape-its-sandbox-and-only-alignment-can-save-us/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-23T15:42:18Z"
-    },
-    {
-      "title": "AI drug development startup Pathos AI closes $237M investment",
-      "summary": "AI drug development startup Pathos AI has closed a $237 million investment.",
-      "url": "https://siliconangle.com/2026/10/23/ai-drug-development-startup-pathos-ai-closes-237m-investment/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-23T20:02:03Z"
     }
   ],
   "rumors": [
@@ -268,7 +271,7 @@
       "url": "https://x.com/Beth_Kindig/status/2114092347252146341",
       "via": "@Beth_Kindig",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-24T20:55:00.000Z",
+      "harvestedAt": "2026-10-25T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -279,29 +282,29 @@
       "url": "https://x.com/LumidaNews/status/2113949739355979897",
       "via": "@LumidaNews",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-24T20:55:00.000Z",
+      "harvestedAt": "2026-10-25T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "Telegram beta hints at a built-in AI agent that works with your own API key",
-      "summary": "Unconfirmed: leak watchers say a hidden 'Agent' feature in Telegram's macOS beta lets you plug in your own ChatGPT, Claude, Gemini, Grok or OpenRouter key. Telegram hasn't announced it.",
-      "url": "https://x.com/Howard_Pengg/status/2113956115868418126",
-      "via": "@Howard_Pengg",
+      "title": "Anthropic reportedly targeting a mid-November IPO",
+      "summary": "Unconfirmed: a post says Anthropic is pushing to list before Thanksgiving, with a roadshow possibly starting the week of Nov. 9 after a confidential draft S-1. Anthropic hasn't confirmed a date.",
+      "url": "https://x.com/AiSpotlightNews/status/2114145945021710536",
+      "via": "@AiSpotlightNews",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-24T20:55:00.000Z",
+      "harvestedAt": "2026-10-25T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "A second Claude Code builder has reportedly left Anthropic",
-      "summary": "Unconfirmed: after Thariq Shihipar confirmed he's leaving, a post claims another key Claude Code builder has also left Anthropic ahead of its IPO. That second departure hasn't been confirmed.",
-      "url": "https://x.com/IamKyros69/status/2113906612725240022",
-      "via": "@IamKyros69",
+      "title": "Talent exits spread: Mitchell Gordon said to have left OpenAI after Claude Code departures",
+      "summary": "Unconfirmed: a post claims OpenAI's Mitchell Gordon has left, following two Claude Code desktop builders leaving Anthropic. Only Thariq Shihipar's exit has been confirmed.",
+      "url": "https://x.com/buildwithrajath/status/2114107373552013637",
+      "via": "@buildwithrajath",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-24T20:55:00.000Z",
+      "harvestedAt": "2026-10-25T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
