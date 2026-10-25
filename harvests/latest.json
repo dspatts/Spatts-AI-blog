@@ -1,7 +1,20 @@
 {
-  "harvestedAt": "2026-10-25T01:55:00.000Z",
+  "harvestedAt": "2026-10-25T07:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
+    {
+      "title": "OpenAI offers discounts up to 90 percent to poach Anthropic's biggest customers",
+      "summary": "OpenAI is winning over Anthropic customers with steep discounts: Rippling, Replit and DataCamp say they've cut AI costs by up to 90 percent after switching. Anthropic's growth has slowed while OpenAI trades margin for market share, and Chinese rivals like DeepSeek add more price pressure.",
+      "url": "https://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "funding",
+        "agents"
+      ],
+      "publishedAt": "2026-10-25T07:30:11Z"
+    },
     {
       "title": "UK government sets out $800 million of AI security funding",
       "summary": "Britain set out about £600M ($800M) of funding largely aimed at AI health and security threats, led by a new AI Biosecurity Lab; OpenAI and Anthropic will offer up to £200M in model credits and the AI Security Institute gets an extra £120M.",
@@ -72,6 +85,19 @@
       "clusterId": "openai-offline-training"
     },
     {
+      "title": "OpenMobile-2 proves open-source smartphone agents can rival proprietary models",
+      "summary": "Researchers behind OpenMobile-2 built an open training environment spanning a large number of apps and found smartphone agents improve most from app diversity rather than more data, letting open-source agents rival proprietary models.",
+      "url": "https://the-decoder.com/openmobile-2-proves-open-source-smartphone-agents-can-rival-proprietary-models/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "agents",
+        "research"
+      ],
+      "publishedAt": "2026-10-25T06:55:22Z"
+    },
+    {
       "title": "Behind the Scenes, Meta’s Board Is Battling With Mark Zuckerberg Over His Out-of-Control AI Spending",
       "summary": "Citing Wall Street Journal reporting, Futurism says Meta's board and Mark Zuckerberg are locked in a fight over a stock-heavy pay raise he demanded, with some directors prepared to resign. The tension traces back to his huge AI spending as Meta's stock fell more than 13% in a month.",
       "url": "https://futurism.com/artificial-intelligence/meta-board-zuckerberg-ai-spending-compensation",
@@ -137,6 +163,18 @@
       "clusterId": "block-dessa"
     },
     {
+      "title": "Banks Preparing for Aftermath of Unprecedented Catastrophe Caused by AI",
+      "summary": "Major financial institutions are starting to draw up 'day after' plans for hypothetical AI-driven financial crises, Futurism reports.",
+      "url": "https://futurism.com/artificial-intelligence/banks-preparing-ai-financial-catastrophe",
+      "sourceName": "Futurism",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-24T13:55:00Z"
+    },
+    {
       "title": "We Investigated Character.AI and Found a Horror Show. Now It’s Bankrupt.",
       "summary": "Character.AI, once valued at more than $1B with a16z backing, has filed for Chapter 11 bankruptcy. Futurism looks back at the child-safety problems and lawsuits, including a wrongful-death suit, that dogged the chatbot platform.",
       "url": "https://futurism.com/artificial-intelligence/character-ai-horror-show-bankrupt",
@@ -163,19 +201,6 @@
       "publishedAt": "2026-10-24T15:00:00Z"
     },
     {
-      "title": "Fancy harnesses make coding agents more expensive but not better, study finds",
-      "summary": "A controlled study found that switching coding-agent harnesses like Claude Code, OpenCode or mini-SWE-agent changes pass rates about as much as just rerunning the same setup, while cost per task can triple.",
-      "url": "https://the-decoder.com/fancy-harnesses-make-coding-agents-more-expensive-but-not-better-study-finds/",
-      "sourceName": "The Decoder",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "agents",
-        "research"
-      ],
-      "publishedAt": "2026-10-24T09:21:39Z"
-    },
-    {
       "title": "Pennsylvania will require labels on AI-generated ads",
       "summary": "Pennsylvania Governor Josh Shapiro signed the AI Deceptive Advertising Act, which requires disclosures on AI-generated ads.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
@@ -186,18 +211,6 @@
         "policy"
       ],
       "publishedAt": "2026-10-24T18:32:21Z"
-    },
-    {
-      "title": "Here are the top AI agents that can live in your text messages",
-      "summary": "TechCrunch rounds up the most notable AI agents that work over text messages, from general assistants to agents for families, travel and work.",
-      "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-24T14:00:00Z"
     },
     {
       "title": "Anthropic’s AI Hid a Secret Message in the Stars. OpenAI’s Bot Found It.",
@@ -223,19 +236,6 @@
         "funding"
       ],
       "publishedAt": "2026-10-24T19:00:00Z"
-    },
-    {
-      "title": "Anthropic says its unreleased model is both more capable and better aligned than Mythos 5.1",
-      "summary": "Anthropic says an unreleased model beats Mythos 5.1 on capability while also scoring better on alignment.",
-      "url": "https://the-decoder.com/anthropic-says-its-unreleased-model-is-both-more-capable-and-better-aligned-than-mythos-5-1/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "model-releases",
-        "research"
-      ],
-      "publishedAt": "2026-10-23T17:19:49Z"
     },
     {
       "title": "Chinese AI model Kimi K3.1 Pro is closing in on Anthropic's Claude Opus 5.5",
@@ -271,18 +271,7 @@
       "url": "https://x.com/Beth_Kindig/status/2114092347252146341",
       "via": "@Beth_Kindig",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-25T01:55:00.000Z",
-      "tags": [
-        "rumor"
-      ]
-    },
-    {
-      "title": "Samsung said to be in talks to invest €1B in Mistral at €20B valuation",
-      "summary": "Unconfirmed: a post reports Samsung is in talks to invest about €1B in Mistral AI at a €20B valuation. Samsung and Mistral haven't announced anything.",
-      "url": "https://x.com/LumidaNews/status/2113949739355979897",
-      "via": "@LumidaNews",
-      "sourceKind": "x",
-      "harvestedAt": "2026-10-25T01:55:00.000Z",
+      "harvestedAt": "2026-10-25T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -293,18 +282,29 @@
       "url": "https://x.com/AiSpotlightNews/status/2114145945021710536",
       "via": "@AiSpotlightNews",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-25T01:55:00.000Z",
+      "harvestedAt": "2026-10-25T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "Talent exits spread: Mitchell Gordon said to have left OpenAI after Claude Code departures",
-      "summary": "Unconfirmed: a post claims OpenAI's Mitchell Gordon has left, following two Claude Code desktop builders leaving Anthropic. Only Thariq Shihipar's exit has been confirmed.",
-      "url": "https://x.com/buildwithrajath/status/2114107373552013637",
-      "via": "@buildwithrajath",
+      "title": "Gemini 4 Carbon said to be Google's next Gemini checkpoint",
+      "summary": "Unconfirmed: posts claim Google is preparing a new 'Gemini 4 Carbon' checkpoint with better reasoning, coding and multimodal skills. Google hasn't announced anything.",
+      "url": "https://x.com/adityaa_behera/status/2114249716527407336",
+      "via": "@adityaa_behera",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-25T01:55:00.000Z",
+      "harvestedAt": "2026-10-25T07:55:00.000Z",
+      "tags": [
+        "rumor"
+      ]
+    },
+    {
+      "title": "Samsung said to be in talks to invest €1B in Mistral at €20B valuation",
+      "summary": "Unconfirmed: a post reports Samsung is in talks to invest about €1B in Mistral AI at a €20B valuation. Samsung and Mistral haven't announced anything.",
+      "url": "https://x.com/LumidaNews/status/2113949739355979897",
+      "via": "@LumidaNews",
+      "sourceKind": "x",
+      "harvestedAt": "2026-10-25T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
