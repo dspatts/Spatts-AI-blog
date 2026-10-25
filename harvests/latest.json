@@ -1,5 +1,5 @@
 {
-  "harvestedAt": "2026-10-25T07:55:00.000Z",
+  "harvestedAt": "2026-10-25T20:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
@@ -14,6 +14,43 @@
         "agents"
       ],
       "publishedAt": "2026-10-25T07:30:11Z"
+    },
+    {
+      "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
+      "summary": "Apollo's chief economist argues that despite massive investment and hype, AI has so far delivered zero financial payoff to corporate America outside the tech sector.",
+      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-25T16:57:32Z"
+    },
+    {
+      "title": "Anthropic says one AI agent beats many subagents now that models can handle complexity alone",
+      "summary": "Anthropic now recommends companies consider consolidating sub-agents into a single agent that loads context on demand; in one comparison the single-agent setup ran about twice as fast.",
+      "url": "https://the-decoder.com/anthropic-says-one-ai-agent-beats-many-subagents-now-that-models-can-handle-complexity-alone/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "agents",
+        "research"
+      ],
+      "publishedAt": "2026-10-25T09:12:10Z"
+    },
+    {
+      "title": "Anthropic co-founder Jack Clark moves his prediction for self-improving AI forward to 2027",
+      "summary": "A new P-Zero Research benchmark measuring how well AI designs and evaluates its own experiments is improving so fast that Anthropic co-founder Jack Clark now expects self-improving AI as soon as 2027.",
+      "url": "https://the-decoder.com/anthropic-co-founder-jack-clark-moves-his-prediction-for-self-improving-ai-forward-to-2027/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "research"
+      ],
+      "publishedAt": "2026-10-25T09:37:46Z"
     },
     {
       "title": "UK government sets out $800 million of AI security funding",
@@ -85,6 +122,82 @@
       "clusterId": "openai-offline-training"
     },
     {
+      "title": "Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra",
+      "summary": "Nvidia's open-source data engine Flora labels an hour of robot video for about 72 cents versus $88 with GPT-6 Astra, with slightly higher quality, using three fine-tuned Qwen3.5 models.",
+      "url": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "model-releases",
+        "research"
+      ],
+      "publishedAt": "2026-10-25T10:08:49Z"
+    },
+    {
+      "title": "Ex-Google CEO Eric Schmidt calls OpenAI and Anthropic modern colonial trading companies",
+      "summary": "In Foreign Affairs, Eric Schmidt, Niall Ferguson and Lisa Klaassen cast the US and China as AI empires, with OpenAI and Anthropic likened to modern colonial trading companies and other countries as dependencies.",
+      "url": "https://the-decoder.com/ex-google-ceo-eric-schmidt-calls-openai-and-anthropic-modern-colonial-trading-companies/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-25T08:09:32Z"
+    },
+    {
+      "title": "r/opensource just banned AI, non-English speakers, and more",
+      "summary": "Moderators of r/opensource posted new rules banning projects that use AI, are made by AI, or are intended for AI, alongside other restrictions.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-25T13:25:32Z",
+      "clusterId": "r-opensource-ai-ban"
+    },
+    {
+      "title": "‘Tokens Are Cheap’: Open Source Subreddit Bans AI",
+      "summary": "The r/opensource mods say AI as it exists today is incongruent with the open-source community, and are banning AI-made or AI-related projects.",
+      "url": "https://gizmodo.com/tokens-are-cheap-open-source-subreddit-bans-ai-2000830386",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-25T17:00:59Z",
+      "clusterId": "r-opensource-ai-ban"
+    },
+    {
+      "title": "ChatGPT Is Building Detailed Psychological Profiles of Its Users",
+      "summary": "Futurism reports ChatGPT is assembling detailed psychological profiles of users as it acts as advisor, friend, doctor and lawyer, raising privacy concerns.",
+      "url": "https://futurism.com/artificial-intelligence/chatgpt-building-profiles-users",
+      "sourceName": "Futurism",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-25T11:55:00Z"
+    },
+    {
+      "title": "Microsoft Says Its New AI Is Better at Diagnosing Patients Than Real Doctors",
+      "summary": "Microsoft claims its new medical AI outperforms real doctors at diagnosing patients, saying it will change how care is delivered.",
+      "url": "https://futurism.com/artificial-intelligence/microsoft-new-ai-better-real-doctors",
+      "sourceName": "Futurism",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/",
+      "tags": [
+        "model-releases",
+        "research"
+      ],
+      "publishedAt": "2026-10-25T10:57:00Z"
+    },
+    {
       "title": "OpenMobile-2 proves open-source smartphone agents can rival proprietary models",
       "summary": "Researchers behind OpenMobile-2 built an open training environment spanning a large number of apps and found smartphone agents improve most from app diversity rather than more data, letting open-source agents rival proprietary models.",
       "url": "https://the-decoder.com/openmobile-2-proves-open-source-smartphone-agents-can-rival-proprietary-models/",
@@ -96,19 +209,6 @@
         "research"
       ],
       "publishedAt": "2026-10-25T06:55:22Z"
-    },
-    {
-      "title": "Behind the Scenes, Meta’s Board Is Battling With Mark Zuckerberg Over His Out-of-Control AI Spending",
-      "summary": "Citing Wall Street Journal reporting, Futurism says Meta's board and Mark Zuckerberg are locked in a fight over a stock-heavy pay raise he demanded, with some directors prepared to resign. The tension traces back to his huge AI spending as Meta's stock fell more than 13% in a month.",
-      "url": "https://futurism.com/artificial-intelligence/meta-board-zuckerberg-ai-spending-compensation",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/",
-      "tags": [
-        "funding",
-        "policy"
-      ],
-      "publishedAt": "2026-10-24T10:53:00Z"
     },
     {
       "title": "Three fired OpenAI safety researchers say they were never told what they actually leaked",
@@ -150,57 +250,6 @@
       "clusterId": "block-dessa"
     },
     {
-      "title": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
-      "summary": "Block has built Dessa, a speech model designed to converse in a more natural, awkwardly human way.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-23T19:32:39Z",
-      "clusterId": "block-dessa"
-    },
-    {
-      "title": "Banks Preparing for Aftermath of Unprecedented Catastrophe Caused by AI",
-      "summary": "Major financial institutions are starting to draw up 'day after' plans for hypothetical AI-driven financial crises, Futurism reports.",
-      "url": "https://futurism.com/artificial-intelligence/banks-preparing-ai-financial-catastrophe",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-24T13:55:00Z"
-    },
-    {
-      "title": "We Investigated Character.AI and Found a Horror Show. Now It’s Bankrupt.",
-      "summary": "Character.AI, once valued at more than $1B with a16z backing, has filed for Chapter 11 bankruptcy. Futurism looks back at the child-safety problems and lawsuits, including a wrongful-death suit, that dogged the chatbot platform.",
-      "url": "https://futurism.com/artificial-intelligence/character-ai-horror-show-bankrupt",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/",
-      "tags": [
-        "policy",
-        "funding"
-      ],
-      "publishedAt": "2026-10-24T12:53:00Z"
-    },
-    {
-      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
-      "summary": "A study across nearly 500 election races found Grok mostly recommends Republican candidates while OpenAI's GPT leans Democratic. The two models disagreed in more than 90% of races.",
-      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "research",
-        "policy"
-      ],
-      "publishedAt": "2026-10-24T15:00:00Z"
-    },
-    {
       "title": "Pennsylvania will require labels on AI-generated ads",
       "summary": "Pennsylvania Governor Josh Shapiro signed the AI Deceptive Advertising Act, which requires disclosures on AI-generated ads.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
@@ -213,31 +262,6 @@
       "publishedAt": "2026-10-24T18:32:21Z"
     },
     {
-      "title": "Anthropic’s AI Hid a Secret Message in the Stars. OpenAI’s Bot Found It.",
-      "summary": "A Morse-code message hidden by Anthropic's model was decoded by OpenAI's bot, the latest test of AI models hiding and finding secret messages.",
-      "url": "https://gizmodo.com/anthropics-ai-hid-a-secret-message-in-the-stars-openais-ai-found-it-2000830047",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/",
-      "tags": [
-        "research"
-      ],
-      "publishedAt": "2026-10-24T13:31:26Z"
-    },
-    {
-      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
-      "summary": "TechCrunch's running list of AI projects and startups that shut down or missed expectations, from Apple's repeatedly delayed Siri AI to OpenAI's messy 'super app' launch.",
-      "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "agents",
-        "funding"
-      ],
-      "publishedAt": "2026-10-24T19:00:00Z"
-    },
-    {
       "title": "Chinese AI model Kimi K3.1 Pro is closing in on Anthropic's Claude Opus 5.5",
       "summary": "Moonshot's Kimi K3.1 Pro is benchmarking close to Anthropic's Claude Opus 5.5, narrowing the gap between Chinese and US frontier models.",
       "url": "https://the-decoder.com/chinese-ai-model-kimi-k3-1-pro-is-closing-in-on-anthropics-claude-opus-5-5/",
@@ -247,21 +271,7 @@
       "tags": [
         "model-releases"
       ],
-      "publishedAt": "2026-10-23T19:00:07Z",
-      "clusterId": "kimi-k3-1"
-    },
-    {
-      "title": "Moonshot AI launches new flagship Kim K3.1 Pro model with 3T parameters",
-      "summary": "Moonshot AI has launched its new flagship Kimi K3.1 Pro model with 3 trillion parameters.",
-      "url": "https://siliconangle.com/2026/10/23/moonshot-ai-launches-new-flagship-kim-k3-1-pro-model-with-3t-parameters/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-24T00:55:53Z",
-      "clusterId": "kimi-k3-1"
+      "publishedAt": "2026-10-23T19:00:07Z"
     }
   ],
   "rumors": [
@@ -271,7 +281,7 @@
       "url": "https://x.com/Beth_Kindig/status/2114092347252146341",
       "via": "@Beth_Kindig",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-25T07:55:00.000Z",
+      "harvestedAt": "2026-10-25T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -282,7 +292,7 @@
       "url": "https://x.com/AiSpotlightNews/status/2114145945021710536",
       "via": "@AiSpotlightNews",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-25T07:55:00.000Z",
+      "harvestedAt": "2026-10-25T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -293,7 +303,7 @@
       "url": "https://x.com/adityaa_behera/status/2114249716527407336",
       "via": "@adityaa_behera",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-25T07:55:00.000Z",
+      "harvestedAt": "2026-10-25T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -304,7 +314,7 @@
       "url": "https://x.com/LumidaNews/status/2113949739355979897",
       "via": "@LumidaNews",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-25T07:55:00.000Z",
+      "harvestedAt": "2026-10-25T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
