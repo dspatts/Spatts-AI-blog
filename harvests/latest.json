@@ -1,5 +1,5 @@
 {
-  "harvestedAt": "2026-10-25T20:55:00.000Z",
+  "harvestedAt": "2026-10-26T01:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
@@ -16,6 +16,18 @@
       "publishedAt": "2026-10-25T07:30:11Z"
     },
     {
+      "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+      "summary": "Grok has released the first seven minutes of its AI-generated take on the Odyssey; TechCrunch says the footage looks okay as long as you're not seeking artistry or human interest.",
+      "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-25T21:31:16Z"
+    },
+    {
       "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
       "summary": "Apollo's chief economist argues that despite massive investment and hype, AI has so far delivered zero financial payoff to corporate America outside the tech sector.",
       "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
@@ -25,7 +37,33 @@
       "tags": [
         "funding"
       ],
-      "publishedAt": "2026-10-25T16:57:32Z"
+      "publishedAt": "2026-10-25T16:57:32Z",
+      "clusterId": "apollo-ai-payoff"
+    },
+    {
+      "title": "Apollo analysis shows no one besides the biggest tech giants is seeing benefits from AI",
+      "summary": "An Apollo analysis finds most of corporate America outside the biggest tech firms has yet to see any financial payoff from its AI investments.",
+      "url": "https://siliconangle.com/2026/10/25/apollo-analysis-shows-that-no-one-apart-from-the-biggest-tech-giants-is-seeing-any-real-benefits-from-ai/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-26T01:31:12Z",
+      "clusterId": "apollo-ai-payoff"
+    },
+    {
+      "title": "Growing Majority of Americans Convinced That AI Is Bad for Society",
+      "summary": "A growing majority of Americans now believe AI is bad for society, a sign public opinion is turning against the AI industry.",
+      "url": "https://futurism.com/artificial-intelligence/majority-americans-ai-bad-society",
+      "sourceName": "Futurism",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-25T13:56:00Z"
     },
     {
       "title": "Anthropic says one AI agent beats many subagents now that models can handle complexity alone",
@@ -173,6 +211,18 @@
       "clusterId": "r-opensource-ai-ban"
     },
     {
+      "title": "Google’s AI search changes upended online publishing",
+      "summary": "The Verge's Stepback column breaks down how Google's AI-powered search changes have upended online publishing and the traffic sites depend on.",
+      "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-25T12:00:00Z"
+    },
+    {
       "title": "ChatGPT Is Building Detailed Psychological Profiles of Its Users",
       "summary": "Futurism reports ChatGPT is assembling detailed psychological profiles of users as it acts as advisor, friend, doctor and lawyer, raising privacy concerns.",
       "url": "https://futurism.com/artificial-intelligence/chatgpt-building-profiles-users",
@@ -211,18 +261,6 @@
       "publishedAt": "2026-10-25T06:55:22Z"
     },
     {
-      "title": "Three fired OpenAI safety researchers say they were never told what they actually leaked",
-      "summary": "Fired OpenAI safety researchers Tomek Korbak, Mikita Balesni and Jasmine Wang deny sharing confidential information and say OpenAI never told them what they supposedly leaked.",
-      "url": "https://the-decoder.com/three-fired-openai-safety-researchers-say-they-were-never-told-what-they-actually-leaked/",
-      "sourceName": "The Decoder",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-24T15:19:33Z"
-    },
-    {
       "title": "Block’s new voice model sounds eerily human",
       "summary": "Block's new Dessa voice model sounds strikingly human, and Block says it can run locally on a MacBook with an M4 Max chip.",
       "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
@@ -248,30 +286,6 @@
       ],
       "publishedAt": "2026-10-24T14:09:46Z",
       "clusterId": "block-dessa"
-    },
-    {
-      "title": "Pennsylvania will require labels on AI-generated ads",
-      "summary": "Pennsylvania Governor Josh Shapiro signed the AI Deceptive Advertising Act, which requires disclosures on AI-generated ads.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-24T18:32:21Z"
-    },
-    {
-      "title": "Chinese AI model Kimi K3.1 Pro is closing in on Anthropic's Claude Opus 5.5",
-      "summary": "Moonshot's Kimi K3.1 Pro is benchmarking close to Anthropic's Claude Opus 5.5, narrowing the gap between Chinese and US frontier models.",
-      "url": "https://the-decoder.com/chinese-ai-model-kimi-k3-1-pro-is-closing-in-on-anthropics-claude-opus-5-5/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-23T19:00:07Z"
     }
   ],
   "rumors": [
@@ -281,7 +295,7 @@
       "url": "https://x.com/Beth_Kindig/status/2114092347252146341",
       "via": "@Beth_Kindig",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-25T20:55:00.000Z",
+      "harvestedAt": "2026-10-26T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -292,7 +306,7 @@
       "url": "https://x.com/AiSpotlightNews/status/2114145945021710536",
       "via": "@AiSpotlightNews",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-25T20:55:00.000Z",
+      "harvestedAt": "2026-10-26T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -303,7 +317,7 @@
       "url": "https://x.com/adityaa_behera/status/2114249716527407336",
       "via": "@adityaa_behera",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-25T20:55:00.000Z",
+      "harvestedAt": "2026-10-26T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -314,7 +328,7 @@
       "url": "https://x.com/LumidaNews/status/2113949739355979897",
       "via": "@LumidaNews",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-25T20:55:00.000Z",
+      "harvestedAt": "2026-10-26T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
