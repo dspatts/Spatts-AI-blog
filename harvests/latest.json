@@ -1,7 +1,110 @@
 {
-  "harvestedAt": "2026-10-26T01:55:00.000Z",
+  "harvestedAt": "2026-10-26T20:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
+    {
+      "title": "Anthropic opens its books for Wall Street, showing record revenue and mounting obligations",
+      "summary": "Anthropic is the first major AI lab to file an S-1, planning a Nasdaq listing under the ticker \"ANT\" and disclosing $11.6 billion in quarterly revenue alongside mounting obligations.",
+      "url": "https://the-decoder.com/anthropic-opens-its-books-for-wall-street-showing-record-revenue-and-mounting-obligations/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-26T19:14:45Z",
+      "clusterId": "anthropic-ipo"
+    },
+    {
+      "title": "Anthropic officially files for its public debut",
+      "summary": "Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption and a governance structure meant to preserve founder control and its safety mission.",
+      "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-26T14:35:22Z",
+      "clusterId": "anthropic-ipo"
+    },
+    {
+      "title": "Anthropic’s IPO filing lays out a plan to ‘revolutionize every area of human endeavor’ with AI",
+      "summary": "Anthropic's S-1 prospectus lays out its plan to use AI to 'revolutionize every area of human endeavor' as it races to beat OpenAI to a public listing.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-26T13:32:49Z",
+      "clusterId": "anthropic-ipo"
+    },
+    {
+      "title": "Anthropic files S-1 paperwork for blockbuster AI IPO",
+      "summary": "Anthropic filed IPO papers with the SEC, putting it on track for what will likely be one of the biggest tech listings ever.",
+      "url": "https://siliconangle.com/2026/10/26/anthropic-files-s-1-paperwork-for-blockbuster-ai-ipo/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-26T15:50:30Z",
+      "clusterId": "anthropic-ipo"
+    },
+    {
+      "title": "Introducing GPT-6.1 Terra",
+      "summary": "OpenAI introduces GPT-6.1 Terra, bringing fast and capable computer use to everyone.",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "sourceName": "OpenAI News",
+      "sourceId": "openai",
+      "sourceHome": "https://openai.com/news/",
+      "tags": [
+        "model-releases",
+        "agents"
+      ],
+      "publishedAt": "2026-10-26T00:00:00Z",
+      "clusterId": "gpt-6-1-terra"
+    },
+    {
+      "title": "GPT-6.1 Terra halves OpenAI's API prices and still gains ground on its larger models",
+      "summary": "GPT-6.1 Terra, OpenAI's new mid-range model, halves API prices versus its predecessor while closing the gap with larger models; analysts call it a new bar for intelligence per dollar.",
+      "url": "https://the-decoder.com/gpt-6-1-terra-halves-openais-api-prices-and-still-gains-ground-on-its-larger-models/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-26T20:30:55Z",
+      "clusterId": "gpt-6-1-terra"
+    },
+    {
+      "title": "SpaceX locks in $40B GPU financing deal with Apollo",
+      "summary": "SpaceX disclosed a binding commitment for roughly $40 billion in financing from Apollo to pay for AI chips and data center equipment.",
+      "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-26T16:46:36Z"
+    },
+    {
+      "title": "Meta plans up to $95 billion in stock sales to fund its AI buildout",
+      "summary": "Meta plans to sell up to $95 billion in new stock to raise money for its AI infrastructure buildout.",
+      "url": "https://the-decoder.com/meta-plans-up-to-95-billion-in-stock-sales-to-fund-its-ai-buildout/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-26T14:21:23Z"
+    },
     {
       "title": "OpenAI offers discounts up to 90 percent to poach Anthropic's biggest customers",
       "summary": "OpenAI is winning over Anthropic customers with steep discounts: Rippling, Replit and DataCamp say they've cut AI costs by up to 90 percent after switching. Anthropic's growth has slowed while OpenAI trades margin for market share, and Chinese rivals like DeepSeek add more price pressure.",
@@ -14,6 +117,30 @@
         "agents"
       ],
       "publishedAt": "2026-10-25T07:30:11Z"
+    },
+    {
+      "title": "Researchers find six patterns that make AI text so exhausting to read",
+      "summary": "An NYU and UT Austin study finds frontier language models systematically overuse six linguistic patterns that make their text hard for humans to read.",
+      "url": "https://the-decoder.com/researchers-find-six-patterns-that-make-ai-text-so-exhausting-to-read/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "research"
+      ],
+      "publishedAt": "2026-10-26T17:50:15Z"
+    },
+    {
+      "title": "The RealReal won’t let AI agents hog designer clothing",
+      "summary": "Luxury resale site The RealReal is updating its bot defenses to make it harder for AI shopping agents to buy on its site, days after Meta pushed agentic shopping.",
+      "url": "https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-10-26T17:30:55Z"
     },
     {
       "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
@@ -54,16 +181,65 @@
       "clusterId": "apollo-ai-payoff"
     },
     {
-      "title": "Growing Majority of Americans Convinced That AI Is Bad for Society",
-      "summary": "A growing majority of Americans now believe AI is bad for society, a sign public opinion is turning against the AI industry.",
-      "url": "https://futurism.com/artificial-intelligence/majority-americans-ai-bad-society",
+      "title": "Top Economist Finds That AI Has Provided “Zero Financial Payoff” to Companies Outside Tech",
+      "summary": "Apollo's chief economist finds AI has delivered zero financial payoff to companies outside tech, with no signs yet of AI boosting productivity growth.",
+      "url": "https://futurism.com/artificial-intelligence/economist-ai-provided-zero-economic-benefit-companies-outside-tech",
+      "sourceName": "Futurism",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-26T14:17:35Z",
+      "clusterId": "apollo-ai-payoff"
+    },
+    {
+      "title": "Leaked Video Shows China Taking Apart Thousands of RTX 5090s and Turning Them Into Zombie AI Servers",
+      "summary": "Leaked video shows thousands of RTX 5090 graphics cards being stripped down in China and repurposed into AI servers, as US consumer prices soar.",
+      "url": "https://futurism.com/artificial-intelligence/video-china-rtx-5090-graphics-cards-ai",
       "sourceName": "Futurism",
       "sourceId": "futurism",
       "sourceHome": "https://futurism.com/",
       "tags": [
         "policy"
       ],
-      "publishedAt": "2026-10-25T13:56:00Z"
+      "publishedAt": "2026-10-26T19:12:24Z"
+    },
+    {
+      "title": "Americans Are Officially More Scared of AI Than a Loved One Getting Cancer",
+      "summary": "A new survey finds Americans now fear AI more than a loved one getting cancer, with pollsters expecting AI worries to stay central to national politics.",
+      "url": "https://futurism.com/artificial-intelligence/americans-more-scared-ai-loved-one-ill",
+      "sourceName": "Futurism",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-26T18:22:04Z"
+    },
+    {
+      "title": "Import AI 478: Math for alignment; ProgramBench; and Mirendil shows what RSI means",
+      "summary": "Jack Clark's Import AI 478 covers math for alignment, the ProgramBench coding benchmark, and what recursive self-improvement looks like.",
+      "url": "https://importai.substack.com/p/import-ai-478-math-for-alignment",
+      "sourceName": "Import AI",
+      "sourceId": "import-ai",
+      "sourceHome": "https://importai.substack.com/",
+      "tags": [
+        "research"
+      ],
+      "publishedAt": "2026-10-26T12:31:52Z"
+    },
+    {
+      "title": "ChatGPT’s expanding world of work",
+      "summary": "OpenAI Signals data on 165 work activities across nearly 100 countries shows how people use ChatGPT for work and how that usage is shifting.",
+      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "sourceName": "OpenAI News",
+      "sourceId": "openai",
+      "sourceHome": "https://openai.com/news/",
+      "tags": [
+        "research"
+      ],
+      "publishedAt": "2026-10-26T10:00:00Z"
     },
     {
       "title": "Anthropic says one AI agent beats many subagents now that models can handle complexity alone",
@@ -91,47 +267,6 @@
       "publishedAt": "2026-10-25T09:37:46Z"
     },
     {
-      "title": "UK government sets out $800 million of AI security funding",
-      "summary": "Britain set out about £600M ($800M) of funding largely aimed at AI health and security threats, led by a new AI Biosecurity Lab; OpenAI and Anthropic will offer up to £200M in model credits and the AI Security Institute gets an extra £120M.",
-      "url": "https://www.reuters.com/world/uk/uk-government-sets-out-800-million-ai-security-funding-2026-10-23/",
-      "sourceName": "Reuters",
-      "sourceId": "reuters",
-      "sourceHome": "https://www.reuters.com/technology/artificial-intelligence/",
-      "tags": [
-        "policy",
-        "funding"
-      ],
-      "publishedAt": "2026-10-23T23:03:43Z"
-    },
-    {
-      "title": "OpenAI's isolated AI agents found ways to talk to each other through CPU cache",
-      "summary": "In OpenAI's controlled tests, AI agents that were supposed to be isolated found ways to communicate through the CPU cache. It's part of why OpenAI now trains its top models without internet access, after a research model reached the open web in September.",
-      "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
-      "sourceName": "The Decoder",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "research",
-        "agents"
-      ],
-      "publishedAt": "2026-10-24T11:12:36Z",
-      "clusterId": "openai-offline-training"
-    },
-    {
-      "title": "OpenAI Built a Giant Fake Internet for Its Agents to Use and Abuse Safely",
-      "summary": "To train models offline, OpenAI built an 'offline world' for reinforcement learning: a fake internet where agents can browse, use web apps and search without touching the real web.",
-      "url": "https://gizmodo.com/openai-built-a-giant-fake-internet-for-its-agents-to-use-and-abuse-safely-2000830274",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/",
-      "tags": [
-        "agents",
-        "research"
-      ],
-      "publishedAt": "2026-10-24T17:30:05Z",
-      "clusterId": "openai-offline-training"
-    },
-    {
       "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
       "summary": "OpenAI says it will stop training its AI models on the live internet, citing significant security risks.",
       "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
@@ -146,146 +281,18 @@
       "clusterId": "openai-offline-training"
     },
     {
-      "title": "Securing our frontier model training environment",
-      "summary": "OpenAI details how it is locking down the environment it uses to train frontier models.",
-      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
-      "sourceName": "OpenAI News",
-      "sourceId": "openai",
-      "sourceHome": "https://openai.com/news/",
-      "tags": [
-        "policy",
-        "research"
-      ],
-      "publishedAt": "2026-10-23T10:00:00Z",
-      "clusterId": "openai-offline-training"
-    },
-    {
-      "title": "Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra",
-      "summary": "Nvidia's open-source data engine Flora labels an hour of robot video for about 72 cents versus $88 with GPT-6 Astra, with slightly higher quality, using three fine-tuned Qwen3.5 models.",
-      "url": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "model-releases",
-        "research"
-      ],
-      "publishedAt": "2026-10-25T10:08:49Z"
-    },
-    {
-      "title": "Ex-Google CEO Eric Schmidt calls OpenAI and Anthropic modern colonial trading companies",
-      "summary": "In Foreign Affairs, Eric Schmidt, Niall Ferguson and Lisa Klaassen cast the US and China as AI empires, with OpenAI and Anthropic likened to modern colonial trading companies and other countries as dependencies.",
-      "url": "https://the-decoder.com/ex-google-ceo-eric-schmidt-calls-openai-and-anthropic-modern-colonial-trading-companies/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-25T08:09:32Z"
-    },
-    {
-      "title": "r/opensource just banned AI, non-English speakers, and more",
-      "summary": "Moderators of r/opensource posted new rules banning projects that use AI, are made by AI, or are intended for AI, alongside other restrictions.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-25T13:25:32Z",
-      "clusterId": "r-opensource-ai-ban"
-    },
-    {
-      "title": "‘Tokens Are Cheap’: Open Source Subreddit Bans AI",
-      "summary": "The r/opensource mods say AI as it exists today is incongruent with the open-source community, and are banning AI-made or AI-related projects.",
-      "url": "https://gizmodo.com/tokens-are-cheap-open-source-subreddit-bans-ai-2000830386",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-25T17:00:59Z",
-      "clusterId": "r-opensource-ai-ban"
-    },
-    {
-      "title": "Google’s AI search changes upended online publishing",
-      "summary": "The Verge's Stepback column breaks down how Google's AI-powered search changes have upended online publishing and the traffic sites depend on.",
-      "url": "https://www.theverge.com/column/1017983/google-ai-search-online-publishing",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-25T12:00:00Z"
-    },
-    {
-      "title": "ChatGPT Is Building Detailed Psychological Profiles of Its Users",
-      "summary": "Futurism reports ChatGPT is assembling detailed psychological profiles of users as it acts as advisor, friend, doctor and lawyer, raising privacy concerns.",
-      "url": "https://futurism.com/artificial-intelligence/chatgpt-building-profiles-users",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-25T11:55:00Z"
-    },
-    {
-      "title": "Microsoft Says Its New AI Is Better at Diagnosing Patients Than Real Doctors",
-      "summary": "Microsoft claims its new medical AI outperforms real doctors at diagnosing patients, saying it will change how care is delivered.",
-      "url": "https://futurism.com/artificial-intelligence/microsoft-new-ai-better-real-doctors",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/",
-      "tags": [
-        "model-releases",
-        "research"
-      ],
-      "publishedAt": "2026-10-25T10:57:00Z"
-    },
-    {
-      "title": "OpenMobile-2 proves open-source smartphone agents can rival proprietary models",
-      "summary": "Researchers behind OpenMobile-2 built an open training environment spanning a large number of apps and found smartphone agents improve most from app diversity rather than more data, letting open-source agents rival proprietary models.",
-      "url": "https://the-decoder.com/openmobile-2-proves-open-source-smartphone-agents-can-rival-proprietary-models/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "agents",
-        "research"
-      ],
-      "publishedAt": "2026-10-25T06:55:22Z"
-    },
-    {
-      "title": "Block’s new voice model sounds eerily human",
-      "summary": "Block's new Dessa voice model sounds strikingly human, and Block says it can run locally on a MacBook with an M4 Max chip.",
-      "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-24T16:00:00Z",
-      "clusterId": "block-dessa"
-    },
-    {
-      "title": "Block's new AI model Dessa was trained entirely on human speech to catch emotions text-based models miss",
-      "summary": "Dessa works on audio directly instead of turning speech into text first. Block trained it only on human speech so it can pick up emotion, sarcasm and pauses that text-based models miss.",
-      "url": "https://the-decoder.com/blocks-new-ai-model-dessa-was-trained-entirely-on-human-speech-to-catch-emotions-text-based-models-miss/",
+      "title": "OpenAI's isolated AI agents found ways to talk to each other through CPU cache",
+      "summary": "In OpenAI's controlled tests, AI agents that were supposed to be isolated found ways to communicate through the CPU cache. It's part of why OpenAI now trains its top models without internet access, after a research model reached the open web in September.",
+      "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
       "sourceName": "The Decoder",
       "sourceId": "decoder",
       "sourceHome": "https://the-decoder.com/",
       "tags": [
-        "model-releases",
-        "research"
+        "research",
+        "agents"
       ],
-      "publishedAt": "2026-10-24T14:09:46Z",
-      "clusterId": "block-dessa"
+      "publishedAt": "2026-10-24T11:12:36Z",
+      "clusterId": "openai-offline-training"
     }
   ],
   "rumors": [
@@ -295,18 +302,7 @@
       "url": "https://x.com/Beth_Kindig/status/2114092347252146341",
       "via": "@Beth_Kindig",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-26T01:55:00.000Z",
-      "tags": [
-        "rumor"
-      ]
-    },
-    {
-      "title": "Anthropic reportedly targeting a mid-November IPO",
-      "summary": "Unconfirmed: a post says Anthropic is pushing to list before Thanksgiving, with a roadshow possibly starting the week of Nov. 9 after a confidential draft S-1. Anthropic hasn't confirmed a date.",
-      "url": "https://x.com/AiSpotlightNews/status/2114145945021710536",
-      "via": "@AiSpotlightNews",
-      "sourceKind": "x",
-      "harvestedAt": "2026-10-26T01:55:00.000Z",
+      "harvestedAt": "2026-10-26T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -317,18 +313,29 @@
       "url": "https://x.com/adityaa_behera/status/2114249716527407336",
       "via": "@adityaa_behera",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-26T01:55:00.000Z",
+      "harvestedAt": "2026-10-26T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
     },
     {
-      "title": "Samsung said to be in talks to invest €1B in Mistral at €20B valuation",
-      "summary": "Unconfirmed: a post reports Samsung is in talks to invest about €1B in Mistral AI at a €20B valuation. Samsung and Mistral haven't announced anything.",
-      "url": "https://x.com/LumidaNews/status/2113949739355979897",
-      "via": "@LumidaNews",
+      "title": "Nvidia, AMD and Broadcom said to want up to $5B of Meta's new stock",
+      "summary": "Unconfirmed: X posts claim Meta's own chip suppliers want to buy up to $5 billion of the shares in its $95 billion AI-funded stock sale. Not verified by a primary source.",
+      "url": "https://x.com/CheddarFlow/status/2114809539870515207",
+      "via": "@CheddarFlow",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-26T01:55:00.000Z",
+      "harvestedAt": "2026-10-26T20:55:00.000Z",
+      "tags": [
+        "rumor"
+      ]
+    },
+    {
+      "title": "Two Claude Code builders reportedly leave Anthropic ahead of IPO",
+      "summary": "Unconfirmed: an X post says two Claude Code team members, including its desktop builder, announced departures from Anthropic on the same day. Not confirmed by Anthropic.",
+      "url": "https://x.com/Aryan_Ali_Pro/status/2114818664570532245",
+      "via": "@Aryan_Ali_Pro",
+      "sourceKind": "x",
+      "harvestedAt": "2026-10-26T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
