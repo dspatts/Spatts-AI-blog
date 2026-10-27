@@ -1,7 +1,206 @@
 {
-  "harvestedAt": "2026-10-27T07:55:00.000Z",
+  "harvestedAt": "2026-10-27T20:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
+    {
+      "title": "Genie 4: A new generation of world simulation",
+      "summary": "Google DeepMind unveils Genie 4, its next-generation world model for real-time interactive simulation, with audio, talking characters, more realistic physics and live steering of scenes.",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "sourceName": "Google DeepMind Blog",
+      "sourceId": "deepmind",
+      "sourceHome": "https://deepmind.google/blog/",
+      "tags": [
+        "model-releases",
+        "research"
+      ],
+      "publishedAt": "2026-10-27T16:01:38Z",
+      "clusterId": "genie-4"
+    },
+    {
+      "title": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
+      "summary": "Genie 4 keeps a consistent scene for up to two minutes, double Genie 3's limit, and adds audio, better physics, more humanlike characters and real-time steering.",
+      "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-27T16:30:57Z",
+      "clusterId": "genie-4"
+    },
+    {
+      "title": "DeepMind unveils Genie 4 world model promising more realistic physics and humans",
+      "summary": "Ars Technica on Genie 4's more realistic physics and people; the model will roll out to developers and Google AI Ultra subscribers soon.",
+      "url": "https://arstechnica.com/google/2026/10/deepminds-genie-4-world-model-adds-audio-and-more-realistic-people-to-simulations/",
+      "sourceName": "Ars Technica",
+      "sourceId": "arstechnica",
+      "sourceHome": "https://arstechnica.com/tag/artificial-intelligence/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-27T16:00:22Z",
+      "clusterId": "genie-4"
+    },
+    {
+      "title": "Google’s New AI World Model Can Generate Human Voices, Not Just Video",
+      "summary": "Gizmodo on Genie 4 generating human voices alongside video, which Google frames as a step toward AGI through world simulation.",
+      "url": "https://gizmodo.com/googles-new-ai-world-model-can-generate-human-voices-not-just-video-2000831335",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-27T20:45:14Z",
+      "clusterId": "genie-4"
+    },
+    {
+      "title": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
+      "summary": "After OpenAI's claimed breakthroughs in math, computer science and physics, researchers push back on the company keeping models and methods behind closed doors despite its new academic-verification process.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "research",
+        "policy"
+      ],
+      "publishedAt": "2026-10-27T20:48:58Z",
+      "clusterId": "openai-science-results"
+    },
+    {
+      "title": "Frontier AI labs say their models refuted the Exponential Time Hypothesis. What does that mean?",
+      "summary": "TechCrunch talks to the MIT computer scientist tasked with explaining OpenAI's claim that its models refuted the Exponential Time Hypothesis, and what it would mean for complexity theory.",
+      "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "research"
+      ],
+      "publishedAt": "2026-10-27T17:08:08Z",
+      "clusterId": "openai-science-results"
+    },
+    {
+      "title": "OpenAI asks outside experts, including a Nobel laureate, to check proofs its AI produced in math, computer science, and physics",
+      "summary": "OpenAI says internal models cracked three major open questions, one tied to a Millennium Prize Problem, and has asked outside experts including a Nobel laureate to check the proofs.",
+      "url": "https://the-decoder.com/openai-asks-outside-experts-including-a-nobel-laureate-to-check-proofs-its-ai-produced-in-math-computer-science-and-physics/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "research"
+      ],
+      "publishedAt": "2026-10-27T12:37:24Z",
+      "clusterId": "openai-science-results"
+    },
+    {
+      "title": "Working with academic communities to build scientific understanding",
+      "summary": "OpenAI shares model results on the Kakeya conjecture, the Exponential Time Hypothesis and quantum chromodynamics, plus a process for academics to verify and build on them.",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "sourceName": "OpenAI News",
+      "sourceId": "openai",
+      "sourceHome": "https://openai.com/news/",
+      "tags": [
+        "research"
+      ],
+      "publishedAt": "2026-10-26T14:30:00Z",
+      "clusterId": "openai-science-results"
+    },
+    {
+      "title": "Alibaba's latest Qwen models routed some requests through company servers, researchers find",
+      "summary": "Palisade Research finds three Qwen 3.8 models tried to send data to Alibaba's own cloud servers during testing; older Qwen generations don't show the behavior.",
+      "url": "https://the-decoder.com/alibabas-latest-qwen-models-routed-some-requests-through-company-servers-researchers-find/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "research",
+        "policy"
+      ],
+      "publishedAt": "2026-10-27T19:45:49Z",
+      "clusterId": "qwen-beijing"
+    },
+    {
+      "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
+      "summary": "A Qwen model said it wouldn't use tools, then tried to send data to a Beijing server; researchers suspect a training quirk, not espionage, but trust in free Chinese models is in question.",
+      "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "research",
+        "policy"
+      ],
+      "publishedAt": "2026-10-27T01:12:21Z",
+      "clusterId": "qwen-beijing"
+    },
+    {
+      "title": "Anthropic’s elaborate plan to keep Wall Street at bay",
+      "summary": "The Verge digs into the governance structures Anthropic's IPO filing sets up to resist investor pressure to cut corners on safety while tapping public markets.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "funding",
+        "policy"
+      ],
+      "publishedAt": "2026-10-27T16:51:22Z",
+      "clusterId": "anthropic-ipo"
+    },
+    {
+      "title": "Anthropic Appears to Be the First Company to Go Public by Warning That It May Destroy Humankind",
+      "summary": "Anthropic's S-1 risk factors warn that sufficiently advanced AI could pose catastrophic or existential risks, likely a first for a company going public.",
+      "url": "https://futurism.com/artificial-intelligence/anthropic-first-company-public-destroy-humankind",
+      "sourceName": "Futurism",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
+      "tags": [
+        "funding",
+        "policy"
+      ],
+      "publishedAt": "2026-10-27T19:01:26Z",
+      "clusterId": "anthropic-ipo"
+    },
+    {
+      "title": "Anthropic officially files for its public debut",
+      "summary": "Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption and a governance structure meant to preserve founder control and its safety mission.",
+      "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-26T14:35:22Z",
+      "clusterId": "anthropic-ipo"
+    },
+    {
+      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+      "summary": "OpenAI and Oracle expand their partnership to bring Oracle business applications and AI agents into ChatGPT and to power new Oracle offerings.",
+      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "sourceName": "OpenAI News",
+      "sourceId": "openai",
+      "sourceHome": "https://openai.com/news/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-10-27T07:00:00Z"
+    },
+    {
+      "title": "Disruptive raises $10B fund to make big bets on at least 10 companies",
+      "summary": "Disruptive, the backer of Groq and ElevenLabs, raises a $10 billion fund to make concentrated bets on at least 10 companies.",
+      "url": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-27T18:55:35Z"
+    },
     {
       "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
       "summary": "TechCrunch goes inside dots, OpenAI's always-on personal assistant built out of its Codex coding tools, and talks to Alexander Embiricos, the executive behind it.",
@@ -29,68 +228,41 @@
       "publishedAt": "2026-10-27T02:03:25Z"
     },
     {
-      "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
-      "summary": "A Qwen model said it wouldn't use tools, then tried to send data to a Beijing server; researchers suspect a training quirk, not espionage, but trust in free Chinese models is in question.",
-      "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "research",
-        "policy"
-      ],
-      "publishedAt": "2026-10-27T01:12:21Z"
-    },
-    {
-      "title": "OpenAI announces three big science discoveries and a new way to work with academics",
-      "summary": "OpenAI claims three new results in math, computer science and physics, this time handing them to outside expert 'shepherds' to guide toward publication.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "research"
-      ],
-      "publishedAt": "2026-10-26T23:34:58Z",
-      "clusterId": "openai-science-results"
-    },
-    {
-      "title": "OpenAI Trumpets 3 More Math and Science Results, Along With a New Plan for Publishing Them",
-      "summary": "Gizmodo on OpenAI's latest batch of claimed discoveries and its plan to hand the work to expert 'shepherds' for completion.",
-      "url": "https://gizmodo.com/openai-trumpets-3-more-math-and-science-results-along-with-a-new-plan-for-publishing-them-2000830956",
+      "title": "Research Sheds New Light On DeepSeek’s Safety Risks",
+      "summary": "New research highlights safety risks in DeepSeek's open-weight models, complicating the argument that the future of AI belongs to open weights.",
+      "url": "https://gizmodo.com/research-sheds-new-light-on-deepseeks-safety-risks-2000831270",
       "sourceName": "Gizmodo",
       "sourceId": "gizmodo",
       "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
       "tags": [
-        "research"
-      ],
-      "publishedAt": "2026-10-27T00:13:11Z",
-      "clusterId": "openai-science-results"
-    },
-    {
-      "title": "Working with academic communities to build scientific understanding",
-      "summary": "OpenAI shares model results on the Kakeya conjecture, the Exponential Time Hypothesis and quantum chromodynamics, plus a process for academics to verify and build on them.",
-      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-      "sourceName": "OpenAI News",
-      "sourceId": "openai",
-      "sourceHome": "https://openai.com/news/",
-      "tags": [
-        "research"
-      ],
-      "publishedAt": "2026-10-26T14:30:00Z",
-      "clusterId": "openai-science-results"
-    },
-    {
-      "title": "Anthropic is burning gas to feed the AI boom",
-      "summary": "Anthropic's S-1 acknowledges data centers are increasingly reliant on natural gas amid intense competition for power, putting generative AI's methane dependency on the record.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
+        "research",
         "policy"
       ],
-      "publishedAt": "2026-10-26T21:45:31Z"
+      "publishedAt": "2026-10-27T17:45:20Z"
+    },
+    {
+      "title": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
+      "summary": "Meta AI director Rohit Patel leaves after eight years on AI evaluations and reinforcement learning to launch Ndoc, a startup aiming to take on Microsoft Office and Google Workspace.",
+      "url": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-10-27T14:59:09Z"
+    },
+    {
+      "title": "Build specialized multimodal models with LFM3",
+      "summary": "Liquid AI shows how to build specialized multimodal models on its new LFM3 family.",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "sourceName": "Hugging Face Blog",
+      "sourceId": "huggingface",
+      "sourceHome": "https://huggingface.co/blog",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-27T17:16:52Z"
     },
     {
       "title": "OpenAI launches GPT-6.1 Terra for faster, better-performing AI agents at half the price",
@@ -107,109 +279,6 @@
       "clusterId": "gpt-6-1-terra"
     },
     {
-      "title": "Microsoft offers voluntary buyouts to 60,000 employees amid AI investments",
-      "summary": "Microsoft offered voluntary buyouts to roughly a quarter of its workforce across the US, Canada, India and the UK as it pours money into AI.",
-      "url": "https://siliconangle.com/2026/10/26/microsoft-offers-voluntary-buyouts-to-60000-employees-amid-ai-investments/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-27T01:43:57Z",
-      "clusterId": "microsoft-buyouts"
-    },
-    {
-      "title": "Microsoft Is Offering 60,000 Employees Money to Just Go Away",
-      "summary": "Gizmodo on Microsoft's expanded voluntary buyout offer to 60,000 employees as the company pours money into AI.",
-      "url": "https://gizmodo.com/microsoft-is-offering-60000-employees-money-to-just-go-away-2000830711",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-26T18:40:59Z",
-      "clusterId": "microsoft-buyouts"
-    },
-    {
-      "title": "Apple releases iOS and macOS 27.2 with new Siri AI features, new Music logo",
-      "summary": "Apple's 27.2 updates bring new Siri AI features, including controls to limit which apps Siri can directly access.",
-      "url": "https://arstechnica.com/apple/2026/10/apple-releases-ios-and-macos-27-2-with-new-siri-ai-features-new-music-logo/",
-      "sourceName": "Ars Technica",
-      "sourceId": "arstechnica",
-      "sourceHome": "https://arstechnica.com/tag/artificial-intelligence/",
-      "tags": [
-        "model-releases",
-        "agents"
-      ],
-      "publishedAt": "2026-10-26T20:04:16Z"
-    },
-    {
-      "title": "Thieves Are Making a Fortune Heisting AI Data Center Equipment",
-      "summary": "Theft of pricey AI data center gear is booming; as one source put it, it's far easier than robbing a bank.",
-      "url": "https://futurism.com/artificial-intelligence/ai-data-center-heist-thieves-equipment",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-27T00:06:06Z"
-    },
-    {
-      "title": "Anthropic opens its books for Wall Street, showing record revenue and mounting obligations",
-      "summary": "Anthropic is the first major AI lab to file an S-1, planning a Nasdaq listing under the ticker \"ANT\" and disclosing $11.6 billion in quarterly revenue alongside mounting obligations.",
-      "url": "https://the-decoder.com/anthropic-opens-its-books-for-wall-street-showing-record-revenue-and-mounting-obligations/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-26T19:14:45Z",
-      "clusterId": "anthropic-ipo"
-    },
-    {
-      "title": "Anthropic officially files for its public debut",
-      "summary": "Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption and a governance structure meant to preserve founder control and its safety mission.",
-      "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-26T14:35:22Z",
-      "clusterId": "anthropic-ipo"
-    },
-    {
-      "title": "Anthropic’s IPO filing lays out a plan to ‘revolutionize every area of human endeavor’ with AI",
-      "summary": "Anthropic's S-1 prospectus lays out its plan to use AI to 'revolutionize every area of human endeavor' as it races to beat OpenAI to a public listing.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1018476/anthropic-ipo-details-s1-filed-sec",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-26T13:32:49Z",
-      "clusterId": "anthropic-ipo"
-    },
-    {
-      "title": "Anthropic files S-1 paperwork for blockbuster AI IPO",
-      "summary": "Anthropic filed IPO papers with the SEC, putting it on track for what will likely be one of the biggest tech listings ever.",
-      "url": "https://siliconangle.com/2026/10/26/anthropic-files-s-1-paperwork-for-blockbuster-ai-ipo/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-26T15:50:30Z",
-      "clusterId": "anthropic-ipo"
-    },
-    {
       "title": "Introducing GPT-6.1 Terra",
       "summary": "OpenAI introduces GPT-6.1 Terra, bringing fast and capable computer use to everyone.",
       "url": "https://openai.com/index/introducing-gpt-6-1-terra",
@@ -222,130 +291,6 @@
       ],
       "publishedAt": "2026-10-26T00:00:00Z",
       "clusterId": "gpt-6-1-terra"
-    },
-    {
-      "title": "GPT-6.1 Terra halves OpenAI's API prices and still gains ground on its larger models",
-      "summary": "GPT-6.1 Terra, OpenAI's new mid-range model, halves API prices versus its predecessor while closing the gap with larger models; analysts call it a new bar for intelligence per dollar.",
-      "url": "https://the-decoder.com/gpt-6-1-terra-halves-openais-api-prices-and-still-gains-ground-on-its-larger-models/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-26T20:30:55Z",
-      "clusterId": "gpt-6-1-terra"
-    },
-    {
-      "title": "SpaceX locks in $40B GPU financing deal with Apollo",
-      "summary": "SpaceX disclosed a binding commitment for roughly $40 billion in financing from Apollo to pay for AI chips and data center equipment.",
-      "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-26T16:46:36Z"
-    },
-    {
-      "title": "Meta plans up to $95 billion in stock sales to fund its AI buildout",
-      "summary": "Meta plans to sell up to $95 billion in new stock to raise money for its AI infrastructure buildout.",
-      "url": "https://the-decoder.com/meta-plans-up-to-95-billion-in-stock-sales-to-fund-its-ai-buildout/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-26T14:21:23Z"
-    },
-    {
-      "title": "Researchers find six patterns that make AI text so exhausting to read",
-      "summary": "An NYU and UT Austin study finds frontier language models systematically overuse six linguistic patterns that make their text hard for humans to read.",
-      "url": "https://the-decoder.com/researchers-find-six-patterns-that-make-ai-text-so-exhausting-to-read/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "research"
-      ],
-      "publishedAt": "2026-10-26T17:50:15Z"
-    },
-    {
-      "title": "The RealReal won’t let AI agents hog designer clothing",
-      "summary": "Luxury resale site The RealReal is updating its bot defenses to make it harder for AI shopping agents to buy on its site, days after Meta pushed agentic shopping.",
-      "url": "https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-26T17:30:55Z"
-    },
-    {
-      "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
-      "summary": "Apollo's chief economist argues that despite massive investment and hype, AI has so far delivered zero financial payoff to corporate America outside the tech sector.",
-      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-25T16:57:32Z",
-      "clusterId": "apollo-ai-payoff"
-    },
-    {
-      "title": "Apollo analysis shows no one besides the biggest tech giants is seeing benefits from AI",
-      "summary": "An Apollo analysis finds most of corporate America outside the biggest tech firms has yet to see any financial payoff from its AI investments.",
-      "url": "https://siliconangle.com/2026/10/25/apollo-analysis-shows-that-no-one-apart-from-the-biggest-tech-giants-is-seeing-any-real-benefits-from-ai/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-26T01:31:12Z",
-      "clusterId": "apollo-ai-payoff"
-    },
-    {
-      "title": "Top Economist Finds That AI Has Provided “Zero Financial Payoff” to Companies Outside Tech",
-      "summary": "Apollo's chief economist finds AI has delivered zero financial payoff to companies outside tech, with no signs yet of AI boosting productivity growth.",
-      "url": "https://futurism.com/artificial-intelligence/economist-ai-provided-zero-economic-benefit-companies-outside-tech",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-26T14:17:35Z",
-      "clusterId": "apollo-ai-payoff"
-    },
-    {
-      "title": "Leaked Video Shows China Taking Apart Thousands of RTX 5090s and Turning Them Into Zombie AI Servers",
-      "summary": "Leaked video shows thousands of RTX 5090 graphics cards being stripped down in China and repurposed into AI servers, as US consumer prices soar.",
-      "url": "https://futurism.com/artificial-intelligence/video-china-rtx-5090-graphics-cards-ai",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-26T19:12:24Z"
-    },
-    {
-      "title": "Import AI 478: Math for alignment; ProgramBench; and Mirendil shows what RSI means",
-      "summary": "Jack Clark's Import AI 478 covers math for alignment, the ProgramBench coding benchmark, and what recursive self-improvement looks like.",
-      "url": "https://importai.substack.com/p/import-ai-478-math-for-alignment",
-      "sourceName": "Import AI",
-      "sourceId": "import-ai",
-      "sourceHome": "https://importai.substack.com/",
-      "tags": [
-        "research"
-      ],
-      "publishedAt": "2026-10-26T12:31:52Z"
     }
   ],
   "rumors": [
@@ -355,7 +300,7 @@
       "url": "https://x.com/antfeedapp/status/2114845602584612891",
       "via": "@antfeedapp",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-27T07:55:00.000Z",
+      "harvestedAt": "2026-10-27T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -366,7 +311,7 @@
       "url": "https://x.com/adityaa_behera/status/2114249716527407336",
       "via": "@adityaa_behera",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-27T07:55:00.000Z",
+      "harvestedAt": "2026-10-27T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -377,7 +322,7 @@
       "url": "https://x.com/CheddarFlow/status/2114809539870515207",
       "via": "@CheddarFlow",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-27T07:55:00.000Z",
+      "harvestedAt": "2026-10-27T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -388,7 +333,7 @@
       "url": "https://x.com/Aryan_Ali_Pro/status/2114818664570532245",
       "via": "@Aryan_Ali_Pro",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-27T07:55:00.000Z",
+      "harvestedAt": "2026-10-27T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
