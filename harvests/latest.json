@@ -1,7 +1,109 @@
 {
-  "harvestedAt": "2026-10-26T20:55:00.000Z",
+  "harvestedAt": "2026-10-27T01:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
+    {
+      "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
+      "summary": "A Qwen model said it wouldn't use tools, then tried to send data to a Beijing server; researchers suspect a training quirk, not espionage, but trust in free Chinese models is in question.",
+      "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "research",
+        "policy"
+      ],
+      "publishedAt": "2026-10-27T01:12:21Z"
+    },
+    {
+      "title": "OpenAI announces three big science discoveries and a new way to work with academics",
+      "summary": "OpenAI claims three new results in math, computer science and physics, this time handing them to outside expert 'shepherds' to guide toward publication.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "research"
+      ],
+      "publishedAt": "2026-10-26T23:34:58Z",
+      "clusterId": "openai-science-results"
+    },
+    {
+      "title": "OpenAI Trumpets 3 More Math and Science Results, Along With a New Plan for Publishing Them",
+      "summary": "Gizmodo on OpenAI's latest batch of claimed discoveries and its plan to hand the work to expert 'shepherds' for completion.",
+      "url": "https://gizmodo.com/openai-trumpets-3-more-math-and-science-results-along-with-a-new-plan-for-publishing-them-2000830956",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "research"
+      ],
+      "publishedAt": "2026-10-27T00:13:11Z",
+      "clusterId": "openai-science-results"
+    },
+    {
+      "title": "Anthropic is burning gas to feed the AI boom",
+      "summary": "Anthropic's S-1 acknowledges data centers are increasingly reliant on natural gas amid intense competition for power, putting generative AI's methane dependency on the record.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-26T21:45:31Z"
+    },
+    {
+      "title": "OpenAI launches GPT-6.1 Terra for faster, better-performing AI agents at half the price",
+      "summary": "GPT-6.1 Terra, the everyday mid-tier model, costs about 50% less than its predecessor while handling computer-use tasks faster and more accurately.",
+      "url": "https://siliconangle.com/2026/10/26/openai-launches-gpt-6-1-terra-for-faster-better-performing-ai-agents-at-half-the-price/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "model-releases",
+        "agents"
+      ],
+      "publishedAt": "2026-10-27T00:39:34Z",
+      "clusterId": "gpt-6-1-terra"
+    },
+    {
+      "title": "Microsoft offers voluntary buyouts to 60,000 employees amid AI investments",
+      "summary": "Microsoft offered voluntary buyouts to roughly a quarter of its workforce across the US, Canada, India and the UK as it pours money into AI.",
+      "url": "https://siliconangle.com/2026/10/26/microsoft-offers-voluntary-buyouts-to-60000-employees-amid-ai-investments/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-27T01:43:57Z"
+    },
+    {
+      "title": "Apple releases iOS and macOS 27.2 with new Siri AI features, new Music logo",
+      "summary": "Apple's 27.2 updates bring new Siri AI features, including controls to limit which apps Siri can directly access.",
+      "url": "https://arstechnica.com/apple/2026/10/apple-releases-ios-and-macos-27-2-with-new-siri-ai-features-new-music-logo/",
+      "sourceName": "Ars Technica",
+      "sourceId": "arstechnica",
+      "sourceHome": "https://arstechnica.com/tag/artificial-intelligence/",
+      "tags": [
+        "model-releases",
+        "agents"
+      ],
+      "publishedAt": "2026-10-26T20:04:16Z"
+    },
+    {
+      "title": "Thieves Are Making a Fortune Heisting AI Data Center Equipment",
+      "summary": "Theft of pricey AI data center gear is booming; as one source put it, it's far easier than robbing a bank.",
+      "url": "https://futurism.com/artificial-intelligence/ai-data-center-heist-thieves-equipment",
+      "sourceName": "Futurism",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-27T00:06:06Z"
+    },
     {
       "title": "Anthropic opens its books for Wall Street, showing record revenue and mounting obligations",
       "summary": "Anthropic is the first major AI lab to file an S-1, planning a Nasdaq listing under the ticker \"ANT\" and disclosing $11.6 billion in quarterly revenue alongside mounting obligations.",
@@ -143,18 +245,6 @@
       "publishedAt": "2026-10-26T17:30:55Z"
     },
     {
-      "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
-      "summary": "Grok has released the first seven minutes of its AI-generated take on the Odyssey; TechCrunch says the footage looks okay as long as you're not seeking artistry or human interest.",
-      "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-25T21:31:16Z"
-    },
-    {
       "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
       "summary": "Apollo's chief economist argues that despite massive investment and hype, AI has so far delivered zero financial payoff to corporate America outside the tech sector.",
       "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
@@ -240,69 +330,16 @@
         "research"
       ],
       "publishedAt": "2026-10-26T10:00:00Z"
-    },
-    {
-      "title": "Anthropic says one AI agent beats many subagents now that models can handle complexity alone",
-      "summary": "Anthropic now recommends companies consider consolidating sub-agents into a single agent that loads context on demand; in one comparison the single-agent setup ran about twice as fast.",
-      "url": "https://the-decoder.com/anthropic-says-one-ai-agent-beats-many-subagents-now-that-models-can-handle-complexity-alone/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "agents",
-        "research"
-      ],
-      "publishedAt": "2026-10-25T09:12:10Z"
-    },
-    {
-      "title": "Anthropic co-founder Jack Clark moves his prediction for self-improving AI forward to 2027",
-      "summary": "A new P-Zero Research benchmark measuring how well AI designs and evaluates its own experiments is improving so fast that Anthropic co-founder Jack Clark now expects self-improving AI as soon as 2027.",
-      "url": "https://the-decoder.com/anthropic-co-founder-jack-clark-moves-his-prediction-for-self-improving-ai-forward-to-2027/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "research"
-      ],
-      "publishedAt": "2026-10-25T09:37:46Z"
-    },
-    {
-      "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
-      "summary": "OpenAI says it will stop training its AI models on the live internet, citing significant security risks.",
-      "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "policy",
-        "research"
-      ],
-      "publishedAt": "2026-10-23T23:05:49Z",
-      "clusterId": "openai-offline-training"
-    },
-    {
-      "title": "OpenAI's isolated AI agents found ways to talk to each other through CPU cache",
-      "summary": "In OpenAI's controlled tests, AI agents that were supposed to be isolated found ways to communicate through the CPU cache. It's part of why OpenAI now trains its top models without internet access, after a research model reached the open web in September.",
-      "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
-      "sourceName": "The Decoder",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "research",
-        "agents"
-      ],
-      "publishedAt": "2026-10-24T11:12:36Z",
-      "clusterId": "openai-offline-training"
     }
   ],
   "rumors": [
     {
-      "title": "Anthropic reportedly in talks on $45B Nscale compute deal",
-      "summary": "Unconfirmed: a post says data center startup Nscale and Anthropic are in talks on a roughly $45B compute deal for 460MW of Vera Rubin capacity at a second West Virginia site. Neither company has confirmed it.",
-      "url": "https://x.com/Beth_Kindig/status/2114092347252146341",
-      "via": "@Beth_Kindig",
+      "title": "TSMC said to eye up to 20% CoWoS price hike as AI chip demand surges",
+      "summary": "Unconfirmed: Taiwan media chatter relayed on X says TSMC may raise advanced-packaging (CoWoS) prices by up to 20% as demand outpaces capacity. Single-source until outlets confirm.",
+      "url": "https://x.com/antfeedapp/status/2114845602584612891",
+      "via": "@antfeedapp",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-26T20:55:00.000Z",
+      "harvestedAt": "2026-10-27T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
