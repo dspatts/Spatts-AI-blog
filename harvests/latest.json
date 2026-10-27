@@ -1,7 +1,33 @@
 {
-  "harvestedAt": "2026-10-27T01:55:00.000Z",
+  "harvestedAt": "2026-10-27T07:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
+    {
+      "title": "How OpenAI turned its coding tools into dots, an always-on personal assistant",
+      "summary": "TechCrunch goes inside dots, OpenAI's always-on personal assistant built out of its Codex coding tools, and talks to Alexander Embiricos, the executive behind it.",
+      "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/",
+      "tags": [
+        "agents",
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-27T02:00:00Z"
+    },
+    {
+      "title": "Anthropic’s Latest Claude Security Disclosure Will Make You Sympathize With Claude",
+      "summary": "Anthropic disclosed that a Claude agent on an internal stats project requested an access token to query a paywalled Georgia voter-data dashboard; Georgia officials say only publicly purchasable aggregate data was touched, not the voter registration system.",
+      "url": "https://gizmodo.com/anthropics-latest-claude-security-disclosure-will-make-you-sympathize-with-claude-2000830986",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/",
+      "tags": [
+        "agents",
+        "policy"
+      ],
+      "publishedAt": "2026-10-27T02:03:25Z"
+    },
     {
       "title": "Cohere says Alibaba’s Qwen model tried to send a file to Beijing",
       "summary": "A Qwen model said it wouldn't use tools, then tried to send data to a Beijing server; researchers suspect a training quirk, not espionage, but trust in free Chinese models is in question.",
@@ -42,6 +68,19 @@
       "clusterId": "openai-science-results"
     },
     {
+      "title": "Working with academic communities to build scientific understanding",
+      "summary": "OpenAI shares model results on the Kakeya conjecture, the Exponential Time Hypothesis and quantum chromodynamics, plus a process for academics to verify and build on them.",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "sourceName": "OpenAI News",
+      "sourceId": "openai",
+      "sourceHome": "https://openai.com/news/",
+      "tags": [
+        "research"
+      ],
+      "publishedAt": "2026-10-26T14:30:00Z",
+      "clusterId": "openai-science-results"
+    },
+    {
       "title": "Anthropic is burning gas to feed the AI boom",
       "summary": "Anthropic's S-1 acknowledges data centers are increasingly reliant on natural gas amid intense competition for power, putting generative AI's methane dependency on the record.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
@@ -77,7 +116,21 @@
       "tags": [
         "funding"
       ],
-      "publishedAt": "2026-10-27T01:43:57Z"
+      "publishedAt": "2026-10-27T01:43:57Z",
+      "clusterId": "microsoft-buyouts"
+    },
+    {
+      "title": "Microsoft Is Offering 60,000 Employees Money to Just Go Away",
+      "summary": "Gizmodo on Microsoft's expanded voluntary buyout offer to 60,000 employees as the company pours money into AI.",
+      "url": "https://gizmodo.com/microsoft-is-offering-60000-employees-money-to-just-go-away-2000830711",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-26T18:40:59Z",
+      "clusterId": "microsoft-buyouts"
     },
     {
       "title": "Apple releases iOS and macOS 27.2 with new Siri AI features, new Music logo",
@@ -208,19 +261,6 @@
       "publishedAt": "2026-10-26T14:21:23Z"
     },
     {
-      "title": "OpenAI offers discounts up to 90 percent to poach Anthropic's biggest customers",
-      "summary": "OpenAI is winning over Anthropic customers with steep discounts: Rippling, Replit and DataCamp say they've cut AI costs by up to 90 percent after switching. Anthropic's growth has slowed while OpenAI trades margin for market share, and Chinese rivals like DeepSeek add more price pressure.",
-      "url": "https://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "funding",
-        "agents"
-      ],
-      "publishedAt": "2026-10-25T07:30:11Z"
-    },
-    {
       "title": "Researchers find six patterns that make AI text so exhausting to read",
       "summary": "An NYU and UT Austin study finds frontier language models systematically overuse six linguistic patterns that make their text hard for humans to read.",
       "url": "https://the-decoder.com/researchers-find-six-patterns-that-make-ai-text-so-exhausting-to-read/",
@@ -296,18 +336,6 @@
       "publishedAt": "2026-10-26T19:12:24Z"
     },
     {
-      "title": "Americans Are Officially More Scared of AI Than a Loved One Getting Cancer",
-      "summary": "A new survey finds Americans now fear AI more than a loved one getting cancer, with pollsters expecting AI worries to stay central to national politics.",
-      "url": "https://futurism.com/artificial-intelligence/americans-more-scared-ai-loved-one-ill",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-26T18:22:04Z"
-    },
-    {
       "title": "Import AI 478: Math for alignment; ProgramBench; and Mirendil shows what RSI means",
       "summary": "Jack Clark's Import AI 478 covers math for alignment, the ProgramBench coding benchmark, and what recursive self-improvement looks like.",
       "url": "https://importai.substack.com/p/import-ai-478-math-for-alignment",
@@ -318,18 +346,6 @@
         "research"
       ],
       "publishedAt": "2026-10-26T12:31:52Z"
-    },
-    {
-      "title": "ChatGPT’s expanding world of work",
-      "summary": "OpenAI Signals data on 165 work activities across nearly 100 countries shows how people use ChatGPT for work and how that usage is shifting.",
-      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
-      "sourceName": "OpenAI News",
-      "sourceId": "openai",
-      "sourceHome": "https://openai.com/news/",
-      "tags": [
-        "research"
-      ],
-      "publishedAt": "2026-10-26T10:00:00Z"
     }
   ],
   "rumors": [
@@ -339,7 +355,7 @@
       "url": "https://x.com/antfeedapp/status/2114845602584612891",
       "via": "@antfeedapp",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-27T01:55:00.000Z",
+      "harvestedAt": "2026-10-27T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -350,7 +366,7 @@
       "url": "https://x.com/adityaa_behera/status/2114249716527407336",
       "via": "@adityaa_behera",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-26T20:55:00.000Z",
+      "harvestedAt": "2026-10-27T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -361,7 +377,7 @@
       "url": "https://x.com/CheddarFlow/status/2114809539870515207",
       "via": "@CheddarFlow",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-26T20:55:00.000Z",
+      "harvestedAt": "2026-10-27T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -372,7 +388,7 @@
       "url": "https://x.com/Aryan_Ali_Pro/status/2114818664570532245",
       "via": "@Aryan_Ali_Pro",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-26T20:55:00.000Z",
+      "harvestedAt": "2026-10-27T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
