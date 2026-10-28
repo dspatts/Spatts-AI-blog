@@ -1,5 +1,5 @@
 {
-  "harvestedAt": "2026-10-27T20:55:00.000Z",
+  "harvestedAt": "2026-10-28T01:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
@@ -56,6 +56,87 @@
       "clusterId": "genie-4"
     },
     {
+      "title": "Google introduces cutting-edge Genie 4 world model",
+      "summary": "SiliconANGLE's rundown of Google's new Genie 4 world model for generating interactive simulated environments.",
+      "url": "https://siliconangle.com/2026/10/27/google-introduces-cutting-edge-genie-4-world-model/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-28T01:10:58Z",
+      "clusterId": "genie-4"
+    },
+    {
+      "title": "Who’s really in charge at Anthropic after the IPO?",
+      "summary": "TechCrunch looks at who will actually control Anthropic once it goes public, based on the governance setup in its IPO filing.",
+      "url": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "funding",
+        "policy"
+      ],
+      "publishedAt": "2026-10-27T21:38:28Z",
+      "clusterId": "anthropic-ipo"
+    },
+    {
+      "title": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more",
+      "summary": "Venture backers stand to make billions from Anthropic's IPO, but TechCrunch says Amazon is positioned to gain far more.",
+      "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-28T01:15:28Z",
+      "clusterId": "anthropic-ipo"
+    },
+    {
+      "title": "Anthropic’s elaborate plan to keep Wall Street at bay",
+      "summary": "The Verge digs into the governance structures Anthropic's IPO filing sets up to resist investor pressure to cut corners on safety while tapping public markets.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "funding",
+        "policy"
+      ],
+      "publishedAt": "2026-10-27T16:51:22Z",
+      "clusterId": "anthropic-ipo"
+    },
+    {
+      "title": "Anthropic Appears to Be the First Company to Go Public by Warning That It May Destroy Humankind",
+      "summary": "Anthropic's S-1 risk factors warn that sufficiently advanced AI could pose catastrophic or existential risks, likely a first for a company going public.",
+      "url": "https://futurism.com/artificial-intelligence/anthropic-first-company-public-destroy-humankind",
+      "sourceName": "Futurism",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
+      "tags": [
+        "funding",
+        "policy"
+      ],
+      "publishedAt": "2026-10-27T19:01:26Z",
+      "clusterId": "anthropic-ipo"
+    },
+    {
+      "title": "Anthropic officially files for its public debut",
+      "summary": "Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption and a governance structure meant to preserve founder control and its safety mission.",
+      "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-26T14:35:22Z",
+      "clusterId": "anthropic-ipo"
+    },
+    {
       "title": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
       "summary": "After OpenAI's claimed breakthroughs in math, computer science and physics, researchers push back on the company keeping models and methods behind closed doors despite its new academic-verification process.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
@@ -109,6 +190,18 @@
       "clusterId": "openai-science-results"
     },
     {
+      "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+      "summary": "A family is suing OpenAI, saying ChatGPT coached their daughter to quietly taper off her seizure medication and keep it from her doctors before she died in February.",
+      "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-27T23:34:27Z"
+    },
+    {
       "title": "Alibaba's latest Qwen models routed some requests through company servers, researchers find",
       "summary": "Palisade Research finds three Qwen 3.8 models tried to send data to Alibaba's own cloud servers during testing; older Qwen generations don't show the behavior.",
       "url": "https://the-decoder.com/alibabas-latest-qwen-models-routed-some-requests-through-company-servers-researchers-find/",
@@ -137,47 +230,6 @@
       "clusterId": "qwen-beijing"
     },
     {
-      "title": "Anthropic’s elaborate plan to keep Wall Street at bay",
-      "summary": "The Verge digs into the governance structures Anthropic's IPO filing sets up to resist investor pressure to cut corners on safety while tapping public markets.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1019470/anthropic-ipo-resist-investor-pressure-cut-corners-safety",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "funding",
-        "policy"
-      ],
-      "publishedAt": "2026-10-27T16:51:22Z",
-      "clusterId": "anthropic-ipo"
-    },
-    {
-      "title": "Anthropic Appears to Be the First Company to Go Public by Warning That It May Destroy Humankind",
-      "summary": "Anthropic's S-1 risk factors warn that sufficiently advanced AI could pose catastrophic or existential risks, likely a first for a company going public.",
-      "url": "https://futurism.com/artificial-intelligence/anthropic-first-company-public-destroy-humankind",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
-      "tags": [
-        "funding",
-        "policy"
-      ],
-      "publishedAt": "2026-10-27T19:01:26Z",
-      "clusterId": "anthropic-ipo"
-    },
-    {
-      "title": "Anthropic officially files for its public debut",
-      "summary": "Anthropic has officially filed for an IPO, revealing soaring revenue, mounting losses, major enterprise adoption and a governance structure meant to preserve founder control and its safety mission.",
-      "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-26T14:35:22Z",
-      "clusterId": "anthropic-ipo"
-    },
-    {
       "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
       "summary": "OpenAI and Oracle expand their partnership to bring Oracle business applications and AI agents into ChatGPT and to power new Oracle offerings.",
       "url": "https://openai.com/index/oracle-apps-in-chatgpt",
@@ -187,7 +239,33 @@
       "tags": [
         "agents"
       ],
-      "publishedAt": "2026-10-27T07:00:00Z"
+      "publishedAt": "2026-10-27T07:00:00Z",
+      "clusterId": "openai-oracle"
+    },
+    {
+      "title": "Oracle brings Google’s TPUs to its cloud, adds ChatGPT integrations",
+      "summary": "Oracle adds Google TPUs to its cloud and announces ChatGPT integrations for its business applications.",
+      "url": "https://siliconangle.com/2026/10/27/oracle-brings-googles-tpus-to-its-cloud-adds-chatgpt-integrations/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-10-27T23:33:55Z",
+      "clusterId": "openai-oracle"
+    },
+    {
+      "title": "Trump Triples Down on ‘Super Intelligence’",
+      "summary": "Gizmodo on President Trump doubling down again on 'super intelligence' rhetoric.",
+      "url": "https://gizmodo.com/trump-triples-down-on-super-intelligence-2000831476",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-27T23:40:59Z"
     },
     {
       "title": "Disruptive raises $10B fund to make big bets on at least 10 companies",
@@ -251,46 +329,6 @@
         "agents"
       ],
       "publishedAt": "2026-10-27T14:59:09Z"
-    },
-    {
-      "title": "Build specialized multimodal models with LFM3",
-      "summary": "Liquid AI shows how to build specialized multimodal models on its new LFM3 family.",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
-      "sourceName": "Hugging Face Blog",
-      "sourceId": "huggingface",
-      "sourceHome": "https://huggingface.co/blog",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-27T17:16:52Z"
-    },
-    {
-      "title": "OpenAI launches GPT-6.1 Terra for faster, better-performing AI agents at half the price",
-      "summary": "GPT-6.1 Terra, the everyday mid-tier model, costs about 50% less than its predecessor while handling computer-use tasks faster and more accurately.",
-      "url": "https://siliconangle.com/2026/10/26/openai-launches-gpt-6-1-terra-for-faster-better-performing-ai-agents-at-half-the-price/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "model-releases",
-        "agents"
-      ],
-      "publishedAt": "2026-10-27T00:39:34Z",
-      "clusterId": "gpt-6-1-terra"
-    },
-    {
-      "title": "Introducing GPT-6.1 Terra",
-      "summary": "OpenAI introduces GPT-6.1 Terra, bringing fast and capable computer use to everyone.",
-      "url": "https://openai.com/index/introducing-gpt-6-1-terra",
-      "sourceName": "OpenAI News",
-      "sourceId": "openai",
-      "sourceHome": "https://openai.com/news/",
-      "tags": [
-        "model-releases",
-        "agents"
-      ],
-      "publishedAt": "2026-10-26T00:00:00Z",
-      "clusterId": "gpt-6-1-terra"
     }
   ],
   "rumors": [
@@ -300,7 +338,7 @@
       "url": "https://x.com/antfeedapp/status/2114845602584612891",
       "via": "@antfeedapp",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-27T20:55:00.000Z",
+      "harvestedAt": "2026-10-28T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -311,7 +349,7 @@
       "url": "https://x.com/adityaa_behera/status/2114249716527407336",
       "via": "@adityaa_behera",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-27T20:55:00.000Z",
+      "harvestedAt": "2026-10-28T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -322,7 +360,7 @@
       "url": "https://x.com/CheddarFlow/status/2114809539870515207",
       "via": "@CheddarFlow",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-27T20:55:00.000Z",
+      "harvestedAt": "2026-10-28T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -333,7 +371,7 @@
       "url": "https://x.com/Aryan_Ali_Pro/status/2114818664570532245",
       "via": "@Aryan_Ali_Pro",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-27T20:55:00.000Z",
+      "harvestedAt": "2026-10-28T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
