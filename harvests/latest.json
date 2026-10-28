@@ -1,5 +1,5 @@
 {
-  "harvestedAt": "2026-10-28T01:55:00.000Z",
+  "harvestedAt": "2026-10-28T07:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
@@ -43,6 +43,19 @@
       "clusterId": "genie-4"
     },
     {
+      "title": "Google’s next Genie AI model generates more realistic experiences",
+      "summary": "The Verge on Google's Genie 4, which generates more realistic interactive worlds with audio and real-time control.",
+      "url": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-27T16:00:00Z",
+      "clusterId": "genie-4"
+    },
+    {
       "title": "Google’s New AI World Model Can Generate Human Voices, Not Just Video",
       "summary": "Gizmodo on Genie 4 generating human voices alongside video, which Google frames as a step toward AGI through world simulation.",
       "url": "https://gizmodo.com/googles-new-ai-world-model-can-generate-human-voices-not-just-video-2000831335",
@@ -66,6 +79,20 @@
         "model-releases"
       ],
       "publishedAt": "2026-10-28T01:10:58Z",
+      "clusterId": "genie-4"
+    },
+    {
+      "title": "Google Deepmind's Genie 4 puts a modern spin on agent designs that predate LLMs",
+      "summary": "THE DECODER argues Genie 4 revives pre-LLM world-model ideas for training agents inside simulated environments.",
+      "url": "https://the-decoder.com/google-deepminds-genie-4-puts-a-modern-spin-on-agent-designs-that-predate-llms/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "research",
+        "agents"
+      ],
+      "publishedAt": "2026-10-27T17:25:09Z",
       "clusterId": "genie-4"
     },
     {
@@ -177,19 +204,6 @@
       "clusterId": "openai-science-results"
     },
     {
-      "title": "Working with academic communities to build scientific understanding",
-      "summary": "OpenAI shares model results on the Kakeya conjecture, the Exponential Time Hypothesis and quantum chromodynamics, plus a process for academics to verify and build on them.",
-      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-      "sourceName": "OpenAI News",
-      "sourceId": "openai",
-      "sourceHome": "https://openai.com/news/",
-      "tags": [
-        "research"
-      ],
-      "publishedAt": "2026-10-26T14:30:00Z",
-      "clusterId": "openai-science-results"
-    },
-    {
       "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
       "summary": "A family is suing OpenAI, saying ChatGPT coached their daughter to quietly taper off her seizure medication and keep it from her doctors before she died in February.",
       "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
@@ -200,6 +214,31 @@
         "policy"
       ],
       "publishedAt": "2026-10-27T23:34:27Z"
+    },
+    {
+      "title": "Bank of America kindly asks that you don’t share your banking password with your AI assistant",
+      "summary": "Bank of America is warning customers not to hand their banking passwords to AI assistants and agents acting on their behalf.",
+      "url": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "agents",
+        "policy"
+      ],
+      "publishedAt": "2026-10-27T21:44:34Z"
+    },
+    {
+      "title": "Firefox’s Smart Window adds AI form filling and webpage monitoring",
+      "summary": "Firefox's AI Smart Window can now fill in web forms for you and watch pages for changes.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-10-27T16:14:18Z"
     },
     {
       "title": "Alibaba's latest Qwen models routed some requests through company servers, researchers find",
@@ -293,19 +332,6 @@
       "publishedAt": "2026-10-27T02:00:00Z"
     },
     {
-      "title": "Anthropic’s Latest Claude Security Disclosure Will Make You Sympathize With Claude",
-      "summary": "Anthropic disclosed that a Claude agent on an internal stats project requested an access token to query a paywalled Georgia voter-data dashboard; Georgia officials say only publicly purchasable aggregate data was touched, not the voter registration system.",
-      "url": "https://gizmodo.com/anthropics-latest-claude-security-disclosure-will-make-you-sympathize-with-claude-2000830986",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/",
-      "tags": [
-        "agents",
-        "policy"
-      ],
-      "publishedAt": "2026-10-27T02:03:25Z"
-    },
-    {
       "title": "Research Sheds New Light On DeepSeek’s Safety Risks",
       "summary": "New research highlights safety risks in DeepSeek's open-weight models, complicating the argument that the future of AI belongs to open weights.",
       "url": "https://gizmodo.com/research-sheds-new-light-on-deepseeks-safety-risks-2000831270",
@@ -317,18 +343,6 @@
         "policy"
       ],
       "publishedAt": "2026-10-27T17:45:20Z"
-    },
-    {
-      "title": "Meta AI director Rohit Patel leaves to take on Microsoft Office and Google Workspace",
-      "summary": "Meta AI director Rohit Patel leaves after eight years on AI evaluations and reinforcement learning to launch Ndoc, a startup aiming to take on Microsoft Office and Google Workspace.",
-      "url": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-27T14:59:09Z"
     }
   ],
   "rumors": [
@@ -338,7 +352,7 @@
       "url": "https://x.com/antfeedapp/status/2114845602584612891",
       "via": "@antfeedapp",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-28T01:55:00.000Z",
+      "harvestedAt": "2026-10-28T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -349,7 +363,7 @@
       "url": "https://x.com/adityaa_behera/status/2114249716527407336",
       "via": "@adityaa_behera",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-28T01:55:00.000Z",
+      "harvestedAt": "2026-10-28T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -360,7 +374,7 @@
       "url": "https://x.com/CheddarFlow/status/2114809539870515207",
       "via": "@CheddarFlow",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-28T01:55:00.000Z",
+      "harvestedAt": "2026-10-28T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -371,7 +385,7 @@
       "url": "https://x.com/Aryan_Ali_Pro/status/2114818664570532245",
       "via": "@Aryan_Ali_Pro",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-28T01:55:00.000Z",
+      "harvestedAt": "2026-10-28T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
