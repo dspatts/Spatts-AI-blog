@@ -1,5 +1,5 @@
 {
-  "harvestedAt": "2026-10-28T20:55:00.000Z",
+  "harvestedAt": "2026-10-29T01:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
@@ -55,6 +55,84 @@
       ],
       "publishedAt": "2026-10-28T19:17:58Z",
       "clusterId": "gemini-4-carbon"
+    },
+    {
+      "title": "Google debuts flagship Gemini 4 Carbon model with cybersecurity upgrades",
+      "summary": "SiliconANGLE details Gemini 4 Carbon's cybersecurity upgrades and how Google is limiting early access.",
+      "url": "https://siliconangle.com/2026/10/28/google-debuts-flagship-gemini-4-carbon-model-with-cybersecurity-upgrades/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-28T23:27:13Z",
+      "clusterId": "gemini-4-carbon"
+    },
+    {
+      "title": "Google’s Flashy New Model Gets Outshone By Its Financial Troubles",
+      "summary": "Gizmodo argues Gemini 4 Carbon's launch was overshadowed by questions about Google's finances in its latest earnings.",
+      "url": "https://gizmodo.com/googles-flashy-new-model-gets-outshone-by-its-financial-troubles-2000832147",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "model-releases",
+        "funding"
+      ],
+      "publishedAt": "2026-10-29T01:30:28Z",
+      "clusterId": "gemini-4-carbon"
+    },
+    {
+      "title": "Microsoft recorded $10 billion in revenue from OpenAI",
+      "summary": "Microsoft's latest earnings show it booked $10 billion in revenue from its OpenAI relationship.",
+      "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-28T21:34:30Z",
+      "clusterId": "microsoft-openai-earnings"
+    },
+    {
+      "title": "Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion",
+      "summary": "For the first time Microsoft disclosed Azure revenue in dollars, $33.2 billion, as AI demand drives cloud growth.",
+      "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-28T21:58:32Z",
+      "clusterId": "microsoft-openai-earnings"
+    },
+    {
+      "title": "Expert Judgement Can Be Easily Hacked by AI, Anthropic Study Finds",
+      "summary": "An Anthropic study finds AI can sway expert judgement surprisingly easily, raising oversight concerns.",
+      "url": "https://gizmodo.com/expert-judgement-can-be-easily-hacked-by-ai-anthropic-study-finds-2000832143",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "research",
+        "policy"
+      ],
+      "publishedAt": "2026-10-28T22:00:50Z"
+    },
+    {
+      "title": "Adam Mosseri says negativity around AI is ‘going to get worse’",
+      "summary": "Instagram head Adam Mosseri says public negativity around AI is 'going to get worse' before it gets better.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-28T23:05:39Z"
     },
     {
       "title": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
@@ -273,33 +351,6 @@
       "publishedAt": "2026-10-28T12:00:50Z"
     },
     {
-      "title": "Genie 4: A new generation of world simulation",
-      "summary": "Google DeepMind unveils Genie 4, its next-generation world model for real-time interactive simulation, with audio, talking characters, more realistic physics and live steering of scenes.",
-      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-      "sourceName": "Google DeepMind Blog",
-      "sourceId": "deepmind",
-      "sourceHome": "https://deepmind.google/blog/",
-      "tags": [
-        "model-releases",
-        "research"
-      ],
-      "publishedAt": "2026-10-27T16:01:38Z",
-      "clusterId": "genie-4"
-    },
-    {
-      "title": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
-      "summary": "Genie 4 keeps a consistent scene for up to two minutes, double Genie 3's limit, and adds audio, better physics, more humanlike characters and real-time steering.",
-      "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-27T16:30:57Z",
-      "clusterId": "genie-4"
-    },
-    {
       "title": "Who’s really in charge at Anthropic after the IPO?",
       "summary": "TechCrunch looks at who will actually control Anthropic once it goes public, based on the governance setup in its IPO filing.",
       "url": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/",
@@ -312,45 +363,6 @@
       ],
       "publishedAt": "2026-10-27T21:38:28Z",
       "clusterId": "anthropic-ipo"
-    },
-    {
-      "title": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more",
-      "summary": "Venture backers stand to make billions from Anthropic's IPO, but TechCrunch says Amazon is positioned to gain far more.",
-      "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-28T01:15:28Z",
-      "clusterId": "anthropic-ipo"
-    },
-    {
-      "title": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
-      "summary": "After OpenAI's claimed breakthroughs in math, computer science and physics, researchers push back on the company keeping models and methods behind closed doors despite its new academic-verification process.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "research",
-        "policy"
-      ],
-      "publishedAt": "2026-10-27T20:48:58Z"
-    },
-    {
-      "title": "Alibaba's latest Qwen models routed some requests through company servers, researchers find",
-      "summary": "Palisade Research finds three Qwen 3.8 models tried to send data to Alibaba's own cloud servers during testing; older Qwen generations don't show the behavior.",
-      "url": "https://the-decoder.com/alibabas-latest-qwen-models-routed-some-requests-through-company-servers-researchers-find/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "research",
-        "policy"
-      ],
-      "publishedAt": "2026-10-27T19:45:49Z"
     }
   ],
   "rumors": [
@@ -360,7 +372,7 @@
       "url": "https://x.com/250_QueenX/status/2115542453340315801",
       "via": "@250_QueenX",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-28T20:55:00.000Z",
+      "harvestedAt": "2026-10-29T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -371,7 +383,7 @@
       "url": "https://x.com/antfeedapp/status/2114845602584612891",
       "via": "@antfeedapp",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-28T20:55:00.000Z",
+      "harvestedAt": "2026-10-29T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -382,7 +394,7 @@
       "url": "https://x.com/CheddarFlow/status/2114809539870515207",
       "via": "@CheddarFlow",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-28T20:55:00.000Z",
+      "harvestedAt": "2026-10-29T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -393,7 +405,7 @@
       "url": "https://x.com/Aryan_Ali_Pro/status/2114818664570532245",
       "via": "@Aryan_Ali_Pro",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-28T20:55:00.000Z",
+      "harvestedAt": "2026-10-29T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
