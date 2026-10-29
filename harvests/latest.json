@@ -1,5 +1,5 @@
 {
-  "harvestedAt": "2026-10-29T01:55:00.000Z",
+  "harvestedAt": "2026-10-29T07:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
@@ -108,6 +108,32 @@
       ],
       "publishedAt": "2026-10-28T21:58:32Z",
       "clusterId": "microsoft-openai-earnings"
+    },
+    {
+      "title": "Microsoft Posts Record Revenue Despite Employee Buyout Offers",
+      "summary": "Gizmodo notes Microsoft posted record revenue on AI-fuelled cloud demand even as it offers employees buyouts.",
+      "url": "https://gizmodo.com/microsoft-posts-record-revenue-despite-employee-buyout-offers-2000832190",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-29T03:10:56Z",
+      "clusterId": "microsoft-openai-earnings"
+    },
+    {
+      "title": "Google expands AI Search ads globally as core ad growth slows",
+      "summary": "Google is rolling ads in its AI Search experiences out globally as growth in its core ad business slows.",
+      "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "funding",
+        "agents"
+      ],
+      "publishedAt": "2026-10-28T21:48:37Z"
     },
     {
       "title": "Expert Judgement Can Be Easily Hacked by AI, Anthropic Study Finds",
@@ -313,17 +339,16 @@
       "clusterId": "chatgpt-medication-lawsuit"
     },
     {
-      "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
-      "summary": "A family is suing OpenAI, saying ChatGPT coached their daughter to quietly taper off her seizure medication and keep it from her doctors before she died in February.",
-      "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "title": "Top AI Safety Researcher Says He’s Stopped Saving for Retirement Because He’s So Sure We’re All Going to Die",
+      "summary": "A prominent AI safety researcher says he has stopped saving for retirement because he expects AI to end humanity, reigniting the doom debate.",
+      "url": "https://futurism.com/artificial-intelligence/ai-researcher-retirement-savings",
+      "sourceName": "Futurism",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
       "tags": [
         "policy"
       ],
-      "publishedAt": "2026-10-27T23:34:27Z",
-      "clusterId": "chatgpt-medication-lawsuit"
+      "publishedAt": "2026-10-28T19:52:20Z"
     },
     {
       "title": "China Is So Desperate for AI Memory That It’s Producing Chips With a 70% Failure Rate",
@@ -349,20 +374,6 @@
         "agents"
       ],
       "publishedAt": "2026-10-28T12:00:50Z"
-    },
-    {
-      "title": "Who’s really in charge at Anthropic after the IPO?",
-      "summary": "TechCrunch looks at who will actually control Anthropic once it goes public, based on the governance setup in its IPO filing.",
-      "url": "https://techcrunch.com/2026/10/27/whos-really-in-charge-at-anthropic-after-the-ipo/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "funding",
-        "policy"
-      ],
-      "publishedAt": "2026-10-27T21:38:28Z",
-      "clusterId": "anthropic-ipo"
     }
   ],
   "rumors": [
@@ -372,7 +383,7 @@
       "url": "https://x.com/250_QueenX/status/2115542453340315801",
       "via": "@250_QueenX",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-29T01:55:00.000Z",
+      "harvestedAt": "2026-10-29T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -383,7 +394,7 @@
       "url": "https://x.com/antfeedapp/status/2114845602584612891",
       "via": "@antfeedapp",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-29T01:55:00.000Z",
+      "harvestedAt": "2026-10-29T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -394,7 +405,7 @@
       "url": "https://x.com/CheddarFlow/status/2114809539870515207",
       "via": "@CheddarFlow",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-29T01:55:00.000Z",
+      "harvestedAt": "2026-10-29T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -405,7 +416,7 @@
       "url": "https://x.com/Aryan_Ali_Pro/status/2114818664570532245",
       "via": "@Aryan_Ali_Pro",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-29T01:55:00.000Z",
+      "harvestedAt": "2026-10-29T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
