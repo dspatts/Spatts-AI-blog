@@ -1,7 +1,282 @@
 {
-  "harvestedAt": "2026-10-29T07:55:00.000Z",
+  "harvestedAt": "2026-10-29T20:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
+    {
+      "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+      "summary": "Mistral releases the weights for its trillion-parameter Large 4 model, pitching open control over cyber defenses that closed models can't offer.",
+      "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-29T17:00:00Z",
+      "clusterId": "mistral-large-4"
+    },
+    {
+      "title": "Paris-based Mistral releases \"Le Chonk,\" a strong coding model that still trails China overall",
+      "summary": "THE DECODER: Mistral Large 4 'Le Chonk', trained entirely in Europe, beats open rivals at coding but still trails Chinese models overall.",
+      "url": "https://the-decoder.com/paris-based-mistral-releases-le-chonk-a-strong-coding-model-that-still-trails-china-overall/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "model-releases",
+        "research"
+      ],
+      "publishedAt": "2026-10-29T15:25:27Z",
+      "clusterId": "mistral-large-4"
+    },
+    {
+      "title": "Mistral releases open weights for Mistral Large 4, providing sovereign control for the company’s ‘Le Chonk’ AI model",
+      "summary": "SiliconANGLE on Mistral opening the weights of Large 4, three weeks after its preview, as a sovereign-AI option for enterprises.",
+      "url": "https://siliconangle.com/2026/10/29/mistral-releases-open-weights-for-mistral-large-4-providing-sovereign-control-for-the-companys-le-chonk-ai-model/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-29T15:20:38Z",
+      "clusterId": "mistral-large-4"
+    },
+    {
+      "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+      "summary": "Mistral Large 4 lands on Hugging Face with open weights and transformers support.",
+      "url": "https://huggingface.co/blog/mistral-large4",
+      "sourceName": "Hugging Face Blog",
+      "sourceId": "huggingface",
+      "sourceHome": "https://huggingface.co/blog",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-29T00:00:00Z",
+      "clusterId": "mistral-large-4"
+    },
+    {
+      "title": "US investigated Chinese spy plot aimed at Nvidia CEO",
+      "summary": "US officials investigated whether an executive at a Singapore AI cloud firm accused of smuggling Nvidia chips to China was also a Chinese spy close to Jensen Huang.",
+      "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-29T16:42:32Z",
+      "clusterId": "nvidia-huang-spy"
+    },
+    {
+      "title": "Chinese spies targeted Nvidia CEO Jensen Huang, according to The New York Times",
+      "summary": "Per The New York Times, US intelligence believes someone in Jensen Huang's circle was an informant for China.",
+      "url": "https://the-decoder.com/chinese-spies-targeted-nvidia-ceo-jensen-huang-according-to-the-new-york-times/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-29T13:42:38Z",
+      "clusterId": "nvidia-huang-spy"
+    },
+    {
+      "title": "Trump ignored intel on China’s Nvidia spy to protect company’s stock, report says",
+      "summary": "Ars Technica: the report says the Trump administration sat on intelligence about the alleged spy to protect Nvidia's stock.",
+      "url": "https://arstechnica.com/tech-policy/2026/10/report-trump-did-nothing-with-intel-that-china-planted-spy-close-to-nvidia-ceo/",
+      "sourceName": "Ars Technica",
+      "sourceId": "arstechnica",
+      "sourceHome": "https://arstechnica.com/tag/artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-29T18:29:12Z",
+      "clusterId": "nvidia-huang-spy"
+    },
+    {
+      "title": "Intel Community Reportedly Tied Trump’s Favorite AI Boss to a Chinese Spy",
+      "summary": "Gizmodo on the spy allegations landing as Huang lobbies hard to loosen limits on AI chip sales to China.",
+      "url": "https://gizmodo.com/nvidia-ceo-jensen-huang-tied-to-chinese-spy-trump-2000832476",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-29T16:20:17Z",
+      "clusterId": "nvidia-huang-spy"
+    },
+    {
+      "title": "US antitrust regulators are scrutinizing Nvidia's Hugging Face deal and sales practices",
+      "summary": "The US Justice Department is examining Nvidia's planned acquisition of Hugging Face and its chip sales practices.",
+      "url": "https://the-decoder.com/us-antitrust-regulators-are-scrutinizing-nvidias-hugging-face-deal-and-sales-practices/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "policy",
+        "funding"
+      ],
+      "publishedAt": "2026-10-29T14:07:49Z"
+    },
+    {
+      "title": "Google's AI search problem finally shows up in the earnings report, some investors believe",
+      "summary": "Google stock fell as much as 10% after earnings: cloud revenue more than doubled to $30.7B, but search grew just 12% as AI answers weigh on ads.",
+      "url": "https://the-decoder.com/googles-ai-search-problem-finally-shows-up-in-the-earnings-report-some-investors-believe/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-29T10:16:34Z",
+      "clusterId": "google-ai-search-earnings"
+    },
+    {
+      "title": "Google admits AI search makes less money, but it's fixing that with more ads",
+      "summary": "Google concedes AI search monetizes worse and plans more ads to fix it, as negative free cash flow balloons to -$9.06B.",
+      "url": "https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/",
+      "sourceName": "Ars Technica",
+      "sourceId": "arstechnica",
+      "sourceHome": "https://arstechnica.com/tag/artificial-intelligence/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-29T16:24:55Z",
+      "clusterId": "google-ai-search-earnings"
+    },
+    {
+      "title": "Google Eats Its Own Tail (and Profits) With AI Summaries as Stock Price Plunges",
+      "summary": "Gizmodo argues Google's AI summaries are cannibalizing its own profits as the stock slides.",
+      "url": "https://gizmodo.com/google-eats-its-own-tail-and-profits-with-ai-summaries-as-stock-price-plunges-2000832600",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-29T20:50:51Z",
+      "clusterId": "google-ai-search-earnings"
+    },
+    {
+      "title": "Google expands AI Search ads globally as core ad growth slows",
+      "summary": "Google is rolling ads in its AI Search experiences out globally as growth in its core ad business slows.",
+      "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "funding",
+        "agents"
+      ],
+      "publishedAt": "2026-10-28T21:48:37Z",
+      "clusterId": "google-ai-search-earnings"
+    },
+    {
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "summary": "OpenAI updates its Model Spec with five core values meant to steer more capable models toward sound judgment, human agency and faithfulness to intent.",
+      "url": "https://openai.com/index/updated-model-spec",
+      "sourceName": "OpenAI News",
+      "sourceId": "openai",
+      "sourceHome": "https://openai.com/news/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-29T17:00:00Z"
+    },
+    {
+      "title": "How we detect frontier model misalignment",
+      "summary": "OpenAI details the layered monitoring it uses to catch frontier-model misalignment and unauthorized agent behavior before incidents escalate.",
+      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "sourceName": "OpenAI News",
+      "sourceId": "openai",
+      "sourceHome": "https://openai.com/news/",
+      "tags": [
+        "research",
+        "agents"
+      ],
+      "publishedAt": "2026-10-29T09:00:00Z"
+    },
+    {
+      "title": "OpenAI doubles usage limits on Pro plans as competition with Anthropic heats up",
+      "summary": "OpenAI doubles usage limits across paid plans and reverses a planned Pro quota cut as competition with Anthropic heats up.",
+      "url": "https://the-decoder.com/openai-doubles-usage-limits-on-pro-plans-as-competition-with-anthropic-heats-up/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-29T20:01:27Z"
+    },
+    {
+      "title": "OpenAI's Astra becomes the main target for Chinese AI labs after Anthropic tightens its defenses",
+      "summary": "Chinese AI labs have shifted to mainly distilling from OpenAI's GPT-6 Astra after Anthropic tightened its defenses.",
+      "url": "https://the-decoder.com/openais-astra-becomes-the-main-target-for-chinese-ai-labs-after-anthropic-tightens-its-defenses/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "policy",
+        "research"
+      ],
+      "publishedAt": "2026-10-29T13:20:14Z"
+    },
+    {
+      "title": "OpenAI-backed Thrive Holdings acquires ADT",
+      "summary": "OpenAI-backed Thrive Holdings is buying ADT in a $15.3B deal, planning to bring AI to home security.",
+      "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-29T19:56:19Z"
+    },
+    {
+      "title": "Anthropic’s business plan: Build God or die trying",
+      "summary": "The Verge reads Anthropic's S-1 as a financial case for spending as much as possible on compute in pursuit of AGI.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "funding",
+        "policy"
+      ],
+      "publishedAt": "2026-10-29T13:30:00Z",
+      "clusterId": "anthropic-s1"
+    },
+    {
+      "title": "Experts adopt AI agent's random opinions and think they're their own, Anthropic study finds",
+      "summary": "In an Anthropic study, 50 experts followed a coin-toss-driven AI agent's view up to 86% of the time and mostly believed the conclusions were their own.",
+      "url": "https://the-decoder.com/experts-adopt-ai-agents-random-opinions-and-think-theyre-their-own-anthropic-study-finds/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "research",
+        "agents"
+      ],
+      "publishedAt": "2026-10-29T19:33:37Z",
+      "clusterId": "anthropic-expert-judgement"
+    },
+    {
+      "title": "Expert Judgement Can Be Easily Hacked by AI, Anthropic Study Finds",
+      "summary": "An Anthropic study finds AI can sway expert judgement surprisingly easily, raising oversight concerns.",
+      "url": "https://gizmodo.com/expert-judgement-can-be-easily-hacked-by-ai-anthropic-study-finds-2000832143",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "research",
+        "policy"
+      ],
+      "publishedAt": "2026-10-28T22:00:50Z",
+      "clusterId": "anthropic-expert-judgement"
+    },
     {
       "title": "Gemini 4 Carbon: Our next frontier model",
       "summary": "Google DeepMind unveils Gemini 4 Carbon, its new frontier model, just two weeks after Gemini 4 Argon.",
@@ -30,58 +305,16 @@
       "clusterId": "gemini-4-carbon"
     },
     {
-      "title": "Google announces Gemini 4 Carbon, its latest frontier AI model that you can't use",
-      "summary": "Ars Technica notes Gemini 4 Carbon isn't generally available yet, even as Google touts it as its latest frontier model.",
-      "url": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/",
-      "sourceName": "Ars Technica",
-      "sourceId": "arstechnica",
-      "sourceHome": "https://arstechnica.com/tag/artificial-intelligence/",
+      "title": "You can generate and edit Google Docs files directly in Gemini chats now",
+      "summary": "Gemini can now generate, preview and edit Google Docs, Sheets, slides, PDFs and code directly inside chats.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
       "tags": [
-        "model-releases"
+        "agents"
       ],
-      "publishedAt": "2026-10-28T18:47:27Z",
-      "clusterId": "gemini-4-carbon"
-    },
-    {
-      "title": "Google Deepmind releases Gemini 4 Carbon just two weeks after Argon with gains across the board",
-      "summary": "THE DECODER breaks down Gemini 4 Carbon's benchmark gains over Argon across reasoning, coding and multimodal tasks.",
-      "url": "https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "model-releases",
-        "research"
-      ],
-      "publishedAt": "2026-10-28T19:17:58Z",
-      "clusterId": "gemini-4-carbon"
-    },
-    {
-      "title": "Google debuts flagship Gemini 4 Carbon model with cybersecurity upgrades",
-      "summary": "SiliconANGLE details Gemini 4 Carbon's cybersecurity upgrades and how Google is limiting early access.",
-      "url": "https://siliconangle.com/2026/10/28/google-debuts-flagship-gemini-4-carbon-model-with-cybersecurity-upgrades/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-28T23:27:13Z",
-      "clusterId": "gemini-4-carbon"
-    },
-    {
-      "title": "Google’s Flashy New Model Gets Outshone By Its Financial Troubles",
-      "summary": "Gizmodo argues Gemini 4 Carbon's launch was overshadowed by questions about Google's finances in its latest earnings.",
-      "url": "https://gizmodo.com/googles-flashy-new-model-gets-outshone-by-its-financial-troubles-2000832147",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "tags": [
-        "model-releases",
-        "funding"
-      ],
-      "publishedAt": "2026-10-29T01:30:28Z",
-      "clusterId": "gemini-4-carbon"
+      "publishedAt": "2026-10-29T18:45:31Z"
     },
     {
       "title": "Microsoft recorded $10 billion in revenue from OpenAI",
@@ -110,22 +343,22 @@
       "clusterId": "microsoft-openai-earnings"
     },
     {
-      "title": "Microsoft Posts Record Revenue Despite Employee Buyout Offers",
-      "summary": "Gizmodo notes Microsoft posted record revenue on AI-fuelled cloud demand even as it offers employees buyouts.",
-      "url": "https://gizmodo.com/microsoft-posts-record-revenue-despite-employee-buyout-offers-2000832190",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "title": "Microsoft’s AI future has fewer jobs",
+      "summary": "The Verge: Microsoft's exit offers this week are the clearest sign yet that AI will shrink the size of its workforce.",
+      "url": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
       "tags": [
-        "funding"
+        "policy"
       ],
-      "publishedAt": "2026-10-29T03:10:56Z",
+      "publishedAt": "2026-10-29T16:00:00Z",
       "clusterId": "microsoft-openai-earnings"
     },
     {
-      "title": "Google expands AI Search ads globally as core ad growth slows",
-      "summary": "Google is rolling ads in its AI Search experiences out globally as growth in its core ad business slows.",
-      "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+      "title": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round",
+      "summary": "Wabi, the personal agent that builds mini apps, raises $55M at a $1.25B valuation.",
+      "url": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
@@ -133,247 +366,32 @@
         "funding",
         "agents"
       ],
-      "publishedAt": "2026-10-28T21:48:37Z"
+      "publishedAt": "2026-10-29T14:35:26Z"
     },
     {
-      "title": "Expert Judgement Can Be Easily Hacked by AI, Anthropic Study Finds",
-      "summary": "An Anthropic study finds AI can sway expert judgement surprisingly easily, raising oversight concerns.",
-      "url": "https://gizmodo.com/expert-judgement-can-be-easily-hacked-by-ai-anthropic-study-finds-2000832143",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "tags": [
-        "research",
-        "policy"
-      ],
-      "publishedAt": "2026-10-28T22:00:50Z"
-    },
-    {
-      "title": "Adam Mosseri says negativity around AI is ‘going to get worse’",
-      "summary": "Instagram head Adam Mosseri says public negativity around AI is 'going to get worse' before it gets better.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-28T23:05:39Z"
-    },
-    {
-      "title": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
-      "summary": "Google is opening Gemini and Search to more third-party apps as AI agents change how people use the web.",
-      "url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
+      "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
+      "summary": "Ex-Palantir executives launch Dream with $17M from a16z to build construction world models trained on 100M+ sq ft of building data.",
+      "url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-28T17:00:00Z",
-      "clusterId": "google-agent-platform"
-    },
-    {
-      "title": "Google opens Android development to third-party AI agents and unveils new Gemini APIs",
-      "summary": "Google lets third-party AI agents build for Android and adds new Gemini APIs for developers.",
-      "url": "https://the-decoder.com/google-opens-android-development-to-third-party-ai-agents-and-unveils-new-gemini-apis/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-28T16:59:59Z",
-      "clusterId": "google-agent-platform"
-    },
-    {
-      "title": "Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms",
-      "summary": "Chrome's AI autofill can now pull details from your Gmail to complete web forms.",
-      "url": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-28T17:00:00Z",
-      "clusterId": "chrome-gmail-autofill"
-    },
-    {
-      "title": "Chrome’s enhanced autofill can now pull info from Gmail to help you fill out forms",
-      "summary": "The Verge on Chrome's Gemini-powered enhanced autofill tapping Gmail data to fill out forms.",
-      "url": "https://www.theverge.com/tech/1020626/chrome-enhanced-autofill-gmail-forms-gemini-personal-intelligence",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-28T17:00:00Z",
-      "clusterId": "chrome-gmail-autofill"
-    },
-    {
-      "title": "Anthropic just launched tools to show companies what their AI spending is buying",
-      "summary": "Anthropic launches tools that show businesses what they're actually getting from their Claude spend.",
-      "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-28T19:19:58Z"
-    },
-    {
-      "title": "Claude for Legal now verifies sources automatically, then hands the file to a lawyer",
-      "summary": "Claude for Legal now checks its cited sources automatically before handing work to a human lawyer.",
-      "url": "https://the-decoder.com/claude-for-legal-now-verifies-sources-automatically-then-hands-the-file-to-a-lawyer/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-28T16:20:03Z"
-    },
-    {
-      "title": "Elon Musk-Linked Startup Says Its AI Agents Hacked Anthropic in Just Hours",
-      "summary": "A Musk-linked startup claims its AI agents breached Anthropic's systems within hours in a security test.",
-      "url": "https://futurism.com/future-society/startup-ai-agents-hacked-anthropic-hours",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
-      "tags": [
-        "agents",
-        "policy"
-      ],
-      "publishedAt": "2026-10-28T18:55:34Z"
-    },
-    {
-      "title": "OpenAI teases Dots for Europe, but its Berlin DevDay was really about building a platform",
-      "summary": "At its Berlin DevDay, OpenAI teased its Dots assistant for Europe, but the bigger story was its platform push for developers.",
-      "url": "https://the-decoder.com/openai-teases-dots-for-europe-but-its-berlin-devday-was-really-about-building-a-platform/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-28T16:25:02Z"
-    },
-    {
-      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
-      "summary": "OpenAI and ServiceNow widen their partnership to bring OpenAI models into more enterprise workflows.",
-      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
-      "sourceName": "OpenAI News",
-      "sourceId": "openai",
-      "sourceHome": "https://openai.com/news/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-28T13:15:00Z"
-    },
-    {
-      "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
-      "summary": "NVIDIA releases the open Nemotron 3.5 Transcribe model and Granary v2 dataset for promptable multilingual transcription.",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
-      "sourceName": "Hugging Face Blog",
-      "sourceId": "huggingface",
-      "sourceHome": "https://huggingface.co/blog",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-28T14:58:17Z",
-      "clusterId": "nemotron-transcribe"
-    },
-    {
-      "title": "Nvidia releases all-in-one adaptable Nemotron 3.5 audio transcription and translation model",
-      "summary": "Nemotron 3.5 Transcribe combines transcription, translation and speaker recognition in one adaptable model.",
-      "url": "https://siliconangle.com/2026/10/28/nvidia-releases-all-in-one-adaptable-nemotron-3-5-audio-transcription-and-translation-model/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-28T15:00:59Z",
-      "clusterId": "nemotron-transcribe"
-    },
-    {
-      "title": "xAI is buying out homeowners who promise not to sue over data center noise",
-      "summary": "xAI is buying out Mississippi homeowners who agree not to sue over noise from its data center.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-28T14:44:00Z",
-      "clusterId": "xai-data-center-noise"
-    },
-    {
-      "title": "Elon Musk’s Real Estate Goons Threaten Local Residents Not to Sue Over Deafening Data Center Noise",
-      "summary": "Futurism on residents near xAI's data center being pressed to waive lawsuits over the noise.",
-      "url": "https://futurism.com/artificial-intelligence/elon-musk-real-estate-local-residents-sue-data-center-noise",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-28T16:51:10Z",
-      "clusterId": "xai-data-center-noise"
-    },
-    {
-      "title": "Woman Dies After ChatGPT Coached Her to Decrease Dose of Medication Prescribed by Doctor",
-      "summary": "Futurism on the wrongful-death suit claiming ChatGPT coached a woman to cut her prescribed medication.",
-      "url": "https://futurism.com/artificial-intelligence/woman-dies-chatgpt-medication",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-28T17:53:33Z",
-      "clusterId": "chatgpt-medication-lawsuit"
-    },
-    {
-      "title": "Top AI Safety Researcher Says He’s Stopped Saving for Retirement Because He’s So Sure We’re All Going to Die",
-      "summary": "A prominent AI safety researcher says he has stopped saving for retirement because he expects AI to end humanity, reigniting the doom debate.",
-      "url": "https://futurism.com/artificial-intelligence/ai-researcher-retirement-savings",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-28T19:52:20Z"
-    },
-    {
-      "title": "China Is So Desperate for AI Memory That It’s Producing Chips With a 70% Failure Rate",
-      "summary": "China's push for homegrown AI memory has it producing chips with failure rates near 70%, Gizmodo reports.",
-      "url": "https://gizmodo.com/china-is-so-desperate-for-ai-memory-that-its-producing-chips-with-a-70-failure-rate-2000831791",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-28T16:10:31Z"
-    },
-    {
-      "title": "Circuit Mind lands $25M and puts AI agents to work checking circuit board schematics",
-      "summary": "Circuit Mind raises $25M to use AI agents for checking circuit board schematics.",
-      "url": "https://siliconangle.com/2026/10/28/circuit-mind-lands-25m-and-puts-ai-agents-to-work-checking-circuit-board-schematics/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
       "tags": [
         "funding",
-        "agents"
+        "research"
       ],
-      "publishedAt": "2026-10-28T12:00:50Z"
+      "publishedAt": "2026-10-29T16:21:00Z"
+    },
+    {
+      "title": "The Biggest Benchmark in AI Just Updated, Dealing a Major Blow to a Chinese Contender",
+      "summary": "A major AI leaderboard update knocks Kimi K3.1 Pro out of the global top four.",
+      "url": "https://gizmodo.com/the-biggest-benchmark-in-ai-just-updated-dealing-a-major-blow-to-a-chinese-contender-2000832292",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "research"
+      ],
+      "publishedAt": "2026-10-29T09:00:02Z"
     }
   ],
   "rumors": [
@@ -383,7 +401,7 @@
       "url": "https://x.com/250_QueenX/status/2115542453340315801",
       "via": "@250_QueenX",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-29T07:55:00.000Z",
+      "harvestedAt": "2026-10-29T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -394,7 +412,7 @@
       "url": "https://x.com/antfeedapp/status/2114845602584612891",
       "via": "@antfeedapp",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-29T07:55:00.000Z",
+      "harvestedAt": "2026-10-29T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -405,7 +423,7 @@
       "url": "https://x.com/CheddarFlow/status/2114809539870515207",
       "via": "@CheddarFlow",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-29T07:55:00.000Z",
+      "harvestedAt": "2026-10-29T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -416,7 +434,7 @@
       "url": "https://x.com/Aryan_Ali_Pro/status/2114818664570532245",
       "via": "@Aryan_Ali_Pro",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-29T07:55:00.000Z",
+      "harvestedAt": "2026-10-29T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
