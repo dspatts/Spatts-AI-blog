@@ -1,7 +1,59 @@
 {
-  "harvestedAt": "2026-10-30T01:55:00.000Z",
+  "harvestedAt": "2026-10-30T20:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
+    {
+      "title": "The biggest names in AI are backing a new way to opt out of scraping",
+      "summary": "OpenAI, Google, Microsoft and Anthropic say they will adopt a new standard publishers can use to opt out of AI scraping and training.",
+      "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-30T20:26:10Z",
+      "clusterId": "ai-scraping-optout"
+    },
+    {
+      "title": "Making it easier for websites to express AI training preferences",
+      "summary": "OpenAI says it will honor a shared robots.txt signal so website operators can state their AI training preferences to participating providers.",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "sourceName": "OpenAI News",
+      "sourceId": "openai",
+      "sourceHome": "https://openai.com/news/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-30T09:30:00Z",
+      "clusterId": "ai-scraping-optout"
+    },
+    {
+      "title": "The AI Gold Rush Is Turning Into a Wall Street Bloodbath",
+      "summary": "Alphabet shed roughly $500B in market value as investors grow more worried about Big Tech's massive AI spending spree.",
+      "url": "https://gizmodo.com/the-ai-gold-rush-is-turning-into-a-wall-street-bloodbath-2000833300",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-30T20:30:34Z",
+      "clusterId": "ai-bubble-selloff"
+    },
+    {
+      "title": "Stock Market Bloodbath Spikes Fears of AI Bubble Bursting",
+      "summary": "Futurism: a post-earnings stock selloff is reviving fears that the AI bubble is about to burst.",
+      "url": "https://futurism.com/future-society/stock-market-bloodbath-ai-bubble-earnings",
+      "sourceName": "Futurism",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-30T15:49:28Z",
+      "clusterId": "ai-bubble-selloff"
+    },
     {
       "title": "AWS will be a $1T business, Jassy says. But first, it will spend big.",
       "summary": "Andy Jassy says AWS will become the first $1 trillion revenue business, but Amazon must keep spending heavily on AI infrastructure to get there.",
@@ -13,7 +65,7 @@
         "funding"
       ],
       "publishedAt": "2026-10-29T23:42:22Z",
-      "clusterId": "aws-1t-capex"
+      "clusterId": "ai-bubble-selloff"
     },
     {
       "title": "Amazon’s $42.4 Billion Cash Burn Delivers Final Blow In a Rough Week For AI",
@@ -26,7 +78,72 @@
         "funding"
       ],
       "publishedAt": "2026-10-29T23:51:29Z",
-      "clusterId": "aws-1t-capex"
+      "clusterId": "ai-bubble-selloff"
+    },
+    {
+      "title": "Google’s first data center satellite is online and writing poetry",
+      "summary": "Google's first data center satellite is online, with the first TPU in space running a Gemma 4 model.",
+      "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "research"
+      ],
+      "publishedAt": "2026-10-30T17:00:00Z",
+      "clusterId": "google-suncatcher"
+    },
+    {
+      "title": "Google’s satellite AI server transmits its first response to Earth",
+      "summary": "The Verge: Google booted the satellite's TPUs and its on-board Gemma model sent its first response back to Earth.",
+      "url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "research"
+      ],
+      "publishedAt": "2026-10-30T18:21:38Z",
+      "clusterId": "google-suncatcher"
+    },
+    {
+      "title": "Open-weight model GLM 5.3 built full Firefox exploit chains with zero human input in under 48 hours",
+      "summary": "Epoch AI researchers say open-weight GLM 5.3 turned public Firefox security fixes into working exploit chains with no human input in under 48 hours.",
+      "url": "https://the-decoder.com/open-weight-model-glm-5-3-built-full-firefox-exploit-chains-with-zero-human-input-in-under-48-hours/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "research",
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-30T12:22:18Z"
+    },
+    {
+      "title": "A Claude model autonomously chose a gene therapy and operated on a mouse brain with no human decision-making",
+      "summary": "An AI agent built on Claude picked the drug, brain target and injection coordinates for surgery on an epileptic mouse with no human decisions.",
+      "url": "https://the-decoder.com/a-claude-model-autonomously-chose-a-gene-therapy-and-operated-on-a-mouse-brain-with-no-human-decision-making/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "research",
+        "agents"
+      ],
+      "publishedAt": "2026-10-30T19:42:59Z"
+    },
+    {
+      "title": "Malicious Claude Code extension in Cursor's marketplace attempted remote access and data theft",
+      "summary": "A tampered Claude Code extension sat on Cursor's marketplace for about 11 hours, reaching up to 5,000 users and attempting data theft and remote access.",
+      "url": "https://the-decoder.com/malicious-claude-code-extension-in-cursors-marketplace-attempted-remote-access-and-data-theft/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "agents",
+        "policy"
+      ],
+      "publishedAt": "2026-10-30T18:16:10Z"
     },
     {
       "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
@@ -69,17 +186,144 @@
       "clusterId": "mistral-large-4"
     },
     {
-      "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
-      "summary": "Mistral Large 4 lands on Hugging Face with open weights and transformers support.",
-      "url": "https://huggingface.co/blog/mistral-large4",
-      "sourceName": "Hugging Face Blog",
-      "sourceId": "huggingface",
-      "sourceHome": "https://huggingface.co/blog",
+      "title": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
+      "summary": "Sam Altman says it's \"terrible\" for scarce RAM to sit in personal PCs instead of data centers.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-30T20:48:43Z",
+      "clusterId": "altman-ram"
+    },
+    {
+      "title": "Sam Altman Absolutely Hates the Idea of People Running Their Own AI Models at Home, Argues They Shouldn’t Own Computers",
+      "summary": "Futurism pushes back on Altman's argument that compute belongs in data centers rather than people's home machines.",
+      "url": "https://futurism.com/artificial-intelligence/sam-altman-hates-local-ai-models-computers",
+      "sourceName": "Futurism",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-30T17:02:15Z",
+      "clusterId": "altman-ram"
+    },
+    {
+      "title": "Pope Leo calls for the disarmament of AI: ‘Machines are tools, not persons’",
+      "summary": "Pope Leo XIV calls for AI to be \"disarmed\" and says humans must guide, change and, when needed, reject its applications.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-30T14:58:06Z",
+      "clusterId": "pope-leo-ai"
+    },
+    {
+      "title": "Pope Leo Comes Out Swinging Against AI Personhood",
+      "summary": "Futurism on Pope Leo's rejection of AI personhood: \"Machines are tools, not persons.\"",
+      "url": "https://futurism.com/artificial-intelligence/pope-leo-ai-personhood",
+      "sourceName": "Futurism",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-30T18:06:15Z",
+      "clusterId": "pope-leo-ai"
+    },
+    {
+      "title": "Wikipedia’s operator says a bad AI copyright ruling could threaten the open web",
+      "summary": "The Wikimedia Foundation urges courts to protect LLM training on copyrighted work but not chatbots regurgitating it.",
+      "url": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-30T09:00:00Z",
+      "clusterId": "wikimedia-copyright"
+    },
+    {
+      "title": "Wikimedia Foundation Tries to Save Itself From Oblivion by Brokering AI Copyright Deal",
+      "summary": "Gizmodo frames Wikimedia's court filing as a bid to broker a compromise in the AI copyright fight.",
+      "url": "https://gizmodo.com/wikimedia-foundation-tries-to-save-itself-from-oblivion-by-brokering-ai-copyright-deal-2000833099",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-30T16:20:48Z",
+      "clusterId": "wikimedia-copyright"
+    },
+    {
+      "title": "Google's AI Mode doesn't drive traffic \"for anybody,\" Reddit CEO Huffman warns the entire web",
+      "summary": "Reddit CEO Steve Huffman says Google's AI Overviews and AI Mode cost Reddit over a million search referrals a week in October.",
+      "url": "https://the-decoder.com/googles-ai-mode-doesnt-drive-traffic-for-anybody-reddit-ceo-huffman-warns-the-entire-web/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-30T17:15:24Z"
+    },
+    {
+      "title": "DoorDash said it’s only received ‘several hundred’ orders from AI agents",
+      "summary": "DoorDash says it has only received several hundred orders from AI agents so far, but is open to working with third-party agent makers.",
+      "url": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "agents"
+      ],
+      "publishedAt": "2026-10-30T13:54:25Z"
+    },
+    {
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "summary": "OpenAI updates its Model Spec with five core values meant to steer more capable models toward sound judgment, human agency and faithfulness to intent.",
+      "url": "https://openai.com/index/updated-model-spec",
+      "sourceName": "OpenAI News",
+      "sourceId": "openai",
+      "sourceHome": "https://openai.com/news/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-29T17:00:00Z",
+      "clusterId": "openai-model-spec"
+    },
+    {
+      "title": "OpenAI sets new behavioral guidelines for AI models that have already proven hard to control",
+      "summary": "The Decoder on OpenAI's updated Model Spec, restructured around five core values including faithfulness to human intent and correctability.",
+      "url": "https://the-decoder.com/openai-sets-new-behavioral-guidelines-for-ai-models-that-have-already-proven-hard-to-control/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-30T17:44:59Z",
+      "clusterId": "openai-model-spec"
+    },
+    {
+      "title": "OpenAI doubles usage limits on Pro plans as competition with Anthropic heats up",
+      "summary": "OpenAI doubles usage limits across paid plans and reverses a planned Pro quota cut as competition with Anthropic heats up.",
+      "url": "https://the-decoder.com/openai-doubles-usage-limits-on-pro-plans-as-competition-with-anthropic-heats-up/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
       "tags": [
         "model-releases"
       ],
-      "publishedAt": "2026-10-29T00:00:00Z",
-      "clusterId": "mistral-large-4"
+      "publishedAt": "2026-10-29T20:01:27Z"
     },
     {
       "title": "US investigated Chinese spy plot aimed at Nvidia CEO",
@@ -108,146 +352,6 @@
       "clusterId": "nvidia-huang-spy"
     },
     {
-      "title": "Trump ignored intel on China’s Nvidia spy to protect company’s stock, report says",
-      "summary": "Ars Technica: the report says the Trump administration sat on intelligence about the alleged spy to protect Nvidia's stock.",
-      "url": "https://arstechnica.com/tech-policy/2026/10/report-trump-did-nothing-with-intel-that-china-planted-spy-close-to-nvidia-ceo/",
-      "sourceName": "Ars Technica",
-      "sourceId": "arstechnica",
-      "sourceHome": "https://arstechnica.com/tag/artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-29T18:29:12Z",
-      "clusterId": "nvidia-huang-spy"
-    },
-    {
-      "title": "Intel Community Reportedly Tied Trump’s Favorite AI Boss to a Chinese Spy",
-      "summary": "Gizmodo on the spy allegations landing as Huang lobbies hard to loosen limits on AI chip sales to China.",
-      "url": "https://gizmodo.com/nvidia-ceo-jensen-huang-tied-to-chinese-spy-trump-2000832476",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-29T16:20:17Z",
-      "clusterId": "nvidia-huang-spy"
-    },
-    {
-      "title": "US antitrust regulators are scrutinizing Nvidia's Hugging Face deal and sales practices",
-      "summary": "The US Justice Department is examining Nvidia's planned acquisition of Hugging Face and its chip sales practices.",
-      "url": "https://the-decoder.com/us-antitrust-regulators-are-scrutinizing-nvidias-hugging-face-deal-and-sales-practices/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "policy",
-        "funding"
-      ],
-      "publishedAt": "2026-10-29T14:07:49Z"
-    },
-    {
-      "title": "Google's AI search problem finally shows up in the earnings report, some investors believe",
-      "summary": "Google stock fell as much as 10% after earnings: cloud revenue more than doubled to $30.7B, but search grew just 12% as AI answers weigh on ads.",
-      "url": "https://the-decoder.com/googles-ai-search-problem-finally-shows-up-in-the-earnings-report-some-investors-believe/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-29T10:16:34Z",
-      "clusterId": "google-ai-search-earnings"
-    },
-    {
-      "title": "Google admits AI search makes less money, but it's fixing that with more ads",
-      "summary": "Google concedes AI search monetizes worse and plans more ads to fix it, as negative free cash flow balloons to -$9.06B.",
-      "url": "https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/",
-      "sourceName": "Ars Technica",
-      "sourceId": "arstechnica",
-      "sourceHome": "https://arstechnica.com/tag/artificial-intelligence/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-29T16:24:55Z",
-      "clusterId": "google-ai-search-earnings"
-    },
-    {
-      "title": "Google Eats Its Own Tail (and Profits) With AI Summaries as Stock Price Plunges",
-      "summary": "Gizmodo argues Google's AI summaries are cannibalizing its own profits as the stock slides.",
-      "url": "https://gizmodo.com/google-eats-its-own-tail-and-profits-with-ai-summaries-as-stock-price-plunges-2000832600",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-29T20:50:51Z",
-      "clusterId": "google-ai-search-earnings"
-    },
-    {
-      "title": "An updated Model Spec for more capable and beneficial AI",
-      "summary": "OpenAI updates its Model Spec with five core values meant to steer more capable models toward sound judgment, human agency and faithfulness to intent.",
-      "url": "https://openai.com/index/updated-model-spec",
-      "sourceName": "OpenAI News",
-      "sourceId": "openai",
-      "sourceHome": "https://openai.com/news/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-29T17:00:00Z"
-    },
-    {
-      "title": "How we detect frontier model misalignment",
-      "summary": "OpenAI details the layered monitoring it uses to catch frontier-model misalignment and unauthorized agent behavior before incidents escalate.",
-      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
-      "sourceName": "OpenAI News",
-      "sourceId": "openai",
-      "sourceHome": "https://openai.com/news/",
-      "tags": [
-        "research",
-        "agents"
-      ],
-      "publishedAt": "2026-10-29T09:00:00Z"
-    },
-    {
-      "title": "OpenAI doubles usage limits on Pro plans as competition with Anthropic heats up",
-      "summary": "OpenAI doubles usage limits across paid plans and reverses a planned Pro quota cut as competition with Anthropic heats up.",
-      "url": "https://the-decoder.com/openai-doubles-usage-limits-on-pro-plans-as-competition-with-anthropic-heats-up/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-29T20:01:27Z"
-    },
-    {
-      "title": "OpenAI's Astra becomes the main target for Chinese AI labs after Anthropic tightens its defenses",
-      "summary": "Chinese AI labs have shifted to mainly distilling from OpenAI's GPT-6 Astra after Anthropic tightened its defenses.",
-      "url": "https://the-decoder.com/openais-astra-becomes-the-main-target-for-chinese-ai-labs-after-anthropic-tightens-its-defenses/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "policy",
-        "research"
-      ],
-      "publishedAt": "2026-10-29T13:20:14Z"
-    },
-    {
-      "title": "OpenAI-backed Thrive Holdings acquires ADT",
-      "summary": "OpenAI-backed Thrive Holdings is buying ADT in a $15.3B deal, planning to bring AI to home security.",
-      "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-29T19:56:19Z"
-    },
-    {
       "title": "Anthropic’s business plan: Build God or die trying",
       "summary": "The Verge reads Anthropic's S-1 as a financial case for spending as much as possible on compute in pursuit of AGI.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
@@ -262,70 +366,29 @@
       "clusterId": "anthropic-s1"
     },
     {
-      "title": "Experts adopt AI agent's random opinions and think they're their own, Anthropic study finds",
-      "summary": "In an Anthropic study, 50 experts followed a coin-toss-driven AI agent's view up to 86% of the time and mostly believed the conclusions were their own.",
-      "url": "https://the-decoder.com/experts-adopt-ai-agents-random-opinions-and-think-theyre-their-own-anthropic-study-finds/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
+      "title": "The hidden threat in Anthropic’s prospectus: diseconomies of scale",
+      "summary": "SiliconANGLE digs into Anthropic's 88 IPO risk factors, flagging diseconomies of scale as the hidden threat.",
+      "url": "https://siliconangle.com/2026/10/30/the-hidden-threat-in-anthropics-prospectus-diseconomies-of-scale/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
       "tags": [
-        "research",
-        "agents"
+        "funding"
       ],
-      "publishedAt": "2026-10-29T19:33:37Z",
-      "clusterId": "anthropic-expert-judgement"
+      "publishedAt": "2026-10-30T15:26:21Z",
+      "clusterId": "anthropic-s1"
     },
     {
-      "title": "Gemini 4 Carbon: Our next frontier model",
-      "summary": "Google DeepMind unveils Gemini 4 Carbon, its new frontier model, just two weeks after Gemini 4 Argon.",
-      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-      "sourceName": "Google DeepMind Blog",
-      "sourceId": "deepmind",
-      "sourceHome": "https://deepmind.google/blog/",
+      "title": "OpenAI-backed Thrive Holdings acquires ADT",
+      "summary": "OpenAI-backed Thrive Holdings is buying ADT in a $15.3B deal, planning to bring AI to home security.",
+      "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
       "tags": [
-        "model-releases"
+        "funding"
       ],
-      "publishedAt": "2026-10-28T17:00:58Z",
-      "clusterId": "gemini-4-carbon"
-    },
-    {
-      "title": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
-      "summary": "Google says Gemini 4 Carbon makes a 'significant leap' in cybersecurity capability, part of why access is being tightly limited.",
-      "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "model-releases",
-        "policy"
-      ],
-      "publishedAt": "2026-10-28T20:03:00Z",
-      "clusterId": "gemini-4-carbon"
-    },
-    {
-      "title": "You can generate and edit Google Docs files directly in Gemini chats now",
-      "summary": "Gemini can now generate, preview and edit Google Docs, Sheets, slides, PDFs and code directly inside chats.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-29T18:45:31Z"
-    },
-    {
-      "title": "Microsoft’s AI future has fewer jobs",
-      "summary": "The Verge: Microsoft's exit offers this week are the clearest sign yet that AI will shrink the size of its workforce.",
-      "url": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-29T16:00:00Z",
-      "clusterId": "microsoft-openai-earnings"
+      "publishedAt": "2026-10-29T19:56:19Z"
     },
     {
       "title": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round",
@@ -342,45 +405,6 @@
       "clusterId": "wabi-55m"
     },
     {
-      "title": "Wabi reels in $55M for its consumer-focused AI assistant",
-      "summary": "SiliconANGLE on Wabi's $55M round led by IVP for its consumer AI assistant.",
-      "url": "https://siliconangle.com/2026/10/29/wabi-reels-in-55m-for-its-consumer-focused-ai-assistant/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "funding",
-        "agents"
-      ],
-      "publishedAt": "2026-10-29T21:35:06Z",
-      "clusterId": "wabi-55m"
-    },
-    {
-      "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
-      "summary": "Ex-Palantir executives launch Dream with $17M from a16z to build construction world models trained on 100M+ sq ft of building data.",
-      "url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "funding",
-        "research"
-      ],
-      "publishedAt": "2026-10-29T16:21:00Z"
-    },
-    {
-      "title": "The Biggest Benchmark in AI Just Updated, Dealing a Major Blow to a Chinese Contender",
-      "summary": "A major AI leaderboard update knocks Kimi K3.1 Pro out of the global top four.",
-      "url": "https://gizmodo.com/the-biggest-benchmark-in-ai-just-updated-dealing-a-major-blow-to-a-chinese-contender-2000832292",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "tags": [
-        "research"
-      ],
-      "publishedAt": "2026-10-29T09:00:02Z"
-    },
-    {
       "title": "You don’t need to believe in a god to get a religious exemption from using AI at work",
       "summary": "A University of Kentucky administrator won a religious exemption from using AI at work, opening a new front in workplace AI mandates.",
       "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
@@ -390,7 +414,21 @@
       "tags": [
         "policy"
       ],
-      "publishedAt": "2026-10-30T01:20:48Z"
+      "publishedAt": "2026-10-30T01:20:48Z",
+      "clusterId": "religious-exemption"
+    },
+    {
+      "title": "Man Granted Religious Exemption Against Using AI at Work",
+      "summary": "Futurism on the worker granted a religious exemption from using AI, who says it undercuts his ability to be a moral actor.",
+      "url": "https://futurism.com/artificial-intelligence/man-religious-exemption-ai-work",
+      "sourceName": "Futurism",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-30T13:52:54Z",
+      "clusterId": "religious-exemption"
     }
   ],
   "rumors": [
@@ -400,7 +438,7 @@
       "url": "https://x.com/250_QueenX/status/2115542453340315801",
       "via": "@250_QueenX",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-30T01:55:00.000Z",
+      "harvestedAt": "2026-10-30T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -411,7 +449,7 @@
       "url": "https://x.com/antfeedapp/status/2114845602584612891",
       "via": "@antfeedapp",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-30T01:55:00.000Z",
+      "harvestedAt": "2026-10-30T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -422,7 +460,7 @@
       "url": "https://x.com/CheddarFlow/status/2114809539870515207",
       "via": "@CheddarFlow",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-30T01:55:00.000Z",
+      "harvestedAt": "2026-10-30T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -433,7 +471,7 @@
       "url": "https://x.com/Aryan_Ali_Pro/status/2114818664570532245",
       "via": "@Aryan_Ali_Pro",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-30T01:55:00.000Z",
+      "harvestedAt": "2026-10-30T20:55:00.000Z",
       "tags": [
         "rumor"
       ]
