@@ -1,5 +1,5 @@
 {
-  "harvestedAt": "2026-10-31T01:55:00.000Z",
+  "harvestedAt": "2026-10-31T07:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
@@ -26,6 +26,19 @@
         "policy"
       ],
       "publishedAt": "2026-10-30T09:30:00Z",
+      "clusterId": "ai-scraping-optout"
+    },
+    {
+      "title": "Google, Anthropic and others to support new AI crawling opt-out standard",
+      "summary": "Google, Anthropic and other AI companies say they'll support a new standard that lets websites opt out of AI crawling and training.",
+      "url": "https://siliconangle.com/2026/10/30/google-anthropic-and-others-to-support-new-ai-crawling-opt-out-standard/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-31T02:00:23Z",
       "clusterId": "ai-scraping-optout"
     },
     {
@@ -260,6 +273,19 @@
       "clusterId": "altman-ram"
     },
     {
+      "title": "Sam Altman: All the RAM Should Belong to Me, So I Can Charge People to Use It",
+      "summary": "Gizmodo takes aim at Altman's argument that RAM belongs in data centers rather than on people's own devices.",
+      "url": "https://gizmodo.com/sam-altman-all-the-ram-should-belong-to-me-so-i-can-charge-people-to-use-it-2000833412",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-31T03:18:42Z",
+      "clusterId": "altman-ram"
+    },
+    {
       "title": "Pope Leo calls for the disarmament of AI: ‘Machines are tools, not persons’",
       "summary": "Pope Leo XIV calls for AI to be \"disarmed\" and says humans must guide, change and, when needed, reject its applications.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai",
@@ -283,6 +309,19 @@
         "policy"
       ],
       "publishedAt": "2026-10-30T18:06:15Z",
+      "clusterId": "pope-leo-ai"
+    },
+    {
+      "title": "Pope Leo XIV Reminds World That AIs Aren’t Conscious Beings, Urges Autonomous Weapon Ban",
+      "summary": "Pope Leo XIV says AI systems aren't conscious beings and urges a ban on autonomous weapons.",
+      "url": "https://gizmodo.com/pope-leo-xiv-reminds-world-that-ais-arent-conscious-beings-urges-autonomous-weapon-ban-2000833335",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-31T03:53:59Z",
       "clusterId": "pope-leo-ai"
     },
     {
@@ -400,32 +439,6 @@
       ],
       "publishedAt": "2026-10-30T21:52:03Z",
       "clusterId": "anthropic-s1"
-    },
-    {
-      "title": "You don’t need to believe in a god to get a religious exemption from using AI at work",
-      "summary": "A University of Kentucky administrator won a religious exemption from using AI at work, opening a new front in workplace AI mandates.",
-      "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-30T01:20:48Z",
-      "clusterId": "religious-exemption"
-    },
-    {
-      "title": "Man Granted Religious Exemption Against Using AI at Work",
-      "summary": "Futurism on the worker granted a religious exemption from using AI, who says it undercuts his ability to be a moral actor.",
-      "url": "https://futurism.com/artificial-intelligence/man-religious-exemption-ai-work",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-30T13:52:54Z",
-      "clusterId": "religious-exemption"
     }
   ],
   "rumors": [
@@ -435,7 +448,7 @@
       "url": "https://x.com/250_QueenX/status/2115542453340315801",
       "via": "@250_QueenX",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-31T01:55:00.000Z",
+      "harvestedAt": "2026-10-31T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -446,7 +459,7 @@
       "url": "https://x.com/antfeedapp/status/2114845602584612891",
       "via": "@antfeedapp",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-31T01:55:00.000Z",
+      "harvestedAt": "2026-10-31T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -457,7 +470,7 @@
       "url": "https://x.com/CheddarFlow/status/2114809539870515207",
       "via": "@CheddarFlow",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-31T01:55:00.000Z",
+      "harvestedAt": "2026-10-31T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -468,7 +481,7 @@
       "url": "https://x.com/Aryan_Ali_Pro/status/2114818664570532245",
       "via": "@Aryan_Ali_Pro",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-31T01:55:00.000Z",
+      "harvestedAt": "2026-10-31T07:55:00.000Z",
       "tags": [
         "rumor"
       ]
