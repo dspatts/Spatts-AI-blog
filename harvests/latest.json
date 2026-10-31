@@ -1,5 +1,5 @@
 {
-  "harvestedAt": "2026-10-30T20:55:00.000Z",
+  "harvestedAt": "2026-10-31T01:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
@@ -81,6 +81,32 @@
       "clusterId": "ai-bubble-selloff"
     },
     {
+      "title": "Cracks are emerging in the AI spending boom",
+      "summary": "Mounting debt, negative cash flow and investor skepticism are raising questions about how long Big Tech's AI infrastructure spending can last.",
+      "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-30T21:17:40Z",
+      "clusterId": "ai-bubble-selloff"
+    },
+    {
+      "title": "Intel’s stock crashes, knocking $12B from government’s stake",
+      "summary": "Intel's stock crash wiped $12B off the US government's stake as AI demand for memory and components pushes up PC prices and hurts PC sales.",
+      "url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-30T21:54:34Z",
+      "clusterId": "ai-bubble-selloff"
+    },
+    {
       "title": "Google’s first data center satellite is online and writing poetry",
       "summary": "Google's first data center satellite is online, with the first TPU in space running a Gemma 4 model.",
       "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
@@ -105,6 +131,55 @@
       ],
       "publishedAt": "2026-10-30T18:21:38Z",
       "clusterId": "google-suncatcher"
+    },
+    {
+      "title": "Apple Intelligence is finally coming to China with iOS 27.3",
+      "summary": "Apple says Apple Intelligence will launch in China with iOS 27.3, starting with a beta.",
+      "url": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
+      "sourceName": "The Verge",
+      "sourceId": "theverge",
+      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
+      "tags": [
+        "model-releases",
+        "policy"
+      ],
+      "publishedAt": "2026-10-30T22:32:53Z"
+    },
+    {
+      "title": "Fair use benefits everyone",
+      "summary": "OpenAI shares excerpts from court briefs by creators, academics and accessibility advocates arguing fair use supports AI training.",
+      "url": "https://openai.com/index/fair-use-benefits-everyone",
+      "sourceName": "OpenAI News",
+      "sourceId": "openai",
+      "sourceHome": "https://openai.com/news/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-30T00:00:00Z"
+    },
+    {
+      "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+      "summary": "Nvidia is weighing whether to cosign financing for Nscale's AI data center in West Virginia as investors get nervous about AI spending.",
+      "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-31T01:20:05Z"
+    },
+    {
+      "title": "Google X co-founder Sebastian Thrun raises $130M for AI engineering startup Dulo",
+      "summary": "Dulo, an AI engineering startup co-founded by Google X co-founder Sebastian Thrun, has raised $130 million.",
+      "url": "https://siliconangle.com/2026/10/30/google-x-co-founder-sebastian-thrun-raises-130m-for-ai-engineering-startup-dulo/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-30T23:59:47Z"
     },
     {
       "title": "Open-weight model GLM 5.3 built full Firefox exploit chains with zero human input in under 48 hours",
@@ -146,46 +221,6 @@
       "publishedAt": "2026-10-30T18:16:10Z"
     },
     {
-      "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
-      "summary": "Mistral releases the weights for its trillion-parameter Large 4 model, pitching open control over cyber defenses that closed models can't offer.",
-      "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-29T17:00:00Z",
-      "clusterId": "mistral-large-4"
-    },
-    {
-      "title": "Paris-based Mistral releases \"Le Chonk,\" a strong coding model that still trails China overall",
-      "summary": "THE DECODER: Mistral Large 4 'Le Chonk', trained entirely in Europe, beats open rivals at coding but still trails Chinese models overall.",
-      "url": "https://the-decoder.com/paris-based-mistral-releases-le-chonk-a-strong-coding-model-that-still-trails-china-overall/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "model-releases",
-        "research"
-      ],
-      "publishedAt": "2026-10-29T15:25:27Z",
-      "clusterId": "mistral-large-4"
-    },
-    {
-      "title": "Mistral releases open weights for Mistral Large 4, providing sovereign control for the company’s ‘Le Chonk’ AI model",
-      "summary": "SiliconANGLE on Mistral opening the weights of Large 4, three weeks after its preview, as a sovereign-AI option for enterprises.",
-      "url": "https://siliconangle.com/2026/10/29/mistral-releases-open-weights-for-mistral-large-4-providing-sovereign-control-for-the-companys-le-chonk-ai-model/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-29T15:20:38Z",
-      "clusterId": "mistral-large-4"
-    },
-    {
       "title": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
       "summary": "Sam Altman says it's \"terrible\" for scarce RAM to sit in personal PCs instead of data centers.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
@@ -209,6 +244,19 @@
         "policy"
       ],
       "publishedAt": "2026-10-30T17:02:15Z",
+      "clusterId": "altman-ram"
+    },
+    {
+      "title": "Sam Altman Reveals Internal Model Name Was ‘Hold My Beer,’ Pours One Out for All the Lives AI Could Destroy",
+      "summary": "Gizmodo on Altman's offhand reveal that an internal OpenAI model was codenamed \"Hold My Beer.\"",
+      "url": "https://gizmodo.com/sam-altman-reveals-internal-model-name-was-hold-my-beer-pours-one-out-for-all-the-lives-ai-could-destroy-2000833288",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "model-releases"
+      ],
+      "publishedAt": "2026-10-30T21:20:44Z",
       "clusterId": "altman-ram"
     },
     {
@@ -314,44 +362,6 @@
       "clusterId": "openai-model-spec"
     },
     {
-      "title": "OpenAI doubles usage limits on Pro plans as competition with Anthropic heats up",
-      "summary": "OpenAI doubles usage limits across paid plans and reverses a planned Pro quota cut as competition with Anthropic heats up.",
-      "url": "https://the-decoder.com/openai-doubles-usage-limits-on-pro-plans-as-competition-with-anthropic-heats-up/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-29T20:01:27Z"
-    },
-    {
-      "title": "US investigated Chinese spy plot aimed at Nvidia CEO",
-      "summary": "US officials investigated whether an executive at a Singapore AI cloud firm accused of smuggling Nvidia chips to China was also a Chinese spy close to Jensen Huang.",
-      "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-29T16:42:32Z",
-      "clusterId": "nvidia-huang-spy"
-    },
-    {
-      "title": "Chinese spies targeted Nvidia CEO Jensen Huang, according to The New York Times",
-      "summary": "Per The New York Times, US intelligence believes someone in Jensen Huang's circle was an informant for China.",
-      "url": "https://the-decoder.com/chinese-spies-targeted-nvidia-ceo-jensen-huang-according-to-the-new-york-times/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-29T13:42:38Z",
-      "clusterId": "nvidia-huang-spy"
-    },
-    {
       "title": "Anthropic’s business plan: Build God or die trying",
       "summary": "The Verge reads Anthropic's S-1 as a financial case for spending as much as possible on compute in pursuit of AGI.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
@@ -379,30 +389,17 @@
       "clusterId": "anthropic-s1"
     },
     {
-      "title": "OpenAI-backed Thrive Holdings acquires ADT",
-      "summary": "OpenAI-backed Thrive Holdings is buying ADT in a $15.3B deal, planning to bring AI to home security.",
-      "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+      "title": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
+      "summary": "Per the FT, Blackstone expects credit agencies to give Anthropic a high junk rating after its IPO, which would make raising money costlier.",
+      "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
       "sourceName": "TechCrunch",
       "sourceId": "techcrunch",
       "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
       "tags": [
         "funding"
       ],
-      "publishedAt": "2026-10-29T19:56:19Z"
-    },
-    {
-      "title": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round",
-      "summary": "Wabi, the personal agent that builds mini apps, raises $55M at a $1.25B valuation.",
-      "url": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "funding",
-        "agents"
-      ],
-      "publishedAt": "2026-10-29T14:35:26Z",
-      "clusterId": "wabi-55m"
+      "publishedAt": "2026-10-30T21:52:03Z",
+      "clusterId": "anthropic-s1"
     },
     {
       "title": "You don’t need to believe in a god to get a religious exemption from using AI at work",
@@ -438,7 +435,7 @@
       "url": "https://x.com/250_QueenX/status/2115542453340315801",
       "via": "@250_QueenX",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-30T20:55:00.000Z",
+      "harvestedAt": "2026-10-31T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -449,7 +446,7 @@
       "url": "https://x.com/antfeedapp/status/2114845602584612891",
       "via": "@antfeedapp",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-30T20:55:00.000Z",
+      "harvestedAt": "2026-10-31T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -460,7 +457,7 @@
       "url": "https://x.com/CheddarFlow/status/2114809539870515207",
       "via": "@CheddarFlow",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-30T20:55:00.000Z",
+      "harvestedAt": "2026-10-31T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -471,7 +468,7 @@
       "url": "https://x.com/Aryan_Ali_Pro/status/2114818664570532245",
       "via": "@Aryan_Ali_Pro",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-30T20:55:00.000Z",
+      "harvestedAt": "2026-10-31T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
