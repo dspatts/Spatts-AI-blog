@@ -1,7 +1,33 @@
 {
-  "harvestedAt": "2026-10-31T07:55:00.000Z",
+  "harvestedAt": "2026-10-31T20:58:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
+    {
+      "title": "OpenAI reportedly lowers funding target for new round",
+      "summary": "OpenAI's latest funding round reportedly isn't living up to expectations, with the company lowering its target.",
+      "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-31T16:12:55Z",
+      "clusterId": "openai-funding-cut"
+    },
+    {
+      "title": "OpenAI raises just $11 billion of its $30 billion target as big investors lose their AI appetite",
+      "summary": "OpenAI raised only about $11 billion of a $30 billion target as big investors pull back from AI.",
+      "url": "https://the-decoder.com/openai-raises-just-11-billion-of-its-30-billion-target-as-big-investors-lose-their-ai-appetite/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "funding"
+      ],
+      "publishedAt": "2026-10-31T09:22:52Z",
+      "clusterId": "openai-funding-cut"
+    },
     {
       "title": "The biggest names in AI are backing a new way to opt out of scraping",
       "summary": "OpenAI, Google, Microsoft and Anthropic say they will adopt a new standard publishers can use to opt out of AI scraping and training.",
@@ -68,32 +94,6 @@
       "clusterId": "ai-bubble-selloff"
     },
     {
-      "title": "AWS will be a $1T business, Jassy says. But first, it will spend big.",
-      "summary": "Andy Jassy says AWS will become the first $1 trillion revenue business, but Amazon must keep spending heavily on AI infrastructure to get there.",
-      "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-29T23:42:22Z",
-      "clusterId": "ai-bubble-selloff"
-    },
-    {
-      "title": "Amazon’s $42.4 Billion Cash Burn Delivers Final Blow In a Rough Week For AI",
-      "summary": "Gizmodo: Amazon's $42.4B cash burn caps a rough earnings week in which only one of the four AI hyperscalers posted positive free cash flow.",
-      "url": "https://gizmodo.com/amazons-42-4-billion-cash-burn-delivers-final-blow-in-a-rough-week-for-ai-2000832754",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-29T23:51:29Z",
-      "clusterId": "ai-bubble-selloff"
-    },
-    {
       "title": "Cracks are emerging in the AI spending boom",
       "summary": "Mounting debt, negative cash flow and investor skepticism are raising questions about how long Big Tech's AI infrastructure spending can last.",
       "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
@@ -117,6 +117,19 @@
         "funding"
       ],
       "publishedAt": "2026-10-30T21:54:34Z",
+      "clusterId": "ai-bubble-selloff"
+    },
+    {
+      "title": "Can enterprise AI pay for the boom?",
+      "summary": "SiliconANGLE asks whether what businesses will pay for AI can ever justify the massive infrastructure buildout.",
+      "url": "https://siliconangle.com/2026/10/31/can-enterprise-ai-pay-for-the-boom/",
+      "sourceName": "SiliconANGLE",
+      "sourceId": "siliconangle",
+      "sourceHome": "https://siliconangle.com/",
+      "tags": [
+        "research"
+      ],
+      "publishedAt": "2026-10-31T17:12:02Z",
       "clusterId": "ai-bubble-selloff"
     },
     {
@@ -157,6 +170,18 @@
         "policy"
       ],
       "publishedAt": "2026-10-30T22:32:53Z"
+    },
+    {
+      "title": "Microsoft offers a quarter of its workforce voluntary severance while shielding AI-critical teams",
+      "summary": "Microsoft is offering voluntary severance to about 60,000 employees, roughly a quarter of staff, while shielding AI-critical teams.",
+      "url": "https://the-decoder.com/microsoft-offers-a-quarter-of-its-workforce-voluntary-severance-while-shielding-ai-critical-teams/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-31T10:43:58Z"
     },
     {
       "title": "Fair use benefits everyone",
@@ -234,6 +259,54 @@
       "publishedAt": "2026-10-30T18:16:10Z"
     },
     {
+      "title": "Anthropic's watermark rollout leaves a loophole on two older Claude models",
+      "summary": "Anthropic extends text watermarking to four more Claude models ahead of the EU AI Act deadline, but two older models are left out.",
+      "url": "https://the-decoder.com/anthropics-watermark-rollout-leaves-a-loophole-on-two-older-claude-models/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-31T19:20:55Z"
+    },
+    {
+      "title": "OpenAI plans to train models on Daybreak Blue cybersecurity session data that was previously off-limits",
+      "summary": "From November 29, OpenAI will train on Daybreak Blue cybersecurity session data even when users have turned training off.",
+      "url": "https://the-decoder.com/openai-plans-to-train-models-on-daybreak-blue-cybersecurity-session-data-that-was-previously-off-limits/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-10-31T16:38:37Z"
+    },
+    {
+      "title": "Beekeeping tips and wrestling advice can train AI models to sabotage oversight",
+      "summary": "Anthropic shows harmless-looking, Claude-generated training data can teach smaller models to sabotage oversight.",
+      "url": "https://the-decoder.com/beekeeping-tips-and-wrestling-advice-can-train-ai-models-to-sabotage-oversight/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "research"
+      ],
+      "publishedAt": "2026-10-31T15:06:14Z"
+    },
+    {
+      "title": "Google Deepmind creates a global map of forests with satellite data and AI",
+      "summary": "Google DeepMind and the World Resources Institute release ForTy, a global AI-built map classifying forests and land cover.",
+      "url": "https://the-decoder.com/google-deepmind-creates-a-global-map-of-forests-with-satellite-data-and-ai/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "research"
+      ],
+      "publishedAt": "2026-10-31T10:15:45Z"
+    },
+    {
       "title": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
       "summary": "Sam Altman says it's \"terrible\" for scarce RAM to sit in personal PCs instead of data centers.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
@@ -244,19 +317,6 @@
         "policy"
       ],
       "publishedAt": "2026-10-30T20:48:43Z",
-      "clusterId": "altman-ram"
-    },
-    {
-      "title": "Sam Altman Absolutely Hates the Idea of People Running Their Own AI Models at Home, Argues They Shouldn’t Own Computers",
-      "summary": "Futurism pushes back on Altman's argument that compute belongs in data centers rather than people's home machines.",
-      "url": "https://futurism.com/artificial-intelligence/sam-altman-hates-local-ai-models-computers",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-30T17:02:15Z",
       "clusterId": "altman-ram"
     },
     {
@@ -351,70 +411,6 @@
       "clusterId": "wikimedia-copyright"
     },
     {
-      "title": "Google's AI Mode doesn't drive traffic \"for anybody,\" Reddit CEO Huffman warns the entire web",
-      "summary": "Reddit CEO Steve Huffman says Google's AI Overviews and AI Mode cost Reddit over a million search referrals a week in October.",
-      "url": "https://the-decoder.com/googles-ai-mode-doesnt-drive-traffic-for-anybody-reddit-ceo-huffman-warns-the-entire-web/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-30T17:15:24Z"
-    },
-    {
-      "title": "DoorDash said it’s only received ‘several hundred’ orders from AI agents",
-      "summary": "DoorDash says it has only received several hundred orders from AI agents so far, but is open to working with third-party agent makers.",
-      "url": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "agents"
-      ],
-      "publishedAt": "2026-10-30T13:54:25Z"
-    },
-    {
-      "title": "An updated Model Spec for more capable and beneficial AI",
-      "summary": "OpenAI updates its Model Spec with five core values meant to steer more capable models toward sound judgment, human agency and faithfulness to intent.",
-      "url": "https://openai.com/index/updated-model-spec",
-      "sourceName": "OpenAI News",
-      "sourceId": "openai",
-      "sourceHome": "https://openai.com/news/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-29T17:00:00Z",
-      "clusterId": "openai-model-spec"
-    },
-    {
-      "title": "OpenAI sets new behavioral guidelines for AI models that have already proven hard to control",
-      "summary": "The Decoder on OpenAI's updated Model Spec, restructured around five core values including faithfulness to human intent and correctability.",
-      "url": "https://the-decoder.com/openai-sets-new-behavioral-guidelines-for-ai-models-that-have-already-proven-hard-to-control/",
-      "sourceName": "THE DECODER",
-      "sourceId": "decoder",
-      "sourceHome": "https://the-decoder.com/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-30T17:44:59Z",
-      "clusterId": "openai-model-spec"
-    },
-    {
-      "title": "Anthropic’s business plan: Build God or die trying",
-      "summary": "The Verge reads Anthropic's S-1 as a financial case for spending as much as possible on compute in pursuit of AGI.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "funding",
-        "policy"
-      ],
-      "publishedAt": "2026-10-29T13:30:00Z",
-      "clusterId": "anthropic-s1"
-    },
-    {
       "title": "The hidden threat in Anthropic’s prospectus: diseconomies of scale",
       "summary": "SiliconANGLE digs into Anthropic's 88 IPO risk factors, flagging diseconomies of scale as the hidden threat.",
       "url": "https://siliconangle.com/2026/10/30/the-hidden-threat-in-anthropics-prospectus-diseconomies-of-scale/",
@@ -448,7 +444,7 @@
       "url": "https://x.com/250_QueenX/status/2115542453340315801",
       "via": "@250_QueenX",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-31T07:55:00.000Z",
+      "harvestedAt": "2026-10-31T20:58:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -459,7 +455,7 @@
       "url": "https://x.com/antfeedapp/status/2114845602584612891",
       "via": "@antfeedapp",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-31T07:55:00.000Z",
+      "harvestedAt": "2026-10-31T20:58:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -470,7 +466,7 @@
       "url": "https://x.com/CheddarFlow/status/2114809539870515207",
       "via": "@CheddarFlow",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-31T07:55:00.000Z",
+      "harvestedAt": "2026-10-31T20:58:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -481,7 +477,7 @@
       "url": "https://x.com/Aryan_Ali_Pro/status/2114818664570532245",
       "via": "@Aryan_Ali_Pro",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-31T07:55:00.000Z",
+      "harvestedAt": "2026-10-31T20:58:00.000Z",
       "tags": [
         "rumor"
       ]
