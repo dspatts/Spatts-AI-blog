@@ -1,7 +1,34 @@
 {
-  "harvestedAt": "2026-10-31T20:58:00.000Z",
+  "harvestedAt": "2026-11-01T20:52:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
+    {
+      "title": "OpenAI's upcoming chat-and-work merger in ChatGPT signals the end of all-you-can-prompt pricing",
+      "summary": "OpenAI is merging ChatGPT's Chat and Work modes; from December, Plus, Pro and Business plans share one token-based quota across ChatGPT and Codex.",
+      "url": "https://the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "model-releases",
+        "policy"
+      ],
+      "publishedAt": "2026-11-01T09:51:06Z",
+      "clusterId": "chatgpt-paid-usage"
+    },
+    {
+      "title": "OpenAI is steering ChatGPT users toward more paid usage",
+      "summary": "OpenAI now caps the number of paid ChatGPT accounts per device and payment card, blocking new subscriptions once the limit is hit.",
+      "url": "https://the-decoder.com/openai-is-steering-chatgpt-users-toward-more-paid-usage/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-11-01T12:05:04Z",
+      "clusterId": "chatgpt-paid-usage"
+    },
     {
       "title": "OpenAI reportedly lowers funding target for new round",
       "summary": "OpenAI's latest funding round reportedly isn't living up to expectations, with the company lowering its target.",
@@ -159,6 +186,56 @@
       "clusterId": "google-suncatcher"
     },
     {
+      "title": "Chinese AI models are politically complex, not just government mouthpieces, study finds",
+      "summary": "A Vals AI study of 25 models finds Chinese AI models answer political questions less uniformly than expected.",
+      "url": "https://the-decoder.com/chinese-ai-models-are-politically-complex-not-just-government-mouthpieces-study-finds/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "research"
+      ],
+      "publishedAt": "2026-11-01T12:33:01Z"
+    },
+    {
+      "title": "Adobe is testing how well AI agents can use editing tools like a Photoshop professional would",
+      "summary": "Adobe Research and UC San Diego built EditAgent, an AI agent that picks specialized editing tools the way a Photoshop pro would.",
+      "url": "https://the-decoder.com/adobe-is-testing-how-well-ai-agents-can-use-editing-tools-like-a-photoshop-professional-would/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "agents",
+        "research"
+      ],
+      "publishedAt": "2026-11-01T14:56:44Z"
+    },
+    {
+      "title": "Google wants video AI to understand what people need as they work",
+      "summary": "Google-led researchers built StreamVibe, a video agent that watches people cook or assemble furniture and speaks up only when help is needed.",
+      "url": "https://the-decoder.com/google-wants-video-ai-to-understand-what-people-need-as-they-workgoogle-researchers-are-teaching-a-video-assistant-when-to-offer-help/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "agents",
+        "research"
+      ],
+      "publishedAt": "2026-11-01T11:25:21Z"
+    },
+    {
+      "title": "Empathetic prompts can turn AI chatbots into seemingly traumatized conversational partners",
+      "summary": "Luxembourg researchers found a warm, empathetic prompting style can make ChatGPT, Grok and Gemini tell coherent stories of suffering, a safety concern.",
+      "url": "https://the-decoder.com/empathetic-prompts-can-turn-ai-chatbots-into-seemingly-traumatized-conversational-partners/",
+      "sourceName": "THE DECODER",
+      "sourceId": "decoder",
+      "sourceHome": "https://the-decoder.com/",
+      "tags": [
+        "research"
+      ],
+      "publishedAt": "2026-11-01T14:36:49Z"
+    },
+    {
       "title": "Apple Intelligence is finally coming to China with iOS 27.3",
       "summary": "Apple says Apple Intelligence will launch in China with iOS 27.3, starting with a beta.",
       "url": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
@@ -182,30 +259,6 @@
         "policy"
       ],
       "publishedAt": "2026-10-31T10:43:58Z"
-    },
-    {
-      "title": "Fair use benefits everyone",
-      "summary": "OpenAI shares excerpts from court briefs by creators, academics and accessibility advocates arguing fair use supports AI training.",
-      "url": "https://openai.com/index/fair-use-benefits-everyone",
-      "sourceName": "OpenAI News",
-      "sourceId": "openai",
-      "sourceHome": "https://openai.com/news/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-30T00:00:00Z"
-    },
-    {
-      "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
-      "summary": "Nvidia is weighing whether to cosign financing for Nscale's AI data center in West Virginia as investors get nervous about AI spending.",
-      "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-31T01:20:05Z"
     },
     {
       "title": "Google X co-founder Sebastian Thrun raises $130M for AI engineering startup Dulo",
@@ -307,6 +360,54 @@
       "publishedAt": "2026-10-31T10:15:45Z"
     },
     {
+      "title": "New Data Centers in the US Set to Wipe Out 15 Years of Greenhouse Gas Reductions",
+      "summary": "New US data centers are on track to wipe out 15 years of greenhouse gas reductions.",
+      "url": "https://futurism.com/artificial-intelligence/data-centers-us-greenhouse-gas-reductions-emissions",
+      "sourceName": "Futurism",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-11-01T16:11:00Z"
+    },
+    {
+      "title": "Microsoft Patents an AI That Can Literally Put Words in People’s Mouths in Real Time",
+      "summary": "Microsoft has patented an AI system that can change what people appear to say in real time.",
+      "url": "https://futurism.com/artificial-intelligence/microsoft-patents-ai-words-in-peoples-mouths",
+      "sourceName": "Futurism",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-11-01T17:09:00Z"
+    },
+    {
+      "title": "Innocent People Are Being Accused of Shoplifting by Faulty AI-Facial Recognition Systems at an Alarming Rate",
+      "summary": "Faulty AI facial recognition in UK shops is wrongly accusing innocent people of shoplifting at an alarming rate.",
+      "url": "https://futurism.com/future-society/ai-facial-recognition-innocent-shoplifting-uk",
+      "sourceName": "Futurism",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-11-01T13:04:00Z"
+    },
+    {
+      "title": "Prisons Using AI to Predict When Incarcerated People Will Commit Future Crimes",
+      "summary": "Prisons are using AI to predict when incarcerated people will commit future crimes and to guide where they are placed.",
+      "url": "https://futurism.com/artificial-intelligence/prisons-ai-prediction-incarceration-algorithm",
+      "sourceName": "Futurism",
+      "sourceId": "futurism",
+      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-11-01T18:10:00Z"
+    },
+    {
       "title": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
       "summary": "Sam Altman says it's \"terrible\" for scarce RAM to sit in personal PCs instead of data centers.",
       "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
@@ -317,19 +418,6 @@
         "policy"
       ],
       "publishedAt": "2026-10-30T20:48:43Z",
-      "clusterId": "altman-ram"
-    },
-    {
-      "title": "Sam Altman Reveals Internal Model Name Was ‘Hold My Beer,’ Pours One Out for All the Lives AI Could Destroy",
-      "summary": "Gizmodo on Altman's offhand reveal that an internal OpenAI model was codenamed \"Hold My Beer.\"",
-      "url": "https://gizmodo.com/sam-altman-reveals-internal-model-name-was-hold-my-beer-pours-one-out-for-all-the-lives-ai-could-destroy-2000833288",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "tags": [
-        "model-releases"
-      ],
-      "publishedAt": "2026-10-30T21:20:44Z",
       "clusterId": "altman-ram"
     },
     {
@@ -346,32 +434,6 @@
       "clusterId": "altman-ram"
     },
     {
-      "title": "Pope Leo calls for the disarmament of AI: ‘Machines are tools, not persons’",
-      "summary": "Pope Leo XIV calls for AI to be \"disarmed\" and says humans must guide, change and, when needed, reject its applications.",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-30T14:58:06Z",
-      "clusterId": "pope-leo-ai"
-    },
-    {
-      "title": "Pope Leo Comes Out Swinging Against AI Personhood",
-      "summary": "Futurism on Pope Leo's rejection of AI personhood: \"Machines are tools, not persons.\"",
-      "url": "https://futurism.com/artificial-intelligence/pope-leo-ai-personhood",
-      "sourceName": "Futurism",
-      "sourceId": "futurism",
-      "sourceHome": "https://futurism.com/categories/ai-artificial-intelligence",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-30T18:06:15Z",
-      "clusterId": "pope-leo-ai"
-    },
-    {
       "title": "Pope Leo XIV Reminds World That AIs Aren’t Conscious Beings, Urges Autonomous Weapon Ban",
       "summary": "Pope Leo XIV says AI systems aren't conscious beings and urges a ban on autonomous weapons.",
       "url": "https://gizmodo.com/pope-leo-xiv-reminds-world-that-ais-arent-conscious-beings-urges-autonomous-weapon-ban-2000833335",
@@ -383,45 +445,6 @@
       ],
       "publishedAt": "2026-10-31T03:53:59Z",
       "clusterId": "pope-leo-ai"
-    },
-    {
-      "title": "Wikipedia’s operator says a bad AI copyright ruling could threaten the open web",
-      "summary": "The Wikimedia Foundation urges courts to protect LLM training on copyrighted work but not chatbots regurgitating it.",
-      "url": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright",
-      "sourceName": "The Verge",
-      "sourceId": "theverge",
-      "sourceHome": "https://www.theverge.com/ai-artificial-intelligence/",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-30T09:00:00Z",
-      "clusterId": "wikimedia-copyright"
-    },
-    {
-      "title": "Wikimedia Foundation Tries to Save Itself From Oblivion by Brokering AI Copyright Deal",
-      "summary": "Gizmodo frames Wikimedia's court filing as a bid to broker a compromise in the AI copyright fight.",
-      "url": "https://gizmodo.com/wikimedia-foundation-tries-to-save-itself-from-oblivion-by-brokering-ai-copyright-deal-2000833099",
-      "sourceName": "Gizmodo",
-      "sourceId": "gizmodo",
-      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
-      "tags": [
-        "policy"
-      ],
-      "publishedAt": "2026-10-30T16:20:48Z",
-      "clusterId": "wikimedia-copyright"
-    },
-    {
-      "title": "The hidden threat in Anthropic’s prospectus: diseconomies of scale",
-      "summary": "SiliconANGLE digs into Anthropic's 88 IPO risk factors, flagging diseconomies of scale as the hidden threat.",
-      "url": "https://siliconangle.com/2026/10/30/the-hidden-threat-in-anthropics-prospectus-diseconomies-of-scale/",
-      "sourceName": "SiliconANGLE",
-      "sourceId": "siliconangle",
-      "sourceHome": "https://siliconangle.com/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-30T15:26:21Z",
-      "clusterId": "anthropic-s1"
     },
     {
       "title": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
@@ -444,7 +467,7 @@
       "url": "https://x.com/250_QueenX/status/2115542453340315801",
       "via": "@250_QueenX",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-31T20:58:00.000Z",
+      "harvestedAt": "2026-11-01T20:52:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -455,7 +478,7 @@
       "url": "https://x.com/antfeedapp/status/2114845602584612891",
       "via": "@antfeedapp",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-31T20:58:00.000Z",
+      "harvestedAt": "2026-11-01T20:52:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -466,7 +489,7 @@
       "url": "https://x.com/CheddarFlow/status/2114809539870515207",
       "via": "@CheddarFlow",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-31T20:58:00.000Z",
+      "harvestedAt": "2026-11-01T20:52:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -477,7 +500,7 @@
       "url": "https://x.com/Aryan_Ali_Pro/status/2114818664570532245",
       "via": "@Aryan_Ali_Pro",
       "sourceKind": "x",
-      "harvestedAt": "2026-10-31T20:58:00.000Z",
+      "harvestedAt": "2026-11-01T20:52:00.000Z",
       "tags": [
         "rumor"
       ]
