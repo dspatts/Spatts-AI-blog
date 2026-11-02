@@ -1,5 +1,5 @@
 {
-  "harvestedAt": "2026-11-01T20:52:00.000Z",
+  "harvestedAt": "2026-11-02T01:55:00.000Z",
   "harvester": "Evan The Grunt",
   "posts": [
     {
@@ -28,6 +28,32 @@
       ],
       "publishedAt": "2026-11-01T12:05:04Z",
       "clusterId": "chatgpt-paid-usage"
+    },
+    {
+      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+      "summary": "With data centers deeply unpopular, OpenAI is reportedly considering calling its facilities 'AI compute campuses' instead.",
+      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+      "sourceName": "TechCrunch",
+      "sourceId": "techcrunch",
+      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-11-01T21:55:23Z",
+      "clusterId": "openai-compute-campuses"
+    },
+    {
+      "title": "OpenAI Would Reportedly Like You to Use Its Pleasant New Term for Data Centers",
+      "summary": "OpenAI reportedly wants a friendlier name for its data centers as local opposition to the buildout grows.",
+      "url": "https://gizmodo.com/openai-would-reportedly-like-you-to-use-its-pleasant-new-term-for-data-centers-2000833570",
+      "sourceName": "Gizmodo",
+      "sourceId": "gizmodo",
+      "sourceHome": "https://gizmodo.com/tech/artificial-intelligence",
+      "tags": [
+        "policy"
+      ],
+      "publishedAt": "2026-11-02T00:11:54Z",
+      "clusterId": "openai-compute-campuses"
     },
     {
       "title": "OpenAI reportedly lowers funding target for new round",
@@ -445,19 +471,6 @@
       ],
       "publishedAt": "2026-10-31T03:53:59Z",
       "clusterId": "pope-leo-ai"
-    },
-    {
-      "title": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
-      "summary": "Per the FT, Blackstone expects credit agencies to give Anthropic a high junk rating after its IPO, which would make raising money costlier.",
-      "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
-      "sourceName": "TechCrunch",
-      "sourceId": "techcrunch",
-      "sourceHome": "https://techcrunch.com/category/artificial-intelligence/",
-      "tags": [
-        "funding"
-      ],
-      "publishedAt": "2026-10-30T21:52:03Z",
-      "clusterId": "anthropic-s1"
     }
   ],
   "rumors": [
@@ -467,7 +480,7 @@
       "url": "https://x.com/250_QueenX/status/2115542453340315801",
       "via": "@250_QueenX",
       "sourceKind": "x",
-      "harvestedAt": "2026-11-01T20:52:00.000Z",
+      "harvestedAt": "2026-11-02T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -478,7 +491,7 @@
       "url": "https://x.com/antfeedapp/status/2114845602584612891",
       "via": "@antfeedapp",
       "sourceKind": "x",
-      "harvestedAt": "2026-11-01T20:52:00.000Z",
+      "harvestedAt": "2026-11-02T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -489,7 +502,7 @@
       "url": "https://x.com/CheddarFlow/status/2114809539870515207",
       "via": "@CheddarFlow",
       "sourceKind": "x",
-      "harvestedAt": "2026-11-01T20:52:00.000Z",
+      "harvestedAt": "2026-11-02T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
@@ -500,7 +513,7 @@
       "url": "https://x.com/Aryan_Ali_Pro/status/2114818664570532245",
       "via": "@Aryan_Ali_Pro",
       "sourceKind": "x",
-      "harvestedAt": "2026-11-01T20:52:00.000Z",
+      "harvestedAt": "2026-11-02T01:55:00.000Z",
       "tags": [
         "rumor"
       ]
